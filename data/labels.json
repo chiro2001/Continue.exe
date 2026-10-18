@@ -10,9 +10,9 @@
     "revived": "换了一个身体"
   },
   "ui": {
-    "title": "世界地图",
-    "subtitle": "共享精神的颂歌与安魂曲",
-    "dedication": "致所有失效的链接",
+    "title": "Continue.exe",
+    "subtitle": "关于互联网、VRChat，以及仍在继续的创作",
+    "dedication": "内容均为虚构，和现实无关",
     "boot": {
       "cmos-selftest": [
         "MEMORY TEST : 640K OK",
@@ -20,9 +20,9 @@
         "MOUNTING /dev/share ................ OK",
         "CHECKING LINKS .................... 214 OF 4096 ALIVE",
         "SCANNING ARCHIVE .................. 87%",
-        "WORLD MAP — BUILD 19960714"
+        "CONTINUE.EXE — BUILD 19960714"
       ],
-      "starting-world-map": "Starting World Map…"
+      "starting-world-map": "Starting Continue.exe…"
     },
     "plates": {
       "entrance": "Best viewed in 800×600",
@@ -30,7 +30,7 @@
       "credits": [
         "MUSIC : QUAZAR OF SANXION — FUNKY STARS (XM, 1996)",
         "TEMPLATE : EDGE KEYGEN · TRITON FOR FASTTRACKER 2",
-        "WORLD : 《世界地图 / World Map》",
+        "WORLD : 《Continue.exe》",
         "本次放映不包含注册机本体，也不提供任何下载"
       ]
     },

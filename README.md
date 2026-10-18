@@ -1,4 +1,6 @@
-# 世界地图 / World Map
+# Continue.exe
+
+Keil注册机音乐VR MV。关于互联网、VRChat，以及仍在继续的创作。内容均为虚构，和现实无关。
 
 一支以 Keil 注册机音乐为底、在 VRChat 里可漫游播放的 3D MV 世界。
 
@@ -8,7 +10,7 @@ Linux 侧创意源与制作数据位于私有 GitHub 仓库 `chiro2001/vrc-old-w
 
 **交接：** 前三段 V5 的后续细节调整、完整成片剧本与制作规划见 [handoff/](handoff/README.md)，供接手代理继续。
 
-**暂定片名：《世界地图 / World Map —— 共享精神的颂歌与安魂曲》**，副题「致所有失效的链接」。
+世界名 **Continue.exe** 与发布简介已定稿。
 
 已选择互联网与 VRChat 双线交织、群像为主。最新全片串联见 [spec/15](spec/15-integrated-show-outline.md)：把素材、音乐、剧情、情绪与 VR 演出按 4:16 七段组织，共享、创造、控制、维护与传承居于主线。结尾已选择“一起做下去”，关键词为“继续”，片尾采用“那就一起做下去。”。具体分场、其余歌词、史料入选与高潮窗口仍是讨论候选；[spec/12](spec/12-creative-proposal-v3.md) 保留主题复核与此前人物稿。
 

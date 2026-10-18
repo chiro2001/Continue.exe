@@ -55,7 +55,7 @@
 
 全部文字在 `data/labels.json`，不要在场景里手打：
 
-- `ui.boot` 是 CMOS 自检六行与 `Starting World Map…`；
+- `ui.boot` 是 CMOS 自检六行与 `Starting Continue.exe…`；
 - `ui.plates` 是入口铭牌 `Best viewed in 800×600`、`UNDER CONSTRUCTION` 与片尾署名四行；
 - `node_labels` 是 22 张名片卡的标题与元信息，含六态文案覆盖；
 - 引文正文不在这里，卡片按 `quote_ref` 去 `data/quotes.json` 取。

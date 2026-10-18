@@ -1,6 +1,6 @@
 # 00 创作说明
 
-世界发布名称：**Continue.exe**（用户于 2026-10-18 确认）。简介候选与发布文案见 [80](80-world-title-and-clothing-credit.md)，机器可读记录见 `data/world-publication.json`。
+世界发布名称：**Continue.exe**（用户于 2026-10-18 确认）。发布简介为：“Keil注册机音乐VR MV。关于互联网、VRChat，以及仍在继续的创作。内容均为虚构，和现实无关。”定稿记录见 [80](80-world-title-and-clothing-credit.md)，机器可读记录见 `data/world-publication.json`。
 
 已有共识、候选设计与下一轮待对齐事项的汇总见 [23 共识与待对齐事项](23-alignment-status.md)（2026-10-16 整理）。
 

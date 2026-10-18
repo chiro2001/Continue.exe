@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "title": "世界地图 / World Map —— 共享精神的颂歌与安魂曲",
-  "subtitle": "致所有失效的链接",
+  "title": "Continue.exe",
+  "subtitle": "关于互联网、VRChat，以及仍在继续的创作",
   "duration_seconds": 180,
   "fps": 30,
   "audio": {
@@ -27,7 +27,7 @@
       "end": 14,
       "music": "intro",
       "space": "Stage/BootSequence",
-      "visual": "CMOS 自检文字浮出，Starting World Map…，地面格栅首次亮起",
+      "visual": "CMOS 自检文字浮出，Starting Continue.exe…，地面格栅首次亮起",
       "lyrics": [],
       "quotes": [],
       "node_states": ["boot"],

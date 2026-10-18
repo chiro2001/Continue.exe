@@ -314,9 +314,9 @@ public static class OWMBuild
     {
         StringBuilder sb = new StringBuilder();
         for (int c = 32; c < 127; c++) sb.Append((char)c);
-        sb.Append("世界地图共享精神的颂歌与安魂曲致所有失效的链接");
+        sb.Append("关于互联网以及仍在继续的创作内容均为虚构和现实无关");
         sb.Append("访客计数世界在线限速归档复活被导出");
-        sb.Append("Best viewed in 800×600  LOADING WORLD MAP…  C:\\>_");
+        sb.Append("Best viewed in 800×600  LOADING CONTINUE.EXE…  C:\\>_");
         sb.Append("「」（）《》，。、：；！？—…×·");
         JArray segments = timeline == null ? null : timeline["segments"] as JArray;
         if (segments != null)
@@ -496,7 +496,7 @@ public static class OWMBuild
         TextMeshProUGUI titleText = WorldText(hudCanvasGo.transform, "Title",
             Text(labels, "title"),
             new Vector3(0f, 40f, 0f), new Vector2(1560f, 70f), 40f, Paper, TextAlignmentOptions.Center);
-        titleText.text = UiText(labels, "title") + " / WORLD MAP";
+        titleText.text = UiText(labels, "title");
         TextMeshProUGUI counterText = WorldText(hudCanvasGo.transform, "VisitorCounter", "1048576",
             new Vector3(0f, -40f, 0f), new Vector2(1560f, 80f), 56f, Cyan, TextAlignmentOptions.Center);
         WorldText(hudCanvasGo.transform, "VisitorLabel", UiText(labels, "visitor_label"),

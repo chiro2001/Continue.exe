@@ -5,6 +5,7 @@
 - 实现代理交付模型、贴图、静态构建资源与清楚的导入接口；主代理统一操作目标Unity编辑器、集成和实看验证。并行任务明确文件或职责归属，避免多人操作同一个Unity编辑器或抢占Windows截图窗口。
 - 临时文件统一放在 `~/tmp/vrc-old-web-map/`，按任务建立子目录；Windows 侧放 `%USERPROFILE%\tmp\vrc-old-web-map\`。风格草图、对照图和临时预览也按此约定存放，用户可以直接查看。
 - 本仓库（Linux 侧 `/home/chiro/projects/vrc-old-web-map`）是**创意与规格的事实源**：`spec/` 写立意、时间轴与实现方案，`data/` 放机器可读的歌词、引文、时间轴与地图节点数据。改创意先改这里。
+- 对外世界名固定为 **Continue.exe**；发布简介以 `data/world-publication.json` 为准。仓库名和 Windows 工程路径仍保留 `vrc-old-web-map` 作为内部标识。
 - Unity 工程在 Windows 主机 `192.168.101.5` 的 `D:\Projects\VRChatProjects2\vrc-old-web-map`，Unity 2022.3.22f1 + VRChat SDK3 Worlds + UdonSharp。远端工程只做**实现载体**，不另立创意文档。
 - 进行 Unity 开发时必须阅读并遵循 [UNITY-GUIDE.md](UNITY-GUIDE.md)；操作 Unity 时使用 [.agents/skills/unity-pipeline/SKILL.md](.agents/skills/unity-pipeline/SKILL.md)。
 - 通过 `python tools/unity_remote.py <Pipeline 命令及参数>` 驱动远端编辑器：SSH → PowerShell → `unity` CLI，脚本默认已锁定本项目的 `--project-path`。多个编辑器实例同时运行时必须显式指定目标，避免误操作别的工程。
