@@ -1,0 +1,47 @@
+[
+  {
+    "file": "fullfilm_v2_hub_detail_kit.blend",
+    "bytes": 1271936,
+    "sha256": "68098e01897cc17e73283da2816be8a93de645b183f8a4904dd6236846d5f43e"
+  },
+  {
+    "file": "fullfilm_v2_hub_detail_kit.fbx",
+    "bytes": 148956,
+    "sha256": "3e6517d7cedaa4ba14d5853d9f3435a2dfb7a10f9c43b0ba9ea40e4b2a3f99c7"
+  },
+  {
+    "file": "fullfilm_v2_hub_detail_kit.glb",
+    "bytes": 228812,
+    "sha256": "9c80d7f6e68669d0491f8d452fb117679e430eb0fe7c3d612a320a42c721568f"
+  },
+  {
+    "file": "fullfilm_v2_scene_block.blend",
+    "bytes": 2370488,
+    "sha256": "795057181c6d60cff88903aa1f99f8868cb82bb439308c041cda58c1755db06f"
+  },
+  {
+    "file": "fullfilm_v2_scene_block.fbx",
+    "bytes": 540380,
+    "sha256": "99d2c44b0910a48988ebf18084c20d3fb51b082c23de91306c319805eae1ba93"
+  },
+  {
+    "file": "fullfilm_v2_scene_block.glb",
+    "bytes": 1177884,
+    "sha256": "b2358cd430970dc3f6056602098d336da46bf541de4a56ab217c62b9c81a41b0"
+  },
+  {
+    "file": "fullfilm_v2_workbench.blend",
+    "bytes": 2329680,
+    "sha256": "4126ae8092583a1373d7bd3b5bda3e0c09cdd51232fc8ae13e90a2f1453a34f3"
+  },
+  {
+    "file": "fullfilm_v2_workbench.fbx",
+    "bytes": 466300,
+    "sha256": "fc7a192e0844bd4edb9ea41b8c50cf0b93097b1bab7732a438794ba952bad24e"
+  },
+  {
+    "file": "fullfilm_v2_workbench.glb",
+    "bytes": 1378064,
+    "sha256": "410ce4e10d59139a9eb1f1319281cd5e60cc74e5851a91380d94daa31eb9c81d"
+  }
+]

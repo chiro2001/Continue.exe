@@ -1,0 +1,1611 @@
+{
+  "status": "fullfilm_v5_implementation_authorized",
+  "date": "2026-10-18",
+  "spec": "spec/74-avatar-ripping-sequence-proposal.md",
+  "source_intake": "data/vrc-model-dispute-intake-2026-10-18.json",
+  "source_policy": "only derive visual assets from redacted PNG copies",
+  "target_span": [
+    133.12,
+    186.88
+  ],
+  "duration": 53.76,
+  "requires_bgm_source_motion": false,
+  "camera_head_lock": false,
+  "image_08_explanatory_caption": false,
+  "music_event_source": "audio/keil-keygen-2008/tracks.csv",
+  "phases": [
+    {
+      "start": 133.12,
+      "end": 143.36,
+      "source_image_indices": [
+        7,
+        5,
+        2
+      ],
+      "focus": "Private、来源与文件列表",
+      "action": "在网络窗口过载中建立主图；来源与权限作为独立辅助内容变化"
+    },
+    {
+      "start": 143.36,
+      "end": 153.6,
+      "source_image_indices": [
+        8,
+        3,
+        4,
+        6
+      ],
+      "focus": "展示背景与整理条目",
+      "action": "完整湖畔展示图停留，文件和宣传独立并置，不加湖畔解释字幕"
+    },
+    {
+      "start": 153.6,
+      "end": 163.84,
+      "source_image_indices": [
+        10,
+        11,
+        12
+      ],
+      "focus": "交易、争议与具体许可",
+      "action": "保留各图原窗口边界；具体条款不泛化为所有Avatar规则"
+    },
+    {
+      "start": 163.84,
+      "end": 174.08,
+      "source_image_indices": [
+        9,
+        10,
+        13,
+        14
+      ],
+      "focus": "争议与被扫走的身体",
+      "action": "真实短句获得停留；完整双圈波纹邮戳和梗图少量辅助，不能遮住正文"
+    },
+    {
+      "start": 174.08,
+      "end": 186.88,
+      "source_image_indices": [
+        5,
+        7,
+        8,
+        12
+      ],
+      "focus": "来源与连接痕迹",
+      "action": "与历史素材回闪交织，彩色节点逐渐变灰向下飘散，最后消退"
+    }
+  ],
+  "additions_are_supporting_material": true,
+  "previous_proposal": {
+    "target_span": [
+      120.32,
+      133.12
+    ],
+    "duration": 12.8,
+    "phases": [
+      {
+        "start": 120.32,
+        "end": 122.88,
+        "fc14_order": 47,
+        "source_image_indices": [
+          7
+        ],
+        "focus": "身体与头像列表",
+        "action": "匿名预置人物轮廓与Private标签交叠",
+        "note_events": [
+          {
+            "channel": 1,
+            "row": 0,
+            "time_s": 120.32,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 2,
+            "time_s": 120.48,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 6,
+            "time_s": 120.8,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 8,
+            "time_s": 120.96,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 10,
+            "time_s": 121.12,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 12,
+            "time_s": 121.28,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 14,
+            "time_s": 121.44,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 16,
+            "time_s": 121.6,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 18,
+            "time_s": 121.76,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 20,
+            "time_s": 121.92,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 22,
+            "time_s": 122.08,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 24,
+            "time_s": 122.24,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 26,
+            "time_s": 122.4,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 28,
+            "time_s": 122.56,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 30,
+            "time_s": 122.72,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 2,
+            "row": 0,
+            "time_s": 120.32,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 2,
+            "time_s": 120.48,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 4,
+            "time_s": 120.64,
+            "note": 17,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 6,
+            "time_s": 120.8,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 8,
+            "time_s": 120.96,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 10,
+            "time_s": 121.12,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 12,
+            "time_s": 121.28,
+            "note": 17,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 14,
+            "time_s": 121.44,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 16,
+            "time_s": 121.6,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 18,
+            "time_s": 121.76,
+            "note": 17,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 20,
+            "time_s": 121.92,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 22,
+            "time_s": 122.08,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 24,
+            "time_s": 122.24,
+            "note": 17,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 26,
+            "time_s": 122.4,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 28,
+            "time_s": 122.56,
+            "note": 17,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 30,
+            "time_s": 122.72,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 3,
+            "row": 0,
+            "time_s": 120.32,
+            "note": 32,
+            "pattern": 34
+          },
+          {
+            "channel": 3,
+            "row": 8,
+            "time_s": 120.96,
+            "note": 36,
+            "pattern": 34
+          },
+          {
+            "channel": 3,
+            "row": 12,
+            "time_s": 121.28,
+            "note": 29,
+            "pattern": 34
+          }
+        ]
+      },
+      {
+        "start": 122.88,
+        "end": 125.44,
+        "fc14_order": 48,
+        "source_image_indices": [
+          5,
+          2,
+          3,
+          4
+        ],
+        "focus": "来源与文件整理",
+        "action": "中心保留来源原文，邻近出现不同功能片段与文件层",
+        "note_events": [
+          {
+            "channel": 1,
+            "row": 0,
+            "time_s": 122.88,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 2,
+            "time_s": 123.04,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 6,
+            "time_s": 123.36,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 8,
+            "time_s": 123.52,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 12,
+            "time_s": 123.84,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 14,
+            "time_s": 124.0,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 18,
+            "time_s": 124.32,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 20,
+            "time_s": 124.48,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 24,
+            "time_s": 124.8,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 28,
+            "time_s": 125.12,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 30,
+            "time_s": 125.28,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 2,
+            "row": 0,
+            "time_s": 122.88,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 2,
+            "time_s": 123.04,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 4,
+            "time_s": 123.2,
+            "note": 17,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 6,
+            "time_s": 123.36,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 8,
+            "time_s": 123.52,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 10,
+            "time_s": 123.68,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 12,
+            "time_s": 123.84,
+            "note": 17,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 14,
+            "time_s": 124.0,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 16,
+            "time_s": 124.16,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 18,
+            "time_s": 124.32,
+            "note": 17,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 20,
+            "time_s": 124.48,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 22,
+            "time_s": 124.64,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 24,
+            "time_s": 124.8,
+            "note": 17,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 26,
+            "time_s": 124.96,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 28,
+            "time_s": 125.12,
+            "note": 17,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 30,
+            "time_s": 125.28,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 3,
+            "row": 0,
+            "time_s": 122.88,
+            "note": 29,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 2,
+            "time_s": 123.04,
+            "note": 29,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 4,
+            "time_s": 123.2,
+            "note": 29,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 6,
+            "time_s": 123.36,
+            "note": 27,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 8,
+            "time_s": 123.52,
+            "note": 29,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 10,
+            "time_s": 123.68,
+            "note": 29,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 12,
+            "time_s": 123.84,
+            "note": 29,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 14,
+            "time_s": 124.0,
+            "note": 27,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 16,
+            "time_s": 124.16,
+            "note": 29,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 18,
+            "time_s": 124.32,
+            "note": 32,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 20,
+            "time_s": 124.48,
+            "note": 29,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 22,
+            "time_s": 124.64,
+            "note": 27,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 24,
+            "time_s": 124.8,
+            "note": 29,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 26,
+            "time_s": 124.96,
+            "note": 32,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 28,
+            "time_s": 125.12,
+            "note": 29,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 30,
+            "time_s": 125.28,
+            "note": 32,
+            "pattern": 30
+          }
+        ],
+        "auxiliary_image_indices": [
+          12,
+          14
+        ]
+      },
+      {
+        "start": 125.44,
+        "end": 128.0,
+        "fc14_order": 49,
+        "source_image_indices": [
+          8,
+          2
+        ],
+        "focus": "固定背景展示",
+        "action": "湖畔展示图压入卡片，不添加背景知识说明",
+        "note_events": [
+          {
+            "channel": 1,
+            "row": 0,
+            "time_s": 125.44,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 2,
+            "time_s": 125.6,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 6,
+            "time_s": 125.92,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 8,
+            "time_s": 126.08,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 12,
+            "time_s": 126.4,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 14,
+            "time_s": 126.56,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 18,
+            "time_s": 126.88,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 20,
+            "time_s": 127.04,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 24,
+            "time_s": 127.36,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 28,
+            "time_s": 127.68,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 30,
+            "time_s": 127.84,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 2,
+            "row": 0,
+            "time_s": 125.44,
+            "note": 1,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 2,
+            "time_s": 125.6,
+            "note": 1,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 4,
+            "time_s": 125.76,
+            "note": 13,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 6,
+            "time_s": 125.92,
+            "note": 1,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 8,
+            "time_s": 126.08,
+            "note": 1,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 10,
+            "time_s": 126.24,
+            "note": 1,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 12,
+            "time_s": 126.4,
+            "note": 13,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 14,
+            "time_s": 126.56,
+            "note": 1,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 16,
+            "time_s": 126.72,
+            "note": 1,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 18,
+            "time_s": 126.88,
+            "note": 13,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 20,
+            "time_s": 127.04,
+            "note": 1,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 22,
+            "time_s": 127.2,
+            "note": 1,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 24,
+            "time_s": 127.36,
+            "note": 13,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 26,
+            "time_s": 127.52,
+            "note": 1,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 28,
+            "time_s": 127.68,
+            "note": 13,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 30,
+            "time_s": 127.84,
+            "note": 1,
+            "pattern": 22
+          },
+          {
+            "channel": 4,
+            "row": 0,
+            "time_s": 125.44,
+            "note": 5,
+            "pattern": 28
+          },
+          {
+            "channel": 4,
+            "row": 2,
+            "time_s": 125.6,
+            "note": 29,
+            "pattern": 28
+          },
+          {
+            "channel": 4,
+            "row": 4,
+            "time_s": 125.76,
+            "note": 29,
+            "pattern": 28
+          },
+          {
+            "channel": 4,
+            "row": 6,
+            "time_s": 125.92,
+            "note": 17,
+            "pattern": 28
+          },
+          {
+            "channel": 4,
+            "row": 8,
+            "time_s": 126.08,
+            "note": 29,
+            "pattern": 28
+          },
+          {
+            "channel": 4,
+            "row": 10,
+            "time_s": 126.24,
+            "note": 29,
+            "pattern": 28
+          },
+          {
+            "channel": 4,
+            "row": 12,
+            "time_s": 126.4,
+            "note": 29,
+            "pattern": 28
+          },
+          {
+            "channel": 4,
+            "row": 14,
+            "time_s": 126.56,
+            "note": 29,
+            "pattern": 28
+          },
+          {
+            "channel": 4,
+            "row": 16,
+            "time_s": 126.72,
+            "note": 29,
+            "pattern": 28
+          },
+          {
+            "channel": 4,
+            "row": 18,
+            "time_s": 126.88,
+            "note": 5,
+            "pattern": 28
+          },
+          {
+            "channel": 4,
+            "row": 20,
+            "time_s": 127.04,
+            "note": 29,
+            "pattern": 28
+          },
+          {
+            "channel": 4,
+            "row": 22,
+            "time_s": 127.2,
+            "note": 29,
+            "pattern": 28
+          },
+          {
+            "channel": 4,
+            "row": 24,
+            "time_s": 127.36,
+            "note": 29,
+            "pattern": 28
+          },
+          {
+            "channel": 4,
+            "row": 26,
+            "time_s": 127.52,
+            "note": 29,
+            "pattern": 28
+          },
+          {
+            "channel": 4,
+            "row": 28,
+            "time_s": 127.68,
+            "note": 29,
+            "pattern": 28
+          },
+          {
+            "channel": 4,
+            "row": 30,
+            "time_s": 127.84,
+            "note": 29,
+            "pattern": 28
+          }
+        ]
+      },
+      {
+        "start": 128.0,
+        "end": 130.56,
+        "fc14_order": 50,
+        "source_image_indices": [
+          6,
+          10
+        ],
+        "focus": "推广与交易语境",
+        "action": "独立窗口并置，目录形成货架，不合成虚构成交凭证",
+        "note_events": [
+          {
+            "channel": 1,
+            "row": 0,
+            "time_s": 128.0,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 2,
+            "time_s": 128.16,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 6,
+            "time_s": 128.48,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 8,
+            "time_s": 128.64,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 12,
+            "time_s": 128.96,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 14,
+            "time_s": 129.12,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 18,
+            "time_s": 129.44,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 20,
+            "time_s": 129.6,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 24,
+            "time_s": 129.92,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 28,
+            "time_s": 130.24,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 1,
+            "row": 30,
+            "time_s": 130.4,
+            "note": 12,
+            "pattern": 5
+          },
+          {
+            "channel": 2,
+            "row": 0,
+            "time_s": 128.0,
+            "note": 3,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 2,
+            "time_s": 128.16,
+            "note": 3,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 4,
+            "time_s": 128.32,
+            "note": 15,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 6,
+            "time_s": 128.48,
+            "note": 3,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 8,
+            "time_s": 128.64,
+            "note": 3,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 10,
+            "time_s": 128.8,
+            "note": 3,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 12,
+            "time_s": 128.96,
+            "note": 15,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 14,
+            "time_s": 129.12,
+            "note": 3,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 16,
+            "time_s": 129.28,
+            "note": 3,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 18,
+            "time_s": 129.44,
+            "note": 15,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 20,
+            "time_s": 129.6,
+            "note": 3,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 22,
+            "time_s": 129.76,
+            "note": 3,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 24,
+            "time_s": 129.92,
+            "note": 15,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 26,
+            "time_s": 130.08,
+            "note": 3,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 28,
+            "time_s": 130.24,
+            "note": 15,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 30,
+            "time_s": 130.4,
+            "note": 3,
+            "pattern": 22
+          },
+          {
+            "channel": 3,
+            "row": 0,
+            "time_s": 128.0,
+            "note": 29,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 2,
+            "time_s": 128.16,
+            "note": 29,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 4,
+            "time_s": 128.32,
+            "note": 29,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 6,
+            "time_s": 128.48,
+            "note": 27,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 8,
+            "time_s": 128.64,
+            "note": 29,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 10,
+            "time_s": 128.8,
+            "note": 29,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 12,
+            "time_s": 128.96,
+            "note": 29,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 14,
+            "time_s": 129.12,
+            "note": 27,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 16,
+            "time_s": 129.28,
+            "note": 29,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 18,
+            "time_s": 129.44,
+            "note": 32,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 20,
+            "time_s": 129.6,
+            "note": 29,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 22,
+            "time_s": 129.76,
+            "note": 27,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 24,
+            "time_s": 129.92,
+            "note": 29,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 26,
+            "time_s": 130.08,
+            "note": 32,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 28,
+            "time_s": 130.24,
+            "note": 29,
+            "pattern": 30
+          },
+          {
+            "channel": 3,
+            "row": 30,
+            "time_s": 130.4,
+            "note": 32,
+            "pattern": 30
+          }
+        ],
+        "auxiliary_image_indices": [
+          11,
+          12
+        ]
+      },
+      {
+        "start": 130.56,
+        "end": 133.12,
+        "fc14_order": 51,
+        "source_image_indices": [
+          10,
+          9
+        ],
+        "focus": "争议与过载接续",
+        "action": "短句可读停留，其他窗口绕向两侧并接入过载",
+        "note_events": [
+          {
+            "channel": 1,
+            "row": 0,
+            "time_s": 130.56,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 2,
+            "time_s": 130.72,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 6,
+            "time_s": 131.04,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 8,
+            "time_s": 131.2,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 10,
+            "time_s": 131.36,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 12,
+            "time_s": 131.52,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 14,
+            "time_s": 131.68,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 16,
+            "time_s": 131.84,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 18,
+            "time_s": 132.0,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 20,
+            "time_s": 132.16,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 22,
+            "time_s": 132.32,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 24,
+            "time_s": 132.48,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 26,
+            "time_s": 132.64,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 28,
+            "time_s": 132.8,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 1,
+            "row": 30,
+            "time_s": 132.96,
+            "note": 12,
+            "pattern": 7
+          },
+          {
+            "channel": 2,
+            "row": 0,
+            "time_s": 130.56,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 2,
+            "time_s": 130.72,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 4,
+            "time_s": 130.88,
+            "note": 17,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 6,
+            "time_s": 131.04,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 8,
+            "time_s": 131.2,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 10,
+            "time_s": 131.36,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 12,
+            "time_s": 131.52,
+            "note": 17,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 14,
+            "time_s": 131.68,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 16,
+            "time_s": 131.84,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 18,
+            "time_s": 132.0,
+            "note": 17,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 20,
+            "time_s": 132.16,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 22,
+            "time_s": 132.32,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 24,
+            "time_s": 132.48,
+            "note": 17,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 26,
+            "time_s": 132.64,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 28,
+            "time_s": 132.8,
+            "note": 17,
+            "pattern": 22
+          },
+          {
+            "channel": 2,
+            "row": 30,
+            "time_s": 132.96,
+            "note": 5,
+            "pattern": 22
+          },
+          {
+            "channel": 4,
+            "row": 0,
+            "time_s": 130.56,
+            "note": 27,
+            "pattern": 29
+          },
+          {
+            "channel": 4,
+            "row": 1,
+            "time_s": 130.64,
+            "note": 29,
+            "pattern": 29
+          },
+          {
+            "channel": 4,
+            "row": 2,
+            "time_s": 130.72,
+            "note": 29,
+            "pattern": 29
+          },
+          {
+            "channel": 4,
+            "row": 3,
+            "time_s": 130.8,
+            "note": 29,
+            "pattern": 29
+          },
+          {
+            "channel": 4,
+            "row": 4,
+            "time_s": 130.88,
+            "note": 29,
+            "pattern": 29
+          },
+          {
+            "channel": 4,
+            "row": 6,
+            "time_s": 131.04,
+            "note": 29,
+            "pattern": 29
+          },
+          {
+            "channel": 4,
+            "row": 8,
+            "time_s": 131.2,
+            "note": 29,
+            "pattern": 29
+          },
+          {
+            "channel": 4,
+            "row": 11,
+            "time_s": 131.44,
+            "note": 29,
+            "pattern": 29
+          },
+          {
+            "channel": 4,
+            "row": 14,
+            "time_s": 131.68,
+            "note": 29,
+            "pattern": 29
+          },
+          {
+            "channel": 4,
+            "row": 18,
+            "time_s": 132.0,
+            "note": 29,
+            "pattern": 29
+          },
+          {
+            "channel": 4,
+            "row": 22,
+            "time_s": 132.32,
+            "note": 29,
+            "pattern": 29
+          },
+          {
+            "channel": 4,
+            "row": 26,
+            "time_s": 132.64,
+            "note": 29,
+            "pattern": 29
+          }
+        ],
+        "auxiliary_image_indices": [
+          11,
+          13
+        ]
+      }
+    ]
+  },
+  "prelude_span": [
+    120.32,
+    133.12
+  ],
+  "prelude_policy": "Only brief permission/source foreshadowing; do not perform the entire ripping sequence before the overload."
+}

@@ -1,0 +1,536 @@
+{
+  "version": 1,
+  "status": "authored-raster-and-editable-vector-sources",
+  "generator": "tools/draw_episode123.py",
+  "fonts": {
+    "windows_ui": "Local Windows SimSun rasterization; original system font remains in task tmp and is not redistributed",
+    "illustrations_and_mobile": "Noto Sans CJK SC (OFL, installed system font)"
+  },
+  "evidence": "Drawn layouts and authored example content, not archival screenshots. Named historical events inherit catalogue verification scope.",
+  "assets": [
+    {
+      "id": "desktop98",
+      "source": "art/source/episode123/desktop98.svg",
+      "export": "art/export/episode123/desktop98.png",
+      "width": 960,
+      "height": 720,
+      "kind": "period-ui",
+      "filter": "Point",
+      "materials": [
+        "desktop-win95",
+        "access-dialup"
+      ],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "desktop_xp",
+      "source": "art/source/episode123/desktop_xp.svg",
+      "export": "art/export/episode123/desktop_xp.png",
+      "width": 960,
+      "height": 720,
+      "kind": "period-ui",
+      "filter": "Point",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "explorer",
+      "source": "art/source/episode123/explorer.svg",
+      "export": "art/export/episode123/explorer.png",
+      "width": 960,
+      "height": 640,
+      "kind": "period-ui",
+      "filter": "Point",
+      "materials": [
+        "software-green-sites",
+        "software-readme"
+      ],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "readme",
+      "source": "art/source/episode123/readme.svg",
+      "export": "art/export/episode123/readme.png",
+      "width": 960,
+      "height": 640,
+      "kind": "period-ui",
+      "filter": "Point",
+      "materials": [
+        "software-readme"
+      ],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "personal_home",
+      "source": "art/source/episode123/personal_home.svg",
+      "export": "art/export/episode123/personal_home.png",
+      "width": 960,
+      "height": 640,
+      "kind": "period-ui",
+      "filter": "Point",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "world_editor",
+      "source": "art/source/episode123/world_editor.svg",
+      "export": "art/export/episode123/world_editor.png",
+      "width": 960,
+      "height": 640,
+      "kind": "period-ui",
+      "filter": "Point",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "phone_feature",
+      "source": "art/source/episode123/phone_feature.svg",
+      "export": "art/export/episode123/phone_feature.png",
+      "width": 320,
+      "height": 420,
+      "kind": "period-ui",
+      "filter": "Point",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "phone_early",
+      "source": "art/source/episode123/phone_early.svg",
+      "export": "art/export/episode123/phone_early.png",
+      "width": 360,
+      "height": 560,
+      "kind": "period-ui",
+      "filter": "Bilinear",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "manga_ink",
+      "source": "art/source/episode123/manga_ink.svg",
+      "export": "art/export/episode123/manga_ink.png",
+      "width": 800,
+      "height": 700,
+      "kind": "illustration-layer",
+      "filter": "Bilinear",
+      "materials": [
+        "translation-manga-workflow"
+      ],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "manga_bubbles",
+      "source": "art/source/episode123/manga_bubbles.svg",
+      "export": "art/export/episode123/manga_bubbles.png",
+      "width": 800,
+      "height": 700,
+      "kind": "illustration-layer",
+      "filter": "Bilinear",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "manga_original",
+      "source": "art/source/episode123/manga_original.svg",
+      "export": "art/export/episode123/manga_original.png",
+      "width": 800,
+      "height": 700,
+      "kind": "illustration-layer",
+      "filter": "Bilinear",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "manga_chinese",
+      "source": "art/source/episode123/manga_chinese.svg",
+      "export": "art/export/episode123/manga_chinese.png",
+      "width": 800,
+      "height": 700,
+      "kind": "illustration-layer",
+      "filter": "Bilinear",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "subtitle_editor",
+      "source": "art/source/episode123/subtitle_editor.svg",
+      "export": "art/export/episode123/subtitle_editor.png",
+      "width": 960,
+      "height": 640,
+      "kind": "period-ui",
+      "filter": "Point",
+      "materials": [
+        "translation-anime-fansub",
+        "translation-subtitle-style-karaoke"
+      ],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "animation_bg",
+      "source": "art/source/episode123/animation_bg.svg",
+      "export": "art/export/episode123/animation_bg.png",
+      "width": 960,
+      "height": 540,
+      "kind": "illustration-layer",
+      "filter": "Bilinear",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "animation_mid",
+      "source": "art/source/episode123/animation_mid.svg",
+      "export": "art/export/episode123/animation_mid.png",
+      "width": 960,
+      "height": 540,
+      "kind": "illustration-layer",
+      "filter": "Bilinear",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "animation_front",
+      "source": "art/source/episode123/animation_front.svg",
+      "export": "art/export/episode123/animation_front.png",
+      "width": 960,
+      "height": 540,
+      "kind": "illustration-layer",
+      "filter": "Bilinear",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "subtitle_line",
+      "source": "art/source/episode123/subtitle_line.svg",
+      "export": "art/export/episode123/subtitle_line.png",
+      "width": 960,
+      "height": 170,
+      "kind": "illustration-layer",
+      "filter": "Bilinear",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "release_post",
+      "source": "art/source/episode123/release_post.svg",
+      "export": "art/export/episode123/release_post.png",
+      "width": 960,
+      "height": 640,
+      "kind": "period-ui",
+      "filter": "Point",
+      "materials": [
+        "sharing-bt-release-indexes",
+        "translation-credits-readme"
+      ],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "bt_transfer",
+      "source": "art/source/episode123/bt_transfer.svg",
+      "export": "art/export/episode123/bt_transfer.png",
+      "width": 960,
+      "height": 640,
+      "kind": "period-ui",
+      "filter": "Point",
+      "materials": [
+        "sharing-bt-pieces-upload"
+      ],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "credits",
+      "source": "art/source/episode123/credits.svg",
+      "export": "art/export/episode123/credits.png",
+      "width": 800,
+      "height": 640,
+      "kind": "period-ui",
+      "filter": "Point",
+      "materials": [
+        "translation-credits-readme"
+      ],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "tianya",
+      "source": "art/source/episode123/tianya.svg",
+      "export": "art/export/episode123/tianya.png",
+      "width": 960,
+      "height": 640,
+      "kind": "period-ui",
+      "filter": "Point",
+      "materials": [
+        "cn-tianya-long-threads"
+      ],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "tianya_reply",
+      "source": "art/source/episode123/tianya_reply.svg",
+      "export": "art/export/episode123/tianya_reply.png",
+      "width": 960,
+      "height": 640,
+      "kind": "graphic-layer",
+      "filter": "Point",
+      "materials": [
+        "cn-tianya-long-threads"
+      ],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "xiaonei",
+      "source": "art/source/episode123/xiaonei.svg",
+      "export": "art/export/episode123/xiaonei.png",
+      "width": 960,
+      "height": 640,
+      "kind": "period-ui",
+      "filter": "Point",
+      "materials": [
+        "cn-renren-xiaonei"
+      ],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "weibo",
+      "source": "art/source/episode123/weibo.svg",
+      "export": "art/export/episode123/weibo.png",
+      "width": 960,
+      "height": 640,
+      "kind": "period-ui",
+      "filter": "Point",
+      "materials": [
+        "cn-sina-weibo-early"
+      ],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "vrchat2017",
+      "source": "art/source/episode123/vrchat2017.svg",
+      "export": "art/export/episode123/vrchat2017.png",
+      "width": 960,
+      "height": 640,
+      "kind": "period-ui",
+      "filter": "Point",
+      "materials": [
+        "vrc-2017-hub",
+        "vrc-avatar-pedestals"
+      ],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "help_thread",
+      "source": "art/source/episode123/help_thread.svg",
+      "export": "art/export/episode123/help_thread.png",
+      "width": 960,
+      "height": 640,
+      "kind": "period-ui",
+      "filter": "Point",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "error_dialog",
+      "source": "art/source/episode123/error_dialog.svg",
+      "export": "art/export/episode123/error_dialog.png",
+      "width": 660,
+      "height": 330,
+      "kind": "period-ui",
+      "filter": "Point",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "access_conditions",
+      "source": "art/source/episode123/access_conditions.svg",
+      "export": "art/export/episode123/access_conditions.png",
+      "width": 960,
+      "height": 640,
+      "kind": "period-ui",
+      "filter": "Point",
+      "materials": [
+        "enclosure-subscription"
+      ],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "news_3q",
+      "source": "art/source/episode123/news_3q.svg",
+      "export": "art/export/episode123/news_3q.png",
+      "width": 900,
+      "height": 620,
+      "kind": "period-ui",
+      "filter": "Point",
+      "materials": [
+        "enclosure-3q"
+      ],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "eac_notice",
+      "source": "art/source/episode123/eac_notice.svg",
+      "export": "art/export/episode123/eac_notice.png",
+      "width": 960,
+      "height": 640,
+      "kind": "contemporary-ui",
+      "filter": "Bilinear",
+      "materials": [
+        "vrc-eac-2022",
+        "vrc-eac-accessibility-response"
+      ],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "blue_bear",
+      "source": "art/source/episode123/blue_bear.svg",
+      "export": "art/export/episode123/blue_bear.png",
+      "width": 400,
+      "height": 420,
+      "kind": "illustration-layer",
+      "filter": "Bilinear",
+      "materials": [
+        "vrc-eac-2022"
+      ],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "maintenance_queue",
+      "source": "art/source/episode123/maintenance_queue.svg",
+      "export": "art/export/episode123/maintenance_queue.png",
+      "width": 960,
+      "height": 640,
+      "kind": "period-ui",
+      "filter": "Point",
+      "materials": [
+        "commons-report-flood"
+      ],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "sticker_orz",
+      "source": "art/source/episode123/sticker_orz.svg",
+      "export": "art/export/episode123/sticker_orz.png",
+      "width": 512,
+      "height": 220,
+      "kind": "graphic-layer",
+      "filter": "Point",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "sticker_smile",
+      "source": "art/source/episode123/sticker_smile.svg",
+      "export": "art/export/episode123/sticker_smile.png",
+      "width": 512,
+      "height": 220,
+      "kind": "graphic-layer",
+      "filter": "Point",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "sticker_greetz",
+      "source": "art/source/episode123/sticker_greetz.svg",
+      "export": "art/export/episode123/sticker_greetz.png",
+      "width": 512,
+      "height": 220,
+      "kind": "graphic-layer",
+      "filter": "Point",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "sticker_hello",
+      "source": "art/source/episode123/sticker_hello.svg",
+      "export": "art/export/episode123/sticker_hello.png",
+      "width": 512,
+      "height": 220,
+      "kind": "graphic-layer",
+      "filter": "Point",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "sticker_jiong",
+      "source": "art/source/episode123/sticker_jiong.svg",
+      "export": "art/export/episode123/sticker_jiong.png",
+      "width": 512,
+      "height": 220,
+      "kind": "graphic-layer",
+      "filter": "Point",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "sticker_233",
+      "source": "art/source/episode123/sticker_233.svg",
+      "export": "art/export/episode123/sticker_233.png",
+      "width": 512,
+      "height": 220,
+      "kind": "graphic-layer",
+      "filter": "Point",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "pixel_star",
+      "source": "art/source/episode123/pixel_star.svg",
+      "export": "art/export/episode123/pixel_star.png",
+      "width": 64,
+      "height": 64,
+      "kind": "graphic-layer",
+      "filter": "Point",
+      "materials": [],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    },
+    {
+      "id": "panda_icon",
+      "source": "art/source/episode123/panda_icon.svg",
+      "export": "art/export/episode123/panda_icon.png",
+      "width": 320,
+      "height": 330,
+      "kind": "illustration-layer",
+      "filter": "Bilinear",
+      "materials": [
+        "security-panda"
+      ],
+      "authorship": "original-drawing-and-layout-reconstruction",
+      "historical_image": false
+    }
+  ]
+}

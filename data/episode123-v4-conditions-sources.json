@@ -1,0 +1,361 @@
+{
+  "schema": "episode123-v4-conditions-sources/v1",
+  "review_date": "2026-10-16",
+  "scope": "102.40—133.12 秒“入口还在，使用条件变了”史料扩充；区分内容事件日期、来源发布日期、原始捕获/档案时间与本地截图时间。",
+  "principles": [
+    "先呈现事件发生时的材料，再呈现后来回看网页；当前页面截图不伪装成历史界面。",
+    "新闻中的弹窗、公司声明与论坛帖都说明当事方当时如何表达，不自动裁定事实。",
+    "单页调查、单帖或当前票数不能包装成全网热度或代表性民调。",
+    "平台安全、QoL、无障碍、Mod 维护与创作者精力分别叙述；不把不同来源合并成单一因果链。",
+    "未找到可核验的 2010 年微博热搜榜截图，不制作或仿造历史热榜。"
+  ],
+  "sources": [
+    {
+      "id": "3q-cnet-popup",
+      "topic": "3Q：QQ 与 360 弹窗争议",
+      "content_or_event_date": "2010-11-02（CNET 报道与同期界面材料）",
+      "source_publication_date": "2010-11-02",
+      "capture_or_archive_date": "文章归档页捕获于 2010-11-07；图像是报道配图，独立截图日未标。",
+      "source_url": "https://web.archive.org/web/20101107034354/http://asia.cnet.com/blogs/sinobytes/post.htm?id=63021608",
+      "local_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/3q-cnet-360-popup.jpg",
+      "sha256": "19bda36366a44466cf8111ac28486e817a103ee55daa24d2affa28b2add4a0c9",
+      "source_kind": "同期报道所附界面图的档案副本",
+      "supports": "报道当时 QQ 与 360 之间的公开争议，图中呈现双方弹窗与产品界面。",
+      "limits": "截图呈现公开指控与界面状态，不裁定任何一方指控为事实，也不代表所有用户经历。",
+      "recommended_visual_use": "可作“回看·2010”段的同期新闻材料；保留来源与归属，不重绘成已核实的系统警告。"
+    },
+    {
+      "id": "3q-tencent-open-letter",
+      "topic": "3Q：腾讯致 QQ 用户公开信",
+      "content_or_event_date": "2010-11-03",
+      "source_publication_date": "2010-11-03",
+      "capture_or_archive_date": "Wayback 捕获页面标记为 2010-11-06；本地页面截屏制作于 2026。",
+      "source_url": "https://web.archive.org/web/20101106123940/http://im.qq.com/qq.shtml",
+      "local_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/3q-tencent-letter-wayback-page-2026.png",
+      "sha256": "88436b54a5b38cee0398386ef11d49c6ef6f8effaf1b46772d9dddf1c3dda855",
+      "source_kind": "官方公司立场页面的 Wayback 回放截屏",
+      "supports": "腾讯在争议发生时公开表达的立场。",
+      "limits": "这是争议一方的官方陈述，不作中立事实裁定；本地截图外观是 2026 浏览器回放。",
+      "recommended_visual_use": "作为有来源标记的文字证据；避免把 2026 浏览器框架当作 2010 原始页面截图。"
+    },
+    {
+      "id": "3q-sina-poll",
+      "topic": "3Q：新浪科技报道与单页调查选项",
+      "content_or_event_date": "2010-11-03 23:09",
+      "source_publication_date": "2010-11-03 23:09",
+      "capture_or_archive_date": "Wayback 捕获为 2019-08-12；本地页面截屏制作于 2026。",
+      "source_url": "https://web.archive.org/web/20190812045731/http://tech.sina.com.cn/i/2010-11-03/23094824554.shtml",
+      "local_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/3q-sina-poll-article-wayback-page-2026.png",
+      "sha256": "dfb1b8244e8113bfbceea8701df4d550785a5e5857b03e70b2e0a5e5345d2dfd",
+      "source_kind": "同期报道的 Wayback 回放截屏",
+      "supports": "一篇同期报道及其页面内“QQ/360 必须卸载一个”的调查选项。",
+      "limits": "这是单一媒体页面的调查，不是全网热度或具有代表性的民意统计；截图为当前回放页面。",
+      "recommended_visual_use": "可用于表现当时争论如何被报道；不显示票数或制作热榜视觉。"
+    },
+    {
+      "id": "3q-yukict-forum",
+      "topic": "3Q：中文论坛公开讨论",
+      "content_or_event_date": "主题帖 1 楼显示 2010-11-04 12:19；页面还列出多条当日回复。",
+      "source_publication_date": "原帖显示时间 2010-11-04 12:19。",
+      "capture_or_archive_date": "原帖与打印页 URL 于 2026-10-16 公共可读性复核；本地证据图是 2026 当前打印视图，不是 2010 页面捕获，也未确认有 Wayback 页面快照。",
+      "source_url": "https://yukict.com/bbs/thread-52430-1-31.html",
+      "source_url_printable": "https://yukict.com/bbs/viewthread.php?action=printable&tid=52430",
+      "source_url_status": "2026-10-16 可公开读取并核对标题、发帖人和时间戳。",
+      "post_title": "老子决定再也不用QQ了！",
+      "post_author": "思兼",
+      "post_timestamp": "2010-11-04 12:19",
+      "local_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/3q-yukict-forum-print-page-2026-redacted.png",
+      "sha256": "2fbfa465edae3a5bd6f97f269ed8518df75cefb24f585344e304e0a8fb4f1673",
+      "source_kind": "2010-11-04 论坛主题帖；本地证据图为当前打印视图",
+      "supports": "原帖公开链接可读取，主题、作者思兼及 2010-11-04 12:19 时间戳与本地文本相符；可作为一位参与者当时表达的观点。",
+      "limits": "当前页面显示的时间戳不提供历史界面截图或编辑历史；单帖不代表论坛或全体用户意见。帖子原文含自留邮箱，引用时不显示该地址。",
+      "recommended_visual_use": "戏内只显示日期“2010-11-04”和原帖标题“老子决定再也不用QQ了！”；用摘录重排文字，不展示现代打印页框架、邮箱或审核说明。"
+    },
+    {
+      "id": "msn-skype-retirement-mail",
+      "topic": "MSN Messenger 迁移至 Skype",
+      "content_or_event_date": "官方宣布于 2012-11-06；全球逐步迁移自 2013-04-08 开始，中国大陆当时暂时保留。",
+      "source_publication_date": "官方公告 2012-11-06；所用新闻图为 2013 年报道图，单独发布时间待核。",
+      "capture_or_archive_date": "邮件 UI 图片的独立拍摄日未知。",
+      "source_url": "https://web.archive.org/web/20121108092606/http://blogs.skype.com/en/2012/11/skypewlm.html",
+      "local_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/messenger-retirement-email-ui-2013.png",
+      "sha256": "0adc45b7da589115ef1238d7c772207bb15c0f8bf7219963ee3164762e85aefc",
+      "source_kind": "新闻文章转载的迁移通知邮件图；官方公告归档",
+      "supports": "官方迁移安排、全球迁移节点与中国大陆的例外说明。",
+      "limits": "不能表述为同一天全球所有用户都失去 Messenger；桌面/移动端路径与中国大陆安排不同。",
+      "recommended_visual_use": "以“迁移/条件变化”表达，区分公告日期、逐步迁移日期与邮件图来源。"
+    },
+    {
+      "id": "google-reader-shutdown",
+      "topic": "Google Reader 退役与数据导出",
+      "content_or_event_date": "2013-03-13 公告；服务于 2013-07-01 退役。",
+      "source_publication_date": "2013-03-13",
+      "capture_or_archive_date": "官方博客当前页面本地截屏制作于 2026；当前页面渲染不等同于 2013 浏览器截图。",
+      "source_url": "http://googlereader.blogspot.com/2013/03/powering-down-google-reader.html",
+      "local_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/google-reader-powering-down-blog-2026.png",
+      "sha256": "d4b47a5105e0692e6843fa52cf1c33bbbc02c065b90fc9c4d49ea42280bc9c59",
+      "source_kind": "官方服务退役公告的当前回看页面",
+      "supports": "Google Reader 退役日期及 Google Takeout 导出选项。",
+      "limits": "不代表 RSS 本身终止，也不证明所有阅读器或订阅都消失。",
+      "recommended_visual_use": "适合表现服务停止后迁移/导出的具体动作；页面外框应标为回看材料。"
+    },
+    {
+      "id": "adobe-flash-eol-announcement",
+      "topic": "Adobe Flash Player 结束支持公告",
+      "content_or_event_date": "公告日期 2017-07-25；支持于 2020-12-31 结束，内容自 2021-01-12 起默认阻止运行。",
+      "source_publication_date": "2017-07-25",
+      "capture_or_archive_date": "Adobe 官方公告配图；不是 Flash 报错 UI，图像拍摄日未标。",
+      "source_url": "https://blog.adobe.com/en/publish/2017/07/25/adobe-flash-update",
+      "local_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/adobe-flash-eol-announcement-2017.jpg",
+      "sha256": "c815156d0adc0086a079a62b17bd8acbd0c2056369384ca0bd6bccc6e3f2b3c6",
+      "source_kind": "同期官方公告的抽象配图",
+      "supports": "Adobe 公布的支持结束时间表。",
+      "limits": "图片为抽象视觉，不是用户遭遇的错误页面；不能把插件退役说成所有网页在同一时刻消失。",
+      "recommended_visual_use": "作为公告/时间节点，不做“Flash 报错窗口”重建。"
+    },
+    {
+      "id": "vrchat-eac-2022",
+      "topic": "VRChat Easy Anti-Cheat 与安全更新",
+      "content_or_event_date": "2022-07-25 官方公告；页面于次日追加反馈回应。",
+      "source_publication_date": "2022-07-25",
+      "capture_or_archive_date": "官方公告配图；图片不是 EAC 启动错误对话框。",
+      "source_url": "https://hello.vrchat.com/blog/vrchat-security-update",
+      "local_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/vrchat-eac-2022-official-banner.png",
+      "sha256": "35d2914e70cd1286671da2d76e329d72450f1cbb09269da59fa53513398a2563",
+      "source_kind": "同期官方公告配图",
+      "supports": "VRChat 官方公布 EAC 与 Secure Instances 安全更新的事实与官方解释。",
+      "limits": "配图不呈现真实用户端错误；不应把此前已存在的客户端修改限制说成 2022 年才出现。",
+      "recommended_visual_use": "与此前规则、受影响功能和后续回应分别编排，避免一张图替代全部因果。"
+    },
+    {
+      "id": "vrchat-secure-instances",
+      "topic": "VRChat Secure Instances",
+      "content_or_event_date": "2022-07-25 官方更新说明",
+      "source_publication_date": "2022-07-25",
+      "capture_or_archive_date": "官方信息图；网页示例，不是玩家客户端的原始截屏。",
+      "source_url": "https://hello.vrchat.com/blog/vrchat-security-update",
+      "local_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/vrchat-secure-instances-2022-official.png",
+      "sha256": "fd48fbd1fab82af306b4eec0eb4e368208105a8b1222fa76086919966f615ca8",
+      "source_kind": "同期官方说明图/信息图",
+      "supports": "官方如何说明受限实例与受邀访问。",
+      "limits": "不证明所有 QoL 工具都属于客户端修改，也不代表每种访问困难。",
+      "recommended_visual_use": "呈现访问规则变化；标明这是官方信息图。"
+    },
+    {
+      "id": "vrchat-link-state-a",
+      "topic": "VRChat 公告内实例链接状态示例 A",
+      "content_or_event_date": "公告发布于 2022-07-25；文件名含 2022-07-13，但截图日未独立确认。",
+      "source_publication_date": "2022-07-25",
+      "capture_or_archive_date": "日期仅见于本地文件名，独立拍摄时间未核。",
+      "source_url": "https://hello.vrchat.com/blog/vrchat-security-update",
+      "local_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/vrchat-eac-client-or-browser-screenshot-2022-07-13-a.png",
+      "sha256": "24cd740a02ec513aa757e7c44cf79dc148932ca5cbeaa20860c1344891078cad",
+      "source_kind": "官方公告中的 Locked/Unlocked Links 页面示例截屏",
+      "supports": "公告中链接状态示例的呈现。",
+      "limits": "不是 EAC 启动报错窗口；不得把文件名日期当成独立确认的截图日。",
+      "recommended_visual_use": "若引用，注明“公告示例页面”；不伪装成游戏客户端报错。"
+    },
+    {
+      "id": "vrchat-link-state-b",
+      "topic": "VRChat 公告内实例链接状态示例 B",
+      "content_or_event_date": "公告发布于 2022-07-25；文件名含 2022-07-13，但截图日未独立确认。",
+      "source_publication_date": "2022-07-25",
+      "capture_or_archive_date": "日期仅见于本地文件名，独立拍摄时间未核。",
+      "source_url": "https://hello.vrchat.com/blog/vrchat-security-update",
+      "local_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/vrchat-eac-client-or-browser-screenshot-2022-07-13-b.png",
+      "sha256": "a38a909ffcd0c59091714888faf76ce31896b8ed347f9991ad3eee101cc78126",
+      "source_kind": "官方公告中的 Locked/Unlocked Links 页面示例截屏",
+      "supports": "公告中另一种链接状态示例的呈现。",
+      "limits": "不是 EAC 启动报错窗口；不得把文件名日期当成独立确认的截图日。",
+      "recommended_visual_use": "与 A 选其一或并列说明状态变化，不作为真实客户端错误证据。"
+    },
+    {
+      "id": "vrchat-feedback-response",
+      "topic": "VRChat 对安全更新反馈的官方回应",
+      "content_or_event_date": "文章页面日期 2022-07-27（索引 UTC 日期为 2022-07-28）；提及无障碍与 QoL 反馈。",
+      "source_publication_date": "2022-07-27（UTC 索引 2022-07-28）",
+      "capture_or_archive_date": "官方回应文章配图；当前文章页面截屏另存为 2026 年视图。",
+      "source_url": "https://hello.vrchat.com/blog/addressing-your-feedback",
+      "local_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/vrchat-addressing-feedback-2022-official-banner.png",
+      "sha256": "1175ac6fbff833f32cfe9477088a39cae5bf0bff947d7e0bb49a98f83f6fe370",
+      "source_kind": "同期官方回应配图",
+      "supports": "官方对反馈的回应、优先事项变化与计划表达。",
+      "limits": "回应中的计划不等于已交付功能；不能用来量化全部玩家的看法。",
+      "recommended_visual_use": "在意见材料之后出现，明确标作官方回应；配图不代替文章原文。"
+    },
+    {
+      "id": "vrchat-accessibility-request",
+      "topic": "EAC 前加入无障碍工具的社区请求",
+      "content_or_event_date": "请求发表于 2022-07-26；截图当前页面可见 145 票及用户评论。",
+      "source_publication_date": "2022-07-26",
+      "capture_or_archive_date": "反馈平台页面截屏于 2026-10-16；页面上显示的票数是截图时状态。",
+      "source_url": "https://feedback.vrchat.com/feature-requests/p/add-accessibility-tools-before-eac",
+      "local_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/vrchat-accessibility-feedback-board-page-2026.png",
+      "sha256": "63a9c902ee538a3387fbe9692ab9e1f596b9df630af54fc28dd1bc52fe98f5ec",
+      "source_kind": "社区反馈帖当前页面截屏",
+      "supports": "至少有这项公开请求及其中一位发帖者的无障碍经历与意见。",
+      "limits": "单帖与当前票数不是总体民意样本；用户意见不能替代平台公告或功能影响统计。",
+      "recommended_visual_use": "可呈现具体用户诉求；隐去不必要身份信息，不展示为全体社区统计。"
+    },
+    {
+      "id": "emmvrc-closure",
+      "topic": "emmVRC/emmCVR 项目收尾",
+      "content_or_event_date": "作者说明发表于 2022-10-17。",
+      "source_publication_date": "2022-10-17",
+      "capture_or_archive_date": "无本地截图；引用原文链接。",
+      "source_url": "https://thetrueyoshifan.com/2022/10/17/emmvrc-and-emmcvr-closure/index.html",
+      "local_path": null,
+      "sha256": null,
+      "source_kind": "Mod 作者结项说明",
+      "supports": "作者谈及功能取舍、其他开发者接续与长期疲惫。",
+      "limits": "不能简化为 EAC 单一原因导致退出；文中提到只读服务器为当时计划，不应写作已执行事实。",
+      "recommended_visual_use": "以维护负担和项目交接呈现，保留作者自己的因果边界。"
+    },
+    {
+      "id": "reddit-private-notice",
+      "topic": "Reddit API 变更抗议：私有版通知示例",
+      "content_or_event_date": "The Verge 报道发表于 2023-06-12；报道解释多版参与抗议。",
+      "source_publication_date": "2023-06-12",
+      "capture_or_archive_date": "The Verge 报道提供的 r/aww 私有页截图；独立拍摄日未标。",
+      "source_url": "https://www.theverge.com/2023/6/12/23755974/reddit-subreddits-going-dark-private-protest-api-changes",
+      "local_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/reddit-rmusic-private-notice-2023-06-12.jpg",
+      "sha256": "49a713013f1b816c497802058e4a3e22a085f52bd163255189dd2567c3ff9899",
+      "source_kind": "新闻报道提供的 Reddit 页面截图，画面为 r/aww",
+      "supports": "部分版块以私有/关闭方式抗议 API 变化的实例。",
+      "limits": "截图显示 r/aww，不是 r/Music；文章文字提到 r/Music 参与。单张截图不表示所有版块状态。",
+      "recommended_visual_use": "图像标注 r/aww；若讲 r/Music，需引用报道文字而不能移植这张图的版名。"
+    },
+    {
+      "id": "reddit-blackout-extension",
+      "topic": "Reddit API 变更抗议：延长私有状态示例",
+      "content_or_event_date": "The Verge 报道发表于 2023-06-13。",
+      "source_publication_date": "2023-06-13",
+      "capture_or_archive_date": "The Verge 报道提供的 r/aww 页面截图；独立拍摄日未标。",
+      "source_url": "https://www.theverge.com/2023/6/13/23759674/reddit-mods-blackout-protest-extended-indefinitely",
+      "local_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/reddit-rmusic-private-extension-2023-06-13.png",
+      "sha256": "436dcbac73dd74925b5500c62d4c0e0be89916390bb293c15013eb9c5ba552f3",
+      "source_kind": "新闻报道提供的 Reddit 页面截图，画面为 r/aww",
+      "supports": "部分版主延长抗议行动的当时页面示例。",
+      "limits": "图像是 r/aww 页面，不是 r/Music；不要将其当作全部版块或全部用户意见。",
+      "recommended_visual_use": "作为平台规则/社区行动的一个案例，caption 保留具体子版名称。"
+    },
+    {
+      "id": "recaptcha-current-challenge",
+      "topic": "当代 reCAPTCHA 图片验证示例",
+      "content_or_event_date": "2026 年当前演示页挑战；不是历史证据。",
+      "source_publication_date": "不适用。",
+      "capture_or_archive_date": "2026-10-16；未选择图块、未提交。",
+      "source_url": "https://www.google.com/recaptcha/api2/demo",
+      "local_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/google-recaptcha-challenge-crop-2026-10.png",
+      "sha256": "a3e5b0a55a003cc03df3d0891d12080e57c29b998fc31d53a8851b9e4c93d560",
+      "source_kind": "当代演示页的验证挑战裁图",
+      "supports": "验证门槛当前仍可表现为图像选择任务。",
+      "limits": "不是 2010 年或其他历史验证码样式，也不是服务故障截图；不代表所有用户都遇到同一挑战。",
+      "recommended_visual_use": "若用于条件变化段，标作“当代示例”，不能伪装成历史画面。"
+    },
+    {
+      "id": "recaptcha-current-quotas",
+      "topic": "Google Cloud reCAPTCHA 当前配额文档",
+      "content_or_event_date": "Google Cloud 当前文档，页面截图时点 2026-10-16。",
+      "source_publication_date": "网页当前版本日期未明确。",
+      "capture_or_archive_date": "2026-10-16；本图显示配额表，未滚动到 Quota limit errors 段。",
+      "source_url": "https://docs.cloud.google.com/recaptcha/quotas",
+      "local_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/google-cloud-recaptcha-quota-doc-page-2026.png",
+      "sha256": "8d4ccf90e9b713344cd183631d511ca539acb20ba6d1c1a75d9645a3030e63a0",
+      "source_kind": "官方开发文档的当前页面截屏",
+      "supports": "当前配额文档列出的请求限制；网页文本在下方错误说明中提及 HTTP 429/RESOURCE_EXHAUSTED。",
+      "limits": "截图画面本身没有显示 429 错误文字；不能作为具体报错屏幕，更不是历史网页证据。",
+      "recommended_visual_use": "如使用仅作为当前配额说明。对 429 文本须直接引用文档正文，不能让截图看似已显示该错误。"
+    },
+    {
+      "id": "vrchat-eac-current-article",
+      "topic": "VRChat EAC 官方公告的当前回看页面",
+      "content_or_event_date": "原公告发表于 2022-07-25，次日追加回应。",
+      "source_publication_date": "2022-07-25",
+      "capture_or_archive_date": "2026-10-16 当前网页视图；页面内含公告更新文字。",
+      "source_url": "https://hello.vrchat.com/blog/vrchat-security-update",
+      "local_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/vrchat-eac-security-update-page-2026.png",
+      "sha256": "764bad3a9bda950c92355ee0bdd5685b47b495927ca42632be0a3ef7e5ad64fb",
+      "source_kind": "官方公告当前网页截屏",
+      "supports": "官方公告及 7/26 反馈补充文字。",
+      "limits": "当前网站导航、排版与 cookie 条不属于 2022 原始网页 UI。",
+      "recommended_visual_use": "适合资料考证；如放进演出，裁取原文并标明官方公告日期。"
+    },
+    {
+      "id": "vrchat-feedback-current-article",
+      "topic": "VRChat 官方反馈回应的当前回看页面",
+      "content_or_event_date": "原文章发布于 2022-07-27；索引 UTC 日期显示 2022-07-28。",
+      "source_publication_date": "2022-07-27（UTC 索引 2022-07-28）",
+      "capture_or_archive_date": "2026-10-16 当前网页视图。",
+      "source_url": "https://hello.vrchat.com/blog/addressing-your-feedback",
+      "local_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/vrchat-address-feedback-official-page-2026.png",
+      "sha256": "009e199368f50786b184b9b33c5021bbc4b54cb5018abf5003accbf447f69220",
+      "source_kind": "官方回应当前网页截屏",
+      "supports": "官方回应文本中的计划与优先级。",
+      "limits": "不是 2022 年页面样式；计划表述不能等同已交付结果。",
+      "recommended_visual_use": "资料索引/引文核对优先，演出画面避免显示现代网页框架。"
+    },
+    {
+      "id": "ifanr-early-web-design-museum-caption-audit",
+      "topic": "爱范儿文章《这座网页设计博物馆，让我回到拨号才能上网冲浪的千禧年》及 47 张网页图注",
+      "content_or_event_date": "文中逐图图注分别标注若干网页年份；另有 Apple、LEGO、Coca-Cola、Nintendo、Space X、2Advanced 多版本组图。",
+      "source_publication_date": "2020-04-29 14:14",
+      "capture_or_archive_date": "原始 HTML 本地读取于 2026-10-16；页面发布日期来自页面头部。",
+      "source_url": "https://www.ifanr.com/1333145",
+      "local_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/ifanr-1333145-original.html",
+      "sha256": "33ada5232713207116fe79652a51e0fd3cfbac0de53793268e508a1984579912",
+      "source_kind": "回顾文章及逐图图注的原始 HTML；非历史网页截图来源本体。",
+      "supports": "通过原文图注可将 47 张 web 类素材按图片 URL 匹配；单年图注明确网页内容年，多版本组图给出覆盖年份。",
+      "limits": "2020 是回顾文章发布日期，不是其引用网页或图像拍摄日期；组图范围不能拆成未说明的单年截图。个别现有 V3 标签与原图/图注冲突，需在编排中修正。",
+      "recommended_visual_use": "引用 JSON 的 source_article_caption 和 caption_audit；多版本组标记 timeline-collage，只在组内最晚年份之后或显式回看语境出现。"
+    }
+  ],
+  "research_gaps": [
+    {
+      "topic": "2010 年微博热搜榜",
+      "finding": "Wayback CDX 对 s.weibo.com/top/summary 的 2010-11 时段未发现可核验捕获；当前热搜页只代表 2026。",
+      "decision": "不构造历史榜单、不写排名或热度；如需表现只用明确标注年代的同期讨论材料。"
+    },
+    {
+      "topic": "reCAPTCHA 配额 429",
+      "finding": "Google Cloud 文档正文解释超限可能返回 HTTP 429/RESOURCE_EXHAUSTED；本地页面截图只呈现配额表，未显示错误段落。",
+      "decision": "文案可引用官方文档并链接；不要把当前配额表图当成 429 报错截图。"
+    },
+    {
+      "topic": "r/Music 页面截图",
+      "finding": "Wayback 回放页面尝试得到空白页；已排除该图。The Verge 所供两张画面均为 r/aww；报道正文另提 r/Music 参与。",
+      "decision": "保留 r/aww 截图原名；提及 r/Music 时只引用报道文字，不替换截图中的社区名称。"
+    },
+    {
+      "topic": "论坛图片与页面外观",
+      "finding": "YUKI 页面是当前打印视图并已遮蔽邮箱；它不证明 2010 年页面的视觉布局。",
+      "decision": "只能作为当前可读文本线索，或以引用文本呈现并明确当前采集方式。"
+    }
+  ],
+  "excluded_attempts": [
+    {
+      "file": "adobe-flash-end-of-life-page-2026.png",
+      "reason": "打开 Adobe EOL 页面返回 Access Denied；不是有效页面截图，也不是历史 UI。"
+    },
+    {
+      "file": "vrchat-eac-support-error-page-2026.png",
+      "reason": "help.vrchat.com 显示 Cloudflare 安全验证页；不是 EAC 支持错误页。"
+    },
+    {
+      "file": "3q-forum-thread-equn-page-2026.png",
+      "reason": "曾显示 Cloudflare 验证页，已从来源目录移除。"
+    },
+    {
+      "file": "3q-forum-poll-jglt-page-2026.png",
+      "reason": "曾返回 HTTP 520 错误页，已从来源目录移除。"
+    },
+    {
+      "file": "reddit-rmusic-wayback-2023-06-12.png",
+      "reason": "Wayback 页面为空白，已从来源目录移除。"
+    },
+    {
+      "file": "score-assets-current-order.tsv",
+      "reason": "研究用的 V3 资源顺序导出，不是历史来源。"
+    }
+  ]
+}

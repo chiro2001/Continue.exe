@@ -1,0 +1,252 @@
+{
+  "schema": "oldwebmap.fullfilm.v2.prompt-assets.v2",
+  "date": "2026-10-17",
+  "prompt_document": "art/prompts/fullfilm-v2-chatgpt-prompts.md",
+  "count": 8,
+  "generation_mode": "User manually copies prompts to ChatGPT web and downloads results; no automated image-generation service is used.",
+  "download_directory_windows": "C:/Users/Chiro/tmp/vrc-old-web-map/fullfilm-v2/user-images",
+  "counting_rule": "Every separately downloaded image counts as one. A multi-panel board remains one image only when generated and downloaded as one board; it does not grant extra image budget.",
+  "status": {
+    "recommended_now": [
+      "v2-04-comic-translation-pair.png",
+      "v2-05-comic-clean-layer-board.png"
+    ],
+    "second_batch": [
+      "v2-06-flash-animation-sheet.png",
+      "v2-07-game-cg-localization-pair.png",
+      "v2-08-original-homepage-artwork.png",
+      "v2-09-community-reaction-stickers.png",
+      "v2-10-culture-artifact-still-life.png",
+      "v2-11-scene-block-concept-art.png"
+    ],
+    "withdrawn_from_first_draft": [
+      "v2-01-boot-web-layers.png",
+      "v2-02-multiwindow-desktop.png",
+      "v2-03-parallel-chinese-web.png",
+      "v2-06-subtitle-review-ui.png",
+      "v2-07-file-transfer-blocks.png",
+      "v2-08-overload-focus-layers.png",
+      "v2-09-archive-relink-states.png",
+      "v2-10-culture-panorama.png",
+      "v2-11-sketch-to-model.png",
+      "v2-12-community-reaction-stickers.png"
+    ],
+    "filename_note": "The original 04 and 05 output filenames are retained. The previous 06-12 draft filenames are withdrawn; use only the revised names listed in second_batch."
+  },
+  "provenance_policy": {
+    "generated_content": "Original creative illustrations and conceptual art only; record each as original generated material, not as a historical source.",
+    "historical_evidence": "Do not generate real news, forum posts, real people records, published manga, known characters, or real platform/software screenshots.",
+    "software_capture": "Capture actual ChatGPT work, Blender, Unity, VRChat, and this project's Play flow from the real project. Generated images must not imitate the editor UI.",
+    "reference_assets": "Reference video contact sheets are for style analysis only. The scene-block model preview is a structural input for prompt 11's concept art, not evidence of editor use.",
+    "keygen_boundary": "No keygen executable, download link, cracking instruction, or protected original application imagery."
+  },
+  "items": [
+    {
+      "id": "v2-04-comic-translation-pair",
+      "filename": "v2-04-comic-translation-pair.png",
+      "prompt_section": "04. 同一原创漫画的翻译前后对照",
+      "status": "ready-first-batch",
+      "kind": "original-comic-localization-pair",
+      "ratio": "16:9 landscape",
+      "input_images": [],
+      "display_text": [
+        "原文",
+        "おはよう！",
+        "あの星を見に行こう。",
+        "中文译文",
+        "早上好！",
+        "去看看那颗星吧。"
+      ],
+      "crop_regions": [
+        "left original-language two-panel comic",
+        "right Chinese translated two-panel comic",
+        "separator"
+      ],
+      "animation_use": "Hold the original drawing and replace only the dialogue text with the Chinese state.",
+      "consistency": "Generate the original and translated halves from one newly created comic. Lock characters, panels, art, framing, bubble positions, and lighting; change only language.",
+      "fact_claims": []
+    },
+    {
+      "id": "v2-05-comic-clean-layer-board",
+      "filename": "v2-05-comic-clean-layer-board.png",
+      "prompt_section": "05. 上传 04 后生成同源清稿与中文版",
+      "status": "ready-first-batch-after-04",
+      "kind": "original-comic-clean-and-localized-edit",
+      "ratio": "16:9 landscape",
+      "input_images": [
+        {
+          "image": 1,
+          "role": "Only visual and composition reference: the user's generated v2-04-comic-translation-pair.png."
+        }
+      ],
+      "display_text": [
+        "无字清稿",
+        "中文嵌字",
+        "早上好！",
+        "去看看那颗星吧。"
+      ],
+      "crop_regions": [
+        "left clean artwork with empty bubbles",
+        "right same artwork with Chinese text",
+        "optional small state labels"
+      ],
+      "animation_use": "Use the clean panel as the base; reveal Chinese dialogue in the same bubble coordinates.",
+      "consistency": "Edit the uploaded image only. Preserve identity, line art, pose, framing, stars, background, panel geometry, and speech-bubble geometry; remove or replace lettering only.",
+      "fact_claims": []
+    },
+    {
+      "id": "v2-06-flash-animation-sheet",
+      "filename": "v2-06-flash-animation-sheet.png",
+      "prompt_section": "06. 原创 Flash 风格逐格动画素材板",
+      "status": "second-batch",
+      "kind": "original-2d-frame-animation-sheet",
+      "ratio": "16:9 landscape",
+      "input_images": [],
+      "display_text": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06"
+      ],
+      "crop_regions": [
+        "six sequential animation frames in a 3 by 2 grid"
+      ],
+      "animation_use": "Crop the six frames and play as a short original 2D animation.",
+      "consistency": "The same small cyan pixel star/light remains the subject through all six states; only its action and surrounding shapes advance.",
+      "fact_claims": []
+    },
+    {
+      "id": "v2-07-game-cg-localization-pair",
+      "filename": "v2-07-game-cg-localization-pair.png",
+      "prompt_section": "07. 原创游戏 CG 的对话翻译前后",
+      "status": "second-batch",
+      "kind": "original-game-cutscene-localization-pair",
+      "ratio": "16:9 landscape",
+      "input_images": [],
+      "display_text": [
+        "原文",
+        "この地図は、みんなの道しるべだ。",
+        "次の人にも渡そう。",
+        "中文译文",
+        "这张地图，是大家的路标。",
+        "把它也交给下一位吧。"
+      ],
+      "crop_regions": [
+        "left original-language game CG",
+        "right Chinese localized game CG",
+        "dialogue boxes",
+        "separator"
+      ],
+      "animation_use": "Keep the scene still and replace the dialogue-box language.",
+      "consistency": "Two copies of the same new original CG with identical characters, scenery, pose, lighting, framing, map and dialogue box layout; only dialogue text changes.",
+      "fact_claims": []
+    },
+    {
+      "id": "v2-08-original-homepage-artwork",
+      "filename": "v2-08-original-homepage-artwork.png",
+      "prompt_section": "08. 有细节的原创个人主页作品页",
+      "status": "second-batch",
+      "kind": "original-personal-homepage-artwork",
+      "ratio": "16:9 landscape",
+      "input_images": [],
+      "display_text": [
+        "夜航邮局",
+        "主页",
+        "作品",
+        "留言",
+        "链接",
+        "更新 03:14"
+      ],
+      "crop_regions": [
+        "central original illustration",
+        "handmade page ornaments",
+        "pixel accents",
+        "menu and update status"
+      ],
+      "animation_use": "Hold the authored central artwork while changing menu highlight, visit count, update status, or small animation accents.",
+      "consistency": "An original designed web artwork, not a reconstruction or screenshot of a real historical site.",
+      "fact_claims": []
+    },
+    {
+      "id": "v2-09-community-reaction-stickers",
+      "filename": "v2-09-community-reaction-stickers.png",
+      "prompt_section": "09. 原创中文网络反应贴纸",
+      "status": "second-batch",
+      "kind": "original-online-reaction-sticker-sheet",
+      "ratio": "16:9 landscape",
+      "input_images": [],
+      "display_text": [
+        "orz",
+        "囧",
+        "233",
+        "在吗",
+        "沙发",
+        "顶",
+        "路过",
+        "收到",
+        "分享",
+        "收藏",
+        "一起",
+        "继续"
+      ],
+      "crop_regions": [
+        "twelve individual sticker cells in a 3 by 4 grid"
+      ],
+      "animation_use": "Show stickers in staggered small bounces or edge scrolls without covering the historical focus.",
+      "consistency": "Original visual interpretations of example expressions; not reproductions of a real meme image or forum post.",
+      "fact_claims": []
+    },
+    {
+      "id": "v2-10-culture-artifact-still-life",
+      "filename": "v2-10-culture-artifact-still-life.png",
+      "prompt_section": "10. 多种互联网文化物件的精细静物画",
+      "status": "second-batch",
+      "kind": "original-multimedia-culture-still-life",
+      "ratio": "16:9 landscape",
+      "input_images": [],
+      "display_text": [],
+      "crop_regions": [
+        "comic clean-up and pencil",
+        "translation notes",
+        "burned disc and handwritten label",
+        "old mouse and keyboard",
+        "game controller",
+        "paper model",
+        "blank abstract screen",
+        "modern VR headset"
+      ],
+      "animation_use": "Use object cutouts for slow parallax and local light movement; keep objects as parallel activities rather than one chronological narrative.",
+      "consistency": "Original illustrative still life; blank screen and paper contain no fabricated historical text or UI.",
+      "fact_claims": []
+    },
+    {
+      "id": "v2-11-scene-block-concept-art",
+      "filename": "v2-11-scene-block-concept-art.png",
+      "prompt_section": "11. 以真实模型预览为结构依据的概念稿",
+      "status": "second-batch-after-model-preview",
+      "kind": "original-concept-art-edited-from-project-model-reference",
+      "ratio": "16:9 landscape",
+      "input_images": [
+        {
+          "image": 1,
+          "role": "Structural reference only: art/models/fullfilm-v2/fullfilm_v2_scene_block_preview.png."
+        }
+      ],
+      "display_text": [],
+      "crop_regions": [
+        "ring wooden platform",
+        "four backed arc seating sections",
+        "bridge walkway",
+        "thick arch gateway",
+        "folded branch canopy",
+        "four path lights",
+        "small community panel"
+      ],
+      "animation_use": "Use as a hand-drawn concept layer before the real Blender/Unity model and its actual expanding Play sequence.",
+      "consistency": "Preserve the source preview's camera, object count, forms, positions, and proportions; do not invent a different world. Never present the edit as a software screenshot.",
+      "fact_claims": []
+    }
+  ]
+}

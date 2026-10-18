@@ -1,0 +1,5242 @@
+{
+  "schema": 2,
+  "units": "metres",
+  "blender": "4.2.0",
+  "axes": {
+    "blender": "X right, Z up, +Y front",
+    "gltf_unity": "X right, Y up, -Z front"
+  },
+  "assets": [
+    {
+      "id": "fullfilm_v2_workbench",
+      "root": "FFV2_Workbench",
+      "files": [
+        "fullfilm_v2_workbench.blend",
+        "fullfilm_v2_workbench.fbx",
+        "fullfilm_v2_workbench.glb"
+      ],
+      "mesh_count": 51,
+      "triangles": 19538,
+      "vertices": 10146,
+      "objects": [
+        {
+          "name": "FFV2_Workbench",
+          "parent": null,
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "DeskStructure",
+          "parent": "FFV2_Workbench",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "CableTray_LowerFold",
+          "parent": "DeskStructure",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            -0.25,
+            0.688
+          ],
+          "dimensions_m": [
+            1.52,
+            0.18,
+            0.026
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "CableTray_RearLip",
+          "parent": "DeskStructure",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            -0.335,
+            0.71
+          ],
+          "dimensions_m": [
+            1.52,
+            0.018,
+            0.065
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "CableTray_VentInserts",
+          "parent": "DeskStructure",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.64,
+            -0.242,
+            0.703
+          ],
+          "dimensions_m": [
+            1.336,
+            0.085,
+            0.004
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 784,
+          "triangles": 1512,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Rubber"
+          ]
+        },
+        {
+          "name": "Desk_DeskMat",
+          "parent": "DeskStructure",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.21,
+            0.798
+          ],
+          "dimensions_m": [
+            1.56,
+            0.65,
+            0.006
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Rubber"
+          ]
+        },
+        {
+          "name": "Desk_SteelTrestleAndFeet",
+          "parent": "DeskStructure",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.94,
+            -0.17,
+            0.39
+          ],
+          "dimensions_m": [
+            1.97,
+            0.75,
+            0.745
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 776,
+          "triangles": 1508,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat",
+            "M_Rubber"
+          ]
+        },
+        {
+          "name": "Desk_WalnutSlab",
+          "parent": "DeskStructure",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.05,
+            0.767
+          ],
+          "dimensions_m": [
+            2.42,
+            0.93,
+            0.056
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Walnut"
+          ]
+        },
+        {
+          "name": "DisplayRig_Main",
+          "parent": "FFV2_Workbench",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            -0.1,
+            1.36
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Monitor_ChinSilverLine",
+          "parent": "DisplayRig_Main",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.031,
+            -0.385
+          ],
+          "dimensions_m": [
+            1.18,
+            0.006,
+            0.008
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_AnodisedWarmSilver"
+          ]
+        },
+        {
+          "name": "Monitor_FrontBezel",
+          "parent": "DisplayRig_Main",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.661,
+            0.008,
+            0.0
+          ],
+          "dimensions_m": [
+            1.364,
+            0.043,
+            0.812
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 224,
+          "triangles": 432,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "Monitor_HDMI_USB_InterfaceBank",
+          "parent": "DisplayRig_Main",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.43,
+            -0.083,
+            -0.22
+          ],
+          "dimensions_m": [
+            0.307,
+            0.009,
+            0.031
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 448,
+          "triangles": 864,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Rubber",
+            "M_AnodisedWarmSilver"
+          ]
+        },
+        {
+          "name": "Monitor_PowerButton",
+          "parent": "DisplayRig_Main",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.608,
+            0.037,
+            -0.383
+          ],
+          "dimensions_m": [
+            0.012,
+            0.012,
+            0.005
+          ],
+          "rotation_euler_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 32,
+          "triangles": 60,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_JadeAccent"
+          ]
+        },
+        {
+          "name": "Monitor_RearShell",
+          "parent": "DisplayRig_Main",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            -0.042,
+            0.0
+          ],
+          "dimensions_m": [
+            1.365,
+            0.071,
+            0.813
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "Monitor_RearVentBank",
+          "parent": "DisplayRig_Main",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.48,
+            -0.08,
+            0.24
+          ],
+          "dimensions_m": [
+            0.98,
+            0.006,
+            0.07
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 1400,
+          "triangles": 2700,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Rubber"
+          ]
+        },
+        {
+          "name": "Monitor_VesaFasteners",
+          "parent": "DisplayRig_Main",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.065,
+            -0.109,
+            -0.065
+          ],
+          "dimensions_m": [
+            0.147426,
+            0.147524,
+            0.007
+          ],
+          "rotation_euler_deg": [
+            90.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 448,
+          "triangles": 880,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "Monitor_VesaPlate",
+          "parent": "DisplayRig_Main",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            -0.091,
+            0.0
+          ],
+          "dimensions_m": [
+            0.19,
+            0.025,
+            0.19
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_AnodisedWarmSilver"
+          ]
+        },
+        {
+          "name": "Timeline",
+          "parent": "DisplayRig_Main",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            0.05,
+            -0.49
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Timeline_Backplate",
+          "parent": "Timeline",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            -0.033,
+            0.0
+          ],
+          "dimensions_m": [
+            1.212,
+            0.016,
+            0.152
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "Timeline_Perimeter",
+          "parent": "Timeline",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.609,
+            -0.013,
+            0.0
+          ],
+          "dimensions_m": [
+            1.236,
+            0.044,
+            0.176
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 224,
+          "triangles": 432,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_AnodisedWarmSilver"
+          ]
+        },
+        {
+          "name": "UI_Timeline",
+          "parent": "Timeline",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.011,
+            0.0
+          ],
+          "dimensions_m": [
+            1.2,
+            0.0,
+            0.14
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "uv_layers": [
+            "ScreenshotUV"
+          ],
+          "materials": [
+            "M_UI_Timeline_SLOT"
+          ]
+        },
+        {
+          "name": "UI_Main_16x9",
+          "parent": "DisplayRig_Main",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.031,
+            0.0
+          ],
+          "dimensions_m": [
+            1.28,
+            0.0,
+            0.72
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "uv_layers": [
+            "ScreenshotUV"
+          ],
+          "materials": [
+            "M_UI_MainScreenshot_SLOT"
+          ]
+        },
+        {
+          "name": "Keyboard",
+          "parent": "FFV2_Workbench",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            0.36,
+            0.812
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Keyboard_AnodisedCase",
+          "parent": "Keyboard",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.014
+          ],
+          "dimensions_m": [
+            0.78,
+            0.265,
+            0.028
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_AnodisedWarmSilver"
+          ]
+        },
+        {
+          "name": "Keyboard_InsetWell",
+          "parent": "Keyboard",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.031
+          ],
+          "dimensions_m": [
+            0.75,
+            0.235,
+            0.009
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Rubber"
+          ]
+        },
+        {
+          "name": "Keyboard_IvoryKeycaps",
+          "parent": "Keyboard",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.285,
+            -0.034,
+            0.043
+          ],
+          "dimensions_m": [
+            0.705,
+            0.1995,
+            0.018
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 2408,
+          "triangles": 4644,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_KeysIvory"
+          ]
+        },
+        {
+          "name": "Keyboard_RubberPad",
+          "parent": "Keyboard",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.34,
+            -0.07,
+            -0.003
+          ],
+          "dimensions_m": [
+            0.045,
+            0.1,
+            0.01
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Rubber"
+          ]
+        },
+        {
+          "name": "Keyboard_RubberPad.001",
+          "parent": "Keyboard",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.34,
+            -0.07,
+            -0.003
+          ],
+          "dimensions_m": [
+            0.045,
+            0.1,
+            0.01
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Rubber"
+          ]
+        },
+        {
+          "name": "Keyboard_SlateKeycaps",
+          "parent": "Keyboard",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.343,
+            -0.086,
+            0.043
+          ],
+          "dimensions_m": [
+            0.727,
+            0.201,
+            0.018
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 1120,
+          "triangles": 2160,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_KeysSlate"
+          ]
+        },
+        {
+          "name": "Keyboard_Cable",
+          "parent": "FFV2_Workbench",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.175758,
+            0.515377,
+            0.096979
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 24,
+          "triangles": 36,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Rubber"
+          ]
+        },
+        {
+          "name": "LeftHierarchy",
+          "parent": "FFV2_Workbench",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            -1.015,
+            -0.055,
+            1.4
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            -9.0
+          ]
+        },
+        {
+          "name": "LeftHierarchy_Backplate",
+          "parent": "LeftHierarchy",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            -0.033,
+            0.0
+          ],
+          "dimensions_m": [
+            0.452,
+            0.016,
+            0.712
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "LeftHierarchy_Perimeter",
+          "parent": "LeftHierarchy",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.229,
+            -0.013,
+            0.0
+          ],
+          "dimensions_m": [
+            0.476,
+            0.044,
+            0.736
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 224,
+          "triangles": 432,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_AnodisedWarmSilver"
+          ]
+        },
+        {
+          "name": "UI_LeftHierarchy",
+          "parent": "LeftHierarchy",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.011,
+            0.0
+          ],
+          "dimensions_m": [
+            0.44,
+            0.0,
+            0.7
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "uv_layers": [
+            "ScreenshotUV"
+          ],
+          "materials": [
+            "M_UI_LeftHierarchy_SLOT"
+          ]
+        },
+        {
+          "name": "Monitor_CableToTray",
+          "parent": "FFV2_Workbench",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.456494,
+            0.111898,
+            0.430944
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 30,
+          "triangles": 48,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Rubber"
+          ]
+        },
+        {
+          "name": "MonitorStand",
+          "parent": "FFV2_Workbench",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            -0.12,
+            0.8
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "MonitorStand_Column",
+          "parent": "MonitorStand",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            -0.12,
+            0.22
+          ],
+          "dimensions_m": [
+            0.075,
+            0.075,
+            0.4
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_AnodisedWarmSilver"
+          ]
+        },
+        {
+          "name": "MonitorStand_Hinge",
+          "parent": "MonitorStand",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            -0.06,
+            0.52
+          ],
+          "dimensions_m": [
+            0.096,
+            0.096,
+            0.24
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            90.0,
+            0.0
+          ],
+          "vertices": 96,
+          "triangles": 188,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "MonitorStand_WeightedFoot",
+          "parent": "MonitorStand",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            -0.055,
+            0.022
+          ],
+          "dimensions_m": [
+            0.43,
+            0.3,
+            0.043
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_AnodisedWarmSilver"
+          ]
+        },
+        {
+          "name": "PenTablet",
+          "parent": "FFV2_Workbench",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.76,
+            0.32,
+            0.806
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "PenTablet_ActiveArea",
+          "parent": "PenTablet",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.026
+          ],
+          "dimensions_m": [
+            0.34,
+            0.23,
+            0.003
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_KeysSlate"
+          ]
+        },
+        {
+          "name": "PenTablet_Body",
+          "parent": "PenTablet",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.012
+          ],
+          "dimensions_m": [
+            0.4,
+            0.29,
+            0.024
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "RightAssets",
+          "parent": "FFV2_Workbench",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            1.045,
+            -0.055,
+            1.4
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            9.0
+          ]
+        },
+        {
+          "name": "RightAssets_Backplate",
+          "parent": "RightAssets",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            -0.033,
+            0.0
+          ],
+          "dimensions_m": [
+            0.472,
+            0.016,
+            0.712
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "RightAssets_Perimeter",
+          "parent": "RightAssets",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.239,
+            -0.013,
+            0.0
+          ],
+          "dimensions_m": [
+            0.496,
+            0.044,
+            0.736
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 224,
+          "triangles": 432,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_AnodisedWarmSilver"
+          ]
+        },
+        {
+          "name": "UI_RightAssets",
+          "parent": "RightAssets",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.011,
+            0.0
+          ],
+          "dimensions_m": [
+            0.46,
+            0.0,
+            0.7
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "uv_layers": [
+            "ScreenshotUV"
+          ],
+          "materials": [
+            "M_UI_RightAssets_SLOT"
+          ]
+        },
+        {
+          "name": "SidePanel_Arm",
+          "parent": "FFV2_Workbench",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.945,
+            -0.12,
+            1.02
+          ],
+          "dimensions_m": [
+            0.036,
+            0.036,
+            0.44
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            -0.0,
+            -180.0
+          ],
+          "vertices": 72,
+          "triangles": 140,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "SidePanel_Arm.001",
+          "parent": "FFV2_Workbench",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.945,
+            -0.12,
+            1.02
+          ],
+          "dimensions_m": [
+            0.036,
+            0.036,
+            0.44
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            -0.0,
+            -180.0
+          ],
+          "vertices": 72,
+          "triangles": 140,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "SidePanel_Elbow",
+          "parent": "FFV2_Workbench",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.945,
+            -0.095,
+            1.32
+          ],
+          "dimensions_m": [
+            0.03,
+            0.03,
+            0.167631
+          ],
+          "rotation_euler_deg": [
+            17.354,
+            -0.0,
+            -180.0
+          ],
+          "vertices": 72,
+          "triangles": 140,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_AnodisedWarmSilver"
+          ]
+        },
+        {
+          "name": "SidePanel_Elbow.001",
+          "parent": "FFV2_Workbench",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.945,
+            -0.095,
+            1.32
+          ],
+          "dimensions_m": [
+            0.03,
+            0.03,
+            0.167631
+          ],
+          "rotation_euler_deg": [
+            17.354,
+            -0.0,
+            -180.0
+          ],
+          "vertices": 72,
+          "triangles": 140,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_AnodisedWarmSilver"
+          ]
+        },
+        {
+          "name": "Stylus_PivotNib",
+          "parent": "FFV2_Workbench",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.75,
+            0.46,
+            0.85
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            73.0,
+            -21.0
+          ]
+        },
+        {
+          "name": "Stylus_Barrel",
+          "parent": "Stylus_PivotNib",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.072
+          ],
+          "dimensions_m": [
+            0.014,
+            0.014,
+            0.134
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 32,
+          "triangles": 60,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "Stylus_EndCap",
+          "parent": "Stylus_PivotNib",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.143
+          ],
+          "dimensions_m": [
+            0.012,
+            0.012,
+            0.008
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 32,
+          "triangles": 60,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_ChampagneEdge"
+          ]
+        },
+        {
+          "name": "Stylus_Grip",
+          "parent": "Stylus_PivotNib",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.035
+          ],
+          "dimensions_m": [
+            0.016,
+            0.016,
+            0.034
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 96,
+          "triangles": 188,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Rubber"
+          ]
+        },
+        {
+          "name": "Stylus_Nib",
+          "parent": "Stylus_PivotNib",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.004
+          ],
+          "dimensions_m": [
+            0.005,
+            0.005,
+            0.012
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 32,
+          "triangles": 60,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_AnodisedWarmSilver"
+          ]
+        },
+        {
+          "name": "ThumbnailCard_00",
+          "parent": "FFV2_Workbench",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            1.048,
+            0.005,
+            1.6
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Thumbnail_Backing",
+          "parent": "ThumbnailCard_00",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            -0.008,
+            0.0
+          ],
+          "dimensions_m": [
+            0.27,
+            0.012,
+            0.152
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "UI_Thumbnail_00",
+          "parent": "ThumbnailCard_00",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.002,
+            0.0
+          ],
+          "dimensions_m": [
+            0.256,
+            0.0,
+            0.144
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "uv_layers": [
+            "ScreenshotUV"
+          ],
+          "materials": [
+            "M_UI_Thumbnail_SLOT"
+          ]
+        },
+        {
+          "name": "ThumbnailCard_01",
+          "parent": "FFV2_Workbench",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            1.048,
+            0.005,
+            1.405
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Thumbnail_Backing.001",
+          "parent": "ThumbnailCard_01",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            -0.008,
+            0.0
+          ],
+          "dimensions_m": [
+            0.27,
+            0.012,
+            0.152
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "UI_Thumbnail_01",
+          "parent": "ThumbnailCard_01",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.002,
+            0.0
+          ],
+          "dimensions_m": [
+            0.256,
+            0.0,
+            0.144
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "uv_layers": [
+            "ScreenshotUV"
+          ],
+          "materials": [
+            "M_UI_Thumbnail_SLOT"
+          ]
+        },
+        {
+          "name": "ThumbnailCard_02",
+          "parent": "FFV2_Workbench",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            1.048,
+            0.005,
+            1.21
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Thumbnail_Backing.002",
+          "parent": "ThumbnailCard_02",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            -0.008,
+            0.0
+          ],
+          "dimensions_m": [
+            0.27,
+            0.012,
+            0.152
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "UI_Thumbnail_02",
+          "parent": "ThumbnailCard_02",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.002,
+            0.0
+          ],
+          "dimensions_m": [
+            0.256,
+            0.0,
+            0.144
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "uv_layers": [
+            "ScreenshotUV"
+          ],
+          "materials": [
+            "M_UI_Thumbnail_SLOT"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fullfilm_v2_scene_block",
+      "root": "FFV2_SceneBlock",
+      "files": [
+        "fullfilm_v2_scene_block.blend",
+        "fullfilm_v2_scene_block.fbx",
+        "fullfilm_v2_scene_block.glb"
+      ],
+      "mesh_count": 80,
+      "triangles": 17502,
+      "vertices": 9008,
+      "objects": [
+        {
+          "name": "FFV2_SceneBlock",
+          "parent": null,
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "BranchCanopy",
+          "parent": "FFV2_SceneBlock",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.95,
+            -0.35,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Canopy_FoldedLeaf_00",
+          "parent": "BranchCanopy",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.815117,
+            1.65917,
+            0.425
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 8,
+          "triangles": 12,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_CanopyLeaf"
+          ]
+        },
+        {
+          "name": "Canopy_FoldedLeaf_01",
+          "parent": "BranchCanopy",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.715117,
+            1.65917,
+            0.425
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 8,
+          "triangles": 12,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_CanopySage"
+          ]
+        },
+        {
+          "name": "Canopy_FoldedLeaf_02",
+          "parent": "BranchCanopy",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.615116,
+            1.65917,
+            0.425
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 8,
+          "triangles": 12,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_CanopyLeaf"
+          ]
+        },
+        {
+          "name": "Canopy_FoldedLeaf_03",
+          "parent": "BranchCanopy",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.615116,
+            1.65917,
+            0.425
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 8,
+          "triangles": 12,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_CanopySage"
+          ]
+        },
+        {
+          "name": "Canopy_FoldedLeaf_04",
+          "parent": "BranchCanopy",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.715117,
+            1.65917,
+            0.425
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 8,
+          "triangles": 12,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_CanopyLeaf"
+          ]
+        },
+        {
+          "name": "Canopy_FoldedLeaf_05",
+          "parent": "BranchCanopy",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.815117,
+            1.65917,
+            0.425
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 8,
+          "triangles": 12,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_CanopySage"
+          ]
+        },
+        {
+          "name": "Canopy_Trunk",
+          "parent": "BranchCanopy",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.08,
+            0.01,
+            1.215
+          ],
+          "dimensions_m": [
+            0.24,
+            0.24,
+            2.335573
+          ],
+          "rotation_euler_deg": [
+            3.9588,
+            -0.0,
+            -97.125
+          ],
+          "vertices": 72,
+          "triangles": 140,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "CanopyBranch_00",
+          "parent": "BranchCanopy",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.655349,
+            0.146022,
+            2.255
+          ],
+          "dimensions_m": [
+            0.09891,
+            0.103457,
+            1.848589
+          ],
+          "rotation_euler_deg": [
+            59.7956,
+            0.0,
+            100.5329
+          ],
+          "vertices": 140,
+          "triangles": 276,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "CanopyBranch_01",
+          "parent": "BranchCanopy",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.168716,
+            0.696851,
+            2.355
+          ],
+          "dimensions_m": [
+            0.09891,
+            0.103457,
+            1.891093
+          ],
+          "rotation_euler_deg": [
+            53.3062,
+            0.0,
+            156.7969
+          ],
+          "vertices": 140,
+          "triangles": 276,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "CanopyBranch_02",
+          "parent": "BranchCanopy",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.551633,
+            0.550829,
+            2.255
+          ],
+          "dimensions_m": [
+            0.09891,
+            0.103457,
+            1.670225
+          ],
+          "rotation_euler_deg": [
+            56.1644,
+            -0.0,
+            -142.5677
+          ],
+          "vertices": 140,
+          "triangles": 276,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "CanopyBranch_03",
+          "parent": "BranchCanopy",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.785349,
+            -0.146022,
+            2.355
+          ],
+          "dimensions_m": [
+            0.09891,
+            0.103457,
+            1.755027
+          ],
+          "rotation_euler_deg": [
+            49.9194,
+            0.0,
+            -77.4388
+          ],
+          "vertices": 140,
+          "triangles": 276,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "CanopyBranch_04",
+          "parent": "BranchCanopy",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.298716,
+            -0.696851,
+            2.255
+          ],
+          "dimensions_m": [
+            0.09891,
+            0.103457,
+            1.709142
+          ],
+          "rotation_euler_deg": [
+            57.0346,
+            0.0,
+            -13.6101
+          ],
+          "vertices": 140,
+          "triangles": 276,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "CanopyBranch_05",
+          "parent": "BranchCanopy",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.421633,
+            -0.550829,
+            2.355
+          ],
+          "dimensions_m": [
+            0.09891,
+            0.103457,
+            1.925552
+          ],
+          "rotation_euler_deg": [
+            54.0666,
+            -0.0,
+            45.0418
+          ],
+          "vertices": 140,
+          "triangles": 276,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "BridgeWalkway",
+          "parent": "FFV2_SceneBlock",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            0.15,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Bridge_26DeckBoards",
+          "parent": "BridgeWalkway",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            -3.03,
+            0.269
+          ],
+          "dimensions_m": [
+            1.46,
+            6.28,
+            0.085
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 1456,
+          "triangles": 2808,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Walnut"
+          ]
+        },
+        {
+          "name": "Bridge_Handrail",
+          "parent": "BridgeWalkway",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.71,
+            -2.64,
+            1.12
+          ],
+          "dimensions_m": [
+            0.062,
+            0.062,
+            0.92
+          ],
+          "rotation_euler_deg": [
+            -90.0,
+            -180.0,
+            -0.0
+          ],
+          "vertices": 72,
+          "triangles": 140,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_AnodisedWarmSilver"
+          ]
+        },
+        {
+          "name": "Bridge_Handrail.001",
+          "parent": "BridgeWalkway",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.71,
+            2.1,
+            1.12
+          ],
+          "dimensions_m": [
+            0.062,
+            0.062,
+            2.0
+          ],
+          "rotation_euler_deg": [
+            -90.0,
+            -180.0,
+            -0.0
+          ],
+          "vertices": 72,
+          "triangles": 140,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_AnodisedWarmSilver"
+          ]
+        },
+        {
+          "name": "Bridge_Handrail.002",
+          "parent": "BridgeWalkway",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.71,
+            -2.64,
+            1.12
+          ],
+          "dimensions_m": [
+            0.062,
+            0.062,
+            0.92
+          ],
+          "rotation_euler_deg": [
+            -90.0,
+            -180.0,
+            -0.0
+          ],
+          "vertices": 72,
+          "triangles": 140,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_AnodisedWarmSilver"
+          ]
+        },
+        {
+          "name": "Bridge_Handrail.003",
+          "parent": "BridgeWalkway",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.71,
+            2.1,
+            1.12
+          ],
+          "dimensions_m": [
+            0.062,
+            0.062,
+            2.0
+          ],
+          "rotation_euler_deg": [
+            -90.0,
+            -180.0,
+            -0.0
+          ],
+          "vertices": 72,
+          "triangles": 140,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_AnodisedWarmSilver"
+          ]
+        },
+        {
+          "name": "Bridge_LongitudinalBeam_L",
+          "parent": "BridgeWalkway",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.65,
+            0.0,
+            0.14
+          ],
+          "dimensions_m": [
+            0.13,
+            6.35,
+            0.19
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "Bridge_LongitudinalBeam_R",
+          "parent": "BridgeWalkway",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.65,
+            0.0,
+            0.14
+          ],
+          "dimensions_m": [
+            0.13,
+            6.35,
+            0.19
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "Bridge_Post",
+          "parent": "BridgeWalkway",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.71,
+            -2.58,
+            0.69
+          ],
+          "dimensions_m": [
+            0.065,
+            0.065,
+            0.93
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "Bridge_Post.001",
+          "parent": "BridgeWalkway",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.71,
+            1.5,
+            0.69
+          ],
+          "dimensions_m": [
+            0.065,
+            0.065,
+            0.93
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "Bridge_Post.002",
+          "parent": "BridgeWalkway",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.71,
+            2.58,
+            0.69
+          ],
+          "dimensions_m": [
+            0.065,
+            0.065,
+            0.93
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "Bridge_Post.003",
+          "parent": "BridgeWalkway",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.71,
+            -2.58,
+            0.69
+          ],
+          "dimensions_m": [
+            0.065,
+            0.065,
+            0.93
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "Bridge_Post.004",
+          "parent": "BridgeWalkway",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.71,
+            1.5,
+            0.69
+          ],
+          "dimensions_m": [
+            0.065,
+            0.065,
+            0.93
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "Bridge_Post.005",
+          "parent": "BridgeWalkway",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.71,
+            2.58,
+            0.69
+          ],
+          "dimensions_m": [
+            0.065,
+            0.065,
+            0.93
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "Canopy_Planter",
+          "parent": "FFV2_SceneBlock",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.95,
+            -0.35,
+            0.16
+          ],
+          "dimensions_m": [
+            0.82,
+            0.82,
+            0.32
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 96,
+          "triangles": 188,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Terracotta"
+          ]
+        },
+        {
+          "name": "CommunityPanel",
+          "parent": "FFV2_SceneBlock",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            -2.06,
+            -1.18,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            -18.0
+          ]
+        },
+        {
+          "name": "Panel_Post",
+          "parent": "CommunityPanel",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.43,
+            0.0,
+            0.84
+          ],
+          "dimensions_m": [
+            0.055,
+            0.07,
+            1.68
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "Panel_Post.001",
+          "parent": "CommunityPanel",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.43,
+            0.0,
+            0.84
+          ],
+          "dimensions_m": [
+            0.055,
+            0.07,
+            1.68
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "WorldNotice",
+          "parent": "CommunityPanel",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            0.035,
+            1.35
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "UI_WorldNotice",
+          "parent": "WorldNotice",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.011,
+            0.0
+          ],
+          "dimensions_m": [
+            0.92,
+            0.0,
+            0.52
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "uv_layers": [
+            "ScreenshotUV"
+          ],
+          "materials": [
+            "M_UI_Thumbnail_SLOT"
+          ]
+        },
+        {
+          "name": "WorldNotice_Backplate",
+          "parent": "WorldNotice",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            -0.033,
+            0.0
+          ],
+          "dimensions_m": [
+            0.932,
+            0.016,
+            0.532
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "WorldNotice_Perimeter",
+          "parent": "WorldNotice",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.469,
+            -0.013,
+            0.0
+          ],
+          "dimensions_m": [
+            0.956,
+            0.044,
+            0.556
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 224,
+          "triangles": 432,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_AnodisedWarmSilver"
+          ]
+        },
+        {
+          "name": "Gateway",
+          "parent": "FFV2_SceneBlock",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            -1.7,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Gateway_ArchRib",
+          "parent": "Gateway",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            3.87,
+            0.32,
+            1.935
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 116,
+          "triangles": 228,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_CreamConcrete"
+          ]
+        },
+        {
+          "name": "Gateway_InsetJadeStrip",
+          "parent": "Gateway",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -1.775,
+            0.164,
+            0.8125
+          ],
+          "dimensions_m": [
+            0.048,
+            0.012,
+            1.34875
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_JadeAccent"
+          ]
+        },
+        {
+          "name": "Gateway_InsetJadeStrip.001",
+          "parent": "Gateway",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            1.775,
+            0.164,
+            0.8125
+          ],
+          "dimensions_m": [
+            0.048,
+            0.012,
+            1.34875
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_JadeAccent"
+          ]
+        },
+        {
+          "name": "Gateway_Jamb",
+          "parent": "Gateway",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -1.775,
+            0.0,
+            0.8125
+          ],
+          "dimensions_m": [
+            0.32,
+            0.32,
+            1.625
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_CreamConcrete"
+          ]
+        },
+        {
+          "name": "Gateway_Jamb.001",
+          "parent": "Gateway",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            1.775,
+            0.0,
+            0.8125
+          ],
+          "dimensions_m": [
+            0.32,
+            0.32,
+            1.625
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_CreamConcrete"
+          ]
+        },
+        {
+          "name": "Gateway_StoneShoe",
+          "parent": "Gateway",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -1.775,
+            0.0,
+            0.11
+          ],
+          "dimensions_m": [
+            0.46,
+            0.46,
+            0.22
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Sandstone"
+          ]
+        },
+        {
+          "name": "Gateway_StoneShoe.001",
+          "parent": "Gateway",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            1.775,
+            0.0,
+            0.11
+          ],
+          "dimensions_m": [
+            0.46,
+            0.46,
+            0.22
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Sandstone"
+          ]
+        },
+        {
+          "name": "PathLight_00",
+          "parent": "FFV2_SceneBlock",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            -0.99,
+            2.9,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "PathLight_Cap",
+          "parent": "PathLight_00",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.63
+          ],
+          "dimensions_m": [
+            0.2,
+            0.2,
+            0.035
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 96,
+          "triangles": 188,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_ChampagneEdge"
+          ]
+        },
+        {
+          "name": "PathLight_Diffuser",
+          "parent": "PathLight_00",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.56
+          ],
+          "dimensions_m": [
+            0.15,
+            0.15,
+            0.11
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 96,
+          "triangles": 188,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_KeysIvory"
+          ]
+        },
+        {
+          "name": "PathLight_Stem",
+          "parent": "PathLight_00",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.31
+          ],
+          "dimensions_m": [
+            0.09,
+            0.09,
+            0.62
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 96,
+          "triangles": 188,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "PathLight_01",
+          "parent": "FFV2_SceneBlock",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.99,
+            2.9,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "PathLight_Cap.001",
+          "parent": "PathLight_01",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.63
+          ],
+          "dimensions_m": [
+            0.2,
+            0.2,
+            0.035
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 96,
+          "triangles": 188,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_ChampagneEdge"
+          ]
+        },
+        {
+          "name": "PathLight_Diffuser.001",
+          "parent": "PathLight_01",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.56
+          ],
+          "dimensions_m": [
+            0.15,
+            0.15,
+            0.11
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 96,
+          "triangles": 188,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_KeysIvory"
+          ]
+        },
+        {
+          "name": "PathLight_Stem.001",
+          "parent": "PathLight_01",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.31
+          ],
+          "dimensions_m": [
+            0.09,
+            0.09,
+            0.62
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 96,
+          "triangles": 188,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "PathLight_02",
+          "parent": "FFV2_SceneBlock",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            -1.02,
+            -2.88,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "PathLight_Cap.002",
+          "parent": "PathLight_02",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.63
+          ],
+          "dimensions_m": [
+            0.2,
+            0.2,
+            0.035
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 96,
+          "triangles": 188,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_ChampagneEdge"
+          ]
+        },
+        {
+          "name": "PathLight_Diffuser.002",
+          "parent": "PathLight_02",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.56
+          ],
+          "dimensions_m": [
+            0.15,
+            0.15,
+            0.11
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 96,
+          "triangles": 188,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_KeysIvory"
+          ]
+        },
+        {
+          "name": "PathLight_Stem.002",
+          "parent": "PathLight_02",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.31
+          ],
+          "dimensions_m": [
+            0.09,
+            0.09,
+            0.62
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 96,
+          "triangles": 188,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "PathLight_03",
+          "parent": "FFV2_SceneBlock",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            1.02,
+            -2.88,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "PathLight_Cap.003",
+          "parent": "PathLight_03",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.63
+          ],
+          "dimensions_m": [
+            0.2,
+            0.2,
+            0.035
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 96,
+          "triangles": 188,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_ChampagneEdge"
+          ]
+        },
+        {
+          "name": "PathLight_Diffuser.003",
+          "parent": "PathLight_03",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.56
+          ],
+          "dimensions_m": [
+            0.15,
+            0.15,
+            0.11
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 96,
+          "triangles": 188,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_KeysIvory"
+          ]
+        },
+        {
+          "name": "PathLight_Stem.003",
+          "parent": "PathLight_03",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.31
+          ],
+          "dimensions_m": [
+            0.09,
+            0.09,
+            0.62
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 96,
+          "triangles": 188,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "PlazaFoundation",
+          "parent": "FFV2_SceneBlock",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Plaza_DeckPlankJoints",
+          "parent": "PlazaFoundation",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            -3.0,
+            0.022
+          ],
+          "dimensions_m": [
+            7.24,
+            6.012,
+            0.005
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 1176,
+          "triangles": 2268,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Rubber"
+          ]
+        },
+        {
+          "name": "Plaza_InnerStoneBorder",
+          "parent": "PlazaFoundation",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            3.82,
+            3.82,
+            0.035
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 260,
+          "triangles": 516,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_CreamConcrete"
+          ]
+        },
+        {
+          "name": "Plaza_InsetOuterBand",
+          "parent": "PlazaFoundation",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            7.125,
+            7.125,
+            0.006
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 260,
+          "triangles": 516,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_ChampagneEdge"
+          ]
+        },
+        {
+          "name": "Plaza_LowerStoneDisk",
+          "parent": "PlazaFoundation",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            -0.15
+          ],
+          "dimensions_m": [
+            7.8,
+            7.8,
+            0.25
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 384,
+          "triangles": 764,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Sandstone"
+          ]
+        },
+        {
+          "name": "Plaza_UpperDeck",
+          "parent": "PlazaFoundation",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            -0.025
+          ],
+          "dimensions_m": [
+            7.44,
+            7.44,
+            0.08
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 384,
+          "triangles": 764,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Walnut"
+          ]
+        },
+        {
+          "name": "RingSeating",
+          "parent": "FFV2_SceneBlock",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Bench_00_BackRail",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.958378,
+            2.145329,
+            0.09
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 52,
+          "triangles": 100,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "Bench_00_SeatSlats",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.351885,
+            2.156562,
+            0.075
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 52,
+          "triangles": 100,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_Walnut"
+          ]
+        },
+        {
+          "name": "Bench_00_StoneBase",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.284611,
+            2.126609,
+            0.31
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 52,
+          "triangles": 100,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_Sandstone"
+          ]
+        },
+        {
+          "name": "Bench_01_BackRail",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.137247,
+            2.062681,
+            0.09
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 52,
+          "triangles": 100,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "Bench_01_SeatSlats",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.493903,
+            2.113216,
+            0.075
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 52,
+          "triangles": 100,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_Walnut"
+          ]
+        },
+        {
+          "name": "Bench_01_StoneBase",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.429374,
+            2.078906,
+            0.31
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 52,
+          "triangles": 100,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_Sandstone"
+          ]
+        },
+        {
+          "name": "Bench_02_BackRail",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.137247,
+            2.062681,
+            0.09
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 52,
+          "triangles": 100,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "Bench_02_SeatSlats",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.493903,
+            2.113216,
+            0.075
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 52,
+          "triangles": 100,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_Walnut"
+          ]
+        },
+        {
+          "name": "Bench_02_StoneBase",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.429374,
+            2.078906,
+            0.31
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 52,
+          "triangles": 100,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_Sandstone"
+          ]
+        },
+        {
+          "name": "Bench_03_BackRail",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.958378,
+            2.145329,
+            0.09
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 52,
+          "triangles": 100,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "Bench_03_SeatSlats",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.351885,
+            2.156562,
+            0.075
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 52,
+          "triangles": 100,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_Walnut"
+          ]
+        },
+        {
+          "name": "Bench_03_StoneBase",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.284611,
+            2.126609,
+            0.31
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 52,
+          "triangles": 100,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_Sandstone"
+          ]
+        },
+        {
+          "name": "BenchBackSupport",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            2.069731,
+            1.930055,
+            0.59
+          ],
+          "dimensions_m": [
+            0.045,
+            0.045,
+            0.42
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "BenchBackSupport.001",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            2.605029,
+            1.105769,
+            0.59
+          ],
+          "dimensions_m": [
+            0.045,
+            0.045,
+            0.42
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "BenchBackSupport.002",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            2.826122,
+            0.148111,
+            0.59
+          ],
+          "dimensions_m": [
+            0.045,
+            0.045,
+            0.42
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "BenchBackSupport.003",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            2.802459,
+            -0.39386,
+            0.59
+          ],
+          "dimensions_m": [
+            0.045,
+            0.045,
+            0.42
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "BenchBackSupport.004",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            2.498742,
+            -1.328605,
+            0.59
+          ],
+          "dimensions_m": [
+            0.045,
+            0.045,
+            0.42
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "BenchBackSupport.005",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            1.89364,
+            -2.1031,
+            0.59
+          ],
+          "dimensions_m": [
+            0.045,
+            0.045,
+            0.42
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "BenchBackSupport.006",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -1.89364,
+            -2.1031,
+            0.59
+          ],
+          "dimensions_m": [
+            0.045,
+            0.045,
+            0.42
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "BenchBackSupport.007",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -2.498742,
+            -1.328605,
+            0.59
+          ],
+          "dimensions_m": [
+            0.045,
+            0.045,
+            0.42
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "BenchBackSupport.008",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -2.802459,
+            -0.39386,
+            0.59
+          ],
+          "dimensions_m": [
+            0.045,
+            0.045,
+            0.42
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "BenchBackSupport.009",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -2.826122,
+            0.148111,
+            0.59
+          ],
+          "dimensions_m": [
+            0.045,
+            0.045,
+            0.42
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "BenchBackSupport.010",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -2.605029,
+            1.105769,
+            0.59
+          ],
+          "dimensions_m": [
+            0.045,
+            0.045,
+            0.42
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "BenchBackSupport.011",
+          "parent": "RingSeating",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -2.069731,
+            1.930055,
+            0.59
+          ],
+          "dimensions_m": [
+            0.045,
+            0.045,
+            0.42
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fullfilm_v2_hub_detail_kit",
+      "root": "FFV2_HubDetailKit",
+      "files": [
+        "fullfilm_v2_hub_detail_kit.blend",
+        "fullfilm_v2_hub_detail_kit.fbx",
+        "fullfilm_v2_hub_detail_kit.glb"
+      ],
+      "mesh_count": 26,
+      "triangles": 3218,
+      "vertices": 1664,
+      "objects": [
+        {
+          "name": "FFV2_HubDetailKit",
+          "parent": null,
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "HubCategorySign",
+          "parent": "FFV2_HubDetailKit",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            3.12
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "HubSign_Body",
+          "parent": "HubCategorySign",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            2.38,
+            0.18,
+            0.34
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "UI_HubSign",
+          "parent": "HubCategorySign",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.095,
+            0.0
+          ],
+          "dimensions_m": [
+            2.18,
+            0.0,
+            0.25
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 4,
+          "triangles": 2,
+          "uv_layers": [
+            "ScreenshotUV"
+          ],
+          "materials": [
+            "M_UI_Thumbnail_SLOT"
+          ]
+        },
+        {
+          "name": "HubConversationBench",
+          "parent": "FFV2_HubDetailKit",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            3.1,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "HubBench_BackSlat",
+          "parent": "HubConversationBench",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            -0.33,
+            0.77
+          ],
+          "dimensions_m": [
+            1.94,
+            0.065,
+            0.13
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "HubBench_BackSlat.001",
+          "parent": "HubConversationBench",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            -0.33,
+            0.95
+          ],
+          "dimensions_m": [
+            1.94,
+            0.065,
+            0.13
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "HubBench_StoneSupport",
+          "parent": "HubConversationBench",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.69,
+            0.0,
+            0.21
+          ],
+          "dimensions_m": [
+            0.24,
+            0.6,
+            0.42
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Sandstone"
+          ]
+        },
+        {
+          "name": "HubBench_StoneSupport.001",
+          "parent": "HubConversationBench",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.69,
+            0.0,
+            0.21
+          ],
+          "dimensions_m": [
+            0.24,
+            0.6,
+            0.42
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Sandstone"
+          ]
+        },
+        {
+          "name": "HubBench_TopSlat",
+          "parent": "HubConversationBench",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            -0.22,
+            0.46
+          ],
+          "dimensions_m": [
+            1.94,
+            0.13,
+            0.075
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Walnut"
+          ]
+        },
+        {
+          "name": "HubBench_TopSlat.001",
+          "parent": "HubConversationBench",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            -0.075,
+            0.46
+          ],
+          "dimensions_m": [
+            1.94,
+            0.13,
+            0.075
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Walnut"
+          ]
+        },
+        {
+          "name": "HubBench_TopSlat.002",
+          "parent": "HubConversationBench",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.07,
+            0.46
+          ],
+          "dimensions_m": [
+            1.94,
+            0.13,
+            0.075
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Walnut"
+          ]
+        },
+        {
+          "name": "HubBench_TopSlat.003",
+          "parent": "HubConversationBench",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.215,
+            0.46
+          ],
+          "dimensions_m": [
+            1.94,
+            0.13,
+            0.075
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Walnut"
+          ]
+        },
+        {
+          "name": "HubBenchBackSupport",
+          "parent": "HubConversationBench",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.83,
+            -0.315,
+            0.72
+          ],
+          "dimensions_m": [
+            0.054,
+            0.054,
+            0.643817
+          ],
+          "rotation_euler_deg": [
+            6.242,
+            -0.0,
+            0.0
+          ],
+          "vertices": 72,
+          "triangles": 140,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "HubBenchBackSupport.001",
+          "parent": "HubConversationBench",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.83,
+            -0.315,
+            0.72
+          ],
+          "dimensions_m": [
+            0.054,
+            0.054,
+            0.643817
+          ],
+          "rotation_euler_deg": [
+            6.242,
+            -0.0,
+            0.0
+          ],
+          "vertices": 72,
+          "triangles": 140,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "HubEntrance",
+          "parent": "FFV2_HubDetailKit",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "HubEntrance_ArchRib",
+          "parent": "HubEntrance",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            2.62,
+            0.32,
+            1.31
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 116,
+          "triangles": 228,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_CreamConcrete"
+          ]
+        },
+        {
+          "name": "HubEntrance_InsetJadeStrip",
+          "parent": "HubEntrance",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -1.15,
+            0.164,
+            0.85
+          ],
+          "dimensions_m": [
+            0.048,
+            0.012,
+            1.411
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_JadeAccent"
+          ]
+        },
+        {
+          "name": "HubEntrance_InsetJadeStrip.001",
+          "parent": "HubEntrance",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            1.15,
+            0.164,
+            0.85
+          ],
+          "dimensions_m": [
+            0.048,
+            0.012,
+            1.411
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_JadeAccent"
+          ]
+        },
+        {
+          "name": "HubEntrance_Jamb",
+          "parent": "HubEntrance",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -1.15,
+            0.0,
+            0.85
+          ],
+          "dimensions_m": [
+            0.32,
+            0.32,
+            1.7
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_CreamConcrete"
+          ]
+        },
+        {
+          "name": "HubEntrance_Jamb.001",
+          "parent": "HubEntrance",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            1.15,
+            0.0,
+            0.85
+          ],
+          "dimensions_m": [
+            0.32,
+            0.32,
+            1.7
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_CreamConcrete"
+          ]
+        },
+        {
+          "name": "HubEntrance_StoneShoe",
+          "parent": "HubEntrance",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -1.15,
+            0.0,
+            0.11
+          ],
+          "dimensions_m": [
+            0.46,
+            0.46,
+            0.22
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Sandstone"
+          ]
+        },
+        {
+          "name": "HubEntrance_StoneShoe.001",
+          "parent": "HubEntrance",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            1.15,
+            0.0,
+            0.11
+          ],
+          "dimensions_m": [
+            0.46,
+            0.46,
+            0.22
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Sandstone"
+          ]
+        },
+        {
+          "name": "HubEntrance_Threshold",
+          "parent": "FFV2_HubDetailKit",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.08,
+            0.045
+          ],
+          "dimensions_m": [
+            2.63,
+            0.74,
+            0.09
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Sandstone"
+          ]
+        },
+        {
+          "name": "HubTimberPostDetail",
+          "parent": "FFV2_HubDetailKit",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            -2.35,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "HubPost_Capital",
+          "parent": "HubTimberPostDetail",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            3.15
+          ],
+          "dimensions_m": [
+            0.7,
+            0.56,
+            0.16
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "HubPost_KneeBrace_L",
+          "parent": "HubTimberPostDetail",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.35,
+            0.0,
+            2.825
+          ],
+          "dimensions_m": [
+            0.115327,
+            0.115327,
+            0.915478
+          ],
+          "rotation_euler_deg": [
+            49.8739,
+            -0.0,
+            -90.0
+          ],
+          "vertices": 112,
+          "triangles": 220,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "HubPost_KneeBrace_R",
+          "parent": "HubTimberPostDetail",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.35,
+            0.0,
+            2.825
+          ],
+          "dimensions_m": [
+            0.115327,
+            0.115327,
+            0.915478
+          ],
+          "rotation_euler_deg": [
+            49.8739,
+            0.0,
+            90.0
+          ],
+          "vertices": 112,
+          "triangles": 220,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Endgrain"
+          ]
+        },
+        {
+          "name": "HubPost_MetalStraps",
+          "parent": "HubTimberPostDetail",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.37
+          ],
+          "dimensions_m": [
+            0.35,
+            0.35,
+            2.675
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 112,
+          "triangles": 216,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_GraphitePowderCoat"
+          ]
+        },
+        {
+          "name": "HubPost_StoneShoe",
+          "parent": "HubTimberPostDetail",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.14
+          ],
+          "dimensions_m": [
+            0.61,
+            0.61,
+            0.28
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Sandstone"
+          ]
+        },
+        {
+          "name": "HubPost_Timber",
+          "parent": "HubTimberPostDetail",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            1.66
+          ],
+          "dimensions_m": [
+            0.32,
+            0.32,
+            3.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 56,
+          "triangles": 108,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_Walnut"
+          ]
+        }
+      ]
+    }
+  ],
+  "ui_slots": [
+    {
+      "object": "UI_Main_16x9",
+      "material": "M_UI_MainScreenshot_SLOT",
+      "size_m": [
+        1.28,
+        0.72
+      ],
+      "aspect": 1.7777777777777777,
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "front_blender": [
+        0,
+        1,
+        0
+      ],
+      "screenshot_status": "unbound_real_capture_required"
+    },
+    {
+      "object": "UI_LeftHierarchy",
+      "material": "M_UI_LeftHierarchy_SLOT",
+      "size_m": [
+        0.44,
+        0.7
+      ],
+      "aspect": 0.6285714285714287,
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "front_blender": [
+        0,
+        1,
+        0
+      ],
+      "screenshot_status": "unbound_real_capture_required"
+    },
+    {
+      "object": "UI_RightAssets",
+      "material": "M_UI_RightAssets_SLOT",
+      "size_m": [
+        0.46,
+        0.7
+      ],
+      "aspect": 0.6571428571428573,
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "front_blender": [
+        0,
+        1,
+        0
+      ],
+      "screenshot_status": "unbound_real_capture_required"
+    },
+    {
+      "object": "UI_Timeline",
+      "material": "M_UI_Timeline_SLOT",
+      "size_m": [
+        1.2,
+        0.14
+      ],
+      "aspect": 8.571428571428571,
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "front_blender": [
+        0,
+        1,
+        0
+      ],
+      "screenshot_status": "unbound_real_capture_required"
+    },
+    {
+      "object": "UI_Thumbnail_00",
+      "material": "M_UI_Thumbnail_SLOT",
+      "size_m": [
+        0.256,
+        0.144
+      ],
+      "aspect": 1.7777777777777777,
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "front_blender": [
+        0,
+        1,
+        0
+      ],
+      "screenshot_status": "unbound_real_capture_required"
+    },
+    {
+      "object": "UI_Thumbnail_01",
+      "material": "M_UI_Thumbnail_SLOT",
+      "size_m": [
+        0.256,
+        0.144
+      ],
+      "aspect": 1.7777777777777777,
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "front_blender": [
+        0,
+        1,
+        0
+      ],
+      "screenshot_status": "unbound_real_capture_required"
+    },
+    {
+      "object": "UI_Thumbnail_02",
+      "material": "M_UI_Thumbnail_SLOT",
+      "size_m": [
+        0.256,
+        0.144
+      ],
+      "aspect": 1.7777777777777777,
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "front_blender": [
+        0,
+        1,
+        0
+      ],
+      "screenshot_status": "unbound_real_capture_required"
+    },
+    {
+      "object": "UI_WorldNotice",
+      "material": "M_UI_Thumbnail_SLOT",
+      "size_m": [
+        0.92,
+        0.52
+      ],
+      "aspect": 1.7692307692307692,
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "front_blender": [
+        0,
+        1,
+        0
+      ],
+      "screenshot_status": "unbound_real_capture_required"
+    },
+    {
+      "object": "UI_HubSign",
+      "material": "M_UI_Thumbnail_SLOT",
+      "size_m": [
+        2.18,
+        0.25
+      ],
+      "aspect": 8.72,
+      "uv": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "front_blender": [
+        0,
+        1,
+        0
+      ],
+      "screenshot_status": "unbound_real_capture_required"
+    }
+  ]
+}

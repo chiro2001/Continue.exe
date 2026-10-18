@@ -1,0 +1,61 @@
+{
+  "schema": "fullfilm-v5-curation.1",
+  "basis": "data/fullfilm-v5-material-audit.json",
+  "decisions": [
+    {
+      "asset": "manga translation and lettering states",
+      "action": "keep",
+      "seconds": [
+        30.72,
+        40.96
+      ],
+      "reason": "Newly authored worked example of translation, clearing and lettering."
+    },
+    {
+      "asset": "neon animation sheet",
+      "action": "move",
+      "seconds": [
+        202.24,
+        207.36
+      ],
+      "reason": "Contemporary animation example beside actual production software."
+    },
+    {
+      "asset": "game localization pair",
+      "action": "exclude_from_film",
+      "seconds": [],
+      "reason": "2026-10-18 user review: the translation pair distracts beside the final production computer; retain the Unity workflow instead."
+    },
+    {
+      "asset": "ornate mock homepage",
+      "action": "exclude_from_film",
+      "reason": "Its modern illustration and page chrome compete with more convincing original web pages."
+    },
+    {
+      "asset": "AI cat reaction cards",
+      "action": "retain_selected_late_only",
+      "indices": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seconds": [
+        235.52,
+        249.6
+      ],
+      "reason": "Retain as newly made celebration stickers; use authentic forum/Tieba sets for history and the middle overload."
+    },
+    {
+      "asset": "creator still life and garden concept",
+      "action": "keep_in_modern_making",
+      "seconds": [
+        197.12,
+        212.48
+      ],
+      "reason": "Creative examples alongside genuine software captures; concept is not a claimed screenshot of the built world."
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "schema": "oldwebmap.v4.operations.1",
+  "duration": 133.12,
+  "scene": "Assets/Scenes/OWM_Episode123_v4.unity",
+  "asset_root": "Assets/OldWebMap/Episode123/Revision4/Operations",
+  "world_parent": "OWV4Journey.worldFrame",
+  "audio_note_source": "data/episode123-audio.json",
+  "audio_source_sha256": "cceab5e9904fa892e1fe4ad4d657e8b9ba36e03bb916093843c4059b5012c962",
+  "image_sources": [
+    {
+      "id": "windows98-se-explorer",
+      "path": "Assets/OldWebMap/Episode123/Revision3/Images/windows98-se-explorer.png",
+      "software_version": "Windows 98 SE",
+      "depicted_era": "1998",
+      "capture_date": null,
+      "nature": "later virtual-machine screenshot; same read-only V3 texture",
+      "source_url": "https://archive.org/details/windows-98-32-bit",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "id": "aegisub-translation-assistant-doc",
+      "path": "Assets/OldWebMap/Episode123/Revision3/Images/aegisub-translation-assistant-doc.png",
+      "software_version": "Aegisub 3.2 family",
+      "depicted_era": "2014 release family",
+      "capture_date": null,
+      "nature": "official 3.2 documentation screenshot, capture date not asserted; native waveform/timeline and text editing reconstructed",
+      "source_url": "https://aegisub.org/docs/latest/translation_assistant/",
+      "version_evidence": "https://aegisub.org/img/3.2/Translation_Assistant.png",
+      "width": 383,
+      "height": 546
+    }
+  ],
+  "groups": [
+    {
+      "id": "explorer",
+      "start": 10.24,
+      "end": 20.48,
+      "region": 0,
+      "nature": "real Windows 98 screenshot sections plus original README working document",
+      "readme_title": "README.TXT — 记事本",
+      "readme_content": "使用说明\n谢谢你的分享。\n记得保留作者署名。\n如果遇到问题，欢迎回来交流。",
+      "select": 11.52,
+      "drag_start": 12.8,
+      "drag_end": 15.36,
+      "open": 15.56,
+      "type_start": 16.64,
+      "completed": 18.88
+    },
+    {
+      "id": "torrent",
+      "start": 40.96,
+      "end": 51.2,
+      "region": 0,
+      "nature": "native visual reconstruction of BitTorrent piece receive/hash/seed workflow; no real network transfer",
+      "filename": "我们的短片.mkv",
+      "pieces": 16,
+      "complete_at": 47.36,
+      "seed_at": 48.0,
+      "receive_selection": "Re-selected from the original actual voice note arrays in this absolute interval; nonuniform minimum gaps; not shifted V3 timestamps",
+      "receive": [
+        {
+          "piece": 0,
+          "time": 40.96,
+          "channel": 0,
+          "note_index": 53,
+          "source_node": 0,
+          "travel": 0.48,
+          "arrival": 41.44
+        },
+        {
+          "piece": 1,
+          "time": 41.12,
+          "channel": 2,
+          "note_index": 99,
+          "source_node": 1,
+          "travel": 0.56,
+          "arrival": 41.68
+        },
+        {
+          "piece": 2,
+          "time": 41.44,
+          "channel": 2,
+          "note_index": 101,
+          "source_node": 2,
+          "travel": 0.64,
+          "arrival": 42.08
+        },
+        {
+          "piece": 3,
+          "time": 41.92,
+          "channel": 3,
+          "note_index": 81,
+          "source_node": 3,
+          "travel": 0.48,
+          "arrival": 42.4
+        },
+        {
+          "piece": 4,
+          "time": 42.24,
+          "channel": 2,
+          "note_index": 106,
+          "source_node": 1,
+          "travel": 0.56,
+          "arrival": 42.8
+        },
+        {
+          "piece": 5,
+          "time": 42.88,
+          "channel": 2,
+          "note_index": 110,
+          "source_node": 2,
+          "travel": 0.64,
+          "arrival": 43.52
+        },
+        {
+          "piece": 6,
+          "time": 43.04,
+          "channel": 2,
+          "note_index": 111,
+          "source_node": 3,
+          "travel": 0.48,
+          "arrival": 43.52
+        },
+        {
+          "piece": 7,
+          "time": 43.68,
+          "channel": 3,
+          "note_index": 92,
+          "source_node": 0,
+          "travel": 0.48,
+          "arrival": 44.16
+        },
+        {
+          "piece": 8,
+          "time": 44.0,
+          "channel": 0,
+          "note_index": 66,
+          "source_node": 2,
+          "travel": 0.64,
+          "arrival": 44.64
+        },
+        {
+          "piece": 9,
+          "time": 44.16,
+          "channel": 2,
+          "note_index": 118,
+          "source_node": 3,
+          "travel": 0.48,
+          "arrival": 44.64
+        },
+        {
+          "piece": 10,
+          "time": 44.48,
+          "channel": 2,
+          "note_index": 120,
+          "source_node": 0,
+          "travel": 0.48,
+          "arrival": 44.96
+        },
+        {
+          "piece": 11,
+          "time": 44.96,
+          "channel": 3,
+          "note_index": 100,
+          "source_node": 1,
+          "travel": 0.56,
+          "arrival": 45.52
+        },
+        {
+          "piece": 12,
+          "time": 45.28,
+          "channel": 2,
+          "note_index": 125,
+          "source_node": 3,
+          "travel": 0.48,
+          "arrival": 45.76
+        },
+        {
+          "piece": 13,
+          "time": 45.92,
+          "channel": 2,
+          "note_index": 129,
+          "source_node": 0,
+          "travel": 0.48,
+          "arrival": 46.4
+        },
+        {
+          "piece": 14,
+          "time": 46.08,
+          "channel": 2,
+          "note_index": 130,
+          "source_node": 1,
+          "travel": 0.56,
+          "arrival": 46.64
+        },
+        {
+          "piece": 15,
+          "time": 46.72,
+          "channel": 3,
+          "note_index": 111,
+          "source_node": 2,
+          "travel": 0.64,
+          "arrival": 47.36
+        }
+      ],
+      "upload": [
+        {
+          "time": 48.0,
+          "channel": 0,
+          "note_index": 83,
+          "destination_node": 0,
+          "travel": 0.65,
+          "arrival": 48.65
+        },
+        {
+          "time": 48.32,
+          "channel": 0,
+          "note_index": 84,
+          "destination_node": 1,
+          "travel": 0.65,
+          "arrival": 48.97
+        },
+        {
+          "time": 48.64,
+          "channel": 0,
+          "note_index": 86,
+          "destination_node": 2,
+          "travel": 0.65,
+          "arrival": 49.29
+        },
+        {
+          "time": 48.96,
+          "channel": 3,
+          "note_index": 125,
+          "destination_node": 3,
+          "travel": 0.65,
+          "arrival": 49.61
+        },
+        {
+          "time": 49.44,
+          "channel": 3,
+          "note_index": 128,
+          "destination_node": 0,
+          "travel": 0.65,
+          "arrival": 50.09
+        },
+        {
+          "time": 49.76,
+          "channel": 0,
+          "note_index": 91,
+          "destination_node": 1,
+          "travel": 0.65,
+          "arrival": 50.41
+        },
+        {
+          "time": 50.08,
+          "channel": 0,
+          "note_index": 92,
+          "destination_node": 2,
+          "travel": 0.65,
+          "arrival": 50.73
+        },
+        {
+          "time": 50.4,
+          "channel": 3,
+          "note_index": 134,
+          "destination_node": 3,
+          "travel": 0.65,
+          "arrival": 51.05
+        }
+      ],
+      "peer_assignment": "(piece + floor(piece/4)) mod 4: all four peers supply four pieces; the real musical trigger channel is stored separately."
+    },
+    {
+      "id": "subtitles",
+      "start": 61.44,
+      "end": 71.68,
+      "region": 0,
+      "nature": "real Aegisub 3.2 Translation Assistant panels with native audio/timeline editing simulation; dialogue authored for this film, no historical capture claim",
+      "version": "3.2",
+      "line_step": 1.28,
+      "input_step": 0.08,
+      "typo_visible_at": 64.64,
+      "corrected_at": 64.88,
+      "export_at": 70.94,
+      "filename": "movie.zh-cn.ass",
+      "lines": [
+        {
+          "source": "Are you still there?",
+          "translation": "你还在吗？",
+          "corrected": "你还在吗？",
+          "start_time": 61.44,
+          "end_time": 62.72,
+          "timecode": "0:01:01.440 → 0:01:02.720",
+          "corrected_timecode": "0:01:01.440 → 0:01:02.720",
+          "corrected_start_time": 61.44
+        },
+        {
+          "source": "Yes. I kept a copy.",
+          "translation": "在，我留了一份。",
+          "corrected": "在，我留了一份。",
+          "start_time": 62.72,
+          "end_time": 64.0,
+          "timecode": "0:01:02.720 → 0:01:04.000",
+          "corrected_timecode": "0:01:02.720 → 0:01:04.000",
+          "corrected_start_time": 62.72
+        },
+        {
+          "source": "I thought no one would come back.",
+          "translation": "我以为不会有人回耒了。",
+          "corrected": "我以为不会有人回来了。",
+          "start_time": 64.0,
+          "end_time": 65.28,
+          "timecode": "0:01:04.000 → 0:01:05.280",
+          "corrected_timecode": "0:01:04.000 → 0:01:05.280",
+          "corrected_start_time": 64.0
+        },
+        {
+          "source": "Then let's wait a little longer.",
+          "translation": "那就再等一会儿。",
+          "corrected": "那就再等一会儿。",
+          "start_time": 65.28,
+          "end_time": 66.56,
+          "timecode": "0:01:05.280 → 0:01:06.560",
+          "corrected_timecode": "0:01:05.280 → 0:01:06.560",
+          "corrected_start_time": 65.28
+        },
+        {
+          "source": "The light is still on.",
+          "translation": "那盏灯还亮着。",
+          "corrected": "那盏灯还亮着。",
+          "start_time": 66.56,
+          "end_time": 67.84,
+          "timecode": "0:01:06.560 → 0:01:07.840",
+          "corrected_timecode": "0:01:06.560 → 0:01:07.840",
+          "corrected_start_time": 66.56
+        },
+        {
+          "source": "I'll send you the address.",
+          "translation": "我把地址发给你。",
+          "corrected": "我把地址发给你。",
+          "start_time": 67.84,
+          "end_time": 69.12,
+          "timecode": "0:01:07.840 → 0:01:09.120",
+          "corrected_timecode": "0:01:07.760 → 0:01:09.120",
+          "corrected_start_time": 67.76
+        },
+        {
+          "source": "See you on the other side.",
+          "translation": "我们在那边见。",
+          "corrected": "我们在那边见。",
+          "start_time": 69.12,
+          "end_time": 70.4,
+          "timecode": "0:01:09.120 → 0:01:10.400",
+          "corrected_timecode": "0:01:09.120 → 0:01:10.400",
+          "corrected_start_time": 69.12
+        },
+        {
+          "source": "See you tomorrow.",
+          "translation": "明天见。",
+          "corrected": "明天见。",
+          "start_time": 70.4,
+          "end_time": 71.68,
+          "timecode": "0:01:10.400 → 0:01:11.680",
+          "corrected_timecode": "0:01:10.400 → 0:01:11.680",
+          "corrected_start_time": 70.4
+        }
+      ],
+      "play_video_click": {
+        "source_image": "aegisub-translation-assistant-doc",
+        "source_crop_xywh": [
+          23,
+          309,
+          333,
+          181
+        ],
+        "source_pixel": [
+          300,
+          374
+        ],
+        "normalized_crop_uv": [
+          0.8318318318318318,
+          0.35911602209944754
+        ],
+        "relative_time": 7.6
+      }
+    }
+  ],
+  "crop_rectangles": {
+    "explorer_title": [
+      0,
+      0,
+      1280,
+      24
+    ],
+    "explorer_tools": [
+      0,
+      24,
+      1280,
+      92
+    ],
+    "explorer_tree": [
+      0,
+      116,
+      202,
+      864
+    ],
+    "explorer_content": [
+      202,
+      116,
+      1078,
+      864
+    ],
+    "explorer_status": [
+      0,
+      980,
+      1280,
+      44
+    ],
+    "explorer_text_icon": [
+      1099,
+      201,
+      18,
+      18
+    ],
+    "aegisub32_title": [
+      14,
+      13,
+      347,
+      25
+    ],
+    "aegisub32_original": [
+      25,
+      43,
+      330,
+      127
+    ],
+    "aegisub32_translation": [
+      25,
+      178,
+      330,
+      119
+    ],
+    "aegisub32_actions": [
+      23,
+      309,
+      333,
+      181
+    ]
+  },
+  "visible_copy_policy": "Only natural document text, authentic menus, translation/edit outcomes and download/seeding status; source/reconstruction/agent/audit notes are machine metadata only.",
+  "new_independent_images": 0,
+  "shared_texture_policy": "Read V3 image/PCM textures without modifying their importer, material or source asset."
+}

@@ -1,0 +1,1884 @@
+{
+  "schema": "oldwebmap.fullfilm.presentation/1",
+  "duration": 256,
+  "scene": "Assets/Scenes/OWM_FullFilm_v1.unity",
+  "spec": "spec/49-fullfilm-production.md",
+  "music_note": "四轨原音符和持续声保留；空行不代表静音。",
+  "scene_starts": [
+    0,
+    10.24,
+    20.48,
+    30.72,
+    40.96,
+    51.2,
+    61.44,
+    71.68,
+    81.92,
+    92.16,
+    102.4,
+    112.64,
+    122.88,
+    133.12,
+    143.36,
+    153.6,
+    168.96,
+    186.88,
+    197.12,
+    207.36,
+    217.6,
+    230.4,
+    235.52,
+    245.76
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 10.24,
+      "title": "设备与年代",
+      "segment": "接入"
+    },
+    {
+      "id": 2,
+      "start": 10.24,
+      "end": 20.48,
+      "title": "工具也有作者",
+      "segment": "接入"
+    },
+    {
+      "id": 3,
+      "start": 20.48,
+      "end": 30.72,
+      "title": "空间也是别人做的",
+      "segment": "接入"
+    },
+    {
+      "id": 4,
+      "start": 30.72,
+      "end": 40.96,
+      "title": "漫画分层与汉化",
+      "segment": "繁荣"
+    },
+    {
+      "id": 5,
+      "start": 40.96,
+      "end": 51.2,
+      "title": "下载与做种",
+      "segment": "繁荣"
+    },
+    {
+      "id": 6,
+      "start": 51.2,
+      "end": 61.44,
+      "title": "生活在页面里",
+      "segment": "繁荣"
+    },
+    {
+      "id": 7,
+      "start": 61.44,
+      "end": 71.68,
+      "title": "字幕与共同劳动",
+      "segment": "繁荣"
+    },
+    {
+      "id": 8,
+      "start": 71.68,
+      "end": 81.92,
+      "title": "从方块到世界",
+      "segment": "繁荣"
+    },
+    {
+      "id": 9,
+      "start": 81.92,
+      "end": 92.16,
+      "title": "共同在场",
+      "segment": "繁荣"
+    },
+    {
+      "id": 10,
+      "start": 92.16,
+      "end": 102.4,
+      "title": "彼此回应",
+      "segment": "繁荣"
+    },
+    {
+      "id": 11,
+      "start": 102.4,
+      "end": 112.64,
+      "title": "入口与选择",
+      "segment": "条件改变"
+    },
+    {
+      "id": 12,
+      "start": 112.64,
+      "end": 122.88,
+      "title": "安全与可访问性",
+      "segment": "条件改变"
+    },
+    {
+      "id": 13,
+      "start": 122.88,
+      "end": 133.12,
+      "title": "维护与保存",
+      "segment": "条件改变"
+    },
+    {
+      "id": 14,
+      "start": 133.12,
+      "end": 143.36,
+      "title": "来源从副本中脱落",
+      "segment": "过载"
+    },
+    {
+      "id": 15,
+      "start": 143.36,
+      "end": 153.6,
+      "title": "短暂压力峰值",
+      "segment": "过载"
+    },
+    {
+      "id": 16,
+      "start": 153.6,
+      "end": 168.96,
+      "title": "机械运转",
+      "segment": "过载"
+    },
+    {
+      "id": 17,
+      "start": 168.96,
+      "end": 186.88,
+      "title": "逐项失去可用条件",
+      "segment": "过载"
+    },
+    {
+      "id": 18,
+      "start": 186.88,
+      "end": 197.12,
+      "title": "远处的保存点",
+      "segment": "骤空"
+    },
+    {
+      "id": 19,
+      "start": 197.12,
+      "end": 207.36,
+      "title": "更多人能够开始",
+      "segment": "再兴"
+    },
+    {
+      "id": 20,
+      "start": 207.36,
+      "end": 217.6,
+      "title": "具体问题找到同伴",
+      "segment": "再兴"
+    },
+    {
+      "id": 21,
+      "start": 217.6,
+      "end": 230.4,
+      "title": "合作改变距离",
+      "segment": "再兴"
+    },
+    {
+      "id": 22,
+      "start": 230.4,
+      "end": 235.52,
+      "title": "多类新作品显出结果",
+      "segment": "再兴"
+    },
+    {
+      "id": 23,
+      "start": 235.52,
+      "end": 245.76,
+      "title": "接收者开始帮助别人",
+      "segment": "再兴"
+    },
+    {
+      "id": 24,
+      "start": 245.76,
+      "end": 256,
+      "title": "一起做下去",
+      "segment": "继续"
+    }
+  ],
+  "keylines": [
+    {
+      "start": 136.0,
+      "end": 140.48,
+      "text": "副本越来越多，留下的名字越来越少。",
+      "style": 0
+    },
+    {
+      "start": 189.6,
+      "end": 194.0,
+      "text": "文件还在，打开它的路不见了。",
+      "style": 0
+    },
+    {
+      "start": 202.0,
+      "end": 206.4,
+      "text": "原来，我也能做出来。",
+      "style": 1
+    },
+    {
+      "start": 250.88,
+      "end": 253.44,
+      "text": "那就一起做下去。",
+      "style": 1
+    }
+  ],
+  "comments": [
+    {
+      "time": 133.28,
+      "duration": 4.48,
+      "text": "已转"
+    },
+    {
+      "time": 133.92,
+      "duration": 4.48,
+      "text": "求资源"
+    },
+    {
+      "time": 134.56,
+      "duration": 4.48,
+      "text": "链接在评论区"
+    },
+    {
+      "time": 135.2,
+      "duration": 4.48,
+      "text": "搬运自网络"
+    },
+    {
+      "time": 135.84,
+      "duration": 4.48,
+      "text": "原地址失效"
+    },
+    {
+      "time": 136.48,
+      "duration": 4.48,
+      "text": "已阅"
+    },
+    {
+      "time": 137.12,
+      "duration": 4.48,
+      "text": "这个版本呢？"
+    },
+    {
+      "time": 137.76,
+      "duration": 4.48,
+      "text": "来源：网络"
+    },
+    {
+      "time": 138.4,
+      "duration": 4.48,
+      "text": "已转"
+    },
+    {
+      "time": 139.04,
+      "duration": 4.48,
+      "text": "求资源"
+    },
+    {
+      "time": 139.68,
+      "duration": 4.48,
+      "text": "链接在评论区"
+    },
+    {
+      "time": 140.32,
+      "duration": 4.48,
+      "text": "搬运自网络"
+    },
+    {
+      "time": 140.96,
+      "duration": 4.48,
+      "text": "原地址失效"
+    },
+    {
+      "time": 141.6,
+      "duration": 4.48,
+      "text": "已阅"
+    },
+    {
+      "time": 142.24,
+      "duration": 4.48,
+      "text": "这个版本呢？"
+    },
+    {
+      "time": 142.88,
+      "duration": 4.48,
+      "text": "来源：网络"
+    },
+    {
+      "time": 143.52,
+      "duration": 4.48,
+      "text": "已转"
+    },
+    {
+      "time": 144.16,
+      "duration": 4.48,
+      "text": "求资源"
+    },
+    {
+      "time": 144.8,
+      "duration": 4.48,
+      "text": "链接在评论区"
+    },
+    {
+      "time": 145.44,
+      "duration": 4.48,
+      "text": "搬运自网络"
+    },
+    {
+      "time": 146.08,
+      "duration": 4.48,
+      "text": "原地址失效"
+    },
+    {
+      "time": 146.72,
+      "duration": 4.48,
+      "text": "已阅"
+    },
+    {
+      "time": 147.36,
+      "duration": 4.48,
+      "text": "这个版本呢？"
+    },
+    {
+      "time": 148.0,
+      "duration": 4.48,
+      "text": "来源：网络"
+    },
+    {
+      "time": 148.64,
+      "duration": 4.48,
+      "text": "已转"
+    },
+    {
+      "time": 149.28,
+      "duration": 4.48,
+      "text": "求资源"
+    },
+    {
+      "time": 149.92,
+      "duration": 4.48,
+      "text": "链接在评论区"
+    },
+    {
+      "time": 150.56,
+      "duration": 4.48,
+      "text": "搬运自网络"
+    },
+    {
+      "time": 151.2,
+      "duration": 4.48,
+      "text": "原地址失效"
+    },
+    {
+      "time": 151.84,
+      "duration": 4.48,
+      "text": "已阅"
+    },
+    {
+      "time": 152.48,
+      "duration": 4.48,
+      "text": "这个版本呢？"
+    },
+    {
+      "time": 153.12,
+      "duration": 4.48,
+      "text": "来源：网络"
+    },
+    {
+      "time": 154.24,
+      "duration": 4.0,
+      "text": "加载中……"
+    },
+    {
+      "time": 155.52,
+      "duration": 4.0,
+      "text": "有没有人试过？"
+    },
+    {
+      "time": 156.8,
+      "duration": 4.0,
+      "text": "同一个问题"
+    },
+    {
+      "time": 158.08,
+      "duration": 4.0,
+      "text": "还在排队"
+    },
+    {
+      "time": 159.36,
+      "duration": 4.0,
+      "text": "这个链接也失效了"
+    },
+    {
+      "time": 160.64,
+      "duration": 4.0,
+      "text": "加载中……"
+    },
+    {
+      "time": 161.92,
+      "duration": 4.0,
+      "text": "有没有人试过？"
+    },
+    {
+      "time": 163.2,
+      "duration": 4.0,
+      "text": "同一个问题"
+    },
+    {
+      "time": 164.48,
+      "duration": 4.0,
+      "text": "还在排队"
+    },
+    {
+      "time": 165.76,
+      "duration": 4.0,
+      "text": "这个链接也失效了"
+    },
+    {
+      "time": 167.04,
+      "duration": 4.0,
+      "text": "加载中……"
+    },
+    {
+      "time": 207.36,
+      "duration": 4.0,
+      "text": "这个思路好"
+    },
+    {
+      "time": 208.64,
+      "duration": 4.0,
+      "text": "第三层顺序反了"
+    },
+    {
+      "time": 209.92,
+      "duration": 4.0,
+      "text": "我试一下"
+    },
+    {
+      "time": 211.2,
+      "duration": 4.0,
+      "text": "好了，这次对了"
+    },
+    {
+      "time": 212.48,
+      "duration": 4.0,
+      "text": "源文件收到了"
+    },
+    {
+      "time": 213.76,
+      "duration": 4.0,
+      "text": "谢谢，已经复现"
+    },
+    {
+      "time": 224.0,
+      "duration": 4.0,
+      "text": "我帮你校一下"
+    },
+    {
+      "time": 225.92,
+      "duration": 4.0,
+      "text": "这个角度好看"
+    },
+    {
+      "time": 227.84,
+      "duration": 4.0,
+      "text": "新场景可以进了"
+    },
+    {
+      "time": 229.76,
+      "duration": 4.0,
+      "text": "把做法也贴出来"
+    },
+    {
+      "time": 231.68,
+      "duration": 4.0,
+      "text": "字幕对上了"
+    },
+    {
+      "time": 233.6,
+      "duration": 4.0,
+      "text": "我也想试试"
+    },
+    {
+      "time": 236.16,
+      "duration": 3.6,
+      "text": "沙发！"
+    },
+    {
+      "time": 238.08,
+      "duration": 3.6,
+      "text": "学会了！"
+    },
+    {
+      "time": 240.0,
+      "duration": 3.6,
+      "text": "感谢分享"
+    },
+    {
+      "time": 241.92,
+      "duration": 3.6,
+      "text": "我也做了一个"
+    },
+    {
+      "time": 243.84,
+      "duration": 3.6,
+      "text": "下次一起"
+    }
+  ],
+  "foley_events": [
+    {
+      "time": 0.08,
+      "clip": 0,
+      "emitter": 0,
+      "name": "crt_power_on",
+      "tag": "CRT power on"
+    },
+    {
+      "time": 1.28,
+      "clip": 1,
+      "emitter": 0,
+      "name": "modem_handshake",
+      "tag": "connection handshake replaces V4 connection"
+    },
+    {
+      "time": 6.4,
+      "clip": 10,
+      "emitter": 0,
+      "name": "mouse_click_old",
+      "tag": "V4 event kept at 6.4"
+    },
+    {
+      "time": 11.52,
+      "clip": 10,
+      "emitter": 0,
+      "name": "mouse_click_old",
+      "tag": "V4 event kept at 11.52"
+    },
+    {
+      "time": 15.36,
+      "clip": 10,
+      "emitter": 0,
+      "name": "mouse_click_old",
+      "tag": "file dropped (V4 click 15.36)"
+    },
+    {
+      "time": 15.52,
+      "clip": 10,
+      "emitter": 0,
+      "name": "mouse_click_old",
+      "tag": "second click opens (V4 click 15.56)"
+    },
+    {
+      "time": 15.68,
+      "clip": 2,
+      "emitter": 0,
+      "name": "hdd_seek_a",
+      "tag": "file opens: disk read"
+    },
+    {
+      "time": 15.92,
+      "clip": 3,
+      "emitter": 0,
+      "name": "hdd_seek_b",
+      "tag": "disk read"
+    },
+    {
+      "time": 16.24,
+      "clip": 2,
+      "emitter": 0,
+      "name": "hdd_seek_a",
+      "tag": "README loads"
+    },
+    {
+      "time": 16.72,
+      "clip": 6,
+      "emitter": 1,
+      "name": "keyboard_mech_c",
+      "tag": "README typing"
+    },
+    {
+      "time": 16.8,
+      "clip": 5,
+      "emitter": 1,
+      "name": "keyboard_mech_b",
+      "tag": "README typing"
+    },
+    {
+      "time": 16.96,
+      "clip": 5,
+      "emitter": 1,
+      "name": "keyboard_mech_b",
+      "tag": "README typing"
+    },
+    {
+      "time": 17.04,
+      "clip": 6,
+      "emitter": 1,
+      "name": "keyboard_mech_c",
+      "tag": "README typing"
+    },
+    {
+      "time": 17.12,
+      "clip": 4,
+      "emitter": 1,
+      "name": "keyboard_mech_a",
+      "tag": "README typing"
+    },
+    {
+      "time": 17.28,
+      "clip": 4,
+      "emitter": 1,
+      "name": "keyboard_mech_a",
+      "tag": "README typing"
+    },
+    {
+      "time": 17.36,
+      "clip": 4,
+      "emitter": 1,
+      "name": "keyboard_mech_a",
+      "tag": "README typing"
+    },
+    {
+      "time": 17.6,
+      "clip": 6,
+      "emitter": 1,
+      "name": "keyboard_mech_c",
+      "tag": "README typing"
+    },
+    {
+      "time": 17.68,
+      "clip": 5,
+      "emitter": 1,
+      "name": "keyboard_mech_b",
+      "tag": "README typing"
+    },
+    {
+      "time": 17.76,
+      "clip": 6,
+      "emitter": 1,
+      "name": "keyboard_mech_c",
+      "tag": "README typing"
+    },
+    {
+      "time": 17.92,
+      "clip": 5,
+      "emitter": 1,
+      "name": "keyboard_mech_b",
+      "tag": "README typing"
+    },
+    {
+      "time": 18.0,
+      "clip": 5,
+      "emitter": 1,
+      "name": "keyboard_mech_b",
+      "tag": "README typing"
+    },
+    {
+      "time": 18.88,
+      "clip": 10,
+      "emitter": 0,
+      "name": "mouse_click_old",
+      "tag": "README saved"
+    },
+    {
+      "time": 18.96,
+      "clip": 3,
+      "emitter": 0,
+      "name": "hdd_seek_b",
+      "tag": "README write"
+    },
+    {
+      "time": 23.04,
+      "clip": 10,
+      "emitter": 0,
+      "name": "mouse_click_old",
+      "tag": "V4 event kept at 23.04"
+    },
+    {
+      "time": 25.6,
+      "clip": 5,
+      "emitter": 1,
+      "name": "keyboard_mech_b",
+      "tag": "V4 event kept at 25.6"
+    },
+    {
+      "time": 26.4,
+      "clip": 6,
+      "emitter": 1,
+      "name": "keyboard_mech_c",
+      "tag": "homepage typing"
+    },
+    {
+      "time": 26.56,
+      "clip": 6,
+      "emitter": 1,
+      "name": "keyboard_mech_c",
+      "tag": "homepage typing"
+    },
+    {
+      "time": 26.64,
+      "clip": 4,
+      "emitter": 1,
+      "name": "keyboard_mech_a",
+      "tag": "homepage typing"
+    },
+    {
+      "time": 26.72,
+      "clip": 6,
+      "emitter": 1,
+      "name": "keyboard_mech_c",
+      "tag": "homepage typing"
+    },
+    {
+      "time": 30.72,
+      "clip": 28,
+      "emitter": 0,
+      "name": "page_flip",
+      "tag": "V4 event kept at 30.72"
+    },
+    {
+      "time": 32.56,
+      "clip": 6,
+      "emitter": 1,
+      "name": "keyboard_mech_c",
+      "tag": "forum reply typing"
+    },
+    {
+      "time": 32.72,
+      "clip": 4,
+      "emitter": 1,
+      "name": "keyboard_mech_a",
+      "tag": "forum reply typing"
+    },
+    {
+      "time": 32.8,
+      "clip": 4,
+      "emitter": 1,
+      "name": "keyboard_mech_a",
+      "tag": "forum reply typing"
+    },
+    {
+      "time": 35.84,
+      "clip": 28,
+      "emitter": 0,
+      "name": "page_flip",
+      "tag": "V4 event kept at 35.84"
+    },
+    {
+      "time": 36.8,
+      "clip": 4,
+      "emitter": 1,
+      "name": "keyboard_mech_a",
+      "tag": "translation typing"
+    },
+    {
+      "time": 36.88,
+      "clip": 6,
+      "emitter": 1,
+      "name": "keyboard_mech_c",
+      "tag": "translation typing"
+    },
+    {
+      "time": 37.04,
+      "clip": 5,
+      "emitter": 1,
+      "name": "keyboard_mech_b",
+      "tag": "translation typing"
+    },
+    {
+      "time": 37.12,
+      "clip": 6,
+      "emitter": 1,
+      "name": "keyboard_mech_c",
+      "tag": "translation typing"
+    },
+    {
+      "time": 38.4,
+      "clip": 27,
+      "emitter": 0,
+      "name": "notification",
+      "tag": "V4 event kept at 38.4"
+    },
+    {
+      "time": 41.44,
+      "clip": 11,
+      "emitter": 0,
+      "name": "bt_piece_a",
+      "tag": "piece 0 received"
+    },
+    {
+      "time": 41.68,
+      "clip": 12,
+      "emitter": 0,
+      "name": "bt_piece_b",
+      "tag": "piece 1 received"
+    },
+    {
+      "time": 42.08,
+      "clip": 13,
+      "emitter": 0,
+      "name": "bt_piece_c",
+      "tag": "piece 2 received"
+    },
+    {
+      "time": 42.4,
+      "clip": 11,
+      "emitter": 0,
+      "name": "bt_piece_a",
+      "tag": "piece 3 received"
+    },
+    {
+      "time": 42.8,
+      "clip": 12,
+      "emitter": 0,
+      "name": "bt_piece_b",
+      "tag": "piece 4 received"
+    },
+    {
+      "time": 43.52,
+      "clip": 11,
+      "emitter": 0,
+      "name": "bt_piece_a",
+      "tag": "piece 6 received"
+    },
+    {
+      "time": 43.52,
+      "clip": 13,
+      "emitter": 0,
+      "name": "bt_piece_c",
+      "tag": "piece 5 received"
+    },
+    {
+      "time": 44.16,
+      "clip": 12,
+      "emitter": 0,
+      "name": "bt_piece_b",
+      "tag": "piece 7 received"
+    },
+    {
+      "time": 44.64,
+      "clip": 11,
+      "emitter": 0,
+      "name": "bt_piece_a",
+      "tag": "piece 9 received"
+    },
+    {
+      "time": 44.64,
+      "clip": 13,
+      "emitter": 0,
+      "name": "bt_piece_c",
+      "tag": "piece 8 received"
+    },
+    {
+      "time": 44.96,
+      "clip": 12,
+      "emitter": 0,
+      "name": "bt_piece_b",
+      "tag": "piece 10 received"
+    },
+    {
+      "time": 45.52,
+      "clip": 13,
+      "emitter": 0,
+      "name": "bt_piece_c",
+      "tag": "piece 11 received"
+    },
+    {
+      "time": 45.76,
+      "clip": 11,
+      "emitter": 0,
+      "name": "bt_piece_a",
+      "tag": "piece 12 received"
+    },
+    {
+      "time": 46.4,
+      "clip": 12,
+      "emitter": 0,
+      "name": "bt_piece_b",
+      "tag": "piece 13 received"
+    },
+    {
+      "time": 46.64,
+      "clip": 13,
+      "emitter": 0,
+      "name": "bt_piece_c",
+      "tag": "piece 14 received"
+    },
+    {
+      "time": 47.36,
+      "clip": 11,
+      "emitter": 0,
+      "name": "bt_piece_a",
+      "tag": "piece 15 received"
+    },
+    {
+      "time": 47.44,
+      "clip": 14,
+      "emitter": 0,
+      "name": "bt_complete",
+      "tag": "download complete, hash passes"
+    },
+    {
+      "time": 47.52,
+      "clip": 2,
+      "emitter": 0,
+      "name": "hdd_seek_a",
+      "tag": "hash read"
+    },
+    {
+      "time": 48.64,
+      "clip": 14,
+      "emitter": 0,
+      "name": "bt_complete",
+      "tag": "upload 0 delivered"
+    },
+    {
+      "time": 48.96,
+      "clip": 14,
+      "emitter": 0,
+      "name": "bt_complete",
+      "tag": "upload 1 delivered"
+    },
+    {
+      "time": 49.28,
+      "clip": 14,
+      "emitter": 0,
+      "name": "bt_complete",
+      "tag": "upload 2 delivered"
+    },
+    {
+      "time": 49.6,
+      "clip": 14,
+      "emitter": 0,
+      "name": "bt_complete",
+      "tag": "upload 3 delivered"
+    },
+    {
+      "time": 50.08,
+      "clip": 14,
+      "emitter": 0,
+      "name": "bt_complete",
+      "tag": "upload 4 delivered"
+    },
+    {
+      "time": 50.4,
+      "clip": 14,
+      "emitter": 0,
+      "name": "bt_complete",
+      "tag": "upload 5 delivered"
+    },
+    {
+      "time": 50.72,
+      "clip": 14,
+      "emitter": 0,
+      "name": "bt_complete",
+      "tag": "upload 6 delivered"
+    },
+    {
+      "time": 51.04,
+      "clip": 14,
+      "emitter": 0,
+      "name": "bt_complete",
+      "tag": "upload 7 delivered"
+    },
+    {
+      "time": 51.84,
+      "clip": 15,
+      "emitter": 0,
+      "name": "forum_post",
+      "tag": "community page lands: panda-burning-incense-meme-2007"
+    },
+    {
+      "time": 56.0,
+      "clip": 15,
+      "emitter": 0,
+      "name": "forum_post",
+      "tag": "community page lands: xiaonei-home-2007"
+    },
+    {
+      "time": 58.88,
+      "clip": 9,
+      "emitter": 1,
+      "name": "keyboard_laptop_c",
+      "tag": "reply typing"
+    },
+    {
+      "time": 59.04,
+      "clip": 9,
+      "emitter": 1,
+      "name": "keyboard_laptop_c",
+      "tag": "reply typing"
+    },
+    {
+      "time": 59.12,
+      "clip": 8,
+      "emitter": 1,
+      "name": "keyboard_laptop_b",
+      "tag": "reply typing"
+    },
+    {
+      "time": 59.52,
+      "clip": 15,
+      "emitter": 0,
+      "name": "forum_post",
+      "tag": "reply posted"
+    },
+    {
+      "time": 61.68,
+      "clip": 9,
+      "emitter": 1,
+      "name": "keyboard_laptop_c",
+      "tag": "subtitle line 1 typing"
+    },
+    {
+      "time": 61.92,
+      "clip": 7,
+      "emitter": 1,
+      "name": "keyboard_laptop_a",
+      "tag": "subtitle line 1 typing"
+    },
+    {
+      "time": 62.16,
+      "clip": 8,
+      "emitter": 1,
+      "name": "keyboard_laptop_b",
+      "tag": "subtitle line 1 typing"
+    },
+    {
+      "time": 62.32,
+      "clip": 16,
+      "emitter": 0,
+      "name": "subtitle_snap",
+      "tag": "subtitle 1 confirmed"
+    },
+    {
+      "time": 63.2,
+      "clip": 7,
+      "emitter": 1,
+      "name": "keyboard_laptop_a",
+      "tag": "subtitle line 2 typing"
+    },
+    {
+      "time": 63.6,
+      "clip": 16,
+      "emitter": 0,
+      "name": "subtitle_snap",
+      "tag": "subtitle 2 confirmed"
+    },
+    {
+      "time": 64.32,
+      "clip": 8,
+      "emitter": 1,
+      "name": "keyboard_laptop_b",
+      "tag": "subtitle line 3 typing"
+    },
+    {
+      "time": 64.4,
+      "clip": 7,
+      "emitter": 1,
+      "name": "keyboard_laptop_a",
+      "tag": "subtitle line 3 typing"
+    },
+    {
+      "time": 64.48,
+      "clip": 7,
+      "emitter": 1,
+      "name": "keyboard_laptop_a",
+      "tag": "subtitle line 3 typing"
+    },
+    {
+      "time": 64.64,
+      "clip": 9,
+      "emitter": 1,
+      "name": "keyboard_laptop_c",
+      "tag": "subtitle line 3 typing"
+    },
+    {
+      "time": 64.88,
+      "clip": 16,
+      "emitter": 0,
+      "name": "subtitle_snap",
+      "tag": "subtitle 3 confirmed"
+    },
+    {
+      "time": 65.84,
+      "clip": 7,
+      "emitter": 1,
+      "name": "keyboard_laptop_a",
+      "tag": "subtitle line 4 typing"
+    },
+    {
+      "time": 66.16,
+      "clip": 16,
+      "emitter": 0,
+      "name": "subtitle_snap",
+      "tag": "subtitle 4 confirmed"
+    },
+    {
+      "time": 66.88,
+      "clip": 9,
+      "emitter": 1,
+      "name": "keyboard_laptop_c",
+      "tag": "subtitle line 5 typing"
+    },
+    {
+      "time": 67.04,
+      "clip": 7,
+      "emitter": 1,
+      "name": "keyboard_laptop_a",
+      "tag": "subtitle line 5 typing"
+    },
+    {
+      "time": 67.28,
+      "clip": 9,
+      "emitter": 1,
+      "name": "keyboard_laptop_c",
+      "tag": "subtitle line 5 typing"
+    },
+    {
+      "time": 67.44,
+      "clip": 16,
+      "emitter": 0,
+      "name": "subtitle_snap",
+      "tag": "subtitle 5 confirmed"
+    },
+    {
+      "time": 68.4,
+      "clip": 9,
+      "emitter": 1,
+      "name": "keyboard_laptop_c",
+      "tag": "subtitle line 6 typing"
+    },
+    {
+      "time": 68.72,
+      "clip": 16,
+      "emitter": 0,
+      "name": "subtitle_snap",
+      "tag": "subtitle 6 confirmed"
+    },
+    {
+      "time": 69.04,
+      "clip": 10,
+      "emitter": 0,
+      "name": "mouse_click_old",
+      "tag": "Aegisub Play Video click"
+    },
+    {
+      "time": 69.44,
+      "clip": 8,
+      "emitter": 1,
+      "name": "keyboard_laptop_b",
+      "tag": "subtitle line 7 typing"
+    },
+    {
+      "time": 69.6,
+      "clip": 7,
+      "emitter": 1,
+      "name": "keyboard_laptop_a",
+      "tag": "subtitle line 7 typing"
+    },
+    {
+      "time": 69.84,
+      "clip": 8,
+      "emitter": 1,
+      "name": "keyboard_laptop_b",
+      "tag": "subtitle line 7 typing"
+    },
+    {
+      "time": 70.0,
+      "clip": 16,
+      "emitter": 0,
+      "name": "subtitle_snap",
+      "tag": "subtitle 7 confirmed"
+    },
+    {
+      "time": 70.88,
+      "clip": 7,
+      "emitter": 1,
+      "name": "keyboard_laptop_a",
+      "tag": "subtitle line 8 typing"
+    },
+    {
+      "time": 70.96,
+      "clip": 27,
+      "emitter": 0,
+      "name": "notification",
+      "tag": "movie.zh-cn.ass exported"
+    },
+    {
+      "time": 71.28,
+      "clip": 16,
+      "emitter": 0,
+      "name": "subtitle_snap",
+      "tag": "subtitle 8 confirmed"
+    },
+    {
+      "time": 72.96,
+      "clip": 10,
+      "emitter": 0,
+      "name": "mouse_click_old",
+      "tag": "V4 event kept at 72.96"
+    },
+    {
+      "time": 73.44,
+      "clip": 8,
+      "emitter": 1,
+      "name": "keyboard_laptop_b",
+      "tag": "SDK/build typing"
+    },
+    {
+      "time": 73.52,
+      "clip": 9,
+      "emitter": 1,
+      "name": "keyboard_laptop_c",
+      "tag": "SDK/build typing"
+    },
+    {
+      "time": 73.68,
+      "clip": 9,
+      "emitter": 1,
+      "name": "keyboard_laptop_c",
+      "tag": "SDK/build typing"
+    },
+    {
+      "time": 73.76,
+      "clip": 9,
+      "emitter": 1,
+      "name": "keyboard_laptop_c",
+      "tag": "SDK/build typing"
+    },
+    {
+      "time": 76.8,
+      "clip": 27,
+      "emitter": 0,
+      "name": "notification",
+      "tag": "V4 event kept at 76.8"
+    },
+    {
+      "time": 77.52,
+      "clip": 9,
+      "emitter": 1,
+      "name": "keyboard_laptop_c",
+      "tag": "lighting parameter typing"
+    },
+    {
+      "time": 77.68,
+      "clip": 7,
+      "emitter": 1,
+      "name": "keyboard_laptop_a",
+      "tag": "lighting parameter typing"
+    },
+    {
+      "time": 77.76,
+      "clip": 9,
+      "emitter": 1,
+      "name": "keyboard_laptop_c",
+      "tag": "lighting parameter typing"
+    },
+    {
+      "time": 77.92,
+      "clip": 8,
+      "emitter": 1,
+      "name": "keyboard_laptop_b",
+      "tag": "lighting parameter typing"
+    },
+    {
+      "time": 79.12,
+      "clip": 17,
+      "emitter": 2,
+      "name": "journey_air_long",
+      "tag": "journey 1 air"
+    },
+    {
+      "time": 83.2,
+      "clip": 28,
+      "emitter": 0,
+      "name": "page_flip",
+      "tag": "V4 event kept at 83.2"
+    },
+    {
+      "time": 86.16,
+      "clip": 18,
+      "emitter": 2,
+      "name": "journey_air_short",
+      "tag": "journey 2 air"
+    },
+    {
+      "time": 88.8,
+      "clip": 19,
+      "emitter": 3,
+      "name": "campfire_crackle_a",
+      "tag": "campfire bed in"
+    },
+    {
+      "time": 93.44,
+      "clip": 27,
+      "emitter": 0,
+      "name": "notification",
+      "tag": "V4 event kept at 93.44"
+    },
+    {
+      "time": 94.72,
+      "clip": 20,
+      "emitter": 3,
+      "name": "campfire_crackle_b",
+      "tag": "campfire bed continues (1.28 s equal-power overlap)"
+    },
+    {
+      "time": 98.56,
+      "clip": 27,
+      "emitter": 0,
+      "name": "notification",
+      "tag": "V4 event kept at 98.56"
+    },
+    {
+      "time": 102.16,
+      "clip": 17,
+      "emitter": 2,
+      "name": "journey_air_long",
+      "tag": "journey 3 air"
+    },
+    {
+      "time": 105.6,
+      "clip": 26,
+      "emitter": 0,
+      "name": "msg_pop",
+      "tag": "3Q focus lands (IM context)"
+    },
+    {
+      "time": 107.52,
+      "clip": 26,
+      "emitter": 4,
+      "name": "msg_pop",
+      "tag": "gate A shows the cannot-run dialog"
+    },
+    {
+      "time": 108.96,
+      "clip": 21,
+      "emitter": 4,
+      "name": "gate_close",
+      "tag": "gate A leaf latches"
+    },
+    {
+      "time": 110.08,
+      "clip": 26,
+      "emitter": 0,
+      "name": "msg_pop",
+      "tag": "3Q forum focus lands"
+    },
+    {
+      "time": 112.64,
+      "clip": 21,
+      "emitter": 5,
+      "name": "gate_close",
+      "tag": "gate B closes: validating"
+    },
+    {
+      "time": 113.92,
+      "clip": 24,
+      "emitter": 5,
+      "name": "verify_wait",
+      "tag": "validating pulse"
+    },
+    {
+      "time": 115.2,
+      "clip": 22,
+      "emitter": 4,
+      "name": "gate_open",
+      "tag": "gate A reopens"
+    },
+    {
+      "time": 116.48,
+      "clip": 24,
+      "emitter": 5,
+      "name": "verify_wait",
+      "tag": "validating pulse"
+    },
+    {
+      "time": 117.76,
+      "clip": 21,
+      "emitter": 6,
+      "name": "gate_close",
+      "tag": "gate C locks"
+    },
+    {
+      "time": 118.4,
+      "clip": 22,
+      "emitter": 5,
+      "name": "gate_open",
+      "tag": "gate B opens"
+    },
+    {
+      "time": 120.32,
+      "clip": 23,
+      "emitter": 5,
+      "name": "verify_ok",
+      "tag": "gate B verified"
+    },
+    {
+      "time": 120.4,
+      "clip": 22,
+      "emitter": 6,
+      "name": "gate_open",
+      "tag": "gate C opens"
+    },
+    {
+      "time": 122.88,
+      "clip": 23,
+      "emitter": 6,
+      "name": "verify_ok",
+      "tag": "gate C: connection restored"
+    },
+    {
+      "time": 123.92,
+      "clip": 8,
+      "emitter": 7,
+      "name": "keyboard_laptop_b",
+      "tag": "checking the work"
+    },
+    {
+      "time": 124.16,
+      "clip": 8,
+      "emitter": 7,
+      "name": "keyboard_laptop_b",
+      "tag": "checking the work"
+    },
+    {
+      "time": 124.4,
+      "clip": 7,
+      "emitter": 7,
+      "name": "keyboard_laptop_a",
+      "tag": "checking the work"
+    },
+    {
+      "time": 124.64,
+      "clip": 7,
+      "emitter": 7,
+      "name": "keyboard_laptop_a",
+      "tag": "checking the work"
+    },
+    {
+      "time": 125.44,
+      "clip": 28,
+      "emitter": 7,
+      "name": "page_flip",
+      "tag": "document slides into the archive"
+    },
+    {
+      "time": 126.48,
+      "clip": 25,
+      "emitter": 7,
+      "name": "save_write",
+      "tag": "archive save, ends 128.00"
+    },
+    {
+      "time": 128.0,
+      "clip": 23,
+      "emitter": 7,
+      "name": "verify_ok",
+      "tag": "saved copy confirmed"
+    },
+    {
+      "time": 131.2,
+      "clip": 10,
+      "emitter": 0,
+      "name": "mouse_click_old",
+      "tag": "V4 event kept at 131.2"
+    },
+    {
+      "time": 133.12,
+      "clip": 27,
+      "emitter": 0
+    },
+    {
+      "time": 133.92,
+      "clip": 10,
+      "emitter": 0
+    },
+    {
+      "time": 134.72,
+      "clip": 10,
+      "emitter": 0
+    },
+    {
+      "time": 135.52,
+      "clip": 27,
+      "emitter": 0
+    },
+    {
+      "time": 136.32,
+      "clip": 10,
+      "emitter": 0
+    },
+    {
+      "time": 137.12,
+      "clip": 10,
+      "emitter": 0
+    },
+    {
+      "time": 137.92,
+      "clip": 27,
+      "emitter": 0
+    },
+    {
+      "time": 138.72,
+      "clip": 10,
+      "emitter": 0
+    },
+    {
+      "time": 139.52,
+      "clip": 10,
+      "emitter": 0
+    },
+    {
+      "time": 140.32,
+      "clip": 27,
+      "emitter": 0
+    },
+    {
+      "time": 141.12,
+      "clip": 10,
+      "emitter": 0
+    },
+    {
+      "time": 141.92,
+      "clip": 10,
+      "emitter": 0
+    },
+    {
+      "time": 142.72,
+      "clip": 27,
+      "emitter": 0
+    },
+    {
+      "time": 143.52,
+      "clip": 10,
+      "emitter": 0
+    },
+    {
+      "time": 144.32,
+      "clip": 10,
+      "emitter": 0
+    },
+    {
+      "time": 145.12,
+      "clip": 27,
+      "emitter": 0
+    },
+    {
+      "time": 145.92,
+      "clip": 10,
+      "emitter": 0
+    },
+    {
+      "time": 146.72,
+      "clip": 10,
+      "emitter": 0
+    },
+    {
+      "time": 155.2,
+      "clip": 7,
+      "emitter": 8
+    },
+    {
+      "time": 155.52,
+      "clip": 8,
+      "emitter": 8
+    },
+    {
+      "time": 155.84,
+      "clip": 9,
+      "emitter": 8
+    },
+    {
+      "time": 156.16,
+      "clip": 7,
+      "emitter": 8
+    },
+    {
+      "time": 156.48,
+      "clip": 8,
+      "emitter": 8
+    },
+    {
+      "time": 156.8,
+      "clip": 9,
+      "emitter": 8
+    },
+    {
+      "time": 158.08,
+      "clip": 23,
+      "emitter": 8
+    },
+    {
+      "time": 169.28,
+      "clip": 24,
+      "emitter": 0
+    },
+    {
+      "time": 173.76,
+      "clip": 24,
+      "emitter": 0
+    },
+    {
+      "time": 178.24,
+      "clip": 24,
+      "emitter": 0
+    },
+    {
+      "time": 182.72,
+      "clip": 24,
+      "emitter": 0
+    },
+    {
+      "time": 198.4,
+      "clip": 7,
+      "emitter": 8
+    },
+    {
+      "time": 198.64,
+      "clip": 8,
+      "emitter": 8
+    },
+    {
+      "time": 198.88,
+      "clip": 9,
+      "emitter": 8
+    },
+    {
+      "time": 201.28,
+      "clip": 7,
+      "emitter": 8
+    },
+    {
+      "time": 201.52,
+      "clip": 8,
+      "emitter": 8
+    },
+    {
+      "time": 201.76,
+      "clip": 9,
+      "emitter": 8
+    },
+    {
+      "time": 203.52,
+      "clip": 23,
+      "emitter": 8
+    },
+    {
+      "time": 207.68,
+      "clip": 26,
+      "emitter": 8
+    },
+    {
+      "time": 209.92,
+      "clip": 7,
+      "emitter": 10
+    },
+    {
+      "time": 210.16,
+      "clip": 8,
+      "emitter": 10
+    },
+    {
+      "time": 210.4,
+      "clip": 9,
+      "emitter": 10
+    },
+    {
+      "time": 211.2,
+      "clip": 10,
+      "emitter": 8
+    },
+    {
+      "time": 224.0,
+      "clip": 7,
+      "emitter": 10
+    },
+    {
+      "time": 224.24,
+      "clip": 8,
+      "emitter": 10
+    },
+    {
+      "time": 224.48,
+      "clip": 9,
+      "emitter": 10
+    },
+    {
+      "time": 225.28,
+      "clip": 16,
+      "emitter": 9
+    },
+    {
+      "time": 228.48,
+      "clip": 7,
+      "emitter": 8
+    },
+    {
+      "time": 228.72,
+      "clip": 8,
+      "emitter": 8
+    },
+    {
+      "time": 228.96,
+      "clip": 9,
+      "emitter": 8
+    },
+    {
+      "time": 229.12,
+      "clip": 16,
+      "emitter": 9
+    },
+    {
+      "time": 234.24,
+      "clip": 14,
+      "emitter": 10
+    },
+    {
+      "time": 238.08,
+      "clip": 10,
+      "emitter": 11
+    },
+    {
+      "time": 239.36,
+      "clip": 14,
+      "emitter": 11
+    },
+    {
+      "time": 243.2,
+      "clip": 15,
+      "emitter": 11
+    }
+  ],
+  "new_foley_events": 53,
+  "new_emitters": [
+    [
+      0,
+      0.85,
+      4.8
+    ],
+    [
+      -5,
+      0.95,
+      6.0
+    ],
+    [
+      5,
+      0.95,
+      6.0
+    ],
+    [
+      1.8,
+      0.95,
+      3.6
+    ]
+  ],
+  "travel_freeze": [
+    [
+      79.36,
+      81.92
+    ],
+    [
+      86.4,
+      88.32
+    ],
+    [
+      102.4,
+      104.96
+    ],
+    [
+      217.6,
+      222.72
+    ]
+  ],
+  "reviewer_boundaries": {
+    "hmd_tested": false,
+    "real_multiplayer_tested": false,
+    "human_listening": false
+  },
+  "playback_output": "Windows default outputs muted; source audio and exported film retain music",
+  "history_anchors": [
+    {
+      "id": "vrc-anti-ripping-2024",
+      "path": "Assets/OldWebMap/FullFilm/Revision1/History/Textures/vrc-anti-ripping-2024-display.png",
+      "start": 134.4,
+      "end": 142.08,
+      "position": [
+        -4.3,
+        2.05,
+        5.5
+      ],
+      "width": 2.6,
+      "caption": "2024 · VRChat"
+    },
+    {
+      "id": "vrc-ai-2026",
+      "path": "Assets/OldWebMap/FullFilm/Revision1/History/Textures/vrc-ai-2026-display.png",
+      "start": 154.24,
+      "end": 162.56,
+      "position": [
+        4.3,
+        2.25,
+        5.5
+      ],
+      "width": 2.7,
+      "caption": "2026 · VRChat"
+    },
+    {
+      "id": "adobe-flash-eol-announcement",
+      "path": "Assets/OldWebMap/Episode123/Revision4/Images/adobe-flash-eol-announcement.png",
+      "start": 169.28,
+      "end": 173.12,
+      "position": [
+        4.3,
+        2.0,
+        5.8
+      ],
+      "width": 2.7,
+      "caption": "2017 · Flash 公告"
+    },
+    {
+      "id": "vrc-4da540c8ba8b",
+      "path": "Assets/OldWebMap/Episode123/Revision3/Images/vrc-4da540c8ba8b.png",
+      "start": 182.56,
+      "end": 186.24,
+      "position": [
+        -4.3,
+        2.05,
+        5.5
+      ],
+      "width": 2.7,
+      "caption": "2018 · 版本升级"
+    },
+    {
+      "id": "vrc-ai-2026",
+      "path": "Assets/OldWebMap/FullFilm/Revision1/History/Textures/vrc-ai-2026-display.png",
+      "start": 208.0,
+      "end": 215.68,
+      "position": [
+        -5.0,
+        2.45,
+        6.0
+      ],
+      "width": 2.6,
+      "caption": "2026 · 同一份讨论"
+    },
+    {
+      "id": "credits",
+      "path": "Assets/OldWebMap/FullFilm/Revision1/History/Textures/fullfilm-credits-display.png",
+      "start": 256,
+      "end": 100000,
+      "position": [
+        4.8,
+        1.8,
+        4.2
+      ],
+      "width": 2.3,
+      "caption": ""
+    }
+  ]
+}

@@ -1,0 +1,1704 @@
+{
+  "id": "fullfilm_v2_workbench",
+  "root": "FFV2_Workbench",
+  "files": [
+    "fullfilm_v2_workbench.blend",
+    "fullfilm_v2_workbench.fbx",
+    "fullfilm_v2_workbench.glb"
+  ],
+  "mesh_count": 51,
+  "triangles": 19538,
+  "vertices": 10146,
+  "objects": [
+    {
+      "name": "FFV2_Workbench",
+      "parent": null,
+      "type": "EMPTY",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "DeskStructure",
+      "parent": "FFV2_Workbench",
+      "type": "EMPTY",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "CableTray_LowerFold",
+      "parent": "DeskStructure",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.25,
+        0.688
+      ],
+      "dimensions_m": [
+        1.52,
+        0.18,
+        0.026
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_GraphitePowderCoat"
+      ]
+    },
+    {
+      "name": "CableTray_RearLip",
+      "parent": "DeskStructure",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.335,
+        0.71
+      ],
+      "dimensions_m": [
+        1.52,
+        0.018,
+        0.065
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_GraphitePowderCoat"
+      ]
+    },
+    {
+      "name": "CableTray_VentInserts",
+      "parent": "DeskStructure",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        -0.64,
+        -0.242,
+        0.703
+      ],
+      "dimensions_m": [
+        1.336,
+        0.085,
+        0.004
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 784,
+      "triangles": 1512,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Rubber"
+      ]
+    },
+    {
+      "name": "Desk_DeskMat",
+      "parent": "DeskStructure",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.21,
+        0.798
+      ],
+      "dimensions_m": [
+        1.56,
+        0.65,
+        0.006
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Rubber"
+      ]
+    },
+    {
+      "name": "Desk_SteelTrestleAndFeet",
+      "parent": "DeskStructure",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        -0.94,
+        -0.17,
+        0.39
+      ],
+      "dimensions_m": [
+        1.97,
+        0.75,
+        0.745
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 776,
+      "triangles": 1508,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_GraphitePowderCoat",
+        "M_Rubber"
+      ]
+    },
+    {
+      "name": "Desk_WalnutSlab",
+      "parent": "DeskStructure",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.05,
+        0.767
+      ],
+      "dimensions_m": [
+        2.42,
+        0.93,
+        0.056
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Walnut"
+      ]
+    },
+    {
+      "name": "DisplayRig_Main",
+      "parent": "FFV2_Workbench",
+      "type": "EMPTY",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.1,
+        1.36
+      ],
+      "dimensions_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Monitor_ChinSilverLine",
+      "parent": "DisplayRig_Main",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.031,
+        -0.385
+      ],
+      "dimensions_m": [
+        1.18,
+        0.006,
+        0.008
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_AnodisedWarmSilver"
+      ]
+    },
+    {
+      "name": "Monitor_FrontBezel",
+      "parent": "DisplayRig_Main",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        -0.661,
+        0.008,
+        0.0
+      ],
+      "dimensions_m": [
+        1.364,
+        0.043,
+        0.812
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 224,
+      "triangles": 432,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_GraphitePowderCoat"
+      ]
+    },
+    {
+      "name": "Monitor_HDMI_USB_InterfaceBank",
+      "parent": "DisplayRig_Main",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        -0.43,
+        -0.083,
+        -0.22
+      ],
+      "dimensions_m": [
+        0.307,
+        0.009,
+        0.031
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 448,
+      "triangles": 864,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Rubber",
+        "M_AnodisedWarmSilver"
+      ]
+    },
+    {
+      "name": "Monitor_PowerButton",
+      "parent": "DisplayRig_Main",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.608,
+        0.037,
+        -0.383
+      ],
+      "dimensions_m": [
+        0.012,
+        0.012,
+        0.005
+      ],
+      "rotation_euler_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 32,
+      "triangles": 60,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_JadeAccent"
+      ]
+    },
+    {
+      "name": "Monitor_RearShell",
+      "parent": "DisplayRig_Main",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.042,
+        0.0
+      ],
+      "dimensions_m": [
+        1.365,
+        0.071,
+        0.813
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_GraphitePowderCoat"
+      ]
+    },
+    {
+      "name": "Monitor_RearVentBank",
+      "parent": "DisplayRig_Main",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        -0.48,
+        -0.08,
+        0.24
+      ],
+      "dimensions_m": [
+        0.98,
+        0.006,
+        0.07
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 1400,
+      "triangles": 2700,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Rubber"
+      ]
+    },
+    {
+      "name": "Monitor_VesaFasteners",
+      "parent": "DisplayRig_Main",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        -0.065,
+        -0.109,
+        -0.065
+      ],
+      "dimensions_m": [
+        0.147426,
+        0.147524,
+        0.007
+      ],
+      "rotation_euler_deg": [
+        90.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 448,
+      "triangles": 880,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_GraphitePowderCoat"
+      ]
+    },
+    {
+      "name": "Monitor_VesaPlate",
+      "parent": "DisplayRig_Main",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.091,
+        0.0
+      ],
+      "dimensions_m": [
+        0.19,
+        0.025,
+        0.19
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_AnodisedWarmSilver"
+      ]
+    },
+    {
+      "name": "Timeline",
+      "parent": "DisplayRig_Main",
+      "type": "EMPTY",
+      "pivot_local_blender_m": [
+        0.0,
+        0.05,
+        -0.49
+      ],
+      "dimensions_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Timeline_Backplate",
+      "parent": "Timeline",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.033,
+        0.0
+      ],
+      "dimensions_m": [
+        1.212,
+        0.016,
+        0.152
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_GraphitePowderCoat"
+      ]
+    },
+    {
+      "name": "Timeline_Perimeter",
+      "parent": "Timeline",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        -0.609,
+        -0.013,
+        0.0
+      ],
+      "dimensions_m": [
+        1.236,
+        0.044,
+        0.176
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 224,
+      "triangles": 432,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_AnodisedWarmSilver"
+      ]
+    },
+    {
+      "name": "UI_Timeline",
+      "parent": "Timeline",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.011,
+        0.0
+      ],
+      "dimensions_m": [
+        1.2,
+        0.0,
+        0.14
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "uv_layers": [
+        "ScreenshotUV"
+      ],
+      "materials": [
+        "M_UI_Timeline_SLOT"
+      ]
+    },
+    {
+      "name": "UI_Main_16x9",
+      "parent": "DisplayRig_Main",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.031,
+        0.0
+      ],
+      "dimensions_m": [
+        1.28,
+        0.0,
+        0.72
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "uv_layers": [
+        "ScreenshotUV"
+      ],
+      "materials": [
+        "M_UI_MainScreenshot_SLOT"
+      ]
+    },
+    {
+      "name": "Keyboard",
+      "parent": "FFV2_Workbench",
+      "type": "EMPTY",
+      "pivot_local_blender_m": [
+        0.0,
+        0.36,
+        0.812
+      ],
+      "dimensions_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Keyboard_AnodisedCase",
+      "parent": "Keyboard",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.014
+      ],
+      "dimensions_m": [
+        0.78,
+        0.265,
+        0.028
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_AnodisedWarmSilver"
+      ]
+    },
+    {
+      "name": "Keyboard_InsetWell",
+      "parent": "Keyboard",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.031
+      ],
+      "dimensions_m": [
+        0.75,
+        0.235,
+        0.009
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Rubber"
+      ]
+    },
+    {
+      "name": "Keyboard_IvoryKeycaps",
+      "parent": "Keyboard",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        -0.285,
+        -0.034,
+        0.043
+      ],
+      "dimensions_m": [
+        0.705,
+        0.1995,
+        0.018
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 2408,
+      "triangles": 4644,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_KeysIvory"
+      ]
+    },
+    {
+      "name": "Keyboard_RubberPad",
+      "parent": "Keyboard",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        -0.34,
+        -0.07,
+        -0.003
+      ],
+      "dimensions_m": [
+        0.045,
+        0.1,
+        0.01
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Rubber"
+      ]
+    },
+    {
+      "name": "Keyboard_RubberPad.001",
+      "parent": "Keyboard",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.34,
+        -0.07,
+        -0.003
+      ],
+      "dimensions_m": [
+        0.045,
+        0.1,
+        0.01
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Rubber"
+      ]
+    },
+    {
+      "name": "Keyboard_SlateKeycaps",
+      "parent": "Keyboard",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        -0.343,
+        -0.086,
+        0.043
+      ],
+      "dimensions_m": [
+        0.727,
+        0.201,
+        0.018
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 1120,
+      "triangles": 2160,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_KeysSlate"
+      ]
+    },
+    {
+      "name": "Keyboard_Cable",
+      "parent": "FFV2_Workbench",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.175758,
+        0.515377,
+        0.096979
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 24,
+      "triangles": 36,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Rubber"
+      ]
+    },
+    {
+      "name": "LeftHierarchy",
+      "parent": "FFV2_Workbench",
+      "type": "EMPTY",
+      "pivot_local_blender_m": [
+        -1.015,
+        -0.055,
+        1.4
+      ],
+      "dimensions_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        -9.0
+      ]
+    },
+    {
+      "name": "LeftHierarchy_Backplate",
+      "parent": "LeftHierarchy",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.033,
+        0.0
+      ],
+      "dimensions_m": [
+        0.452,
+        0.016,
+        0.712
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_GraphitePowderCoat"
+      ]
+    },
+    {
+      "name": "LeftHierarchy_Perimeter",
+      "parent": "LeftHierarchy",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        -0.229,
+        -0.013,
+        0.0
+      ],
+      "dimensions_m": [
+        0.476,
+        0.044,
+        0.736
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 224,
+      "triangles": 432,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_AnodisedWarmSilver"
+      ]
+    },
+    {
+      "name": "UI_LeftHierarchy",
+      "parent": "LeftHierarchy",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.011,
+        0.0
+      ],
+      "dimensions_m": [
+        0.44,
+        0.0,
+        0.7
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "uv_layers": [
+        "ScreenshotUV"
+      ],
+      "materials": [
+        "M_UI_LeftHierarchy_SLOT"
+      ]
+    },
+    {
+      "name": "Monitor_CableToTray",
+      "parent": "FFV2_Workbench",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.456494,
+        0.111898,
+        0.430944
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 30,
+      "triangles": 48,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Rubber"
+      ]
+    },
+    {
+      "name": "MonitorStand",
+      "parent": "FFV2_Workbench",
+      "type": "EMPTY",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.12,
+        0.8
+      ],
+      "dimensions_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "MonitorStand_Column",
+      "parent": "MonitorStand",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.12,
+        0.22
+      ],
+      "dimensions_m": [
+        0.075,
+        0.075,
+        0.4
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_AnodisedWarmSilver"
+      ]
+    },
+    {
+      "name": "MonitorStand_Hinge",
+      "parent": "MonitorStand",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.06,
+        0.52
+      ],
+      "dimensions_m": [
+        0.096,
+        0.096,
+        0.24
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        90.0,
+        0.0
+      ],
+      "vertices": 96,
+      "triangles": 188,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_GraphitePowderCoat"
+      ]
+    },
+    {
+      "name": "MonitorStand_WeightedFoot",
+      "parent": "MonitorStand",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.055,
+        0.022
+      ],
+      "dimensions_m": [
+        0.43,
+        0.3,
+        0.043
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_AnodisedWarmSilver"
+      ]
+    },
+    {
+      "name": "PenTablet",
+      "parent": "FFV2_Workbench",
+      "type": "EMPTY",
+      "pivot_local_blender_m": [
+        0.76,
+        0.32,
+        0.806
+      ],
+      "dimensions_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "PenTablet_ActiveArea",
+      "parent": "PenTablet",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.026
+      ],
+      "dimensions_m": [
+        0.34,
+        0.23,
+        0.003
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_KeysSlate"
+      ]
+    },
+    {
+      "name": "PenTablet_Body",
+      "parent": "PenTablet",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.012
+      ],
+      "dimensions_m": [
+        0.4,
+        0.29,
+        0.024
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_GraphitePowderCoat"
+      ]
+    },
+    {
+      "name": "RightAssets",
+      "parent": "FFV2_Workbench",
+      "type": "EMPTY",
+      "pivot_local_blender_m": [
+        1.045,
+        -0.055,
+        1.4
+      ],
+      "dimensions_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        9.0
+      ]
+    },
+    {
+      "name": "RightAssets_Backplate",
+      "parent": "RightAssets",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.033,
+        0.0
+      ],
+      "dimensions_m": [
+        0.472,
+        0.016,
+        0.712
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_GraphitePowderCoat"
+      ]
+    },
+    {
+      "name": "RightAssets_Perimeter",
+      "parent": "RightAssets",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        -0.239,
+        -0.013,
+        0.0
+      ],
+      "dimensions_m": [
+        0.496,
+        0.044,
+        0.736
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 224,
+      "triangles": 432,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_AnodisedWarmSilver"
+      ]
+    },
+    {
+      "name": "UI_RightAssets",
+      "parent": "RightAssets",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.011,
+        0.0
+      ],
+      "dimensions_m": [
+        0.46,
+        0.0,
+        0.7
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "uv_layers": [
+        "ScreenshotUV"
+      ],
+      "materials": [
+        "M_UI_RightAssets_SLOT"
+      ]
+    },
+    {
+      "name": "SidePanel_Arm",
+      "parent": "FFV2_Workbench",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        -0.945,
+        -0.12,
+        1.02
+      ],
+      "dimensions_m": [
+        0.036,
+        0.036,
+        0.44
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        -0.0,
+        -180.0
+      ],
+      "vertices": 72,
+      "triangles": 140,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_GraphitePowderCoat"
+      ]
+    },
+    {
+      "name": "SidePanel_Arm.001",
+      "parent": "FFV2_Workbench",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.945,
+        -0.12,
+        1.02
+      ],
+      "dimensions_m": [
+        0.036,
+        0.036,
+        0.44
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        -0.0,
+        -180.0
+      ],
+      "vertices": 72,
+      "triangles": 140,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_GraphitePowderCoat"
+      ]
+    },
+    {
+      "name": "SidePanel_Elbow",
+      "parent": "FFV2_Workbench",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        -0.945,
+        -0.095,
+        1.32
+      ],
+      "dimensions_m": [
+        0.03,
+        0.03,
+        0.167631
+      ],
+      "rotation_euler_deg": [
+        17.354,
+        -0.0,
+        -180.0
+      ],
+      "vertices": 72,
+      "triangles": 140,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_AnodisedWarmSilver"
+      ]
+    },
+    {
+      "name": "SidePanel_Elbow.001",
+      "parent": "FFV2_Workbench",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.945,
+        -0.095,
+        1.32
+      ],
+      "dimensions_m": [
+        0.03,
+        0.03,
+        0.167631
+      ],
+      "rotation_euler_deg": [
+        17.354,
+        -0.0,
+        -180.0
+      ],
+      "vertices": 72,
+      "triangles": 140,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_AnodisedWarmSilver"
+      ]
+    },
+    {
+      "name": "Stylus_PivotNib",
+      "parent": "FFV2_Workbench",
+      "type": "EMPTY",
+      "pivot_local_blender_m": [
+        0.75,
+        0.46,
+        0.85
+      ],
+      "dimensions_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        73.0,
+        -21.0
+      ]
+    },
+    {
+      "name": "Stylus_Barrel",
+      "parent": "Stylus_PivotNib",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.072
+      ],
+      "dimensions_m": [
+        0.014,
+        0.014,
+        0.134
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 32,
+      "triangles": 60,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_GraphitePowderCoat"
+      ]
+    },
+    {
+      "name": "Stylus_EndCap",
+      "parent": "Stylus_PivotNib",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.143
+      ],
+      "dimensions_m": [
+        0.012,
+        0.012,
+        0.008
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 32,
+      "triangles": 60,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_ChampagneEdge"
+      ]
+    },
+    {
+      "name": "Stylus_Grip",
+      "parent": "Stylus_PivotNib",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.035
+      ],
+      "dimensions_m": [
+        0.016,
+        0.016,
+        0.034
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 96,
+      "triangles": 188,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Rubber"
+      ]
+    },
+    {
+      "name": "Stylus_Nib",
+      "parent": "Stylus_PivotNib",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.004
+      ],
+      "dimensions_m": [
+        0.005,
+        0.005,
+        0.012
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 32,
+      "triangles": 60,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_AnodisedWarmSilver"
+      ]
+    },
+    {
+      "name": "ThumbnailCard_00",
+      "parent": "FFV2_Workbench",
+      "type": "EMPTY",
+      "pivot_local_blender_m": [
+        1.048,
+        0.005,
+        1.6
+      ],
+      "dimensions_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Thumbnail_Backing",
+      "parent": "ThumbnailCard_00",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.008,
+        0.0
+      ],
+      "dimensions_m": [
+        0.27,
+        0.012,
+        0.152
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_GraphitePowderCoat"
+      ]
+    },
+    {
+      "name": "UI_Thumbnail_00",
+      "parent": "ThumbnailCard_00",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.002,
+        0.0
+      ],
+      "dimensions_m": [
+        0.256,
+        0.0,
+        0.144
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "uv_layers": [
+        "ScreenshotUV"
+      ],
+      "materials": [
+        "M_UI_Thumbnail_SLOT"
+      ]
+    },
+    {
+      "name": "ThumbnailCard_01",
+      "parent": "FFV2_Workbench",
+      "type": "EMPTY",
+      "pivot_local_blender_m": [
+        1.048,
+        0.005,
+        1.405
+      ],
+      "dimensions_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Thumbnail_Backing.001",
+      "parent": "ThumbnailCard_01",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.008,
+        0.0
+      ],
+      "dimensions_m": [
+        0.27,
+        0.012,
+        0.152
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_GraphitePowderCoat"
+      ]
+    },
+    {
+      "name": "UI_Thumbnail_01",
+      "parent": "ThumbnailCard_01",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.002,
+        0.0
+      ],
+      "dimensions_m": [
+        0.256,
+        0.0,
+        0.144
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "uv_layers": [
+        "ScreenshotUV"
+      ],
+      "materials": [
+        "M_UI_Thumbnail_SLOT"
+      ]
+    },
+    {
+      "name": "ThumbnailCard_02",
+      "parent": "FFV2_Workbench",
+      "type": "EMPTY",
+      "pivot_local_blender_m": [
+        1.048,
+        0.005,
+        1.21
+      ],
+      "dimensions_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Thumbnail_Backing.002",
+      "parent": "ThumbnailCard_02",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.008,
+        0.0
+      ],
+      "dimensions_m": [
+        0.27,
+        0.012,
+        0.152
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_GraphitePowderCoat"
+      ]
+    },
+    {
+      "name": "UI_Thumbnail_02",
+      "parent": "ThumbnailCard_02",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.002,
+        0.0
+      ],
+      "dimensions_m": [
+        0.256,
+        0.0,
+        0.144
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "uv_layers": [
+        "ScreenshotUV"
+      ],
+      "materials": [
+        "M_UI_Thumbnail_SLOT"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,777 @@
+{
+  "version": 2,
+  "status": "integrated-discussion-draft-not-runtime-timeline",
+  "checked_on": "2026-10-16",
+  "spec": "spec/15-integrated-show-outline.md",
+  "scope": "用户确认回到文化与社区变迁的全景重心并要求继续细化；七段和23个场面为讨论稿，具体史料、交互、歌词与卡点待定。已选片尾为一起做下去；旧运行数据保留。",
+  "runtime_implemented": false,
+  "runtime_data_preserved": [
+    "data/timeline.json",
+    "data/lyrics.json",
+    "data/stage.json"
+  ],
+  "material_catalogues": {
+    "culture": "data/culture-materials.json",
+    "vrchat": "data/vrchat-materials.json"
+  },
+  "theme": {
+    "status": "authored-integration-proposal",
+    "statement": "普通人共同创造、转译、传播和维护文化；这些能力伴随成本、控制与滥用变得脆弱；留下的作品与知识、AI 降低的部分理解和制作成本，以及传播渠道与 VRC 提供的连接机会，让更多人重新参与创造，并主动选择一起做下去。",
+    "arc": [
+      "做出来",
+      "读懂与传递",
+      "条件改变与成本累积",
+      "来源、选择与回应受损",
+      "副本仍在但使用能力失去",
+      "理解、制作与连接的门槛降低",
+      "互助带来有效反馈，更多人参与创造",
+      "主动合作，一起做下去"
+    ],
+    "tone": "保留快乐、幽默、炫技和人的温度；早期已有风险，当代仍有建设与互助。"
+  },
+  "renewal_causality": {
+    "status": "user-proposed-creative-premise-with-authored-staging",
+    "user_direction": "AI 带来生产力进步与软件复刻成本下降；AI、社交媒体和 VRC 降低连接的栅栏；人性中积极合作的一面使人愿意互助并选择留下。",
+    "scope": "后段创作因果；不作为所有软件复刻成本、平台开放程度或社会趋势均已核实的结论。",
+    "foundation": "此前有人保存、署名、写文档、教学与维护，提供后来者能够使用的资料与知识。",
+    "conditions": [
+      {
+        "id": "production-access",
+        "change": "AI 降低部分旧代码理解、翻译、功能复刻、原型与新作品制作的启动投入",
+        "visible_result": "原先无从下手的人能够开始尝试并验证一个结果",
+        "qualification": "以范围明确的小工具或原型表现；验证、整合和长期维护仍有具体成本"
+      },
+      {
+        "id": "connection-access",
+        "change": "AI 帮助跨语言和知识门槛，社交渠道帮助发现同伴，VRC 提供共同演示、试用和交流的空间",
+        "visible_result": "未完成的尝试被看见，一个具体问题得到帮助",
+        "qualification": "聚焦寻找同伴、理解和协作的门槛，平台访问、权限和治理条件分别保留"
+      },
+      {
+        "id": "cooperative-choice",
+        "change": "人出于兴趣、互惠与被回应的体验，选择分享、回答、验证和再贡献",
+        "visible_result": "接收者成为帮助者，合作可以交接并继续",
+        "qualification": "参与自主、可轮换；不以无限维护或永不离开作为善意的条件"
+      }
+    ],
+    "feedback_loop": [
+      "更容易开始",
+      "更容易被同伴找到",
+      "得到具体帮助和有效反馈",
+      "更多人具备创造能力",
+      "主动留下成果与回应，帮助下一个人"
+    ],
+    "leave_meanings": [
+      "留下可用成果、资料、来源与贡献",
+      "愿意留在连接之中回应别人"
+    ],
+    "continuity": "第五段聚焦具体失效；其他地方的创造与互助持续发展，后段将已有的人与新条件重新连接。",
+    "relationship_to_overload": "同类低成本生产能力可以增加复制和请求，也可以被人用来理解、制作和互助；具体结果通过使用方式和协作过程呈现。",
+    "ending_emotion": "我也能做，我们能够一起做，并愿意一起做下去。"
+  },
+  "confirmed_direction": {
+    "format": "VRChat 实时 3D MV",
+    "structure": "互联网与 VRChat 双线贯穿、反复交织",
+    "cast": "群像为主，少数熟面孔反复出现；数量可增、外观可替换、骨骼驱动，精细动捕后续录制",
+    "music_processing": "空间变化为主，少量动态处理；保留原编配、音符、速度与源音色",
+    "normal_music_space": "四声部在前方轻微分层，整体融合",
+    "climax_music_space": "只在选定高潮短暂明显展开，随后收回前方；具体窗口与通道未确认",
+    "environment_audio": "环境和动作声可按场景分布于四周",
+    "art_production": {
+      "status": "user-provided-art-production-direction-not-produced-assets",
+      "primary": "自行绘制的大量平面内容放入三维面片与分层结构",
+      "intra_scene_depth": "同一幅场景的前景、主体、中景与背景分别绘制，以实际前后距离组装；补齐遮挡区域，保持构图与锚点。",
+      "support": "简单建模、现有资产复用与骨骼演员",
+      "plan": "data/art-production-plan.json",
+      "spec": "spec/17-art-production-plan.md",
+      "visual_style": {
+        "status": "user-provided-direction-specific-carriers-and-filters-pending",
+        "direction": "period-faithful-carriers",
+        "plan": "data/visual-style-plan.json",
+        "principle": "旧内容保留真实年代风格，轻度调色协调；前期屏幕与窗口承载，后期更自由，旧样式继续保留"
+      }
+    },
+    "ending_direction": {
+      "status": "user-confirmed-narrative-direction-not-runtime-implementation",
+      "keyword": "继续",
+      "expression": "一起做下去",
+      "closing_line": "那就一起做下去。",
+      "motif_roles": {
+        "留下": "贯穿作品、知识、来源与自主停留",
+        "在一起": "通过共同操作、试用和互助产生的体验",
+        "继续": "最后仍有人接手、制作和提出新想法的行动方向"
+      }
+    },
+    "space_experience": {
+      "status": "user-stated-direction-exact-windows-pending",
+      "long_unbounded": "至少一长段没有可感知的整体空间边界",
+      "spatial_transcendence": "另有一段改变尺度、内外或远近关系，超越日常空间界限",
+      "plan": "data/spatial-scene-plan.json",
+      "world_motion_proposal": {
+        "status": "user-proposed-technique-primary-use-recommended",
+        "plan": "data/world-motion-plan.json",
+        "principle": "人物独立，运动场景平移旋转缩放，稳定支撑、接触道具和主音乐分别管理。"
+      }
+    }
+  },
+  "music": {
+    "plan": "data/music-visual-plan.json",
+    "module": "audio/keil-keygen-2008/tune.fc14",
+    "events": "audio/keil-keygen-2008/tracks.csv",
+    "logical_cycle_seconds": 256,
+    "row_seconds": 0.08,
+    "order_seconds": 2.56,
+    "rows_per_order": 32,
+    "orders": 100,
+    "indexing": "零起点序列号；end_order_exclusive 不包含终点序列段",
+    "evidence_scope": "谱面与离线信号分析；未完成直接听感评审。情绪和高潮是演出建议。",
+    "meter_status": "行和序列段不直接等于音乐拍或小节；0.32/0.64 秒仅为视觉脉冲候选",
+    "attribution": "曲名与作者归属按 audio/SOURCE.md 的待核状态；不可混用 Funky Stars 的署名和留言"
+  },
+  "continuity_motifs": [
+    {
+      "id": "editable-work",
+      "candidate": "多件原创或获准使用的工具、转译内容、社区页面与 Avatar/世界作品",
+      "progression": "各自的制作与使用 → 传播与共同活动 → 来源/条件/回应受到压力 → 部分使用路径失效 → 新工具、新内容、新空间与更多创作者",
+      "scope": "多组前后可回认的内容家族，不要求全部史料围绕同一作品或一项修复"
+    },
+    {
+      "id": "contribution-list",
+      "candidate": "README、原作者与贡献名单",
+      "progression": "工作记录 → 发布署名 → 名字被挤掉 → 原作者与新贡献保留 → 接收者也成为贡献者"
+    },
+    {
+      "id": "responsive-entry",
+      "candidate": "链接、窗口、房间或传送门",
+      "progression": "打开与回应 → 内容成为空间 → 入口附加条件 → 操作无响应 → 找到同伴与一次具体帮助 → 更多工作区连通"
+    }
+  ],
+  "presentation": {
+    "art_plan": "data/art-production-plan.json",
+    "spatial_plan_proposal": "data/spatial-scene-plan.json",
+    "style_discussion": "data/visual-style-plan.json",
+    "surfaces": "时代内容主要自绘，场景之间与同一幅画面内部均拆分真实深度层，近物加实体边框与模型；同一素材家族通过内容、状态和组合复用",
+    "primary": "每个短场面只有一个必读动作，其他材料作为节拍蒙太奇与侧面可重看细节",
+    "history": "事件各自标明年代和来源；相似动作的剪接不表示共同原因或因果关系",
+    "text": "不演唱的诗性歌词与真实引文错开阅读；长文和完整出处留给演后资料",
+    "scale": "先以屏幕、人物与器物建立尺度，撤去全局容器；通过局部容纳整体与远近接续重构空间，保留关键阅读与自然观察。",
+    "sound_reference": "主音乐以世界或演出方向为参照，不随头部转动贴头旋转",
+    "space": "早段具体载体，随后长段无界；活动片段不固定围合为三间房，再兴段候选内外互换与远近重构，结尾人尺度协作而外围无界。",
+    "world_motion_plan": "data/world-motion-plan.json"
+  },
+  "sections": [
+    {
+      "id": "connect",
+      "title": "接入",
+      "start": 0,
+      "end": 30.72,
+      "start_order": 0,
+      "end_order_exclusive": 12,
+      "main_action": "第一次发现内容可以由普通人制作、修改和发布",
+      "materials": {
+        "culture": [
+          "desktop-post",
+          "desktop-win95",
+          "desktop-xp-luna",
+          "access-dialup",
+          "cn-portal-navigation",
+          "social-homepages",
+          "media-tracker-demoscene"
+        ],
+        "vrchat": [
+          "vrc-2017-hub",
+          "vrc-early-karl-history"
+        ]
+      },
+      "emotion": "好奇、试探，逐渐获得把握",
+      "visual": "电脑、按键机、早期智能手机屏幕或明确浏览器边界建立尺度；旧网页与早期 VR 图像从开场在载体内交织，窗口内初显深度，后续再逐步展开",
+      "music_evidence": "0/2.56/5.12 秒逐步引入声部，10.24 秒新组合，25.60—30.72 秒增加节奏型",
+      "audio": "随原曲逐步建立前方轻微分层的整体，环境声定位到具体物体",
+      "bridge": "窗口内看见编辑工作，转到制作、转译与试用工位",
+      "lyric_candidates": [
+        "lyric-connect"
+      ]
+    },
+    {
+      "id": "create",
+      "title": "创造与传播繁荣",
+      "start": 30.72,
+      "end": 102.4,
+      "start_order": 12,
+      "end_order_exclusive": 40,
+      "main_action": "许多人的劳动让内容变得可读、可用并走得更远",
+      "materials": {
+        "culture": [
+          "software-portable",
+          "software-localization",
+          "translation-game-localization",
+          "translation-manga-workflow",
+          "translation-anime-fansub",
+          "translation-credits-readme",
+          "sharing-bt-pieces-upload",
+          "sharing-bt-rare-piece",
+          "sharing-bt-release-indexes",
+          "cn-tianya-long-threads",
+          "cn-renren-xiaonei",
+          "cn-sina-weibo-early",
+          "security-blaster",
+          "security-panda",
+          "software-bundles"
+        ],
+        "vrchat": [
+          "vrc-2017-hub",
+          "vrc-avatar-styles",
+          "vrc-avatar-world-directory-2018",
+          "vrc-knuckles-wave",
+          "vrc-vket1-2018",
+          "vrc-udon-live-alpha-2020",
+          "vrc-osc-2022",
+          "vrc-dynamics-2022",
+          "vrc-helping-hands-2019"
+        ]
+      },
+      "emotion": "会心、兴奋、自由与共同创造，穿插小故障和修复",
+      "visual": "30.72—51.20 秒逐步撤界，之后进入长段无界内容场；翻译图层、BT 分块、公共生活、Avatar 与世界活动在不同深度展开。",
+      "music_evidence": "12—39 序列段持续节奏，51.20/71.68/81.92 秒更换素材组合",
+      "audio": "大部分仍在前方融合；仅候选 climax-create 短暂明显展开适合的一至两条声部",
+      "bridge": "再次打开同一入口，原先直接发生的动作开始附加条件",
+      "lyric_candidates": [
+        "lyric-translation",
+        "lyric-sharing"
+      ]
+    },
+    {
+      "id": "constrain",
+      "title": "条件改变",
+      "start": 102.4,
+      "end": 133.12,
+      "start_order": 40,
+      "end_order_exclusive": 52,
+      "main_action": "入口仍在，访问、许可与维护条件发生变化",
+      "materials": {
+        "culture": [
+          "enclosure-3q",
+          "enclosure-subscription",
+          "commons-xz"
+        ],
+        "vrchat": [
+          "vrc-eac-2022",
+          "vrc-eac-accessibility-response",
+          "vrc-mod-community-changes"
+        ]
+      },
+      "emotion": "不便、迟疑与压力积累",
+      "visual": "无界外部保持，局部窗口、入口和维护事项改变具体可用能力，各事件保留语境。",
+      "music_evidence": "102.40 秒 pattern22/乐器6由通道4交给通道2；局部声部移除或交替",
+      "audio": "材料交接只在前方小范围发生，不因转场启动环绕",
+      "bridge": "通过条件的成本变成连续请求、维护负担和来源追溯困难",
+      "lyric_candidates": [
+        "lyric-constrain"
+      ]
+    },
+    {
+      "id": "overload",
+      "title": "过载",
+      "start": 133.12,
+      "end": 186.88,
+      "start_order": 52,
+      "end_order_exclusive": 73,
+      "main_action": "副本与请求增加，来源、许可和选择更难保留",
+      "materials": {
+        "culture": [
+          "translation-credits-readme",
+          "commons-report-flood",
+          "commons-xz"
+        ],
+        "vrchat": [
+          "vrc-ripping-official-2024",
+          "vrc-ripping-feedback-2026-06",
+          "vrc-ai-thumbnail-2026",
+          "vrc-ai-discoverability-2026"
+        ]
+      },
+      "emotion": "过载、压迫与信任受损",
+      "visual": "无界环境中的副本、请求和来源脱落增殖，重复、尺度与局部遮挡制造压迫；原短视野替代仍单独验证。",
+      "music_evidence": "52—59 段密集组合重复，163.84/168.96 秒再换型；空 pattern 不等于所有声部静音",
+      "audio": "常态前方融合，climax-overload 候选窗口短暂展开后收回；不再新增一次大范围环绕",
+      "bridge": "操作和内容仍存在，却越来越得不到有效回应；撤去近景与交流",
+      "lyric_candidates": [
+        "lyric-overload"
+      ]
+    },
+    {
+      "id": "distance",
+      "title": "骤空",
+      "start": 186.88,
+      "end": 197.12,
+      "start_order": 73,
+      "end_order_exclusive": 77,
+      "main_action": "副本仍在，访问、运行和理解它的能力却缺失",
+      "materials": {
+        "culture": [
+          "event-flash-eol",
+          "event-flash-block",
+          "loss-broken-images",
+          "cn-tianya-access-2023",
+          "cn-tianya-restoration-report-2026",
+          "software-readme"
+        ],
+        "vrchat": []
+      },
+      "emotion": "骤空、距离与短暂停顿",
+      "visual": "近处活动撤去，在没有可见整体容器的留白里单独照亮远处保存物；视听隔离仍为候选。",
+      "music_evidence": "186.88 秒通道1实际撤去，194.56 秒返回过门；其他声部持续",
+      "audio": "撤环境与辅助冲击层，原曲中仍持续的声部作为前方整体退远；不强行仅保留一轨",
+      "bridge": "从远处留下的副本与说明接回一个近处可尝试的对象",
+      "lyric_candidates": [
+        "lyric-distance"
+      ]
+    },
+    {
+      "id": "continue",
+      "title": "再兴",
+      "start": 197.12,
+      "end": 245.76,
+      "start_order": 77,
+      "end_order_exclusive": 96,
+      "main_action": "降低的理解与制作成本让更多人开始，传播与共同空间促成帮助，一次有效反馈使接收者开始贡献并创作新东西",
+      "materials": {
+        "culture": [
+          "software-readme",
+          "translation-credits-readme",
+          "preserve-ruffle",
+          "preserve-flashpoint",
+          "preserve-protocols",
+          "preserve-ai-repair",
+          "preserve-translation-reseed"
+        ],
+        "vrchat": [
+          "vrc-udon-live-alpha-2020",
+          "vrc-osc-2022",
+          "vrc-helping-hands-2019",
+          "vrc-ai-target-sprint-2026"
+        ]
+      },
+      "emotion": "从可以试试到我也能做，互助与创造的快乐回升",
+      "visual": "先在无界环境中取得具体回应，候选 215.04—235.52 秒小窗容纳大场景、内外互换与远近协作折叠，再回到外围无界的人尺度操作。",
+      "music_evidence": "197.12 秒通道1进入多乐器 pattern11 并重现较早配置；235.52 秒 pattern22/乐器6交到通道1",
+      "audio": "整体前方逐渐靠近并恢复层次；235.52 秒受助者转为帮助者，声部只作前方小范围交接",
+      "bridge": "已得到所需成果的人仍主动回应后来者，原作者与新增贡献保留在同一空间",
+      "lyric_candidates": [
+        "lyric-continue"
+      ]
+    },
+    {
+      "id": "trace",
+      "title": "继续：一起做下去",
+      "start": 245.76,
+      "end": 256,
+      "start_order": 96,
+      "end_order_exclusive": 100,
+      "main_action": "有人交出成果，有人接手，有人提出新想法；新的创作者主动合作，一起做下去",
+      "materials": {
+        "culture": [
+          "translation-credits-readme",
+          "sharing-bt-pieces-upload",
+          "software-readme"
+        ],
+        "vrchat": []
+      },
+      "emotion": "自主、信任与继续创造的余温",
+      "visual": "保留局部工位、接手与新点子，外围继续无界；原作者与新贡献可读，片尾那就一起做下去。",
+      "music_evidence": "96—99 段减少部分新触发并准备循环，256 秒返回开头，不是天然终止式",
+      "audio": "收在前方；一次演出的句尾收束或另做尾声仍待试听决定",
+      "bridge": "进入演后停留，或在另行设计后明确接回循环",
+      "lyric_candidates": [
+        "lyric-trace"
+      ]
+    }
+  ],
+  "scene_candidates": [
+    {
+      "id": "connect-carriers",
+      "section": "connect",
+      "start": 0,
+      "end": 10.24,
+      "action": "局部屏幕光、开机与连接建立设备和人物尺度",
+      "visible_result": "观众认出具体设备和年代，开始注意画面中的操作",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "connect-tool",
+      "section": "connect",
+      "start": 10.24,
+      "end": 20.48,
+      "action": "展开目录与 README，一人改动，另一人使用后做出内容",
+      "visible_result": "工具的来处、制作和使用之间有可见关系",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "connect-worldmaking",
+      "section": "connect",
+      "start": 20.48,
+      "end": 30.72,
+      "action": "世界编辑、骨架与材质调整交接到早期 VRC 图像/局部重建",
+      "visible_result": "Avatar 与空间的制作过程可辨",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "create-manga",
+      "section": "create",
+      "start": 30.72,
+      "end": 40.96,
+      "action": "原创示意页清字、嵌字与检查，各工作层合拢",
+      "visible_result": "原本难懂的内容变得可读，有人试读并回应",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "create-subtitle",
+      "section": "create",
+      "start": 40.96,
+      "end": 51.2,
+      "action": "对白、译文与时间轴从错位调整到对齐",
+      "visible_result": "字幕在原创演示动画中准确落位，贡献可辨",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "create-distribute",
+      "section": "create",
+      "start": 51.2,
+      "end": 71.68,
+      "action": "版本与名单随发布帖出现，不同来源分块补齐结果并继续传出",
+      "visible_result": "接收者也提供已有部分，多件内容获得传播",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "create-public-life",
+      "section": "create",
+      "start": 71.68,
+      "end": 81.92,
+      "action": "长帖回帖、相册和转发链依次接过主构图",
+      "visible_result": "不同人记录、发言、回应与形成共同记忆",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "create-bodies-worlds",
+      "section": "create",
+      "start": 81.92,
+      "end": 92.16,
+      "action": "旧 Hub 展示与入口接到身体表达、搭建和试用",
+      "visible_result": "人物和内容在周围展开，形成快乐释放",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "create-humour-help",
+      "section": "create",
+      "start": 92.16,
+      "end": 102.4,
+      "action": "原创人物摆姿势或追踪玩笑，桌面报错/求助与动作教学穿插",
+      "visible_result": "幽默有完整反应，困难也能得到具体帮助",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "constrain-access",
+      "section": "constrain",
+      "start": 102.4,
+      "end": 112.64,
+      "action": "同一打开动作增加登录、版本、兼容或访问步骤",
+      "visible_result": "观众看到具体能力与选择的变化",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "constrain-security",
+      "section": "constrain",
+      "start": 112.64,
+      "end": 122.88,
+      "action": "EAC 相关公告和使用路径交接，呈现具体受影响能力和后续回应",
+      "visible_result": "安全目标与便利/无障碍需求各有语境",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "constrain-maintenance",
+      "section": "constrain",
+      "start": 122.88,
+      "end": 133.12,
+      "action": "请求带出版本、依赖与维护事项，待办逐渐增多",
+      "visible_result": "动作从完成与递出变成检查、切换和暂缓",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "overload-provenance",
+      "section": "overload",
+      "start": 133.12,
+      "end": 143.36,
+      "action": "原创演示副本被不断拿走，名单与许可没有同行",
+      "visible_result": "制作过程还在，观众辨认原作与失去来处的副本",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "overload-peak",
+      "section": "overload",
+      "start": 143.36,
+      "end": 153.6,
+      "action": "宣传缩略图、重复结果与请求放大靠近，遮住不同作品",
+      "visible_result": "拥挤来自重复、尺度与遮挡，具体来源难找",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "overload-automation",
+      "section": "overload",
+      "start": 153.6,
+      "end": 168.96,
+      "action": "某人解决一项问题，周围请求/发布队列仍重复滚动",
+      "visible_result": "内容继续增加，有效回应没有同比增加",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "overload-capability-loss",
+      "section": "overload",
+      "start": 168.96,
+      "end": 186.88,
+      "action": "播放器、外链图片与入口逐项停止响应，近景逐步撤去",
+      "visible_result": "内容痕迹仍在，访问/运行/理解路径分别断裂",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "distance-preserved-object",
+      "section": "distance",
+      "start": 186.88,
+      "end": 197.12,
+      "action": "近景和辅助环境退下，只照亮先前见过的一份作品/资料",
+      "visible_result": "观众认得留下的东西，同时感到距离和使用路径缺失",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "renewal-start",
+      "section": "continue",
+      "start": 197.12,
+      "end": 207.36,
+      "action": "保存资料与 AI 帮助后来者制作并验证小范围原型，其他工位也开始尝试",
+      "visible_result": "一项原先无从下手的操作有可检查结果",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "renewal-find-peers",
+      "section": "continue",
+      "start": 207.36,
+      "end": 217.6,
+      "action": "原型、跨语言说明与传播带来同伴，短示范后修改与验证",
+      "visible_result": "帮助产生可见变化，新增贡献有名字",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "renewal-fold-distance",
+      "section": "continue",
+      "start": 217.6,
+      "end": 230.4,
+      "action": "远处工位经小窗口和内外接续变成近处共同演示位置",
+      "visible_result": "观众辨认内外/远近关系改变，双方可以共同操作",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "renewal-new-creation",
+      "section": "continue",
+      "start": 230.4,
+      "end": 235.52,
+      "action": "正在制作的新工具、转译内容和原创空间依次交出结果",
+      "visible_result": "新能力产生多种作品与更多创作者",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "renewal-contribute-again",
+      "section": "continue",
+      "start": 235.52,
+      "end": 245.76,
+      "action": "先前收资料的人为另一人演示，随后对方发布自己的版本",
+      "visible_result": "帮助促成再次创作，多处工作继续",
+      "details": "data/scene-score.json"
+    },
+    {
+      "id": "trace-ongoing-work",
+      "section": "trace",
+      "start": 245.76,
+      "end": 256,
+      "action": "有人交成果，有人接手或提出新用法，旁边另一处制作仍继续",
+      "visible_result": "继续落在可见动作与新参与者上",
+      "details": "data/scene-score.json"
+    }
+  ],
+  "climax_candidates": [
+    {
+      "id": "climax-create",
+      "status": "authored-window-pending-audition-and-review",
+      "section": "create",
+      "start": 81.92,
+      "end": 92.16,
+      "purpose": "共同创造的释放；空间与内容展开",
+      "expanded_voice_count_candidate": [
+        1,
+        2
+      ],
+      "routing": "根据当段听感选通道，保留前方参照；展开、短留、收回"
+    },
+    {
+      "id": "climax-overload",
+      "status": "authored-window-pending-audition-and-review",
+      "section": "overload",
+      "start": 143.36,
+      "end": 153.6,
+      "purpose": "过载与压迫；尺度、重复和密度达到峰值",
+      "expanded_voice_count_candidate": [
+        1,
+        2
+      ],
+      "routing": "根据当段听感选通道，保留前方参照；展开、短留、收回"
+    }
+  ],
+  "vr_effect_candidates": [
+    {
+      "id": "view-substitution",
+      "status": "reserve-candidate-not-enabled-not-headset-validated",
+      "section": "overload",
+      "start": 151.04,
+      "end": 153.6,
+      "purpose": "短暂固定所见构图，表现来源与出口难以找到",
+      "constraints": "验证双眼与转头感受、切入切出及音频落点；具体实现未选，不将包围摄像机画面当作已解决方案",
+      "default_enabled": false,
+      "use_role": "特定短段备选，不是连续空间进入的默认依赖。"
+    },
+    {
+      "id": "brief-isolation",
+      "status": "candidate-not-multiplayer-validated",
+      "section": "distance",
+      "start": 186.88,
+      "end": 197.12,
+      "purpose": "短暂撤去同伴的视听存在，突出保存物与距离",
+      "constraints": "验证玩家视听隔离和恢复，保留原音乐；不暗示人物死亡"
+    },
+    {
+      "id": "spatial-transcendence",
+      "status": "authored-window-candidate-not-stereo-or-runtime-validated",
+      "section": "continue",
+      "start": 215.04,
+      "end": 235.52,
+      "purpose": "通过局部容纳整体、内外互换和远近协作折叠，表达超越日常空间界限。",
+      "constraints": "技法与精确卡点未确认；采用实际双眼深度和自然观察，与过载短视野替代分开，不自动新增明显分轨高潮。",
+      "primary_approach": "原生几何的世界运动与局部场景分组，摄像机画面覆盖不是前置依赖。"
+    }
+  ],
+  "lyric_candidates": [
+    {
+      "id": "lyric-connect",
+      "section": "connect",
+      "text": "我们先把它，做出来。"
+    },
+    {
+      "id": "lyric-translation",
+      "section": "create",
+      "scene": "create-manga",
+      "text": "有人把它译成了，我们读得懂的样子。"
+    },
+    {
+      "id": "lyric-sharing",
+      "section": "create",
+      "scene": "create-distribute",
+      "text": "下载完成以后，仍有人留着灯。"
+    },
+    {
+      "id": "lyric-constrain",
+      "section": "constrain",
+      "text": "入口还在，能做的事却变了。"
+    },
+    {
+      "id": "lyric-overload",
+      "section": "overload",
+      "text": "副本越来越多，留下的名字越来越少。"
+    },
+    {
+      "id": "lyric-distance",
+      "section": "distance",
+      "text": "文件还在，打开它的路不见了。"
+    },
+    {
+      "id": "lyric-continue",
+      "section": "continue",
+      "text": "原来，我也能做出来。",
+      "alternate_texts": [
+        "后来的人，沿着留下的字继续。"
+      ]
+    },
+    {
+      "id": "lyric-trace",
+      "section": "trace",
+      "text": "那就一起做下去。",
+      "status": "user-confirmed-closing-expression-display-timing-pending",
+      "previous_texts": [
+        "我把它留下，也留下来。",
+        "请留一份，也留下名字。"
+      ]
+    }
+  ],
+  "evidence_policy": [
+    "素材引用表示可选用途，不把原目录的候选或待核记录升级为已确认事实。",
+    "天涯暂停与后续恢复访问报道分别呈现；未验证所有历史内容完整性，不写永久终结。",
+    "EAC 的安全理由、辅助功能影响和官方后续回应各有语境；2022 年不是首次禁止 Mod。",
+    "盗模封禁规模是官方披露；社区投诉只证明投诉存在，不能充作独立统计。",
+    "AI 缩略图规则针对误导宣传，不是全面禁 AI；辅助创作案例保留作者自述性质。",
+    "真实侵权案例仅用公开材料，不点名受害者；不展示注册机本体、下载或破解指引。",
+    "存档、模拟与重实现和 AI 辅助分别说明；不承诺在 VRChat 内执行 SWF。",
+    "现代 Avatar 是叙事演员；历史外观、界面和布局按年代另核。"
+  ],
+  "unresolved_materials": [
+    {
+      "catalogue": "vrchat",
+      "id": "vrc-minor-circle-lead",
+      "status": "user-provided-lead-unresolved",
+      "use": "仅保留待定位线索，不列为具体事件场面、不补名字或行为指控"
+    }
+  ],
+  "ending": {
+    "status": "narrative-direction-confirmed-audio-ending-pending",
+    "keyword_selection": {
+      "status": "user-confirmed",
+      "selection_basis": "用户选择按照推荐的一起做下去，并要求重新梳理全片。",
+      "keyword": "继续",
+      "expression": "一起做下去",
+      "closing_line": "那就一起做下去。",
+      "reason": "承接重新获得的创造能力、连接机会和主动合作，指向新的作品与参与者。",
+      "motif_roles": {
+        "留下": "贯穿作品、知识、来源与自主停留的意象",
+        "在一起": "通过共同制作、试用和互助产生的关系体验",
+        "继续": "片尾仍有人行动、接手和提出新想法的方向"
+      },
+      "final_shot_candidate": "有人交出成果，有人接手，有人拿出新点子；音乐收束时工作与交流仍在继续，参与可轮换。",
+      "final_shot_status": "staging-candidate-under-confirmed-ending-direction",
+      "previous_expressions_archived": [
+        "留下",
+        "在一起"
+      ],
+      "old_runtime_lyrics_preserved": true
+    },
+    "narrative_cause": "生产与连接的门槛降低带来新的胜任感与同伴关系；人的主动合作使一次帮助变成可以持续的贡献。",
+    "leave_meaning": "留下可用成果，也愿意留在连接中回应；参与和维护可以轮换与交接。",
+    "recommended_form": "先按一次演出收束，再保留可停留空间",
+    "cycle_boundary_seconds": 256,
+    "final_duration_seconds": null,
+    "options": [
+      "句尾短淡出",
+      "单独尾声",
+      "专门设计后采用明确循环"
+    ],
+    "render_note": "现有 256.100 秒取证 WAV 含下一轮开头，不直接作为最终长度"
+  },
+  "remaining_work": [
+    "依据已选结尾方向细化具体分场、其余歌词与高潮候选，选择并复核少量事实锚点。",
+    "试听确认音乐句子、具体移动声部、原曲循环边界与结尾。",
+    "准备四条统一基准的单声道素材并验证头显声场、视野替代和多人恢复。",
+    "创意对齐后整体更新运行时间轴、歌词与空间施工单，再进入新版 Unity 演出实现。"
+  ],
+  "scene_score": "data/scene-score.json",
+  "scene_treatment": "spec/25-panorama-scene-treatment.md",
+  "direction_update": {
+    "status": "user-confirmed-panorama-return-scene-details-pending",
+    "basis": "用户确认回调更接近，要求继续细化",
+    "rejected_proposal": "spec/24-director-proposal-v4.md",
+    "principle": "文化与社区变迁、新生产能力与多种新创造占主要篇幅，人物和多件作品帮助回认，单个小作品/修复不主导全片"
+  }
+}

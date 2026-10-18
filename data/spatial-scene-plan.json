@@ -1,0 +1,859 @@
+{
+  "version": 3,
+  "status": "spatial-layout-discussion-draft-not-runtime-stage",
+  "checked_on": "2026-10-16",
+  "spec": "spec/19-spatial-scene-plan.md",
+  "sources": {
+    "show": "data/show-outline.json",
+    "art": "data/art-production-plan.json",
+    "style": "data/visual-style-plan.json",
+    "inventory": "data/gamepc-assets.json"
+  },
+  "runtime_implemented": false,
+  "legacy_stage_preserved": "data/stage.json",
+  "core_proposal": "具体载体起步，撤去全局边界后长时间置身无界内容场；再兴段以内外互换与远近折叠超越日常空间关系，最后保留有人继续协作、外围无界的开放环境。",
+  "decision_scope": "长段无空间边界及一段超越空间界限是用户明确方向；下列窗口、拓扑、落点与技法是据此提出的候选，尚未实现。",
+  "coordinates": {
+    "units": "metres",
+    "x": "right",
+    "y": "up",
+    "z": "primary stage forward",
+    "origin": "公共观演区中央的地面点",
+    "dimensions_status": "本地支撑、排练和演后可达区域的灰盒参考；不定义观众可见世界的边框或内容空间上限。"
+  },
+  "viewing": {
+    "zone_center": [
+      0,
+      0,
+      0
+    ],
+    "zone_size_xz": [
+      6,
+      3
+    ],
+    "nominal_eye_height_for_diagram": 1.6,
+    "primary_view_cone_candidate_degrees": 100,
+    "mode_proposal": "共享观演位置仅为本地落脚和多人构图参考；可见空间长时间无界，注意力锚点可随段落迁移，演后局部工位可达。",
+    "capacity_status": "先用 8 个位置检验构图，不表示世界最大人数、固定座位或已验证容量。",
+    "test_positions": [
+      [
+        -2.8,
+        0,
+        -0.3
+      ],
+      [
+        -2,
+        0,
+        -0.1
+      ],
+      [
+        -1.2,
+        0,
+        0.15
+      ],
+      [
+        -0.4,
+        0,
+        0.3
+      ],
+      [
+        0.4,
+        0,
+        0.3
+      ],
+      [
+        1.2,
+        0,
+        0.15
+      ],
+      [
+        2,
+        0,
+        -0.1
+      ],
+      [
+        2.8,
+        0,
+        -0.3
+      ]
+    ],
+    "visible_boundary_policy": "观演测试矩形、支撑面尺寸、边沿和分区线不进入无界段的最终可见画面。",
+    "reading_cone_scope": "前方阅读构图候选，不裁切视野、不限定可见世界范围。"
+  },
+  "modules": [
+    {
+      "id": "public-ground",
+      "title": "局部支撑与排练参考",
+      "space": "main",
+      "center": [
+        0,
+        0,
+        6
+      ],
+      "size_xz": [
+        32,
+        28
+      ],
+      "role": "保留脚下支撑及排练位置；无界段隐藏地板边沿与场地轮廓，演后局部区域可达。",
+      "inventory_ids": [],
+      "render_policy": "不可见支撑或没有可见边缘的连续基底，32×28 m 不作为可见方形场地。"
+    },
+    {
+      "id": "carrier-room",
+      "title": "起始工作室与主工位",
+      "space": "main",
+      "center": [
+        0,
+        0,
+        3
+      ],
+      "size_xz": [
+        10,
+        12
+      ],
+      "role": "仅早段保留完整房间外壳；51.20 秒后外壳撤去，必要设备与工位作为局部片段回收。",
+      "inventory_ids": [
+        "room01",
+        "vrs-furniture-2022"
+      ]
+    },
+    {
+      "id": "making-workshop",
+      "title": "制作区",
+      "space": "main",
+      "center": [
+        -9,
+        0,
+        7
+      ],
+      "size_xz": [
+        8,
+        8
+      ],
+      "role": "汉化、字幕与 Avatar/世界制作交织，重要动作交到中间主工位",
+      "inventory_ids": [
+        "vrs-furniture-2022"
+      ],
+      "placement_scope": "原坐标仅供初次灰盒排练；正式无界段以活动片段在不同距离、方向和高度分布，不固定为三间围合房间。"
+    },
+    {
+      "id": "sharing-workshop",
+      "title": "发布与交换区",
+      "space": "main",
+      "center": [
+        0,
+        0,
+        13
+      ],
+      "size_xz": [
+        10,
+        6
+      ],
+      "role": "发布帖、README、BT 分块与世界/作品入口交织",
+      "inventory_ids": [
+        "photo-clip",
+        "artboard"
+      ],
+      "placement_scope": "原坐标仅供初次灰盒排练；正式无界段以活动片段在不同距离、方向和高度分布，不固定为三间围合房间。"
+    },
+    {
+      "id": "commons-workshop",
+      "title": "共同活动区",
+      "space": "main",
+      "center": [
+        9,
+        0,
+        7
+      ],
+      "size_xz": [
+        8,
+        8
+      ],
+      "role": "论坛公共生活、旧 Hub 局部、Avatar 展示和教学交织",
+      "inventory_ids": [
+        "vrs-furniture-2022",
+        "mirrors",
+        "qvpen"
+      ],
+      "placement_scope": "原坐标仅供初次灰盒排练；正式无界段以活动片段在不同距离、方向和高度分布，不固定为三间围合房间。"
+    },
+    {
+      "id": "constraint-overlay",
+      "title": "入口与条件布景",
+      "space": "main",
+      "center": [
+        0,
+        0,
+        9
+      ],
+      "size_xz": [
+        16,
+        12
+      ],
+      "role": "既有窗口与门框放大并附加条件，重组视线和空间通路",
+      "inventory_ids": [
+        "isolation-cube",
+        "throwable-error"
+      ]
+    },
+    {
+      "id": "overload-overlay",
+      "title": "复制与请求布景",
+      "space": "main",
+      "center": [
+        0,
+        0,
+        9
+      ],
+      "size_xz": [
+        28,
+        18
+      ],
+      "role": "重复副本、请求、来源脱落和近处遮挡增加压力",
+      "inventory_ids": [
+        "fusenmemo",
+        "cyber-glitch"
+      ]
+    },
+    {
+      "id": "solitude-vignette",
+      "title": "短暂独处小场景",
+      "space": "separate-local-space",
+      "center": [
+        0,
+        0,
+        9
+      ],
+      "size_xz": [
+        8,
+        24
+      ],
+      "role": "局部站立地面与远处保存物，具体世界坐标及多人隔离路线待验证",
+      "inventory_ids": [],
+      "render_policy": "局部范围仅供站位和隔离验证，不显示房间外壳、矩形地板边沿或可见封闭容器。"
+    },
+    {
+      "id": "unbounded-field",
+      "title": "无界内容空间",
+      "space": "visual-field",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "size_xz": null,
+      "role": "隐藏整体房间、场地边沿和封闭穹顶感，以无尽背景、分层内容和距离分布提供没有外部容器的体验。",
+      "inventory_ids": [],
+      "production_scope": "有限渲染与分组组织产生无界观感，不承诺无限几何或无限可行走地图。"
+    },
+    {
+      "id": "spatial-fold-sequence",
+      "title": "内外与远近重构",
+      "space": "perceptual-sequence",
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "size_xz": null,
+      "role": "在再兴段用小窗容纳大场景、内外互换和远近协作折叠表达超越空间界限。",
+      "inventory_ids": [],
+      "status": "authored-staging-candidate-not-stereo-validated"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "main-workbench",
+      "space": "main",
+      "position": [
+        0,
+        0,
+        5.5
+      ],
+      "role": "关键制作、试用、帮助和交接的主要动作位置",
+      "scope": "早段参照与后段可回收的局部人尺度锚点，不要求全片所有主动作固定在同一张桌前。"
+    },
+    {
+      "id": "main-reading-carrier",
+      "space": "main",
+      "position": [
+        0,
+        1.9,
+        6.5
+      ],
+      "size_candidate": [
+        3.2,
+        2.4
+      ],
+      "role": "完整设备或对应软件边框的放大载体，内容宽高比依原型调整",
+      "scope": "早段的完整载体阅读候选；展开后可以迁移、改变尺度或成为空间入口。"
+    },
+    {
+      "id": "solitude-viewer",
+      "space": "separate-local-space",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "role": "独处小景的局部观演原点"
+    },
+    {
+      "id": "preserved-object",
+      "space": "separate-local-space",
+      "position": [
+        0,
+        1.2,
+        18
+      ],
+      "role": "远处单独照亮的已见作品、文件或 README"
+    }
+  ],
+  "carrier_readability": {
+    "physical_props": "正常大小的电脑、手机和器物提供近处操作与年代参照。",
+    "essential_content": "多人必读内容用保留完整机身或版本边框的放大载体呈现，按屏幕原宽高比排版；单个实际大小手机不是全场必读面。",
+    "text": "保留对应年代文字栅格，通过载体大小、距离和构图组织阅读，头显可读性待验证。"
+  },
+  "depth_bands": [
+    {
+      "id": "near-props",
+      "distance_candidate": [
+        2,
+        4
+      ],
+      "role": "实体器物与局部细节，少量近处动作"
+    },
+    {
+      "id": "primary-action",
+      "distance_candidate": [
+        4,
+        10
+      ],
+      "role": "主要表演、完整载体与必须阅读的内容"
+    },
+    {
+      "id": "neighbourhood",
+      "distance_candidate": [
+        10,
+        20
+      ],
+      "role": "三侧工作区和次要活动，重要信息可交到主工位"
+    },
+    {
+      "id": "distant-scenery",
+      "distance_candidate": null,
+      "role": "远景由密度、尺度与消隐组织，没有可辨认终点；实际渲染距离按原型确定，不以 40 m 作为可见世界的边沿。"
+    }
+  ],
+  "height_policy": "无界段内容可以延伸到上下与远处；主要动作和必要文字仍按当段观众与演员的可辨认关系组织，不用外部房间规定内容范围。",
+  "layer_policy": "依 art-production-plan 的父场景与内部深度层组织；可绕近的轮廓加厚度、背面或简单模型，背景面片不自动作为碰撞或通行地面。",
+  "culture_weave": "制作、发布交换与共同活动作为行为片段交织互联网与 VRChat，位置可以改变，不形成三间永久围合展厅。",
+  "aftershow_paths": [
+    {
+      "id": "to-main-workbench",
+      "destination": "carrier-room",
+      "width_candidate": 2,
+      "points_xz": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "to-making",
+      "destination": "making-workshop",
+      "width_candidate": 2,
+      "points_xz": [
+        [
+          0,
+          0
+        ],
+        [
+          -4,
+          2
+        ],
+        [
+          -9,
+          3.5
+        ]
+      ]
+    },
+    {
+      "id": "to-commons",
+      "destination": "commons-workshop",
+      "width_candidate": 2,
+      "points_xz": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          9,
+          3.5
+        ]
+      ]
+    },
+    {
+      "id": "to-sharing",
+      "destination": "sharing-workshop",
+      "width_candidate": 2,
+      "points_xz": [
+        [
+          0,
+          0
+        ],
+        [
+          -4,
+          2
+        ],
+        [
+          -4,
+          9
+        ],
+        [
+          0,
+          10.5
+        ]
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "section": "connect",
+      "start": 0,
+      "end": 30.72,
+      "active_modules": [
+        "public-ground",
+        "carrier-room"
+      ],
+      "focus": "主工位上的屏幕或有完整边界的放大载体；两条文化史先在载体内交织",
+      "cast": "近处一人操作，一人试用；其他人保持少量生活动作",
+      "audience_location": "shared-viewing-zone",
+      "carrier_room_state": "enclosed",
+      "activation_scope": "本段内的精细显隐由 spatial_timeline 的候选窗口安排。"
+    },
+    {
+      "section": "create",
+      "start": 30.72,
+      "end": 102.4,
+      "active_modules": [
+        "public-ground",
+        "carrier-room",
+        "making-workshop",
+        "sharing-workshop",
+        "commons-workshop",
+        "unbounded-field"
+      ],
+      "focus": "30.72—51.20 秒撤去载体外的全局房间与场地边沿；51.20 秒后进入无界内容场，制作、发布与共同活动分布成不同尺度的片段。",
+      "cast": "三侧有人制作、发布、试用或玩闹，关键动作轮流交到主工位",
+      "audience_location": "shared-viewing-zone",
+      "carrier_room_state": "shell-withdraws-then-local-fragments-only",
+      "activation_scope": "本段内的精细显隐由 spatial_timeline 的候选窗口安排。"
+    },
+    {
+      "section": "constrain",
+      "start": 102.4,
+      "end": 133.12,
+      "active_modules": [
+        "public-ground",
+        "carrier-room",
+        "making-workshop",
+        "sharing-workshop",
+        "commons-workshop",
+        "constraint-overlay",
+        "unbounded-field"
+      ],
+      "focus": "没有尽头的环境中出现局部条件入口和维护任务，阻力不依赖一个包住所有人的外壳。",
+      "cast": "有人处理入口条件，有人承担维护，互助继续存在",
+      "audience_location": "shared-viewing-zone",
+      "carrier_room_state": "local-props-only-no-outer-room",
+      "activation_scope": "本段内的精细显隐由 spatial_timeline 的候选窗口安排。"
+    },
+    {
+      "section": "overload",
+      "start": 133.12,
+      "end": 186.88,
+      "active_modules": [
+        "public-ground",
+        "carrier-room",
+        "making-workshop",
+        "sharing-workshop",
+        "commons-workshop",
+        "constraint-overlay",
+        "overload-overlay",
+        "unbounded-field"
+      ],
+      "focus": "无界环境中的副本和请求向远处与四周增殖，局部遮挡形成压迫，短视野替代仍为独立候选。",
+      "cast": "副本与请求增加，维护工位无暇回应，表演保留一个清楚的主要动作",
+      "audience_location": "shared-viewing-zone",
+      "carrier_room_state": "local-props-only-no-outer-room",
+      "activation_scope": "本段内的精细显隐由 spatial_timeline 的候选窗口安排。"
+    },
+    {
+      "section": "distance",
+      "start": 186.88,
+      "end": 197.12,
+      "active_modules": [
+        "solitude-vignette",
+        "unbounded-field"
+      ],
+      "focus": "远处约 18 m 的一个保存物或 README，撤去近处活动",
+      "cast": "短暂撤去可见交流；隔离路线未验证时采用共享远景留白",
+      "audience_location": "solitude-local-origin",
+      "carrier_room_state": "not-visible-in-primary-vignette",
+      "fallback_modules": [
+        "public-ground",
+        "unbounded-field"
+      ],
+      "fallback": "共同落点中撤去近景与场地边沿，在无界留白里单独照亮远处保存物。",
+      "activation_scope": "本段内的精细显隐由 spatial_timeline 的候选窗口安排。"
+    },
+    {
+      "section": "continue",
+      "start": 197.12,
+      "end": 245.76,
+      "active_modules": [
+        "public-ground",
+        "carrier-room",
+        "making-workshop",
+        "sharing-workshop",
+        "commons-workshop",
+        "unbounded-field",
+        "spatial-fold-sequence"
+      ],
+      "focus": "先在无界环境中获得一次有效回应；215.04—235.52 秒候选改变小窗内外与协作距离关系，随后回到人尺度而外围保持无界。",
+      "cast": "一个人开始尝试，同伴共同验证；受助者逐步转为贡献者",
+      "audience_location": "shared-viewing-zone",
+      "carrier_room_state": "local-props-only-no-outer-room",
+      "activation_scope": "本段内的精细显隐由 spatial_timeline 的候选窗口安排。"
+    },
+    {
+      "section": "trace",
+      "start": 245.76,
+      "end": 256,
+      "active_modules": [
+        "public-ground",
+        "carrier-room",
+        "making-workshop",
+        "sharing-workshop",
+        "commons-workshop",
+        "unbounded-field"
+      ],
+      "focus": "在外围无界的环境中继续人尺度的交接与新创作，不重新封闭成固定房间或场地；片尾那就一起做下去。",
+      "cast": "有人交出成果、有人接手、有人继续提出新用途",
+      "audience_location": "shared-viewing-zone",
+      "carrier_room_state": "local-props-only-no-outer-room",
+      "activation_scope": "本段内的精细显隐由 spatial_timeline 的候选窗口安排。"
+    }
+  ],
+  "transitions": [
+    {
+      "from": "connect",
+      "to": "create",
+      "at": 30.72,
+      "title": "撤去全局容器",
+      "action": "保留必要局部参照，逐步撤去房间外壳与可见场地边沿，进入长段无界内容场。",
+      "status": "authored-staging-candidate-not-runtime-cue"
+    },
+    {
+      "from": "create",
+      "to": "constrain",
+      "at": 102.4,
+      "title": "无界环境中的局部条件",
+      "action": "保留无界外部，局部入口和维护事项改变具体可用能力。",
+      "status": "authored-staging-candidate-not-runtime-cue"
+    },
+    {
+      "from": "constrain",
+      "to": "overload",
+      "at": 133.12,
+      "title": "无界环境中的过载",
+      "action": "内容、复制与局部遮挡增殖，不重新补上包围整体的墙。",
+      "status": "authored-staging-candidate-not-runtime-cue"
+    },
+    {
+      "from": "overload",
+      "to": "distance",
+      "at": 186.88,
+      "title": "无界环境骤空",
+      "action": "撤去近处活动；独处或共享留白都保持没有可见整体边界，视觉与音乐位置一起安排。",
+      "status": "authored-staging-candidate-not-runtime-cue"
+    },
+    {
+      "from": "distance",
+      "to": "continue",
+      "at": 197.12,
+      "title": "在无界环境中重新回应",
+      "action": "恢复共同视听与自然观察，在局部人尺度操作中建立一次成功，不重新封回旧场地。",
+      "status": "authored-staging-candidate-not-runtime-cue"
+    },
+    {
+      "from": "continue",
+      "to": "trace",
+      "at": 245.76,
+      "title": "人尺度继续，外围无界",
+      "action": "内外/远近重构结束后保留工位、交接和新点子，开放局部演后通路，外围仍无界。",
+      "status": "authored-staging-candidate-not-runtime-cue"
+    }
+  ],
+  "audio": {
+    "principle": "主音乐常态保持世界/演出方向中的前方轻微分层，环境与动作声可分布各区。",
+    "layout_reference": "data/music-visual-plan.json#/spatial_audio/prototype_staging",
+    "mapping": "四条音乐通道不永久绑定三个工作区；声部交接与视觉焦点分别按段落组织。",
+    "climaxes_reference": "data/show-outline.json#/climax_candidates",
+    "climax_status": "继承两处未确认候选，不新增或启用高潮。",
+    "vignette_transition": "采用同一音乐时基，切换落点时需使音乐继续在新观演点前方并保留整体退远设计；不得只换画面而忘记听觉位置。",
+    "unbounded_scope": "视觉没有外部边界不要求音乐全周展开；四声部仍作为前方融合整体，环境与动作声可以分布各处。",
+    "world_motion": "四声部保留演出前方参照，不自动随景物整体旋转、缩放和平移；环境/动作声跟随实际发声物。"
+  },
+  "solitude": {
+    "status": "candidate-not-multiplayer-validated",
+    "module": "solitude-vignette",
+    "world_placement": null,
+    "approach": "物理分离的独立落点，或经验证的本地呈现路线；具体按 spec/08 验证。",
+    "population": "隔离落点池与恢复流程按最终并发容量设计，8 个构图测试位置不等于已提供 8 个隔离实例。",
+    "restore": "返回原来的共同观演区及一致演出方向，恢复本世界管理的视野、站点、语音与 Avatar 音频状态。",
+    "fallback": "共享落点中保持外围无界，撤近景并照亮远处保存物。",
+    "appearance": "没有可见房间外壳或舞台边沿的留白，实际隔离空间尺寸仅为后台验证。"
+  },
+  "reuse_notes": [
+    "Room01 的分件和尺寸尚未核对；可行时取房间或局部，不可拆时用简单几何搭壳并选 VRS 家具。",
+    "旧 Hub 仅采用有来源的局部布局、标识或图像；本方案平面不冒充历史 Hub 的原始总布局。",
+    "镜子、画板和现成 Avatar 向道具的外观与功能分别核对，当前未导入验证。",
+    "制作区与共同活动区在前后段复用，片尾保留同一个可继续工作的公共空间。"
+  ],
+  "postshow": "演后可以进入局部有真实地面的工位和资料阅读点，外围仍无界；有限可达区域与无界观感分别设计。",
+  "next_blockout_batches": [
+    {
+      "id": "A0",
+      "scope": "验证稳定人物/支撑、世界运动和接触道具分组，完成靠近、进入、停靠、操作和离开。"
+    },
+    {
+      "id": "A",
+      "scope": "早段具体载体、隐藏支撑与房间撤界；验证连续约 82 秒无外部边界的空间层次与多人观察"
+    },
+    {
+      "id": "B",
+      "scope": "无界场中的活动片段、局部入口、过载和远处单灯，保留关键内容可读与年代样式"
+    },
+    {
+      "id": "C",
+      "scope": "再兴段约 20 秒的内外互换及远近重构，验证原生立体几何/切换、声音位置与恢复"
+    },
+    {
+      "id": "D",
+      "scope": "外围无界时的人尺度共同操作、演后局部可达工位及资料点"
+    }
+  ],
+  "validation_needs": [
+    "具体模型尺寸、通路和地面可达性需灰盒验证。",
+    "从所有测试位置检查主要动作遮挡与关键文字，不只检查中央截图。",
+    "实际 Avatar、双眼深度、自然转头与侧移观察需头显验证。",
+    "演出地面、玩家与关键参照的关系明确，布景缩放不默认连同观众与碰撞一起缩放。",
+    "脚本和网络同步、隔离/恢复、迟到加入与重播均在后续 Unity 原型验证。",
+    "预算按可见内容、透明重叠、纹理驻留、演员与镜子等实际开销确定，不继承旧五万面总上限。",
+    "长段无界不能露出地板外框、完整房间轮廓、穹顶接缝或远景硬截断。",
+    "小窗内外互换与远近重构需空间原型检验，不把放大屏幕或普通房间切换直接当成完成超越空间。"
+  ],
+  "preview": {
+    "directory": "/home/chiro/tmp/vrc-old-web-map/spatial-plan-20261015",
+    "svg": "/home/chiro/tmp/vrc-old-web-map/spatial-plan-20261015/19-spatial-phases-v2.svg",
+    "png": "/home/chiro/tmp/vrc-old-web-map/spatial-plan-20261015/19-spatial-phases-v2.png",
+    "interactive": "/home/chiro/tmp/vrc-old-web-map/spatial-plan-20261015/19-spatial-phases-v2.html",
+    "scope": "无界与空间关系变化的阶段示意，不是 Unity、真实历史界面或头显效果图。"
+  },
+  "user_spatial_requirements": {
+    "status": "user-stated-creative-requirements",
+    "long_unbounded_interval": "至少一长段时间没有可感知的外部空间边界。",
+    "spatial_transcendence_interval": "另需一段改变尺度、内外或远近关系的体验，超越日常空间界限。",
+    "distinction": "无界处理环境没有尽头和容器边缘；超越处理同一场景中原本成立的空间关系发生变化。",
+    "preserve": [
+      "真实年代的旧内容外观",
+      "前期实体屏幕或软件窗口载体",
+      "大量自绘及画面内外两级深度",
+      "自然的双眼与头部空间反馈作为常规基线",
+      "音乐常态前方融合",
+      "一起做下去的已选片尾"
+    ]
+  },
+  "spatial_timeline": [
+    {
+      "id": "bounded-carriers",
+      "start": 0,
+      "end": 30.72,
+      "title": "具体载体与工作室",
+      "picture": "局部屏幕和软件窗口提供年代、身体尺度与边界。",
+      "sections": [
+        "connect"
+      ],
+      "status": "authored-window-candidate-not-runtime-cue"
+    },
+    {
+      "id": "withdraw-container",
+      "start": 30.72,
+      "end": 51.2,
+      "title": "逐步撤去全局容器",
+      "picture": "房间外壳与可见地面边沿消失，窗口和画面内部的层次开始延伸。",
+      "sections": [
+        "create"
+      ],
+      "status": "authored-window-candidate-not-runtime-cue"
+    },
+    {
+      "id": "long-unbounded",
+      "start": 51.2,
+      "end": 133.12,
+      "title": "长段无界内容场",
+      "picture": "没有可感知的整体房间、场地边框或尽头；各活动片段和局部条件入口悬置于不同距离。",
+      "sections": [
+        "create",
+        "constrain"
+      ],
+      "status": "authored-window-candidate-not-runtime-cue"
+    },
+    {
+      "id": "unbounded-overload",
+      "start": 133.12,
+      "end": 186.88,
+      "title": "无界空间中的过载",
+      "picture": "复制与请求继续增殖，压迫来自重复、尺度和遮挡；原短暂视野替代仍为独立候选。",
+      "sections": [
+        "overload"
+      ],
+      "status": "authored-window-candidate-not-runtime-cue"
+    },
+    {
+      "id": "unbounded-distance",
+      "start": 186.88,
+      "end": 197.12,
+      "title": "无界空间骤空",
+      "picture": "近处撤空，远处只亮一个保存物；短暂玩家隔离路线仍待验证。",
+      "sections": [
+        "distance"
+      ],
+      "status": "authored-window-candidate-not-runtime-cue"
+    },
+    {
+      "id": "shared-response",
+      "start": 197.12,
+      "end": 215.04,
+      "title": "无界环境中的回应",
+      "picture": "资料、AI 和具体求助带来开始与合作，不返回包围式工坊。",
+      "sections": [
+        "continue"
+      ],
+      "status": "authored-window-candidate-not-runtime-cue"
+    },
+    {
+      "id": "spatial-transcendence",
+      "start": 215.04,
+      "end": 235.52,
+      "title": "改变空间关系",
+      "picture": "小窗容纳大场景、内外互换与远近协作折叠，使局部和整体的关系改变。",
+      "sections": [
+        "continue"
+      ],
+      "status": "authored-window-candidate-not-runtime-cue"
+    },
+    {
+      "id": "human-scale-continuation",
+      "start": 235.52,
+      "end": 256,
+      "title": "人尺度继续，外围无界",
+      "picture": "保留局部可操作工位和接手动作，旧内容、新作品与可参与空间继续延伸。",
+      "sections": [
+        "continue",
+        "trace"
+      ],
+      "status": "authored-window-candidate-not-runtime-cue"
+    }
+  ],
+  "unbounded_design": {
+    "requirement_status": "user-stated",
+    "primary_window": {
+      "start": 51.2,
+      "end": 133.12,
+      "duration_seconds": 81.92,
+      "status": "authored-long-window-candidate"
+    },
+    "later_window": {
+      "start": 197.12,
+      "end": 256,
+      "duration_seconds": 58.88,
+      "status": "authored-window-candidate"
+    },
+    "outer_boundary": "撤去包住整体的墙、天花板、矩形地板边沿和可辨识封闭穹顶；支撑和渲染分组可存在于后台。",
+    "visual_language": "旧桌面底色、明亮或幽暗的无尽背景、远处稀疏内容和分层活动；无界不限定为黑色星空或霓虹数据海。",
+    "density": "繁荣、条件改变、过载与留白均可发生在同一无界空间，外部无界不保证局部可自由使用。",
+    "local_boundaries": "旧浏览器、实体设备与某个局部入口仍可有边框，原年代样式保留；这些物件不围成全局容器。",
+    "support": "隐藏支撑面边沿或采用没有可见终点的连续基底，保持原生双眼与自然观察；具体展示方式待原型。"
+  },
+  "spatial_transcendence": {
+    "requirement_status": "user-stated",
+    "candidate_window": {
+      "start": 215.04,
+      "end": 235.52,
+      "duration_seconds": 20.48,
+      "status": "authored-window-pending-spatial-prototype"
+    },
+    "purpose": "AI 和资料使人能够开始、传播使人找到同伴，具体合作把原先遥远或隔开的工作连接起来；空间关系随这种能力改变。",
+    "phenomena": [
+      "小窗口的内部容纳明显超出外壳尺度的场景",
+      "进入后原先外部成为另一个小屏幕里的内容，内外互换",
+      "远处工位与近处演示通过连接接续，远近关系被重构"
+    ],
+    "beats": [
+      {
+        "start": 215.04,
+        "end": 220.16,
+        "action": "远处工位通过手边小窗显现，小窗内部呈现更大的空间；近处与远处关系同时可辨。"
+      },
+      {
+        "start": 220.16,
+        "end": 225.28,
+        "action": "以物件遮挡或布景接续进入窗口内，原先的外部空间又被容纳在新的小屏幕中。"
+      },
+      {
+        "start": 225.28,
+        "end": 230.4,
+        "action": "远处的同伴在新连接中变为近处共同演示者，一处操作改变两端的作品。"
+      },
+      {
+        "start": 230.4,
+        "end": 235.52,
+        "action": "成果展开为新用途并传递，收回到可继续操作的人尺度，外围仍无界。"
+      }
+    ],
+    "render_paths_candidates": [
+      "稳定人物参照下移动、缩放和旋转世界运动组；窗口外壳与内部空间保留独立局部变换，以遮挡接续完成内外关系变化。",
+      "原生立体几何与复制布景配合短暂物件遮挡，先验证内外互换和尺度接续",
+      "成对落点或场景替换表达远近重构，视觉与听觉落点一起安排",
+      "真正窗口内立体场景仅在分眼、遮挡和深度验证后采用"
+    ],
+    "head_tracking": "与 151.04—153.60 秒视野替代候选分开；此段以自然头部反馈和实际双眼深度为基线。",
+    "music": "此视觉段不自动新增第三次明显分轨高潮；保留前方融合，具体听觉落点随坐标切换验证。",
+    "runtime_implemented": false
+  },
+  "previous_preview": {
+    "directory": "/home/chiro/tmp/vrc-old-web-map/spatial-plan-20261015",
+    "svg": "/home/chiro/tmp/vrc-old-web-map/spatial-plan-20261015/19-spatial-plan.svg",
+    "png": "/home/chiro/tmp/vrc-old-web-map/spatial-plan-20261015/19-spatial-plan.png",
+    "interactive": "/home/chiro/tmp/vrc-old-web-map/spatial-plan-20261015/19-spatial-plan.html",
+    "scope": "第一轮局部排练平面留档，不再作为观众可见世界的边界。"
+  },
+  "world_motion_plan": "data/world-motion-plan.json",
+  "primary_scene_motion": {
+    "status": "user-proposed-technique-primary-use-recommended-not-runtime",
+    "principle": "人物保留独立参照，移动/旋转/统一缩放运动场景组，稳定支撑与接触道具按状态分组。",
+    "camera_substitution": "特定短段备选，不是连续穿行的默认依赖。"
+  }
+}

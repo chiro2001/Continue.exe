@@ -1,0 +1,76 @@
+{
+  "schema": "fullfilm-v5-ribbon-pass.1",
+  "date": "2026-10-18",
+  "scene": "Assets/Scenes/OWM_FullFilm_v5.unity",
+  "scene_sha256": "c5e9e465fd5c56120e49a5ddf3c579d417994ce2136d202171b60109b32ea099",
+  "previous_scene_sha256": "347dc21949ec29022a4995126d3fc95a03efd1e5dcea1a35d25f7e13c9efd62d",
+  "reference": "episode123-v5 continuous greetz",
+  "glyphs": 436,
+  "unique_glyphs": 185,
+  "selected_words": 14,
+  "entry_degrees": 45,
+  "grey_front_degrees": [
+    -35,
+    -50
+  ],
+  "min_flat_grey_hold_seconds": 8.877007,
+  "independent_glyph_geometry": true,
+  "history_retained_for_one_turn": true,
+  "word_motion_pure_function_of_performance_time": true,
+  "eku_side_span": [
+    125.44,
+    130.56
+  ],
+  "eku_max_height": 2.15,
+  "game_localization_at_ending": false,
+  "validation": {
+    "editor": true,
+    "actual_client_sim": true,
+    "story_compatibility": true,
+    "start_replay_ray_event": true,
+    "second_client": false,
+    "hmd": false,
+    "runtime_errors": []
+  },
+  "movie_generated": false,
+  "html_generated": false,
+  "sdk_build_generated": false,
+  "old_review_package_unchanged": true,
+  "editor_stopped_and_saved": true,
+  "audio_original_state_restored": true,
+  "temporary_directory": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v5-ribbon-pass",
+  "files": [
+    {
+      "path": "unity/Assets/OldWebMap/Scripts/OWFilmV5Details.cs",
+      "sha256": "d8e5774d9df918e5bd644955123e5f60f083aed06100f6ea0f548f0b32368829"
+    },
+    {
+      "path": "unity/Assets/OldWebMap/Scripts/OWFilmV5Provenance.cs",
+      "sha256": "f8c3315081ea9434c3816d0ca4a0e92a324a5c65dbf3b978e0f56e064c9dc603"
+    },
+    {
+      "path": "unity/Assets/OldWebMap/Shaders/OWFilmV5Ribbon.shader",
+      "sha256": "81de61f13b9557f5781c2e6d7a439a1fbe43884696014393d40a7ce006a8e3d4"
+    },
+    {
+      "path": "unity/Assets/OldWebMap/Shaders/OWFilmV5RibbonFlow.shader",
+      "sha256": "64d5a2fe0d0e586fedb59b067698144effcef488d5b9e8e4c3a47d3ddfa4569a"
+    },
+    {
+      "path": "data/fullfilm-v5-story.json",
+      "sha256": "a2190d2a0930c22b99f407750e1f13ecf77b2ae6366ee28e77a4d21f0bfd78f8"
+    },
+    {
+      "path": "data/fullfilm-v5-ribbon-flow.json",
+      "sha256": "cf8c3dc615f4c4a748bc124fbab02e0f1528fadb989f4e77217973490a416c9e"
+    },
+    {
+      "path": "art/export/fullfilm-v5/story/ribbon-flow-atlas.png",
+      "sha256": "26fcebe1bcb00f3f01eb14b28fdcf455763b6ed8b570ed080e5cf37483769b5f"
+    },
+    {
+      "path": "art/export/fullfilm-v5/story/ribbon-30-rewrite.png",
+      "sha256": "ffa7f0b8ff8c1187280af7b5f9c1d32887898e13e86899d705597bfe73200237"
+    }
+  ]
+}

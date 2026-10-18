@@ -1,0 +1,169 @@
+{
+  "independent_sources": 3,
+  "derived_images": 9,
+  "records": [
+    {
+      "source_id": "vrchat-dev-update-antiripping-2024-07",
+      "source_url": "https://ask.vrchat.com/t/developer-update-25-july-2024/25764",
+      "content_date": {
+        "type": "forum publication timestamp",
+        "published_utc": "2024-07-25T18:41:00Z"
+      },
+      "original": "art/reference/fullfilm-v3-avatar-provenance/01-2024-07-official-anti-ripping-update.png",
+      "original_sha256": "eea6949aef525b9bcb9369a0b0a9c352fd998990fbb3681f24e3d1ffa6bb1c34",
+      "assets": [
+        {
+          "file": "provenance-00-main.png",
+          "crop_px": [
+            166,
+            0,
+            1245,
+            945
+          ],
+          "dimensions": [
+            1079,
+            945
+          ],
+          "sha256": "b87514f9a54effc91eb6180df2e735c200b0489363de55845cde1d5d0b43ec53"
+        },
+        {
+          "file": "provenance-00-detail-0.png",
+          "crop_px": [
+            515,
+            125,
+            1188,
+            265
+          ],
+          "dimensions": [
+            673,
+            140
+          ],
+          "sha256": "b7c1eef0ca4ff641ace30c7e70fd31ce5887913d2231dfb34937e8d7f19dc34a"
+        },
+        {
+          "file": "provenance-00-detail-1.png",
+          "crop_px": [
+            515,
+            568,
+            1210,
+            645
+          ],
+          "dimensions": [
+            695,
+            77
+          ],
+          "sha256": "08b30e65c974636b1cd9172b65fad9ed97e2ccd74968d1236082a23c76815a5e"
+        }
+      ]
+    },
+    {
+      "source_id": "vrchat-dev-update-ripping-definition-2024-08",
+      "source_url": "https://ask.vrchat.com/t/developer-update-8-aug-2024/26017",
+      "content_date": {
+        "type": "forum publication date",
+        "published": "2024-08-08"
+      },
+      "original": "art/reference/fullfilm-v3-avatar-provenance/02-2024-08-official-ripping-definition.png",
+      "original_sha256": "5e0ec50a238a8a2c6352a0b340585bea0983556e83b0bf2cfd995ac3b566779f",
+      "assets": [
+        {
+          "file": "provenance-01-main.png",
+          "crop_px": [
+            166,
+            0,
+            1245,
+            790
+          ],
+          "dimensions": [
+            1079,
+            790
+          ],
+          "sha256": "be435d4f311eb0f52ac508fc782e923703229093d2e6c8a350720a1fb2ba7562"
+        },
+        {
+          "file": "provenance-01-detail-0.png",
+          "crop_px": [
+            515,
+            512,
+            1205,
+            590
+          ],
+          "dimensions": [
+            690,
+            78
+          ],
+          "sha256": "92f1f739cceae6b75f4728223ed7cb9c62936311bf209836c6c72c582316560a"
+        },
+        {
+          "file": "provenance-01-detail-1.png",
+          "crop_px": [
+            515,
+            610,
+            1205,
+            728
+          ],
+          "dimensions": [
+            690,
+            118
+          ],
+          "sha256": "bb081e970d862a0ff130a0b5d9c4ae4d7e2084a07b255f81a04078124a29298a"
+        }
+      ]
+    },
+    {
+      "source_id": "vrchat-community-abom-proposal-2026-09",
+      "source_url": "https://feedback.vrchat.com/avatar-30/p/avatar-bill-of-materials-abom",
+      "content_date": {
+        "type": "Canny post timestamp",
+        "published_utc": "2026-09-22T08:30:30.299Z",
+        "displayed_date": "2026-09-22"
+      },
+      "original": "art/reference/fullfilm-v3-avatar-provenance/07-community-abom-proposal-anonymized.png",
+      "original_sha256": "9f617667840b420063f2e69352beea9a975a088a85b9dd322758187ff051f053",
+      "assets": [
+        {
+          "file": "provenance-02-main.png",
+          "crop_px": [
+            0,
+            0,
+            890,
+            890
+          ],
+          "dimensions": [
+            890,
+            890
+          ],
+          "sha256": "9f617667840b420063f2e69352beea9a975a088a85b9dd322758187ff051f053"
+        },
+        {
+          "file": "provenance-02-detail-0.png",
+          "crop_px": [
+            64,
+            304,
+            842,
+            388
+          ],
+          "dimensions": [
+            778,
+            84
+          ],
+          "sha256": "79428aa172c0d254ac1955f95b1c9e7fcd814aef0e23811253ce7590cdaf04dc"
+        },
+        {
+          "file": "provenance-02-detail-1.png",
+          "crop_px": [
+            64,
+            618,
+            842,
+            890
+          ],
+          "dimensions": [
+            778,
+            272
+          ],
+          "sha256": "4ef5450fb8f042844478daa72a67c90793a828d470828ed64260d66ba2aa068d"
+        }
+      ]
+    }
+  ]
+}

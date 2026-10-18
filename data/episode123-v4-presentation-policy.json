@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "date": "2026-10-16",
+  "spec": "spec/41-v4-focus-spacing-and-sound.md",
+  "central_support": {"minimum": 2, "maximum": 4, "protect_focus_and_keyline": true, "content_related": true},
+  "ambient_spacing": {"account_for_max_pulse_scale": true, "prevent_overlapping_readable_faces": true},
+  "journey_intervals": [[79.36, 81.92], [86.40, 88.32], [102.40, 104.96]],
+  "audio": {"world_frame_affects_music_position": false, "freeze_position_during_journey": true, "continuous_entry_exit": true, "climax_orbit_allowed": true},
+  "nameplates": {"anonymous_actor_labels": true, "anonymous_player_labels": true, "label": "xxxx", "publish_display_name": false}
+}

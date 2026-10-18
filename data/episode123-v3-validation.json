@@ -1,0 +1,57 @@
+{
+  "status": "ready-for-review",
+  "scope": "first three acts 0–133.12 seconds",
+  "reports": {
+    "interaction": true,
+    "live-validation": true,
+    "shader-checks": true,
+    "sdk-build": true,
+    "sdk-bundle-inspection": true,
+    "reopen-persistence": true,
+    "viewpoints": true,
+    "static-data-validation": true,
+    "movie-decode": true
+  },
+  "material_count": 355,
+  "events": 703,
+  "review": {
+    "complete": true,
+    "assets": 355,
+    "events": 703,
+    "sourced_images": 208,
+    "self_captures": 3,
+    "original_operation_states": 144,
+    "sdk_bytes": 103555821,
+    "sdk_sha256": "e4f05359121988087ee9357faf4cac1b4828c4eb9be9a2767c69b6005e65d26f",
+    "film_seconds": 135.04,
+    "hmd_tested": false,
+    "real_multiplayer_tested": false
+  },
+  "hmd_tested": false,
+  "real_multiplayer_tested": false,
+  "physical_vr_controller_tested": false,
+  "known_sdk_editor_diagnostics": {
+    "scope": "SDK local export diagnostics; content Udon and shaders compiled and full run passed",
+    "sdk_build_succeeded": true,
+    "diagnostics": [
+      {
+        "sequence": 5047,
+        "message": "Tried querying config VRC.Core.RemoteConfig before init",
+        "context": "SDK control panel initial account/config fetch"
+      },
+      {
+        "sequence": 5056,
+        "message": "PlayerLoop internal function has been called recursively",
+        "context": "Unity 2022.3 BuildAssetBundles called by SDK async build"
+      },
+      {
+        "sequence": 5057,
+        "message": "PlayerLoop internal function has been called recursively",
+        "context": "same SDK asset bundle export"
+      }
+    ],
+    "claim_of_zero_editor_errors": false
+  },
+  "windows_review_synced": true,
+  "review_local_links_checked": 607
+}

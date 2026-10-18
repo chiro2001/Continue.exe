@@ -1,0 +1,103 @@
+{
+  "schema": "tieba-mobile-2020-reference.1",
+  "project": "Tieba_mobile_emotions",
+  "repository_url": "https://github.com/microlong666/Tieba_mobile_emotions",
+  "source_readme_path": "art/reference/fullfilm-v5/emotes/tieba-mobile-2020/README.md",
+  "app_version": "11.6.8.2",
+  "app_update_date": "2020-07-13",
+  "date_basis": "Repository README explicitly says these default emotes were extracted from this Baidu Tieba app build, updated 2020-07-13.",
+  "repository_created_at": "2020-07-18T09:32:50Z",
+  "repository_pushed_at": "2020-07-18T12:41:46Z",
+  "total_emotes_in_upstream_archive": 113,
+  "selected_emotes": [
+    {
+      "id": "tieba-mobile-2020-101",
+      "filename": "image_emoticon101.png",
+      "size_px": [
+        90,
+        90
+      ],
+      "size_bytes": 4000,
+      "sha256": "8ae06de0f93e562eb306e586e557eddcf157d9670820f3796acda24dcecb0f4e",
+      "alpha_channel_present": true
+    },
+    {
+      "id": "tieba-mobile-2020-102",
+      "filename": "image_emoticon102.png",
+      "size_px": [
+        90,
+        90
+      ],
+      "size_bytes": 2637,
+      "sha256": "27e7877076cb7cddd8b0119c3284c5234a3f2a5148b85861a6dbe9148f1ba801",
+      "alpha_channel_present": true
+    },
+    {
+      "id": "tieba-mobile-2020-103",
+      "filename": "image_emoticon103.png",
+      "size_px": [
+        90,
+        90
+      ],
+      "size_bytes": 2748,
+      "sha256": "46b06269680eaf4a3925ae607b26773b8d1fda5da25f6500088b6267b2014ffb",
+      "alpha_channel_present": true
+    },
+    {
+      "id": "tieba-mobile-2020-104",
+      "filename": "image_emoticon104.png",
+      "size_px": [
+        90,
+        90
+      ],
+      "size_bytes": 2978,
+      "sha256": "656bf81235ee6e44ae5db821f0fd8c9b1cde2fdbeb6fca85561ddf60299e1c13",
+      "alpha_channel_present": true
+    },
+    {
+      "id": "tieba-mobile-2020-118",
+      "filename": "image_emoticon118.png",
+      "size_px": [
+        90,
+        90
+      ],
+      "size_bytes": 3295,
+      "sha256": "09a28924b42c8fd1d21dba740991f0892e0dc408b812f3fdbb023c7a95a1df0b",
+      "alpha_channel_present": true
+    },
+    {
+      "id": "tieba-mobile-2020-120",
+      "filename": "image_emoticon120.png",
+      "size_px": [
+        90,
+        90
+      ],
+      "size_bytes": 2520,
+      "sha256": "5929007193cf02b0755c922597ef18bb8bf2300e2b8721e6e0cdcda47530eb7f",
+      "alpha_channel_present": true
+    },
+    {
+      "id": "tieba-mobile-2020-123",
+      "filename": "image_emoticon123.png",
+      "size_px": [
+        90,
+        90
+      ],
+      "size_bytes": 3098,
+      "sha256": "c340b5197810525e97ce9120425877a8b5fdc81fcc3d306ca79bb0008a065776",
+      "alpha_channel_present": true
+    },
+    {
+      "id": "tieba-mobile-2020-124",
+      "filename": "image_emoticon124.png",
+      "size_px": [
+        90,
+        90
+      ],
+      "size_bytes": 2857,
+      "sha256": "c92c31396eec93cc335cc9a5eb1255e535dc4de53ea96b2b4a006ba82415d164",
+      "alpha_channel_present": true
+    }
+  ],
+  "rights_note": "The repository README says the set is for study/learning and personal non-commercial use, and asks users to contact the author about infringement. The repository does not clear underlying Tieba artwork rights. Keep as internal historical reference; do not redistribute or publish without separate clearance."
+}

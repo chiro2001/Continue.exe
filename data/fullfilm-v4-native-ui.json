@@ -1,0 +1,3616 @@
+{
+  "schema": "fullfilm-v4-native-ui.1",
+  "generated_by": "tools/prepare_fullfilm_v2_native_ui.py",
+  "nature": "Static authored derivative states. Historical screenshot backgrounds are references, not evidence for the new content.",
+  "coordinates": "pixel rectangles [x,y,width,height], top-left origin; uv rectangles [u,v,width,height], bottom-left origin",
+  "presentation": "Performance plates contain native application/document text only. Provenance is in metadata and separate QA plates.",
+  "groups": [
+    {
+      "id": "readme",
+      "title": "README · 留下可继续的说明",
+      "width": 960,
+      "height": 640,
+      "preferred_range": [
+        10.24,
+        20.48
+      ],
+      "kind": "original-dynamic-reconstruction",
+      "source_metadata": [
+        {
+          "catalogue": "data/episode123-art.json",
+          "id": "readme",
+          "source": "art/source/episode123/readme.svg",
+          "export": "art/export/episode123/readme.png",
+          "width": 960,
+          "height": 640,
+          "kind": "period-ui",
+          "filter": "Point",
+          "materials": [
+            "software-readme"
+          ],
+          "authorship": "original-drawing-and-layout-reconstruction",
+          "historical_image": false
+        }
+      ],
+      "reference_files": [
+        {
+          "file": "readme/reference-readme.png",
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/export/episode123/readme.png",
+          "sha256": "9accb14684d17168ddd2584cf07f8130f3a867083378074e0a66e21e6911ae71",
+          "dimensions": [
+            960,
+            640
+          ]
+        },
+        {
+          "file": "readme/reference-win98-explorer-vm.png",
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/reference/episode123-v2/win98-explorer-vm.png",
+          "sha256": "af7055ff5087e31acc359272df0f00f2b01b4876933f19acc8b62a46f4d34d10",
+          "dimensions": [
+            1280,
+            1024
+          ]
+        }
+      ],
+      "background": "readme/background.png",
+      "fixed_overlay": "readme/fixed.png",
+      "states": [
+        {
+          "index": 0,
+          "title": "写下问题",
+          "full": "readme/state-00.png",
+          "fields": {
+            "filename": "README.TXT",
+            "release": "0.4",
+            "characters": 7,
+            "modified": true
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "readme/state-00-primary.png",
+              "crop": "readme/state-00-primary-crop.png",
+              "rect_px": [
+                29,
+                304,
+                138,
+                22
+              ],
+              "uv_rect": [
+                0.030208,
+                0.490625,
+                0.14375,
+                0.034375
+              ],
+              "pivot_px": [
+                98.0,
+                315.0
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "readme/state-00-secondary.png",
+              "crop": "readme/state-00-secondary-crop.png",
+              "rect_px": [
+                16,
+                452,
+                147,
+                180
+              ],
+              "uv_rect": [
+                0.016667,
+                0.0125,
+                0.153125,
+                0.28125
+              ],
+              "pivot_px": [
+                89.5,
+                542.0
+              ]
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "title": "补齐贡献者",
+          "full": "readme/state-01.png",
+          "fields": {
+            "filename": "README.TXT",
+            "release": "0.4",
+            "characters": 20,
+            "modified": true
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "readme/state-01-primary.png",
+              "crop": "readme/state-01-primary-crop.png",
+              "rect_px": [
+                29,
+                304,
+                337,
+                63
+              ],
+              "uv_rect": [
+                0.030208,
+                0.426562,
+                0.351042,
+                0.098437
+              ],
+              "pivot_px": [
+                197.5,
+                335.5
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "readme/state-01-secondary.png",
+              "crop": "readme/state-01-secondary-crop.png",
+              "rect_px": [
+                16,
+                452,
+                227,
+                180
+              ],
+              "uv_rect": [
+                0.016667,
+                0.0125,
+                0.236458,
+                0.28125
+              ],
+              "pivot_px": [
+                129.5,
+                542.0
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "title": "记录修订",
+          "full": "readme/state-02.png",
+          "fields": {
+            "filename": "README.TXT",
+            "release": "0.4",
+            "characters": 20,
+            "modified": true
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "readme/state-02-primary.png",
+              "crop": "readme/state-02-primary-crop.png",
+              "rect_px": [
+                25,
+                304,
+                658,
+                74
+              ],
+              "uv_rect": [
+                0.026042,
+                0.409375,
+                0.685417,
+                0.115625
+              ],
+              "pivot_px": [
+                354.0,
+                341.0
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "readme/state-02-secondary.png",
+              "crop": "readme/state-02-secondary-crop.png",
+              "rect_px": [
+                16,
+                452,
+                247,
+                181
+              ],
+              "uv_rect": [
+                0.016667,
+                0.010938,
+                0.257292,
+                0.282813
+              ],
+              "pivot_px": [
+                139.5,
+                542.5
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "title": "保留说明一起发布",
+          "full": "readme/state-03.png",
+          "fields": {
+            "filename": "README.TXT",
+            "release": "0.4",
+            "characters": 20,
+            "modified": false
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "readme/state-03-primary.png",
+              "crop": "readme/state-03-primary-crop.png",
+              "rect_px": [
+                29,
+                304,
+                337,
+                63
+              ],
+              "uv_rect": [
+                0.030208,
+                0.426562,
+                0.351042,
+                0.098437
+              ],
+              "pivot_px": [
+                197.5,
+                335.5
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "readme/state-03-secondary.png",
+              "crop": "readme/state-03-secondary-crop.png",
+              "rect_px": [
+                16,
+                452,
+                256,
+                180
+              ],
+              "uv_rect": [
+                0.016667,
+                0.0125,
+                0.266667,
+                0.28125
+              ],
+              "pivot_px": [
+                144.0,
+                542.0
+              ]
+            }
+          ]
+        }
+      ],
+      "change_regions": [
+        {
+          "id": "document",
+          "rect_px": [
+            24,
+            294,
+            884,
+            92
+          ],
+          "uv_rect": [
+            0.025,
+            0.396875,
+            0.920833,
+            0.14375
+          ],
+          "role": "README body changes while document and title stay anchored"
+        },
+        {
+          "id": "changelog",
+          "rect_px": [
+            24,
+            442,
+            884,
+            110
+          ],
+          "uv_rect": [
+            0.025,
+            0.1375,
+            0.920833,
+            0.171875
+          ],
+          "role": "Second content area changes with the same edit"
+        }
+      ],
+      "text_slots": [
+        {
+          "id": "README.body",
+          "rect_px": [
+            28,
+            304,
+            850,
+            30
+          ],
+          "uv_rect": [
+            0.029167,
+            0.478125,
+            0.885417,
+            0.046875
+          ],
+          "font_px": 22,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#202020",
+          "alignment": "top-left",
+          "role": "text",
+          "state_values": [
+            "如果遇到问题，",
+            "如果遇到问题，可以把步骤写下来。",
+            "如果遇到问题，可以把步骤写下来。",
+            "如果遇到问题，可以把步骤写下来。"
+          ]
+        },
+        {
+          "id": "README.document_title",
+          "rect_px": [
+            28,
+            96,
+            850,
+            28
+          ],
+          "uv_rect": [
+            0.029167,
+            0.80625,
+            0.885417,
+            0.04375
+          ],
+          "font_px": 22,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#202020",
+          "alignment": "top-left",
+          "role": "fixed_document_title",
+          "state_values": [
+            "共享工具箱 / Release 0.4",
+            "共享工具箱 / Release 0.4",
+            "共享工具箱 / Release 0.4",
+            "共享工具箱 / Release 0.4"
+          ]
+        },
+        {
+          "id": "README.credit",
+          "rect_px": [
+            28,
+            347,
+            850,
+            28
+          ],
+          "uv_rect": [
+            0.029167,
+            0.414062,
+            0.885417,
+            0.04375
+          ],
+          "font_px": 20,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#202020",
+          "alignment": "top-left",
+          "role": "text",
+          "state_values": [
+            "",
+            "翻译、测试、修订，都记在这里。",
+            "翻译、测试、修订，都记在这里。",
+            "翻译、测试、修订，都记在这里。"
+          ]
+        },
+        {
+          "id": "README.changelog",
+          "rect_px": [
+            28,
+            452,
+            850,
+            80
+          ],
+          "uv_rect": [
+            0.029167,
+            0.16875,
+            0.885417,
+            0.125
+          ],
+          "font_px": 20,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#202020",
+          "alignment": "top-left",
+          "role": "text",
+          "state_values": [
+            "+ 修正字体缺字",
+            "+ 修正字体缺字\n+ 加入一个新的预览功能",
+            "+ 修正字体缺字\n+ 加入一个新的预览功能\n+ 补充复现步骤与测试结果",
+            "+ 修正字体缺字\n+ 加入一个新的预览功能\n+ 补充复现步骤与测试结果"
+          ]
+        }
+      ],
+      "native_controls_preserved": [
+        {
+          "id": "min-max-close",
+          "rect_px": [
+            874,
+            9,
+            75,
+            23
+          ]
+        },
+        {
+          "id": "menu",
+          "rect_px": [
+            14,
+            47,
+            550,
+            22
+          ]
+        }
+      ],
+      "provenance_note": "README source is an existing original period-style document. Explorer screenshot is a separate read-only reference; this is not a historical README.",
+      "source_placements": [
+        {
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/export/episode123/readme.png",
+          "rect_px": [
+            0,
+            0,
+            960,
+            640
+          ],
+          "resampled": false
+        }
+      ],
+      "suggested_phase_points": [
+        0,
+        0.28,
+        0.59,
+        0.83
+      ],
+      "display_rule": "Keep one background anchored throughout this group; choose a full state OR composite fixed + primary + secondary. Do not stack a full state and its same layers.",
+      "qa_preview": "readme/qa-preview.png"
+    },
+    {
+      "id": "manga",
+      "title": "漫画汉化 · 同一页台词进入画面",
+      "width": 800,
+      "height": 540,
+      "preferred_range": [
+        30.72,
+        40.96
+      ],
+      "kind": "original-dynamic-reconstruction",
+      "source_metadata": [
+        {
+          "id": "workflow-manga-2",
+          "path": "Assets/OldWebMap/Episode123/Revision4/Images/workflow-manga-2.png",
+          "width": 800,
+          "height": 540,
+          "title": "漫画汉化 · 翻译台词",
+          "category": "translation",
+          "kind": "original-operation-reconstruction",
+          "workflow": "manga",
+          "state": 1,
+          "preferred_range": [
+            30.72,
+            40.96
+          ],
+          "source_url": "spec/36-episode123-v4-production.md",
+          "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+          "content": [
+            "台词表",
+            "001 今日はここに。 → 今天就在这里。",
+            "002 手伝うよ。 → 我来帮你。",
+            "003 また明日。 → 明天见。"
+          ],
+          "sha256": "0e72d703ee2865fe6c165c2c0a82646d7296835ef5bdd748c349351a82a0a26d",
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/export/episode123-v4-workflows/workflow-manga-2.png",
+          "chronology_evidence": "spec/30-episode123-v3-production.md",
+          "chronology_note": "漫画翻译与嵌字。只表示流程意象，不为图片指定历史拍摄年份。",
+          "placement_mode": "authored-period-operation",
+          "display_year": ""
+        }
+      ],
+      "reference_files": [
+        {
+          "file": "manga/reference-workflow-manga-2.png",
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/export/episode123-v4-workflows/workflow-manga-2.png",
+          "sha256": "0e72d703ee2865fe6c165c2c0a82646d7296835ef5bdd748c349351a82a0a26d",
+          "dimensions": [
+            800,
+            540
+          ]
+        },
+        {
+          "file": "manga/reference-workflow-manga-1.png",
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/export/episode123-v4-workflows/workflow-manga-1.png",
+          "sha256": "c6850aa37e8785f0ed8c949e8eb4c4c928235adedfec7e7ee9ed9f41ad21d521",
+          "dimensions": [
+            800,
+            540
+          ]
+        },
+        {
+          "file": "manga/reference-workflow-manga-4.png",
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/export/episode123-v4-workflows/workflow-manga-4.png",
+          "sha256": "d5569a2455741879ddb99a8bb67e205848216d87205c542a9a9f9e68f0659993",
+          "dimensions": [
+            800,
+            540
+          ]
+        }
+      ],
+      "background": "manga/background.png",
+      "fixed_overlay": "manga/fixed.png",
+      "states": [
+        {
+          "index": 0,
+          "title": "整理原文",
+          "full": "manga/state-00.png",
+          "fields": {
+            "page": "page01",
+            "translated": 0,
+            "proofread": 0,
+            "layer": 1
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "manga/state-00-primary.png",
+              "crop": "manga/state-00-primary-crop.png",
+              "rect_px": [
+                212,
+                134,
+                77,
+                18
+              ],
+              "uv_rect": [
+                0.265,
+                0.718519,
+                0.09625,
+                0.033333
+              ],
+              "pivot_px": [
+                250.5,
+                143.0
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "manga/state-00-secondary.png",
+              "crop": "manga/state-00-secondary-crop.png",
+              "rect_px": [
+                13,
+                313,
+                758,
+                220
+              ],
+              "uv_rect": [
+                0.01625,
+                0.012963,
+                0.9475,
+                0.407407
+              ],
+              "pivot_px": [
+                392.0,
+                423.0
+              ]
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "title": "逐句翻译",
+          "full": "manga/state-01.png",
+          "fields": {
+            "page": "page01",
+            "translated": 2,
+            "proofread": 0,
+            "layer": 2
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "manga/state-01-primary.png",
+              "crop": "manga/state-01-primary-crop.png",
+              "rect_px": [
+                212,
+                134,
+                77,
+                18
+              ],
+              "uv_rect": [
+                0.265,
+                0.718519,
+                0.09625,
+                0.033333
+              ],
+              "pivot_px": [
+                250.5,
+                143.0
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "manga/state-01-secondary.png",
+              "crop": "manga/state-01-secondary-crop.png",
+              "rect_px": [
+                13,
+                157,
+                758,
+                378
+              ],
+              "uv_rect": [
+                0.01625,
+                0.009259,
+                0.9475,
+                0.7
+              ],
+              "pivot_px": [
+                392.0,
+                346.0
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "title": "清字与嵌字",
+          "full": "manga/state-02.png",
+          "fields": {
+            "page": "page01",
+            "translated": 3,
+            "proofread": 0,
+            "layer": 3
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "manga/state-02-primary.png",
+              "crop": "manga/state-02-primary-crop.png",
+              "rect_px": [
+                212,
+                134,
+                77,
+                18
+              ],
+              "uv_rect": [
+                0.265,
+                0.718519,
+                0.09625,
+                0.033333
+              ],
+              "pivot_px": [
+                250.5,
+                143.0
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "manga/state-02-secondary.png",
+              "crop": "manga/state-02-secondary-crop.png",
+              "rect_px": [
+                13,
+                157,
+                758,
+                376
+              ],
+              "uv_rect": [
+                0.01625,
+                0.012963,
+                0.9475,
+                0.696296
+              ],
+              "pivot_px": [
+                392.0,
+                345.0
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "title": "校对完成",
+          "full": "manga/state-03.png",
+          "fields": {
+            "page": "page01",
+            "translated": 3,
+            "proofread": 3,
+            "layer": 4
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "manga/state-03-primary.png",
+              "crop": "manga/state-03-primary-crop.png",
+              "rect_px": [
+                212,
+                134,
+                77,
+                18
+              ],
+              "uv_rect": [
+                0.265,
+                0.718519,
+                0.09625,
+                0.033333
+              ],
+              "pivot_px": [
+                250.5,
+                143.0
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "manga/state-03-secondary.png",
+              "crop": "manga/state-03-secondary-crop.png",
+              "rect_px": [
+                13,
+                157,
+                758,
+                378
+              ],
+              "uv_rect": [
+                0.01625,
+                0.009259,
+                0.9475,
+                0.7
+              ],
+              "pivot_px": [
+                392.0,
+                346.0
+              ]
+            }
+          ]
+        }
+      ],
+      "change_regions": [
+        {
+          "id": "bubble",
+          "rect_px": [
+            203,
+            126,
+            148,
+            40
+          ],
+          "uv_rect": [
+            0.25375,
+            0.692593,
+            0.185,
+            0.074074
+          ],
+          "role": "Original artwork remains; text inside its existing balloon changes"
+        },
+        {
+          "id": "translation_and_layers",
+          "rect_px": [
+            414,
+            157,
+            360,
+            315
+          ],
+          "uv_rect": [
+            0.5175,
+            0.125926,
+            0.45,
+            0.583333
+          ],
+          "role": "Translation lines, active layer and proofreading result"
+        }
+      ],
+      "text_slots": [
+        {
+          "id": "comic.balloon",
+          "rect_px": [
+            211,
+            134,
+            134,
+            25
+          ],
+          "uv_rect": [
+            0.26375,
+            0.705556,
+            0.1675,
+            0.046296
+          ],
+          "font_px": 18,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#202020",
+          "alignment": "top-left",
+          "role": "text",
+          "state_values": [
+            "手伝うよ。",
+            "手伝うよ。",
+            "手伝うよ。",
+            "我来帮你。"
+          ]
+        },
+        {
+          "id": "comic.translation",
+          "rect_px": [
+            426,
+            157,
+            345,
+            145
+          ],
+          "uv_rect": [
+            0.5325,
+            0.440741,
+            0.43125,
+            0.268519
+          ],
+          "font_px": 16,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#202020",
+          "alignment": "top-left",
+          "role": "text",
+          "state_values": [
+            "",
+            "今天就在这里。\n我来帮你。",
+            "今天就在这里。\n我来帮你。\n明天见。",
+            "今天就在这里。\n我来帮你。\n明天见。"
+          ]
+        }
+      ],
+      "native_controls_preserved": [
+        {
+          "id": "min-max-close",
+          "rect_px": [
+            736,
+            7,
+            54,
+            17
+          ]
+        },
+        {
+          "id": "layer_rows",
+          "rect_px": [
+            420,
+            350,
+            352,
+            119
+          ]
+        }
+      ],
+      "provenance_note": "Existing original comic artwork and period-style workflow window. New dialogue and proofreading states are authored, not a real manga/team screenshot.",
+      "source_placements": [
+        {
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/export/episode123-v4-workflows/workflow-manga-2.png",
+          "rect_px": [
+            0,
+            0,
+            800,
+            540
+          ],
+          "resampled": false
+        }
+      ],
+      "suggested_phase_points": [
+        0,
+        0.28,
+        0.59,
+        0.83
+      ],
+      "display_rule": "Keep one background anchored throughout this group; choose a full state OR composite fixed + primary + secondary. Do not stack a full state and its same layers.",
+      "qa_preview": "manga/qa-preview.png"
+    },
+    {
+      "id": "subtitles",
+      "title": "字幕 · 译文与时间轴在同一处互相校正",
+      "width": 1200,
+      "height": 580,
+      "preferred_range": [
+        61.44,
+        71.68
+      ],
+      "kind": "original-dynamic-reconstruction",
+      "source_metadata": [
+        {
+          "id": "aegisub-translation-assistant-doc",
+          "path": "Assets/OldWebMap/Episode123/Revision3/Images/aegisub-translation-assistant-doc.png",
+          "title": "Aegisub 3.2 Translation Assistant",
+          "category": "translation",
+          "source_url": "https://aegisub.org/docs/latest/translation_assistant/",
+          "image_url": "https://aegisub.org/img/3.2/Translation_Assistant.png#center",
+          "source_date": null,
+          "kind": "工具文档配图（版本路径为 3.2，截图日期未标）",
+          "real_context": "Aegisub 翻译助手将原文、译文和 ASS 标签分区显示；这是工具功能图，不证明所有字幕组都使用同一流程。",
+          "segments": [
+            "繁荣 40.96–51.20 秒"
+          ],
+          "date_basis": "文档没有标注图像拍摄日期。",
+          "width": 383,
+          "height": 546,
+          "bytes": 27605,
+          "sha256": "43f099e4a8bd7b64dbb4b82f9bf2354219d6716ca3f6f6205c8285bf8dafa2ce",
+          "checked_on": "2026-10-16",
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/reference/episode123-v2/aegisub_translation-00.png",
+          "chronology_evidence": "https://aegisub.org/docs/latest/translation_assistant/",
+          "chronology_note": "Aegisub 3.2 文档路径；官方 3.2.0 于 2014-07-28 发布，具体图片拍摄日未标。",
+          "placement_mode": "chronological",
+          "display_year": ""
+        },
+        {
+          "id": "workflow-subtitles-2",
+          "path": "Assets/OldWebMap/Episode123/Revision4/Images/workflow-subtitles-2.png",
+          "width": 800,
+          "height": 540,
+          "title": "字幕时间轴 · 对轴",
+          "category": "fansub",
+          "kind": "original-operation-reconstruction",
+          "workflow": "subtitles",
+          "state": 1,
+          "preferred_range": [
+            40.96,
+            51.2
+          ],
+          "source_url": "spec/36-episode123-v4-production.md",
+          "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+          "content": [
+            "起始: 0:00:02.120",
+            "结束: 0:00:04.600",
+            "入点对齐辅音",
+            "出点留出阅读时间",
+            "检查相邻字幕间隔"
+          ],
+          "sha256": "317c772b9789c4fa92fd7b38a8b590e45c95312565ed86e1faaf9a52838dba52",
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/export/episode123-v4-workflows/workflow-subtitles-2.png",
+          "chronology_evidence": "spec/30-episode123-v3-production.md",
+          "chronology_note": "字幕协作。只表示流程意象，不为图片指定历史拍摄年份。",
+          "placement_mode": "authored-period-operation",
+          "display_year": ""
+        }
+      ],
+      "reference_files": [
+        {
+          "file": "subtitles/reference-aegisub-translation-assistant-doc.png",
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/reference/episode123-v2/aegisub_translation-00.png",
+          "sha256": "43f099e4a8bd7b64dbb4b82f9bf2354219d6716ca3f6f6205c8285bf8dafa2ce",
+          "dimensions": [
+            383,
+            546
+          ]
+        },
+        {
+          "file": "subtitles/reference-workflow-subtitles-2.png",
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/export/episode123-v4-workflows/workflow-subtitles-2.png",
+          "sha256": "317c772b9789c4fa92fd7b38a8b590e45c95312565ed86e1faaf9a52838dba52",
+          "dimensions": [
+            800,
+            540
+          ]
+        }
+      ],
+      "background": "subtitles/background.png",
+      "fixed_overlay": "subtitles/fixed.png",
+      "states": [
+        {
+          "index": 0,
+          "title": "初译进入",
+          "full": "subtitles/state-00.png",
+          "fields": {
+            "file": "subtitles-v2.ass",
+            "line": 2,
+            "line_count": 7,
+            "start": "0:00:02.120",
+            "end": "0:00:04.600",
+            "translation": "为下一个人留下灯光。"
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "subtitles/state-00-primary.png",
+              "crop": "subtitles/state-00-primary-crop.png",
+              "rect_px": [
+                35,
+                220,
+                139,
+                15
+              ],
+              "uv_rect": [
+                0.029167,
+                0.594828,
+                0.115833,
+                0.025862
+              ],
+              "pivot_px": [
+                104.5,
+                227.5
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "subtitles/state-00-secondary.png",
+              "crop": "subtitles/state-00-secondary-crop.png",
+              "rect_px": [
+                405,
+                88,
+                789,
+                464
+              ],
+              "uv_rect": [
+                0.3375,
+                0.048276,
+                0.6575,
+                0.8
+              ],
+              "pivot_px": [
+                799.5,
+                320.0
+              ]
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "title": "改成自然语气",
+          "full": "subtitles/state-01.png",
+          "fields": {
+            "file": "subtitles-v2.ass",
+            "line": 2,
+            "line_count": 7,
+            "start": "0:00:02.120",
+            "end": "0:00:04.600",
+            "translation": "给后来的人，留一盏灯。"
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "subtitles/state-01-primary.png",
+              "crop": "subtitles/state-01-primary-crop.png",
+              "rect_px": [
+                32,
+                216,
+                313,
+                27
+              ],
+              "uv_rect": [
+                0.026667,
+                0.581034,
+                0.260833,
+                0.046552
+              ],
+              "pivot_px": [
+                188.5,
+                229.5
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "subtitles/state-01-secondary.png",
+              "crop": "subtitles/state-01-secondary-crop.png",
+              "rect_px": [
+                405,
+                88,
+                789,
+                464
+              ],
+              "uv_rect": [
+                0.3375,
+                0.048276,
+                0.6575,
+                0.8
+              ],
+              "pivot_px": [
+                799.5,
+                320.0
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "title": "入点与出点对齐",
+          "full": "subtitles/state-02.png",
+          "fields": {
+            "file": "subtitles-v2.ass",
+            "line": 2,
+            "line_count": 7,
+            "start": "0:00:02.400",
+            "end": "0:00:04.200",
+            "translation": "给后来的人，留一盏灯。"
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "subtitles/state-02-primary.png",
+              "crop": "subtitles/state-02-primary-crop.png",
+              "rect_px": [
+                35,
+                220,
+                154,
+                15
+              ],
+              "uv_rect": [
+                0.029167,
+                0.594828,
+                0.128333,
+                0.025862
+              ],
+              "pivot_px": [
+                112.0,
+                227.5
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "subtitles/state-02-secondary.png",
+              "crop": "subtitles/state-02-secondary-crop.png",
+              "rect_px": [
+                405,
+                88,
+                789,
+                464
+              ],
+              "uv_rect": [
+                0.3375,
+                0.048276,
+                0.6575,
+                0.8
+              ],
+              "pivot_px": [
+                799.5,
+                320.0
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "title": "预览与导出",
+          "full": "subtitles/state-03.png",
+          "fields": {
+            "file": "subtitles-v2.ass",
+            "line": 2,
+            "line_count": 7,
+            "start": "0:00:02.400",
+            "end": "0:00:04.200",
+            "translation": "给后来的人，留一盏灯。"
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "subtitles/state-03-primary.png",
+              "crop": "subtitles/state-03-primary-crop.png",
+              "rect_px": [
+                35,
+                220,
+                154,
+                15
+              ],
+              "uv_rect": [
+                0.029167,
+                0.594828,
+                0.128333,
+                0.025862
+              ],
+              "pivot_px": [
+                112.0,
+                227.5
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "subtitles/state-03-secondary.png",
+              "crop": "subtitles/state-03-secondary-crop.png",
+              "rect_px": [
+                405,
+                88,
+                789,
+                464
+              ],
+              "uv_rect": [
+                0.3375,
+                0.048276,
+                0.6575,
+                0.8
+              ],
+              "pivot_px": [
+                799.5,
+                320.0
+              ]
+            }
+          ]
+        }
+      ],
+      "change_regions": [
+        {
+          "id": "translation",
+          "rect_px": [
+            31,
+            216,
+            317,
+            93
+          ],
+          "uv_rect": [
+            0.025833,
+            0.467241,
+            0.264167,
+            0.160345
+          ],
+          "role": "Aegisub translation field only; native controls fixed"
+        },
+        {
+          "id": "timing",
+          "rect_px": [
+            415,
+            87,
+            765,
+            447
+          ],
+          "uv_rect": [
+            0.345833,
+            0.07931,
+            0.6375,
+            0.77069
+          ],
+          "role": "Existing authored waveform, time fields, subtitle row and cursor"
+        }
+      ],
+      "text_slots": [
+        {
+          "id": "Aegisub.translation",
+          "rect_px": [
+            34,
+            220,
+            306,
+            75
+          ],
+          "uv_rect": [
+            0.028333,
+            0.491379,
+            0.255,
+            0.12931
+          ],
+          "font_px": 15,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#000000",
+          "alignment": "top-left",
+          "role": "text",
+          "state_values": [
+            "为下一个人留下灯光。",
+            "给后来的人，留一盏灯。",
+            "给后来的人，留一盏灯。",
+            "给后来的人，留一盏灯。"
+          ]
+        },
+        {
+          "id": "timeline.start",
+          "rect_px": [
+            919,
+            93,
+            260,
+            24
+          ],
+          "uv_rect": [
+            0.765833,
+            0.798276,
+            0.216667,
+            0.041379
+          ],
+          "font_px": 15,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#202020",
+          "alignment": "top-left",
+          "role": "text",
+          "state_values": [
+            "0:00:02.120",
+            "0:00:02.120",
+            "0:00:02.400",
+            "0:00:02.400"
+          ]
+        },
+        {
+          "id": "timeline.end",
+          "rect_px": [
+            919,
+            130,
+            260,
+            24
+          ],
+          "uv_rect": [
+            0.765833,
+            0.734483,
+            0.216667,
+            0.041379
+          ],
+          "font_px": 15,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#202020",
+          "alignment": "top-left",
+          "role": "text",
+          "state_values": [
+            "0:00:04.600",
+            "0:00:04.600",
+            "0:00:04.200",
+            "0:00:04.200"
+          ]
+        }
+      ],
+      "native_controls_preserved": [
+        {
+          "id": "Aegisub.Cancel",
+          "rect_px": [
+            167,
+            509,
+            84,
+            24
+          ]
+        },
+        {
+          "id": "Aegisub.Help",
+          "rect_px": [
+            263,
+            509,
+            84,
+            24
+          ]
+        },
+        {
+          "id": "Aegisub.PlayVideo",
+          "rect_px": [
+            257,
+            378,
+            84,
+            24
+          ]
+        },
+        {
+          "id": "Aegisub.keyboard_shortcuts",
+          "rect_px": [
+            24,
+            326,
+            215,
+            170
+          ]
+        }
+      ],
+      "provenance_note": "Real 383×546 Aegisub 3.2 Translation Assistant stays unscaled at (0,17). The adjacent 800×540 timeline is an existing original workflow plate, not a second real capture.",
+      "source_placements": [
+        {
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/reference/episode123-v2/aegisub_translation-00.png",
+          "rect_px": [
+            0,
+            17,
+            383,
+            546
+          ],
+          "resampled": false
+        },
+        {
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/export/episode123-v4-workflows/workflow-subtitles-2.png",
+          "rect_px": [
+            400,
+            17,
+            800,
+            540
+          ],
+          "resampled": false
+        }
+      ],
+      "suggested_phase_points": [
+        0,
+        0.28,
+        0.59,
+        0.83
+      ],
+      "display_rule": "Keep one background anchored throughout this group; choose a full state OR composite fixed + primary + secondary. Do not stack a full state and its same layers.",
+      "qa_preview": "subtitles/qa-preview.png"
+    },
+    {
+      "id": "torrent",
+      "title": "BT · 区块汇入同一文件，再发给下一人",
+      "width": 1024,
+      "height": 708,
+      "preferred_range": [
+        40.96,
+        51.2
+      ],
+      "kind": "original-dynamic-reconstruction",
+      "source_metadata": [
+        {
+          "id": "bitcomet-053-main",
+          "title": "BitComet 主下载窗口（标题栏显示 0.53）",
+          "category": "distribution",
+          "kind": "archival-client-screenshot",
+          "source_url": "http://www.emule-mods.de/bittorrent/screen/BitComet/bitcomet-main.png",
+          "source_page_url": "http://www.emule-mods.de/bittorrent/screen-BitComet.html",
+          "source_date": null,
+          "source_page_date": "BitComet 0.53 release date 2004-06-15; the screenshot capture date is unknown. The gallery title says 0.63, but the image title bar says 0.53.",
+          "evidence": "The main screenshot titlebar visibly reads “BitComet 0.53”. The source gallery page title claims 0.63; the official changelog lists v0.53 on 2004-06-15. Keep the in-image version and gallery mismatch explicit; do not label it 0.63.",
+          "rights": "Screenshot rights are not stated by the gallery; reference candidate only until permission is checked.",
+          "path": "Assets/OldWebMap/Episode123/Revision3/Images/bitcomet-053-main.png",
+          "width": 1024,
+          "height": 708,
+          "sha256": "94f240bbfc81ff97ea6e3ee9453a4cf042a356d960bfcf2e31dcd05f1f74428e",
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/reference/episode123-v2-software/bitcomet-053-main.png",
+          "chronology_evidence": "http://www.emule-mods.de/bittorrent/screen/BitComet/bitcomet-main.png",
+          "chronology_note": "画面标题栏为 BitComet 0.53，官方变更记录对应 2004-06-15；图库标题写 0.63，需保留矛盾，不能改称 0.63。",
+          "placement_mode": "chronological",
+          "display_year": ""
+        }
+      ],
+      "reference_files": [
+        {
+          "file": "torrent/reference-bitcomet-053-main.png",
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/reference/episode123-v2-software/bitcomet-053-main.png",
+          "sha256": "94f240bbfc81ff97ea6e3ee9453a4cf042a356d960bfcf2e31dcd05f1f74428e",
+          "dimensions": [
+            1024,
+            708
+          ]
+        },
+        {
+          "file": "torrent/reference-workflow-torrent-3.png",
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/export/episode123-v4-workflows/workflow-torrent-3.png",
+          "sha256": "c79138f24bfa861f5a0eca7a6de7147f852698220f19b063d44ef440b72fc271",
+          "dimensions": [
+            800,
+            540
+          ]
+        },
+        {
+          "file": "torrent/reference-workflow-release-3.png",
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/export/episode123-v4-workflows/workflow-release-3.png",
+          "sha256": "7be98939718e8abde18a4097fc34e69d0a01fd951419ed901f922de77b1a8c4e",
+          "dimensions": [
+            800,
+            540
+          ]
+        }
+      ],
+      "background": "torrent/background.png",
+      "fixed_overlay": "torrent/fixed.png",
+      "states": [
+        {
+          "index": 0,
+          "title": "添加原创短片",
+          "full": "torrent/state-00.png",
+          "fields": {
+            "filename": "我们的短片.mkv",
+            "size_bytes": 134217728,
+            "pieces_total": 16,
+            "pieces_received": 0,
+            "percent": 0,
+            "download_kbps": 0,
+            "upload_kbps": 0,
+            "publish_version": "v2"
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "torrent/state-00-primary.png",
+              "crop": "torrent/state-00-primary-crop.png",
+              "rect_px": [
+                21,
+                1,
+                1002,
+                132
+              ],
+              "uv_rect": [
+                0.020508,
+                0.812147,
+                0.978516,
+                0.186441
+              ],
+              "pivot_px": [
+                522.0,
+                67.0
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "torrent/state-00-secondary.png",
+              "crop": "torrent/state-00-secondary-crop.png",
+              "rect_px": [
+                268,
+                494,
+                709,
+                186
+              ],
+              "uv_rect": [
+                0.261719,
+                0.039548,
+                0.692383,
+                0.262712
+              ],
+              "pivot_px": [
+                622.5,
+                587.0
+              ]
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "title": "收到六个区块",
+          "full": "torrent/state-01.png",
+          "fields": {
+            "filename": "我们的短片.mkv",
+            "size_bytes": 134217728,
+            "pieces_total": 16,
+            "pieces_received": 6,
+            "percent": 37.5,
+            "download_kbps": 192,
+            "upload_kbps": 24,
+            "publish_version": "v2"
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "torrent/state-01-primary.png",
+              "crop": "torrent/state-01-primary-crop.png",
+              "rect_px": [
+                21,
+                1,
+                1002,
+                132
+              ],
+              "uv_rect": [
+                0.020508,
+                0.812147,
+                0.978516,
+                0.186441
+              ],
+              "pivot_px": [
+                522.0,
+                67.0
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "torrent/state-01-secondary.png",
+              "crop": "torrent/state-01-secondary-crop.png",
+              "rect_px": [
+                268,
+                494,
+                709,
+                187
+              ],
+              "uv_rect": [
+                0.261719,
+                0.038136,
+                0.692383,
+                0.264124
+              ],
+              "pivot_px": [
+                622.5,
+                587.5
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "title": "完整校验",
+          "full": "torrent/state-02.png",
+          "fields": {
+            "filename": "我们的短片.mkv",
+            "size_bytes": 134217728,
+            "pieces_total": 16,
+            "pieces_received": 16,
+            "percent": 100,
+            "download_kbps": 0,
+            "upload_kbps": 0,
+            "publish_version": "v2"
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "torrent/state-02-primary.png",
+              "crop": "torrent/state-02-primary-crop.png",
+              "rect_px": [
+                21,
+                1,
+                1002,
+                132
+              ],
+              "uv_rect": [
+                0.020508,
+                0.812147,
+                0.978516,
+                0.186441
+              ],
+              "pivot_px": [
+                522.0,
+                67.0
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "torrent/state-02-secondary.png",
+              "crop": "torrent/state-02-secondary-crop.png",
+              "rect_px": [
+                268,
+                495,
+                709,
+                186
+              ],
+              "uv_rect": [
+                0.261719,
+                0.038136,
+                0.692383,
+                0.262712
+              ],
+              "pivot_px": [
+                622.5,
+                588.0
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "title": "继续做种与发布",
+          "full": "torrent/state-03.png",
+          "fields": {
+            "filename": "我们的短片.mkv",
+            "size_bytes": 134217728,
+            "pieces_total": 16,
+            "pieces_received": 16,
+            "percent": 100,
+            "download_kbps": 0,
+            "upload_kbps": 96,
+            "publish_version": "v2"
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "torrent/state-03-primary.png",
+              "crop": "torrent/state-03-primary-crop.png",
+              "rect_px": [
+                21,
+                1,
+                1002,
+                132
+              ],
+              "uv_rect": [
+                0.020508,
+                0.812147,
+                0.978516,
+                0.186441
+              ],
+              "pivot_px": [
+                522.0,
+                67.0
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "torrent/state-03-secondary.png",
+              "crop": "torrent/state-03-secondary-crop.png",
+              "rect_px": [
+                268,
+                494,
+                709,
+                187
+              ],
+              "uv_rect": [
+                0.261719,
+                0.038136,
+                0.692383,
+                0.264124
+              ],
+              "pivot_px": [
+                622.5,
+                587.5
+              ]
+            }
+          ]
+        }
+      ],
+      "change_regions": [
+        {
+          "id": "selected_task",
+          "rect_px": [
+            148,
+            112,
+            874,
+            45
+          ],
+          "uv_rect": [
+            0.144531,
+            0.778249,
+            0.853516,
+            0.063559
+          ],
+          "role": "Task progress, state, size and transfer rates"
+        },
+        {
+          "id": "pieces_and_publish",
+          "rect_px": [
+            266,
+            530,
+            740,
+            148
+          ],
+          "uv_rect": [
+            0.259766,
+            0.042373,
+            0.722656,
+            0.20904
+          ],
+          "role": "Received pieces, integrity check and publish/readme state"
+        }
+      ],
+      "text_slots": [
+        {
+          "id": "BT.percent",
+          "rect_px": [
+            580,
+            115,
+            37,
+            17
+          ],
+          "uv_rect": [
+            0.566406,
+            0.813559,
+            0.036133,
+            0.024011
+          ],
+          "font_px": 12,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#202020",
+          "alignment": "top-left",
+          "role": "text",
+          "state_values": [
+            "0.0%",
+            "37.5%",
+            "100%",
+            "100%"
+          ]
+        },
+        {
+          "id": "BT.filename",
+          "rect_px": [
+            173,
+            116,
+            290,
+            18
+          ],
+          "uv_rect": [
+            0.168945,
+            0.810734,
+            0.283203,
+            0.025424
+          ],
+          "font_px": 13,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#202020",
+          "alignment": "top-left",
+          "role": "fixed_material_filename",
+          "state_values": [
+            "我们的短片.mkv",
+            "我们的短片.mkv",
+            "我们的短片.mkv",
+            "我们的短片.mkv"
+          ]
+        },
+        {
+          "id": "BT.titlebar",
+          "rect_px": [
+            22,
+            4,
+            914,
+            18
+          ],
+          "uv_rect": [
+            0.021484,
+            0.968927,
+            0.892578,
+            0.025424
+          ],
+          "font_px": 12,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#ffffff",
+          "alignment": "top-left",
+          "role": "text",
+          "state_values": [
+            "BitComet 0.53 - Download: 0 KB/s, Upload: 0 KB/s",
+            "BitComet 0.53 - Download: 192 KB/s, Upload: 24 KB/s",
+            "BitComet 0.53 - Download: 0 KB/s, Upload: 0 KB/s",
+            "BitComet 0.53 - Download: 0 KB/s, Upload: 96 KB/s"
+          ]
+        },
+        {
+          "id": "BT.state",
+          "rect_px": [
+            419,
+            494,
+            550,
+            17
+          ],
+          "uv_rect": [
+            0.40918,
+            0.278249,
+            0.537109,
+            0.024011
+          ],
+          "font_px": 12,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#202020",
+          "alignment": "top-left",
+          "role": "text",
+          "state_values": [
+            "Waiting",
+            "Downloading",
+            "Hash checking",
+            "Seeding"
+          ]
+        },
+        {
+          "id": "BT.download_kbps",
+          "rect_px": [
+            625,
+            115,
+            49,
+            17
+          ],
+          "uv_rect": [
+            0.610352,
+            0.813559,
+            0.047852,
+            0.024011
+          ],
+          "font_px": 12,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#202020",
+          "alignment": "top-left",
+          "role": "text",
+          "state_values": [
+            "0 KB/s",
+            "192 KB/s",
+            "0 KB/s",
+            "0 KB/s"
+          ]
+        },
+        {
+          "id": "BT.upload_kbps",
+          "rect_px": [
+            692,
+            115,
+            44,
+            17
+          ],
+          "uv_rect": [
+            0.675781,
+            0.813559,
+            0.042969,
+            0.024011
+          ],
+          "font_px": 12,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#202020",
+          "alignment": "top-left",
+          "role": "text",
+          "state_values": [
+            "0 KB/s",
+            "24 KB/s",
+            "0 KB/s",
+            "96 KB/s"
+          ]
+        },
+        {
+          "id": "BT.progress",
+          "rect_px": [
+            268,
+            574,
+            720,
+            18
+          ],
+          "uv_rect": [
+            0.261719,
+            0.163842,
+            0.703125,
+            0.025424
+          ],
+          "font_px": 13,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#202020",
+          "alignment": "top-left",
+          "role": "text",
+          "state_values": [
+            "0 / 16",
+            "6 / 16",
+            "16 / 16  Hash OK",
+            "16 / 16  向下一位上传"
+          ]
+        }
+      ],
+      "native_controls_preserved": [
+        {
+          "id": "toolbar",
+          "rect_px": [
+            0,
+            47,
+            716,
+            45
+          ]
+        },
+        {
+          "id": "tabs",
+          "rect_px": [
+            149,
+            385,
+            107,
+            130
+          ]
+        },
+        {
+          "id": "column_headers",
+          "rect_px": [
+            147,
+            92,
+            875,
+            18
+          ]
+        }
+      ],
+      "provenance_note": "BitComet screenshot title visibly says 0.53; gallery metadata mismatch is retained. New filename/piece counts/progress are authored visual states, not a real transfer.",
+      "source_placements": [
+        {
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/reference/episode123-v2-software/bitcomet-053-main.png",
+          "rect_px": [
+            0,
+            0,
+            1024,
+            708
+          ],
+          "resampled": false
+        }
+      ],
+      "suggested_phase_points": [
+        0,
+        0.28,
+        0.59,
+        0.83
+      ],
+      "display_rule": "Keep one background anchored throughout this group; choose a full state OR composite fixed + primary + secondary. Do not stack a full state and its same layers.",
+      "qa_preview": "torrent/qa-preview.png"
+    },
+    {
+      "id": "forum",
+      "title": "中文论坛 · 同一主题里收到回复并补上结果",
+      "width": 1440,
+      "height": 1100,
+      "preferred_range": [
+        51.2,
+        61.44
+      ],
+      "kind": "original-dynamic-reconstruction",
+      "source_metadata": [
+        {
+          "id": "tianya-bbs-2009",
+          "path": "Assets/OldWebMap/Episode123/Revision3/Images/tianya-bbs-2009.png",
+          "title": "天涯论坛 2009 首页与版块目录",
+          "category": "community",
+          "source_url": "https://web.archive.org/web/20090805075432/http://www.tianya.cn/bbs/",
+          "source_date": "2009-08-05T07:54:32Z",
+          "kind": "Wayback 原页面本地浏览器截屏",
+          "capture_method": "Chromium 对固定时间戳的 Internet Archive 回放页截屏；本地图像保存站点原始呈现。",
+          "real_context": "天涯论坛首页的左侧版块目录、热帖榜、公告、版块列表与排行。",
+          "segments": [
+            "繁荣 71.68–81.92 秒"
+          ],
+          "date_basis": "精确存档时间来自 Internet Archive 回放 URL；不把它当作天涯创站日期。",
+          "width": 1440,
+          "height": 1100,
+          "bytes": 355000,
+          "sha256": "d822d9e59b808dcf0c17a3d2fd4b1ed2848f767aa143901419863f563f0fae80",
+          "checked_on": "2026-10-16",
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/reference/episode123-v2/tianya-2009-archive-screenshot.png",
+          "chronology_evidence": "https://web.archive.org/web/20090805075432/http://www.tianya.cn/bbs/",
+          "chronology_note": "天涯论坛 2009 页面语境；Wayback 捕获时间不等于页面内容首次出现日。",
+          "placement_mode": "chronological",
+          "display_year": "2009"
+        }
+      ],
+      "reference_files": [
+        {
+          "file": "forum/reference-tianya-bbs-2009.png",
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/reference/episode123-v2/tianya-2009-archive-screenshot.png",
+          "sha256": "d822d9e59b808dcf0c17a3d2fd4b1ed2848f767aa143901419863f563f0fae80",
+          "dimensions": [
+            1440,
+            1100
+          ]
+        },
+        {
+          "file": "forum/reference-workflow-bbs-3.png",
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/export/episode123-v4-workflows/workflow-bbs-3.png",
+          "sha256": "d6cbf34e5438a3a4979b1ac3940cb2f0a160504a3648ab94240db38dd2954120",
+          "dimensions": [
+            800,
+            540
+          ]
+        }
+      ],
+      "background": "forum/background.png",
+      "fixed_overlay": "forum/fixed.png",
+      "states": [
+        {
+          "index": 0,
+          "title": "问题停留",
+          "full": "forum/state-00.png",
+          "fields": {
+            "title": "以前保存的素材，还能继续改吗？",
+            "author": "xxxx",
+            "reply_count": 0,
+            "attachment": "readme.txt",
+            "draft": ""
+          },
+          "layers": [
+            {
+              "id": "secondary",
+              "full": "forum/state-00-secondary.png",
+              "crop": "forum/state-00-secondary-crop.png",
+              "rect_px": [
+                384,
+                835,
+                778,
+                194
+              ],
+              "uv_rect": [
+                0.266667,
+                0.064545,
+                0.540278,
+                0.176364
+              ],
+              "pivot_px": [
+                773.0,
+                932.0
+              ]
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "title": "有人回应",
+          "full": "forum/state-01.png",
+          "fields": {
+            "title": "以前保存的素材，还能继续改吗？",
+            "author": "xxxx",
+            "reply_count": 1,
+            "attachment": "readme.txt",
+            "draft": "我再检查一下。"
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "forum/state-01-primary.png",
+              "crop": "forum/state-01-primary-crop.png",
+              "rect_px": [
+                383,
+                492,
+                778,
+                190
+              ],
+              "uv_rect": [
+                0.265972,
+                0.38,
+                0.540278,
+                0.172727
+              ],
+              "pivot_px": [
+                772.0,
+                587.0
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "forum/state-01-secondary.png",
+              "crop": "forum/state-01-secondary-crop.png",
+              "rect_px": [
+                384,
+                835,
+                778,
+                194
+              ],
+              "uv_rect": [
+                0.266667,
+                0.064545,
+                0.540278,
+                0.176364
+              ],
+              "pivot_px": [
+                773.0,
+                932.0
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "title": "贴出检查结果",
+          "full": "forum/state-02.png",
+          "fields": {
+            "title": "以前保存的素材，还能继续改吗？",
+            "author": "xxxx",
+            "reply_count": 2,
+            "attachment": "readme.txt",
+            "draft": "找到了，原来放在旧目录里。"
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "forum/state-02-primary.png",
+              "crop": "forum/state-02-primary-crop.png",
+              "rect_px": [
+                383,
+                492,
+                778,
+                307
+              ],
+              "uv_rect": [
+                0.265972,
+                0.273636,
+                0.540278,
+                0.279091
+              ],
+              "pivot_px": [
+                772.0,
+                645.5
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "forum/state-02-secondary.png",
+              "crop": "forum/state-02-secondary-crop.png",
+              "rect_px": [
+                384,
+                835,
+                778,
+                194
+              ],
+              "uv_rect": [
+                0.266667,
+                0.064545,
+                0.540278,
+                0.176364
+              ],
+              "pivot_px": [
+                773.0,
+                932.0
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "title": "把方法留给后来的人",
+          "full": "forum/state-03.png",
+          "fields": {
+            "title": "以前保存的素材，还能继续改吗？",
+            "author": "xxxx",
+            "reply_count": 3,
+            "attachment": "readme.txt",
+            "draft": "已经补上路径，也把方法写进说明。"
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "forum/state-03-primary.png",
+              "crop": "forum/state-03-primary-crop.png",
+              "rect_px": [
+                383,
+                492,
+                778,
+                307
+              ],
+              "uv_rect": [
+                0.265972,
+                0.273636,
+                0.540278,
+                0.279091
+              ],
+              "pivot_px": [
+                772.0,
+                645.5
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "forum/state-03-secondary.png",
+              "crop": "forum/state-03-secondary-crop.png",
+              "rect_px": [
+                384,
+                835,
+                778,
+                194
+              ],
+              "uv_rect": [
+                0.266667,
+                0.064545,
+                0.540278,
+                0.176364
+              ],
+              "pivot_px": [
+                773.0,
+                932.0
+              ]
+            }
+          ]
+        }
+      ],
+      "change_regions": [
+        {
+          "id": "reply",
+          "rect_px": [
+            381,
+            490,
+            782,
+            316
+          ],
+          "uv_rect": [
+            0.264583,
+            0.267273,
+            0.543056,
+            0.287273
+          ],
+          "role": "An anonymous reply appears beneath a persistent opening post"
+        },
+        {
+          "id": "composer_and_index",
+          "rect_px": [
+            381,
+            828,
+            782,
+            219
+          ],
+          "uv_rect": [
+            0.264583,
+            0.048182,
+            0.543056,
+            0.199091
+          ],
+          "role": "Draft becomes result, counters and topic index update"
+        }
+      ],
+      "text_slots": [
+        {
+          "id": "forum.reply",
+          "rect_px": [
+            404,
+            548,
+            730,
+            100
+          ],
+          "uv_rect": [
+            0.280556,
+            0.410909,
+            0.506944,
+            0.090909
+          ],
+          "font_px": 18,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#202020",
+          "alignment": "top-left",
+          "role": "text",
+          "state_values": [
+            "",
+            "先检查文件名和路径。",
+            "先检查文件名和路径。\n我这里保留了同一份目录。",
+            "先检查文件名和路径。\n我这里保留了同一份目录。"
+          ]
+        },
+        {
+          "id": "forum.subject",
+          "rect_px": [
+            382,
+            203,
+            780,
+            32
+          ],
+          "uv_rect": [
+            0.265278,
+            0.786364,
+            0.541667,
+            0.029091
+          ],
+          "font_px": 24,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#164b7a",
+          "alignment": "top-left",
+          "role": "fixed_authored_thread_title",
+          "state_values": [
+            "以前保存的素材，还能继续改吗？",
+            "以前保存的素材，还能继续改吗？",
+            "以前保存的素材，还能继续改吗？",
+            "以前保存的素材，还能继续改吗？"
+          ]
+        },
+        {
+          "id": "forum.reply_count",
+          "rect_px": [
+            383,
+            834,
+            779,
+            24
+          ],
+          "uv_rect": [
+            0.265972,
+            0.22,
+            0.540972,
+            0.021818
+          ],
+          "font_px": 15,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#2d6fa4",
+          "alignment": "top-left",
+          "role": "text",
+          "state_values": [
+            "回复 0  |  收藏  |  返回目录",
+            "回复 1  |  收藏  |  返回目录",
+            "回复 2  |  收藏  |  返回目录",
+            "回复 3  |  收藏  |  返回目录"
+          ]
+        },
+        {
+          "id": "forum.result",
+          "rect_px": [
+            401,
+            880,
+            730,
+            75
+          ],
+          "uv_rect": [
+            0.278472,
+            0.131818,
+            0.506944,
+            0.068182
+          ],
+          "font_px": 18,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#202020",
+          "alignment": "top-left",
+          "role": "text",
+          "state_values": [
+            "",
+            "我再检查一下。",
+            "找到了，原来放在旧目录里。",
+            "已经补上路径，也把方法写进说明。"
+          ]
+        }
+      ],
+      "native_controls_preserved": [
+        {
+          "id": "global_header",
+          "rect_px": [
+            366,
+            0,
+            830,
+            32
+          ]
+        },
+        {
+          "id": "search",
+          "rect_px": [
+            603,
+            59,
+            368,
+            27
+          ]
+        },
+        {
+          "id": "left_navigation",
+          "rect_px": [
+            233,
+            0,
+            129,
+            1070
+          ]
+        },
+        {
+          "id": "bottom_bar",
+          "rect_px": [
+            139,
+            1069,
+            1148,
+            31
+          ]
+        }
+      ],
+      "provenance_note": "Real Tianya 2009 homepage is an unchanged reference. The central thread is a clearly documented original anonymous forum interaction, not an archived Tianya post or historical claim.",
+      "source_placements": [
+        {
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/reference/episode123-v2/tianya-2009-archive-screenshot.png",
+          "rect_px": [
+            0,
+            0,
+            1440,
+            1100
+          ],
+          "resampled": false
+        }
+      ],
+      "suggested_phase_points": [
+        0,
+        0.28,
+        0.59,
+        0.83
+      ],
+      "display_rule": "Keep one background anchored throughout this group; choose a full state OR composite fixed + primary + secondary. Do not stack a full state and its same layers.",
+      "qa_preview": "forum/qa-preview.png"
+    },
+    {
+      "id": "access",
+      "title": "访问门槛 · 同一个入口的条件发生改变",
+      "width": 960,
+      "height": 640,
+      "preferred_range": [
+        102.4,
+        122.88
+      ],
+      "kind": "original-dynamic-reconstruction",
+      "source_metadata": [
+        {
+          "catalogue": "data/episode123-art.json",
+          "id": "access_conditions",
+          "source": "art/source/episode123/access_conditions.svg",
+          "export": "art/export/episode123/access_conditions.png",
+          "width": 960,
+          "height": 640,
+          "kind": "period-ui",
+          "filter": "Point",
+          "materials": [
+            "enclosure-subscription"
+          ],
+          "authorship": "original-drawing-and-layout-reconstruction",
+          "historical_image": false
+        }
+      ],
+      "reference_files": [
+        {
+          "file": "access/reference-access_conditions.png",
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/export/episode123/access_conditions.png",
+          "sha256": "813d917baca1464eb3d56b4f8a9c648ff0ee01a946e85bbe0e953a428ff37aad",
+          "dimensions": [
+            960,
+            640
+          ]
+        }
+      ],
+      "background": "access/background.png",
+      "fixed_overlay": "access/fixed.png",
+      "states": [
+        {
+          "index": 0,
+          "title": "入口仍可见",
+          "full": "access/state-00.png",
+          "fields": {
+            "url": "http://service.example/",
+            "logged_in": false,
+            "compatible": false,
+            "usage_confirmed": false,
+            "next_step": "inspect"
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "access/state-00-primary.png",
+              "crop": "access/state-00-primary-crop.png",
+              "rect_px": [
+                718,
+                258,
+                170,
+                235
+              ],
+              "uv_rect": [
+                0.747917,
+                0.229688,
+                0.177083,
+                0.367188
+              ],
+              "pivot_px": [
+                803.0,
+                375.5
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "access/state-00-secondary.png",
+              "crop": "access/state-00-secondary-crop.png",
+              "rect_px": [
+                40,
+                532,
+                876,
+                100
+              ],
+              "uv_rect": [
+                0.041667,
+                0.0125,
+                0.9125,
+                0.15625
+              ],
+              "pivot_px": [
+                478.0,
+                582.0
+              ]
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "title": "登录成为前置条件",
+          "full": "access/state-01.png",
+          "fields": {
+            "url": "http://service.example/",
+            "logged_in": false,
+            "compatible": false,
+            "usage_confirmed": false,
+            "next_step": "login"
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "access/state-01-primary.png",
+              "crop": "access/state-01-primary-crop.png",
+              "rect_px": [
+                340,
+                258,
+                548,
+                235
+              ],
+              "uv_rect": [
+                0.354167,
+                0.229688,
+                0.570833,
+                0.367188
+              ],
+              "pivot_px": [
+                614.0,
+                375.5
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "access/state-01-secondary.png",
+              "crop": "access/state-01-secondary-crop.png",
+              "rect_px": [
+                40,
+                532,
+                876,
+                101
+              ],
+              "uv_rect": [
+                0.041667,
+                0.010938,
+                0.9125,
+                0.157812
+              ],
+              "pivot_px": [
+                478.0,
+                582.5
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "title": "版本又成为条件",
+          "full": "access/state-02.png",
+          "fields": {
+            "url": "http://service.example/",
+            "logged_in": true,
+            "compatible": false,
+            "usage_confirmed": false,
+            "next_step": "update"
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "access/state-02-primary.png",
+              "crop": "access/state-02-primary-crop.png",
+              "rect_px": [
+                340,
+                258,
+                548,
+                235
+              ],
+              "uv_rect": [
+                0.354167,
+                0.229688,
+                0.570833,
+                0.367188
+              ],
+              "pivot_px": [
+                614.0,
+                375.5
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "access/state-02-secondary.png",
+              "crop": "access/state-02-secondary-crop.png",
+              "rect_px": [
+                40,
+                532,
+                876,
+                101
+              ],
+              "uv_rect": [
+                0.041667,
+                0.010938,
+                0.9125,
+                0.157812
+              ],
+              "pivot_px": [
+                478.0,
+                582.5
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "title": "处理之后重新进入",
+          "full": "access/state-03.png",
+          "fields": {
+            "url": "http://service.example/",
+            "logged_in": true,
+            "compatible": true,
+            "usage_confirmed": true,
+            "next_step": "continue"
+          },
+          "layers": [
+            {
+              "id": "primary",
+              "full": "access/state-03-primary.png",
+              "crop": "access/state-03-primary-crop.png",
+              "rect_px": [
+                340,
+                258,
+                548,
+                235
+              ],
+              "uv_rect": [
+                0.354167,
+                0.229688,
+                0.570833,
+                0.367188
+              ],
+              "pivot_px": [
+                614.0,
+                375.5
+              ]
+            },
+            {
+              "id": "secondary",
+              "full": "access/state-03-secondary.png",
+              "crop": "access/state-03-secondary-crop.png",
+              "rect_px": [
+                40,
+                532,
+                876,
+                101
+              ],
+              "uv_rect": [
+                0.041667,
+                0.010938,
+                0.9125,
+                0.157812
+              ],
+              "pivot_px": [
+                478.0,
+                582.5
+              ]
+            }
+          ]
+        }
+      ],
+      "change_regions": [
+        {
+          "id": "condition_rows",
+          "rect_px": [
+            60,
+            262,
+            829,
+            236
+          ],
+          "uv_rect": [
+            0.0625,
+            0.221875,
+            0.863542,
+            0.36875
+          ],
+          "role": "Original row labels, secondary details and button captions"
+        },
+        {
+          "id": "result",
+          "rect_px": [
+            40,
+            530,
+            877,
+            70
+          ],
+          "uv_rect": [
+            0.041667,
+            0.0625,
+            0.913542,
+            0.109375
+          ],
+          "role": "The same entry supplies the next step or admits the user"
+        }
+      ],
+      "text_slots": [
+        {
+          "id": "access.login_button",
+          "rect_px": [
+            727,
+            268,
+            151,
+            24
+          ],
+          "uv_rect": [
+            0.757292,
+            0.54375,
+            0.157292,
+            0.0375
+          ],
+          "font_px": 20,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#202020",
+          "alignment": "top-left",
+          "role": "text",
+          "state_values": [
+            "查看条件",
+            "需要登录",
+            "已登录",
+            "已登录"
+          ]
+        },
+        {
+          "id": "access.compatibility_button",
+          "rect_px": [
+            727,
+            364,
+            151,
+            24
+          ],
+          "uv_rect": [
+            0.757292,
+            0.39375,
+            0.157292,
+            0.0375
+          ],
+          "font_px": 20,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#202020",
+          "alignment": "top-left",
+          "role": "text",
+          "state_values": [
+            "查看条件",
+            "检查版本",
+            "需要更新",
+            "已兼容"
+          ]
+        },
+        {
+          "id": "access.status",
+          "rect_px": [
+            48,
+            547,
+            849,
+            47
+          ],
+          "uv_rect": [
+            0.05,
+            0.071875,
+            0.884375,
+            0.073438
+          ],
+          "font_px": 21,
+          "font": "Noto Sans CJK SC pixel-thresholded",
+          "color": "#375778",
+          "alignment": "top-left",
+          "role": "text",
+          "state_values": [
+            "可以先查看使用条件。",
+            "要继续，请先登录。",
+            "已经登录，还需要更新版本。",
+            "条件已满足，可以继续。"
+          ]
+        }
+      ],
+      "native_controls_preserved": [
+        {
+          "id": "login_conditions",
+          "rect_px": [
+            718,
+            258,
+            170,
+            43
+          ]
+        },
+        {
+          "id": "compatibility",
+          "rect_px": [
+            718,
+            354,
+            170,
+            43
+          ]
+        },
+        {
+          "id": "usage_scope",
+          "rect_px": [
+            718,
+            450,
+            170,
+            43
+          ]
+        },
+        {
+          "id": "address",
+          "rect_px": [
+            100,
+            105,
+            825,
+            23
+          ]
+        }
+      ],
+      "provenance_note": "Existing original generic Internet Explorer-style access page, service.example. It does not depict a named service, real incident or actual restriction notice.",
+      "source_placements": [
+        {
+          "source_path": "/home/chiro/projects/vrc-old-web-map/art/export/episode123/access_conditions.png",
+          "rect_px": [
+            0,
+            0,
+            960,
+            640
+          ],
+          "resampled": false
+        }
+      ],
+      "suggested_phase_points": [
+        0,
+        0.28,
+        0.59,
+        0.83
+      ],
+      "display_rule": "Keep one background anchored throughout this group; choose a full state OR composite fixed + primary + secondary. Do not stack a full state and its same layers.",
+      "qa_preview": "access/qa-preview.png"
+    }
+  ],
+  "files": [
+    {
+      "file": "access/background.png",
+      "bytes": 12872,
+      "sha256": "36239188c24a5e9fd4513a074de5a5c454bcb4a53d8f6571686066fdd9f4913b"
+    },
+    {
+      "file": "access/fixed.png",
+      "bytes": 2600,
+      "sha256": "b0e428a71f3341a3c73ed823c2b228ffc130750b0e662528f9831bbebe2af220"
+    },
+    {
+      "file": "access/qa-preview.png",
+      "bytes": 38510,
+      "sha256": "2ba2d44bc2b10fd6864781a2983d5a8c01711acca68e0527c1056d61231e4630"
+    },
+    {
+      "file": "access/reference-access_conditions.png",
+      "bytes": 12329,
+      "sha256": "813d917baca1464eb3d56b4f8a9c648ff0ee01a946e85bbe0e953a428ff37aad"
+    },
+    {
+      "file": "access/state-00-primary-crop.png",
+      "bytes": 1744,
+      "sha256": "780d0110b27d79537111d369c0865c2d94ff54a939c842de94d91d41841a9c87"
+    },
+    {
+      "file": "access/state-00-primary.png",
+      "bytes": 4086,
+      "sha256": "7dee60c1e36b16a8b5e237d07086d83096c0cdf9bd3f7e8eadc89115d0b78c0d"
+    },
+    {
+      "file": "access/state-00-secondary-crop.png",
+      "bytes": 1492,
+      "sha256": "f76179b18d06ab0e87d32ad3559bbba37c445a242f32b4973eea5d688ea9de00"
+    },
+    {
+      "file": "access/state-00-secondary.png",
+      "bytes": 3578,
+      "sha256": "f7b0bbf4ed7fdf6374962a59be9a625cc0bede07b8b81786df543634ec640ff6"
+    },
+    {
+      "file": "access/state-00.png",
+      "bytes": 13184,
+      "sha256": "a3a9fac7a74ab6725b6edde30fe8cd621b9941abfe95c3ef516dcd05a809b8ea"
+    },
+    {
+      "file": "access/state-01-primary-crop.png",
+      "bytes": 3783,
+      "sha256": "d90e4bc2b72b5721cb5b2fe54206c49e40eb2570f3538ce23e318b413733982e"
+    },
+    {
+      "file": "access/state-01-primary.png",
+      "bytes": 5781,
+      "sha256": "53ce547bac03fc2209b0cb7e114b97a73fa3bb464ed9bef5dbb1906a295715fb"
+    },
+    {
+      "file": "access/state-01-secondary-crop.png",
+      "bytes": 1659,
+      "sha256": "7a88762944ae9926a5a07ce71a9cdfc66b31db5a788421e12297ded643aec014"
+    },
+    {
+      "file": "access/state-01-secondary.png",
+      "bytes": 3738,
+      "sha256": "d78396ca79bb25a345595f7fd1d58345fba4203eed2fefd0fdfe7fcd462c41cb"
+    },
+    {
+      "file": "access/state-01.png",
+      "bytes": 14915,
+      "sha256": "fabfd50f10ac75ae5d486947e491267fd67b965e3fc64032c4f18fbeeb69765f"
+    },
+    {
+      "file": "access/state-02-primary-crop.png",
+      "bytes": 3630,
+      "sha256": "ec12731486d079aff8892656306c74b5badb41c6b15a692b1e384216d582c17e"
+    },
+    {
+      "file": "access/state-02-primary.png",
+      "bytes": 5616,
+      "sha256": "2aa2856fc6cc95288b810afb92bc8511c5c4cb8c438704294f291bac2a6ddf2e"
+    },
+    {
+      "file": "access/state-02-secondary-crop.png",
+      "bytes": 1897,
+      "sha256": "2589412041bad77119ccefa7498d7bccace559a2695cfa94150685ac3cea6454"
+    },
+    {
+      "file": "access/state-02-secondary.png",
+      "bytes": 3976,
+      "sha256": "a66e6ca779c5ad54fdf433c9b4c135e2aadc6a31ea3093689a9935b0a9ca23de"
+    },
+    {
+      "file": "access/state-02.png",
+      "bytes": 14989,
+      "sha256": "b0fb376c20c518961d215c5135629f933e5f91b8255aeffe8b7ba9851083ded6"
+    },
+    {
+      "file": "access/state-03-primary-crop.png",
+      "bytes": 3301,
+      "sha256": "a28ee76323b872667ef4a5dafd65d73f0f2e0aa177472c8acd6e6ac0195f273b"
+    },
+    {
+      "file": "access/state-03-primary.png",
+      "bytes": 5286,
+      "sha256": "ab68703220420f453f5b28a4ead10c6580fb7d995d15498a495c0387a2bbc08f"
+    },
+    {
+      "file": "access/state-03-secondary-crop.png",
+      "bytes": 1910,
+      "sha256": "2c66abd29e538460a7628908a0bef9487f82d10ebd57c9caacc0718b4a73ec08"
+    },
+    {
+      "file": "access/state-03-secondary.png",
+      "bytes": 3998,
+      "sha256": "05e14e92fc760a7413ebf7807db8247e706718813c1ab0798d6183eeab6a8133"
+    },
+    {
+      "file": "access/state-03.png",
+      "bytes": 14610,
+      "sha256": "41470380af9e168c4716449b4f2416034f762e313919c38cc02c5f667b779f26"
+    },
+    {
+      "file": "forum/background.png",
+      "bytes": 138709,
+      "sha256": "f70e66f574e0bc99725075ab3416441ed8168fe798810d4bfb6ed32493b21430"
+    },
+    {
+      "file": "forum/fixed.png",
+      "bytes": 12453,
+      "sha256": "4dac8fcdf2dea397da1dffb3ad54643c8c2ef41daef606f522f2d8bfc209651a"
+    },
+    {
+      "file": "forum/qa-preview.png",
+      "bytes": 120805,
+      "sha256": "856163c5df95adc4741e6e9aca8b7e5a0349ac11f0e54efc8eeba5ad569986fe"
+    },
+    {
+      "file": "forum/reference-tianya-bbs-2009.png",
+      "bytes": 355000,
+      "sha256": "d822d9e59b808dcf0c17a3d2fd4b1ed2848f767aa143901419863f563f0fae80"
+    },
+    {
+      "file": "forum/reference-workflow-bbs-3.png",
+      "bytes": 12189,
+      "sha256": "d6cbf34e5438a3a4979b1ac3940cb2f0a160504a3648ab94240db38dd2954120"
+    },
+    {
+      "file": "forum/state-00-primary.png",
+      "bytes": 6220,
+      "sha256": "bccd38f1edc2e9109ebce20c6a7f3bebd8c8da5096fcfebaa2e7d5e9738875f9"
+    },
+    {
+      "file": "forum/state-00-secondary-crop.png",
+      "bytes": 2313,
+      "sha256": "188c8dfa68eaab98dd1feb80d6791661657dc51968c1c94ab013e5774f0e463f"
+    },
+    {
+      "file": "forum/state-00-secondary.png",
+      "bytes": 7941,
+      "sha256": "250a60e4b979484f14ee417b80375fe2fafc77b8aaf90722440a47cc86aecc50"
+    },
+    {
+      "file": "forum/state-00.png",
+      "bytes": 132749,
+      "sha256": "7a4e0444aaabd65bb709cfe7c6f8cd51fd5b325a498087e82f1a46813fa88c9a"
+    },
+    {
+      "file": "forum/state-01-primary-crop.png",
+      "bytes": 2308,
+      "sha256": "cd59ebdc1682fb5be374dd40257c8bbc30071217d6f3c6af8a5c2fab178bdb5f"
+    },
+    {
+      "file": "forum/state-01-primary.png",
+      "bytes": 7975,
+      "sha256": "42962689df8fd572e8df0a88c0653c6cd9dade0f8c9042f42e802af18dd085e6"
+    },
+    {
+      "file": "forum/state-01-secondary-crop.png",
+      "bytes": 2741,
+      "sha256": "e5d6a2c0706aa52de343fea14ae21106a9a4624b1e7ae33956ccdb190e9134d0"
+    },
+    {
+      "file": "forum/state-01-secondary.png",
+      "bytes": 8365,
+      "sha256": "90e56422f0cebed54488f8ddd8bdb80d4d0f003a2dd6b02d9500bcad79b0e7d9"
+    },
+    {
+      "file": "forum/state-01.png",
+      "bytes": 134690,
+      "sha256": "6930f52e78a664f7137b02e7990e73a47194426554fa77c5fddeb83f781a7b99"
+    },
+    {
+      "file": "forum/state-02-primary-crop.png",
+      "bytes": 4882,
+      "sha256": "d45fb8dd656f80a28197a54791761f0eac6a8399ec41b3314532a4b88840eed0"
+    },
+    {
+      "file": "forum/state-02-primary.png",
+      "bytes": 10298,
+      "sha256": "c4cdbbb01987207d5fe8c3c734da93c812e74dbb6e753306619fb83d5543fe3d"
+    },
+    {
+      "file": "forum/state-02-secondary-crop.png",
+      "bytes": 3058,
+      "sha256": "d918826a5694d877141b8452f25983fe0601975d4234525e47b2f47f01882c87"
+    },
+    {
+      "file": "forum/state-02-secondary.png",
+      "bytes": 8712,
+      "sha256": "a8927fbcc608fa0b5153ac26f8fb2516cb9e9f7debefbbeff227c62dd98b5bc5"
+    },
+    {
+      "file": "forum/state-02.png",
+      "bytes": 137294,
+      "sha256": "3f227c43b50971db30779eefd806baf27572dd5391baaf535b27f32190ce151c"
+    },
+    {
+      "file": "forum/state-03-primary-crop.png",
+      "bytes": 4882,
+      "sha256": "d45fb8dd656f80a28197a54791761f0eac6a8399ec41b3314532a4b88840eed0"
+    },
+    {
+      "file": "forum/state-03-primary.png",
+      "bytes": 10298,
+      "sha256": "c4cdbbb01987207d5fe8c3c734da93c812e74dbb6e753306619fb83d5543fe3d"
+    },
+    {
+      "file": "forum/state-03-secondary-crop.png",
+      "bytes": 3333,
+      "sha256": "cffe8ea7a17350fe98f2a075d4b9d2bde90b3103a4d819ef918fba9de27ea59c"
+    },
+    {
+      "file": "forum/state-03-secondary.png",
+      "bytes": 8979,
+      "sha256": "df971ade21bdd375013fa6232993eca27a79a70b107080265d46866261b44007"
+    },
+    {
+      "file": "forum/state-03.png",
+      "bytes": 137578,
+      "sha256": "364a27e09b34c5f7a3034263a9a6575ee7de1b94d45bfc442b93363586c90199"
+    },
+    {
+      "file": "manga/background.png",
+      "bytes": 10347,
+      "sha256": "03d5ad064c5ecf7de841a26f24584a73150c4b5d2a6eae415d4cc962d5b82acd"
+    },
+    {
+      "file": "manga/fixed.png",
+      "bytes": 3600,
+      "sha256": "876b9adb4f2e53fb3b49ea2bd85e3589fd29f18c61ef25c7a45e30873589382e"
+    },
+    {
+      "file": "manga/qa-preview.png",
+      "bytes": 42292,
+      "sha256": "8751741837e5dca56b875ea7fc05d294a4a4a2bae32de23545084d5887f86184"
+    },
+    {
+      "file": "manga/reference-workflow-manga-1.png",
+      "bytes": 12724,
+      "sha256": "c6850aa37e8785f0ed8c949e8eb4c4c928235adedfec7e7ee9ed9f41ad21d521"
+    },
+    {
+      "file": "manga/reference-workflow-manga-2.png",
+      "bytes": 12910,
+      "sha256": "0e72d703ee2865fe6c165c2c0a82646d7296835ef5bdd748c349351a82a0a26d"
+    },
+    {
+      "file": "manga/reference-workflow-manga-4.png",
+      "bytes": 12791,
+      "sha256": "d5569a2455741879ddb99a8bb67e205848216d87205c542a9a9f9e68f0659993"
+    },
+    {
+      "file": "manga/state-00-primary-crop.png",
+      "bytes": 335,
+      "sha256": "7cbf2f06aad680247814b088a04b62a3e9596952b40b0eb086e3e3864ce90aed"
+    },
+    {
+      "file": "manga/state-00-primary.png",
+      "bytes": 2061,
+      "sha256": "4456426b4b3fc3841ccf8fbf3b1448e011cad56f3252927be81ec925da5b6dec"
+    },
+    {
+      "file": "manga/state-00-secondary-crop.png",
+      "bytes": 2840,
+      "sha256": "8a768d1f4f08d4d1352d6e8236b6579dfb67fbbf6b361a7ff1f4c8d39479acc1"
+    },
+    {
+      "file": "manga/state-00-secondary.png",
+      "bytes": 3922,
+      "sha256": "4f563c84523898764da2978961aafd9c35c8adcaaf898483d306f81324d17acb"
+    },
+    {
+      "file": "manga/state-00.png",
+      "bytes": 12218,
+      "sha256": "8a84e8e1f76b41ed615188822f84174e8d1aacd3fde8446eb15f9edabfd30942"
+    },
+    {
+      "file": "manga/state-01-primary-crop.png",
+      "bytes": 335,
+      "sha256": "7cbf2f06aad680247814b088a04b62a3e9596952b40b0eb086e3e3864ce90aed"
+    },
+    {
+      "file": "manga/state-01-primary.png",
+      "bytes": 2061,
+      "sha256": "4456426b4b3fc3841ccf8fbf3b1448e011cad56f3252927be81ec925da5b6dec"
+    },
+    {
+      "file": "manga/state-01-secondary-crop.png",
+      "bytes": 4033,
+      "sha256": "38df9a96f352bbdb3c95ab6f3240ecc230a4caa7765eb223f308576717afa903"
+    },
+    {
+      "file": "manga/state-01-secondary.png",
+      "bytes": 4662,
+      "sha256": "cd7a60c90fff9c6da03ebb9d5977b0056fefeca87beb2d315bcb116be4e41735"
+    },
+    {
+      "file": "manga/state-01.png",
+      "bytes": 12933,
+      "sha256": "304d9711a9dacab5988465882e97aea0f74d5c52c2bce2ae374909f004aa246d"
+    },
+    {
+      "file": "manga/state-02-primary-crop.png",
+      "bytes": 335,
+      "sha256": "7cbf2f06aad680247814b088a04b62a3e9596952b40b0eb086e3e3864ce90aed"
+    },
+    {
+      "file": "manga/state-02-primary.png",
+      "bytes": 2061,
+      "sha256": "4456426b4b3fc3841ccf8fbf3b1448e011cad56f3252927be81ec925da5b6dec"
+    },
+    {
+      "file": "manga/state-02-secondary-crop.png",
+      "bytes": 4454,
+      "sha256": "a613637bf353f431eaacf21276d15c7dfb219540c12829c516acb1bf3c365065"
+    },
+    {
+      "file": "manga/state-02-secondary.png",
+      "bytes": 5080,
+      "sha256": "d14da9d3bb892dc2a66b9727cc742d3f2667ba8f359d53aad531d6ac53f2808b"
+    },
+    {
+      "file": "manga/state-02.png",
+      "bytes": 13276,
+      "sha256": "411ada0a76a1ce23ce1c6d97c8ac4e8fa01556c1bc105f1742210ca7cfa017c4"
+    },
+    {
+      "file": "manga/state-03-primary-crop.png",
+      "bytes": 429,
+      "sha256": "81015af8c9f1b0ab061e9f90168172182cfd0613ea9849805a72900843eb249b"
+    },
+    {
+      "file": "manga/state-03-primary.png",
+      "bytes": 2203,
+      "sha256": "d2922ca1c802d77fcd6769f2f5fe1913f140c870e6f6e0f238309c969d81582f"
+    },
+    {
+      "file": "manga/state-03-secondary-crop.png",
+      "bytes": 4389,
+      "sha256": "e7fac548cce280c159ba015a8541aff46ccec8e6348e894e90a2c5c6ee3d4465"
+    },
+    {
+      "file": "manga/state-03-secondary.png",
+      "bytes": 5014,
+      "sha256": "741479e3be1944e120d6eb4f552d4d2b6b123837c5ae13a54e0add891a30d797"
+    },
+    {
+      "file": "manga/state-03.png",
+      "bytes": 13367,
+      "sha256": "697e0909f63c9b0469eee82a118036a44c29413623fc5e0a662706ebd4b07313"
+    },
+    {
+      "file": "readme/background.png",
+      "bytes": 5775,
+      "sha256": "8acf523762ffb4bd3287ea3f3fd2c71cca510c66aa4d5d2326adda42a1498c04"
+    },
+    {
+      "file": "readme/fixed.png",
+      "bytes": 5459,
+      "sha256": "e7a4e4d5ccc811d78b3c52a6d2392832236d2ff6cd49006dbeaef41319011b87"
+    },
+    {
+      "file": "readme/qa-preview.png",
+      "bytes": 31935,
+      "sha256": "93713b2f633e1bf2be72859f0994af976c67bc367166a564114b981d2f16d14f"
+    },
+    {
+      "file": "readme/reference-readme.png",
+      "bytes": 12211,
+      "sha256": "9accb14684d17168ddd2584cf07f8130f3a867083378074e0a66e21e6911ae71"
+    },
+    {
+      "file": "readme/reference-win98-explorer-vm.png",
+      "bytes": 72751,
+      "sha256": "af7055ff5087e31acc359272df0f00f2b01b4876933f19acc8b62a46f4d34d10"
+    },
+    {
+      "file": "readme/state-00-primary-crop.png",
+      "bytes": 651,
+      "sha256": "2a9398f14cc1d0c28a42a9cd8e33bcb2bbd2a68f8c14840d6808fe057fa0e10d"
+    },
+    {
+      "file": "readme/state-00-primary.png",
+      "bytes": 3142,
+      "sha256": "6bab34f39ba1af712b34c44d0ae130a521ad82cc95bbf0ad68d67909a837e6a8"
+    },
+    {
+      "file": "readme/state-00-secondary-crop.png",
+      "bytes": 975,
+      "sha256": "27d234c4e4b45ca1158453e8c733abdadb8a85d6b9519f7d88b3ff9994860849"
+    },
+    {
+      "file": "readme/state-00-secondary.png",
+      "bytes": 3319,
+      "sha256": "24c60c0366b1051c831929797559f5541fde7ac8f766657a62002eb4cab00961"
+    },
+    {
+      "file": "readme/state-00.png",
+      "bytes": 9368,
+      "sha256": "0ef96d1068f472f51ece6a6bda08b6e61754c0486af7a1f523e8fc41bf9987a3"
+    },
+    {
+      "file": "readme/state-01-primary-crop.png",
+      "bytes": 2358,
+      "sha256": "4f74fe60c0fbd3d833e52c303c4133e92b25a4fd670ae7d1a1d814b1ba335101"
+    },
+    {
+      "file": "readme/state-01-primary.png",
+      "bytes": 4904,
+      "sha256": "a24d23973fb598711b2fd728a9bb56fe8da91123d4d9685fd7900d50633ad26e"
+    },
+    {
+      "file": "readme/state-01-secondary-crop.png",
+      "bytes": 1846,
+      "sha256": "f87e73a1fda83d254d3515f7eb13300e10ae61704bb8997f5cb288cd81e750bb"
+    },
+    {
+      "file": "readme/state-01-secondary.png",
+      "bytes": 4179,
+      "sha256": "e3cd151673a10747a31a089ebe25cb5497b80246f11e2a0e46a2899108cf9b94"
+    },
+    {
+      "file": "readme/state-01.png",
+      "bytes": 11874,
+      "sha256": "b60d1bb2085faef1a9ce224c69d6d0d7d843966d30dcb9574cc232b457f4ec45"
+    },
+    {
+      "file": "readme/state-02-primary-crop.png",
+      "bytes": 2706,
+      "sha256": "77ada85290046bb8c18f7b48530f39325847e13fb9a62763c89e1ce4d1b00241"
+    },
+    {
+      "file": "readme/state-02-primary.png",
+      "bytes": 4965,
+      "sha256": "482a8836eb0ca357117de0fae24c1d067fd6d544b2d6421cc423a8bc348fee7c"
+    },
+    {
+      "file": "readme/state-02-secondary-crop.png",
+      "bytes": 2650,
+      "sha256": "6c8d493054a37265074f0cd9289f2ba943820e49c6e74607ed3cd93c860d97c7"
+    },
+    {
+      "file": "readme/state-02-secondary.png",
+      "bytes": 5048,
+      "sha256": "60b19d413c4f564593852554fcda43bc9fa7408588f49a910c304268d1344dd2"
+    },
+    {
+      "file": "readme/state-02.png",
+      "bytes": 12736,
+      "sha256": "3738305c7164f8efc94aa6f5316d62dcc29e2727cc4b7ce164bf09074692527a"
+    },
+    {
+      "file": "readme/state-03-primary-crop.png",
+      "bytes": 2358,
+      "sha256": "4f74fe60c0fbd3d833e52c303c4133e92b25a4fd670ae7d1a1d814b1ba335101"
+    },
+    {
+      "file": "readme/state-03-primary.png",
+      "bytes": 4904,
+      "sha256": "a24d23973fb598711b2fd728a9bb56fe8da91123d4d9685fd7900d50633ad26e"
+    },
+    {
+      "file": "readme/state-03-secondary-crop.png",
+      "bytes": 3568,
+      "sha256": "980de919ed981ef247bf626209f7464e41cc0517f90ab6edafc908f4e62a4bbd"
+    },
+    {
+      "file": "readme/state-03-secondary.png",
+      "bytes": 6033,
+      "sha256": "09b978c0fecff80727bec475b20d8abebb57025008f78512d291766bbae65f92"
+    },
+    {
+      "file": "readme/state-03.png",
+      "bytes": 13666,
+      "sha256": "a9aea7e7da786198a371ae09b2019726474eede7c8c763ed427a96c4caabdfb8"
+    },
+    {
+      "file": "subtitles/background.png",
+      "bytes": 49182,
+      "sha256": "1e1315ddb9a2da608172219ce07223f78092fa25503785c715eb948b7de49800"
+    },
+    {
+      "file": "subtitles/fixed.png",
+      "bytes": 4457,
+      "sha256": "acc970f3661933ce12130f02d27c83d467423c1a87d8cbf49321389b492b8a6c"
+    },
+    {
+      "file": "subtitles/qa-preview.png",
+      "bytes": 70071,
+      "sha256": "fb48c2040ec22b54445837ad6d8c74001df868f4f00f6dc017cb1139ab4c9d8e"
+    },
+    {
+      "file": "subtitles/reference-aegisub-translation-assistant-doc.png",
+      "bytes": 27605,
+      "sha256": "43f099e4a8bd7b64dbb4b82f9bf2354219d6716ca3f6f6205c8285bf8dafa2ce"
+    },
+    {
+      "file": "subtitles/reference-workflow-subtitles-2.png",
+      "bytes": 13719,
+      "sha256": "317c772b9789c4fa92fd7b38a8b590e45c95312565ed86e1faaf9a52838dba52"
+    },
+    {
+      "file": "subtitles/state-00-primary-crop.png",
+      "bytes": 472,
+      "sha256": "269303c0ab9fe2e355043ba572df9b9622d9f600e4c016a7cddad73a2edb1c37"
+    },
+    {
+      "file": "subtitles/state-00-primary.png",
+      "bytes": 3265,
+      "sha256": "57e6ce12c82f352aa5828864a91b0cd60ffd7a8df4b4e1f8194cd2ae29c3263d"
+    },
+    {
+      "file": "subtitles/state-00-secondary-crop.png",
+      "bytes": 4767,
+      "sha256": "b719961e669d97a7fe70adf81a121b1b6e9c55d3634e6f9954ff26bf2ed89b55"
+    },
+    {
+      "file": "subtitles/state-00-secondary.png",
+      "bytes": 6155,
+      "sha256": "3262432c5a750d869284716f5120dd14bacb518b5c2e4ab14bf5c0496deca30a"
+    },
+    {
+      "file": "subtitles/state-00.png",
+      "bytes": 45851,
+      "sha256": "7b8e15ea786a06143a31dcadb61e391456d48aecbceef53ed66e50268e5f010f"
+    },
+    {
+      "file": "subtitles/state-01-primary-crop.png",
+      "bytes": 716,
+      "sha256": "016f4d3c87795c1c3a6b12fa6e03a02015d48a13084b188bf17054001bad9a70"
+    },
+    {
+      "file": "subtitles/state-01-primary.png",
+      "bytes": 3462,
+      "sha256": "3c011ec81f89648731c9d1ffd83e7b6290026967f1ad4f2b653f42c50cfd52cc"
+    },
+    {
+      "file": "subtitles/state-01-secondary-crop.png",
+      "bytes": 4918,
+      "sha256": "135420733060bf2982f24fd78ac4d8b24099cb80a55b64037bfd2c70f31d362e"
+    },
+    {
+      "file": "subtitles/state-01-secondary.png",
+      "bytes": 6307,
+      "sha256": "7ff36affd6c99e363955471acc7f30d35c5dcaed22d4d82caa5a473e66e9e7ef"
+    },
+    {
+      "file": "subtitles/state-01.png",
+      "bytes": 46030,
+      "sha256": "27029f744cb39327b7eda0c149a886a5801613e3876f8e0ee39d53a6112aecac"
+    },
+    {
+      "file": "subtitles/state-02-primary-crop.png",
+      "bytes": 561,
+      "sha256": "41abc6768925c48c44030790ee919ef2557a04494e47a2244a56226fe64e8db5"
+    },
+    {
+      "file": "subtitles/state-02-primary.png",
+      "bytes": 3367,
+      "sha256": "c6d18ef954aa999a41a5dda3346d1e9d87e55682c77a18d903fd55c0364ab20d"
+    },
+    {
+      "file": "subtitles/state-02-secondary-crop.png",
+      "bytes": 5063,
+      "sha256": "dfe8033e92e0a4856a07f132ddf5beb2b444893f77fe43b4b87ea38c4c906c3c"
+    },
+    {
+      "file": "subtitles/state-02-secondary.png",
+      "bytes": 6449,
+      "sha256": "d0a0fc2ba0f29217544ccc12034e5ab3ffc13c324e6c23a4136a22c547be15b7"
+    },
+    {
+      "file": "subtitles/state-02.png",
+      "bytes": 46105,
+      "sha256": "5b969fa82a30e78e0b703257ed53a0447b514d4d7f4f5b40b757ddbde0289d58"
+    },
+    {
+      "file": "subtitles/state-03-primary-crop.png",
+      "bytes": 561,
+      "sha256": "41abc6768925c48c44030790ee919ef2557a04494e47a2244a56226fe64e8db5"
+    },
+    {
+      "file": "subtitles/state-03-primary.png",
+      "bytes": 3367,
+      "sha256": "c6d18ef954aa999a41a5dda3346d1e9d87e55682c77a18d903fd55c0364ab20d"
+    },
+    {
+      "file": "subtitles/state-03-secondary-crop.png",
+      "bytes": 4980,
+      "sha256": "19778a70c8c9d12fdc7054b3e8106049366ba58423098f9594bd868ad7fd1ded"
+    },
+    {
+      "file": "subtitles/state-03-secondary.png",
+      "bytes": 6366,
+      "sha256": "47528a45cab6417d968e6f59ecf60f44bb4cd61556e91f7363e5507e880d702f"
+    },
+    {
+      "file": "subtitles/state-03.png",
+      "bytes": 46034,
+      "sha256": "b4723a21ab8216f61a3d06cf0fbfc31a6a983bb4452a8b924147326d5e108c45"
+    },
+    {
+      "file": "torrent/background.png",
+      "bytes": 58962,
+      "sha256": "bb7c0d2a717295f4dc6495468e51f5b6fd441c3a140fc8203257ab4d9615637c"
+    },
+    {
+      "file": "torrent/fixed.png",
+      "bytes": 7997,
+      "sha256": "1525d14245fd692f32df12110bf2f1f9df09b461197ed07e7d8cb8c141647923"
+    },
+    {
+      "file": "torrent/qa-preview.png",
+      "bytes": 101253,
+      "sha256": "9ba88349cb3b6580ffe002c5de16f5303b4b081360c749ba17cf9713e848411e"
+    },
+    {
+      "file": "torrent/reference-bitcomet-053-main.png",
+      "bytes": 90461,
+      "sha256": "94f240bbfc81ff97ea6e3ee9453a4cf042a356d960bfcf2e31dcd05f1f74428e"
+    },
+    {
+      "file": "torrent/reference-workflow-release-3.png",
+      "bytes": 12035,
+      "sha256": "7be98939718e8abde18a4097fc34e69d0a01fd951419ed901f922de77b1a8c4e"
+    },
+    {
+      "file": "torrent/reference-workflow-torrent-3.png",
+      "bytes": 10354,
+      "sha256": "c79138f24bfa861f5a0eca7a6de7147f852698220f19b063d44ef440b72fc271"
+    },
+    {
+      "file": "torrent/state-00-primary-crop.png",
+      "bytes": 2690,
+      "sha256": "6ea6b5ebdd0e34c5219c6c2f73168d889800472b6df4305f1c3adb8084e49d38"
+    },
+    {
+      "file": "torrent/state-00-primary.png",
+      "bytes": 5034,
+      "sha256": "1e1da2b1e8efb8b5beab001b94f30719ecc7719a5f95a3368146916d42844ac2"
+    },
+    {
+      "file": "torrent/state-00-secondary-crop.png",
+      "bytes": 1854,
+      "sha256": "8d4299823b37a8246b6e4bba3b240709430f3a8afa6db81e758395480af9e5b9"
+    },
+    {
+      "file": "torrent/state-00-secondary.png",
+      "bytes": 4212,
+      "sha256": "828b25c9278ba194084d3cbd809742bab568fc6fa85e9b6a2f4ef688243d3c6f"
+    },
+    {
+      "file": "torrent/state-00.png",
+      "bytes": 60142,
+      "sha256": "8100e6233a9c097b95fcf9ee2734641f856bde19481ce6f73d457a1bc50adebc"
+    },
+    {
+      "file": "torrent/state-01-primary-crop.png",
+      "bytes": 3038,
+      "sha256": "658be3340d1ebf69663d9733dd612f511d2054db206e309c612d9c3d261e1b27"
+    },
+    {
+      "file": "torrent/state-01-primary.png",
+      "bytes": 5381,
+      "sha256": "2f3ae8cd013677a59e3d092f2c701877058a9124b9e4c6d321d030caa379d73b"
+    },
+    {
+      "file": "torrent/state-01-secondary-crop.png",
+      "bytes": 2037,
+      "sha256": "f4915bff8defa9d00274bbb5ac8ec12aa3c67be37f0618d8e6b41b93d5df68d6"
+    },
+    {
+      "file": "torrent/state-01-secondary.png",
+      "bytes": 4399,
+      "sha256": "3c635c5e86ec05297eab473d6743e9d4a07f3dd2c35c9df0406ff6700b8018df"
+    },
+    {
+      "file": "torrent/state-01.png",
+      "bytes": 60739,
+      "sha256": "50e6f797d1360e4df27be8339bf5b95495d2a5cab22c3b4d10d3ad3a33f23260"
+    },
+    {
+      "file": "torrent/state-02-primary-crop.png",
+      "bytes": 2745,
+      "sha256": "9a249e633a62c7a942133cfe918e2e84548f8e398b0b1471a9922f79a40ac2c1"
+    },
+    {
+      "file": "torrent/state-02-primary.png",
+      "bytes": 5091,
+      "sha256": "f73e75cd8c19e70f31395b27c6ec6809cdd4c0659e2c1dd4ea8afe4036c596a8"
+    },
+    {
+      "file": "torrent/state-02-secondary-crop.png",
+      "bytes": 2147,
+      "sha256": "9e20a0c8e40b1a6da7f10e711b5ef75bb7f1106f3a73f6a584e0e3d12b6bbd03"
+    },
+    {
+      "file": "torrent/state-02-secondary.png",
+      "bytes": 4500,
+      "sha256": "d8f0f49845a67bcba1ff385a83c4452963e3eaedf7e3f8d5f710862881cba83d"
+    },
+    {
+      "file": "torrent/state-02.png",
+      "bytes": 60497,
+      "sha256": "07083b21abbdf1deb653fc02b4c31e8fd7236b85b6f34696e62af03ed66bc904"
+    },
+    {
+      "file": "torrent/state-03-primary-crop.png",
+      "bytes": 2902,
+      "sha256": "45be7b03201261499f6bbf6e3bb87a53193a4b5d4438afef3c91abd357d4c77e"
+    },
+    {
+      "file": "torrent/state-03-primary.png",
+      "bytes": 5246,
+      "sha256": "104ee662743e0a480ddf09e4ee342cb205f5479dcd6db4069795b1184fe76923"
+    },
+    {
+      "file": "torrent/state-03-secondary-crop.png",
+      "bytes": 2057,
+      "sha256": "69cff2d033a0c3a2b8681d7d3e62e78f2dfbd42727b8e8b7c8852d7c46d09755"
+    },
+    {
+      "file": "torrent/state-03-secondary.png",
+      "bytes": 4405,
+      "sha256": "dd9623e1b4cdd85a898816c60ffc84f1ed7a8fdcc752317181c5275d4ed8e9ba"
+    },
+    {
+      "file": "torrent/state-03.png",
+      "bytes": 60560,
+      "sha256": "1c67c72aa83413f8641d34a8d66e438adfe2784dccb522af0e9dc1d1e196522d"
+    }
+  ]
+}

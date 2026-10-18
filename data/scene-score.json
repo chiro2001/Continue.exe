@@ -1,0 +1,738 @@
+{
+  "version": 1,
+  "status": "panorama-direction-first-three-sections-implemented-for-review",
+  "checked_on": "2026-10-16",
+  "spec": "spec/25-panorama-scene-treatment.md",
+  "base_outline": "data/show-outline.json",
+  "scope": "23 个场面的全片设计；前 12 个场面（0—133.12 秒）已在独立 Episode123 场景实现与连续运行，其余仍为候选。",
+  "runtime_implemented": false,
+  "runtime_data_preserved": [
+    "data/timeline.json",
+    "data/lyrics.json",
+    "data/stage.json"
+  ],
+  "duration_seconds": 256,
+  "timing_basis": "FC14 100 个序列段，每段 2.56 秒；候选场面按行/序列时间初排，不将序列段称为已确认小节，最终收尾时长待试听。",
+  "material_catalogues": {
+    "culture": "data/culture-materials.json",
+    "vrchat": "data/vrchat-materials.json"
+  },
+  "evidence_policy": "materials 是候选引用，不将其状态升级；历史摘要、官方说法、作者自述、投诉与原创示意分别标明。原图/具体版本需另核，原创动作不冒充史实。",
+  "scenes": [
+    {
+      "id": "connect-carriers",
+      "section": "connect",
+      "start": 0,
+      "end": 10.24,
+      "title": "设备与年代",
+      "status": "implemented-for-episode123-review",
+      "focal_action": "局部屏幕光、开机与连接建立设备和人物尺度",
+      "visible_result": "观众认出具体设备和年代，开始注意画面中的操作",
+      "transition": "光标与窗口引向一份工具目录",
+      "materials": {
+        "culture": [
+          "desktop-win95",
+          "access-dialup"
+        ],
+        "vrchat": []
+      },
+      "space": "电脑、手机与浏览器边界明确，局部起音细节",
+      "implementation": {
+        "cue_index": 0,
+        "scene": "Assets/Scenes/OWM_Episode123.unity",
+        "review_time": 6.9632,
+        "kind": "original-demonstrations-and-labelled-era-reconstructions",
+        "runtime_check": "ClientSim-continuous-133.12s",
+        "revision2_scene": "Assets/Scenes/OWM_Episode123_v2.unity",
+        "revision2_record": "data/episode123-v2-production.json"
+      }
+    },
+    {
+      "id": "connect-tool",
+      "section": "connect",
+      "start": 10.24,
+      "end": 20.48,
+      "title": "工具也有作者",
+      "status": "implemented-for-episode123-review",
+      "focal_action": "展开目录与 README，一人改动，另一人使用后做出内容",
+      "visible_result": "工具的来处、制作和使用之间有可见关系",
+      "transition": "使用结果接到空间制作屏幕",
+      "materials": {
+        "culture": [
+          "software-green-sites",
+          "software-readme"
+        ],
+        "vrchat": []
+      },
+      "space": "屏幕内与近处桌面，人物保持身体尺度",
+      "implementation": {
+        "cue_index": 1,
+        "scene": "Assets/Scenes/OWM_Episode123.unity",
+        "review_time": 17.2032,
+        "kind": "original-demonstrations-and-labelled-era-reconstructions",
+        "runtime_check": "ClientSim-continuous-133.12s",
+        "revision2_scene": "Assets/Scenes/OWM_Episode123_v2.unity",
+        "revision2_record": "data/episode123-v2-production.json"
+      }
+    },
+    {
+      "id": "connect-worldmaking",
+      "section": "connect",
+      "start": 20.48,
+      "end": 30.72,
+      "title": "空间也是别人做的",
+      "status": "implemented-for-episode123-review",
+      "focal_action": "世界编辑、骨架与材质调整交接到早期 VRC 图像/局部重建",
+      "visible_result": "Avatar 与空间的制作过程可辨",
+      "transition": "编辑图层接到汉化与漫画层",
+      "materials": {
+        "culture": [],
+        "vrchat": [
+          "vrc-hub-2016",
+          "vrc-2017-hub",
+          "vrc-medium-sculpture-avatar"
+        ]
+      },
+      "space": "历史图像有年代和性质标识，现代演员负责演出",
+      "implementation": {
+        "cue_index": 2,
+        "scene": "Assets/Scenes/OWM_Episode123.unity",
+        "review_time": 27.4432,
+        "kind": "original-demonstrations-and-labelled-era-reconstructions",
+        "runtime_check": "ClientSim-continuous-133.12s",
+        "revision2_scene": "Assets/Scenes/OWM_Episode123_v2.unity",
+        "revision2_record": "data/episode123-v2-production.json"
+      }
+    },
+    {
+      "id": "create-manga",
+      "section": "create",
+      "start": 30.72,
+      "end": 40.96,
+      "title": "漫画分层与汉化",
+      "status": "implemented-for-episode123-review",
+      "focal_action": "原创示意页清字、嵌字与检查，各工作层合拢",
+      "visible_result": "原本难懂的内容变得可读，有人试读并回应",
+      "transition": "文字层展开成为字幕时间轴",
+      "materials": {
+        "culture": [
+          "translation-manga-workflow",
+          "translation-game-font-ui"
+        ],
+        "vrchat": []
+      },
+      "space": "面片内外两级深度，主动作在前方",
+      "implementation": {
+        "cue_index": 3,
+        "scene": "Assets/Scenes/OWM_Episode123.unity",
+        "review_time": 37.6832,
+        "kind": "original-demonstrations-and-labelled-era-reconstructions",
+        "runtime_check": "ClientSim-continuous-133.12s",
+        "revision2_scene": "Assets/Scenes/OWM_Episode123_v2.unity",
+        "revision2_record": "data/episode123-v2-production.json"
+      }
+    },
+    {
+      "id": "create-subtitle",
+      "section": "create",
+      "start": 40.96,
+      "end": 51.2,
+      "title": "字幕对拍",
+      "status": "implemented-for-episode123-review",
+      "focal_action": "对白、译文与时间轴从错位调整到对齐",
+      "visible_result": "字幕在原创演示动画中准确落位，贡献可辨",
+      "transition": "字幕块接到发布与分块",
+      "materials": {
+        "culture": [
+          "translation-anime-fansub",
+          "translation-subtitle-style-karaoke",
+          "translation-credits-readme"
+        ],
+        "vrchat": []
+      },
+      "space": "图层展开，整体房间外壳和可见地面边沿撤去",
+      "implementation": {
+        "cue_index": 4,
+        "scene": "Assets/Scenes/OWM_Episode123.unity",
+        "review_time": 47.9232,
+        "kind": "original-demonstrations-and-labelled-era-reconstructions",
+        "runtime_check": "ClientSim-continuous-133.12s",
+        "revision2_scene": "Assets/Scenes/OWM_Episode123_v2.unity",
+        "revision2_record": "data/episode123-v2-production.json"
+      }
+    },
+    {
+      "id": "create-distribute",
+      "section": "create",
+      "start": 51.2,
+      "end": 71.68,
+      "title": "发布与互相提供",
+      "status": "implemented-for-episode123-review",
+      "focal_action": "版本与名单随发布帖出现，不同来源分块补齐结果并继续传出",
+      "visible_result": "接收者也提供已有部分，多件内容获得传播",
+      "transition": "发布页经过观众并接入公共生活",
+      "materials": {
+        "culture": [
+          "sharing-bt-release-indexes",
+          "sharing-bt-pieces-upload",
+          "translation-release-filenames"
+        ],
+        "vrchat": []
+      },
+      "space": "建立长段无界，景物带观众连续穿行与短暂停靠",
+      "implementation": {
+        "cue_index": 5,
+        "scene": "Assets/Scenes/OWM_Episode123.unity",
+        "review_time": 65.1264,
+        "kind": "original-demonstrations-and-labelled-era-reconstructions",
+        "runtime_check": "ClientSim-continuous-133.12s",
+        "revision2_scene": "Assets/Scenes/OWM_Episode123_v2.unity",
+        "revision2_record": "data/episode123-v2-production.json"
+      }
+    },
+    {
+      "id": "create-public-life",
+      "section": "create",
+      "start": 71.68,
+      "end": 81.92,
+      "title": "公共生活",
+      "status": "implemented-for-episode123-review",
+      "focal_action": "长帖回帖、相册和转发链依次接过主构图",
+      "visible_result": "不同人记录、发言、回应与形成共同记忆",
+      "transition": "页面里的活动接到共同在场的空间",
+      "materials": {
+        "culture": [
+          "cn-tianya-long-threads",
+          "cn-renren-xiaonei",
+          "cn-sina-weibo-early"
+        ],
+        "vrchat": []
+      },
+      "space": "一处主动作，侧远处有更多内容；年代分别标记",
+      "implementation": {
+        "cue_index": 6,
+        "scene": "Assets/Scenes/OWM_Episode123.unity",
+        "review_time": 78.6432,
+        "kind": "original-demonstrations-and-labelled-era-reconstructions",
+        "runtime_check": "ClientSim-continuous-133.12s",
+        "revision2_scene": "Assets/Scenes/OWM_Episode123_v2.unity",
+        "revision2_record": "data/episode123-v2-production.json"
+      }
+    },
+    {
+      "id": "create-bodies-worlds",
+      "section": "create",
+      "start": 81.92,
+      "end": 92.16,
+      "title": "共同在场",
+      "status": "implemented-for-episode123-review",
+      "focal_action": "旧 Hub 展示与入口接到身体表达、搭建和试用",
+      "visible_result": "人物和内容在周围展开，形成快乐释放",
+      "transition": "展开后收回一处轻松的生活场面",
+      "materials": {
+        "culture": [],
+        "vrchat": [
+          "vrc-hub-2016",
+          "vrc-2017-hub",
+          "vrc-avatar-pedestals"
+        ]
+      },
+      "space": "第一短高潮候选，选一至两条音乐声部展开后收回",
+      "implementation": {
+        "cue_index": 7,
+        "scene": "Assets/Scenes/OWM_Episode123.unity",
+        "review_time": 88.8832,
+        "kind": "original-demonstrations-and-labelled-era-reconstructions",
+        "runtime_check": "ClientSim-continuous-133.12s",
+        "revision2_scene": "Assets/Scenes/OWM_Episode123_v2.unity",
+        "revision2_record": "data/episode123-v2-production.json"
+      }
+    },
+    {
+      "id": "create-humour-help",
+      "section": "create",
+      "start": 92.16,
+      "end": 102.4,
+      "title": "梗、出错与互助",
+      "status": "implemented-for-episode123-review",
+      "focal_action": "原创人物摆姿势或追踪玩笑，桌面报错/求助与动作教学穿插",
+      "visible_result": "幽默有完整反应，困难也能得到具体帮助",
+      "transition": "熟悉的顺手操作在下一段多出条件",
+      "materials": {
+        "culture": [
+          "security-panda"
+        ],
+        "vrchat": [
+          "vrc-helping-hands-2019"
+        ]
+      },
+      "space": "共同空间里局部动作清楚；真实社区材料与原创闹剧身份分开",
+      "implementation": {
+        "cue_index": 8,
+        "scene": "Assets/Scenes/OWM_Episode123.unity",
+        "review_time": 99.1232,
+        "kind": "original-demonstrations-and-labelled-era-reconstructions",
+        "runtime_check": "ClientSim-continuous-133.12s",
+        "revision2_scene": "Assets/Scenes/OWM_Episode123_v2.unity",
+        "revision2_record": "data/episode123-v2-production.json"
+      }
+    },
+    {
+      "id": "constrain-access",
+      "section": "constrain",
+      "start": 102.4,
+      "end": 112.64,
+      "title": "入口多出条件",
+      "status": "implemented-for-episode123-review",
+      "focal_action": "同一打开动作增加登录、版本、兼容或访问步骤",
+      "visible_result": "观众看到具体能力与选择的变化",
+      "transition": "从桌面选择接到 VRC 对应的能力变化",
+      "materials": {
+        "culture": [
+          "enclosure-3q",
+          "enclosure-subscription"
+        ],
+        "vrchat": []
+      },
+      "space": "局部入口放大，外部仍无界；不启动强分轨",
+      "implementation": {
+        "cue_index": 9,
+        "scene": "Assets/Scenes/OWM_Episode123.unity",
+        "review_time": 109.3632,
+        "kind": "original-demonstrations-and-labelled-era-reconstructions",
+        "runtime_check": "ClientSim-continuous-133.12s",
+        "revision2_scene": "Assets/Scenes/OWM_Episode123_v2.unity",
+        "revision2_record": "data/episode123-v2-production.json"
+      }
+    },
+    {
+      "id": "constrain-security",
+      "section": "constrain",
+      "start": 112.64,
+      "end": 122.88,
+      "title": "安全、便利与取舍",
+      "status": "implemented-for-episode123-review",
+      "focal_action": "EAC 相关公告和使用路径交接，呈现具体受影响能力和后续回应",
+      "visible_result": "安全目标与便利/无障碍需求各有语境",
+      "transition": "需要适应的改变接到持续维护",
+      "materials": {
+        "culture": [],
+        "vrchat": [
+          "vrc-eac-2022",
+          "vrc-eac-accessibility-response",
+          "vrc-mod-community-changes"
+        ]
+      },
+      "space": "局部路径改变，其他地方仍有制作和使用",
+      "implementation": {
+        "cue_index": 10,
+        "scene": "Assets/Scenes/OWM_Episode123.unity",
+        "review_time": 119.6032,
+        "kind": "original-demonstrations-and-labelled-era-reconstructions",
+        "runtime_check": "ClientSim-continuous-133.12s",
+        "revision2_scene": "Assets/Scenes/OWM_Episode123_v2.unity",
+        "revision2_record": "data/episode123-v2-production.json"
+      }
+    },
+    {
+      "id": "constrain-maintenance",
+      "section": "constrain",
+      "start": 122.88,
+      "end": 133.12,
+      "title": "有人维持它",
+      "status": "implemented-for-episode123-review",
+      "focal_action": "请求带出版本、依赖与维护事项，待办逐渐增多",
+      "visible_result": "动作从完成与递出变成检查、切换和暂缓",
+      "transition": "待办压力接到作品来源与副本的变化",
+      "materials": {
+        "culture": [
+          "software-readme",
+          "commons-report-flood"
+        ],
+        "vrchat": []
+      },
+      "space": "人物工位与局部入口，周围压力累积",
+      "implementation": {
+        "cue_index": 11,
+        "scene": "Assets/Scenes/OWM_Episode123.unity",
+        "review_time": 129.8432,
+        "kind": "original-demonstrations-and-labelled-era-reconstructions",
+        "runtime_check": "ClientSim-continuous-133.12s",
+        "revision2_scene": "Assets/Scenes/OWM_Episode123_v2.unity",
+        "revision2_record": "data/episode123-v2-production.json"
+      }
+    },
+    {
+      "id": "overload-provenance",
+      "section": "overload",
+      "start": 133.12,
+      "end": 143.36,
+      "title": "来源从副本中脱落",
+      "status": "authored-candidate-not-runtime",
+      "focal_action": "原创演示副本被不断拿走，名单与许可没有同行",
+      "visible_result": "制作过程还在，观众辨认原作与失去来处的副本",
+      "transition": "成品展示长成更大的重复阵列",
+      "materials": {
+        "culture": [
+          "translation-credits-readme"
+        ],
+        "vrchat": [
+          "vrc-ripping-official-2024"
+        ]
+      },
+      "space": "多件前段内容回认，人物稳定"
+    },
+    {
+      "id": "overload-peak",
+      "section": "overload",
+      "start": 143.36,
+      "end": 153.6,
+      "title": "短暂压力峰值",
+      "status": "authored-candidate-not-runtime",
+      "focal_action": "宣传缩略图、重复结果与请求放大靠近，遮住不同作品",
+      "visible_result": "拥挤来自重复、尺度与遮挡，具体来源难找",
+      "transition": "强变化减弱，自动节奏继续",
+      "materials": {
+        "culture": [],
+        "vrchat": [
+          "vrc-ai-thumbnail-2026",
+          "vrc-ai-discoverability-2026"
+        ]
+      },
+      "space": "第二短高潮候选；约两秒视野替代为独立可选研究，默认关闭"
+    },
+    {
+      "id": "overload-automation",
+      "section": "overload",
+      "start": 153.6,
+      "end": 168.96,
+      "title": "机械运转",
+      "status": "authored-candidate-not-runtime",
+      "focal_action": "某人解决一项问题，周围请求/发布队列仍重复滚动",
+      "visible_result": "内容继续增加，有效回应没有同比增加",
+      "transition": "局部构图回来后显出运行条件缺失",
+      "materials": {
+        "culture": [
+          "commons-report-flood"
+        ],
+        "vrchat": [
+          "vrc-ai-discoverability-2026"
+        ]
+      },
+      "space": "强分轨收回前方，降低整体运动强度"
+    },
+    {
+      "id": "overload-capability-loss",
+      "section": "overload",
+      "start": 168.96,
+      "end": 186.88,
+      "title": "逐项失去可用条件",
+      "status": "authored-candidate-not-runtime",
+      "focal_action": "播放器、外链图片与入口逐项停止响应，近景逐步撤去",
+      "visible_result": "内容痕迹仍在，访问/运行/理解路径分别断裂",
+      "transition": "最后一个保存物接到远处单灯",
+      "materials": {
+        "culture": [
+          "event-flash-eol",
+          "event-flash-block",
+          "loss-broken-images",
+          "cn-tianya-access-2023",
+          "cn-tianya-restoration-report-2026"
+        ],
+        "vrchat": []
+      },
+      "space": "一处一处呈现，避免同时堆事实牌；后续恢复不抹去"
+    },
+    {
+      "id": "distance-preserved-object",
+      "section": "distance",
+      "start": 186.88,
+      "end": 197.12,
+      "title": "远处的保存点",
+      "status": "authored-candidate-not-runtime",
+      "focal_action": "近景和辅助环境退下，只照亮先前见过的一份作品/资料",
+      "visible_result": "观众认得留下的东西，同时感到距离和使用路径缺失",
+      "transition": "资料与一个近处尝试建立接续",
+      "materials": {
+        "culture": [
+          "software-readme"
+        ],
+        "vrchat": []
+      },
+      "space": "无界留白；原曲持续声部作为前方整体退远；首版共享可成立"
+    },
+    {
+      "id": "renewal-start",
+      "section": "continue",
+      "start": 197.12,
+      "end": 207.36,
+      "title": "更多人能够开始",
+      "status": "authored-candidate-not-runtime",
+      "focal_action": "保存资料与 AI 帮助后来者制作并验证小范围原型，其他工位也开始尝试",
+      "visible_result": "一项原先无从下手的操作有可检查结果",
+      "transition": "原型与一个具体问题被分享",
+      "materials": {
+        "culture": [
+          "preserve-ai-repair",
+          "software-readme"
+        ],
+        "vrchat": [
+          "vrc-ai-creator-tools"
+        ]
+      },
+      "space": "近处一项主动作；侧远处保留其他尚未完成的工作"
+    },
+    {
+      "id": "renewal-find-peers",
+      "section": "continue",
+      "start": 207.36,
+      "end": 217.6,
+      "title": "具体问题找到同伴",
+      "status": "authored-candidate-not-runtime",
+      "focal_action": "原型、跨语言说明与传播带来同伴，短示范后修改与验证",
+      "visible_result": "帮助产生可见变化，新增贡献有名字",
+      "transition": "已有回应的远处工位准备靠近",
+      "materials": {
+        "culture": [
+          "preserve-translation-reseed"
+        ],
+        "vrchat": [
+          "vrc-helping-hands-2019"
+        ]
+      },
+      "space": "共同试用，约 215.04 秒开始空间重构准备"
+    },
+    {
+      "id": "renewal-fold-distance",
+      "section": "continue",
+      "start": 217.6,
+      "end": 230.4,
+      "title": "合作改变距离",
+      "status": "authored-candidate-not-runtime",
+      "focal_action": "远处工位经小窗口和内外接续变成近处共同演示位置",
+      "visible_result": "观众辨认内外/远近关系改变，双方可以共同操作",
+      "transition": "稳定下来揭示几处已经在制作的新结果",
+      "materials": {
+        "culture": [],
+        "vrchat": []
+      },
+      "space": "自然头部观察与原生双眼；小屏保留刚才外部的可辨认画面"
+    },
+    {
+      "id": "renewal-new-creation",
+      "section": "continue",
+      "start": 230.4,
+      "end": 235.52,
+      "title": "多类新作品显出结果",
+      "status": "authored-candidate-not-runtime",
+      "focal_action": "正在制作的新工具、转译内容和原创空间依次交出结果",
+      "visible_result": "新能力产生多种作品与更多创作者",
+      "transition": "结果交接给下一位参与者",
+      "materials": {
+        "culture": [
+          "translation-game-localization",
+          "preserve-ai-repair"
+        ],
+        "vrchat": [
+          "vrc-udon-live-alpha-2020",
+          "vrc-ai-creator-tools",
+          "vrc-ai-target-sprint-2026"
+        ]
+      },
+      "space": "结果揭示而非瞬间生成；同时保持原作者和新增贡献"
+    },
+    {
+      "id": "renewal-contribute-again",
+      "section": "continue",
+      "start": 235.52,
+      "end": 245.76,
+      "title": "接收者开始帮助别人",
+      "status": "authored-candidate-not-runtime",
+      "focal_action": "先前收资料的人为另一人演示，随后对方发布自己的版本",
+      "visible_result": "帮助促成再次创作，多处工作继续",
+      "transition": "航行减弱，接入仍在工作的片尾",
+      "materials": {
+        "culture": [
+          "translation-credits-readme"
+        ],
+        "vrchat": []
+      },
+      "space": "对应声部交接，仅在前方小范围移交，不新增明显分轨高潮"
+    },
+    {
+      "id": "trace-ongoing-work",
+      "section": "trace",
+      "start": 245.76,
+      "end": 256,
+      "title": "一起做下去",
+      "status": "authored-candidate-not-runtime",
+      "focal_action": "有人交成果，有人接手或提出新用法，旁边另一处制作仍继续",
+      "visible_result": "继续落在可见动作与新参与者上",
+      "transition": "乐句收束与演后停留待试听；不自动无意循环",
+      "materials": {
+        "culture": [
+          "translation-credits-readme",
+          "sharing-bt-pieces-upload"
+        ],
+        "vrchat": []
+      },
+      "space": "局部人尺度、外围无界，片尾那就一起做下去"
+    }
+  ],
+  "recurring_families": [
+    {
+      "id": "tool-docs",
+      "title": "工具、目录与说明",
+      "scene_ids": [
+        "connect-tool",
+        "constrain-maintenance",
+        "distance-preserved-object",
+        "renewal-start",
+        "trace-ongoing-work"
+      ]
+    },
+    {
+      "id": "translation-content",
+      "title": "漫画、字幕与转译",
+      "scene_ids": [
+        "create-manga",
+        "create-subtitle",
+        "create-distribute",
+        "overload-provenance",
+        "renewal-new-creation"
+      ]
+    },
+    {
+      "id": "public-life",
+      "title": "社区页面与公共生活",
+      "scene_ids": [
+        "create-public-life",
+        "constrain-access",
+        "overload-automation",
+        "overload-capability-loss",
+        "renewal-find-peers"
+      ]
+    },
+    {
+      "id": "avatar-worlds",
+      "title": "Avatar 与世界",
+      "scene_ids": [
+        "connect-worldmaking",
+        "create-bodies-worlds",
+        "create-humour-help",
+        "constrain-security",
+        "renewal-new-creation",
+        "trace-ongoing-work"
+      ]
+    }
+  ],
+  "renewal_lanes": [
+    {
+      "id": "tools",
+      "visible_result": "可检查的新工具或小程序原型",
+      "candidate": "平面图层变成可修改的空间预览",
+      "note": "范围明确，含修改与验证；不将原型等同完整制作系统"
+    },
+    {
+      "id": "translation",
+      "visible_result": "新的翻译、字幕或排版内容",
+      "note": "有人的选择、校对与修订，不以自动输出作为全部贡献"
+    },
+    {
+      "id": "spaces",
+      "visible_result": "原创插画与简单模型组成的新场景或 VRC 互动",
+      "note": "源内容与制作过程此前已有动作，后段揭示结果，不暗示一个提示词生成全部成品"
+    }
+  ],
+  "audience_proposal": {
+    "status": "authored-candidate",
+    "role": "共同在场观看，身体观察和同伴在场感参与表达，少量可选反馈",
+    "progression": "统一音乐时钟推进，演员保证关键操作，无需完成任务；独自和多人观看都应完整",
+    "during_show": "自然转头、探身、小范围活动；景物运动形成穿行，观演范围与全组通道待原型",
+    "interaction": "可选触碰/靠近有即时反馈，多个观众不争抢唯一推进按钮；具体输入未定",
+    "solitude": "首版共享无界留白；个人显隐/语音隔离及声音先于视觉恢复为另验候选",
+    "aftershow": "有限近看与资料区、交流及少量修改/摆放/绘画，是否保留当前实例结果待原型",
+    "capacity": null,
+    "target_platform": null
+  },
+  "music_constraints": {
+    "normal": "四音乐声部前方轻微分层、整体融合；环境与动作声随物件",
+    "climax_candidates": [
+      {
+        "id": "climax-create",
+        "status": "authored-window-pending-audition-and-review",
+        "section": "create",
+        "start": 81.92,
+        "end": 92.16,
+        "purpose": "共同创造的释放；空间与内容展开",
+        "expanded_voice_count_candidate": [
+          1,
+          2
+        ],
+        "routing": "根据当段听感选通道，保留前方参照；展开、短留、收回"
+      },
+      {
+        "id": "climax-overload",
+        "status": "authored-window-pending-audition-and-review",
+        "section": "overload",
+        "start": 143.36,
+        "end": 153.6,
+        "purpose": "过载与压迫；尺度、重复和密度达到峰值",
+        "expanded_voice_count_candidate": [
+          1,
+          2
+        ],
+        "routing": "根据当段听感选通道，保留前方参照；展开、短留、收回"
+      }
+    ],
+    "renewal": "空间关系重构不自动新增第三次明显分轨；235.52 秒只在前方小范围交接",
+    "lowpoint": "186.88 秒通道1实际撤去，其他声部仍在，不强行仅保留一轨",
+    "ending": "句尾收束、尾声或专门循环方案待试听"
+  },
+  "space_constraints": {
+    "world_motion": "人物、支撑和接触物独立，移动/旋转/统一缩放景物，主音乐参照分开",
+    "core_unbounded_candidate": {
+      "start": 51.2,
+      "end": 133.12
+    },
+    "unbounded_continuation": "过载、骤空、再兴与片尾保持外围无界，局部载体和工位可有自己的轮廓",
+    "topology_candidate": {
+      "start": 215.04,
+      "end": 235.52,
+      "action": "内外接续与远近重构"
+    },
+    "head_view_substitution": {
+      "enabled_by_this_proposal": false,
+      "status": "独立短段研究，不作为首版剧情前提"
+    }
+  },
+  "prototype_priorities": [
+    "漫画/字幕展开与撤界",
+    "繁荣内容转为过载的关系变化",
+    "骤空远处单灯",
+    "再兴多处制作与远近重构"
+  ],
+  "related_specs": [
+    "spec/15-integrated-show-outline.md",
+    "spec/14-fc14-music-visual-score.md",
+    "spec/17-art-production-plan.md",
+    "spec/18-visual-style-direction.md",
+    "spec/19-spatial-scene-plan.md",
+    "spec/20-world-motion-performance.md",
+    "spec/22-new-assets-review.md"
+  ],
+  "runtime_implementation": {
+    "scope": "first-three-sections-only",
+    "implemented_scene_count": 12,
+    "start": 0,
+    "end": 133.12,
+    "unity_scene": "Assets/Scenes/OWM_Episode123_v2.unity",
+    "spec": "spec/26-episode123-production.md",
+    "production_record": "data/episode123-production.json",
+    "legacy_data_preserved": true,
+    "current_revision": 2,
+    "previous_unity_scene": "Assets/Scenes/OWM_Episode123.unity",
+    "revision_spec": "spec/27-episode123-review-and-revision.md",
+    "montage_data": "data/episode123-v2-montage.json"
+  }
+}

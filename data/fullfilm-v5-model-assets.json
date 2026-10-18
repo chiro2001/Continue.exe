@@ -1,0 +1,2998 @@
+{
+  "schema": 1,
+  "units": "metres",
+  "blender": "4.2.0",
+  "axes": {
+    "blender": "X right, Z up, +Y front",
+    "fbx_unity": "Unity axis conversion owned by ModelImporter; do not add a second manual rotation/scale"
+  },
+  "assets": [
+    {
+      "id": "fullfilm_v5_branch_canopy",
+      "root": "BranchCanopy_Refined",
+      "integration_target": "Existing final-world BranchCanopy pivot",
+      "replacement_scope": "Only child geometry under the target BranchCanopy pivot; preserve outer world model, planter sibling, seating, floor, collisions, QvPen and screen anchors.",
+      "pivot_blender_m": [
+        0,
+        0,
+        0
+      ],
+      "target_parent_pivot_blender_m": [
+        0.95,
+        -0.35,
+        0
+      ],
+      "bounds_blender_m": [
+        [
+          -1.801776,
+          1.801776
+        ],
+        [
+          -1.870592,
+          1.870593
+        ],
+        [
+          0.288341,
+          3.06
+        ]
+      ],
+      "mesh_count": 75,
+      "triangles": 16128,
+      "vertices": 8418,
+      "material_count": 9,
+      "materials": [
+        "M_FFV5_BranchTimber",
+        "M_FFV5_CanopyBinding",
+        "M_FFV5_CanopyLightSage",
+        "M_FFV5_CanopySage",
+        "M_FFV5_CanopyUnderside",
+        "M_FFV5_CanopyUndersideLight",
+        "M_FFV5_EndGrain",
+        "M_FFV5_JoineryBronze",
+        "M_FFV5_TrunkTimber"
+      ],
+      "objects": [
+        {
+          "name": "BranchCanopy_Refined",
+          "parent": null,
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Radial crown frame and joinery",
+          "parent": "BranchCanopy_Refined",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Crown cross batten 0 00",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.583577,
+            0.350785,
+            0.024001
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 40,
+          "triangles": 76,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Crown cross batten 0 01",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.583577,
+            0.350785,
+            0.024001
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 40,
+          "triangles": 76,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Crown cross batten 0 02",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.024,
+            0.66,
+            0.024001
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 40,
+          "triangles": 76,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Crown cross batten 0 03",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.583577,
+            0.350785,
+            0.024001
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 40,
+          "triangles": 76,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Crown cross batten 0 04",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.583577,
+            0.350785,
+            0.024001
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 40,
+          "triangles": 76,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Crown cross batten 0 05",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.024,
+            0.66,
+            0.024001
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 40,
+          "triangles": 76,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Crown cross batten 1 00",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.03391,
+            0.610785,
+            0.024
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 40,
+          "triangles": 76,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Crown cross batten 1 01",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.03391,
+            0.610785,
+            0.024
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 40,
+          "triangles": 76,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Crown cross batten 1 02",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.024,
+            1.18,
+            0.024
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 40,
+          "triangles": 76,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Crown cross batten 1 03",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.03391,
+            0.610785,
+            0.024
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 40,
+          "triangles": 76,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Crown cross batten 1 04",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.03391,
+            0.610785,
+            0.024
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 40,
+          "triangles": 76,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Crown cross batten 1 05",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.024,
+            1.18,
+            0.024
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 40,
+          "triangles": 76,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Crown hub rivet 00",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.095,
+            0.015,
+            3.002
+          ],
+          "dimensions_m": [
+            0.036,
+            0.036,
+            0.036
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 62,
+          "triangles": 120,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_FFV5_EndGrain"
+          ]
+        },
+        {
+          "name": "Crown hub rivet 01",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.035,
+            0.118923,
+            3.002
+          ],
+          "dimensions_m": [
+            0.036,
+            0.036,
+            0.036
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 62,
+          "triangles": 120,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_FFV5_EndGrain"
+          ]
+        },
+        {
+          "name": "Crown hub rivet 02",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.085,
+            0.118923,
+            3.002
+          ],
+          "dimensions_m": [
+            0.036,
+            0.036,
+            0.036
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 62,
+          "triangles": 120,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_FFV5_EndGrain"
+          ]
+        },
+        {
+          "name": "Crown hub rivet 03",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.145,
+            0.015,
+            3.002
+          ],
+          "dimensions_m": [
+            0.036,
+            0.036,
+            0.036
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 62,
+          "triangles": 120,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_FFV5_EndGrain"
+          ]
+        },
+        {
+          "name": "Crown hub rivet 04",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.085,
+            -0.088923,
+            3.002
+          ],
+          "dimensions_m": [
+            0.036,
+            0.036,
+            0.036
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 62,
+          "triangles": 120,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_FFV5_EndGrain"
+          ]
+        },
+        {
+          "name": "Crown hub rivet 05",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.035,
+            -0.088923,
+            3.002
+          ],
+          "dimensions_m": [
+            0.036,
+            0.036,
+            0.036
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 62,
+          "triangles": 120,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_FFV5_EndGrain"
+          ]
+        },
+        {
+          "name": "Eave rail 00",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.561525,
+            0.924641,
+            0.04
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 40,
+          "triangles": 76,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Eave rail 01",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.561525,
+            0.924641,
+            0.04
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 40,
+          "triangles": 76,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Eave rail 02",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.04,
+            1.78,
+            0.04
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 40,
+          "triangles": 76,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Eave rail 03",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.561525,
+            0.924641,
+            0.04
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 40,
+          "triangles": 76,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Eave rail 04",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.561525,
+            0.924641,
+            0.04
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 40,
+          "triangles": 76,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Eave rail 05",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.04,
+            1.78,
+            0.04
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 40,
+          "triangles": 76,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Radial roof rib 00",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.651536,
+            0.976388,
+            0.174329
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 50,
+          "triangles": 96,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_EndGrain"
+          ]
+        },
+        {
+          "name": "Radial roof rib 01",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.071999,
+            1.869718,
+            0.174328
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 50,
+          "triangles": 96,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_EndGrain"
+          ]
+        },
+        {
+          "name": "Radial roof rib 02",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.639214,
+            0.976285,
+            0.174327
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 50,
+          "triangles": 96,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_EndGrain"
+          ]
+        },
+        {
+          "name": "Radial roof rib 03",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.6394,
+            0.983677,
+            0.174328
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 50,
+          "triangles": 96,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_EndGrain"
+          ]
+        },
+        {
+          "name": "Radial roof rib 04",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.071999,
+            1.877199,
+            0.174329
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 50,
+          "triangles": 96,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_EndGrain"
+          ]
+        },
+        {
+          "name": "Radial roof rib 05",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.651721,
+            0.983781,
+            0.17433
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 50,
+          "triangles": 96,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_EndGrain"
+          ]
+        },
+        {
+          "name": "Rib saddle clamp 00",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.060944,
+            0.090282,
+            0.101274
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 160,
+          "triangles": 320,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_JoineryBronze"
+          ]
+        },
+        {
+          "name": "Rib saddle clamp 01",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.102,
+            0.029628,
+            0.101274
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 160,
+          "triangles": 320,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_JoineryBronze"
+          ]
+        },
+        {
+          "name": "Rib saddle clamp 02",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.060944,
+            0.090282,
+            0.101274
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 160,
+          "triangles": 320,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_JoineryBronze"
+          ]
+        },
+        {
+          "name": "Rib saddle clamp 03",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.060944,
+            0.090282,
+            0.101274
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 160,
+          "triangles": 320,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_JoineryBronze"
+          ]
+        },
+        {
+          "name": "Rib saddle clamp 04",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.102,
+            0.029628,
+            0.101274
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 160,
+          "triangles": 320,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_JoineryBronze"
+          ]
+        },
+        {
+          "name": "Rib saddle clamp 05",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.060944,
+            0.090282,
+            0.101274
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 160,
+          "triangles": 320,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_JoineryBronze"
+          ]
+        },
+        {
+          "name": "Timber crown hub",
+          "parent": "Radial crown frame and joinery",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            -0.025,
+            0.015,
+            2.89
+          ],
+          "dimensions_m": [
+            0.34,
+            0.34,
+            0.34
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 266,
+          "triangles": 528,
+          "uv_layers": [
+            "UVMap"
+          ],
+          "materials": [
+            "M_FFV5_JoineryBronze"
+          ]
+        },
+        {
+          "name": "Six tapered branch arms",
+          "parent": "BranchCanopy_Refined",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Bronze branch-tip shoe 00_L",
+          "parent": "Six tapered branch arms",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.05979,
+            0.111293,
+            0.102668
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 160,
+          "triangles": 320,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_JoineryBronze"
+          ]
+        },
+        {
+          "name": "Bronze branch-tip shoe 00_R",
+          "parent": "Six tapered branch arms",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.103327,
+            0.07137,
+            0.102668
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 160,
+          "triangles": 320,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_JoineryBronze"
+          ]
+        },
+        {
+          "name": "Bronze branch-tip shoe 01_L",
+          "parent": "Six tapered branch arms",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.097421,
+            0.083294,
+            0.102668
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 160,
+          "triangles": 320,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_JoineryBronze"
+          ]
+        },
+        {
+          "name": "Bronze branch-tip shoe 01_R",
+          "parent": "Six tapered branch arms",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.097421,
+            0.083294,
+            0.102668
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 160,
+          "triangles": 320,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_JoineryBronze"
+          ]
+        },
+        {
+          "name": "Bronze branch-tip shoe 02_L",
+          "parent": "Six tapered branch arms",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.103327,
+            0.07137,
+            0.102668
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 160,
+          "triangles": 320,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_JoineryBronze"
+          ]
+        },
+        {
+          "name": "Bronze branch-tip shoe 02_R",
+          "parent": "Six tapered branch arms",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.05979,
+            0.111293,
+            0.102668
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 160,
+          "triangles": 320,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_JoineryBronze"
+          ]
+        },
+        {
+          "name": "Forked crown branch 00_L",
+          "parent": "Six tapered branch arms",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.02343,
+            0.219799,
+            0.531684
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 110,
+          "triangles": 216,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Forked crown branch 00_R",
+          "parent": "Six tapered branch arms",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.491749,
+            0.958852,
+            0.531684
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 110,
+          "triangles": 216,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Forked crown branch 01_L",
+          "parent": "Six tapered branch arms",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.672161,
+            0.863321,
+            0.531684
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 110,
+          "triangles": 216,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Forked crown branch 01_R",
+          "parent": "Six tapered branch arms",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.672161,
+            0.863321,
+            0.531684
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 110,
+          "triangles": 216,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Forked crown branch 02_L",
+          "parent": "Six tapered branch arms",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.491749,
+            0.958852,
+            0.531684
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 110,
+          "triangles": 216,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Forked crown branch 02_R",
+          "parent": "Six tapered branch arms",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.02343,
+            0.219799,
+            0.531684
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 110,
+          "triangles": 216,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Six-segment cloth crown",
+          "parent": "BranchCanopy_Refined",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Sewn crown canvas panel 00",
+          "parent": "Six-segment cloth crown",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.72,
+            1.558846,
+            0.373
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 242,
+          "triangles": 400,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_CanopySage",
+            "M_FFV5_CanopyLightSage",
+            "M_FFV5_CanopyUnderside",
+            "M_FFV5_CanopyUndersideLight"
+          ]
+        },
+        {
+          "name": "Sewn crown canvas panel 01",
+          "parent": "Six-segment cloth crown",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.8,
+            1.731436,
+            0.373
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 242,
+          "triangles": 400,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_CanopySage",
+            "M_FFV5_CanopyLightSage",
+            "M_FFV5_CanopyUnderside",
+            "M_FFV5_CanopyUndersideLight"
+          ]
+        },
+        {
+          "name": "Sewn crown canvas panel 02",
+          "parent": "Six-segment cloth crown",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.72,
+            1.558846,
+            0.373
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 242,
+          "triangles": 400,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_CanopySage",
+            "M_FFV5_CanopyLightSage",
+            "M_FFV5_CanopyUnderside",
+            "M_FFV5_CanopyUndersideLight"
+          ]
+        },
+        {
+          "name": "Sewn crown canvas panel 03",
+          "parent": "Six-segment cloth crown",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.72,
+            1.558846,
+            0.373
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 242,
+          "triangles": 400,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_CanopySage",
+            "M_FFV5_CanopyLightSage",
+            "M_FFV5_CanopyUnderside",
+            "M_FFV5_CanopyUndersideLight"
+          ]
+        },
+        {
+          "name": "Sewn crown canvas panel 04",
+          "parent": "Six-segment cloth crown",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.8,
+            1.731436,
+            0.373
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 242,
+          "triangles": 400,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_CanopySage",
+            "M_FFV5_CanopyLightSage",
+            "M_FFV5_CanopyUnderside",
+            "M_FFV5_CanopyUndersideLight"
+          ]
+        },
+        {
+          "name": "Sewn crown canvas panel 05",
+          "parent": "Six-segment cloth crown",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.72,
+            1.558846,
+            0.373
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 242,
+          "triangles": 400,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_CanopySage",
+            "M_FFV5_CanopyLightSage",
+            "M_FFV5_CanopyUnderside",
+            "M_FFV5_CanopyUndersideLight"
+          ]
+        },
+        {
+          "name": "Sewn radial canopy binding 00",
+          "parent": "Six-segment cloth crown",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.633233,
+            0.018,
+            0.370246
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 66,
+          "triangles": 128,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_CanopyBinding"
+          ]
+        },
+        {
+          "name": "Sewn radial canopy binding 01",
+          "parent": "Six-segment cloth crown",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.830588,
+            1.420622,
+            0.370246
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 66,
+          "triangles": 128,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_CanopyBinding"
+          ]
+        },
+        {
+          "name": "Sewn radial canopy binding 02",
+          "parent": "Six-segment cloth crown",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.830588,
+            1.420622,
+            0.370246
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 66,
+          "triangles": 128,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_CanopyBinding"
+          ]
+        },
+        {
+          "name": "Sewn radial canopy binding 03",
+          "parent": "Six-segment cloth crown",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            1.633233,
+            0.018,
+            0.370246
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 66,
+          "triangles": 128,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_CanopyBinding"
+          ]
+        },
+        {
+          "name": "Sewn radial canopy binding 04",
+          "parent": "Six-segment cloth crown",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.830588,
+            1.420622,
+            0.370246
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 66,
+          "triangles": 128,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_CanopyBinding"
+          ]
+        },
+        {
+          "name": "Sewn radial canopy binding 05",
+          "parent": "Six-segment cloth crown",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.830588,
+            1.420622,
+            0.370246
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 66,
+          "triangles": 128,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_CanopyBinding"
+          ]
+        },
+        {
+          "name": "Three primary Y supports",
+          "parent": "BranchCanopy_Refined",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Bronze primary joint ferrule 00",
+          "parent": "Three primary Y supports",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.182425,
+            0.164726,
+            0.162992
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 192,
+          "triangles": 384,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_JoineryBronze"
+          ]
+        },
+        {
+          "name": "Bronze primary joint ferrule 01",
+          "parent": "Three primary Y supports",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.149405,
+            0.201921,
+            0.157132
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 192,
+          "triangles": 384,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_JoineryBronze"
+          ]
+        },
+        {
+          "name": "Bronze primary joint ferrule 02",
+          "parent": "Three primary Y supports",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.182632,
+            0.161801,
+            0.16503
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 192,
+          "triangles": 384,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_JoineryBronze"
+          ]
+        },
+        {
+          "name": "Primary branch 00",
+          "parent": "Three primary Y supports",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.621122,
+            0.793771,
+            0.807956
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 132,
+          "triangles": 260,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Primary branch 01",
+          "parent": "Three primary Y supports",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.817988,
+            0.223994,
+            0.806497
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 132,
+          "triangles": 260,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Primary branch 02",
+          "parent": "Three primary Y supports",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.622335,
+            0.831632,
+            0.808542
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 132,
+          "triangles": 260,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Timber trunk and buttress roots",
+          "parent": "BranchCanopy_Refined",
+          "type": "EMPTY",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Buttress root 00",
+          "parent": "Timber trunk and buttress roots",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.307843,
+            0.236629,
+            0.285074
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 80,
+          "triangles": 156,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Buttress root 01",
+          "parent": "Timber trunk and buttress roots",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.199163,
+            0.233934,
+            0.275974
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 80,
+          "triangles": 156,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Buttress root 02",
+          "parent": "Timber trunk and buttress roots",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.198701,
+            0.268979,
+            0.2799
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 80,
+          "triangles": 156,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Buttress root 03",
+          "parent": "Timber trunk and buttress roots",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.310157,
+            0.274381,
+            0.286888
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 80,
+          "triangles": 156,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_BranchTimber"
+          ]
+        },
+        {
+          "name": "Trunk tapered main mast",
+          "parent": "Timber trunk and buttress roots",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.309987,
+            0.309995,
+            2.494741
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 272,
+          "triangles": 540,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_TrunkTimber"
+          ]
+        },
+        {
+          "name": "Trunk turned collar 0.41",
+          "parent": "Timber trunk and buttress roots",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.362,
+            0.362,
+            0.042
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 256,
+          "triangles": 512,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_EndGrain"
+          ]
+        },
+        {
+          "name": "Trunk turned collar 0.54",
+          "parent": "Timber trunk and buttress roots",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.314,
+            0.314,
+            0.024
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 256,
+          "triangles": 512,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_EndGrain"
+          ]
+        },
+        {
+          "name": "Trunk turned collar 1.45",
+          "parent": "Timber trunk and buttress roots",
+          "type": "MESH",
+          "pivot_local_blender_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions_m": [
+            0.254,
+            0.254,
+            0.024
+          ],
+          "rotation_euler_deg": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "vertices": 256,
+          "triangles": 512,
+          "uv_layers": [
+            "SurfaceUV"
+          ],
+          "materials": [
+            "M_FFV5_EndGrain"
+          ]
+        }
+      ],
+      "material_zones": [
+        {
+          "material": "M_FFV5_TrunkTimber",
+          "zone": "one tapered structural trunk"
+        },
+        {
+          "material": "M_FFV5_BranchTimber",
+          "zone": "three primary branches and six fork arms"
+        },
+        {
+          "material": "M_FFV5_EndGrain",
+          "zone": "radial rafters and trunk end bands"
+        },
+        {
+          "material": "M_FFV5_CanopySage / M_FFV5_CanopyLightSage",
+          "zone": "alternating upper faces of six cloth crown panels"
+        },
+        {
+          "material": "M_FFV5_CanopyUnderside / M_FFV5_CanopyUndersideLight",
+          "zone": "contrasting underside lining, visible from low avatar eye height"
+        },
+        {
+          "material": "M_FFV5_CanopyBinding",
+          "zone": "six stitched panel seams"
+        },
+        {
+          "material": "M_FFV5_JoineryBronze",
+          "zone": "visible fork ferrules, rib saddles and crown hub"
+        }
+      ],
+      "readability_contract": "The trunk rises from the existing planter; three load-bearing Y forks split into six tapered radial arms. Six ribs and cross battens support a six-panel sewn crown. Taper, fork collars, eave rails and distinct fabric/wood/metal zones identify a timber shade structure.",
+      "files": [
+        "art/models/fullfilm-v5/fullfilm_v5_branch_canopy.blend",
+        "art/models/fullfilm-v5/fullfilm_v5_branch_canopy.fbx",
+        "art/models/fullfilm-v5/fullfilm_v5_branch_canopy.glb"
+      ],
+      "export_reimport_validation": [
+        {
+          "format": "fbx",
+          "mesh_count": 75,
+          "triangles": 16128,
+          "all_meshes_have_uv": true,
+          "material_names": [
+            "M_FFV5_BranchTimber",
+            "M_FFV5_CanopyBinding",
+            "M_FFV5_CanopyLightSage",
+            "M_FFV5_CanopySage",
+            "M_FFV5_CanopyUnderside",
+            "M_FFV5_CanopyUndersideLight",
+            "M_FFV5_EndGrain",
+            "M_FFV5_JoineryBronze",
+            "M_FFV5_TrunkTimber"
+          ],
+          "cameras": 0,
+          "lights": 0,
+          "passed": true
+        },
+        {
+          "format": "glb",
+          "mesh_count": 75,
+          "triangles": 16128,
+          "all_meshes_have_uv": true,
+          "material_names": [
+            "M_FFV5_BranchTimber",
+            "M_FFV5_CanopyBinding",
+            "M_FFV5_CanopyLightSage",
+            "M_FFV5_CanopySage",
+            "M_FFV5_CanopyUnderside",
+            "M_FFV5_CanopyUndersideLight",
+            "M_FFV5_EndGrain",
+            "M_FFV5_JoineryBronze",
+            "M_FFV5_TrunkTimber"
+          ],
+          "cameras": 0,
+          "lights": 0,
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "source_recovery": {
+    "id": "room01_embedded_material_recovery",
+    "scope": "Only V5-owned materials and extracted packed FBX images are created; no Room01 asset is modified.",
+    "source_mesh": {
+      "source_fbx": "Assets/Room01/Scene/model/Room01.fbx",
+      "object": "Living_Shelf",
+      "vertices": 180,
+      "triangles": 356,
+      "material_slot": 0,
+      "material_name": "shelf",
+      "uv_layers": [
+        "UVマップ",
+        "UVマップ.001"
+      ],
+      "active_uv_layer": "UVマップ",
+      "active_uv_range": [
+        [
+          -2.303858,
+          1.989196
+        ],
+        [
+          -1.003602,
+          1.996399
+        ]
+      ],
+      "texture_wrap": "Repeat; source UVs intentionally span negative and >1 values",
+      "material_textures": [
+        {
+          "source_image": "Wood017_2K-JPG_Color.jpg",
+          "output": "art/export/fullfilm-v5/model-textures/archive-shelf-wood017-albedo.jpg",
+          "embedded_in_source_fbx": true,
+          "width": 2048,
+          "height": 2048,
+          "source_format": "JPEG",
+          "source_color_space": "sRGB",
+          "sha256": "67b620e11874140c2b3f742e2f79ef7222736b012784022e6767952b78be4f00"
+        },
+        {
+          "source_image": "Wood017_2K-JPG_NormalGL.jpg",
+          "output": "art/export/fullfilm-v5/model-textures/archive-shelf-wood017-normal-gl.jpg",
+          "embedded_in_source_fbx": true,
+          "width": 2048,
+          "height": 2048,
+          "source_format": "JPEG",
+          "source_color_space": "Non-Color",
+          "sha256": "2b9784ca2e89ad04c23bf8b70af31bffc35d7e21217e850f26038495e89c9b32"
+        },
+        {
+          "source_image": "Wood017_2K-JPG_Roughness.jpg",
+          "output": "art/export/fullfilm-v5/model-textures/archive-shelf-wood017-roughness.jpg",
+          "embedded_in_source_fbx": true,
+          "width": 2048,
+          "height": 2048,
+          "source_format": "JPEG",
+          "source_color_space": "Non-Color",
+          "sha256": "cdbbd5d9ba24ea62a2f7a7dac728f5ad1c55ac2f972c98198a19d110fefe49da"
+        },
+        {
+          "source_image": "derived: 1 - Wood017_2K-JPG_Roughness.jpg; RGB=0 metallic, alpha=smoothness",
+          "output": "art/export/fullfilm-v5/model-textures/archive-shelf-wood017-metallic-smoothness.png",
+          "embedded_in_source_fbx": false,
+          "width": 2048,
+          "height": 2048,
+          "source_format": "PNG RGBA",
+          "source_color_space": "Non-Color",
+          "sha256": "b45d3f7e4d4ba06f1224d1d50c156db15bc26c608c4abcd5708fc70124b2abe3"
+        }
+      ]
+    },
+    "texture_policy": "Extract the original packed images from the user-owned Room01 FBX. Unity shelf slot 0 must use albedo with Repeat wrap; normal map is OpenGL convention; the roughness map is preserved and converted to Unity Standard metallic-smoothness alpha.",
+    "books_mesh": {
+      "source_fbx": "Assets/Room01/Scene/model/Room01.fbx",
+      "object": "Books",
+      "vertices": 408,
+      "triangles": 804,
+      "source_slots": [
+        {
+          "source_slot": 0,
+          "name": "paper.001",
+          "images": []
+        },
+        {
+          "source_slot": 1,
+          "name": "book.008",
+          "images": [
+            "4.png"
+          ]
+        },
+        {
+          "source_slot": 2,
+          "name": "book.009",
+          "images": [
+            "1.png"
+          ]
+        }
+      ],
+      "source_uv_layers": [
+        "UVマップ",
+        "UVマップ.001"
+      ],
+      "active_uv_layer": "UVマップ",
+      "active_uv_range": [
+        [
+          -0.000312,
+          1.000312
+        ],
+        [
+          -0.001667,
+          1.000556
+        ]
+      ],
+      "unity_recovery": {
+        "slot_0": "paper material unchanged; source has no texture",
+        "slot_1": "V5-owned BookCover04 material, original embedded 4.png / Unity book4.png",
+        "slot_2": "V5-owned BookCover05 material, original embedded 1.png / Unity book5.png"
+      },
+      "material_textures": [
+        {
+          "source_image": "4.png",
+          "unity_original_texture": "book4.png",
+          "output": "art/export/fullfilm-v5/model-textures/archive-books-book4.png",
+          "embedded_in_source_fbx": true,
+          "width": 1600,
+          "height": 900,
+          "source_format": "PNG",
+          "source_color_space": "sRGB",
+          "sha256": "2c06c345fded6c5998678cd6bbaf4dce9267070efe968c89c9c267f01381f34a"
+        },
+        {
+          "source_image": "1.png",
+          "unity_original_texture": "book5.png",
+          "output": "art/export/fullfilm-v5/model-textures/archive-books-book5.png",
+          "embedded_in_source_fbx": true,
+          "width": 1600,
+          "height": 900,
+          "source_format": "PNG",
+          "source_color_space": "sRGB",
+          "sha256": "0201d3b36b157b364e8e6f006c67fffdd96a409bb2db2eca86576e3ff6acb9d5"
+        }
+      ]
+    },
+    "wood_furniture": {
+      "source_fbx": "Assets/Room01/Scene/model/Room01.fbx",
+      "source_slots": [
+        {
+          "mesh": "Desk_Lamp",
+          "blender_slot_name": "wood.004",
+          "blender_slot_index": 0,
+          "unity_affected_slot": 1
+        },
+        {
+          "mesh": "Wooden_Table",
+          "blender_slot_name": "wood.001",
+          "blender_slot_index": 0,
+          "unity_affected_slot": 0
+        },
+        {
+          "mesh": "LowTable_wood",
+          "blender_slot_name": "wood.004",
+          "blender_slot_index": 0,
+          "unity_affected_slot": 0
+        },
+        {
+          "mesh": "Sofa",
+          "blender_slot_name": "wood.001",
+          "blender_slot_index": 0,
+          "unity_affected_slot": 1
+        }
+      ],
+      "materials": {
+        "wood.001": {
+          "source_material": "wood.001",
+          "base_color": [
+            0.8010555505752563,
+            0.2969183325767517,
+            0.05132599174976349,
+            1.0
+          ],
+          "base_color_is_texture_linked": true,
+          "metallic": 0.0,
+          "roughness_socket_default": 0.5,
+          "roughness_is_texture_linked": true,
+          "specular_ior_level": 0.5,
+          "normal_map": {
+            "space": "TANGENT",
+            "uv_map": "",
+            "strength": 1.0
+          },
+          "images": [
+            {
+              "source_image": "Wood021_1K-JPG_Color.jpg",
+              "purpose": "BaseColor",
+              "output": "art/export/fullfilm-v5/model-textures/room01-wood021-color.jpg",
+              "embedded_in_source_fbx": true,
+              "width": 1024,
+              "height": 1024,
+              "source_format": "JPEG",
+              "source_color_space": "sRGB",
+              "sha256": "a931fab0059ab047ba6e9d8d634bf8e614351d9651feb19c7e23641ca14e28eb"
+            },
+            {
+              "source_image": "Wood021_1K-JPG_NormalGL.jpg",
+              "purpose": "TangentNormal",
+              "output": "art/export/fullfilm-v5/model-textures/room01-wood021-normal-gl.jpg",
+              "embedded_in_source_fbx": true,
+              "width": 1024,
+              "height": 1024,
+              "source_format": "JPEG",
+              "source_color_space": "Non-Color",
+              "sha256": "2a4f9195fdcaeaa4e224614759bb93308f1968e732b5ef2f73b7a1a388746f33"
+            },
+            {
+              "source_image": "Wood021_1K-JPG_Roughness.jpg",
+              "purpose": "Roughness",
+              "output": "art/export/fullfilm-v5/model-textures/room01-wood021-roughness.jpg",
+              "embedded_in_source_fbx": true,
+              "width": 1024,
+              "height": 1024,
+              "source_format": "JPEG",
+              "source_color_space": "Non-Color",
+              "sha256": "cd30e3f32f4542df8d32c607653fa33714cabef9629611e900abf578a5a30208"
+            },
+            {
+              "source_image": "derived: 1 - Wood021_1K-JPG_Roughness.jpg; RGB=0, alpha=smoothness",
+              "purpose": "MetallicSmoothnessAlpha",
+              "output": "art/export/fullfilm-v5/model-textures/room01-wood021-metallic-smoothness.png",
+              "embedded_in_source_fbx": false,
+              "width": 1024,
+              "height": 1024,
+              "source_format": "PNG RGBA",
+              "source_color_space": "Non-Color",
+              "sha256": "078e9ecaee148cfcc16c6ec2a711a9ea915e77da8750ca4b0c51685b65ae0a49"
+            }
+          ],
+          "unity_material": "Room01_Wood021_V5: Standard metallic setup, tint white because Wood021 Color drives BaseColor; metallic 0, smoothness from source roughness alpha"
+        },
+        "wood.004": {
+          "source_material": "wood.004",
+          "base_color": [
+            0.8004578351974487,
+            0.30146050453186035,
+            0.07232236862182617,
+            1.0
+          ],
+          "base_color_is_texture_linked": false,
+          "metallic": 0.0,
+          "roughness_socket_default": 0.5,
+          "roughness_is_texture_linked": true,
+          "specular_ior_level": 0.0,
+          "normal_map": {
+            "space": "TANGENT",
+            "uv_map": "",
+            "strength": 1.0
+          },
+          "images": [
+            {
+              "source_image": "Wood032_2K-JPG_NormalGL.jpg",
+              "purpose": "TangentNormal",
+              "output": "art/export/fullfilm-v5/model-textures/room01-wood032-normal-gl.jpg",
+              "embedded_in_source_fbx": true,
+              "width": 2048,
+              "height": 2048,
+              "source_format": "JPEG",
+              "source_color_space": "Non-Color",
+              "sha256": "2de7bc51ebc952496fd750d9bde4dfa9d8166e63f09910cf4e6e4621f5a7e873"
+            },
+            {
+              "source_image": "Wood032_2K-JPG_Roughness.jpg",
+              "purpose": "Roughness",
+              "output": "art/export/fullfilm-v5/model-textures/room01-wood032-roughness.jpg",
+              "embedded_in_source_fbx": true,
+              "width": 2048,
+              "height": 2048,
+              "source_format": "JPEG",
+              "source_color_space": "Non-Color",
+              "sha256": "416925e44b6d10c3b213659e006eda2d69511fc19bce978e09fe44469f645a3b"
+            },
+            {
+              "source_image": "derived: 1 - Wood032_2K-JPG_Roughness.jpg; RGB=0, alpha=smoothness",
+              "purpose": "SpecularSmoothnessAlpha",
+              "output": "art/export/fullfilm-v5/model-textures/room01-wood032-specular-smoothness.png",
+              "embedded_in_source_fbx": false,
+              "width": 2048,
+              "height": 2048,
+              "source_format": "PNG RGBA",
+              "source_color_space": "Non-Color",
+              "sha256": "a4beb4dccdc60a85be8b431ba9983a22be0df180783d6c3276ed728b0727a67e"
+            }
+          ],
+          "unity_material": "Room01_Wood032_V5: Standard specular setup with exact FBX base color, black specular color, metallic 0, smoothness from source roughness alpha"
+        }
+      },
+      "source_meshes": [
+        {
+          "mesh": "Desk_Lamp",
+          "vertices": 1928,
+          "triangles": 3658,
+          "uv_layers": [
+            {
+              "name": "UVマップ",
+              "range": [
+                [
+                  -0.506862,
+                  1.520584
+                ],
+                [
+                  -0.880704,
+                  2.642107
+                ]
+              ]
+            },
+            {
+              "name": "UVマップ.001",
+              "range": [
+                [
+                  1e-05,
+                  0.99999
+                ],
+                [
+                  1e-05,
+                  0.99999
+                ]
+              ]
+            }
+          ],
+          "blender_material_slots": [
+            "wood.004",
+            "white.001",
+            "lamp.002"
+          ]
+        },
+        {
+          "mesh": "Wooden_Table",
+          "vertices": 376,
+          "triangles": 608,
+          "uv_layers": [
+            {
+              "name": "UVマップ",
+              "range": [
+                [
+                  0.017325,
+                  0.982675
+                ],
+                [
+                  0.000291,
+                  1.000291
+                ]
+              ]
+            },
+            {
+              "name": "UVマップ.001",
+              "range": [
+                [
+                  1e-05,
+                  0.99999
+                ],
+                [
+                  1e-05,
+                  0.99999
+                ]
+              ]
+            }
+          ],
+          "blender_material_slots": [
+            "wood.001"
+          ]
+        },
+        {
+          "mesh": "LowTable_wood",
+          "vertices": 320,
+          "triangles": 620,
+          "uv_layers": [
+            {
+              "name": "UVマップ",
+              "range": [
+                [
+                  -0.281896,
+                  2.372532
+                ],
+                [
+                  -1.821346,
+                  1.278654
+                ]
+              ]
+            },
+            {
+              "name": "UVマップ.001",
+              "range": [
+                [
+                  1e-05,
+                  0.99999
+                ],
+                [
+                  1e-05,
+                  0.99999
+                ]
+              ]
+            }
+          ],
+          "blender_material_slots": [
+            "wood.004"
+          ]
+        },
+        {
+          "mesh": "Sofa",
+          "vertices": 3644,
+          "triangles": 7224,
+          "uv_layers": [
+            {
+              "name": "UVマップ",
+              "range": [
+                [
+                  -1.421721,
+                  1.850257
+                ],
+                [
+                  -0.973575,
+                  2.535173
+                ]
+              ]
+            },
+            {
+              "name": "UVマップ.001",
+              "range": [
+                [
+                  -0.029406,
+                  1.030763
+                ],
+                [
+                  -0.031402,
+                  1.0
+                ]
+              ]
+            }
+          ],
+          "blender_material_slots": [
+            "wood.001",
+            "sofa"
+          ]
+        }
+      ],
+      "affected_unity_bindings": [
+        {
+          "mesh": "Desk_Lamp",
+          "unity_slot": 1,
+          "source_material": "wood.004",
+          "instances_in_current_report": 10
+        },
+        {
+          "mesh": "Wooden_Table",
+          "unity_slot": 0,
+          "source_material": "wood.001",
+          "instances_in_current_report": 8
+        },
+        {
+          "mesh": "LowTable_wood",
+          "unity_slot": 0,
+          "source_material": "wood.004",
+          "instances_in_current_report": 1
+        },
+        {
+          "mesh": "Sofa",
+          "unity_slot": 1,
+          "source_material": "wood.001",
+          "instances_in_current_report": 1
+        }
+      ],
+      "collision_evidence": {
+        "report": "~/tmp/vrc-old-web-map/fullfilm-v5/reports/room01-materials.json",
+        "current_renderers_total": 47,
+        "book4_material_renderer_slots": "The 20 furniture slots above all resolve to Inherited-ab7a9631e24269a46b38253421ef9828 with mainTexture Assets/Room01/texture/book4.png."
+      },
+      "preserve_policy": "In V5, replace only the four listed mesh/slot pairs confirmed by the 47-Renderer report. Leave all other slots and healthy external materials untouched."
+    },
+    "unity_binding": "OWFilmV5ModelBuild.IntegrateRecovery creates V5-owned source-derived materials; it binds only shelf/Books slots previously contaminated and the four explicitly listed furniture mesh slots. Other external slots are preserved.",
+    "files": [
+      "art/export/fullfilm-v5/model-textures/archive-shelf-wood017-albedo.jpg",
+      "art/export/fullfilm-v5/model-textures/archive-shelf-wood017-normal-gl.jpg",
+      "art/export/fullfilm-v5/model-textures/archive-shelf-wood017-roughness.jpg",
+      "art/export/fullfilm-v5/model-textures/archive-shelf-wood017-metallic-smoothness.png",
+      "art/export/fullfilm-v5/model-textures/archive-books-book4.png",
+      "art/export/fullfilm-v5/model-textures/archive-books-book5.png",
+      "art/export/fullfilm-v5/model-textures/room01-wood021-color.jpg",
+      "art/export/fullfilm-v5/model-textures/room01-wood021-normal-gl.jpg",
+      "art/export/fullfilm-v5/model-textures/room01-wood021-roughness.jpg",
+      "art/export/fullfilm-v5/model-textures/room01-wood021-metallic-smoothness.png",
+      "art/export/fullfilm-v5/model-textures/room01-wood032-normal-gl.jpg",
+      "art/export/fullfilm-v5/model-textures/room01-wood032-roughness.jpg",
+      "art/export/fullfilm-v5/model-textures/room01-wood032-specular-smoothness.png"
+    ],
+    "detailed_manifest": "data/fullfilm-v5-room01-material-recovery.json"
+  },
+  "files": {
+    "fullfilm_v5_branch_canopy.blend": {
+      "path": "art/models/fullfilm-v5/fullfilm_v5_branch_canopy.blend",
+      "sha256": "f6f4c77aaccbb595c0f50f0897365299b649c16b29152e2341d115699cfe8040",
+      "bytes": 1822996
+    },
+    "fullfilm_v5_branch_canopy.fbx": {
+      "path": "art/models/fullfilm-v5/fullfilm_v5_branch_canopy.fbx",
+      "sha256": "6e62efdb55928288c8e4e31b2aca875dfc2bb599ca5a82d358cc5526e5cd327b",
+      "bytes": 546156
+    },
+    "fullfilm_v5_branch_canopy.glb": {
+      "path": "art/models/fullfilm-v5/fullfilm_v5_branch_canopy.glb",
+      "sha256": "78e37d9a0a758508780c773eb76a6d852b736bc3b7d9d5c92d5e14b87925e07e",
+      "bytes": 1155276
+    },
+    "fullfilm_v5_branch_canopy_preview.png": {
+      "path": "art/models/fullfilm-v5/fullfilm_v5_branch_canopy_preview.png",
+      "sha256": "884387e9878f7512ff0346710072b84a002ee18495512ed79df84dde47c822bc",
+      "bytes": 1915867
+    },
+    "fullfilm_v5_branch_canopy_detail.png": {
+      "path": "art/models/fullfilm-v5/fullfilm_v5_branch_canopy_detail.png",
+      "sha256": "1d8a6b79071064ebc3d2a2c05be5eeba575f22e29bd4199b0aa87b6b234ad6fa",
+      "bytes": 2011013
+    },
+    "fullfilm_v5_branch_canopy_objects.json": {
+      "path": "art/models/fullfilm-v5/fullfilm_v5_branch_canopy_objects.json",
+      "sha256": "eea91b50313026f33ffee05a3c738130f355c32885d86175b75f53364762d7e4",
+      "bytes": 44025
+    },
+    "export-reimport-validation.json": {
+      "path": "art/models/fullfilm-v5/export-reimport-validation.json",
+      "sha256": "10b3cf88e607463b2f2de934a665db8b7f18b462866df00b8e092f6a25914fed",
+      "bytes": 1184
+    },
+    "archive-shelf-wood017-albedo.jpg": {
+      "path": "art/export/fullfilm-v5/model-textures/archive-shelf-wood017-albedo.jpg",
+      "sha256": "67b620e11874140c2b3f742e2f79ef7222736b012784022e6767952b78be4f00",
+      "bytes": 2437436
+    },
+    "archive-shelf-wood017-normal-gl.jpg": {
+      "path": "art/export/fullfilm-v5/model-textures/archive-shelf-wood017-normal-gl.jpg",
+      "sha256": "2b9784ca2e89ad04c23bf8b70af31bffc35d7e21217e850f26038495e89c9b32",
+      "bytes": 4298089
+    },
+    "archive-shelf-wood017-roughness.jpg": {
+      "path": "art/export/fullfilm-v5/model-textures/archive-shelf-wood017-roughness.jpg",
+      "sha256": "cdbbd5d9ba24ea62a2f7a7dac728f5ad1c55ac2f972c98198a19d110fefe49da",
+      "bytes": 1942513
+    },
+    "archive-shelf-wood017-metallic-smoothness.png": {
+      "path": "art/export/fullfilm-v5/model-textures/archive-shelf-wood017-metallic-smoothness.png",
+      "sha256": "b45d3f7e4d4ba06f1224d1d50c156db15bc26c608c4abcd5708fc70124b2abe3",
+      "bytes": 3443882
+    },
+    "archive-books-book4.png": {
+      "path": "art/export/fullfilm-v5/model-textures/archive-books-book4.png",
+      "sha256": "2c06c345fded6c5998678cd6bbaf4dce9267070efe968c89c9c267f01381f34a",
+      "bytes": 794100
+    },
+    "archive-books-book5.png": {
+      "path": "art/export/fullfilm-v5/model-textures/archive-books-book5.png",
+      "sha256": "0201d3b36b157b364e8e6f006c67fffdd96a409bb2db2eca86576e3ff6acb9d5",
+      "bytes": 1277468
+    },
+    "room01-wood021-color.jpg": {
+      "path": "art/export/fullfilm-v5/model-textures/room01-wood021-color.jpg",
+      "sha256": "a931fab0059ab047ba6e9d8d634bf8e614351d9651feb19c7e23641ca14e28eb",
+      "bytes": 933168
+    },
+    "room01-wood021-normal-gl.jpg": {
+      "path": "art/export/fullfilm-v5/model-textures/room01-wood021-normal-gl.jpg",
+      "sha256": "2a4f9195fdcaeaa4e224614759bb93308f1968e732b5ef2f73b7a1a388746f33",
+      "bytes": 1423148
+    },
+    "room01-wood021-roughness.jpg": {
+      "path": "art/export/fullfilm-v5/model-textures/room01-wood021-roughness.jpg",
+      "sha256": "cd30e3f32f4542df8d32c607653fa33714cabef9629611e900abf578a5a30208",
+      "bytes": 516431
+    },
+    "room01-wood021-metallic-smoothness.png": {
+      "path": "art/export/fullfilm-v5/model-textures/room01-wood021-metallic-smoothness.png",
+      "sha256": "078e9ecaee148cfcc16c6ec2a711a9ea915e77da8750ca4b0c51685b65ae0a49",
+      "bytes": 931089
+    },
+    "room01-wood032-normal-gl.jpg": {
+      "path": "art/export/fullfilm-v5/model-textures/room01-wood032-normal-gl.jpg",
+      "sha256": "2de7bc51ebc952496fd750d9bde4dfa9d8166e63f09910cf4e6e4621f5a7e873",
+      "bytes": 6472311
+    },
+    "room01-wood032-roughness.jpg": {
+      "path": "art/export/fullfilm-v5/model-textures/room01-wood032-roughness.jpg",
+      "sha256": "416925e44b6d10c3b213659e006eda2d69511fc19bce978e09fe44469f645a3b",
+      "bytes": 1887429
+    },
+    "room01-wood032-specular-smoothness.png": {
+      "path": "art/export/fullfilm-v5/model-textures/room01-wood032-specular-smoothness.png",
+      "sha256": "a4beb4dccdc60a85be8b431ba9983a22be0df180783d6c3276ed728b0727a67e",
+      "bytes": 3430188
+    },
+    "fullfilm-v5-room01-material-recovery.json": {
+      "path": "data/fullfilm-v5-room01-material-recovery.json",
+      "sha256": "e591b595881c3eadfe82928630e33766944e0c88fe483e0b171f7356c52a5e95",
+      "bytes": 10486
+    }
+  },
+  "provenance": "The tree model is authored from scratch for the existing scene pivot. Shelf maps are extracted byte-for-byte from packed Room01 FBX images; the smoothness-alpha PNG is deterministically derived from the packed roughness map.",
+  "unity_fbx_selection": {
+    "success": true,
+    "selected": {
+      "path": "art/models/fullfilm-v5/fullfilm_v5_branch_canopy.fbx",
+      "sha256": "6e62efdb55928288c8e4e31b2aca875dfc2bb599ca5a82d358cc5526e5cd327b",
+      "bytes": 546156,
+      "basis": "Exact FBX already imported, integrated and rendered in the accepted V5 checks"
+    },
+    "preserved_alternate": {
+      "path": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v5/models/canopy-later-export-9086dc18.fbx",
+      "sha256": "9086dc1873c685c8bbc8a3c6c6afe3d58288a6a0151e901fe167ffae27fece0a"
+    },
+    "strict_object_comparison_equal": false,
+    "differing_geometry_nodes": [
+      "Sphere",
+      "Sphere.001",
+      "Sphere.003",
+      "Sphere.004",
+      "Sphere.005",
+      "Sphere.006"
+    ],
+    "observed_difference": "Polygon, edge, normal-index and UV-index array ordering; vertex arrays, model transforms, material values and object/connection counts match. No rendering equivalence is claimed.",
+    "unity_asset_unchanged": true
+  }
+}

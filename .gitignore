@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+*.swp
+*.swo
+*~
+*.tmp
+*.log
+*.blend1
+*.blend2
+
+# Local agent state. Project skills under .agents/ remain tracked.
+.claude/

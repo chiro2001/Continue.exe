@@ -1,0 +1,86 @@
+{
+  "version": 4,
+  "status": "ready-for-review",
+  "date": "2026-10-16",
+  "duration": 133.12,
+  "baseline_scene": "Assets/Scenes/OWM_Episode123_v3.unity",
+  "scene": "Assets/Scenes/OWM_Episode123_v4.unity",
+  "spec": "spec/36-episode123-v4-production.md",
+  "validation": {
+    "csharp_compiled": true,
+    "udon_compiled": true,
+    "world_and_cast_built": true,
+    "operations_built": true,
+    "audio_fx_built": true,
+    "visual_reviewed": true,
+    "udon_full_run": true,
+    "sdk_built": true,
+    "hmd_tested": false,
+    "real_multiplayer_tested": false,
+    "central_support_built": true,
+    "anonymous_sources_imported": true,
+    "central_spacing_verified": true,
+    "stationary_sound_verified": true,
+    "anonymous_nameplates_verified": true,
+    "saved_scene_reopened": true,
+    "v3_original_preserved": true,
+    "reference_movie_encoded": true,
+    "reference_movie_full_decode": true,
+    "review_packaged": true,
+    "windows_artifact_hashes_match": true,
+    "editor_stopped_and_compilation_complete": true
+  },
+  "notes": "Final central-support layout, spacing, stable physical sound and xxxx labels are saved. Latest full Udon run, saved-scene audits, local SDK bundle, full reference film and decode checks pass. Console contains two SDK RemoteConfig-before-init messages; no scene Udon/runtime exceptions were observed. HMD, VR controller and real multiplayer verification remain.",
+  "supplement_spec": "spec/41-v4-focus-spacing-and-sound.md",
+  "supplement_policy": "data/episode123-v4-presentation-policy.json",
+  "central_support_scenes": 22,
+  "support_pool": 4,
+  "anonymous_source_copies": 5,
+  "anonymous_regions": 16,
+  "metrics": {
+    "images": 374,
+    "events": 580,
+    "focus_holds": 15,
+    "supported_focus": 15,
+    "support_scenes": 22,
+    "max_support": 3,
+    "max_history": 48,
+    "layout_samples": 1896,
+    "layout_head_positions": 13272,
+    "layout_pair_checks": 8544172,
+    "keyline_visible_ratio": 1.0,
+    "source_drift_in_saved_scene": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "source_drift_in_udon": [
+      0.0,
+      2.38418579e-07,
+      5.33120158e-07
+    ],
+    "max_confirmed_audio_spread_samples": 0,
+    "desktop_performance": {
+      "medianMilliseconds": 11.394289,
+      "p95Milliseconds": 18.7655,
+      "maxMilliseconds": 27.93129,
+      "includesExplicitScreenshotCost": true
+    }
+  },
+  "v4_scene_sha256": "a20d175ec621dc41711ceacdecc8375d97b75e1d0dc98f3efd200f92e4b07caa",
+  "v3_scene_sha256": "ae2d17c273c77ba8f7829eb15ba24e545b29b07d15e3d602687a4d0f47091b03",
+  "artifacts": {
+    "review_linux": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/review/index.html",
+    "review_windows": "%USERPROFILE%\\tmp\\vrc-old-web-map\\episode123-v4\\review\\index.html",
+    "sdk_bytes": 117377537,
+    "sdk_sha256": "a1f277d8efbc4b4492c3f9afb3de3ab6172eba49e9ce42646aff28e112ec2cb1",
+    "movie_seconds": 135.04,
+    "movie_bytes": 87428566,
+    "movie_sha256": "ce97ca30514fd0fab1d6ac2c5c7b91354618bd8b6fcc5f905a2dfc046155dd82"
+  },
+  "console": {
+    "scene_runtime_exceptions_observed": 0,
+    "sdk_environment_messages": 2,
+    "message": "Tried querying config VRC.Core.RemoteConfig before init"
+  }
+}

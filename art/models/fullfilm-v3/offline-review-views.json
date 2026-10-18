@@ -1,0 +1,72 @@
+[
+  {
+    "file": "fullfilm_v3_workbench_eye-070.png",
+    "camera_blender_m": [
+      0,
+      1.55,
+      0.2916666666666667
+    ],
+    "target_blender_m": [
+      0,
+      -0.06,
+      0.43
+    ],
+    "note": "Unbound neutral UI slots; review geometry/occlusion only, not final software screenshot legibility"
+  },
+  {
+    "file": "fullfilm_v3_workbench_eye-110.png",
+    "camera_blender_m": [
+      0,
+      1.55,
+      0.45833333333333337
+    ],
+    "target_blender_m": [
+      0,
+      -0.06,
+      0.43
+    ],
+    "note": "Unbound neutral UI slots; review geometry/occlusion only, not final software screenshot legibility"
+  },
+  {
+    "file": "fullfilm_v3_workbench_eye-150.png",
+    "camera_blender_m": [
+      0,
+      1.55,
+      0.625
+    ],
+    "target_blender_m": [
+      0,
+      -0.06,
+      0.4
+    ],
+    "note": "Unbound neutral UI slots; review geometry/occlusion only, not final software screenshot legibility"
+  },
+  {
+    "file": "fullfilm_v3_scene_block_walkway-eye.png",
+    "camera_blender_m": [
+      0,
+      4.05,
+      1.1
+    ],
+    "target_blender_m": [
+      0,
+      -1.6,
+      1.2
+    ],
+    "note": "Unbound neutral UI slots; review geometry/occlusion only, not final software screenshot legibility"
+  },
+  {
+    "file": "fullfilm_v3_scene_block_archive-side.png",
+    "camera_blender_m": [
+      -5,
+      4,
+      2.9
+    ],
+    "target_blender_m": [
+      -0.8,
+      -0.5,
+      1.25
+    ],
+    "note": "Unbound neutral UI slots; review geometry/occlusion only, not final software screenshot legibility"
+  }
+]

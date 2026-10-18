@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "note": "所有上屏文字的唯一来源。施工脚本据此生成名片卡、文字墙与 HUD；引文正文引用 quotes.json，歌词引用 lyrics.json，避免重复维护。",
+  "state_text": {
+    "online": "在线",
+    "throttled": "限速中",
+    "dead": "失效",
+    "archived": "已归档·只读",
+    "exported": "已离开这张地图",
+    "revived": "换了一个身体"
+  },
+  "ui": {
+    "title": "世界地图",
+    "subtitle": "共享精神的颂歌与安魂曲",
+    "dedication": "致所有失效的链接",
+    "boot": {
+      "cmos-selftest": [
+        "MEMORY TEST : 640K OK",
+        "DETECTING ADAPTER : ONLINE",
+        "MOUNTING /dev/share ................ OK",
+        "CHECKING LINKS .................... 214 OF 4096 ALIVE",
+        "SCANNING ARCHIVE .................. 87%",
+        "WORLD MAP — BUILD 19960714"
+      ],
+      "starting-world-map": "Starting World Map…"
+    },
+    "plates": {
+      "entrance": "Best viewed in 800×600",
+      "construction": "UNDER CONSTRUCTION",
+      "credits": [
+        "MUSIC : QUAZAR OF SANXION — FUNKY STARS (XM, 1996)",
+        "TEMPLATE : EDGE KEYGEN · TRITON FOR FASTTRACKER 2",
+        "WORLD : 《世界地图 / World Map》",
+        "本次放映不包含注册机本体，也不提供任何下载"
+      ]
+    },
+    "outro": {
+      "prompt": "C:\\>_",
+      "counter_label": "VISITORS"
+    },
+    "hud": {
+      "segment_prefix": "SEG",
+      "visitor_label": "VISITORS",
+      "lyric_hint": "歌词线：不唱，逐字高亮"
+    }
+  },
+  "node_labels": {
+    "label-node-first-light": {
+      "title": "第一枚光点",
+      "meta": ["上线时间：1970-01-01", "访客：00000001"],
+      "status_override": { "online": "有人刚刚点亮了它" },
+      "quote_ref": null
+    },
+    "label-node-personal-page": {
+      "title": "个人主页",
+      "meta": ["站主：一个人", "上线：1998", "访客：000012"],
+      "quote_ref": null
+    },
+    "label-node-webring": {
+      "title": "友链圆环",
+      "meta": ["成员：47 个主页", "上线：1999", "访客：000008"],
+      "quote_ref": null
+    },
+    "label-node-bbs": {
+      "title": "BBS 公告板",
+      "meta": ["版主：三个人", "上线：1997", "访客：000341"],
+      "quote_ref": null
+    },
+    "label-node-ftp": {
+      "title": "FTP 目录",
+      "meta": ["维护者：一个人", "上线：1996", "访客：000027"],
+      "quote_ref": null
+    },
+    "label-node-mirror": {
+      "title": "镜像站",
+      "meta": ["同步自：FTP 目录", "上线：2001", "访客：000019"],
+      "quote_ref": null
+    },
+    "label-node-torrent": {
+      "title": "种子与做种者",
+      "meta": ["做种：14 人", "上线：2003", "分享率：2.41"],
+      "quote_ref": null
+    },
+    "label-node-netdisk-early": {
+      "title": "早期网盘",
+      "meta": ["容量：2 GB", "上线：2008", "访客：002048"],
+      "quote_ref": null
+    },
+    "label-node-netdisk-throttle": {
+      "title": "限速的网盘",
+      "meta": ["当前速度：100 KB/s", "上线：2016", "状态：需要会员"],
+      "quote_ref": "q-aliyunpan-limit"
+    },
+    "label-node-link-dead": {
+      "title": "一个分享链接",
+      "meta": ["最后可用：2019", "状态：分享的文件已经被取消"],
+      "quote_ref": "q-360-closure"
+    },
+    "label-node-second-scan": {
+      "title": "秒传失败",
+      "meta": ["结果：文件不存在", "时间：2023-06"],
+      "quote_ref": null
+    },
+    "label-node-repo": {
+      "title": "仓库墓碑",
+      "meta": ["最后一次提交：四年前", "贡献者：1", "议题：无人回复"],
+      "quote_ref": null
+    },
+    "label-node-maintainer": {
+      "title": "一个人维护",
+      "meta": ["维护者：1", "资助：0", "下载量：百万级"],
+      "quote_ref": "q-curl-ddos"
+    },
+    "label-node-issue-flood": {
+      "title": "issue 洪水",
+      "meta": ["本周新增：1,240", "其中人工确认：3"],
+      "quote_ref": null
+    },
+    "label-node-bounty-close": {
+      "title": "赏金关闭",
+      "meta": ["公告日期：2026-01-26", "原因：维护者被压垮"],
+      "quote_ref": "q-curl-bounty"
+    },
+    "label-node-avatar-shop": {
+      "title": "模型工坊",
+      "meta": ["作品：42", "作者：一个人", "授权：仅个人使用"],
+      "quote_ref": "q-ripping"
+    },
+    "label-node-export-window": {
+      "title": "导出窗口",
+      "meta": ["来源：别人的工坊", "操作：框选 → 复制 → 粘贴"],
+      "quote_ref": null
+    },
+    "label-node-ban-notice": {
+      "title": "封禁公告",
+      "meta": ["日期：2024-07", "账号：1,900+", "措施：客户端校验下载"],
+      "quote_ref": "q-vrchat-ban"
+    },
+    "label-revive-first": {
+      "title": "它又亮了",
+      "meta": ["复活于：2025", "方式：重新实现，而不是还原"],
+      "quote_ref": "q-mecell-revival"
+    },
+    "label-node-revive-2": {
+      "title": "老驱动重新跑起来",
+      "meta": ["年龄：25 年", "修复时间：两个晚上"],
+      "quote_ref": null
+    },
+    "label-node-case-wall": {
+      "title": "逆向与互通案例墙",
+      "meta": ["案例：89", "共同点：为了用它，而不是为了卖它"],
+      "quote_ref": "q-reverse-engineering"
+    },
+    "label-node-outro": {
+      "title": "一张地图的尽头",
+      "meta": ["访客：0", "文件：一枚磁盘图标"],
+      "quote_ref": "q-module-note"
+    }
+  }
+}

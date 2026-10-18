@@ -1,0 +1,878 @@
+{
+  "schema": "oldwebmap.fullfilm.signal.1",
+  "duration": 256,
+  "fps": 30,
+  "waveform_metadata": "fullfilm-v1-waveforms.json",
+  "waveform_file": "waveform_rgba.png",
+  "source_rules": "PCM/RMS drive waves, meters and actual activity; note-on only drives tracker flashes. No silent block is inferred from empty tracker rows.",
+  "journeys": [
+    {
+      "start": 79.36,
+      "end": 81.92,
+      "distance": 24
+    },
+    {
+      "start": 86.4,
+      "end": 88.32,
+      "distance": 28
+    },
+    {
+      "start": 102.4,
+      "end": 104.96,
+      "distance": 28
+    },
+    {
+      "start": 217.6,
+      "end": 222.72,
+      "distance": 28
+    }
+  ],
+  "source_motion": {
+    "reference_eye": [
+      0,
+      1.35,
+      -2.8
+    ],
+    "fused_center": [
+      0,
+      4.25,
+      8.2
+    ],
+    "selected_pressure_channels": [
+      3,
+      4
+    ],
+    "pressure": [
+      143.36,
+      145.92,
+      153.6,
+      156.16
+    ],
+    "retreat": [
+      186.88,
+      189.44,
+      194.56,
+      207.36
+    ],
+    "recovery_nudge": [
+      207.36,
+      215.04
+    ],
+    "implementation": "tools.prepare_fullfilm_signal.source_world_position (zero-based ch); matches OWFullSignal.SourceWorldPosition",
+    "orbit_center": [
+      0,
+      1.65,
+      -2.8
+    ],
+    "orbit_radius": 4.2
+  },
+  "sky": [
+    {
+      "t": 0.0,
+      "top": [
+        0.012,
+        0.018,
+        0.024
+      ],
+      "horizon": [
+        0.04,
+        0.07,
+        0.078
+      ],
+      "mood": "CRT night"
+    },
+    {
+      "t": 30.72,
+      "top": [
+        0.035,
+        0.03,
+        0.055
+      ],
+      "horizon": [
+        0.24,
+        0.15,
+        0.105
+      ],
+      "mood": "warm early-community dusk"
+    },
+    {
+      "t": 51.2,
+      "top": [
+        0.05,
+        0.09,
+        0.2
+      ],
+      "horizon": [
+        0.2,
+        0.36,
+        0.52
+      ],
+      "mood": "glossy Web 2.0 blue"
+    },
+    {
+      "t": 61.44,
+      "top": [
+        0.035,
+        0.025,
+        0.09
+      ],
+      "horizon": [
+        0.28,
+        0.11,
+        0.29
+      ],
+      "mood": "danmaku-era magenta/cyan night"
+    },
+    {
+      "t": 71.68,
+      "top": [
+        0.025,
+        0.03,
+        0.08
+      ],
+      "horizon": [
+        0.12,
+        0.15,
+        0.3
+      ],
+      "mood": "making/tutorials violet-blue"
+    },
+    {
+      "t": 81.92,
+      "top": [
+        0.02,
+        0.028,
+        0.07
+      ],
+      "horizon": [
+        0.21,
+        0.14,
+        0.16
+      ],
+      "mood": "VRC campfire night"
+    },
+    {
+      "t": 102.4,
+      "top": [
+        0.055,
+        0.062,
+        0.07
+      ],
+      "horizon": [
+        0.15,
+        0.165,
+        0.18
+      ],
+      "mood": "conditions: cold desaturated"
+    },
+    {
+      "t": 122.88,
+      "top": [
+        0.016,
+        0.019,
+        0.022
+      ],
+      "horizon": [
+        0.06,
+        0.068,
+        0.075
+      ],
+      "mood": "maintenance: dark, one lamp"
+    },
+    {
+      "t": 133.12,
+      "top": [
+        0.06,
+        0.06,
+        0.07
+      ],
+      "horizon": [
+        0.45,
+        0.43,
+        0.41
+      ]
+    },
+    {
+      "t": 143.36,
+      "top": [
+        0.08,
+        0.04,
+        0.04
+      ],
+      "horizon": [
+        0.52,
+        0.22,
+        0.18
+      ]
+    },
+    {
+      "t": 153.6,
+      "top": [
+        0.05,
+        0.08,
+        0.09
+      ],
+      "horizon": [
+        0.12,
+        0.18,
+        0.2
+      ]
+    },
+    {
+      "t": 168.96,
+      "top": [
+        0.04,
+        0.04,
+        0.045
+      ],
+      "horizon": [
+        0.09,
+        0.09,
+        0.1
+      ]
+    },
+    {
+      "t": 184.32,
+      "top": [
+        0.004,
+        0.005,
+        0.007
+      ],
+      "horizon": [
+        0.012,
+        0.014,
+        0.016
+      ]
+    },
+    {
+      "t": 197.12,
+      "top": [
+        0.015,
+        0.025,
+        0.06
+      ],
+      "horizon": [
+        0.1,
+        0.09,
+        0.15
+      ]
+    },
+    {
+      "t": 215.04,
+      "top": [
+        0.03,
+        0.06,
+        0.14
+      ],
+      "horizon": [
+        0.32,
+        0.2,
+        0.2
+      ]
+    },
+    {
+      "t": 230.4,
+      "top": [
+        0.08,
+        0.14,
+        0.3
+      ],
+      "horizon": [
+        0.48,
+        0.32,
+        0.23
+      ]
+    },
+    {
+      "t": 245.76,
+      "top": [
+        0.1,
+        0.16,
+        0.28
+      ],
+      "horizon": [
+        0.42,
+        0.32,
+        0.26
+      ]
+    }
+  ],
+  "key": [
+    {
+      "t": 0.0,
+      "color": [
+        0.78,
+        0.93,
+        0.9
+      ],
+      "intensity": 0.62
+    },
+    {
+      "t": 30.72,
+      "color": [
+        1.0,
+        0.8,
+        0.58
+      ],
+      "intensity": 0.92
+    },
+    {
+      "t": 51.2,
+      "color": [
+        1.0,
+        0.93,
+        0.82
+      ],
+      "intensity": 0.9
+    },
+    {
+      "t": 61.44,
+      "color": [
+        1.0,
+        0.78,
+        0.92
+      ],
+      "intensity": 0.84
+    },
+    {
+      "t": 71.68,
+      "color": [
+        0.9,
+        0.86,
+        1.0
+      ],
+      "intensity": 0.8
+    },
+    {
+      "t": 81.92,
+      "color": [
+        1.0,
+        0.76,
+        0.5
+      ],
+      "intensity": 0.88
+    },
+    {
+      "t": 102.4,
+      "color": [
+        0.8,
+        0.87,
+        0.95
+      ],
+      "intensity": 0.7
+    },
+    {
+      "t": 122.88,
+      "color": [
+        0.72,
+        0.78,
+        0.88
+      ],
+      "intensity": 0.36
+    },
+    {
+      "t": 133.12,
+      "color": [
+        0.9,
+        0.94,
+        1
+      ],
+      "intensity": 0.78
+    },
+    {
+      "t": 143.36,
+      "color": [
+        1,
+        0.54,
+        0.42
+      ],
+      "intensity": 0.78
+    },
+    {
+      "t": 153.6,
+      "color": [
+        0.65,
+        0.82,
+        0.88
+      ],
+      "intensity": 0.6
+    },
+    {
+      "t": 168.96,
+      "color": [
+        0.72,
+        0.75,
+        0.8
+      ],
+      "intensity": 0.36
+    },
+    {
+      "t": 184.32,
+      "color": [
+        0.4,
+        0.47,
+        0.6
+      ],
+      "intensity": 0.025
+    },
+    {
+      "t": 197.12,
+      "color": [
+        0.66,
+        0.72,
+        0.94
+      ],
+      "intensity": 0.28
+    },
+    {
+      "t": 215.04,
+      "color": [
+        1,
+        0.8,
+        0.65
+      ],
+      "intensity": 0.68
+    },
+    {
+      "t": 230.4,
+      "color": [
+        1,
+        0.88,
+        0.72
+      ],
+      "intensity": 0.88
+    },
+    {
+      "t": 245.76,
+      "color": [
+        1,
+        0.87,
+        0.72
+      ],
+      "intensity": 0.76
+    }
+  ],
+  "fill": [
+    {
+      "t": 0.0,
+      "color": [
+        0.45,
+        0.72,
+        0.8
+      ],
+      "intensity": 0.3
+    },
+    {
+      "t": 30.72,
+      "color": [
+        0.62,
+        0.6,
+        0.82
+      ],
+      "intensity": 0.26
+    },
+    {
+      "t": 51.2,
+      "color": [
+        0.5,
+        0.72,
+        1.0
+      ],
+      "intensity": 0.34
+    },
+    {
+      "t": 61.44,
+      "color": [
+        0.42,
+        0.88,
+        1.0
+      ],
+      "intensity": 0.34
+    },
+    {
+      "t": 71.68,
+      "color": [
+        0.55,
+        0.62,
+        1.0
+      ],
+      "intensity": 0.3
+    },
+    {
+      "t": 81.92,
+      "color": [
+        0.42,
+        0.52,
+        0.86
+      ],
+      "intensity": 0.24
+    },
+    {
+      "t": 102.4,
+      "color": [
+        0.7,
+        0.8,
+        0.9
+      ],
+      "intensity": 0.3
+    },
+    {
+      "t": 122.88,
+      "color": [
+        0.55,
+        0.62,
+        0.72
+      ],
+      "intensity": 0.16
+    },
+    {
+      "t": 133.12,
+      "color": [
+        0.58,
+        0.64,
+        0.72
+      ],
+      "intensity": 0.26
+    },
+    {
+      "t": 143.36,
+      "color": [
+        0.45,
+        0.38,
+        0.5
+      ],
+      "intensity": 0.25
+    },
+    {
+      "t": 153.6,
+      "color": [
+        0.48,
+        0.62,
+        0.68
+      ],
+      "intensity": 0.21
+    },
+    {
+      "t": 168.96,
+      "color": [
+        0.5,
+        0.54,
+        0.6
+      ],
+      "intensity": 0.13
+    },
+    {
+      "t": 184.32,
+      "color": [
+        0.3,
+        0.36,
+        0.44
+      ],
+      "intensity": 0.012
+    },
+    {
+      "t": 197.12,
+      "color": [
+        0.4,
+        0.48,
+        0.72
+      ],
+      "intensity": 0.13
+    },
+    {
+      "t": 215.04,
+      "color": [
+        0.48,
+        0.64,
+        0.92
+      ],
+      "intensity": 0.25
+    },
+    {
+      "t": 230.4,
+      "color": [
+        0.55,
+        0.7,
+        1
+      ],
+      "intensity": 0.3
+    },
+    {
+      "t": 245.76,
+      "color": [
+        0.61,
+        0.73,
+        0.94
+      ],
+      "intensity": 0.26
+    }
+  ],
+  "grid": [
+    {
+      "t": 0.0,
+      "opacity": 0.0
+    },
+    {
+      "t": 30.72,
+      "opacity": 0.0
+    },
+    {
+      "t": 46.08,
+      "opacity": 1.0
+    },
+    {
+      "t": 76.8,
+      "opacity": 1.0
+    },
+    {
+      "t": 79.36,
+      "opacity": 0.35
+    },
+    {
+      "t": 102.4,
+      "opacity": 0.35
+    },
+    {
+      "t": 104.96,
+      "opacity": 1.0
+    },
+    {
+      "t": 133.12,
+      "opacity": 1
+    },
+    {
+      "t": 168.96,
+      "opacity": 0.65
+    },
+    {
+      "t": 184.32,
+      "opacity": 0.08
+    },
+    {
+      "t": 186.88,
+      "opacity": 0
+    },
+    {
+      "t": 197.12,
+      "opacity": 0
+    },
+    {
+      "t": 207.36,
+      "opacity": 0.28
+    },
+    {
+      "t": 225.28,
+      "opacity": 0.65
+    },
+    {
+      "t": 245.76,
+      "opacity": 0.45
+    },
+    {
+      "t": 254.72,
+      "opacity": 0.45
+    },
+    {
+      "t": 256,
+      "opacity": 0.25
+    }
+  ],
+  "greetz": {
+    "atlas": {
+      "file": "fullfilm-greetz-atlas.png",
+      "width": 4096,
+      "height": 512,
+      "rows": 3,
+      "row_px": 112,
+      "row_stride": 4064,
+      "row_pad": 16,
+      "text_length_px": 11963,
+      "baseline_px": 82,
+      "grad_top_px": 13,
+      "grad_bottom_px": 90,
+      "sha256": "1fafdb5e77c910316bf7e1e05a78cfd57234b9de0ac32a4e4271dbc09705dfee",
+      "channels": "R cover, G outline, B role token id, A interrupt style"
+    },
+    "tokens": [
+      {
+        "text": "写 README 的人",
+        "style": 0,
+        "segment": "overload",
+        "start": 56,
+        "end": 636.5210937500001
+      },
+      {
+        "text": "转载",
+        "style": 1,
+        "segment": "overload",
+        "start": 718.1210937500001,
+        "end": 868.5210937500001
+      },
+      {
+        "text": "把对白译出来的人",
+        "style": 0,
+        "segment": "overload",
+        "start": 950.1210937500001,
+        "end": 1551.7210937500004
+      },
+      {
+        "text": "搬运",
+        "style": 1,
+        "segment": "overload",
+        "start": 1633.3210937500003,
+        "end": 1783.7210937500004
+      },
+      {
+        "text": "保种的人",
+        "style": 0,
+        "segment": "overload",
+        "start": 1865.3210937500003,
+        "end": 2166.12109375
+      },
+      {
+        "text": "来源：网络",
+        "style": 1,
+        "segment": "overload",
+        "start": 2247.72109375,
+        "end": 2623.721093749999
+      },
+      {
+        "text": "打时间轴的人",
+        "style": 0,
+        "segment": "overload",
+        "start": 2705.321093749999,
+        "end": 3156.521093749998
+      },
+      {
+        "text": "转载",
+        "style": 1,
+        "segment": "overload",
+        "start": 3238.1210937499977,
+        "end": 3388.5210937499974
+      },
+      {
+        "text": "搭世界的人",
+        "style": 0,
+        "segment": "overload",
+        "start": 3470.1210937499973,
+        "end": 3846.1210937499964
+      },
+      {
+        "text": "来源：网络",
+        "style": 1,
+        "segment": "overload",
+        "start": 3927.7210937499963,
+        "end": 4303.721093749996
+      },
+      {
+        "text": "还在维护的人",
+        "style": 0,
+        "segment": "overload",
+        "start": 4385.321093749996,
+        "end": 4836.521093749995
+      },
+      {
+        "text": "转载",
+        "style": 1,
+        "segment": "overload",
+        "start": 4918.121093749995,
+        "end": 5068.521093749995
+      },
+      {
+        "text": "_",
+        "style": 0,
+        "segment": "cursor",
+        "start": 5150.121093749995,
+        "end": 5194.119687499995
+      },
+      {
+        "text": "尝试新工具的人",
+        "style": 0,
+        "segment": "renewal",
+        "start": 5275.719687499995,
+        "end": 5802.119687499994
+      },
+      {
+        "text": "帮忙校译的人",
+        "style": 0,
+        "segment": "renewal",
+        "start": 5883.7196874999945,
+        "end": 6334.919687499993
+      },
+      {
+        "text": "写 README 的人",
+        "style": 0,
+        "segment": "renewal",
+        "start": 6416.519687499994,
+        "end": 6997.040781249994
+      },
+      {
+        "text": "分享源文件的人",
+        "style": 0,
+        "segment": "renewal",
+        "start": 7078.640781249995,
+        "end": 7605.040781249993
+      },
+      {
+        "text": "保种的人",
+        "style": 0,
+        "segment": "renewal",
+        "start": 7686.640781249994,
+        "end": 7987.440781249993
+      },
+      {
+        "text": "复现并修正的人",
+        "style": 0,
+        "segment": "renewal",
+        "start": 8069.040781249993,
+        "end": 8595.440781249998
+      },
+      {
+        "text": "搭世界的人",
+        "style": 0,
+        "segment": "renewal",
+        "start": 8677.040781249998,
+        "end": 9053.040781250002
+      },
+      {
+        "text": "回答新人问题的人",
+        "style": 0,
+        "segment": "renewal",
+        "start": 9134.640781250002,
+        "end": 9736.240781250008
+      },
+      {
+        "text": "受助后再帮助的人",
+        "style": 0,
+        "segment": "renewal",
+        "start": 9817.840781250008,
+        "end": 10419.440781250014
+      },
+      {
+        "text": "一起玩、一起改的人",
+        "style": 0,
+        "segment": "renewal",
+        "start": 10501.040781250014,
+        "end": 11141.44078125002
+      },
+      {
+        "text": "那就一起做下去。",
+        "style": 0,
+        "segment": "renewal",
+        "start": 11223.04078125002,
+        "end": 11824.640781250026
+      }
+    ],
+    "overload_first": 346.26054687500005,
+    "overload_last": 4993.321093749995,
+    "overload_min": 44,
+    "overload_max": 5080.521093749995,
+    "cursor_px": 5172.120390624996,
+    "cursor_min": 5138.121093749995,
+    "cursor_max": 5206.119687499995,
+    "renewal_first": 5538.919687499994,
+    "renewal_last": 11523.840781250023,
+    "renewal_min": 5263.719687499995,
+    "renewal_max": 11836.640781250026
+  }
+}

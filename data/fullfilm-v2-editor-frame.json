@@ -1,0 +1,1686 @@
+{
+  "schema": "fullfilm-v2-editor-frame.1",
+  "blender": "4.2.0",
+  "units": "metres",
+  "root": "FFV2_EditorFrame",
+  "blender_axes": "Z up, +Y front",
+  "fbx_export_axes": "-Z forward, Y up",
+  "dimensions_m": [
+    4,
+    2.6,
+    0.27
+  ],
+  "opening": {
+    "width_m": 3.2,
+    "height_m": 1.8,
+    "aspect": 1.7777777777777777,
+    "centre_blender_m": [
+      0,
+      0,
+      0
+    ],
+    "bounds_blender_xz_m": [
+      -1.6,
+      -0.9,
+      1.6,
+      0.9
+    ],
+    "geometry": "No centre mesh or transparent centre plane",
+    "anchor": "Viewport_16x9_Anchor"
+  },
+  "ui_slots": [
+    {
+      "object": "UI_TopToolbar",
+      "parent": "TopToolbar_Rig",
+      "size_m": [
+        3.18,
+        0.15
+      ],
+      "pivot_local_blender_m": [
+        0,
+        0.082,
+        -0.03
+      ],
+      "material": "M_EF_UI_Toolbar_SLOT",
+      "uv_rect": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "uv_layer": "ScreenshotUV",
+      "normal_blender": [
+        0,
+        1,
+        0
+      ],
+      "screenshot_status": "unbound_real_capture_required"
+    },
+    {
+      "object": "UI_TopTitle",
+      "parent": "TopToolbar_Rig",
+      "size_m": [
+        3.8,
+        0.058
+      ],
+      "pivot_local_blender_m": [
+        0,
+        0.07,
+        0.105
+      ],
+      "material": "M_EF_UI_Title_SLOT",
+      "uv_rect": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "uv_layer": "ScreenshotUV",
+      "normal_blender": [
+        0,
+        1,
+        0
+      ],
+      "screenshot_status": "unbound_real_capture_required"
+    },
+    {
+      "object": "UI_LeftHierarchy",
+      "parent": "LeftHierarchy_Rig",
+      "size_m": [
+        0.265,
+        2.16
+      ],
+      "pivot_local_blender_m": [
+        0,
+        0.069,
+        0
+      ],
+      "material": "M_EF_UI_Hierarchy_SLOT",
+      "uv_rect": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "uv_layer": "ScreenshotUV",
+      "normal_blender": [
+        0,
+        1,
+        0
+      ],
+      "screenshot_status": "unbound_real_capture_required"
+    },
+    {
+      "object": "UI_RightInspector",
+      "parent": "RightInspector_Rig",
+      "size_m": [
+        0.265,
+        2.16
+      ],
+      "pivot_local_blender_m": [
+        0,
+        0.069,
+        0
+      ],
+      "material": "M_EF_UI_Inspector_SLOT",
+      "uv_rect": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "uv_layer": "ScreenshotUV",
+      "normal_blender": [
+        0,
+        1,
+        0
+      ],
+      "screenshot_status": "unbound_real_capture_required"
+    },
+    {
+      "object": "UI_BottomTimeline",
+      "parent": "BottomTimeline_Rig",
+      "size_m": [
+        3.18,
+        0.267
+      ],
+      "pivot_local_blender_m": [
+        0,
+        0.088,
+        0
+      ],
+      "material": "M_EF_UI_Timeline_SLOT",
+      "uv_rect": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "uv_layer": "ScreenshotUV",
+      "normal_blender": [
+        0,
+        1,
+        0
+      ],
+      "screenshot_status": "unbound_real_capture_required"
+    }
+  ],
+  "objects": [
+    {
+      "name": "FFV2_EditorFrame",
+      "type": "EMPTY",
+      "parent": null,
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "BottomTimeline_Rig",
+      "type": "EMPTY",
+      "parent": "FFV2_EditorFrame",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        -1.105
+      ],
+      "size_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Timeline_BackCassette",
+      "type": "MESH",
+      "parent": "BottomTimeline_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.022,
+        0.0
+      ],
+      "size_m": [
+        3.86,
+        0.17,
+        0.3
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_BackShell"
+      ]
+    },
+    {
+      "name": "Timeline_RecessedBed",
+      "type": "MESH",
+      "parent": "BottomTimeline_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        0.065,
+        0.0
+      ],
+      "size_m": [
+        3.23,
+        0.026,
+        0.276
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RevealDark"
+      ]
+    },
+    {
+      "name": "Timeline_TrackChannelRail",
+      "type": "MESH",
+      "parent": "BottomTimeline_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        0.072,
+        -0.142
+      ],
+      "size_m": [
+        3.25,
+        0.025,
+        0.009
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RailEdge"
+      ]
+    },
+    {
+      "name": "Timeline_TrackChannelRail.001",
+      "type": "MESH",
+      "parent": "BottomTimeline_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        0.072,
+        -0.045
+      ],
+      "size_m": [
+        3.25,
+        0.025,
+        0.009
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RailEdge"
+      ]
+    },
+    {
+      "name": "Timeline_TrackChannelRail.002",
+      "type": "MESH",
+      "parent": "BottomTimeline_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        0.072,
+        0.045
+      ],
+      "size_m": [
+        3.25,
+        0.025,
+        0.009
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RailEdge"
+      ]
+    },
+    {
+      "name": "Timeline_TrackChannelRail.003",
+      "type": "MESH",
+      "parent": "BottomTimeline_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        0.072,
+        0.142
+      ],
+      "size_m": [
+        3.25,
+        0.025,
+        0.009
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RailEdge"
+      ]
+    },
+    {
+      "name": "UI_BottomTimeline",
+      "type": "MESH",
+      "parent": "BottomTimeline_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        0.088,
+        0.0
+      ],
+      "size_m": [
+        3.18,
+        0.0,
+        0.267
+      ],
+      "triangles": 2,
+      "vertices": 4,
+      "uv_layers": [
+        "ScreenshotUV"
+      ],
+      "materials": [
+        "M_EF_UI_Timeline_SLOT"
+      ]
+    },
+    {
+      "name": "Frame_AssemblyDetails",
+      "type": "EMPTY",
+      "parent": "FFV2_EditorFrame",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Frame_CountersunkFastener",
+      "type": "MESH",
+      "parent": "Frame_AssemblyDetails",
+      "pivot_local_blender_m": [
+        -1.97,
+        0.113,
+        -1.21
+      ],
+      "size_m": [
+        0.017119,
+        0.018,
+        0.006
+      ],
+      "triangles": 36,
+      "vertices": 20,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RevealDark"
+      ]
+    },
+    {
+      "name": "Frame_CountersunkFastener.001",
+      "type": "MESH",
+      "parent": "Frame_AssemblyDetails",
+      "pivot_local_blender_m": [
+        -1.97,
+        0.113,
+        0.0
+      ],
+      "size_m": [
+        0.017119,
+        0.018,
+        0.006
+      ],
+      "triangles": 36,
+      "vertices": 20,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RevealDark"
+      ]
+    },
+    {
+      "name": "Frame_CountersunkFastener.002",
+      "type": "MESH",
+      "parent": "Frame_AssemblyDetails",
+      "pivot_local_blender_m": [
+        -1.97,
+        0.113,
+        1.21
+      ],
+      "size_m": [
+        0.017119,
+        0.018,
+        0.006
+      ],
+      "triangles": 36,
+      "vertices": 20,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RevealDark"
+      ]
+    },
+    {
+      "name": "Frame_CountersunkFastener.003",
+      "type": "MESH",
+      "parent": "Frame_AssemblyDetails",
+      "pivot_local_blender_m": [
+        1.97,
+        0.113,
+        -1.21
+      ],
+      "size_m": [
+        0.017119,
+        0.018,
+        0.006
+      ],
+      "triangles": 36,
+      "vertices": 20,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RevealDark"
+      ]
+    },
+    {
+      "name": "Frame_CountersunkFastener.004",
+      "type": "MESH",
+      "parent": "Frame_AssemblyDetails",
+      "pivot_local_blender_m": [
+        1.97,
+        0.113,
+        0.0
+      ],
+      "size_m": [
+        0.017119,
+        0.018,
+        0.006
+      ],
+      "triangles": 36,
+      "vertices": 20,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RevealDark"
+      ]
+    },
+    {
+      "name": "Frame_CountersunkFastener.005",
+      "type": "MESH",
+      "parent": "Frame_AssemblyDetails",
+      "pivot_local_blender_m": [
+        1.97,
+        0.113,
+        1.21
+      ],
+      "size_m": [
+        0.017119,
+        0.018,
+        0.006
+      ],
+      "triangles": 36,
+      "vertices": 20,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RevealDark"
+      ]
+    },
+    {
+      "name": "Frame_RearConnectorPocket",
+      "type": "MESH",
+      "parent": "Frame_AssemblyDetails",
+      "pivot_local_blender_m": [
+        -0.2,
+        -0.145,
+        -1.105
+      ],
+      "size_m": [
+        0.068,
+        0.018,
+        0.025
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RevealDark"
+      ]
+    },
+    {
+      "name": "Frame_RearConnectorPocket.001",
+      "type": "MESH",
+      "parent": "Frame_AssemblyDetails",
+      "pivot_local_blender_m": [
+        -0.09,
+        -0.145,
+        -1.105
+      ],
+      "size_m": [
+        0.068,
+        0.018,
+        0.025
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RevealDark"
+      ]
+    },
+    {
+      "name": "Frame_RearConnectorPocket.002",
+      "type": "MESH",
+      "parent": "Frame_AssemblyDetails",
+      "pivot_local_blender_m": [
+        0.02,
+        -0.145,
+        -1.105
+      ],
+      "size_m": [
+        0.068,
+        0.018,
+        0.025
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RevealDark"
+      ]
+    },
+    {
+      "name": "Frame_RearConnectorPocket.003",
+      "type": "MESH",
+      "parent": "Frame_AssemblyDetails",
+      "pivot_local_blender_m": [
+        0.13,
+        -0.145,
+        -1.105
+      ],
+      "size_m": [
+        0.068,
+        0.018,
+        0.025
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RevealDark"
+      ]
+    },
+    {
+      "name": "Frame_Perimeter",
+      "type": "EMPTY",
+      "parent": "FFV2_EditorFrame",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Frame_OuterHorizontal_Bottom",
+      "type": "MESH",
+      "parent": "Frame_Perimeter",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        -1.27
+      ],
+      "size_m": [
+        3.88,
+        0.22,
+        0.06
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_OuterGraphite"
+      ]
+    },
+    {
+      "name": "Frame_OuterHorizontal_Top",
+      "type": "MESH",
+      "parent": "Frame_Perimeter",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        1.27
+      ],
+      "size_m": [
+        3.88,
+        0.22,
+        0.06
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_OuterGraphite"
+      ]
+    },
+    {
+      "name": "Frame_OuterVertical_L",
+      "type": "MESH",
+      "parent": "Frame_Perimeter",
+      "pivot_local_blender_m": [
+        -1.97,
+        0.0,
+        0.0
+      ],
+      "size_m": [
+        0.06,
+        0.22,
+        2.6
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_OuterGraphite"
+      ]
+    },
+    {
+      "name": "Frame_OuterVertical_R",
+      "type": "MESH",
+      "parent": "Frame_Perimeter",
+      "pivot_local_blender_m": [
+        1.97,
+        0.0,
+        0.0
+      ],
+      "size_m": [
+        0.06,
+        0.22,
+        2.6
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_OuterGraphite"
+      ]
+    },
+    {
+      "name": "Frame_RearHorizontalFlange_Bottom",
+      "type": "MESH",
+      "parent": "Frame_Perimeter",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.105,
+        -1.235
+      ],
+      "size_m": [
+        3.83,
+        0.055,
+        0.11
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_BackShell"
+      ]
+    },
+    {
+      "name": "Frame_RearHorizontalFlange_Top",
+      "type": "MESH",
+      "parent": "Frame_Perimeter",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.105,
+        1.235
+      ],
+      "size_m": [
+        3.83,
+        0.055,
+        0.11
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_BackShell"
+      ]
+    },
+    {
+      "name": "Frame_RearVerticalFlange_L",
+      "type": "MESH",
+      "parent": "Frame_Perimeter",
+      "pivot_local_blender_m": [
+        -1.935,
+        -0.105,
+        0.0
+      ],
+      "size_m": [
+        0.11,
+        0.055,
+        2.55
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_BackShell"
+      ]
+    },
+    {
+      "name": "Frame_RearVerticalFlange_R",
+      "type": "MESH",
+      "parent": "Frame_Perimeter",
+      "pivot_local_blender_m": [
+        1.935,
+        -0.105,
+        0.0
+      ],
+      "size_m": [
+        0.11,
+        0.055,
+        2.55
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_BackShell"
+      ]
+    },
+    {
+      "name": "LeftHierarchy_Rig",
+      "type": "EMPTY",
+      "parent": "FFV2_EditorFrame",
+      "pivot_local_blender_m": [
+        -1.8,
+        0.0,
+        0.0
+      ],
+      "size_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "LeftHierarchy_EdgeRail_-1",
+      "type": "MESH",
+      "parent": "LeftHierarchy_Rig",
+      "pivot_local_blender_m": [
+        -0.147,
+        0.069,
+        0.0
+      ],
+      "size_m": [
+        0.015,
+        0.026,
+        2.25
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RailEdge"
+      ]
+    },
+    {
+      "name": "LeftHierarchy_EdgeRail_1",
+      "type": "MESH",
+      "parent": "LeftHierarchy_Rig",
+      "pivot_local_blender_m": [
+        0.147,
+        0.069,
+        0.0
+      ],
+      "size_m": [
+        0.015,
+        0.026,
+        2.25
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RailEdge"
+      ]
+    },
+    {
+      "name": "LeftHierarchy_EndCap_-1",
+      "type": "MESH",
+      "parent": "LeftHierarchy_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        0.069,
+        -1.117
+      ],
+      "size_m": [
+        0.295,
+        0.026,
+        0.016
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RailEdge"
+      ]
+    },
+    {
+      "name": "LeftHierarchy_EndCap_1",
+      "type": "MESH",
+      "parent": "LeftHierarchy_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        0.069,
+        1.117
+      ],
+      "size_m": [
+        0.295,
+        0.026,
+        0.016
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RailEdge"
+      ]
+    },
+    {
+      "name": "LeftHierarchy_InsetPanel",
+      "type": "MESH",
+      "parent": "LeftHierarchy_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        0.053,
+        0.0
+      ],
+      "size_m": [
+        0.281,
+        0.026,
+        2.2
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RevealDark"
+      ]
+    },
+    {
+      "name": "LeftHierarchy_OuterSeam",
+      "type": "MESH",
+      "parent": "LeftHierarchy_Rig",
+      "pivot_local_blender_m": [
+        -0.153,
+        -0.013,
+        0.0
+      ],
+      "size_m": [
+        0.007,
+        0.07,
+        1.97
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RevealDark"
+      ]
+    },
+    {
+      "name": "LeftHierarchy_RearShell",
+      "type": "MESH",
+      "parent": "LeftHierarchy_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.025,
+        0.0
+      ],
+      "size_m": [
+        0.3,
+        0.14,
+        2.27
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_BackShell"
+      ]
+    },
+    {
+      "name": "UI_LeftHierarchy",
+      "type": "MESH",
+      "parent": "LeftHierarchy_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        0.069,
+        0.0
+      ],
+      "size_m": [
+        0.265,
+        0.0,
+        2.16
+      ],
+      "triangles": 2,
+      "vertices": 4,
+      "uv_layers": [
+        "ScreenshotUV"
+      ],
+      "materials": [
+        "M_EF_UI_Hierarchy_SLOT"
+      ]
+    },
+    {
+      "name": "RightInspector_Rig",
+      "type": "EMPTY",
+      "parent": "FFV2_EditorFrame",
+      "pivot_local_blender_m": [
+        1.8,
+        0.0,
+        0.0
+      ],
+      "size_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "RightInspector_EdgeRail_-1",
+      "type": "MESH",
+      "parent": "RightInspector_Rig",
+      "pivot_local_blender_m": [
+        -0.147,
+        0.069,
+        0.0
+      ],
+      "size_m": [
+        0.015,
+        0.026,
+        2.25
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RailEdge"
+      ]
+    },
+    {
+      "name": "RightInspector_EdgeRail_1",
+      "type": "MESH",
+      "parent": "RightInspector_Rig",
+      "pivot_local_blender_m": [
+        0.147,
+        0.069,
+        0.0
+      ],
+      "size_m": [
+        0.015,
+        0.026,
+        2.25
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RailEdge"
+      ]
+    },
+    {
+      "name": "RightInspector_EndCap_-1",
+      "type": "MESH",
+      "parent": "RightInspector_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        0.069,
+        -1.117
+      ],
+      "size_m": [
+        0.295,
+        0.026,
+        0.016
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RailEdge"
+      ]
+    },
+    {
+      "name": "RightInspector_EndCap_1",
+      "type": "MESH",
+      "parent": "RightInspector_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        0.069,
+        1.117
+      ],
+      "size_m": [
+        0.295,
+        0.026,
+        0.016
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RailEdge"
+      ]
+    },
+    {
+      "name": "RightInspector_InsetPanel",
+      "type": "MESH",
+      "parent": "RightInspector_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        0.053,
+        0.0
+      ],
+      "size_m": [
+        0.281,
+        0.026,
+        2.2
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RevealDark"
+      ]
+    },
+    {
+      "name": "RightInspector_OuterSeam",
+      "type": "MESH",
+      "parent": "RightInspector_Rig",
+      "pivot_local_blender_m": [
+        0.153,
+        -0.013,
+        0.0
+      ],
+      "size_m": [
+        0.007,
+        0.07,
+        1.97
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RevealDark"
+      ]
+    },
+    {
+      "name": "RightInspector_RearShell",
+      "type": "MESH",
+      "parent": "RightInspector_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.025,
+        0.0
+      ],
+      "size_m": [
+        0.3,
+        0.14,
+        2.27
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_BackShell"
+      ]
+    },
+    {
+      "name": "UI_RightInspector",
+      "type": "MESH",
+      "parent": "RightInspector_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        0.069,
+        0.0
+      ],
+      "size_m": [
+        0.265,
+        0.0,
+        2.16
+      ],
+      "triangles": 2,
+      "vertices": 4,
+      "uv_layers": [
+        "ScreenshotUV"
+      ],
+      "materials": [
+        "M_EF_UI_Inspector_SLOT"
+      ]
+    },
+    {
+      "name": "TopToolbar_Rig",
+      "type": "EMPTY",
+      "parent": "FFV2_EditorFrame",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        1.135
+      ],
+      "size_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Toolbar_RecessedBed",
+      "type": "MESH",
+      "parent": "TopToolbar_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        0.07,
+        -0.03
+      ],
+      "size_m": [
+        3.22,
+        0.02,
+        0.17
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RevealDark"
+      ]
+    },
+    {
+      "name": "Toolbar_SteppedHousing",
+      "type": "MESH",
+      "parent": "TopToolbar_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.016,
+        0.0
+      ],
+      "size_m": [
+        3.86,
+        0.165,
+        0.25
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_OuterGraphite"
+      ]
+    },
+    {
+      "name": "UI_TopTitle",
+      "type": "MESH",
+      "parent": "TopToolbar_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        0.07,
+        0.105
+      ],
+      "size_m": [
+        3.8,
+        0.0,
+        0.058
+      ],
+      "triangles": 2,
+      "vertices": 4,
+      "uv_layers": [
+        "ScreenshotUV"
+      ],
+      "materials": [
+        "M_EF_UI_Title_SLOT"
+      ]
+    },
+    {
+      "name": "UI_TopToolbar",
+      "type": "MESH",
+      "parent": "TopToolbar_Rig",
+      "pivot_local_blender_m": [
+        0.0,
+        0.082,
+        -0.03
+      ],
+      "size_m": [
+        3.18,
+        0.0,
+        0.15
+      ],
+      "triangles": 2,
+      "vertices": 4,
+      "uv_layers": [
+        "ScreenshotUV"
+      ],
+      "materials": [
+        "M_EF_UI_Toolbar_SLOT"
+      ]
+    },
+    {
+      "name": "Viewport_16x9_Anchor",
+      "type": "EMPTY",
+      "parent": "FFV2_EditorFrame",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Viewport_BottomLeft",
+      "type": "EMPTY",
+      "parent": "Viewport_16x9_Anchor",
+      "pivot_local_blender_m": [
+        -1.6,
+        0.09,
+        -0.9
+      ],
+      "size_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Viewport_BottomRight",
+      "type": "EMPTY",
+      "parent": "Viewport_16x9_Anchor",
+      "pivot_local_blender_m": [
+        1.6,
+        0.09,
+        -0.9
+      ],
+      "size_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Viewport_TopLeft",
+      "type": "EMPTY",
+      "parent": "Viewport_16x9_Anchor",
+      "pivot_local_blender_m": [
+        -1.6,
+        0.09,
+        0.9
+      ],
+      "size_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Viewport_TopRight",
+      "type": "EMPTY",
+      "parent": "Viewport_16x9_Anchor",
+      "pivot_local_blender_m": [
+        1.6,
+        0.09,
+        0.9
+      ],
+      "size_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Viewport_InnerReveal",
+      "type": "EMPTY",
+      "parent": "FFV2_EditorFrame",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "size_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Reveal_FrontLipHorizontal_Bottom",
+      "type": "MESH",
+      "parent": "Viewport_InnerReveal",
+      "pivot_local_blender_m": [
+        0.0,
+        0.083,
+        -0.935
+      ],
+      "size_m": [
+        3.25,
+        0.02,
+        0.025
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RailEdge"
+      ]
+    },
+    {
+      "name": "Reveal_FrontLipHorizontal_Top",
+      "type": "MESH",
+      "parent": "Viewport_InnerReveal",
+      "pivot_local_blender_m": [
+        0.0,
+        0.083,
+        0.935
+      ],
+      "size_m": [
+        3.25,
+        0.02,
+        0.025
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RailEdge"
+      ]
+    },
+    {
+      "name": "Reveal_FrontLipVertical_L",
+      "type": "MESH",
+      "parent": "Viewport_InnerReveal",
+      "pivot_local_blender_m": [
+        -1.635,
+        0.083,
+        0.0
+      ],
+      "size_m": [
+        0.028,
+        0.02,
+        1.87
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RailEdge"
+      ]
+    },
+    {
+      "name": "Reveal_FrontLipVertical_R",
+      "type": "MESH",
+      "parent": "Viewport_InnerReveal",
+      "pivot_local_blender_m": [
+        1.635,
+        0.083,
+        0.0
+      ],
+      "size_m": [
+        0.028,
+        0.02,
+        1.87
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RailEdge"
+      ]
+    },
+    {
+      "name": "Reveal_Horizontal_Bottom",
+      "type": "MESH",
+      "parent": "Viewport_InnerReveal",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.012,
+        -0.92
+      ],
+      "size_m": [
+        3.2,
+        0.18,
+        0.04
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RevealDark"
+      ]
+    },
+    {
+      "name": "Reveal_Horizontal_Top",
+      "type": "MESH",
+      "parent": "Viewport_InnerReveal",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.012,
+        0.92
+      ],
+      "size_m": [
+        3.2,
+        0.18,
+        0.04
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RevealDark"
+      ]
+    },
+    {
+      "name": "Reveal_Vertical_L",
+      "type": "MESH",
+      "parent": "Viewport_InnerReveal",
+      "pivot_local_blender_m": [
+        -1.62,
+        -0.012,
+        0.0
+      ],
+      "size_m": [
+        0.04,
+        0.18,
+        1.88
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RevealDark"
+      ]
+    },
+    {
+      "name": "Reveal_Vertical_R",
+      "type": "MESH",
+      "parent": "Viewport_InnerReveal",
+      "pivot_local_blender_m": [
+        1.62,
+        -0.012,
+        0.0
+      ],
+      "size_m": [
+        0.04,
+        0.18,
+        1.88
+      ],
+      "triangles": 108,
+      "vertices": 56,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_EF_RevealDark"
+      ]
+    }
+  ],
+  "mesh_count": 53,
+  "triangles": 4762,
+  "animation_data_count": 0,
+  "real_screenshot_status": "unbound; only blank neutral PBR material slots supplied",
+  "dimensions_order": "width,height,depth",
+  "bounds_blender_xyz_m": [
+    [
+      -2,
+      -0.154,
+      -1.3
+    ],
+    [
+      2,
+      0.116,
+      1.3
+    ]
+  ],
+  "raw_fbx_metadata": {
+    "UnitScaleFactor": 1.0,
+    "UpAxis": 1,
+    "UpAxisSign": 1,
+    "FrontAxis": 2,
+    "FrontAxisSign": 1,
+    "root_Lcl_Rotation_deg": [
+      -90.00000933466734,
+      0,
+      0
+    ],
+    "root_Lcl_Scaling": [
+      100,
+      100,
+      100
+    ],
+    "explanation": "Source mesh coordinates remain Blender metres/Z-up, FBX has centimetre metadata and one explicit conversion root. Do not overwrite that root with animation scale/rotation."
+  },
+  "unity_import_contract": {
+    "applies_to": [
+      "fullfilm_v2_editor_frame",
+      "fullfilm_v2_workbench",
+      "fullfilm_v2_scene_block",
+      "fullfilm_v2_hub_detail_kit"
+    ],
+    "preferred": {
+      "globalScale": 1,
+      "useFileScale": true,
+      "bakeAxisConversion": false,
+      "preserveHierarchy": true,
+      "importAnimation": false,
+      "animationType": "None",
+      "importCameras": false,
+      "importLights": false,
+      "importNormals": "Import",
+      "meshCompression": "Off",
+      "hierarchy": "Animate an independent parent pivot; keep imported root scale and rotation untouched"
+    },
+    "compatibility_for_stripped_root_only": {
+      "globalScale": 100,
+      "content_rotation_x_deg": -90,
+      "use": "Only when the target importer/integration has demonstrably stripped or neutralised the source 100/-90 root; never combine both conversions"
+    },
+    "target_test": "At animation wrapper scale=1 verify outer width=4, vertical height=2.6, opening=3.2x1.8; full workbench desk board at wrapper 2.4 must be 5.808m wide and 0.1344m high",
+    "status": "Blender exports and reimports verified. Target Unity importer settings and bounds verification belong to main agent."
+  },
+  "validation": "art/models/fullfilm-v2/editor-frame/editor-frame-validation.json",
+  "source_fbx_metadata": "art/models/fullfilm-v2/editor-frame/fbx-metadata.json",
+  "files": [
+    {
+      "file": "build_editor_frame.py",
+      "bytes": 10791,
+      "sha256": "0a7980eeb63fea1ecd2bd4e0dbeb1b5de24b12be55ad6f0c0589b3c671b0be4d"
+    },
+    {
+      "file": "editor-frame-validation.json",
+      "bytes": 7164,
+      "sha256": "0a143f45b81505ac1ea92f8d25fdf7f10d0dce00c5e240eb1866e39688a3b4e7"
+    },
+    {
+      "file": "fbx-metadata.json",
+      "bytes": 3489,
+      "sha256": "8ff8bc82b14c9d940870decdb64ef663e371ac98eed8a26a52db1ba3086d1ac3"
+    },
+    {
+      "file": "fullfilm_v2_editor_frame.blend",
+      "bytes": 1097860,
+      "sha256": "146128b6e836b88f1299655d78a967e0abc449377fc6b56fbbebbab5cbb58c14"
+    },
+    {
+      "file": "fullfilm_v2_editor_frame.fbx",
+      "bytes": 254908,
+      "sha256": "9a77b9582fc338b9ee72eafff949d4e5cd678e59f76db561c225c6af031f9fe7"
+    },
+    {
+      "file": "fullfilm_v2_editor_frame.glb",
+      "bytes": 348500,
+      "sha256": "13b9d43a4bdaf11802c78f2c02ac2d6fc50f19f86123eb4969ca2df578d940d2"
+    },
+    {
+      "file": "fullfilm_v2_editor_frame_preview.png",
+      "bytes": 1862622,
+      "sha256": "3ca0628860f277bd563f1059f280583467cb1058a053434cd45f014269c02379"
+    }
+  ]
+}

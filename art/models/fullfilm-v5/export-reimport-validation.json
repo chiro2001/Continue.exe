@@ -1,0 +1,47 @@
+{
+  "blender": "4.2.0",
+  "method": "Fresh empty Blender scene import for each exported format",
+  "formats": [
+    {
+      "format": "fbx",
+      "mesh_count": 75,
+      "triangles": 16128,
+      "all_meshes_have_uv": true,
+      "material_names": [
+        "M_FFV5_BranchTimber",
+        "M_FFV5_CanopyBinding",
+        "M_FFV5_CanopyLightSage",
+        "M_FFV5_CanopySage",
+        "M_FFV5_CanopyUnderside",
+        "M_FFV5_CanopyUndersideLight",
+        "M_FFV5_EndGrain",
+        "M_FFV5_JoineryBronze",
+        "M_FFV5_TrunkTimber"
+      ],
+      "cameras": 0,
+      "lights": 0,
+      "passed": true
+    },
+    {
+      "format": "glb",
+      "mesh_count": 75,
+      "triangles": 16128,
+      "all_meshes_have_uv": true,
+      "material_names": [
+        "M_FFV5_BranchTimber",
+        "M_FFV5_CanopyBinding",
+        "M_FFV5_CanopyLightSage",
+        "M_FFV5_CanopySage",
+        "M_FFV5_CanopyUnderside",
+        "M_FFV5_CanopyUndersideLight",
+        "M_FFV5_EndGrain",
+        "M_FFV5_JoineryBronze",
+        "M_FFV5_TrunkTimber"
+      ],
+      "cameras": 0,
+      "lights": 0,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

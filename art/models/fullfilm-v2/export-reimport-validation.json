@@ -1,0 +1,168 @@
+[
+  {
+    "file": "fullfilm_v2_workbench.fbx",
+    "mesh_count": 51,
+    "triangles": 19538,
+    "bounds_blender_m": [
+      [
+        -1.2555451393127441,
+        -0.4149998724460602,
+        0.004999934695661068
+      ],
+      [
+        1.295421838760376,
+        0.5350001454353333,
+        1.7680000066757202
+      ]
+    ],
+    "animation_data_count": 0,
+    "meshes_missing_uv": [],
+    "ui_uv": {
+      "UI_Main_16x9": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    }
+  },
+  {
+    "file": "fullfilm_v2_workbench.glb",
+    "mesh_count": 51,
+    "triangles": 19538,
+    "bounds_blender_m": [
+      [
+        -1.2555450201034546,
+        -0.41499999165534973,
+        0.004999995231628418
+      ],
+      [
+        1.295421838760376,
+        0.5349999666213989,
+        1.7679998874664307
+      ]
+    ],
+    "animation_data_count": 0,
+    "meshes_missing_uv": [],
+    "ui_uv": {
+      "UI_Main_16x9": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    }
+  },
+  {
+    "file": "fullfilm_v2_scene_block.fbx",
+    "mesh_count": 80,
+    "triangles": 17502,
+    "bounds_blender_m": [
+      [
+        -3.9000000953674316,
+        -3.9000000953674316,
+        -0.2750006318092346
+      ],
+      [
+        3.9000000953674316,
+        3.9000000953674316,
+        3.56000018119812
+      ]
+    ],
+    "animation_data_count": 0,
+    "meshes_missing_uv": [],
+    "ui_uv": {}
+  },
+  {
+    "file": "fullfilm_v2_scene_block.glb",
+    "mesh_count": 80,
+    "triangles": 17502,
+    "bounds_blender_m": [
+      [
+        -3.9000000953674316,
+        -3.9000000953674316,
+        -0.2750000059604645
+      ],
+      [
+        3.9000000953674316,
+        3.9000000953674316,
+        3.559999942779541
+      ]
+    ],
+    "animation_data_count": 0,
+    "meshes_missing_uv": [],
+    "ui_uv": {}
+  },
+  {
+    "file": "fullfilm_v2_hub_detail_kit.fbx",
+    "mesh_count": 26,
+    "triangles": 3218,
+    "bounds_blender_m": [
+      [
+        -3.087162494659424,
+        -0.3768400251865387,
+        -7.145651892415117e-08
+      ],
+      [
+        4.069999694824219,
+        0.45000001788139343,
+        3.2899999618530273
+      ]
+    ],
+    "animation_data_count": 0,
+    "meshes_missing_uv": [],
+    "ui_uv": {}
+  },
+  {
+    "file": "fullfilm_v2_hub_detail_kit.glb",
+    "mesh_count": 26,
+    "triangles": 3218,
+    "bounds_blender_m": [
+      [
+        -3.087162494659424,
+        -0.37684017419815063,
+        0.0
+      ],
+      [
+        4.069999694824219,
+        0.44999998807907104,
+        3.2899999618530273
+      ]
+    ],
+    "animation_data_count": 0,
+    "meshes_missing_uv": [],
+    "ui_uv": {}
+  }
+]

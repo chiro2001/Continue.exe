@@ -1,0 +1,310 @@
+{
+  "schema": "fullfilm-v3-avatar-provenance/v1",
+  "checked_on": "2026-10-17",
+  "purpose": "为全片 V3 的 VRChat Avatar 资产归属、许可与盗模议题筛选可核查的一手页面和讨论素材。",
+  "selection_summary": {
+    "selected_source_pages": 6,
+    "browser_capture_images": 7,
+    "status_meaning": "reference-usable 表示可作内部资料核验与创作参考，不代表截图已取得公开发行或电影放映许可。",
+    "priority": "优先官方原文；社区提案按提案记录，不当作平台政策；个人投诉不作事实证明。"
+  },
+  "capture_method": {
+    "date": "2026-10-17",
+    "browser": "Chromium 152.0.7977.75，通过 Selenium WebDriver 4.49.0 驱动。",
+    "method": "以 --headless=new、--mute-audio 打开各来源 URL，等待页面加载后在真实浏览器视口截图；请求窗口 1600x1400，实际 Chromium 内容视口 1600x1257，deviceScaleFactor 1。选区为原网页浏览器截图的矩形裁切，没有重绘、AI 生成或拼接文字。",
+    "redactions": "ABOM 社区提案截图通过 CSS 隐去账号名称并模糊小头像，随后只裁主帖区域，排除投票者侧栏与下方动态；其他截图保留网页正文，不保存含普通用户身份的未遮盖投诉截图。每张图的具体操作、捕获时刻、尺寸、SHA-256 与临时路径见 ~/tmp/vrc-old-web-map/fullfilm-v3/provenance/browser-capture-manifest.json。",
+    "audio": "未播放音频。"
+  },
+  "sources": [
+    {
+      "id": "vrchat-dev-update-antiripping-2024-07",
+      "title": "Developer Update - 25 July 2024",
+      "kind": "official-platform-statement",
+      "status": "reference-usable",
+      "content_date": {
+        "type": "forum publication timestamp",
+        "published_utc": "2024-07-25T18:41:00Z"
+      },
+      "screenshot_date_local": "2026-10-17T20:24:02+08:00",
+      "source_url": "https://ask.vrchat.com/t/developer-update-25-july-2024/25764",
+      "supports": [
+        "VRChat 官方称其增强了 Avatar bundle 下载验证，并报告该轮封禁影响逾 1,900 个使用盗模工具的用户账号。",
+        "官方同一段明确表示平台无法完全杜绝 ripping，保护措施是逐步叠加的安全网。"
+      ],
+      "does_not_support": [
+        "封禁数字不是独立审计统计；公告发布日期不等于每一项封禁的执行日期。",
+        "不能据此说所有 Avatar 都可被彻底保护，亦不能证明某个具体作者的资产曾被盗。"
+      ],
+      "rights_and_privacy": {
+        "source_rights": "网页内容与论坛界面归来源方及相关权利人；页面未注明可自由再发行的开放许可。截图只作本地研究参考，成片引用须另行确认授权与署名方式。",
+        "identity_handling": "截取正文区域，未带普通投诉者身份；不沿用其他页面封面图中未参与本议题的玩家姓名。",
+        "final_distribution_clearance": "not-cleared"
+      },
+      "visual_assets": [
+        {
+          "path": "art/reference/fullfilm-v3-avatar-provenance/01-2024-07-official-anti-ripping-update.png",
+          "temporary_path": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/provenance/01-2024-07-official-anti-ripping-update.png",
+          "capture_time_local": "2026-10-17T20:24:02+08:00",
+          "dimensions_px": [
+            1600,
+            1257
+          ],
+          "sha256": "eea6949aef525b9bcb9369a0b0a9c352fd998990fbb3681f24e3d1ffa6bb1c34",
+          "capture_note": "正文浏览器截图，页面固定标题栏保留公告名称；截图本身未改字。"
+        }
+      ],
+      "recommended_context": "作为平台保护行动的官方时间锚，放在创作署名/许可被遮蔽的段落之后；如果用数字，屏幕标成‘VRChat 官方在 2024-07-25 披露’，不要把平台自述变成独立统计。"
+    },
+    {
+      "id": "vrchat-dev-update-ripping-definition-2024-08",
+      "title": "Developer Update - 8 Aug 2024",
+      "kind": "official-platform-statement",
+      "status": "reference-usable",
+      "content_date": {
+        "type": "forum publication date",
+        "published": "2024-08-08"
+      },
+      "screenshot_date_local": "2026-10-17T20:24:08+08:00",
+      "source_url": "https://ask.vrchat.com/t/developer-update-8-aug-2024/26017",
+      "supports": [
+        "官方将 ripping 定义为使用规则禁止的工具下载不属于自己的 VRChat 资产，并称当时又对约 2,400 个经过核验的账号采取封禁。",
+        "官方说明在本地 SDK 测试实例内使用本人上传或 Public 行头像的规则变化。"
+      ],
+      "does_not_support": [
+        "约 2,400 是平台自己的公告数字，不是独立统计。该公告称 further set；不要将它与 7 月逾 1,900 直接相加成总数。",
+        "这不是针对任何被指名普通用户的调查或裁定。"
+      ],
+      "rights_and_privacy": {
+        "source_rights": "VRChat 官方论坛页面；未找到开放再发行许可。作研究参考使用，成片公开展示前需核授权。",
+        "identity_handling": "截取官方帖子正文，无普通用户发帖身份。",
+        "final_distribution_clearance": "not-cleared"
+      },
+      "visual_assets": [
+        {
+          "path": "art/reference/fullfilm-v3-avatar-provenance/02-2024-08-official-ripping-definition.png",
+          "temporary_path": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/provenance/02-2024-08-official-ripping-definition.png",
+          "capture_time_local": "2026-10-17T20:24:08+08:00",
+          "dimensions_px": [
+            1600,
+            1257
+          ],
+          "sha256": "5e0ec50a238a8a2c6352a0b340585bea0983556e83b0bf2cfd995ac3b566779f",
+          "capture_note": "正文浏览器截图，含官方定义和平台封禁数字；没有补画或文字替换。"
+        }
+      ],
+      "recommended_context": "说明平台所说的‘盗模’范围与官方执法自述；若画面出现缓存/内存/API 等字样，只作为官方定义的一部分，不扩展成操作步骤。"
+    },
+    {
+      "id": "vrchat-terms-user-content-2026",
+      "title": "VRChat Terms of Service, Sections 8.1–8.4 and 13.2",
+      "kind": "official-platform-terms",
+      "status": "reference-usable-current-policy",
+      "content_date": {
+        "type": "effective date shown on page",
+        "effective_date": "2026-02-09"
+      },
+      "screenshot_date_local": "2026-10-17",
+      "source_url": "https://hello.vrchat.com/legal",
+      "supports": [
+        "第 8.1 节称用户保留其发布内容的版权及其他财产权利，但受条款所授许可约束。",
+        "第 8.3 节对设为公开或发布到公开区域的内容，授予其他用户受条款与平台功能约束的访问和使用许可。",
+        "第 13.2(c) 节禁止未经许可分享、公开发布、复制或分发其他用户的内容；第 13.2(f)、(i) 还涉及规避安全功能和采集用户内容。"
+      ],
+      "does_not_support": [
+        "平台条款不是对某个争议 Avatar 的独立版权判决，也不自动判断其底模、委托件、衍生件分别由谁拥有。",
+        "公开 Avatar 的平台内许可不能概括成无限制下载、转售或再发布授权。"
+      ],
+      "rights_and_privacy": {
+        "source_rights": "VRChat 官方条款页面；当前页面标示生效日 2026-02-09。无开放截图许可记录。截图适合作内部核验，外部发行需确认引用许可并按 spec/05-toolchain-and-m0.md 标注来源。",
+        "identity_handling": "官方政策文本，无个人用户身份。",
+        "final_distribution_clearance": "not-cleared"
+      },
+      "visual_assets": [
+        {
+          "path": "art/reference/fullfilm-v3-avatar-provenance/03-terms-user-content-rights-and-licenses.png",
+          "temporary_path": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/provenance/03-terms-user-content-rights-and-licenses.png",
+          "capture_time_local": "2026-10-17T20:24:14+08:00",
+          "dimensions_px": [
+            1600,
+            1257
+          ],
+          "sha256": "02b58d403d42c2113bd8ca28c8556e1f0f068571d190a60001d48f2f8af68a5d",
+          "capture_note": "浏览器滚动到第 8 节，保留 8.1–8.4 原文。"
+        },
+        {
+          "path": "art/reference/fullfilm-v3-avatar-provenance/04-terms-copying-without-permission.png",
+          "temporary_path": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/provenance/04-terms-copying-without-permission.png",
+          "capture_time_local": "2026-10-17T20:24:17+08:00",
+          "dimensions_px": [
+            1600,
+            1257
+          ],
+          "sha256": "f5a3185eed738c66537d080d33a69d83ff3d6aa613e615d542b35bba3080e175",
+          "capture_note": "浏览器滚动到第 13.2 节，原文条款 c 明确提到未经许可复制或分发其他用户内容。"
+        }
+      ],
+      "recommended_context": "可用来解释作者拥有内容权利、公开访问仅带有限的平台许可。标出这是 2026-02-09 生效的当前条款，不把它冒充为 2024 年当时文本。"
+    },
+    {
+      "id": "vrchat-copyright-policy-current",
+      "title": "VRChat Copyright Policy",
+      "kind": "official-platform-policy",
+      "status": "reference-usable-current-policy",
+      "content_date": {
+        "type": "live policy; page does not show a publication or revision date",
+        "checked_on": "2026-10-17"
+      },
+      "screenshot_date_local": "2026-10-17T20:24:19+08:00",
+      "source_url": "https://hello.vrchat.com/copyright",
+      "supports": [
+        "平台提供版权下架通知的正式渠道，并称通知应由权利人或获授权代理人提交。",
+        "政策说明通知可能公开权利人姓名，且完整法定姓名和邮箱等信息可能提供给被指控侵权的用户。"
+      ],
+      "does_not_support": [
+        "页面不证明某个 Avatar 投诉已成功、侵权成立或平台必然采取删除行动。",
+        "政策页没有显示修订日期；此条记录仅说明 2026-10-17 可读取的页面内容。"
+      ],
+      "rights_and_privacy": {
+        "source_rights": "VRChat 官方政策页面；未找到开放再发行许可。截图含官方公司公开联络信息，内部研究可用，成片公开展示前需授权核查。",
+        "identity_handling": "没有个人权利人案例；不在本索引重抄个人投诉表单或任何私人联系信息。",
+        "final_distribution_clearance": "not-cleared"
+      },
+      "visual_assets": [
+        {
+          "path": "art/reference/fullfilm-v3-avatar-provenance/05-copyright-policy-takedown-process.png",
+          "temporary_path": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/provenance/05-copyright-policy-takedown-process.png",
+          "capture_time_local": "2026-10-17T20:24:19+08:00",
+          "dimensions_px": [
+            1600,
+            1257
+          ],
+          "sha256": "7b971e107ff49cbd6461d83e53fe7243aa89a97942ca35144adbcb340fa758c1",
+          "capture_note": "官方页面顶端截屏；在临时浏览器会话中点击了 Cookie “Decline”，未提交表单。"
+        }
+      ],
+      "recommended_context": "把它当作权利人维权流程与隐私成本的政策背景；不要让画面暗示投诉者可以匿名或保证成功。"
+    },
+    {
+      "id": "vrchat-public-avatar-cloning-2018",
+      "title": "VRChat 2018.4.4 Patch Notes",
+      "kind": "official-release-notes",
+      "status": "reference-usable-historical-feature-boundary",
+      "content_date": {
+        "type": "release date shown in official patch notes",
+        "release_date": "2018-12-20"
+      },
+      "screenshot_date_local": "2026-10-17T20:24:25+08:00",
+      "source_url": "https://docs.vrchat.com/docs/patch-notes-2018",
+      "supports": [
+        "VRChat 2018.4.4 更新说明记录：用户可克隆他人所穿的 Public Avatar，前提是对方开启 Allow Avatar Cloning。",
+        "同一说明写明该设置当时默认开启；创作者可在 SDK 的 Manage Uploaded Content 将不希望被克隆的 Avatar 设为 Private。",
+        "更新还说明可以从 Quick Menu 打开 Avatar 作者的 Social page，为“头像有创作者”提供了同期官方界面线索。"
+      ],
+      "does_not_support": [
+        "这是平台内有条件的 clone 功能，不是原始模型文件下载、转售或任意再发布许可。",
+        "2018 年更新说明不证明当前设置默认值，也不能据此推断某个作品今天的实际授权状态。"
+      ],
+      "rights_and_privacy": {
+        "source_rights": "VRChat 官方更新说明与文档界面；未找到开放再发行许可。截图作本地研究参考，公开成片引用需核许可与来源署名。",
+        "identity_handling": "官方更新说明正文，无普通投诉者身份或私人信息。",
+        "final_distribution_clearance": "not-cleared"
+      },
+      "visual_assets": [
+        {
+          "path": "art/reference/fullfilm-v3-avatar-provenance/06-2018-12-public-avatar-cloning-patch-notes.png",
+          "temporary_path": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/provenance/06-2018-12-public-avatar-cloning-patch-notes.png",
+          "capture_time_local": "2026-10-17T20:24:25+08:00",
+          "dimensions_px": [
+            1600,
+            1257
+          ],
+          "sha256": "e79c2bd0de8a025da3725234306ce3b2b5d080f3ca672dd0935691a0679acb41",
+          "capture_note": "真实浏览器视口截屏；同屏可见 2018.4.4、Released: Dec 20 2018 与克隆/Private/作者页说明。"
+        }
+      ],
+      "recommended_context": "作为 2018 年站内分享功能的时间锚，说明“被允许的克隆”本来就有 Public 与 Allow Avatar Cloning 条件；与后来的平台反盗模行动并列时要保留日期差异。"
+    },
+    {
+      "id": "vrchat-community-abom-proposal-2026-09",
+      "title": "Avatar Bill of Materials (ABOM) 社区提案",
+      "kind": "community-feature-request",
+      "status": "reference-usable-as-proposal-only",
+      "content_date": {
+        "type": "Canny post timestamp",
+        "published_utc": "2026-09-22T08:30:30.299Z",
+        "displayed_date": "2026-09-22"
+      },
+      "screenshot_date_local": "2026-10-17T20:24:30+08:00",
+      "source_url": "https://feedback.vrchat.com/avatar-30/p/avatar-bill-of-materials-abom",
+      "supports": [
+        "一位社区发帖者提出可选、注重隐私的 Avatar Bill of Materials，记录组件来源、作者、版本、依赖和许可等元数据。",
+        "提案将 Avatar 看作多人、多资产、多许可组合而成的作品，并指出来源信息容易在 Unity 整合流程中丢失。"
+      ],
+      "does_not_support": [
+        "这是用户提案，不是 VRChat 官方政策、承诺、采用的标准或已部署功能。",
+        "提案描述的生态问题和工具需求不等于经独立统计的盗模规模。"
+      ],
+      "rights_and_privacy": {
+        "source_rights": "社区用户撰写的公开提案，原帖文字权利未另行授权。截图只供内部研究；公开使用前须联系作者或改用经核实的短摘要并评估适用引用规则。",
+        "identity_handling": "截图 CSS 隐去作者账号名称并模糊头像，主截图裁去投票者和后续动态；文档不记录作者昵称。",
+        "final_distribution_clearance": "not-cleared"
+      },
+      "visual_assets": [
+        {
+          "path": "art/reference/fullfilm-v3-avatar-provenance/07-community-abom-proposal-anonymized.png",
+          "temporary_path": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/provenance/07-community-abom-proposal-anonymized.png",
+          "capture_time_local": "2026-10-17T20:24:30+08:00",
+          "dimensions_px": [
+            890,
+            890
+          ],
+          "sha256": "9f617667840b420063f2e69352beea9a975a088a85b9dd322758187ff051f053",
+          "capture_note": "真实 Canny 主帖视口截屏的矩形裁切；CSS 隐去账号名称和小头像，未改写帖子正文。未保存未遮盖截图。",
+          "crop_rect_px_from_viewport": [
+            620,
+            80,
+            1510,
+            970
+          ]
+        }
+      ],
+      "recommended_context": "将其明确标为‘2026-09-22 社区提案’，可用于署名、依赖与许可信息如何随 Avatar 一起保存的讨论；不要说 VRChat 已经采纳 ABOM。"
+    }
+  ],
+  "review_queue": [
+    {
+      "id": "vrchat-feedback-avatar-theft-2026-03",
+      "title": "2026-03-16 用户反馈：Avatar Asset Theft",
+      "source_url": "https://feedback.vrchat.com/avatar-30/p/feedback-on-avatar-asset-theft-via-modified-clients-and-cache-hot-swapping",
+      "content_date": "2026-03-16T12:43:08.543Z",
+      "status": "待核；不作为已证实事件或机制证据；本轮未保留可展示截图。",
+      "reason": "发帖者对个人模型被盗和技术机制作出第一人称指控，但目前未找到独立核实或平台处置记录；页面显示作者、投票者和评论身份，正文含未经核实的机制主张。若后续确需表现社区投诉，应只截标题/日期并彻底匿名化，旁注‘单一用户反馈’。",
+      "screenshot_date": null,
+      "image_path": null,
+      "screenshot_note": "本轮未截取或保存该社区帖子画面。"
+    },
+    {
+      "id": "vrchat-feedback-tens-of-thousands-2026-06",
+      "title": "2026-06-24 用户反馈：盗取数量主张",
+      "source_url": "https://feedback.vrchat.com/feature-requests/p/thieves-have-stolen-tens-of-thousands-of-private-avatars",
+      "content_date": "2026-06-24",
+      "status": "不用于画面、统计或事实陈述。",
+      "reason": "标题中的‘数万’未独立核实；该帖含争议性规模主张和指向外部资源的链接。本轮没有截图、下载或复述相关链接内容。",
+      "screenshot_date": null,
+      "image_path": null,
+      "screenshot_note": "本轮未截取或保存该社区帖子画面。"
+    }
+  ],
+  "editorial_rules": [
+    "官方公告可证平台曾如何表述与行动，不自动成为独立审计结果。",
+    "2018 年官方更新说明的站内 Public clone 具有设置条件；不能作为未经许可下载、出售或重新上传的授权证据。",
+    "公开头像的许可、平台内访问权、源文件所有权、底模许可和衍生资产权利须分开判断。",
+    "不点名普通受害者、未成年人或未证实的被指控者；社区投诉只写“用户反馈/指控”，不将数量、机制或传播规模当作事实。",
+    "所有网页与用户提案截图均为内部研究参考；按 spec/05-toolchain-and-m0.md 的要求，成片使用截图须补来源署名，并先核实可公开展示的权利依据。"
+  ],
+  "cross_references": [
+    "spec/11-vrchat-community-history.md：已有反盗模及 2026 社区反馈证据边界。",
+    "spec/54-fullfilm-historical-anchors.md：既有 2024 官方反盗模公告截图，不应重复解释成另一项事件。",
+    "data/vrchat-materials.json：既有来源 ID ripping2024、ripping-feedback-march、ripping-feedback-june。"
+  ]
+}

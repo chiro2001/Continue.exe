@@ -1,0 +1,944 @@
+{
+  "schema": "fullfilm-v4-media-binding.1",
+  "input_video_manifest_sha256": "854f2e2a845aca55448c7abb1d93dd040e7997e8396a6509a86579c42aeb7962",
+  "input_emote_manifest_sha256": "fc6ab7800f71f0dd3dee62deb993cc41a66ba59212e0ca30d198f89ffc7d24fd",
+  "history_frames": [
+    {
+      "id": "F01",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F01_0004.0_legacy-room-list.png",
+      "sha256": "4876d15ab4a8de7e1b767e11236242fb8eacc6ba7d3a6123d59d1e6e9ccabcc1",
+      "source_seconds": 4.0,
+      "depicted_date": "2014 chapter context",
+      "date_confidence": "medium"
+    },
+    {
+      "id": "F02",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F02_0008.0_legacy-social-avatar.png",
+      "sha256": "7b44cb98d8fb72732af7e638734156e74c68e9a5a664bcb9001586557eff584a",
+      "source_seconds": 8.0,
+      "depicted_date": "2014 chapter context",
+      "date_confidence": "medium"
+    },
+    {
+      "id": "F03",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F03_0020.0_stereo-vr-view.png",
+      "sha256": "4f00e5acf0970b81e78a7870c893f2c43fd775865e8ab2f5aad1275f9adab35d",
+      "source_seconds": 20.0,
+      "depicted_date": "2014 chapter context",
+      "date_confidence": "medium"
+    },
+    {
+      "id": "F04",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F04_0001.0_year-2014-card.png",
+      "sha256": "7d6a85cf455e34caa18fc295f9087281092e469160c68143aced8f8c9e49c8b7",
+      "source_seconds": 1.0,
+      "depicted_date": "2014",
+      "date_confidence": "high"
+    },
+    {
+      "id": "F05",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F05_0024.0_avatar-profile-panel.png",
+      "sha256": "9724a05120e056358d127cab9c2a9864cd2252e761750151ee3b79a874e3f390",
+      "source_seconds": 24.0,
+      "depicted_date": "2015 chapter context",
+      "date_confidence": "medium"
+    },
+    {
+      "id": "F06",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F06_0021.0_year-2015-card.png",
+      "sha256": "810399edf11f6322a8cb06c7185457c80fa0a3aefa9b94d4f5a3d05cd970c5ee",
+      "source_seconds": 21.0,
+      "depicted_date": "2015",
+      "date_confidence": "high"
+    },
+    {
+      "id": "F07",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F07_0044.0_luminous-vr-game.png",
+      "sha256": "cc436c8803b4f288060e7528bb91752c2818e435400b0eab21140b0569fe0d06",
+      "source_seconds": 44.0,
+      "depicted_date": "2015 chapter context",
+      "date_confidence": "medium"
+    },
+    {
+      "id": "F08",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F08_0051.0_all-rooms-menu.png",
+      "sha256": "43d5ef32fa8f7a8452e160e609cddeee7b97fcb105be227a344bccfdbe399f4b",
+      "source_seconds": 51.0,
+      "depicted_date": "2015 chapter context",
+      "date_confidence": "medium"
+    },
+    {
+      "id": "F09",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F09_0085.0_hub-home-interior.png",
+      "sha256": "1672bac4d57b36cd764ec56eed9be9e22eafb20a0bf0c6517acecaa8e3665463",
+      "source_seconds": 85.0,
+      "depicted_date": "2016 chapter context",
+      "date_confidence": "medium"
+    },
+    {
+      "id": "F10",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F10_0056.0_in-world-chat-screen.png",
+      "sha256": "87130797935d9ed29c00721e2b6ae2112a50a2dc19f6e22d4e62b833a7d38e2b",
+      "source_seconds": 56.0,
+      "depicted_date": "2015 chapter context",
+      "date_confidence": "medium"
+    },
+    {
+      "id": "F11",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F11_0070.0_particle-music-world.png",
+      "sha256": "bdeb16827c90abe0ced2e58e6d69d453734f513b5ef5bc1645c3b73c42de42dd",
+      "source_seconds": 70.0,
+      "depicted_date": "2016 chapter context",
+      "date_confidence": "medium"
+    },
+    {
+      "id": "F12",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F12_0115.0_2018-unity-editor.png",
+      "sha256": "2b168edc3c01c263a2586a604851fcca92755df50d7f4038e2caeffdcec025b4",
+      "source_seconds": 115.0,
+      "depicted_date": "2018 chapter context",
+      "date_confidence": "medium"
+    },
+    {
+      "id": "F13",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F13_0120.0_unity-world-editor.png",
+      "sha256": "cb0bcb2bc3022ce5db52e5a59f933c49bb75ead7e0b3b6c09095713f93dfb729",
+      "source_seconds": 120.0,
+      "depicted_date": "2018 chapter context",
+      "date_confidence": "medium"
+    },
+    {
+      "id": "F14",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F14_0104.0_single-nameplate-ui.png",
+      "sha256": "ba77bde5899416121e4ee2fab853fa5c9c96c96c24f44b2de8d9aaa81e72657b",
+      "source_seconds": 104.0,
+      "depicted_date": "2017 chapter context",
+      "date_confidence": "medium"
+    },
+    {
+      "id": "F15",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F15_0150.0_beach-social-world.png",
+      "sha256": "013b0a67b8653d5fb11ab46d602800083f0aa1c6388d7a8bb54c6880a7d4a3ec",
+      "source_seconds": 150.0,
+      "depicted_date": "2018 chapter context",
+      "date_confidence": "medium"
+    },
+    {
+      "id": "F16",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F16_0156.0_2018-backstage-world.png",
+      "sha256": "02d83c80b0d44d066965db48c889349aaa925f926fb0ab5240fa87dbfa3ed1dd",
+      "source_seconds": 156.0,
+      "depicted_date": "2018 chapter context",
+      "date_confidence": "medium"
+    },
+    {
+      "id": "F17",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F17_0180.0_new-year-2018-world.png",
+      "sha256": "fb1957ad2727cc968c1b267128887e3f91a0dede9a72a109bffb530089dc30ec",
+      "source_seconds": 180.0,
+      "depicted_date": "2018",
+      "date_confidence": "high"
+    },
+    {
+      "id": "F18",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F18_0090.0_full-body-grass-world.png",
+      "sha256": "a5b967482c402b2bfcf7a99ad4eaa4a8f240c488c4527b2ede2beab96e7f5f46",
+      "source_seconds": 90.0,
+      "depicted_date": "2017 chapter context",
+      "date_confidence": "medium"
+    },
+    {
+      "id": "F19",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F19_0210.0_avatar-3-card.png",
+      "sha256": "5b40dd9599e681f10f9c2fc4f50310d7ead91a2f5ce8ed7040bc9dc70d66dfc9",
+      "source_seconds": 210.0,
+      "depicted_date": "Avatar 3.0; year unverified",
+      "date_confidence": "low"
+    },
+    {
+      "id": "F20",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F20_0214.0_new-action-menu-card.png",
+      "sha256": "b4db3401dc5b255746b1322ac297f1ea7cb1d7640c99f7bb58bce91a6efb0631",
+      "source_seconds": 214.0,
+      "depicted_date": "New Action Menu; year unverified",
+      "date_confidence": "low"
+    },
+    {
+      "id": "F21",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F21_0184.0_year-2020-card.png",
+      "sha256": "5563e199e2620d5ba9bea2095971bb830e67ff06fb2aee184f65847a22ae55b5",
+      "source_seconds": 184.0,
+      "depicted_date": "2020",
+      "date_confidence": "high"
+    },
+    {
+      "id": "F22",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F22_0238.0_incoming-ui-features.png",
+      "sha256": "bf975bd8feadbbfce6df64c2aedb4a21899f8d4c83f88e827dc9301378b4fb2e",
+      "source_seconds": 238.0,
+      "depicted_date": null,
+      "date_confidence": "unknown"
+    },
+    {
+      "id": "F23",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F23_0254.0_udon-networking-update.png",
+      "sha256": "588cefa6b04831ae205bcf270517a607f3ea5283477d9d7f170d11eaede83d3f",
+      "source_seconds": 254.0,
+      "depicted_date": null,
+      "date_confidence": "unknown"
+    },
+    {
+      "id": "F24",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F24_0257.0_custom-menu-pages.png",
+      "sha256": "9871554279a8fd8f7b43821f56cd376fbadfab0cf3bad4be8141b72cf68e5a8c",
+      "source_seconds": 257.0,
+      "depicted_date": null,
+      "date_confidence": "unknown"
+    },
+    {
+      "id": "F25",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F25_0274.0_unity-2019-lts.png",
+      "sha256": "e926c8f1c1311d58fb6102b107f3137b4ce6dea1c3a992a8d8b46552cf484d92",
+      "source_seconds": 274.0,
+      "depicted_date": "Unity 2019 LTS version label",
+      "date_confidence": "high"
+    },
+    {
+      "id": "F26",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F26_0285.0_spookality-2021.png",
+      "sha256": "2c5ce790dc500ae5a37adc389fc6d9b84f1e6ab33fc94ecb1cc2255e26faaa47",
+      "source_seconds": 285.0,
+      "depicted_date": "2021",
+      "date_confidence": "high"
+    },
+    {
+      "id": "F27",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F27_0259.0_launch-pad-ui.png",
+      "sha256": "71e209df7b6d6d2c4d73cbf8d06808b8021caf920909fa9929d0f9724d8c4287",
+      "source_seconds": 259.0,
+      "depicted_date": null,
+      "date_confidence": "unknown"
+    },
+    {
+      "id": "F28",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F28_0287.0_new-quick-menu.png",
+      "sha256": "bc38949b3b380a06408f2854a758397c90893ddffd720fff1db2ac112255777a",
+      "source_seconds": 287.0,
+      "depicted_date": null,
+      "date_confidence": "unknown"
+    },
+    {
+      "id": "F29",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F29_0334.0_year-2022-card.png",
+      "sha256": "437b7a498b07d286b5594e961bc8f54ccf5224f363f40faa5c3cec4a7607ee0f",
+      "source_seconds": 334.0,
+      "depicted_date": "2022",
+      "date_confidence": "high"
+    },
+    {
+      "id": "F30",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F30_0336.0_osc-for-avatars.png",
+      "sha256": "90d037c134ec46159217fd75f73b5166ec97f584194fd2bfd82bda13b9fc955b",
+      "source_seconds": 336.0,
+      "depicted_date": "after 2022 card; exact year unverified",
+      "date_confidence": "low"
+    },
+    {
+      "id": "F31",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F31_0356.0_ik-2-title.png",
+      "sha256": "c04ebd59fc184efc28079025b64170be7e9b3339da623937200a5795425312a7",
+      "source_seconds": 356.0,
+      "depicted_date": "IK 2.0; year unverified",
+      "date_confidence": "low"
+    },
+    {
+      "id": "F32",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F32_0364.0_calibration-saving.png",
+      "sha256": "99d0d357749415e3b6fa471af46680be4d368b9020155582f3a8cec47dfb99ec",
+      "source_seconds": 364.0,
+      "depicted_date": null,
+      "date_confidence": "unknown"
+    },
+    {
+      "id": "F33",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F33_0010.0_sunset-home-world.png",
+      "sha256": "186d0ec2ead89a01b8d2ddfa88f9f74fb7c768143280ff860e64ca5e6e263ab7",
+      "source_seconds": 10.0,
+      "depicted_date": "2014 chapter context",
+      "date_confidence": "medium"
+    },
+    {
+      "id": "F34",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F34_0029.0_social-world-help-panel.png",
+      "sha256": "918b632099b8fcba349e2d9d5796cbe650b3f24f5c2b27764c6d48e2707591e3",
+      "source_seconds": 29.0,
+      "depicted_date": "2015 chapter context",
+      "date_confidence": "medium"
+    },
+    {
+      "id": "F35",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F35_0064.0_year-2016-card.png",
+      "sha256": "7bf85c1232b045592f049ea3383640d80f9619a3c8c8520cdbca73dfd7b599c0",
+      "source_seconds": 64.0,
+      "depicted_date": "2016",
+      "date_confidence": "high"
+    },
+    {
+      "id": "F36",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F36_0078.0_outdoor-world-plaza.png",
+      "sha256": "a1699d1daf59e5d52d2017efedca4a3248e6d38c0b1e265d45d02c8018ca4720",
+      "source_seconds": 78.0,
+      "depicted_date": "2016 chapter context",
+      "date_confidence": "medium"
+    },
+    {
+      "id": "F37",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F37_0088.0_year-2017-card.png",
+      "sha256": "709cdd409dcb2de5fb2000d37153072216dcc4eb7dc64148b1a2070ca4c56e99",
+      "source_seconds": 88.0,
+      "depicted_date": "2017",
+      "date_confidence": "high"
+    },
+    {
+      "id": "F38",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F38_0227.0_year-2021-card.png",
+      "sha256": "ef45cc34456103b57d38dae4e2b4b63fba5f08d3504b907fa96bc3f3b29ac7a6",
+      "source_seconds": 227.0,
+      "depicted_date": "2021",
+      "date_confidence": "high"
+    },
+    {
+      "id": "F39",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F39_0262.0_regions-card.png",
+      "sha256": "45580271df3313b9593acabe616557f159d4fcc576abe1681586d92601a31292",
+      "source_seconds": 262.0,
+      "depicted_date": null,
+      "date_confidence": "unknown"
+    },
+    {
+      "id": "F40",
+      "file": "art/export/fullfilm-v4-video/frames/frame_F40_0264.0_region-selection-menu.png",
+      "sha256": "28fe1d23a8afad19175b09b58f05417d17b4b23b59d9eaa7ac6c308709b387e7",
+      "source_seconds": 264.0,
+      "depicted_date": null,
+      "date_confidence": "unknown"
+    }
+  ],
+  "history_events": [
+    {
+      "start": 77.44,
+      "end": 78.08,
+      "frame": 0,
+      "source_id": "F01",
+      "label": "VRChat · 2014段",
+      "aside": [
+        1,
+        2
+      ]
+    },
+    {
+      "start": 78.08,
+      "end": 78.72,
+      "frame": 8,
+      "source_id": "F09",
+      "label": "VRChat · 2016段",
+      "aside": [
+        10,
+        35
+      ]
+    },
+    {
+      "start": 78.72,
+      "end": 79.36,
+      "frame": 13,
+      "source_id": "F14",
+      "label": "Nameplate · 2017段",
+      "aside": [
+        17,
+        36
+      ]
+    },
+    {
+      "start": 79.36,
+      "end": 81.92,
+      "frame": 11,
+      "source_id": "F12",
+      "label": "VRChat · 2018段",
+      "aside": [
+        12,
+        14
+      ]
+    },
+    {
+      "start": 81.92,
+      "end": 83.84,
+      "frame": 14,
+      "source_id": "F15",
+      "label": "VRChat · 2018段",
+      "aside": [
+        15,
+        16
+      ]
+    },
+    {
+      "start": 83.84,
+      "end": 85.12,
+      "frame": 15,
+      "source_id": "F16",
+      "label": "VRChat · 2018段",
+      "aside": [
+        14,
+        16
+      ]
+    },
+    {
+      "start": 85.12,
+      "end": 86.4,
+      "frame": 16,
+      "source_id": "F17",
+      "label": "VRChat · 2018",
+      "aside": [
+        14,
+        12
+      ]
+    },
+    {
+      "start": 86.4,
+      "end": 88.96,
+      "frame": 20,
+      "source_id": "F21",
+      "label": "Udon",
+      "aside": [
+        18,
+        19
+      ]
+    },
+    {
+      "start": 88.96,
+      "end": 91.52,
+      "frame": 18,
+      "source_id": "F19",
+      "label": "Avatar 3.0 / Action Menu",
+      "aside": [
+        19,
+        22
+      ]
+    },
+    {
+      "start": 91.52,
+      "end": 94.72,
+      "frame": 38,
+      "source_id": "F39",
+      "label": "Regions",
+      "aside": [
+        39,
+        23
+      ]
+    },
+    {
+      "start": 94.72,
+      "end": 97.28,
+      "frame": 24,
+      "source_id": "F25",
+      "label": "Unity 2019 LTS",
+      "aside": [
+        37,
+        23
+      ]
+    },
+    {
+      "start": 97.28,
+      "end": 99.84,
+      "frame": 25,
+      "source_id": "F26",
+      "label": "Spookality 2021",
+      "aside": [
+        27,
+        37
+      ]
+    },
+    {
+      "start": 99.84,
+      "end": 102.4,
+      "frame": 27,
+      "source_id": "F28",
+      "label": "Quick Menu",
+      "aside": [
+        26,
+        23
+      ]
+    },
+    {
+      "start": 102.4,
+      "end": 104.96,
+      "frame": 28,
+      "source_id": "F29",
+      "label": "VRChat · 2022段",
+      "aside": [
+        29,
+        31
+      ]
+    },
+    {
+      "start": 104.96,
+      "end": 107.52,
+      "frame": 29,
+      "source_id": "F30",
+      "label": "OSC",
+      "aside": [
+        30,
+        31
+      ]
+    },
+    {
+      "start": 107.52,
+      "end": 111.36,
+      "frame": 30,
+      "source_id": "F31",
+      "label": "IK 2.0",
+      "aside": [
+        31,
+        29
+      ]
+    }
+  ],
+  "films": [
+    {
+      "id": "C01",
+      "file": "art/export/fullfilm-v4-media/film-C01.png",
+      "sha256": "f018a6ff4d94aadd8e9bec86d0f52c2a335318ff14c2d8012187317f2c0c0748",
+      "source_file": "art/export/fullfilm-v4-video/clips/clip_01_0114.0-0118.0_2018-card-to-editor.mp4",
+      "source_sha256": "748e5f0aa7e690ba016862f79fefecdec38f628e84887ae25db03cc3198e3c0a",
+      "start": 79.36,
+      "end": 81.92,
+      "aside": false,
+      "fps": 10,
+      "frames": 40,
+      "grid": [
+        8,
+        8
+      ],
+      "source_frames_only": true,
+      "audio": "none"
+    },
+    {
+      "id": "C02",
+      "file": "art/export/fullfilm-v4-media/film-C02.png",
+      "sha256": "20129d12dcbc5f44a0056bd79f0cf14c58c1854b72770e854ba869d1aa54c1d7",
+      "source_file": "art/export/fullfilm-v4-video/clips/clip_02_0199.0-0202.0_udon-introduction.mp4",
+      "source_sha256": "c7141c205f8555bd10b09c2e0e3dd06ce42e3a2f0f355254eb50716e8fa833d0",
+      "start": 86.4,
+      "end": 88.96,
+      "aside": false,
+      "fps": 10,
+      "frames": 30,
+      "grid": [
+        8,
+        8
+      ],
+      "source_frames_only": true,
+      "audio": "none"
+    },
+    {
+      "id": "C03",
+      "file": "art/export/fullfilm-v4-media/film-C03.png",
+      "sha256": "47ecceaa87319d069cf6cb7a5aba767354d0713102ecc1dbb2e2df6c3bdd3149",
+      "source_file": "art/export/fullfilm-v4-video/clips/clip_03_0210.0-0216.0_avatar3-action-menu.mp4",
+      "source_sha256": "a7d85e76a3c9a0115a9a7529d91537b7b1574817afe540be8a63c3e4d555405a",
+      "start": 88.96,
+      "end": 91.52,
+      "aside": false,
+      "fps": 10,
+      "frames": 60,
+      "grid": [
+        8,
+        8
+      ],
+      "source_frames_only": true,
+      "audio": "none"
+    },
+    {
+      "id": "C04",
+      "file": "art/export/fullfilm-v4-media/film-C04.png",
+      "sha256": "28fe889df294e3a6748ed2c79fa2db33ca064c7534e28534bcb361ed02cb045b",
+      "source_file": "art/export/fullfilm-v4-video/clips/clip_04_0262.0-0266.0_regions-ui.mp4",
+      "source_sha256": "b26b087da8339569d1e691a9735dbd7e8b550a81127b338cb6f7f490b755d315",
+      "start": 91.52,
+      "end": 94.72,
+      "aside": false,
+      "fps": 10,
+      "frames": 40,
+      "grid": [
+        8,
+        8
+      ],
+      "source_frames_only": true,
+      "audio": "none"
+    },
+    {
+      "id": "C05",
+      "file": "art/export/fullfilm-v4-media/film-C05.png",
+      "sha256": "b130e9d21c1fcd52f187bdff04e15eee751e4736eace0c4360ebf971dc7eec1a",
+      "source_file": "art/export/fullfilm-v4-video/clips/clip_05_0274.0-0278.0_unity-engine-upgrade-2019.mp4",
+      "source_sha256": "f9f8e39675c95578987a037d1911ab68ae2a0cf45d92a666618bd2e29e0a66ca",
+      "start": 94.72,
+      "end": 97.28,
+      "aside": false,
+      "fps": 10,
+      "frames": 40,
+      "grid": [
+        8,
+        8
+      ],
+      "source_frames_only": true,
+      "audio": "none"
+    },
+    {
+      "id": "C06",
+      "file": "art/export/fullfilm-v4-media/film-C06.png",
+      "sha256": "38f31dc473a93b7c1a3f18afa2dfa71db5461c7865ae11c040a6a259d2399a33",
+      "source_file": "art/export/fullfilm-v4-video/clips/clip_06_0285.0-0287.0_spookality-2021-card.mp4",
+      "source_sha256": "bf3236e0d1ee5b9f30a934293490cbdda11b896d838f6d71b5090fcd43d61243",
+      "start": 97.28,
+      "end": 99.84,
+      "aside": false,
+      "fps": 10,
+      "frames": 20,
+      "grid": [
+        8,
+        8
+      ],
+      "source_frames_only": true,
+      "audio": "none"
+    },
+    {
+      "id": "C07",
+      "file": "art/export/fullfilm-v4-media/film-C07.png",
+      "sha256": "3eb3edc82d8590d396338b6956af3146591f6007175ae41e7a8e6dc0b3a47f95",
+      "source_file": "art/export/fullfilm-v4-video/clips/clip_07_0334.0-0338.0_2022-card-transition.mp4",
+      "source_sha256": "fdb4f993a28beff70c981c6f78ec9368a8d02b89d51b52ba1e70e48002268399",
+      "start": 102.4,
+      "end": 104.96,
+      "aside": false,
+      "fps": 10,
+      "frames": 40,
+      "grid": [
+        8,
+        8
+      ],
+      "source_frames_only": true,
+      "audio": "none"
+    },
+    {
+      "id": "C08",
+      "file": "art/export/fullfilm-v4-media/film-C08.png",
+      "sha256": "568e5bcbaa8625f33f217e28fc509f035a469cc27134ddaac5e582e084c9e5fa",
+      "source_file": "art/export/fullfilm-v4-video/clips/clip_08_0356.0-0362.0_ik-2-tracking.mp4",
+      "source_sha256": "2246adebb1a17442db97fe1d0735763e562b41b48e510945b986957f8f81864a",
+      "start": 107.52,
+      "end": 111.36,
+      "aside": true,
+      "fps": 10,
+      "frames": 60,
+      "grid": [
+        8,
+        8
+      ],
+      "source_frames_only": true,
+      "audio": "none"
+    }
+  ],
+  "emotes": [
+    {
+      "id": "qq-2003-00-surprised",
+      "file": "art/export/fullfilm-v4-media/emote-qq-2003-00-surprised.png",
+      "source_file": "art/export/fullfilm-v4-emotes/qq-2003-00-surprised.png",
+      "source_sha256": "7a375814ed55e2b67978351495e096486dafadb392266180eede67d5ffad8495",
+      "sha256": "ca05148d60dc46ecced4f65e971752fc9c90fa9efef2176c4852e55e6fabad41",
+      "aspect": 1.0,
+      "start": 20.48,
+      "end": 253.44
+    },
+    {
+      "id": "qq-2003-01-pout",
+      "file": "art/export/fullfilm-v4-media/emote-qq-2003-01-pout.png",
+      "source_file": "art/export/fullfilm-v4-emotes/qq-2003-01-pout.png",
+      "source_sha256": "0f15cd91f3edc66835cea87aa607f8cd96dfbf5e68efd749250e55602e73b888",
+      "sha256": "62d93cd5a3a438af0419c526b174c97f40977d48e3b17fffd7210abb85dcf803",
+      "aspect": 1.0,
+      "start": 20.48,
+      "end": 253.44
+    },
+    {
+      "id": "qq-2003-02-love-struck",
+      "file": "art/export/fullfilm-v4-media/emote-qq-2003-02-love-struck.png",
+      "source_file": "art/export/fullfilm-v4-emotes/qq-2003-02-love-struck.png",
+      "source_sha256": "b75b56ac13e86c2a301aab9b89c7406a0c4d58f2805ff8d70a66ec551bcff9a7",
+      "sha256": "1ec968a16fe463c7a7c7f0f4f85415dc3611453017ddf1f9c33a2f789e45d7ea",
+      "aspect": 1.0,
+      "start": 20.48,
+      "end": 253.44
+    },
+    {
+      "id": "qq-2003-03-blank",
+      "file": "art/export/fullfilm-v4-media/emote-qq-2003-03-blank.png",
+      "source_file": "art/export/fullfilm-v4-emotes/qq-2003-03-blank.png",
+      "source_sha256": "9ba9d93bdf0e10128bc301d008773d786c8a88ef9f48698f74c50c54f14de226",
+      "sha256": "f066df88f892e2ff315dacbe17a570351b3fd2bc902de03ac18d156f4d70181a",
+      "aspect": 1.0,
+      "start": 20.48,
+      "end": 253.44
+    },
+    {
+      "id": "qq-2003-04-smug",
+      "file": "art/export/fullfilm-v4-media/emote-qq-2003-04-smug.png",
+      "source_file": "art/export/fullfilm-v4-emotes/qq-2003-04-smug.png",
+      "source_sha256": "dc2aace81b877ffe91e732ba7261924123b8137dc281946aaa1bd71cf9a442cd",
+      "sha256": "dcac0fb45a928ef0072e4172f2f46126fe077556ff4b4bd1a0c45d4f47e30814",
+      "aspect": 1.0,
+      "start": 20.48,
+      "end": 253.44
+    },
+    {
+      "id": "qq-2003-05-tears",
+      "file": "art/export/fullfilm-v4-media/emote-qq-2003-05-tears.png",
+      "source_file": "art/export/fullfilm-v4-emotes/qq-2003-05-tears.png",
+      "source_sha256": "793f21cef7f17270142e174e21d8e75458666e8c7bdca05b20b7a5da0730fce7",
+      "sha256": "eed3472eed083717eb56441cd449859095b24015de492e9d7fc743c9fca3cd32",
+      "aspect": 1.0,
+      "start": 20.48,
+      "end": 253.44
+    },
+    {
+      "id": "qq-2003-06-shy",
+      "file": "art/export/fullfilm-v4-media/emote-qq-2003-06-shy.png",
+      "source_file": "art/export/fullfilm-v4-emotes/qq-2003-06-shy.png",
+      "source_sha256": "0a15df96d1cb7d3a80b2c655e4d72e92b5ce4b4eea7ecf1f33e670828b20bc2c",
+      "sha256": "04d49792e8cbe4391fa425da6e118284642cee3499a3f6a98a32865e55672d2f",
+      "aspect": 1.0,
+      "start": 20.48,
+      "end": 253.44
+    },
+    {
+      "id": "qq-2003-07-shush",
+      "file": "art/export/fullfilm-v4-media/emote-qq-2003-07-shush.png",
+      "source_file": "art/export/fullfilm-v4-emotes/qq-2003-07-shush.png",
+      "source_sha256": "cca909dfb4d81075f3c143b6552c532ce94e9163f6febeeff8410ab88bc27017",
+      "sha256": "84ae88a3c76acf07b5dd84775e0f33ab9c69ac89700723f3bff262556749b13d",
+      "aspect": 1.0,
+      "start": 20.48,
+      "end": 253.44
+    },
+    {
+      "id": "qq-2003-08-sleep",
+      "file": "art/export/fullfilm-v4-media/emote-qq-2003-08-sleep.png",
+      "source_file": "art/export/fullfilm-v4-emotes/qq-2003-08-sleep.png",
+      "source_sha256": "7c3114d10dfd9fb61146a3cfef14cc194c3343457790427a1e821675ef25334e",
+      "sha256": "d522629f7e51070e15bc620032bfd09d046f0758143737426ce0507fb3c53c07",
+      "aspect": 1.0,
+      "start": 20.48,
+      "end": 253.44
+    },
+    {
+      "id": "qq-2003-09-cry",
+      "file": "art/export/fullfilm-v4-media/emote-qq-2003-09-cry.png",
+      "source_file": "art/export/fullfilm-v4-emotes/qq-2003-09-cry.png",
+      "source_sha256": "2a3f4379bf15132c7c557522eb6436348868395ea4ed2e43fb6075d7ca707198",
+      "sha256": "22364b4070209b0224a258345729183b14c0d259fffeb92f82220f1e972ff190",
+      "aspect": 1.0,
+      "start": 20.48,
+      "end": 253.44
+    },
+    {
+      "id": "qq-2003-10-awkward",
+      "file": "art/export/fullfilm-v4-media/emote-qq-2003-10-awkward.png",
+      "source_file": "art/export/fullfilm-v4-emotes/qq-2003-10-awkward.png",
+      "source_sha256": "c4fcb96b0c4f84d4bcd3107e6f96c29b8ea528d843e2fd2e9a642df0c2742f2f",
+      "sha256": "6833e36296ae7b06733dac2d6ae871dede8d78d3cdcd6ad680c125707cfaa5b3",
+      "aspect": 1.0,
+      "start": 20.48,
+      "end": 253.44
+    },
+    {
+      "id": "qq-2003-11-angry",
+      "file": "art/export/fullfilm-v4-media/emote-qq-2003-11-angry.png",
+      "source_file": "art/export/fullfilm-v4-emotes/qq-2003-11-angry.png",
+      "source_sha256": "935be9283b9611286aa2146486cb3cc1ac314db61554b3017eaadf770bc56d30",
+      "sha256": "101b61788a079593972a7392db23451cfd20b674a80b597ac6e76f21bb6038fd",
+      "aspect": 1.0,
+      "start": 20.48,
+      "end": 253.44
+    },
+    {
+      "id": "qq-2003-12-playful",
+      "file": "art/export/fullfilm-v4-media/emote-qq-2003-12-playful.png",
+      "source_file": "art/export/fullfilm-v4-emotes/qq-2003-12-playful.png",
+      "source_sha256": "fb915d0b51fafa1d090b0a257fcd55614934e3a07ccbc8523dd8056853e337d8",
+      "sha256": "e8fcb0400e4f5aa38133c7df3cd1b0daf2da7f47b0434d6c338f2c2180fa6dc8",
+      "aspect": 1.0,
+      "start": 20.48,
+      "end": 253.44
+    },
+    {
+      "id": "qq-2003-13-toothy-grin",
+      "file": "art/export/fullfilm-v4-media/emote-qq-2003-13-toothy-grin.png",
+      "source_file": "art/export/fullfilm-v4-emotes/qq-2003-13-toothy-grin.png",
+      "source_sha256": "21f4edd6b1716ae7e69f1a2ad79df07532da41a43da64f16a6c1c4192bb04732",
+      "sha256": "42c6e90dbc0f5d34b2542a1e92aade8295f71471bdf8e9d6a1ec3b3f3f63fd03",
+      "aspect": 1.0,
+      "start": 20.48,
+      "end": 253.44
+    },
+    {
+      "id": "qq-2003-14-smile",
+      "file": "art/export/fullfilm-v4-media/emote-qq-2003-14-smile.png",
+      "source_file": "art/export/fullfilm-v4-emotes/qq-2003-14-smile.png",
+      "source_sha256": "80f14bd78b9d5a543db866adc9397a432f219495adf43f8a70f1e7f1836870f5",
+      "sha256": "5573683b40be6a21fbdd579c4468be7fd496fa70dfe7ce3c6c2f8acf609ca1a1",
+      "aspect": 1.0,
+      "start": 20.48,
+      "end": 253.44
+    },
+    {
+      "id": "qq-2003-15-sad",
+      "file": "art/export/fullfilm-v4-media/emote-qq-2003-15-sad.png",
+      "source_file": "art/export/fullfilm-v4-emotes/qq-2003-15-sad.png",
+      "source_sha256": "2ac5d99b28df6f7ef865fb61cc68087691f5019416df6e70b449af56ceee4ea8",
+      "sha256": "adea09b1fbb551eb113b40f31a014c699be089c22fc1e84a74f230e6a3fdca53",
+      "aspect": 1.0,
+      "start": 20.48,
+      "end": 253.44
+    },
+    {
+      "id": "qq-2003-16-cool",
+      "file": "art/export/fullfilm-v4-media/emote-qq-2003-16-cool.png",
+      "source_file": "art/export/fullfilm-v4-emotes/qq-2003-16-cool.png",
+      "source_sha256": "cbb063fa16c01f10dd7318c1e41b9939c54bfe02e81e5e6af200ffeb2c26eda7",
+      "sha256": "e2a85ef0756f6e3112d92085ff32b767902e0769a94eab54ab2f3a24a7c05042",
+      "aspect": 1.0,
+      "start": 20.48,
+      "end": 253.44
+    },
+    {
+      "id": "qq-2003-17-sars",
+      "file": "art/export/fullfilm-v4-media/emote-qq-2003-17-sars.png",
+      "source_file": "art/export/fullfilm-v4-emotes/qq-2003-17-sars.png",
+      "source_sha256": "8745cb6ae610c8c7b78bf40ac67d54e8d91fa901241e06d6e9bce463418cf6dc",
+      "sha256": "5c27248fa3f98ba1b81f471646ed25fc76cde6e95c5ed1dce7851a086ee5eb95",
+      "aspect": 1.0,
+      "start": 20.48,
+      "end": 253.44
+    },
+    {
+      "id": "qq-2003-18-rage",
+      "file": "art/export/fullfilm-v4-media/emote-qq-2003-18-rage.png",
+      "source_file": "art/export/fullfilm-v4-emotes/qq-2003-18-rage.png",
+      "source_sha256": "d57bc3789a0651669d882411f51eac060ea3814ae2206aba996a62cdfdfce3b8",
+      "sha256": "37228fd95b62c7bd6b9f50612fdc9c32699bd44e669b60a2832339da8849ab7f",
+      "aspect": 1.0,
+      "start": 20.48,
+      "end": 253.44
+    },
+    {
+      "id": "qq-2003-19-vomit",
+      "file": "art/export/fullfilm-v4-media/emote-qq-2003-19-vomit.png",
+      "source_file": "art/export/fullfilm-v4-emotes/qq-2003-19-vomit.png",
+      "source_sha256": "24930f90242faaf2cf36c4028fee9add280d3d7b24c7cdd6820c7c2fac7fee6f",
+      "sha256": "b27a311fe723e7911f69b07deb1ddbe927ba0cebcb163885cbdcd413c3743855",
+      "aspect": 1.0,
+      "start": 20.48,
+      "end": 253.44
+    },
+    {
+      "id": "onionhead-2007-shout",
+      "file": "art/export/fullfilm-v4-media/emote-onionhead-2007-shout.png",
+      "source_file": "art/export/fullfilm-v4-emotes/onionhead-2007-shout.png",
+      "source_sha256": "dbf4e466b92a4827dad928e8e363520f7cde68e296e41214c325484dd40f5eb0",
+      "sha256": "f86108445d19a4afa7689c2c33ed126e2f9a13d5e810761945bd5fd34e213b56",
+      "aspect": 0.9054054054054054,
+      "start": 51.2,
+      "end": 253.44
+    },
+    {
+      "id": "onionhead-2007-blush",
+      "file": "art/export/fullfilm-v4-media/emote-onionhead-2007-blush.png",
+      "source_file": "art/export/fullfilm-v4-emotes/onionhead-2007-blush.png",
+      "source_sha256": "fad1657191a68d5ca7848075c057fc6ff1323acd61fd06106a72fc97e74f5bb5",
+      "sha256": "f19dd0a11e3d578019a910fc76815b48e96c6894839401aa7bafdc54ed6e15ba",
+      "aspect": 0.881578947368421,
+      "start": 51.2,
+      "end": 253.44
+    },
+    {
+      "id": "onionhead-2007-smile",
+      "file": "art/export/fullfilm-v4-media/emote-onionhead-2007-smile.png",
+      "source_file": "art/export/fullfilm-v4-emotes/onionhead-2007-smile.png",
+      "source_sha256": "a106655202b6f82856d811a23ad94a1c937c17fcaa4fe56b74d2b972b1387393",
+      "sha256": "c2cad128454da2a2a4ab0f7dcab25b838ee90f644296e6dad0134487f19317ee",
+      "aspect": 0.8918918918918919,
+      "start": 51.2,
+      "end": 253.44
+    },
+    {
+      "id": "tieba-huaji-color-2014",
+      "file": "art/export/fullfilm-v4-media/emote-tieba-huaji-color-2014.png",
+      "source_file": "art/export/fullfilm-v4-emotes/tieba-huaji-color-2014.png",
+      "source_sha256": "85d84c33271ffd355171e20ae462db0ebfa63b4613ac3bb267756184dc6b82c6",
+      "sha256": "10df0edfce47078cbb11e010124aa01476ed761c943be46e5cd2b8aac6dfc32c",
+      "aspect": 1.0,
+      "start": 51.2,
+      "end": 253.44
+    },
+    {
+      "id": "rage-guy-openclipart-2011",
+      "file": "art/export/fullfilm-v4-media/emote-rage-guy-openclipart-2011.png",
+      "source_file": "art/export/fullfilm-v4-emotes/rage-guy-openclipart-2011.png",
+      "source_sha256": "18b803c0f62da1bf66e332330c1d6052d96379fd346ab66c28b94086f8ac49a6",
+      "sha256": "f7aa3db8024c1ee5853b5b9810bace079959ab7456b6b29d541017e612924a56",
+      "aspect": 1.0,
+      "start": 51.2,
+      "end": 253.44
+    },
+    {
+      "id": "rage-forever-alone-openclipart-2011",
+      "file": "art/export/fullfilm-v4-media/emote-rage-forever-alone-openclipart-2011.png",
+      "source_file": "art/export/fullfilm-v4-emotes/rage-forever-alone-openclipart-2011.png",
+      "source_sha256": "04f7930a06f223f40288214000e1fb2609add3f393e9a64cd16efa6ac2413b22",
+      "sha256": "a93810902e2e7c8bff2e67de280c9e4d789e6a54c942ecb5c1592e696743d603",
+      "aspect": 0.8619528619528619,
+      "start": 51.2,
+      "end": 253.44
+    },
+    {
+      "id": "rage-trollface-openclipart-2011",
+      "file": "art/export/fullfilm-v4-media/emote-rage-trollface-openclipart-2011.png",
+      "source_file": "art/export/fullfilm-v4-emotes/rage-trollface-openclipart-2011.png",
+      "source_sha256": "4033a1c0695abe7d7c7ca4f993efee07f0454b47371308d4ad39e7179e63c670",
+      "sha256": "7e49f0452335587e9fbcb3b66f0173788eaaf67fabbc4cada155aeb6824a7d8e",
+      "aspect": 0.7052341597796143,
+      "start": 51.2,
+      "end": 253.44
+    },
+    {
+      "id": "tuzki-2011-wave",
+      "file": "art/export/fullfilm-v4-media/emote-tuzki-2011-wave.png",
+      "source_file": "art/export/fullfilm-v4-emotes/tuzki-2011-wave.png",
+      "source_sha256": "c56b189a70b5f3115c325ff76ff852f8f2161d2500d3534a4fdabd358c09ba00",
+      "sha256": "bfa7ddd8083f94b35ee2f5a73b257a0e280b48e5a95a8c4c399fa5b6108d6708",
+      "aspect": 0.9382716049382716,
+      "start": 51.2,
+      "end": 253.44
+    },
+    {
+      "id": "twemoji-2016-joy",
+      "file": "art/export/fullfilm-v4-media/emote-twemoji-2016-joy.png",
+      "source_file": "art/export/fullfilm-v4-emotes/twemoji-2016-joy.png",
+      "source_sha256": "616b5891c86513dd613a5e00ae0d908fad1676ecd3be1004bb06e803bb85106f",
+      "sha256": "04c870a5229efb71e139dbf0cc4530917cffb7296cb172e10fe47c601979b4d7",
+      "aspect": 1.0,
+      "start": 133.12,
+      "end": 253.44
+    }
+  ],
+  "counting": "One original historical video; frames and film atlases are derived views, not separate historical sources."
+}

@@ -1,0 +1,714 @@
+{
+  "version": 1,
+  "status": "production-plan-not-produced-assets",
+  "checked_on": "2026-10-16",
+  "spec": "spec/17-art-production-plan.md",
+  "show_outline": "data/show-outline.json",
+  "spatial_plan_proposal": "data/spatial-scene-plan.json",
+  "inventory": "data/gamepc-assets.json",
+  "inventory_spec": "spec/16-asset-inventory.md",
+  "style_discussion": {
+    "plan": "data/visual-style-plan.json",
+    "spec": "spec/18-visual-style-direction.md",
+    "status": "user-provided-period-faithful-style-carrier-details-pending",
+    "selected_direction": "period-faithful-carriers",
+    "study_scope": "前轮同构图留档只供构图与氛围参考，不作为年代 UI 还原标准、成品母素材或 Unity 验证"
+  },
+  "direction": {
+    "status": "user-provided-art-production-direction",
+    "primary": "自行绘制大量平面内容，场景之间与同一幅画面内部均拆分深度层，放在真正的三维面片与分层结构中",
+    "support": "简单建模、可替换骨骼演员与现有资产复用",
+    "purpose": "提高可辨认内容、层次与空间组合的丰富度",
+    "look": "旧内容按真实年代、设备和软件保留外观，以轻度调色或局部滤镜协调；前期屏幕与窗口承载，后期逐渐自由展开",
+    "closing_expression": "一起做下去"
+  },
+  "quantity_plan": {
+    "status": "authored-first-wave-capacity-estimate-not-fixed-delivery-scope",
+    "graphic_master_units": 124,
+    "content_master_units": 64,
+    "simple_model_archetypes": 18,
+    "counting": "模板、内容图、图标和循环各按设计单位统计；同一幅场景的深度子层归于一个母素材，深度层导出张数、动画帧、补画工作量、状态变体与场景实例另计",
+    "depth_layer_exports_estimate": null,
+    "depth_layer_estimate_status": "待分层小场景试制后估算，母素材数不等于图片导出数",
+    "completed_new_graphic_units": 0,
+    "completed_new_model_archetypes": 0,
+    "completion_scope": "仅指本计划的新制品，不包含已有演员和本地资产包",
+    "runtime_implemented": false
+  },
+  "graphic_families": [
+    {
+      "id": "ui-shells",
+      "title": "界面壳与排版模板",
+      "kind": "template",
+      "planned_master_units": 10,
+      "examples": [
+        "年代窗口",
+        "对话框",
+        "浏览器",
+        "论坛帖",
+        "列表",
+        "发布页",
+        "时间轴",
+        "展示板",
+        "按键机菜单",
+        "早期智能手机控件"
+      ],
+      "spatial_form": "框、底色、内容、选区与提示可拆层，近处结合简单实体边框",
+      "reuse": "内容和文字独立替换，保留各年代的版式与形状"
+    },
+    {
+      "id": "desktop-contents",
+      "title": "桌面与移动终端内容",
+      "kind": "content",
+      "planned_master_units": 8,
+      "examples": [
+        "开机与目录",
+        "个人主页",
+        "编辑与试用",
+        "原创小作品的不同画面",
+        "按键机菜单和 WAP/移动页面",
+        "早期智能手机浏览器"
+      ],
+      "spatial_form": "屏幕内内容、窗口层与可延伸到房间中的图形"
+    },
+    {
+      "id": "web-community-contents",
+      "title": "网页与公共生活",
+      "kind": "content",
+      "planned_master_units": 16,
+      "examples": [
+        "长帖",
+        "日志",
+        "相册",
+        "博客引用",
+        "早期微博",
+        "教程",
+        "留言",
+        "社区公告"
+      ],
+      "spatial_form": "按年代重建的页面、纸片、横幅与空间界面"
+    },
+    {
+      "id": "translation-workflows",
+      "title": "汉化、漫画与字幕工位",
+      "kind": "content",
+      "planned_master_units": 12,
+      "examples": [
+        "原创示例对白",
+        "译稿",
+        "清字与嵌字",
+        "术语表",
+        "字幕时间轴",
+        "贡献名单"
+      ],
+      "spatial_form": "可分开的图层与工位面片，按完成动作合拢"
+    },
+    {
+      "id": "distribution-release-contents",
+      "title": "发布与分发",
+      "kind": "content",
+      "planned_master_units": 8,
+      "examples": [
+        "README",
+        "版本说明",
+        "发布帖",
+        "索引",
+        "分块",
+        "上传与接收状态"
+      ],
+      "spatial_form": "发布窗口、可拼装分块与传递中的页面"
+    },
+    {
+      "id": "vrc-community-contents",
+      "title": "VRChat 社区内容",
+      "kind": "content",
+      "planned_master_units": 8,
+      "examples": [
+        "旧空间导览图形",
+        "世界与 Avatar 展示卡",
+        "活动海报",
+        "制作面板",
+        "教学面板"
+      ],
+      "spatial_form": "入口板、展台信息、房间标识与工作图层",
+      "note": "旧布局与外观按来源和年代核对，现代演员不充作历史实拍"
+    },
+    {
+      "id": "conditions-errors",
+      "title": "条件、报错与受阻",
+      "kind": "content",
+      "planned_master_units": 4,
+      "examples": [
+        "登录与访问条件",
+        "维护提示",
+        "来源缺失",
+        "无法运行"
+      ],
+      "spatial_form": "界面内容、放大的窗口与关口；每种阻力保留自己的语境"
+    },
+    {
+      "id": "repair-cooperation-contents",
+      "title": "重建与合作",
+      "kind": "content",
+      "planned_master_units": 8,
+      "examples": [
+        "资料和代码对照",
+        "AI 辅助制作",
+        "具体求助",
+        "批注",
+        "共同验证",
+        "新用途"
+      ],
+      "spatial_form": "近处工作台、可共同观看的层与逐渐连通的工作区"
+    },
+    {
+      "id": "icons-decals",
+      "title": "图标、贴花与小装饰",
+      "kind": "decoration",
+      "planned_master_units": 40,
+      "examples": [
+        "文件与状态图标",
+        "按钮",
+        "徽章",
+        "横幅",
+        "手绘箭头",
+        "贴纸",
+        "站点装饰",
+        "空间标识"
+      ],
+      "spatial_form": "表面细节、剪影与小面片；共享图集的具体组织待搭建决定"
+    },
+    {
+      "id": "micro-loops",
+      "title": "短循环",
+      "kind": "loop",
+      "planned_master_units": 10,
+      "examples": [
+        "光标",
+        "加载",
+        "分块交换",
+        "GIF 风格小动画",
+        "表情",
+        "扫描",
+        "局部响应"
+      ],
+      "spatial_form": "逐帧图形或简单参数动画，局部使用，主动作保持可读"
+    }
+  ],
+  "simple_models": [
+    {
+      "id": "crt-monitor",
+      "title": "CRT 显示器"
+    },
+    {
+      "id": "tower-case",
+      "title": "机箱"
+    },
+    {
+      "id": "keyboard",
+      "title": "键盘"
+    },
+    {
+      "id": "mouse",
+      "title": "鼠标"
+    },
+    {
+      "id": "speakers",
+      "title": "音箱"
+    },
+    {
+      "id": "modem-router",
+      "title": "调制解调器或路由器"
+    },
+    {
+      "id": "floppy",
+      "title": "软盘"
+    },
+    {
+      "id": "optical-disc",
+      "title": "光盘"
+    },
+    {
+      "id": "usb-drive",
+      "title": "U 盘"
+    },
+    {
+      "id": "folder-volume",
+      "title": "文件夹体块"
+    },
+    {
+      "id": "page-stack",
+      "title": "纸页叠"
+    },
+    {
+      "id": "ui-window-frame",
+      "title": "窗口边框"
+    },
+    {
+      "id": "portal-frame",
+      "title": "入口框"
+    },
+    {
+      "id": "barrier-gate",
+      "title": "栏杆或关口"
+    },
+    {
+      "id": "workbench-module",
+      "title": "模块化工位"
+    },
+    {
+      "id": "display-plinth",
+      "title": "展示台座"
+    },
+    {
+      "id": "feature-phone",
+      "title": "按键机外壳与按键区"
+    },
+    {
+      "id": "early-smartphone",
+      "title": "早期智能手机外壳"
+    }
+  ],
+  "reuse_groups": [
+    {
+      "id": "workspace",
+      "inventory_ids": [
+        "room01",
+        "vrs-furniture-2022"
+      ],
+      "role": "一处工作生活空间与必要家具道具",
+      "selection": "先取一个工作区与必要外观，核对 Room01 可分件程度与当前项目表现",
+      "status": "inventory-located-selection-and-project-adaptation-pending"
+    },
+    {
+      "id": "environment",
+      "inventory_ids": [
+        "skybox-zrain-city",
+        "skybox-55"
+      ],
+      "role": "少量低对比远景与环境",
+      "selection": "按场面选择少数环境，不按库存数量切换",
+      "status": "inventory-located-selection-and-project-adaptation-pending"
+    },
+    {
+      "id": "display-support",
+      "inventory_ids": [
+        "photo-clip",
+        "artboard",
+        "mirrors"
+      ],
+      "role": "展示支架与 Hub 镜子空间关系",
+      "selection": "外观与功能分别确认，Avatar 向组件按世界用途适配",
+      "status": "inventory-located-selection-and-project-adaptation-pending"
+    },
+    {
+      "id": "shared-tools",
+      "inventory_ids": [
+        "qvpen",
+        "world-lighting",
+        "bakery"
+      ],
+      "role": "共同画板、可见度和制作光照",
+      "selection": "功能按需采用；Bakery 仅为编辑器侧工具",
+      "status": "inventory-located-selection-and-project-adaptation-pending"
+    },
+    {
+      "id": "pressure-props",
+      "inventory_ids": [
+        "isolation-cube",
+        "throwable-error",
+        "fusenmemo",
+        "cyber-glitch",
+        "hologram-shader"
+      ],
+      "role": "入口、错误、便签与过载的局部造型或效果",
+      "selection": "仅在匹配自绘场面时采用，逐项确认世界用途与依赖",
+      "status": "inventory-located-selection-and-project-adaptation-pending"
+    }
+  ],
+  "deferred_inventory_ids": [
+    "okaeri-camp",
+    "lakestar-scene",
+    "odradek",
+    "time-bomb"
+  ],
+  "intra_scene_depth": {
+    "status": "user-provided-art-direction-not-produced-assets",
+    "principle": "同一幅画面或面片内的场景，按前景、主体、中景与背景等分别绘制，使用适量的真实前后距离形成一个立体小场景。",
+    "hierarchy": [
+      "世界与场景组之间的深度",
+      "同一幅画面内部的深度层"
+    ],
+    "example_layers_far_to_near": [
+      {
+        "id": "far-view",
+        "content": "窗外天色、城市或远处灯光"
+      },
+      {
+        "id": "background",
+        "content": "墙、门窗与墙面装饰"
+      },
+      {
+        "id": "midground",
+        "content": "桌椅、书架与设备"
+      },
+      {
+        "id": "subject",
+        "content": "插画人物或主要物件"
+      },
+      {
+        "id": "foreground",
+        "content": "桌角、栏杆、招牌与局部装饰"
+      }
+    ],
+    "composition": "共享父场景、参考构图、尺度与锚点，沿局部深度轴安排各层；以参考视点对齐并检查偏侧观察。",
+    "spacing": "随构图尺度、观看范围和阅读需求确定，不设置统一层间距或固定层数。",
+    "occlusion_fill": "补画被前景遮住的背景和主体，边缘为允许的观察范围留出余量。",
+    "cropping": "可裁去无用透明边，但保留画布定位、锚点与偏移；裁切或图集不得改变层间对齐。",
+    "text_and_controls": "正文与界面控件以可读的紧密浅层组织，场景插画的内部承担更明显深度。",
+    "near_edges": "近处可绕看的部分按需要加侧面、背面或简单体块。",
+    "actor_scope": "插画内人物可拆层，场景中的真实 NPC 仍使用骨骼演员。",
+    "counting": "一个分层场景记为一个母素材，层导出、动画帧和补画工作量单列。"
+  },
+  "spatial_rules": [
+    "主要面片保持所属场景组内的朝向，场景组可按演出时间整体运动，图层不逐个追随头部。",
+    "小型装饰可使用朝向观众的方式；所有主要页面不统一贴头旋转。",
+    "界面框、底色、内容、选区和提示可拆为少量层，关键合拢和移动可辨。",
+    "同一幅插画、漫画格或房间画面继续拆为独立绘制的深度层，统一父场景与构图，补齐遮挡区域。",
+    "手边屏幕有机壳，纸页有背面与纸叠，入口有门框；近处接触物用简单实体。",
+    "近处保留一个主要动作，中景安排同类活动，远景以轮廓、招牌和小循环形成规模。",
+    "层间使用实际三维距离，避免重叠闪烁；单眼合成图不冒充立体场景。",
+    "普通页面优先用不透明或适合裁切的方式，透明边缘按需求单独组织。",
+    "长段无界时不画全局房间或场地外框，活动片段可在不同距离、方向和高度分布；内外互换用分层与复制布景另做空间原型。"
+  ],
+  "scene_assemblies": [
+    {
+      "section": "connect",
+      "graphic_families": [
+        "ui-shells",
+        "desktop-contents",
+        "vrc-community-contents",
+        "icons-decals",
+        "micro-loops"
+      ],
+      "simple_models": [
+        "crt-monitor",
+        "tower-case",
+        "keyboard",
+        "mouse",
+        "feature-phone",
+        "early-smartphone",
+        "portal-frame",
+        "workbench-module"
+      ],
+      "reuse_groups": [
+        "workspace",
+        "environment"
+      ],
+      "composition": "从电脑、按键机、早期智能手机或明确浏览器边界承载内容，建立时代、屏幕与像素尺度；后续再逐步展开"
+    },
+    {
+      "section": "create",
+      "graphic_families": [
+        "ui-shells",
+        "desktop-contents",
+        "web-community-contents",
+        "translation-workflows",
+        "distribution-release-contents",
+        "vrc-community-contents",
+        "icons-decals",
+        "micro-loops"
+      ],
+      "simple_models": [
+        "crt-monitor",
+        "keyboard",
+        "mouse",
+        "speakers",
+        "modem-router",
+        "floppy",
+        "optical-disc",
+        "usb-drive",
+        "folder-volume",
+        "page-stack",
+        "ui-window-frame",
+        "portal-frame",
+        "workbench-module",
+        "display-plinth"
+      ],
+      "reuse_groups": [
+        "workspace",
+        "environment",
+        "display-support"
+      ],
+      "composition": "先撤全局容器再进入长段无界，制作、发布与共同活动作为不同尺度片段分布，不固定围成三间房。"
+    },
+    {
+      "section": "constrain",
+      "graphic_families": [
+        "ui-shells",
+        "web-community-contents",
+        "distribution-release-contents",
+        "vrc-community-contents",
+        "conditions-errors",
+        "icons-decals"
+      ],
+      "simple_models": [
+        "ui-window-frame",
+        "portal-frame",
+        "barrier-gate",
+        "workbench-module",
+        "page-stack"
+      ],
+      "reuse_groups": [
+        "workspace",
+        "pressure-props"
+      ],
+      "composition": "无界空间中的局部入口、条件或重复副本改变关系，外部不重新封闭。"
+    },
+    {
+      "section": "overload",
+      "graphic_families": [
+        "ui-shells",
+        "web-community-contents",
+        "distribution-release-contents",
+        "vrc-community-contents",
+        "conditions-errors",
+        "icons-decals",
+        "micro-loops"
+      ],
+      "simple_models": [
+        "ui-window-frame",
+        "portal-frame",
+        "barrier-gate",
+        "folder-volume",
+        "page-stack",
+        "workbench-module"
+      ],
+      "reuse_groups": [
+        "workspace",
+        "pressure-props"
+      ],
+      "composition": "无界空间中的局部入口、条件或重复副本改变关系，外部不重新封闭。"
+    },
+    {
+      "section": "distance",
+      "graphic_families": [
+        "desktop-contents",
+        "distribution-release-contents",
+        "conditions-errors"
+      ],
+      "simple_models": [
+        "crt-monitor",
+        "folder-volume",
+        "page-stack",
+        "workbench-module"
+      ],
+      "reuse_groups": [
+        "workspace",
+        "environment"
+      ],
+      "composition": "无可见房间外壳与地板边沿的留白里，只照亮远处保存物。"
+    },
+    {
+      "section": "continue",
+      "graphic_families": [
+        "ui-shells",
+        "desktop-contents",
+        "translation-workflows",
+        "distribution-release-contents",
+        "vrc-community-contents",
+        "repair-cooperation-contents",
+        "icons-decals",
+        "micro-loops"
+      ],
+      "simple_models": [
+        "crt-monitor",
+        "keyboard",
+        "mouse",
+        "page-stack",
+        "ui-window-frame",
+        "portal-frame",
+        "workbench-module",
+        "display-plinth"
+      ],
+      "reuse_groups": [
+        "workspace",
+        "display-support",
+        "shared-tools"
+      ],
+      "composition": "无界中先建立回应，用小窗与大场景、内外互换和远近重构做候选空间试制。"
+    },
+    {
+      "section": "trace",
+      "graphic_families": [
+        "distribution-release-contents",
+        "repair-cooperation-contents",
+        "icons-decals"
+      ],
+      "simple_models": [
+        "page-stack",
+        "workbench-module",
+        "display-plinth"
+      ],
+      "reuse_groups": [
+        "workspace",
+        "shared-tools"
+      ],
+      "composition": "保留可共同操作的人尺度工位，外围无界，接手与新点子继续发生。"
+    }
+  ],
+  "state_reuse": {
+    "status": "authored-variant-plan-not-legacy-node-state-machine",
+    "variants": [
+      "正常使用",
+      "传播",
+      "失去来源",
+      "无法响应",
+      "重建",
+      "新用途",
+      "新增贡献"
+    ],
+    "controls": [
+      "内容",
+      "可编辑文字",
+      "层次",
+      "复制关系",
+      "局部材质",
+      "动作与反馈"
+    ],
+    "note": "母素材、状态变体和场景实例分别计数；该清单不替换旧运行节点的六态数据"
+  },
+  "pilot": {
+    "status": "proposed-production-order-not-started",
+    "composition_studies": [
+      "create",
+      "overload",
+      "distance",
+      "continue"
+    ],
+    "graphic_starters": [
+      {
+        "id": "pilot-window",
+        "family": "ui-shells",
+        "title": "窗口壳"
+      },
+      {
+        "id": "pilot-browser",
+        "family": "ui-shells",
+        "title": "浏览器壳"
+      },
+      {
+        "id": "pilot-thread",
+        "family": "web-community-contents",
+        "title": "论坛帖"
+      },
+      {
+        "id": "pilot-localization",
+        "family": "translation-workflows",
+        "title": "汉化示例"
+      },
+      {
+        "id": "pilot-subtitle",
+        "family": "translation-workflows",
+        "title": "字幕工位"
+      },
+      {
+        "id": "pilot-release",
+        "family": "distribution-release-contents",
+        "title": "BT 发布与进度"
+      },
+      {
+        "id": "pilot-vrc-board",
+        "family": "vrc-community-contents",
+        "title": "VR 展示板"
+      },
+      {
+        "id": "pilot-credits",
+        "family": "distribution-release-contents",
+        "title": "贡献名单"
+      },
+      {
+        "id": "pilot-error",
+        "family": "conditions-errors",
+        "title": "访问与错误内容"
+      },
+      {
+        "id": "pilot-help",
+        "family": "repair-cooperation-contents",
+        "title": "AI 与互助工位"
+      }
+    ],
+    "simple_model_ids": [
+      "crt-monitor",
+      "ui-window-frame",
+      "portal-frame",
+      "workbench-module",
+      "page-stack"
+    ],
+    "additional_carrier_model_candidates": [
+      "feature-phone",
+      "early-smartphone"
+    ],
+    "reuse_groups": [
+      "workspace",
+      "environment"
+    ],
+    "purpose": "先检验绘制风格、空间层次与可复用性，再扩充母素材与组合",
+    "depth_scene_study": {
+      "family": "vrc-community-contents",
+      "parent_starter": "pilot-vrc-board",
+      "scope": "在既有 VR 展示内容母素材中试制一个分层小场景，不额外增加首轮母素材估算。",
+      "checks": [
+        "参考视点合成",
+        "偏侧观察",
+        "被遮挡区域补画",
+        "双眼深度",
+        "关键文字可读性"
+      ]
+    }
+  },
+  "delivery": {
+    "planned_source_directory": "art/source/",
+    "planned_export_directory": "art/export/",
+    "directories_or_assets_created_by_this_plan": false,
+    "source_formats": [
+      "SVG：矢量界面与图标",
+      "分层绘图源与 PNG：插画和位图内容",
+      "可编辑文字：主要阅读内容"
+    ],
+    "metadata": [
+      "家族与编号",
+      "年代样式",
+      "来源或原创示例性质",
+      "父场景与图层编号",
+      "远近顺序",
+      "锚点与裁切偏移",
+      "遮挡补画范围",
+      "状态与分层关系",
+      "使用段落",
+      "母素材、图层导出、动画帧与实例数量"
+    ],
+    "layered_scene_exports": [
+      "可编辑分层源文件",
+      "参考合成图",
+      "独立图层 PNG 或 SVG",
+      "图层定位与深度关系记录"
+    ],
+    "unity_path": "后续序列化、导入设置、材质、Prefab 与场景装配按 UNITY-GUIDE.md 和 Pipeline 执行"
+  },
+  "validation_needs": [
+    "四种空间构图检查自绘内容、面片深度、实体和演员的关系。",
+    "正式搭建检查两眼视差、转头和侧移观察、面片背面与关键文字可读性。",
+    "按实际可见范围与共同使用组织图集、批次和预置内容，检查纹理驻留、透明重叠、材质与演员成本。",
+    "现有包的路径和内容证据不直接升级为当前工程中功能可用。",
+    "旧施工单的计数器归零与磁盘合拢不覆盖已选片尾；旧面数预算不自动套用到新演出。"
+  ],
+  "evidence_policy": [
+    "界面和空间的绘制重建、原创演示内容与真实事实卡分别标明性质。",
+    "重绘新闻或网页仍保留参考年代、出处和已核引文，不冒充原始截图。",
+    "漫画、游戏和字幕流程可用原创示例呈现。",
+    "未核资料与未定位指控不因绘制上屏而成为已核事实。"
+  ],
+  "world_motion_plan": "data/world-motion-plan.json",
+  "world_motion_grouping": "运动景物、骨骼人物、稳定支撑和接触道具分组；素材图层在所属局部场景组中保留对齐。"
+}

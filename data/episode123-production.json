@@ -1,0 +1,326 @@
+{
+  "version": 1,
+  "status": "review-ready",
+  "goal_created": true,
+  "spec": "spec/26-episode123-production.md",
+  "scene_score": "data/scene-score.json",
+  "scope": {
+    "sections": [
+      "connect",
+      "create",
+      "constrain"
+    ],
+    "start": 0,
+    "end": 133.12,
+    "scene_count": 12,
+    "target": "PC VRChat, native head tracking; desktop review supported",
+    "unity_scene": "Assets/Scenes/OWM_Episode123.unity",
+    "asset_root": "Assets/OldWebMap/Episode123",
+    "runtime_legacy_preserved": true
+  },
+  "phase": "completed-awaiting-user-review",
+  "batches": [
+    {
+      "id": "inspect",
+      "status": "completed"
+    },
+    {
+      "id": "art-and-audio",
+      "status": "completed"
+    },
+    {
+      "id": "unity-authoring",
+      "status": "completed"
+    },
+    {
+      "id": "visual-iteration",
+      "status": "completed"
+    },
+    {
+      "id": "runtime-validation",
+      "status": "completed"
+    },
+    {
+      "id": "review-package",
+      "status": "completed"
+    }
+  ],
+  "iterations": [
+    {
+      "id": 1,
+      "scope": "37 SVG/PNG 原创与年代布局素材首稿；4 条统一基准单声道素材；正在接入 Unity",
+      "art_contact_sheet": "/home/chiro/tmp/vrc-old-web-map/episode123/art/contact-sheet.png",
+      "status": "first-unity-scene-built",
+      "scene": "Assets/Scenes/OWM_Episode123.unity",
+      "facts": {
+        "cues": 12,
+        "actors": 4,
+        "animated_objects": 164,
+        "authored_graphic_exports": 37,
+        "audio_mono_stems": 4
+      }
+    },
+    {
+      "id": 2,
+      "status": "reviewed",
+      "fixes": [
+        "主体放大移近",
+        "人物从显示器后显露",
+        "无界内容分布加密",
+        "Hub 改为实际穿行"
+      ],
+      "remaining": [
+        "校准 TMP 世界单位文字",
+        "降低并对齐工位接触"
+      ]
+    },
+    {
+      "id": 3,
+      "status": "reviewed",
+      "fixes": [
+        "文字世界尺度校准",
+        "按双手位置标定键盘与桌面",
+        "字体增补误报改为只请求缺少字形"
+      ],
+      "artifact_directory": "/home/chiro/tmp/vrc-old-web-map/episode123/iteration3"
+    },
+    {
+      "id": 4,
+      "status": "reviewed",
+      "fixes": [
+        "按身高降低工位",
+        "加入过渡走步",
+        "完善自然的日常社区与漫画内容",
+        "增加原创非语音操作音效"
+      ]
+    },
+    {
+      "id": 5,
+      "status": "reviewed",
+      "artifact_directory": "/home/chiro/tmp/vrc-old-web-map/episode123/iteration5",
+      "fixes": [
+        "保留原始 NPOT 像素尺寸与页面比例",
+        "经典桌面改为 4:3",
+        "播放器四轨电平由 AC-RMS 驱动",
+        "下载完成进度和回帖分层出现",
+        "入口控制交互距离"
+      ]
+    },
+    {
+      "id": 6,
+      "status": "reviewed",
+      "fixes": [
+        "年代 Windows 字形改为本机宋体栅格，手机/当代界面分别处理",
+        "现代 VRC 说明采用当代块面",
+        "音频优先调度并缓存重复场景更新",
+        "跨音频缓冲区复核同步读数",
+        "修复私有缓存数组由编辑器恢复为空数组时的运行异常",
+        "桌面播放键改为回车，避免与跳跃共用按键"
+      ],
+      "artifact_directory": "/home/chiro/tmp/vrc-old-web-map/episode123/iteration6"
+    }
+  ],
+  "validation": {
+    "udon_compile": "passed after replacing unsupported Application.isPlaying in the sampling script",
+    "legacy_console_baseline": {
+      "cursor": 3216,
+      "session": "9903dd6e57e0404d9cb06b97b92f7891",
+      "notes": "Old Main scene had missing-font warnings; historical Udon UI exception dated before current goal, not attributed to new scene."
+    },
+    "first_live_smoke": {
+      "status": "passed",
+      "report": "/home/chiro/tmp/vrc-old-web-map/episode123/live-check/live-smoke.json",
+      "checks": [
+        "start",
+        "pause-clock-and-all-audio",
+        "seek-create",
+        "seek-constrain",
+        "restart"
+      ],
+      "four_track_sample_spread_at_check": 0,
+      "actual_client_sim_local_player": true
+    },
+    "first_endurance_attempt": {
+      "status": "historical-failure-resolved-by-final-pass",
+      "report": "/home/chiro/tmp/vrc-old-web-map/episode123/endurance-debug/failure-1.json",
+      "note": "9.1 秒处瞬时读数差触发；故障快照四轨又一致，调度计数未增加。保留原阈值，新增跨缓冲区复核及真实输出 RMS 检查。",
+      "resolved_by": "continuous_live_run"
+    },
+    "motion_retarget": {
+      "status": "passed",
+      "actors": 2,
+      "humanoid_clips": 7,
+      "max_hand_travel_m": [
+        0.453493953,
+        0.344243526
+      ]
+    },
+    "page_stereo_variants": {
+      "status": "warmed-and-compiled",
+      "variants": [
+        "STEREO_INSTANCING_ON",
+        "STEREO_MULTIVIEW_ON"
+      ],
+      "messages": [],
+      "headset_tested": false
+    },
+    "continuous_live_run": {
+      "success": true,
+      "showSeconds": 133.12,
+      "cuesSeen": 12,
+      "maxIntertrackSamples": 0,
+      "maxRawSpread": 1024,
+      "bufferLength": 1024,
+      "bufferCount": 4,
+      "maxAudioClockError": 0.038225174,
+      "maxStageMs": 1.89208984,
+      "maxAudioMs": 0.5683899,
+      "maxListenerRms": 0.09321292,
+      "maxSourceRms": [
+        0.07321688,
+        0.03756304,
+        0.04217243,
+        0.0378930122
+      ],
+      "editorClientSimMedianFps": 80.3709946,
+      "maxEditorBatches": 703,
+      "snapshots": 12,
+      "endCard": true,
+      "report": "/home/chiro/tmp/vrc-old-web-map/episode123/validation/live-endurance.json",
+      "kind": "real-Udon-ClientSim-with-local-player",
+      "raw_spread_note": "最大原始差1024 samples；跨DSP缓冲区复核后的持续最大差0。",
+      "headset_performance_claim": false
+    },
+    "world_buttons": {
+      "status": "passed",
+      "interaction_events": 6,
+      "entry": "real backing Udon _interact",
+      "report": "/home/chiro/tmp/vrc-old-web-map/episode123/validation/live-buttons.json"
+    },
+    "art_pixel_dimensions": {
+      "status": "passed",
+      "count": 40,
+      "npot": "None",
+      "report": "/home/chiro/tmp/vrc-old-web-map/episode123/validation/art-import-check.json"
+    },
+    "reference_movie": {
+      "status": "passed-decode-and-visual-sampling",
+      "duration_seconds": 135.04,
+      "resolution": [
+        1600,
+        900
+      ],
+      "fps": 25,
+      "frames": 3376,
+      "reviewed_samples": 29,
+      "kind": "fixed-viewpoint-offline-reference-plus-stereo-mix",
+      "report": "/home/chiro/tmp/vrc-old-web-map/episode123/validation/render-report.json"
+    },
+    "network_rebuild": {
+      "status": "passed-local-state-reconstruction-after-anchor",
+      "real_multiclient_transport_tested": false
+    },
+    "editor_warning": {
+      "message": "There can be only one active Event System.",
+      "scope": "ClientSim startup; copied scene template contains one EventSystem; no new Udon errors in final continuous run.",
+      "historical_console_errors_excluded": true
+    },
+    "sdk_local_build": {
+      "success": true,
+      "kind": "local-sdk-build-only",
+      "path": "C:\\Users\\Chiro\\tmp/vrc-old-web-map/episode123\\OWM_Episode123.vrcw",
+      "bytes": 23240260,
+      "report": "/home/chiro/tmp/vrc-old-web-map/episode123/validation/sdk-build.json",
+      "uploaded": false
+    },
+    "sdk_project_setup": {
+      "status": "passed",
+      "method": "official UpdateLayers.SetupEditorLayers and SetupCollisionLayerMatrix",
+      "report": "/home/chiro/tmp/vrc-old-web-map/episode123/validation/sdk-layer-setup.json",
+      "before_and_after_preserved": true
+    },
+    "sdk_build_attempts": [
+      {
+        "attempt": 1,
+        "result": "builder-not-mounted",
+        "resolved_by": "official public RegisterBuilder / IsValidBuilder / Initialize lifecycle"
+      },
+      {
+        "attempt": 2,
+        "result": "SDK-project-layer-validation",
+        "resolved_by": "official SDK layer and collision setup"
+      },
+      {
+        "attempt": 3,
+        "result": "success",
+        "bytes": 23240260
+      }
+    ],
+    "post_sdk_smoke": {
+      "status": "passed",
+      "steps": 5,
+      "sample_spread": 0,
+      "report": "/home/chiro/tmp/vrc-old-web-map/episode123/validation/post-sdk-live-smoke.json"
+    },
+    "final_editor": {
+      "status": "passed",
+      "playing": false,
+      "compiling": false,
+      "scene_dirty": false,
+      "bad_materials": 0,
+      "new_unresolved_errors": 0,
+      "known_client_sim_startup_warnings": 1,
+      "state_report": "/home/chiro/tmp/vrc-old-web-map/episode123/validation/final-editor-state.json",
+      "scene_report": "/home/chiro/tmp/vrc-old-web-map/episode123/validation/final-scene-state.json",
+      "console_report": "/home/chiro/tmp/vrc-old-web-map/episode123/validation/console-final.json"
+    }
+  },
+  "review_artifacts": [
+    {
+      "kind": "entry",
+      "path": "/home/chiro/tmp/vrc-old-web-map/episode123/review/index.html"
+    },
+    {
+      "kind": "reference-movie",
+      "path": "/home/chiro/tmp/vrc-old-web-map/episode123/review/episode123-review.mp4"
+    },
+    {
+      "kind": "contact-sheet",
+      "path": "/home/chiro/tmp/vrc-old-web-map/episode123/review/contact-sheet.jpg"
+    },
+    {
+      "kind": "acceptance-notes",
+      "path": "/home/chiro/tmp/vrc-old-web-map/episode123/review/acceptance.md"
+    },
+    {
+      "kind": "local-world-bundle",
+      "path": "/home/chiro/tmp/vrc-old-web-map/episode123/review/OWM_Episode123.vrcw"
+    },
+    {
+      "kind": "manifest",
+      "path": "/home/chiro/tmp/vrc-old-web-map/episode123/review/review-manifest.json"
+    },
+    {
+      "kind": "checksums",
+      "path": "/home/chiro/tmp/vrc-old-web-map/episode123/review/artifact-checksums.json"
+    }
+  ],
+  "remaining": [],
+  "delivered_facts": {
+    "cues": 12,
+    "animated_transforms": 200,
+    "actors": 4,
+    "humanoid_motion_clips": 7,
+    "authored_svg_png_assets": 40,
+    "mono_music_stems": 4,
+    "original_foley_clips": 5,
+    "foley_events": 30,
+    "show_seconds": 133.12
+  },
+  "follow_up_outside_this_delivery": [
+    "用户验收：真实头显双眼、观看距离、舒适度与声场",
+    "真实多客户端网络传输与容量测试",
+    "替换精细动捕、表情与手指",
+    "按全景稿制作其余四段"
+  ]
+}

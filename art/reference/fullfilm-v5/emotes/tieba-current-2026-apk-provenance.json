@@ -1,0 +1,36 @@
+{
+  "schema": "fullfilm-v5-tieba-apk-provenance.1",
+  "app_package": "com.baidu.tieba",
+  "app_version": "22.12.1.0",
+  "app_version_code": 369885440,
+  "app_updated": "2026-09-24",
+  "app_size_bytes": 88718506,
+  "app_developer": "百度",
+  "listing_source_url": "https://mobile.baidu.com/appitemp/321367844",
+  "corroborating_store_url": "https://sj.qq.com/appdetail/com.baidu.tieba",
+  "corroborating_store_update_date": "2026-09-23",
+  "corroboration_note": "The official Baidu Mobile Assistant listing and Tencent MyApp listing both report version 22.12.1.0. Baidu lists 2026-09-24; Tencent MyApp lists 2026-09-23. Use the Baidu date as primary and preserve the one-day listing discrepancy in provenance.",
+  "download_source": "Tencent MyApp CDN URL provided by the current Baidu app listing flow",
+  "download_url": "https://imtt.dd.qq.com/sjy.20025/sjy.00004/70F9FEB84B66FE6D/16891/apk/E85DA03E9B00E513FA359D40F6FCCA36.apk?fsname=com.baidu.tieba_22.12.1.0.apk&csr=6a4e",
+  "downloaded_to": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v5/material-audit/tieba-22.12.1.0-2026-09-24.apk",
+  "apk_stored_in_repository": false,
+  "apk_md5": "e85da03e9b00e513fa359d40f6fcca36",
+  "apk_sha256": "b7e46a08951c87e04ad7b4b6be6b99420268e225183f6ceb5f8c54b0f26551ba",
+  "apk_md5_check": "Matches the 32-hex package identifier in the official Tencent CDN filename.",
+  "preset_archive_member": "assets/emotion/com.baidu.spswitch.emotion.preset.zip",
+  "preset_archive_repository_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/com.baidu.spswitch.emotion.preset.zip",
+  "preset_archive_sha256": "6034d18b9d4f34af301c2c688177d1d1cb6b31187e2f6d78ab716bae98a1a0ea",
+  "preset_metadata_repository_paths": [
+    "art/reference/fullfilm-v5/emotes/tieba-current-2026/emotion_info.json",
+    "art/reference/fullfilm-v5/emotes/tieba-current-2026/pkginfo.json"
+  ],
+  "preset_host_min_version": "11.13.0.0",
+  "preset_version": "1.0.0.0",
+  "preset_version_code": "21",
+  "asset_count": 32,
+  "limitations": [
+    "The preset is the default emoji package embedded in the 2026-09-24 Android app build; this does not establish when each individual drawing was first created.",
+    "The app APK was not added to the repository. Only the compact nested preset archive, its package metadata, and original WebP assets are retained.",
+    "The CDN package hash was checked; no separate publisher certificate allowlist was available in the local project."
+  ]
+}

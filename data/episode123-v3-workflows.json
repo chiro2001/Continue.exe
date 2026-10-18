@@ -1,0 +1,3603 @@
+{
+  "version": 3,
+  "count": 144,
+  "workflows": 36,
+  "assets": [
+    {
+      "id": "workflow-dial-1",
+      "path": "art/export/episode123-v3-workflows/workflow-dial-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "接通网络 · 拨号连接",
+      "category": "desktop",
+      "kind": "original-operation-reconstruction",
+      "workflow": "dial",
+      "state": 0,
+      "preferred_range": [
+        0,
+        10.24
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "ATZ",
+        "OK",
+        "ATDT 163",
+        "CONNECT 33600",
+        "正在验证用户名和密码"
+      ],
+      "sha256": "a25e5c374568804467c24e470266774da99f76aa40f4498ed3e5cc124e48b0e6"
+    },
+    {
+      "id": "workflow-dial-2",
+      "path": "art/export/episode123-v3-workflows/workflow-dial-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "接通网络 · 分配地址",
+      "category": "desktop",
+      "kind": "original-operation-reconstruction",
+      "workflow": "dial",
+      "state": 1,
+      "preferred_range": [
+        0,
+        10.24
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "PPP negotiation",
+        "TCP/IP installed",
+        "远程计算机已连接",
+        "发送: 136 字节   接收: 284 字节"
+      ],
+      "sha256": "123a023e4bab58835850bbeab57609aff9e68e0140f18fa3e4b91dd0a6a89b95"
+    },
+    {
+      "id": "workflow-dial-3",
+      "path": "art/export/episode123-v3-workflows/workflow-dial-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "接通网络 · 测试连接",
+      "category": "desktop",
+      "kind": "original-operation-reconstruction",
+      "workflow": "dial",
+      "state": 2,
+      "preferred_range": [
+        0,
+        10.24
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "C:\\> ping 202.96.128.86",
+        "Reply: bytes=32 time=184ms TTL=242",
+        "Packets: Sent=4 Received=4 Lost=0"
+      ],
+      "sha256": "54fc59bf6b02622d34775668a2206392f9e774fd4ba7e555829a789ea1524d30"
+    },
+    {
+      "id": "workflow-dial-4",
+      "path": "art/export/episode123-v3-workflows/workflow-dial-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "接通网络 · 第一次响应",
+      "category": "desktop",
+      "kind": "original-operation-reconstruction",
+      "workflow": "dial",
+      "state": 3,
+      "preferred_range": [
+        0,
+        10.24
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "C:\\> dir A:\\",
+        "README.TXT   1,024",
+        "HOME.HTM   8,192",
+        "1 个目录   2 个文件",
+        "C:\\> edit home.htm"
+      ],
+      "sha256": "53a3dcb3752f40fd0564aae69d9e114717c59721dbbf2e162c4c468cfc566460"
+    },
+    {
+      "id": "workflow-explorer-1",
+      "path": "art/export/episode123-v3-workflows/workflow-explorer-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "我的电脑 · 打开软盘",
+      "category": "desktop",
+      "kind": "original-operation-reconstruction",
+      "workflow": "explorer",
+      "state": 0,
+      "preferred_range": [
+        4,
+        16
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "A:\\",
+        "README.TXT",
+        "主页素材",
+        "音乐",
+        "我的第一个网页"
+      ],
+      "sha256": "c1a97949335ad1e715b23383763fdb973210e8691fda5a4b62e71ebf9a15d479"
+    },
+    {
+      "id": "workflow-explorer-2",
+      "path": "art/export/episode123-v3-workflows/workflow-explorer-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "我的电脑 · 整理目录",
+      "category": "desktop",
+      "kind": "original-operation-reconstruction",
+      "workflow": "explorer",
+      "state": 1,
+      "preferred_range": [
+        4,
+        16
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "C:\\MYWEB\\",
+        "index.htm",
+        "images\\",
+        "guestbook.htm",
+        "links.htm"
+      ],
+      "sha256": "3331385412e0cc7a8e6668a0d4d302615cf4eb74c7ab0c0d967f2536762450b5"
+    },
+    {
+      "id": "workflow-explorer-3",
+      "path": "art/export/episode123-v3-workflows/workflow-explorer-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "我的电脑 · 复制文件",
+      "category": "desktop",
+      "kind": "original-operation-reconstruction",
+      "workflow": "explorer",
+      "state": 2,
+      "preferred_range": [
+        4,
+        16
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "从 A:\\网页素材 复制到 C:\\MYWEB",
+        "index.htm",
+        "mail.gif",
+        "button.gif",
+        "正在复制网页需要的文件"
+      ],
+      "sha256": "d9a765f1c7ba84d1ca20ac81a9da2ab4cda631db8e568c42738b440ad03e8722"
+    },
+    {
+      "id": "workflow-explorer-4",
+      "path": "art/export/episode123-v3-workflows/workflow-explorer-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "我的电脑 · 查看属性",
+      "category": "desktop",
+      "kind": "original-operation-reconstruction",
+      "workflow": "explorer",
+      "state": 3,
+      "preferred_range": [
+        4,
+        16
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "index.htm 属性",
+        "类型: HTML 文档",
+        "大小: 8.00 KB",
+        "打开方式: Internet Explorer",
+        "存档: 是"
+      ],
+      "sha256": "9d27e23eca8a7cfe3c55212a907576fe47d5fddb2f7f78de8bcb28c375cc0756"
+    },
+    {
+      "id": "workflow-portable-1",
+      "path": "art/export/episode123-v3-workflows/workflow-portable-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "解压即用 · 压缩包内容",
+      "category": "tools",
+      "kind": "original-operation-reconstruction",
+      "workflow": "portable",
+      "state": 0,
+      "preferred_range": [
+        10.24,
+        20.48
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "tools.zip - 压缩文件管理器",
+        "editor.exe",
+        "readme.txt",
+        "license.txt",
+        "plugins\\"
+      ],
+      "sha256": "96abbbdc17113493e6afaea68206d1886d1845fb0bed6fa4115c0af69877df39"
+    },
+    {
+      "id": "workflow-portable-2",
+      "path": "art/export/episode123-v3-workflows/workflow-portable-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "解压即用 · 先看说明",
+      "category": "tools",
+      "kind": "original-operation-reconstruction",
+      "workflow": "portable",
+      "state": 1,
+      "preferred_range": [
+        10.24,
+        20.48
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "README.TXT - 记事本",
+        "无需安装，解压到独立目录。",
+        "保留作者说明与许可。",
+        "设置保存在程序目录。"
+      ],
+      "sha256": "ecd335d590029cb2192296f349535bf5e59f30db23fda37b46354b2aeb565dc8"
+    },
+    {
+      "id": "workflow-portable-3",
+      "path": "art/export/episode123-v3-workflows/workflow-portable-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "解压即用 · 选择工具",
+      "category": "tools",
+      "kind": "original-operation-reconstruction",
+      "workflow": "portable",
+      "state": 2,
+      "preferred_range": [
+        10.24,
+        20.48
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "工具设置",
+        "文本编码: GB2312",
+        "制表符: 4",
+        "换行: CRLF",
+        "自动保存: 开启"
+      ],
+      "sha256": "502121f466c8bd4e5ff5aa36fb27ae91f8b9c1f8da732d72a6c8fed8ca47b429"
+    },
+    {
+      "id": "workflow-portable-4",
+      "path": "art/export/episode123-v3-workflows/workflow-portable-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "解压即用 · 致谢",
+      "category": "tools",
+      "kind": "original-operation-reconstruction",
+      "workflow": "portable",
+      "state": 3,
+      "preferred_range": [
+        10.24,
+        20.48
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "About / Credits",
+        "Programming / Artwork / Music",
+        "感谢维护者与翻译者。",
+        "作者信息随文件一起保留。"
+      ],
+      "sha256": "5d55328136b5f9f643441fade8496490678b101925e1629be898fd9e43b56046"
+    },
+    {
+      "id": "workflow-winamp-1",
+      "path": "art/export/episode123-v3-workflows/workflow-winamp-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "播放列表 · 加入音乐",
+      "category": "tools",
+      "kind": "original-operation-reconstruction",
+      "workflow": "winamp",
+      "state": 0,
+      "preferred_range": [
+        10.24,
+        30.72
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "WINAMP",
+        "OPEN FILE",
+        "demo.mod",
+        "track01.xm",
+        "tune.fc14"
+      ],
+      "sha256": "6a3c68a68259eb85c39143411e69da7acc541ac4290e7fcd1dd9af619fb74b98"
+    },
+    {
+      "id": "workflow-winamp-2",
+      "path": "art/export/episode123-v3-workflows/workflow-winamp-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "播放列表 · 编辑列表",
+      "category": "tools",
+      "kind": "original-operation-reconstruction",
+      "workflow": "winamp",
+      "state": 1,
+      "preferred_range": [
+        10.24,
+        30.72
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "PLAYLIST EDITOR",
+        "01. Intro",
+        "02. Pattern loop",
+        "03. Four voices",
+        "04. End"
+      ],
+      "sha256": "f57f8a683e16169cb52761c4a4a8b252f378d722f8ceebf23f7a6e78eb5e525a"
+    },
+    {
+      "id": "workflow-winamp-3",
+      "path": "art/export/episode123-v3-workflows/workflow-winamp-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "播放列表 · 均衡器",
+      "category": "tools",
+      "kind": "original-operation-reconstruction",
+      "workflow": "winamp",
+      "state": 2,
+      "preferred_range": [
+        10.24,
+        30.72
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "GRAPHIC EQUALIZER",
+        "PREAMP",
+        "60 170 310 600 1K 3K 6K 12K",
+        "音乐从很小的文件里响起"
+      ],
+      "sha256": "1e907e48aeb796ad52721a16e16d62631775a9a2a6cefd60b7d34ee892484cb6"
+    },
+    {
+      "id": "workflow-winamp-4",
+      "path": "art/export/episode123-v3-workflows/workflow-winamp-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "播放列表 · 保存列表",
+      "category": "tools",
+      "kind": "original-operation-reconstruction",
+      "workflow": "winamp",
+      "state": 3,
+      "preferred_range": [
+        10.24,
+        30.72
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "SAVE PLAYLIST",
+        "Filename: night.m3u",
+        "M3U playlist",
+        "Relative paths",
+        "与朋友交换播放列表"
+      ],
+      "sha256": "5fbf0c55cc35b8f46144d49d0b10c8d1b30b81944c847a74f5bac6967b2947bf"
+    },
+    {
+      "id": "workflow-homepage-1",
+      "path": "art/export/episode123-v3-workflows/workflow-homepage-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "个人主页 · 写 HTML",
+      "category": "web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "homepage",
+      "state": 0,
+      "preferred_range": [
+        16,
+        30.72
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "<html>",
+        "<title>我的小站</title>",
+        "<body bgcolor=\"#000080\">",
+        "<h1>欢迎光临</h1>",
+        "<a href=\"guestbook.htm\">留言簿</a>"
+      ],
+      "sha256": "83d62212ee4e12aef1ef0c127732105e538f8ec47bab9526cc36397c282a328f"
+    },
+    {
+      "id": "workflow-homepage-2",
+      "path": "art/export/episode123-v3-workflows/workflow-homepage-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "个人主页 · 浏览预览",
+      "category": "web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "homepage",
+      "state": 1,
+      "preferred_range": [
+        16,
+        30.72
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "我的小站",
+        "欢迎光临",
+        "本站最后更新: 2001-06-16",
+        "文章 · 音乐 · 留言簿",
+        "你是第 000128 位访客"
+      ],
+      "sha256": "ee1082378c6ad534bd040deef97fe1ef5532a9ddcf1f6a9b671b9645ead0e62d"
+    },
+    {
+      "id": "workflow-homepage-3",
+      "path": "art/export/episode123-v3-workflows/workflow-homepage-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "个人主页 · 上传目录",
+      "category": "web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "homepage",
+      "state": 2,
+      "preferred_range": [
+        16,
+        30.72
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "FTP 文件传输",
+        "index.htm  →  /public_html/",
+        "images/ → /public_html/images/",
+        "传输完成",
+        "226 Transfer complete"
+      ],
+      "sha256": "1cdf1168943289194973375181dfd914b4763d7e0f89785b971223180b483401"
+    },
+    {
+      "id": "workflow-homepage-4",
+      "path": "art/export/episode123-v3-workflows/workflow-homepage-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "个人主页 · 收到留言",
+      "category": "web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "homepage",
+      "state": 3,
+      "preferred_range": [
+        16,
+        30.72
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "留言簿",
+        "访客: 夜行人",
+        "这个页面很可爱，链接可以交换吗？",
+        "站长回复: 已经加上了！",
+        "返回首页"
+      ],
+      "sha256": "0ded63ed1c94f3bf34c3084173494bce0122deb684f5e821c6f4a41e35ae77d3"
+    },
+    {
+      "id": "workflow-paint-1",
+      "path": "art/export/episode123-v3-workflows/workflow-paint-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "一像素一像素 · 画图",
+      "category": "creation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "paint",
+      "state": 0,
+      "preferred_range": [
+        20.48,
+        40.96
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "画图 - 未命名",
+        "铅笔工具",
+        "16×16 图标",
+        "调色板: 16 色",
+        "缩放: 800%"
+      ],
+      "sha256": "495ed50db9ce2f11ea35df00e8d94de010b9870fc1377d4ca72b669fbca8f040"
+    },
+    {
+      "id": "workflow-paint-2",
+      "path": "art/export/episode123-v3-workflows/workflow-paint-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "一像素一像素 · 编辑纹理",
+      "category": "creation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "paint",
+      "state": 1,
+      "preferred_range": [
+        20.48,
+        40.96
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "texture.bmp",
+        "32×32 Tile",
+        "重复平铺检查",
+        "修正接缝",
+        "背景像素与前景像素分层"
+      ],
+      "sha256": "182d9a000de074867d474b8a7fce2e1bee04a89be636cddcef438205e325544d"
+    },
+    {
+      "id": "workflow-paint-3",
+      "path": "art/export/episode123-v3-workflows/workflow-paint-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "一像素一像素 · 另存为",
+      "category": "creation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "paint",
+      "state": 2,
+      "preferred_range": [
+        20.48,
+        40.96
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "保存为",
+        "文件名: home.bmp",
+        "24 位位图",
+        "保留可编辑版本",
+        "导出网页用 GIF"
+      ],
+      "sha256": "9ef53f982978ff29e4d14ed7893b3887af2e943ce4d877da1fb9151a2c7f6608"
+    },
+    {
+      "id": "workflow-paint-4",
+      "path": "art/export/episode123-v3-workflows/workflow-paint-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "一像素一像素 · 看见结果",
+      "category": "creation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "paint",
+      "state": 3,
+      "preferred_range": [
+        20.48,
+        40.96
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "index.htm - 预览",
+        "新的小房子图标",
+        "站点导航已有自己的样子",
+        "原始文件留在本地",
+        "下一个图标继续画"
+      ],
+      "sha256": "4bbe9f0df3165925d18cd23886ad2c63beaabb8211bb22835e37e40151280ccb"
+    },
+    {
+      "id": "workflow-manga-1",
+      "path": "art/export/episode123-v3-workflows/workflow-manga-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "漫画汉化 · 整理原稿",
+      "category": "translation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "manga",
+      "state": 0,
+      "preferred_range": [
+        30.72,
+        40.96
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "原稿 03 / 12",
+        "扫描与裁切",
+        "修正倾斜与黑边",
+        "保持台词和画面位置",
+        "原创演示画稿"
+      ],
+      "sha256": "18f8a3aca8251014515a92acf415d47892f400a8aed7d7745a097a130777cae1"
+    },
+    {
+      "id": "workflow-manga-2",
+      "path": "art/export/episode123-v3-workflows/workflow-manga-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "漫画汉化 · 翻译台词",
+      "category": "translation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "manga",
+      "state": 1,
+      "preferred_range": [
+        30.72,
+        40.96
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "台词表",
+        "001 今日はここに。 → 今天就在这里。",
+        "002 手伝うよ。 → 我来帮你。",
+        "003 また明日。 → 明天见。"
+      ],
+      "sha256": "ca4cb7c110b1aad5dcaf7046b9bed42543e7a03046583addebd62079c9e323dd"
+    },
+    {
+      "id": "workflow-manga-3",
+      "path": "art/export/episode123-v3-workflows/workflow-manga-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "漫画汉化 · 清字嵌字",
+      "category": "translation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "manga",
+      "state": 2,
+      "preferred_range": [
+        30.72,
+        40.96
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "图层",
+        "对白文字",
+        "气泡清理",
+        "原稿备份",
+        "校对: 断句与标点"
+      ],
+      "sha256": "734681263f8e73ffa704ecc52d9e5af5be4d9fb02e7d6122b5e7582323fae6c7"
+    },
+    {
+      "id": "workflow-manga-4",
+      "path": "art/export/episode123-v3-workflows/workflow-manga-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "漫画汉化 · 合并发布",
+      "category": "translation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "manga",
+      "state": 3,
+      "preferred_range": [
+        30.72,
+        40.96
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "成品检查",
+        "页序正确",
+        "没有漏字",
+        "保留翻译/校对/嵌字署名",
+        "导出 012 张图片"
+      ],
+      "sha256": "692534ad0da086c2446e3e2f919fee2753589d0d6676743e185010be4512dbe5"
+    },
+    {
+      "id": "workflow-game-1",
+      "path": "art/export/episode123-v3-workflows/workflow-game-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "游戏汉化 · 抽取脚本",
+      "category": "translation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "game",
+      "state": 0,
+      "preferred_range": [
+        30.72,
+        43.52
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "script_01.txt",
+        "0001 Start Game",
+        "0002 Continue",
+        "0003 Options",
+        "0004 Exit"
+      ],
+      "sha256": "6423a32d52ddc40e4715bbc969004e2d30c2e190b4e3ce1f71fe70f8c105f477"
+    },
+    {
+      "id": "workflow-game-2",
+      "path": "art/export/episode123-v3-workflows/workflow-game-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "游戏汉化 · 文本对照",
+      "category": "translation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "game",
+      "state": 1,
+      "preferred_range": [
+        30.72,
+        43.52
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "原文                  译文",
+        "Start Game            开始游戏",
+        "Continue              继续",
+        "Options               设置",
+        "Exit                  退出"
+      ],
+      "sha256": "4646815f11e69c200f99754085ab8779169f3d31eab8cedfcf9dd88c362e899d"
+    },
+    {
+      "id": "workflow-game-3",
+      "path": "art/export/episode123-v3-workflows/workflow-game-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "游戏汉化 · 字库与测试",
+      "category": "translation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "game",
+      "state": 2,
+      "preferred_range": [
+        30.72,
+        43.52
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "font.tbl",
+        "开 始 游 戏 继 续",
+        "检查字宽与溢出",
+        "修正缺字 □",
+        "测试菜单与存档"
+      ],
+      "sha256": "5f88026e631b41826cc44abe156e2c8253027a1638cd28f9bb665430bbddc4a5"
+    },
+    {
+      "id": "workflow-game-4",
+      "path": "art/export/episode123-v3-workflows/workflow-game-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "游戏汉化 · 打包修正",
+      "category": "translation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "game",
+      "state": 3,
+      "preferred_range": [
+        30.72,
+        43.52
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Patch notes",
+        "修正第 3 章漏译",
+        "新增字体回退",
+        "校对: A / 翻译: B / 测试: C",
+        "请保留说明文件"
+      ],
+      "sha256": "6b31521a3976d12000708191444dc5146612fa5bfee1a928612e178989a80766"
+    },
+    {
+      "id": "workflow-subtitles-1",
+      "path": "art/export/episode123-v3-workflows/workflow-subtitles-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "字幕时间轴 · 听译",
+      "category": "fansub",
+      "kind": "original-operation-reconstruction",
+      "workflow": "subtitles",
+      "state": 0,
+      "preferred_range": [
+        40.96,
+        51.2
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "01 00:00:02.120 → 00:00:04.600",
+        "今天也一起做一点。",
+        "02 00:00:05.000 → 00:00:07.440",
+        "这句我来校对。",
+        "音频与原文对照"
+      ],
+      "sha256": "dad52430b8250ecd3a0d583043f9bdd1c71e18026bdbab1e365ce604f8bed92a"
+    },
+    {
+      "id": "workflow-subtitles-2",
+      "path": "art/export/episode123-v3-workflows/workflow-subtitles-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "字幕时间轴 · 对轴",
+      "category": "fansub",
+      "kind": "original-operation-reconstruction",
+      "workflow": "subtitles",
+      "state": 1,
+      "preferred_range": [
+        40.96,
+        51.2
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "起始: 0:00:02.120",
+        "结束: 0:00:04.600",
+        "入点对齐辅音",
+        "出点留出阅读时间",
+        "检查相邻字幕间隔"
+      ],
+      "sha256": "f242053862a51084323a2525511b7cc67eb167250cdfe597e9c449990a9b7267"
+    },
+    {
+      "id": "workflow-subtitles-3",
+      "path": "art/export/episode123-v3-workflows/workflow-subtitles-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "字幕时间轴 · 校对",
+      "category": "fansub",
+      "kind": "original-operation-reconstruction",
+      "workflow": "subtitles",
+      "state": 2,
+      "preferred_range": [
+        40.96,
+        51.2
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "检查列表",
+        "专有名词统一",
+        "不要遮挡画面",
+        "每行字数与停留时间",
+        "错字修正后再次预览"
+      ],
+      "sha256": "ff3de7b988b85aecadf2c8e87bd73a993b37aec57b056d8862716315ffd1d13d"
+    },
+    {
+      "id": "workflow-subtitles-4",
+      "path": "art/export/episode123-v3-workflows/workflow-subtitles-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "字幕时间轴 · 导出字幕",
+      "category": "fansub",
+      "kind": "original-operation-reconstruction",
+      "workflow": "subtitles",
+      "state": 3,
+      "preferred_range": [
+        40.96,
+        51.2
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Export subtitles",
+        "UTF-8",
+        "ASS Advanced SubStation Alpha",
+        "movie.zh-cn.ass",
+        "翻译 / 时间轴 / 校对 / 特效"
+      ],
+      "sha256": "28ef4624851dcbee0201a7a6ff2c2274a5c16541d94a776cf07536350e8d9e14"
+    },
+    {
+      "id": "workflow-typeset-1",
+      "path": "art/export/episode123-v3-workflows/workflow-typeset-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "卡拉与特效 · 逐音节",
+      "category": "fansub",
+      "kind": "original-operation-reconstruction",
+      "workflow": "typeset",
+      "state": 0,
+      "preferred_range": [
+        40.96,
+        56.32
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "{\\k24}一{\\k16}起{\\k32}做{\\k40}下{\\k24}去",
+        "音节边界",
+        "重听这个词",
+        "先保证内容准确"
+      ],
+      "sha256": "730b507ea1b55edc46d48d3422d9268d364cd7149e083b12a136cea7f6f6f302"
+    },
+    {
+      "id": "workflow-typeset-2",
+      "path": "art/export/episode123-v3-workflows/workflow-typeset-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "卡拉与特效 · 设定样式",
+      "category": "fansub",
+      "kind": "original-operation-reconstruction",
+      "workflow": "typeset",
+      "state": 1,
+      "preferred_range": [
+        40.96,
+        56.32
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "样式管理器",
+        "Default / Song / Sign",
+        "字体: 宋体",
+        "描边: 2",
+        "主色: 白色  次色: 金色"
+      ],
+      "sha256": "ae488fb21ed929a565093f3a8a7b5b8ee44814ffb2ebe2ce8dd5a7ee2511da1a"
+    },
+    {
+      "id": "workflow-typeset-3",
+      "path": "art/export/episode123-v3-workflows/workflow-typeset-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "卡拉与特效 · 运动预览",
+      "category": "fansub",
+      "kind": "original-operation-reconstruction",
+      "workflow": "typeset",
+      "state": 2,
+      "preferred_range": [
+        40.96,
+        56.32
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "视觉排版",
+        "\\pos(320,420)",
+        "\\fad(120,240)",
+        "匹配标牌透视",
+        "不要盖住人物表情"
+      ],
+      "sha256": "d55986f3f6177d2b47f3f26fc9ec14c0f6c44813043a42aaade9fe27a0a91c6d"
+    },
+    {
+      "id": "workflow-typeset-4",
+      "path": "art/export/episode123-v3-workflows/workflow-typeset-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "卡拉与特效 · 完整检查",
+      "category": "fansub",
+      "kind": "original-operation-reconstruction",
+      "workflow": "typeset",
+      "state": 3,
+      "preferred_range": [
+        40.96,
+        56.32
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "审核预览",
+        "台词与歌词分层",
+        "特效不抢对白",
+        "片尾保留成员署名",
+        "发布前最后一遍"
+      ],
+      "sha256": "882b1d212a26ae0d061e17eba6d9f60438e51a121e9a4727e6ca9bcb81014702"
+    },
+    {
+      "id": "workflow-torrent-1",
+      "path": "art/export/episode123-v3-workflows/workflow-torrent-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "BitTorrent · 制作种子",
+      "category": "distribution",
+      "kind": "original-operation-reconstruction",
+      "workflow": "torrent",
+      "state": 0,
+      "preferred_range": [
+        51.2,
+        64
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Create Torrent",
+        "文件: 原创演示短片.mkv",
+        "Piece size: 256 KB",
+        "保留作品说明",
+        "生成 .torrent"
+      ],
+      "sha256": "f4b72e70478ce6993ffcd2df28e34f09c1e08a5d73fd8ebba5f36314817e92b6"
+    },
+    {
+      "id": "workflow-torrent-2",
+      "path": "art/export/episode123-v3-workflows/workflow-torrent-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "BitTorrent · 下载区块",
+      "category": "distribution",
+      "kind": "original-operation-reconstruction",
+      "workflow": "torrent",
+      "state": 1,
+      "preferred_range": [
+        51.2,
+        64
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Pieces",
+        "绿色: 已完成",
+        "蓝色: 正在接收",
+        "白色: 等待",
+        "区块来自不同的参与者"
+      ],
+      "sha256": "9288da41cddd1289e428381043a6353bac010cd5162a32babf49d3551fa4f35b"
+    },
+    {
+      "id": "workflow-torrent-3",
+      "path": "art/export/episode123-v3-workflows/workflow-torrent-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "BitTorrent · 校验",
+      "category": "distribution",
+      "kind": "original-operation-reconstruction",
+      "workflow": "torrent",
+      "state": 2,
+      "preferred_range": [
+        51.2,
+        64
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Hash check",
+        "piece 001 OK",
+        "piece 002 OK",
+        "piece 003 OK",
+        "文件完整性验证通过"
+      ],
+      "sha256": "97d41d5bcd7452f70527740617d0fe88258046e95cc6a86ee5eac0d3d43599f1"
+    },
+    {
+      "id": "workflow-torrent-4",
+      "path": "art/export/episode123-v3-workflows/workflow-torrent-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "BitTorrent · 继续做种",
+      "category": "distribution",
+      "kind": "original-operation-reconstruction",
+      "workflow": "torrent",
+      "state": 3,
+      "preferred_range": [
+        51.2,
+        64
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Seeding",
+        "Uploaded: 128 MB",
+        "Ratio: 1.24",
+        "连接: 12 个节点",
+        "收到了，也继续传出去"
+      ],
+      "sha256": "eb3739f9836b19702bfea0d236d19a3979f962e85f138b7a414a354d52f23c03"
+    },
+    {
+      "id": "workflow-emule-1",
+      "path": "art/export/episode123-v3-workflows/workflow-emule-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "电驴的共享目录 · 搜索文件",
+      "category": "distribution",
+      "kind": "original-operation-reconstruction",
+      "workflow": "emule",
+      "state": 0,
+      "preferred_range": [
+        51.2,
+        66.56
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "搜索",
+        "档案 / 自制作品 / 字幕",
+        "类型: 文档",
+        "可用源",
+        "先核对文件名与大小"
+      ],
+      "sha256": "6d84980ecae186cd76b844e23f0c2c7e83d4a1c15bacdd246b835cb5fc31c458"
+    },
+    {
+      "id": "workflow-emule-2",
+      "path": "art/export/episode123-v3-workflows/workflow-emule-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "电驴的共享目录 · 排队等待",
+      "category": "distribution",
+      "kind": "original-operation-reconstruction",
+      "workflow": "emule",
+      "state": 1,
+      "preferred_range": [
+        51.2,
+        66.56
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "传输",
+        "排队: 182",
+        "可用源: 24",
+        "完成块: 18 / 64",
+        "预计剩余时间不断变化"
+      ],
+      "sha256": "6cec79590d59fc68f18bfa7b0b20e01f6c56dcfd768ffc801e8ae895722905fe"
+    },
+    {
+      "id": "workflow-emule-3",
+      "path": "art/export/episode123-v3-workflows/workflow-emule-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "电驴的共享目录 · 共享目录",
+      "category": "distribution",
+      "kind": "original-operation-reconstruction",
+      "workflow": "emule",
+      "state": 2,
+      "preferred_range": [
+        51.2,
+        66.56
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "共享文件",
+        "原创教程.pdf",
+        "字幕样例.ass",
+        "站点备份.zip",
+        "散列与文件大小"
+      ],
+      "sha256": "db0e8084667451486c48bea189902ad01739bad0c04dc478efc47cba08b6ccc8"
+    },
+    {
+      "id": "workflow-emule-4",
+      "path": "art/export/episode123-v3-workflows/workflow-emule-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "电驴的共享目录 · 找回缺块",
+      "category": "distribution",
+      "kind": "original-operation-reconstruction",
+      "workflow": "emule",
+      "state": 3,
+      "preferred_range": [
+        51.2,
+        66.56
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "恢复下载",
+        "重新搜索来源",
+        "最后一个区块有了回应",
+        "散列校验通过",
+        "文件完整"
+      ],
+      "sha256": "2ba7d7f010e481cc4d9772fe63566a540c8ef721e5f11556a3534c98711a6860"
+    },
+    {
+      "id": "workflow-release-1",
+      "path": "art/export/episode123-v3-workflows/workflow-release-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "发布与署名 · 发布页",
+      "category": "distribution",
+      "kind": "original-operation-reconstruction",
+      "workflow": "release",
+      "state": 0,
+      "preferred_range": [
+        51.2,
+        71.68
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "作品发布",
+        "标题: 原创短片与制作记录",
+        "说明: 修正上一版字幕",
+        "文件列表",
+        "翻译 / 校对 / 时间轴 / 维护"
+      ],
+      "sha256": "e788043215b875bd8bb2dbf73f8754350e8492bd8c7db3392e337f7ef274a5b5"
+    },
+    {
+      "id": "workflow-release-2",
+      "path": "art/export/episode123-v3-workflows/workflow-release-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "发布与署名 · NFO",
+      "category": "distribution",
+      "kind": "original-operation-reconstruction",
+      "workflow": "release",
+      "state": 1,
+      "preferred_range": [
+        51.2,
+        71.68
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "RELEASE NOTES",
+        "ARTWORK : LOCAL TEAM",
+        "TRANSLATION : A+B",
+        "TIMING : C",
+        "THANKS TO EVERYONE"
+      ],
+      "sha256": "20c9a96b6df2e34e3afad358ec269c8a1e5b8ef3c2fc5e177ec75b0b475dfcd3"
+    },
+    {
+      "id": "workflow-release-3",
+      "path": "art/export/episode123-v3-workflows/workflow-release-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "发布与署名 · 补档",
+      "category": "distribution",
+      "kind": "original-operation-reconstruction",
+      "workflow": "release",
+      "state": 2,
+      "preferred_range": [
+        51.2,
+        71.68
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "补档说明",
+        "原链接失效",
+        "已补充镜像与校验值",
+        "保留原发布信息",
+        "感谢报告问题的朋友"
+      ],
+      "sha256": "6540fdf9cffa58f98ac71fbe2e51f63ad668b5d0c49ff1fe92907021e86fafb0"
+    },
+    {
+      "id": "workflow-release-4",
+      "path": "art/export/episode123-v3-workflows/workflow-release-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "发布与署名 · 回应",
+      "category": "distribution",
+      "kind": "original-operation-reconstruction",
+      "workflow": "release",
+      "state": 3,
+      "preferred_range": [
+        51.2,
+        71.68
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "发布页回复",
+        "1楼: 收到了，谢谢！",
+        "2楼: 第三句有个错字",
+        "楼主: 已更新到 v2",
+        "下载后请保留说明"
+      ],
+      "sha256": "e66eefe13d56f3d6d6fb0522ef284db4ed6bff80f7b2b3a75c7bf5172906b7f0"
+    },
+    {
+      "id": "workflow-bbs-1",
+      "path": "art/export/episode123-v3-workflows/workflow-bbs-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "论坛的互助 · 求助帖",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "bbs",
+      "state": 0,
+      "preferred_range": [
+        61.44,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "制作交流区",
+        "主题: 贴图为什么变成粉色？",
+        "我试了几个 Shader，仍然不对。",
+        "附件: 编辑器截图",
+        "等待回复"
+      ],
+      "sha256": "cae1213c24a7b3f4b5f0f5e2a899fc1b58d1bfa8066d6f959a2617bec4ca9dd9"
+    },
+    {
+      "id": "workflow-bbs-2",
+      "path": "art/export/episode123-v3-workflows/workflow-bbs-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "论坛的互助 · 回帖",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "bbs",
+      "state": 1,
+      "preferred_range": [
+        61.44,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Re: 贴图为什么变成粉色？",
+        "先确认项目的渲染管线。",
+        "再检查材质引用和控制台。",
+        "可以先做一个最小场景。",
+        "附件: 检查清单"
+      ],
+      "sha256": "78d3aab1c7b233b3a122edfdfbee0d60bf5d92d10526f680d167e112dabfa27c"
+    },
+    {
+      "id": "workflow-bbs-3",
+      "path": "art/export/episode123-v3-workflows/workflow-bbs-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "论坛的互助 · 贴出结果",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "bbs",
+      "state": 2,
+      "preferred_range": [
+        61.44,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Re: 问题解决了",
+        "找到缺失的 Shader 了。",
+        "重新指定后正常。",
+        "把解决方法写在这里，方便后来的人。"
+      ],
+      "sha256": "5f9268933909f4d3d8f6153f18d8144b833a89d7fca4fdd721602e53eae806b5"
+    },
+    {
+      "id": "workflow-bbs-4",
+      "path": "art/export/episode123-v3-workflows/workflow-bbs-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "论坛的互助 · 精华整理",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "bbs",
+      "state": 3,
+      "preferred_range": [
+        61.44,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "本周精华",
+        "贴图导入常见问题",
+        "骨骼与手势入门",
+        "世界光照检查表",
+        "失效链接补档"
+      ],
+      "sha256": "917e14d13ff997db3d1c6c4bd71edc2a1c51b411d446c4fae03b90ae9fbb8c50"
+    },
+    {
+      "id": "workflow-webring-1",
+      "path": "art/export/episode123-v3-workflows/workflow-webring-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "友情链接 · 交换链接",
+      "category": "web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "webring",
+      "state": 0,
+      "preferred_range": [
+        16,
+        35.84
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "友情链接",
+        "夜航小站",
+        "像素仓库",
+        "译者日记",
+        "个人主页互助圈"
+      ],
+      "sha256": "a96c63049a8c6afe68811f75c9af79b7db3bb544e54ac6bf94df5e48a733f98c"
+    },
+    {
+      "id": "workflow-webring-2",
+      "path": "art/export/episode123-v3-workflows/workflow-webring-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "友情链接 · 收集书签",
+      "category": "web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "webring",
+      "state": 1,
+      "preferred_range": [
+        16,
+        35.84
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "收藏夹",
+        "个人主页",
+        "字体与绘画",
+        "音乐与 Tracker",
+        "世界制作教程"
+      ],
+      "sha256": "947c58108eeb379c7f21bd7f586f03609ae7006fa6de1fb8fd6d02df34298d01"
+    },
+    {
+      "id": "workflow-webring-3",
+      "path": "art/export/episode123-v3-workflows/workflow-webring-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "友情链接 · 网页横幅",
+      "category": "web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "webring",
+      "state": 2,
+      "preferred_range": [
+        16,
+        35.84
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "88×31 链接按钮",
+        "请使用本地副本",
+        "不要盗链",
+        "小小图片也能指向一个人"
+      ],
+      "sha256": "4e1f97396d422c9ca92b4eed7c9acfbfbeed41d0f0a1ca3b5784a0ef7ae30cb7"
+    },
+    {
+      "id": "workflow-webring-4",
+      "path": "art/export/episode123-v3-workflows/workflow-webring-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "友情链接 · 下一站",
+      "category": "web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "webring",
+      "state": 3,
+      "preferred_range": [
+        16,
+        35.84
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Web Ring",
+        "<< 上一站     随机一站 >>",
+        "本站没有广告",
+        "欢迎留下你的地址",
+        "链接一个新的房间"
+      ],
+      "sha256": "f739c0e67f2efe7a864923ef67c08a114f2b320374c90a08c37b2090b0842f2f"
+    },
+    {
+      "id": "workflow-qq-1",
+      "path": "art/export/episode123-v3-workflows/workflow-qq-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "QQ 的另一端 · 上线",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "qq",
+      "state": 0,
+      "preferred_range": [
+        61.44,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "我的好友",
+        "在线好友 (3)",
+        "同学",
+        "网友",
+        "制作群",
+        "离线好友"
+      ],
+      "sha256": "45a4d6a47a3bd242ba719129dd1388ab0df8ced24d766956d6a351c3630f701f"
+    },
+    {
+      "id": "workflow-qq-2",
+      "path": "art/export/episode123-v3-workflows/workflow-qq-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "QQ 的另一端 · 发消息",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "qq",
+      "state": 1,
+      "preferred_range": [
+        61.44,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "消息记录",
+        "我: 还在吗？",
+        "朋友: 在，刚刚下好。",
+        "我: 有个地方想请你看一下。",
+        "朋友: 发过来吧。"
+      ],
+      "sha256": "f836076114d18ab5782f1cf61662afb673f88e677812ff49b862f8322a3d716a"
+    },
+    {
+      "id": "workflow-qq-3",
+      "path": "art/export/episode123-v3-workflows/workflow-qq-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "QQ 的另一端 · 传文件",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "qq",
+      "state": 2,
+      "preferred_range": [
+        61.44,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "发送文件",
+        "model_preview.png",
+        "接收方已同意",
+        "传输完成",
+        "打开文件夹"
+      ],
+      "sha256": "35152e9f4b761dfca86905cb8daaa2908be1d0731c9f2b98f4dd8ace7433d835"
+    },
+    {
+      "id": "workflow-qq-4",
+      "path": "art/export/episode123-v3-workflows/workflow-qq-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "QQ 的另一端 · 群里有人回应",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "qq",
+      "state": 3,
+      "preferred_range": [
+        61.44,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "制作交流群",
+        "A: 这里可以这样改",
+        "B: 我补了一张示意图",
+        "C: 我来测试",
+        "文件已保存到本地"
+      ],
+      "sha256": "ea4560a83e0f6c69b2a3e9362b6846dae7b3b138d7aa06db136eb5c74e7c8499"
+    },
+    {
+      "id": "workflow-msn-1",
+      "path": "art/export/episode123-v3-workflows/workflow-msn-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "MSN · 联系人",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "msn",
+      "state": 0,
+      "preferred_range": [
+        64,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "MSN Messenger",
+        "Available",
+        "Friends (4)",
+        "Away (2)",
+        "Offline (8)"
+      ],
+      "sha256": "5cba7a8f37ddc41642298fa5f5d9407d773b4688a6d0c28b23a40cca203f5e08"
+    },
+    {
+      "id": "workflow-msn-2",
+      "path": "art/export/episode123-v3-workflows/workflow-msn-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "MSN · 对话",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "msn",
+      "state": 1,
+      "preferred_range": [
+        64,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "A conversation",
+        "我: 晚上有空吗",
+        "朋友: 有，正好在画贴图",
+        "我: 一起看看这个场景",
+        "朋友: 好 :)"
+      ],
+      "sha256": "52120c26a3200f195cbc8fb88b884845d0158e62108bfe9356534612d603d0f9"
+    },
+    {
+      "id": "workflow-msn-3",
+      "path": "art/export/episode123-v3-workflows/workflow-msn-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "MSN · 表情与涂鸦",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "msn",
+      "state": 2,
+      "preferred_range": [
+        64,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "手写消息",
+        "不只是文字",
+        "小涂鸦与表情",
+        "一个人的笔迹",
+        "跨过屏幕来到这里"
+      ],
+      "sha256": "c3f27c62151393a0c041d8f71343ab6103301975565f8215970a5482fc72adda"
+    },
+    {
+      "id": "workflow-msn-4",
+      "path": "art/export/episode123-v3-workflows/workflow-msn-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "MSN · 保存记录",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "msn",
+      "state": 3,
+      "preferred_range": [
+        64,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Save Conversation",
+        "conversation.txt",
+        "聊天记录",
+        "留下解决问题的方法",
+        "也留下当时的语气"
+      ],
+      "sha256": "f2d741fc81f4ac2d4a809f1c0cb2d53dc0ea62569d00eb664aab37f064d475b2"
+    },
+    {
+      "id": "workflow-mail-1",
+      "path": "art/export/episode123-v3-workflows/workflow-mail-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "邮件列表 · 写信",
+      "category": "web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "mail",
+      "state": 0,
+      "preferred_range": [
+        10.24,
+        51.2
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "To: list@example.invalid",
+        "Subject: 制作进展",
+        "附件: preview.png",
+        "这次修好了手部姿势。",
+        "期待大家的反馈。"
+      ],
+      "sha256": "902374a281e79da41cdc190cf57b321eb5d1966af23f11e9fd99419927b8f19f"
+    },
+    {
+      "id": "workflow-mail-2",
+      "path": "art/export/episode123-v3-workflows/workflow-mail-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "邮件列表 · 收件箱",
+      "category": "web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "mail",
+      "state": 1,
+      "preferred_range": [
+        10.24,
+        51.2
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Inbox",
+        "Re: 制作进展",
+        "Re: 字幕修正",
+        "[list] 本周聚会",
+        "[list] 发布新版本"
+      ],
+      "sha256": "2db49559899c494852f2375b3249010a15b92f44eb6842ff3770f6eef4607262"
+    },
+    {
+      "id": "workflow-mail-3",
+      "path": "art/export/episode123-v3-workflows/workflow-mail-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "邮件列表 · 附件",
+      "category": "web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "mail",
+      "state": 2,
+      "preferred_range": [
+        10.24,
+        51.2
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Attachments",
+        "source.zip",
+        "readme.txt",
+        "checksum.txt",
+        "源文件与说明一起发出"
+      ],
+      "sha256": "8f630368dd8fa648f348636d20567eee38cc1d4dea27b19593775f97a2a3e5d6"
+    },
+    {
+      "id": "workflow-mail-4",
+      "path": "art/export/episode123-v3-workflows/workflow-mail-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "邮件列表 · 邮件归档",
+      "category": "web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "mail",
+      "state": 3,
+      "preferred_range": [
+        10.24,
+        51.2
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Mailing list archive",
+        "按主题浏览",
+        "按日期浏览",
+        "制作问题与回复",
+        "多年以后仍然可以检索"
+      ],
+      "sha256": "39fb6544ff6b60fb47aa7a3de68282a3b6824b9f7b3ff6525aaa03ca9e0a74e7"
+    },
+    {
+      "id": "workflow-rss-1",
+      "path": "art/export/episode123-v3-workflows/workflow-rss-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "订阅与保存 · 加入订阅",
+      "category": "web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "rss",
+      "state": 0,
+      "preferred_range": [
+        61.44,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "RSS Reader",
+        "订阅地址: /feed.xml",
+        "制作日志",
+        "开源项目更新",
+        "字幕发布"
+      ],
+      "sha256": "5ada91e670f304e0b4be0d824c36e4069bc0e9b823941e8e7ad27f129aa74f8c"
+    },
+    {
+      "id": "workflow-rss-2",
+      "path": "art/export/episode123-v3-workflows/workflow-rss-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "订阅与保存 · 列表更新",
+      "category": "web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "rss",
+      "state": 1,
+      "preferred_range": [
+        61.44,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "All items",
+        "新的制作教程",
+        "更新日志 v1.2",
+        "译者的工作日记",
+        "订阅内容来自各处"
+      ],
+      "sha256": "4d61dba2bb0386476d1311da0c181ec85bf82bada8c852d7720221c979591b14"
+    },
+    {
+      "id": "workflow-rss-3",
+      "path": "art/export/episode123-v3-workflows/workflow-rss-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "订阅与保存 · 阅读原文",
+      "category": "web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "rss",
+      "state": 2,
+      "preferred_range": [
+        61.44,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "文章预览",
+        "一个材质问题的解决过程",
+        "作者保留了失败的尝试",
+        "旁边还有其他人的补充",
+        "点击查看原文"
+      ],
+      "sha256": "dd67b0477f67a4a9227b12f7115e38bc22d0aaff8de19027396de900bca8c6e7"
+    },
+    {
+      "id": "workflow-rss-4",
+      "path": "art/export/episode123-v3-workflows/workflow-rss-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "订阅与保存 · 离线保存",
+      "category": "web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "rss",
+      "state": 3,
+      "preferred_range": [
+        61.44,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Archive",
+        "文章正文",
+        "原始链接",
+        "发布时间",
+        "保存为本地 HTML"
+      ],
+      "sha256": "6e9c484a43f64459b4fc8bf6825110c7f9a6d266a7713ac2a7426c39b21fa6aa"
+    },
+    {
+      "id": "workflow-tianya-1",
+      "path": "art/export/episode123-v3-workflows/workflow-tianya-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "天涯社区 · 版块",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "tianya",
+      "state": 0,
+      "preferred_range": [
+        61.44,
+        74.24
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "天涯社区 · 风格复刻",
+        "天涯杂谈   贴图专区",
+        "煮酒论史   旅游休闲",
+        "版主公告",
+        "页面内容为原创演示"
+      ],
+      "sha256": "da7ac180672befb26a9ee5fae828d251ce14f044a9238f5e21bedc7899c226af"
+    },
+    {
+      "id": "workflow-tianya-2",
+      "path": "art/export/episode123-v3-workflows/workflow-tianya-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "天涯社区 · 主题列表",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "tianya",
+      "state": 1,
+      "preferred_range": [
+        61.44,
+        74.24
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "帖子列表",
+        "深夜，谁还在线？",
+        "写给十年后的自己",
+        "求助：以前收藏的网址打不开了",
+        "看过的帖子又有人回复"
+      ],
+      "sha256": "5412636e0ba963edffe83d9fcf6ba07477aedd87bf6ba4d54cae56e87f71321a"
+    },
+    {
+      "id": "workflow-tianya-3",
+      "path": "art/export/episode123-v3-workflows/workflow-tianya-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "天涯社区 · 楼中回应",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "tianya",
+      "state": 2,
+      "preferred_range": [
+        61.44,
+        74.24
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "只看楼主",
+        "楼主: 这段记忆还有人记得吗",
+        "回帖: 我存过一份",
+        "回帖: 链接在这里",
+        "更多回复"
+      ],
+      "sha256": "219ea4c1e0d10d252a773a8b990d7e6f3102b4d4abd9d92be5248d817fa14b36"
+    },
+    {
+      "id": "workflow-tianya-4",
+      "path": "art/export/episode123-v3-workflows/workflow-tianya-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "天涯社区 · 收藏与归档",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "tianya",
+      "state": 3,
+      "preferred_range": [
+        61.44,
+        74.24
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "收藏夹",
+        "一个长帖的许多页",
+        "有人整理目录",
+        "有人补充图片",
+        "有人把它留了下来"
+      ],
+      "sha256": "a92c7c9f331abc13a17afd0ebbd108881df0395dba09f920c74b53f4909bc5d4"
+    },
+    {
+      "id": "workflow-xiaonei-1",
+      "path": "art/export/episode123-v3-workflows/workflow-xiaonei-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "校内网 · 个人主页",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "xiaonei",
+      "state": 0,
+      "preferred_range": [
+        64,
+        76.8
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "校内网 · 风格复刻",
+        "最近状态",
+        "同学 / 相册 / 日志",
+        "今天在机房待到很晚",
+        "内容为原创演示"
+      ],
+      "sha256": "3934be0cd55fcf2ad0678e9c87ca02d58b98efbc7fd15c88af6377ccd2a0f298"
+    },
+    {
+      "id": "workflow-xiaonei-2",
+      "path": "art/export/episode123-v3-workflows/workflow-xiaonei-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "校内网 · 相册",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "xiaonei",
+      "state": 1,
+      "preferred_range": [
+        64,
+        76.8
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "相册: 毕业之前",
+        "教室",
+        "宿舍",
+        "一起做过的东西",
+        "上传 12 张照片"
+      ],
+      "sha256": "44b7ad86d73b289fc877b2d24a21f26bfc02a835b8fe7f7abd3c3e6521a3bec5"
+    },
+    {
+      "id": "workflow-xiaonei-3",
+      "path": "art/export/episode123-v3-workflows/workflow-xiaonei-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "校内网 · 班级",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "xiaonei",
+      "state": 2,
+      "preferred_range": [
+        64,
+        76.8
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "我的班级",
+        "同班同学",
+        "班级留言板",
+        "下周聚会时间",
+        "每个人的近况"
+      ],
+      "sha256": "3ac3122c4c9290d5a208c9540cc89e407526bd5623454dc512f75a4960a9a06d"
+    },
+    {
+      "id": "workflow-xiaonei-4",
+      "path": "art/export/episode123-v3-workflows/workflow-xiaonei-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "校内网 · 邀请",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "xiaonei",
+      "state": 3,
+      "preferred_range": [
+        64,
+        76.8
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "好友请求",
+        "来自同一所学校",
+        "一起维护班级相册",
+        "通过申请",
+        "多了一条连接"
+      ],
+      "sha256": "c215c493c9d8b45d63fd088ed39278c7ea9196cc3af602af02a964ab5db4ac50"
+    },
+    {
+      "id": "workflow-renren-1",
+      "path": "art/export/episode123-v3-workflows/workflow-renren-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "人人网 · 新鲜事",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "renren",
+      "state": 0,
+      "preferred_range": [
+        66.56,
+        79.36
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "人人网 · 风格复刻",
+        "好友新鲜事",
+        "上传了一张新照片",
+        "分享了一篇日志",
+        "内容为原创演示"
+      ],
+      "sha256": "65bae0dd4577584f6ae4a14e75dbaff42b19c4c34101c46493d132b5324f0efb"
+    },
+    {
+      "id": "workflow-renren-2",
+      "path": "art/export/episode123-v3-workflows/workflow-renren-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "人人网 · 分享日志",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "renren",
+      "state": 1,
+      "preferred_range": [
+        66.56,
+        79.36
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "分享",
+        "我整理的制作教程",
+        "这条评论下面还有补充",
+        "朋友的朋友也看到了",
+        "返回新鲜事"
+      ],
+      "sha256": "b54280ffebd5d421416a2bff18e86ee521511da99880219356b7bf0769d86bde"
+    },
+    {
+      "id": "workflow-renren-3",
+      "path": "art/export/episode123-v3-workflows/workflow-renren-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "人人网 · 评论",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "renren",
+      "state": 2,
+      "preferred_range": [
+        66.56,
+        79.36
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "评论列表",
+        "A: 我也遇到了",
+        "B: 这个步骤有新版",
+        "C: 已经更新，谢谢！",
+        "继续回复"
+      ],
+      "sha256": "e6536cce3d01e4221117f68798480b71dac8f611036b617ac47ca57b8e50e6c4"
+    },
+    {
+      "id": "workflow-renren-4",
+      "path": "art/export/episode123-v3-workflows/workflow-renren-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "人人网 · 活动",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "renren",
+      "state": 3,
+      "preferred_range": [
+        66.56,
+        79.36
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "共同活动",
+        "周末一起做个小场景",
+        "参与 12 人",
+        "相册与讨论",
+        "发布新的进度"
+      ],
+      "sha256": "85637367d1fab4920726a569f197eaf2a317832abfcf796c9b90d00cb804bac1"
+    },
+    {
+      "id": "workflow-weibo-1",
+      "path": "art/export/episode123-v3-workflows/workflow-weibo-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "微博 · 发布",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "weibo",
+      "state": 0,
+      "preferred_range": [
+        69.12,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "新浪微博 · 风格复刻",
+        "有什么新鲜事想告诉大家？",
+        "今天做完了第一个模型。",
+        "还可以输入 123 字",
+        "原创演示"
+      ],
+      "sha256": "efb0f36a7909d8da2a93aec97e7a9e211247dcb9c79030c4179832b21233d8b4"
+    },
+    {
+      "id": "workflow-weibo-2",
+      "path": "art/export/episode123-v3-workflows/workflow-weibo-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "微博 · 转发",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "weibo",
+      "state": 1,
+      "preferred_range": [
+        69.12,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "转发",
+        "这个教程很清楚",
+        "原作者: 制作过程记录",
+        "带着原始链接",
+        "转发 12  评论 8"
+      ],
+      "sha256": "c47eb457897a220214433c826fc1d7cce3bf9c9cb07f56a34750ff42c8996147"
+    },
+    {
+      "id": "workflow-weibo-3",
+      "path": "art/export/episode123-v3-workflows/workflow-weibo-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "微博 · 话题",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "weibo",
+      "state": 2,
+      "preferred_range": [
+        69.12,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "搜索话题",
+        "#制作日记#",
+        "来自不同人的小成果",
+        "有人刚刚开始",
+        "有人愿意解释"
+      ],
+      "sha256": "20f7a9f5c28d223ca2130c78b44ad36f12cc02edd94a9756fcf08da7cb5e7416"
+    },
+    {
+      "id": "workflow-weibo-4",
+      "path": "art/export/episode123-v3-workflows/workflow-weibo-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "微博 · 私信回应",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "weibo",
+      "state": 3,
+      "preferred_range": [
+        69.12,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "私信",
+        "谢谢你的教程。",
+        "我按着做出来了。",
+        "这里还有个小问题……",
+        "下一次交流开始"
+      ],
+      "sha256": "5ebfa46057ced5ce6f0ef0694a721d5f9e09df9f353e393f19972f7c27fbbd5c"
+    },
+    {
+      "id": "workflow-tieba-1",
+      "path": "art/export/episode123-v3-workflows/workflow-tieba-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "百度贴吧 · 搜索进吧",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "tieba",
+      "state": 0,
+      "preferred_range": [
+        64,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "百度贴吧 · 风格复刻",
+        "搜索一个共同的兴趣",
+        "世界制作吧",
+        "主题帖 / 精品区",
+        "内容为原创演示"
+      ],
+      "sha256": "149c0db11481b9ac75d6be3897875a232b7a2bbf5e76f4562feea8c59f48b040"
+    },
+    {
+      "id": "workflow-tieba-2",
+      "path": "art/export/episode123-v3-workflows/workflow-tieba-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "百度贴吧 · 楼层",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "tieba",
+      "state": 1,
+      "preferred_range": [
+        64,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "主题: 从零做一个小房间",
+        "1楼: 先建一个方块",
+        "2楼: 我来补充灯光",
+        "3楼: 收藏慢慢看",
+        "下一页"
+      ],
+      "sha256": "50b1ce361ac122bb02f4d162ae8d1c5d2bbe4552bfb1421802aa2b497cfdd0ef"
+    },
+    {
+      "id": "workflow-tieba-3",
+      "path": "art/export/episode123-v3-workflows/workflow-tieba-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "百度贴吧 · ASCII",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "tieba",
+      "state": 2,
+      "preferred_range": [
+        64,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "顶帖与文字画",
+        "+--------------------+",
+        "  一起做点什么吧",
+        "+--------------------+",
+        "帖子又被顶上来了"
+      ],
+      "sha256": "0319d9282cf5ddc818f569edeef69d3583aa5098a4ae2915b55dbd32d2b22bd0"
+    },
+    {
+      "id": "workflow-tieba-4",
+      "path": "art/export/episode123-v3-workflows/workflow-tieba-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "百度贴吧 · 整理索引",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "tieba",
+      "state": 3,
+      "preferred_range": [
+        64,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "精品区",
+        "入门教程索引",
+        "素材授权说明",
+        "失效链接反馈",
+        "版务与更新记录"
+      ],
+      "sha256": "5452efc245ba2c33976f6f5155c1cb7fd3483423692719a883dc60bfe4d5928c"
+    },
+    {
+      "id": "workflow-blog-1",
+      "path": "art/export/episode123-v3-workflows/workflow-blog-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "博客 · 新建文章",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "blog",
+      "state": 0,
+      "preferred_range": [
+        61.44,
+        79.36
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "写日志",
+        "标题: 一个小场景的诞生",
+        "标签: 制作 / 学习",
+        "插入图片",
+        "保存草稿"
+      ],
+      "sha256": "c8c85c07e2af8aac339adec19b2d5456c1fdb877c409de258e8e157e332c8be9"
+    },
+    {
+      "id": "workflow-blog-2",
+      "path": "art/export/episode123-v3-workflows/workflow-blog-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "博客 · 长文",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "blog",
+      "state": 1,
+      "preferred_range": [
+        61.44,
+        79.36
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "制作日志",
+        "从一个简单方块开始",
+        "试了三种光照",
+        "最后还是用了最朴素的方案",
+        "附上参数和失败截图"
+      ],
+      "sha256": "29317fb0c8093e53313ff5ad75b0a339f4a5fba6ea521c52ba5c5b60a5d38605"
+    },
+    {
+      "id": "workflow-blog-3",
+      "path": "art/export/episode123-v3-workflows/workflow-blog-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "博客 · 评论",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "blog",
+      "state": 2,
+      "preferred_range": [
+        61.44,
+        79.36
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "读者留言",
+        "试过了，很有用。",
+        "你这个地方能否再说详细些？",
+        "作者回复: 补了一张图。",
+        "下次更新见"
+      ],
+      "sha256": "d6e95ae31968df9b1fea22fa86a29182e9fd0fb64c73b1d62e6dfad5f33bdf0e"
+    },
+    {
+      "id": "workflow-blog-4",
+      "path": "art/export/episode123-v3-workflows/workflow-blog-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "博客 · 博客卷",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "blog",
+      "state": 3,
+      "preferred_range": [
+        61.44,
+        79.36
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "友情链接与归档",
+        "2007 年 6 月",
+        "2007 年 5 月",
+        "朋友们的制作日志",
+        "下一篇仍在写"
+      ],
+      "sha256": "f6861e9d2efc236dafbc5deb826afe02dc03a78511501c77dd0fafaaca9fbed6"
+    },
+    {
+      "id": "workflow-danmaku-1",
+      "path": "art/export/episode123-v3-workflows/workflow-danmaku-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "弹幕共同观看 · 开始播放",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "danmaku",
+      "state": 0,
+      "preferred_range": [
+        69.12,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "早期弹幕播放器 · 风格演示",
+        "载入视频",
+        "弹幕列表",
+        "缓冲中",
+        "0:00 / 1:30"
+      ],
+      "sha256": "952830d7356262e25509a946c406407801aa3892ff6a252ab5676b890bdb8882"
+    },
+    {
+      "id": "workflow-danmaku-2",
+      "path": "art/export/episode123-v3-workflows/workflow-danmaku-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "弹幕共同观看 · 发送弹幕",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "danmaku",
+      "state": 1,
+      "preferred_range": [
+        69.12,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "发送弹幕",
+        "字体: 小号",
+        "颜色: 白色",
+        "位置: 滚动",
+        "这段旋律一响就想起来了"
+      ],
+      "sha256": "8dac0d701a867f1159692059f89af14e0a83414ce324123e51f1b3cd54883530"
+    },
+    {
+      "id": "workflow-danmaku-3",
+      "path": "art/export/episode123-v3-workflows/workflow-danmaku-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "弹幕共同观看 · 同屏回应",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "danmaku",
+      "state": 2,
+      "preferred_range": [
+        69.12,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "弹幕列表",
+        "前方高能",
+        "这段我记得！",
+        "有人在一起看",
+        "字幕组辛苦了"
+      ],
+      "sha256": "5135e9d9af9b8562069d5ef29f55d72e39b432e9b5c1967674d31465baf2c4c3"
+    },
+    {
+      "id": "workflow-danmaku-4",
+      "path": "art/export/episode123-v3-workflows/workflow-danmaku-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "弹幕共同观看 · 保存时间",
+      "category": "chinese-web",
+      "kind": "original-operation-reconstruction",
+      "workflow": "danmaku",
+      "state": 3,
+      "preferred_range": [
+        69.12,
+        81.92
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "播放结束",
+        "视频还会被下一位观众打开",
+        "弹幕按时间重新出现",
+        "不同时间的人",
+        "在同一秒钟回应"
+      ],
+      "sha256": "18024e26c10abba2e2f0b9d0b6fe90d6eeb535700d821650d97329d0f64a4d20"
+    },
+    {
+      "id": "workflow-flash-1",
+      "path": "art/export/episode123-v3-workflows/workflow-flash-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "Flash 与创作 · 关键帧",
+      "category": "creation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "flash",
+      "state": 0,
+      "preferred_range": [
+        20.48,
+        40.96
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "动画时间轴",
+        "图层: 背景 / 人物 / 文字",
+        "关键帧 01 12 24 36",
+        "元件库",
+        "第一次让画面动起来"
+      ],
+      "sha256": "673bba307755c5cd5c58e71c240cebe767562f9233c001add55f19d013c392e3"
+    },
+    {
+      "id": "workflow-flash-2",
+      "path": "art/export/episode123-v3-workflows/workflow-flash-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "Flash 与创作 · 元件",
+      "category": "creation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "flash",
+      "state": 1,
+      "preferred_range": [
+        20.48,
+        40.96
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Library",
+        "小房子",
+        "角色行走",
+        "按钮",
+        "循环音乐",
+        "每个元件可以重复使用"
+      ],
+      "sha256": "a48dbd9a3168430491efd620a401e26b6ca52003b176144780b238dce6db1093"
+    },
+    {
+      "id": "workflow-flash-3",
+      "path": "art/export/episode123-v3-workflows/workflow-flash-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "Flash 与创作 · 预览",
+      "category": "creation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "flash",
+      "state": 2,
+      "preferred_range": [
+        20.48,
+        40.96
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Test Movie",
+        "播放 / 停止",
+        "循环播放",
+        "时间轴在继续",
+        "画面和声音对齐"
+      ],
+      "sha256": "9ca8c7d56c5a97f9b8f429a7be5449f6fcbfd75efdd8e5712d5a460c5dcb4936"
+    },
+    {
+      "id": "workflow-flash-4",
+      "path": "art/export/episode123-v3-workflows/workflow-flash-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "Flash 与创作 · 发布",
+      "category": "creation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "flash",
+      "state": 3,
+      "preferred_range": [
+        20.48,
+        40.96
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Publish Settings",
+        "HTML",
+        "SWF",
+        "保留源工程 FLA",
+        "下一次继续修改"
+      ],
+      "sha256": "71c27f9390fafd0af0f828d594369b6c3bcadb5f9cb07269628d196b05345a71"
+    },
+    {
+      "id": "workflow-opensource-1",
+      "path": "art/export/episode123-v3-workflows/workflow-opensource-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "开源与维护 · 问题单",
+      "category": "creation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "opensource",
+      "state": 0,
+      "preferred_range": [
+        92.16,
+        102.4
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Issue #128",
+        "标题: 新版导入失败",
+        "复现步骤",
+        "预期结果",
+        "实际日志",
+        "附件截图"
+      ],
+      "sha256": "117c477daa0ddff94dc1ad187245e33a93babc7d7a5c39dc28f61df46b99141a"
+    },
+    {
+      "id": "workflow-opensource-2",
+      "path": "art/export/episode123-v3-workflows/workflow-opensource-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "开源与维护 · 补丁",
+      "category": "creation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "opensource",
+      "state": 1,
+      "preferred_range": [
+        92.16,
+        102.4
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "diff --git a/import.cs b/import.cs",
+        "- LoadTexture(path);",
+        "+ if (File.Exists(path))",
+        "+     LoadTexture(path);",
+        "修正缺失资源判断"
+      ],
+      "sha256": "0107675322a6a3cb35cf1d1f02afb589c3a4fe369fd58161468b2bd612ba7678"
+    },
+    {
+      "id": "workflow-opensource-3",
+      "path": "art/export/episode123-v3-workflows/workflow-opensource-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "开源与维护 · 代码评审",
+      "category": "creation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "opensource",
+      "state": 2,
+      "preferred_range": [
+        92.16,
+        102.4
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Review",
+        "这处需要兼容旧版本",
+        "补充了一条边界检查",
+        "感谢测试与说明",
+        "Changes approved"
+      ],
+      "sha256": "9f72e072de09df089833245b774dbd3af956b7d1a7289636a0cb73358237df4d"
+    },
+    {
+      "id": "workflow-opensource-4",
+      "path": "art/export/episode123-v3-workflows/workflow-opensource-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "开源与维护 · 发行说明",
+      "category": "creation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "opensource",
+      "state": 3,
+      "preferred_range": [
+        92.16,
+        102.4
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Release v1.2",
+        "修复导入",
+        "保留旧版本兼容",
+        "新增翻译",
+        "维护者与贡献者名单"
+      ],
+      "sha256": "837ce77e17395cb7e6faa386a54d5f050c1fc9c3585ab26d7b37da6879c512d4"
+    },
+    {
+      "id": "workflow-world-1",
+      "path": "art/export/episode123-v3-workflows/workflow-world-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "世界制作 · 搭建",
+      "category": "creation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "world",
+      "state": 0,
+      "preferred_range": [
+        20.48,
+        30.72
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Hierarchy",
+        "WorldRoot",
+        "  Floor",
+        "  Window",
+        "  Desk",
+        "  Light",
+        "从人尺度开始"
+      ],
+      "sha256": "6cf9153754fd731119c7b18e09215068aa1ce788200216582c9e85c705d19c42"
+    },
+    {
+      "id": "workflow-world-2",
+      "path": "art/export/episode123-v3-workflows/workflow-world-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "世界制作 · UV 与贴图",
+      "category": "creation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "world",
+      "state": 1,
+      "preferred_range": [
+        20.48,
+        30.72
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Inspector",
+        "Mesh Renderer",
+        "Albedo: wall.png",
+        "Tiling: 2 × 2",
+        "把像素贴进立体空间"
+      ],
+      "sha256": "e91b26a5bbda50877f6edd9a561d260d9f67474adf1575ed2e7df87e4cb8703d"
+    },
+    {
+      "id": "workflow-world-3",
+      "path": "art/export/episode123-v3-workflows/workflow-world-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "世界制作 · 光照",
+      "category": "creation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "world",
+      "state": 2,
+      "preferred_range": [
+        20.48,
+        30.72
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Lighting",
+        "Baked GI",
+        "Lightmap size: 512",
+        "检查接缝和阴影",
+        "一盏灯让房间有人气"
+      ],
+      "sha256": "24f85cfcffb33d95aa98d4cd157da6c841dae8475819989e8b67c96f60924516"
+    },
+    {
+      "id": "workflow-world-4",
+      "path": "art/export/episode123-v3-workflows/workflow-world-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "世界制作 · 测试",
+      "category": "creation",
+      "kind": "original-operation-reconstruction",
+      "workflow": "world",
+      "state": 3,
+      "preferred_range": [
+        20.48,
+        30.72
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Build & Test",
+        "检查出生点",
+        "检查碰撞",
+        "检查音频",
+        "进入自己做的地方"
+      ],
+      "sha256": "fcb35ca0ed90cc5235da2094eb3698c946007806d28fb56b8a159968850b6157"
+    },
+    {
+      "id": "workflow-avatar-1",
+      "path": "art/export/episode123-v3-workflows/workflow-avatar-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "Avatar 制作 · 骨骼",
+      "category": "vrc",
+      "kind": "original-operation-reconstruction",
+      "workflow": "avatar",
+      "state": 0,
+      "preferred_range": [
+        23.04,
+        35.84
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Humanoid Rig",
+        "Head / Spine / Hips",
+        "LeftArm / RightArm",
+        "LeftLeg / RightLeg",
+        "同一套动作可以换身体"
+      ],
+      "sha256": "6738fe638c12c7509a71618ea78c05603dd51523eff8c6d98a9772060cc0e1fd"
+    },
+    {
+      "id": "workflow-avatar-2",
+      "path": "art/export/episode123-v3-workflows/workflow-avatar-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "Avatar 制作 · 表情",
+      "category": "vrc",
+      "kind": "original-operation-reconstruction",
+      "workflow": "avatar",
+      "state": 1,
+      "preferred_range": [
+        23.04,
+        35.84
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Blend Shapes",
+        "Smile",
+        "Blink",
+        "Mouth_A",
+        "表情让对话有了语气"
+      ],
+      "sha256": "82cd6dc0315d000d92aaf2d43c3f4964733e4d64dc55b7fdefc16ad902527af6"
+    },
+    {
+      "id": "workflow-avatar-3",
+      "path": "art/export/episode123-v3-workflows/workflow-avatar-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "Avatar 制作 · 材质",
+      "category": "vrc",
+      "kind": "original-operation-reconstruction",
+      "workflow": "avatar",
+      "state": 2,
+      "preferred_range": [
+        23.04,
+        35.84
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Avatar Materials",
+        "脸部与衣服分层",
+        "贴图 / 颜色 / 阴影",
+        "同一个身体也能有不同样子",
+        "保留原作者署名"
+      ],
+      "sha256": "77224a59a22110aa70d6310511df95dcd169ea80e03480086f9257681db38587"
+    },
+    {
+      "id": "workflow-avatar-4",
+      "path": "art/export/episode123-v3-workflows/workflow-avatar-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "Avatar 制作 · 手势",
+      "category": "vrc",
+      "kind": "original-operation-reconstruction",
+      "workflow": "avatar",
+      "state": 3,
+      "preferred_range": [
+        23.04,
+        35.84
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Gesture Preview",
+        "Idle / Point / Offer",
+        "检查双手分离",
+        "检查手腕朝向",
+        "动作后续可由动捕替换"
+      ],
+      "sha256": "c68edc30395d2f4bd66920823a5ed6f60f7131222ae29801c4e2b58b87b5770b"
+    },
+    {
+      "id": "workflow-vrc17-1",
+      "path": "art/export/episode123-v3-workflows/workflow-vrc17-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "VRChat 2017 · Worlds",
+      "category": "vrc",
+      "kind": "original-operation-reconstruction",
+      "workflow": "vrc17",
+      "state": 0,
+      "preferred_range": [
+        81.92,
+        87.04
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "VRCHAT / WORLDS",
+        "PUBLIC WORLDS",
+        "THE HUB",
+        "NEW WORLDS",
+        "COMMUNITY EVENTS"
+      ],
+      "sha256": "7d6ec8030f29eb4cef50c8296e0002bb48a31283ead8241f1cf146988225df95"
+    },
+    {
+      "id": "workflow-vrc17-2",
+      "path": "art/export/episode123-v3-workflows/workflow-vrc17-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "VRChat 2017 · Avatars",
+      "category": "vrc",
+      "kind": "original-operation-reconstruction",
+      "workflow": "vrc17",
+      "state": 1,
+      "preferred_range": [
+        81.92,
+        87.04
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "VRCHAT / AVATARS",
+        "SELECT AVATAR",
+        "PUBLIC",
+        "FAVORITES",
+        "换个身体再回来"
+      ],
+      "sha256": "ffd7ffd9d8a56ad91b205be13c304efcad9f8006609773b1b290907315028f65"
+    },
+    {
+      "id": "workflow-vrc17-3",
+      "path": "art/export/episode123-v3-workflows/workflow-vrc17-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "VRChat 2017 · Social",
+      "category": "vrc",
+      "kind": "original-operation-reconstruction",
+      "workflow": "vrc17",
+      "state": 2,
+      "preferred_range": [
+        81.92,
+        87.04
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "VRCHAT / SOCIAL",
+        "FRIENDS ONLINE",
+        "JOIN WORLD",
+        "INVITE",
+        "同一个空间里见面"
+      ],
+      "sha256": "b5476c8e5ddafe3ee24bb227d11ea0d7e9dff75509aac812dc41423528174a03"
+    },
+    {
+      "id": "workflow-vrc17-4",
+      "path": "art/export/episode123-v3-workflows/workflow-vrc17-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "VRChat 2017 · Travel Map",
+      "category": "vrc",
+      "kind": "original-operation-reconstruction",
+      "workflow": "vrc17",
+      "state": 3,
+      "preferred_range": [
+        81.92,
+        87.04
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "THE HUB / TRAVEL MAP",
+        "AVATAR HALL",
+        "MIRROR",
+        "EVENTS",
+        "WORLD PORTALS"
+      ],
+      "sha256": "8e4b3caf57a1e14575952c4e311c26f6ee7d56b880274e12d96e91e618e3892d"
+    },
+    {
+      "id": "workflow-vrc19-1",
+      "path": "art/export/episode123-v3-workflows/workflow-vrc19-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "VRChat 2019 · Home",
+      "category": "vrc",
+      "kind": "original-operation-reconstruction",
+      "workflow": "vrc19",
+      "state": 0,
+      "preferred_range": [
+        87.04,
+        92.16
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "VRCHAT HOME / 2019",
+        "AVATAR MIRROR",
+        "PERSONAL SPACE",
+        "WORLD PORTAL",
+        "先在这里整理自己"
+      ],
+      "sha256": "2ae55e337dd069c060e0300b14d0d78e467e2c4c57869ec8556770b181b9df27"
+    },
+    {
+      "id": "workflow-vrc19-2",
+      "path": "art/export/episode123-v3-workflows/workflow-vrc19-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "VRChat 2019 · Platforms",
+      "category": "vrc",
+      "kind": "original-operation-reconstruction",
+      "workflow": "vrc19",
+      "state": 1,
+      "preferred_range": [
+        87.04,
+        92.16
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "CROSS-PLATFORM",
+        "PC + QUEST",
+        "共同支持的世界",
+        "可进入的入口发生变化",
+        "2019 官方材料参考"
+      ],
+      "sha256": "b4d23bb26129f9fbe7e9bf46344d976bb6af6652ddcd44164afb535b86d67196"
+    },
+    {
+      "id": "workflow-vrc19-3",
+      "path": "art/export/episode123-v3-workflows/workflow-vrc19-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "VRChat 2019 · Campfire",
+      "category": "vrc",
+      "kind": "original-operation-reconstruction",
+      "workflow": "vrc19",
+      "state": 2,
+      "preferred_range": [
+        87.04,
+        92.16
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "THE HUB / CAMPFIRE",
+        "圆形草坪",
+        "原木座位",
+        "世界入口",
+        "人们围坐下来"
+      ],
+      "sha256": "171824a79efb7c43c9db866edfbe8a8fb20396d9c4e40e19a81df24f40552512"
+    },
+    {
+      "id": "workflow-vrc19-4",
+      "path": "art/export/episode123-v3-workflows/workflow-vrc19-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "VRChat 2019 · Gather",
+      "category": "vrc",
+      "kind": "original-operation-reconstruction",
+      "workflow": "vrc19",
+      "state": 3,
+      "preferred_range": [
+        87.04,
+        92.16
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "FRIENDS IN THIS WORLD",
+        "同一世界的不同身体",
+        "邀请 / 加入 / 交谈",
+        "空间里有人回应",
+        "共同在场"
+      ],
+      "sha256": "4ba4138be4e405671571dca0f0756f157dd6200b4e74d910b2e698479e6bd520"
+    },
+    {
+      "id": "workflow-virus-1",
+      "path": "art/export/episode123-v3-workflows/workflow-virus-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "出错与恢复 · 异常",
+      "category": "security",
+      "kind": "original-operation-reconstruction",
+      "workflow": "virus",
+      "state": 0,
+      "preferred_range": [
+        92.16,
+        102.4
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "系统提示",
+        "程序遇到问题，需要关闭。",
+        "保存尚未提交的文件。",
+        "错误详情",
+        "不要把错误当作结局"
+      ],
+      "sha256": "605904e15beba2618803c954877bab411aea630987fea089e31121724b381478"
+    },
+    {
+      "id": "workflow-virus-2",
+      "path": "art/export/episode123-v3-workflows/workflow-virus-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "出错与恢复 · 扫描",
+      "category": "security",
+      "kind": "original-operation-reconstruction",
+      "workflow": "virus",
+      "state": 1,
+      "preferred_range": [
+        92.16,
+        102.4
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "安全检查",
+        "可疑文件已隔离",
+        "保留日志",
+        "检查备份",
+        "界面为原创演示"
+      ],
+      "sha256": "5e85af7571f3d088160141c1c0e5579559b4270d89b064a34396db51579d2281"
+    },
+    {
+      "id": "workflow-virus-3",
+      "path": "art/export/episode123-v3-workflows/workflow-virus-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "出错与恢复 · 求助",
+      "category": "security",
+      "kind": "original-operation-reconstruction",
+      "workflow": "virus",
+      "state": 2,
+      "preferred_range": [
+        92.16,
+        102.4
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "求助记录",
+        "刚刚的文件打不开了。",
+        "朋友: 先别覆盖原文件。",
+        "我这里还有一份备份。",
+        "一起检查"
+      ],
+      "sha256": "06cc4246b2524d4c3aff689aa3581fd544075c4efb650a6734f2b99135c56856"
+    },
+    {
+      "id": "workflow-virus-4",
+      "path": "art/export/episode123-v3-workflows/workflow-virus-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "出错与恢复 · 恢复",
+      "category": "security",
+      "kind": "original-operation-reconstruction",
+      "workflow": "virus",
+      "state": 3,
+      "preferred_range": [
+        92.16,
+        102.4
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "恢复完成",
+        "源文件完好",
+        "重新保存到新目录",
+        "补上校验和与说明",
+        "继续制作"
+      ],
+      "sha256": "1505059dda774f6bbdbea521dfd35cf7fd57abef848ceb91f46d88fc73336de3"
+    },
+    {
+      "id": "workflow-3q-1",
+      "path": "art/export/episode123-v3-workflows/workflow-3q-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "入口与选择 · 公开信",
+      "category": "conditions",
+      "kind": "original-operation-reconstruction",
+      "workflow": "3q",
+      "state": 0,
+      "preferred_range": [
+        102.4,
+        112.64
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "2010 年 11 月 / 3Q",
+        "软件之间的冲突进入用户桌面",
+        "同期报道原图另行展示",
+        "此面为叙事示意",
+        "留意用户被迫面对的选择"
+      ],
+      "sha256": "72c87668d76e8662cccf994205573495d1cc6581dd53eadec23ea51e5bedfb8c"
+    },
+    {
+      "id": "workflow-3q-2",
+      "path": "art/export/episode123-v3-workflows/workflow-3q-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "入口与选择 · 冲突提示",
+      "category": "conditions",
+      "kind": "original-operation-reconstruction",
+      "workflow": "3q",
+      "state": 1,
+      "preferred_range": [
+        102.4,
+        112.64
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "兼容性提示 · 示意",
+        "一个入口要求另一个退出",
+        "通讯录仍在这里",
+        "对话被打断",
+        "桌面变成选择题"
+      ],
+      "sha256": "fa09d7195a568d75f7edd0c7a8a68166acf32e13ab71dcd706dc884639c24033"
+    },
+    {
+      "id": "workflow-3q-3",
+      "path": "art/export/episode123-v3-workflows/workflow-3q-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "入口与选择 · 切换工具",
+      "category": "conditions",
+      "kind": "original-operation-reconstruction",
+      "workflow": "3q",
+      "state": 2,
+      "preferred_range": [
+        102.4,
+        112.64
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "更换程序",
+        "导出联系人",
+        "保存聊天记录",
+        "重新通知朋友",
+        "便利也带来迁移成本"
+      ],
+      "sha256": "052c029e63fda93f30b4dbb67d1949b7b99ef3d35372c9b24e113949ecfe4d39"
+    },
+    {
+      "id": "workflow-3q-4",
+      "path": "art/export/episode123-v3-workflows/workflow-3q-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "入口与选择 · 联系人还在",
+      "category": "conditions",
+      "kind": "original-operation-reconstruction",
+      "workflow": "3q",
+      "state": 3,
+      "preferred_range": [
+        102.4,
+        112.64
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "消息窗口",
+        "换个地方还能找到你吗？",
+        "可以，把地址发给我。",
+        "先保存这份名单。",
+        "连接依赖具体的人"
+      ],
+      "sha256": "d7625be8f8ad6e46629d68b29ddcf97eebebfc0841f1b9cab620449e9edc99a0"
+    },
+    {
+      "id": "workflow-eac-1",
+      "path": "art/export/episode123-v3-workflows/workflow-eac-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "VRChat 条件改变 · 安全更新",
+      "category": "conditions",
+      "kind": "original-operation-reconstruction",
+      "workflow": "eac",
+      "state": 0,
+      "preferred_range": [
+        110.08,
+        122.88
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "VRCHAT / 2022-07",
+        "Security Update",
+        "Easy Anti-Cheat",
+        "官方公告是平台立场",
+        "相关原文另行显示"
+      ],
+      "sha256": "d96ed99bb77cbea0b361fce4b28fe9b8ca427faba128eefbb7a60fb487ec020c"
+    },
+    {
+      "id": "workflow-eac-2",
+      "path": "art/export/episode123-v3-workflows/workflow-eac-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "VRChat 条件改变 · 既有工具",
+      "category": "conditions",
+      "kind": "original-operation-reconstruction",
+      "workflow": "eac",
+      "state": 1,
+      "preferred_range": [
+        110.08,
+        122.88
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "访问与工具",
+        "社区曾经自行补齐一些能力",
+        "字幕 / 辅助 / 界面功能",
+        "安全与使用需求同时存在",
+        "具体情况须看公开材料"
+      ],
+      "sha256": "5c09c02f4d4dfceac79851e116ee067a338f7136ac12285afd351416fe36af9d"
+    },
+    {
+      "id": "workflow-eac-3",
+      "path": "art/export/episode123-v3-workflows/workflow-eac-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "VRChat 条件改变 · 设置变化",
+      "category": "conditions",
+      "kind": "original-operation-reconstruction",
+      "workflow": "eac",
+      "state": 2,
+      "preferred_range": [
+        110.08,
+        122.88
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "新的设置入口",
+        "可访问性",
+        "音频与字幕",
+        "用户界面",
+        "变化会改变日常动作"
+      ],
+      "sha256": "b8c0625b9b92c15d24a0798176dd56ba25094b7949c76762c51aed98da41b70e"
+    },
+    {
+      "id": "workflow-eac-4",
+      "path": "art/export/episode123-v3-workflows/workflow-eac-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "VRChat 条件改变 · 重新进入",
+      "category": "conditions",
+      "kind": "original-operation-reconstruction",
+      "workflow": "eac",
+      "state": 3,
+      "preferred_range": [
+        110.08,
+        122.88
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "JOIN WORLD",
+        "更新客户端",
+        "检查兼容",
+        "重新找到朋友",
+        "入口还在，条件变了"
+      ],
+      "sha256": "1b212ac342dd299adecf4d9a2ef19c8f8c94e80459794df79bf4b4ac2cbb5d0a"
+    },
+    {
+      "id": "workflow-maintain-1",
+      "path": "art/export/episode123-v3-workflows/workflow-maintain-1.png",
+      "width": 800,
+      "height": 540,
+      "title": "继续可用 · 链接失效",
+      "category": "maintenance",
+      "kind": "original-operation-reconstruction",
+      "workflow": "maintain",
+      "state": 0,
+      "preferred_range": [
+        122.88,
+        133.12
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "HTTP/1.1 404 Not Found",
+        "旧书签仍然在",
+        "图片不再加载",
+        "搜索引擎还有标题",
+        "正文已经消失"
+      ],
+      "sha256": "37a0a515579dec886466472167f4ae40e4df5d6c171391b0e26b1f76c7ab50c4"
+    },
+    {
+      "id": "workflow-maintain-2",
+      "path": "art/export/episode123-v3-workflows/workflow-maintain-2.png",
+      "width": 800,
+      "height": 540,
+      "title": "继续可用 · 依赖变化",
+      "category": "maintenance",
+      "kind": "original-operation-reconstruction",
+      "workflow": "maintain",
+      "state": 1,
+      "preferred_range": [
+        122.88,
+        133.12
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Build log",
+        "Missing dependency",
+        "API changed",
+        "Shader unavailable",
+        "旧工程需要重新维护"
+      ],
+      "sha256": "8bc66cd01c559c146abd9dc91ac06cf0b6cf9207b8b94b986dc8d10fabec2d76"
+    },
+    {
+      "id": "workflow-maintain-3",
+      "path": "art/export/episode123-v3-workflows/workflow-maintain-3.png",
+      "width": 800,
+      "height": 540,
+      "title": "继续可用 · 有人维护",
+      "category": "maintenance",
+      "kind": "original-operation-reconstruction",
+      "workflow": "maintain",
+      "state": 2,
+      "preferred_range": [
+        122.88,
+        133.12
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "Issue response",
+        "我还有源文件。",
+        "可以一起整理。",
+        "先把能运行的版本留住。",
+        "还有工作正在继续"
+      ],
+      "sha256": "b60b70bc85ff3f79c657fa89fd73ef95ae8924706b917c4ecbfd8138e64f12be"
+    },
+    {
+      "id": "workflow-maintain-4",
+      "path": "art/export/episode123-v3-workflows/workflow-maintain-4.png",
+      "width": 800,
+      "height": 540,
+      "title": "继续可用 · 灯还亮着",
+      "category": "maintenance",
+      "kind": "original-operation-reconstruction",
+      "workflow": "maintain",
+      "state": 3,
+      "preferred_range": [
+        122.88,
+        133.12
+      ],
+      "source_url": "spec/30-episode123-v3-production.md",
+      "date_basis": "Original illustration, historical style reference; not original-era screen capture",
+      "content": [
+        "maintenance.log",
+        "已保存本地副本",
+        "已整理来源",
+        "已记录已知问题",
+        "下一次从这里继续"
+      ],
+      "sha256": "b1afd85b0a473d8f07f57bec2bffd2b4a861e20b38de303d6040ee28e4f088c2"
+    }
+  ],
+  "counting_rule": "Distinct operation + changed information/output. No recolour/crop variants. Clearly labelled original reconstruction."
+}

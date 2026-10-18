@@ -1,0 +1,677 @@
+{
+  "version": 1,
+  "checked_on": "2026-10-16",
+  "status": "reviewed-source-images",
+  "asset_count": 33,
+  "assets": [
+    {
+      "id": "vrc-2017-hub-header",
+      "path": "art/reference/episode123-v2/vrc2017-newhub-01-header.png",
+      "title": "VRChat New Hub：入口与玩家聚集",
+      "category": "vrc",
+      "source_url": "https://store.steampowered.com/news/app/438100/view/2486412956109322857",
+      "image_url": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/27574735/f664a0dbc791b14e2b97994f89bc91134bd4b821.png",
+      "source_date": "2017-11-18",
+      "kind": "同期官方 Steam 公告配图",
+      "real_context": "VRChat 官方公布 New Hub 时配发的 Hub 场景图。",
+      "segments": [
+        "繁荣 81.92–92.16 秒"
+      ],
+      "date_basis": "Steam News API 公告时间戳为 2017-11-18；不据此推断拍摄日。",
+      "width": 954,
+      "height": 593,
+      "bytes": 904230,
+      "sha256": "0cf920196354865fecdb7a7889be08c3a86d7211a8b4e23b602136a35f72de8f",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "vrc-2017-hub-entrance",
+      "path": "art/reference/episode123-v2/vrc2017-newhub-02-entrance.png",
+      "title": "VRChat New Hub：入口与告示板",
+      "category": "vrc",
+      "source_url": "https://store.steampowered.com/news/app/438100/view/2486412956109322857",
+      "image_url": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/27574735/c0850bd18fa9bd43a9d15e2fa197267814e24df5.png",
+      "source_date": "2017-11-18",
+      "kind": "同期官方 Steam 公告配图",
+      "real_context": "公告的 Hub Entrance 部分展示入口和提示牌。",
+      "segments": [
+        "繁荣 81.92–92.16 秒"
+      ],
+      "date_basis": "Steam 公告发布日期；图片拍摄日未单独标注。",
+      "width": 960,
+      "height": 540,
+      "bytes": 438001,
+      "sha256": "b218f2d244dd4899993a71549c279a7f13f98f42b12fbaaeadcc972fa3a9fe6c",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "vrc-2017-hub-travel-map",
+      "path": "art/reference/episode123-v2/vrc2017-newhub-03-travel-map.png",
+      "title": "VRChat New Hub：Travel Maps",
+      "category": "vrc",
+      "source_url": "https://store.steampowered.com/news/app/438100/view/2486412956109322857",
+      "image_url": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/27574735/2e05b72659e99bf309d13dc2829f30420b12d376.png",
+      "source_date": "2017-11-18",
+      "kind": "同期官方 Steam 公告配图",
+      "real_context": "公告介绍 Hub 内地图可查看人群分布和快速传送。",
+      "segments": [
+        "繁荣 81.92–92.16 秒"
+      ],
+      "date_basis": "Steam 公告发布日期；图片拍摄日未单独标注。",
+      "width": 960,
+      "height": 540,
+      "bytes": 379729,
+      "sha256": "258f16319e685d42e2aa1d4796ec5f3c91b627a3743cb1fbabf20762a88e8370",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "vrc-2017-hub-help",
+      "path": "art/reference/episode123-v2/vrc2017-newhub-04-help.png",
+      "title": "VRChat New Hub：Help Area",
+      "category": "vrc",
+      "source_url": "https://store.steampowered.com/news/app/438100/view/2486412956109322857",
+      "image_url": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/27574735/4abe704e16ba471a83f7062e612cfd3d13bfa1c8.png",
+      "source_date": "2017-11-18",
+      "kind": "同期官方 Steam 公告配图",
+      "real_context": "公告介绍新手说明牌、教程视频入口与可拾取物件。",
+      "segments": [
+        "接入 20.48–30.72 秒",
+        "繁荣 81.92–92.16 秒"
+      ],
+      "date_basis": "Steam 公告发布日期；图片拍摄日未单独标注。",
+      "width": 960,
+      "height": 540,
+      "bytes": 529074,
+      "sha256": "e7da9ac9c66eb141be81309f84d1c09e8239905bf2230e4b8db9795454db1a7c",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "vrc-2017-hub-avatar-hall",
+      "path": "art/reference/episode123-v2/vrc2017-newhub-05-avatar-hall.png",
+      "title": "VRChat New Hub：Avatar Hall 展示区",
+      "category": "vrc",
+      "source_url": "https://store.steampowered.com/news/app/438100/view/2486412956109322857",
+      "image_url": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/27574735/127fc01f2d79a1981fc9efdc34da1ba7b89e82e1.png",
+      "source_date": "2017-11-18",
+      "kind": "同期官方 Steam 公告配图",
+      "real_context": "公告称 Avatar Hall 用于展示社群创作头像并提供自制头像线索。",
+      "segments": [
+        "接入 20.48–30.72 秒",
+        "繁荣 81.92–92.16 秒"
+      ],
+      "date_basis": "Steam 公告发布日期；图片拍摄日未单独标注。",
+      "width": 959,
+      "height": 539,
+      "bytes": 584175,
+      "sha256": "5f13400bbf83070d54f7cbe23b7e2355529096e3f389f0a6773feaa4ce4711e3",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "vrc-2017-hub-mirror",
+      "path": "art/reference/episode123-v2/vrc2017-newhub-06-avatar-mirror.png",
+      "title": "VRChat New Hub：镜子与 Avatar Hall",
+      "category": "vrc",
+      "source_url": "https://store.steampowered.com/news/app/438100/view/2486412956109322857",
+      "image_url": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/27574735/750f20af856e18efb0898bf38d06e543e82e055a.png",
+      "source_date": "2017-11-18",
+      "kind": "同期官方 Steam 公告配图",
+      "real_context": "官方说明 Avatar Hall 延续 Hub 镜子空间的使用传统。",
+      "segments": [
+        "繁荣 81.92–92.16 秒"
+      ],
+      "date_basis": "Steam 公告发布日期；图片拍摄日未单独标注。",
+      "width": 960,
+      "height": 540,
+      "bytes": 656931,
+      "sha256": "b6ba49f170da9904fdaa2ca44a03a25614ba53bc19ba45d6ecc41eed6eef2d21",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "vrc-2017-hub-events",
+      "path": "art/reference/episode123-v2/vrc2017-newhub-07-event.png",
+      "title": "VRChat New Hub：Event Hall",
+      "category": "vrc",
+      "source_url": "https://store.steampowered.com/news/app/438100/view/2486412956109322857",
+      "image_url": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/27574735/c814a016039610921e2be6ee6a75a6e0924b238f.png",
+      "source_date": "2017-11-18",
+      "kind": "同期官方 Steam 公告配图",
+      "real_context": "公告介绍活动信息展示和活动期间 Hub 立柱发光。",
+      "segments": [
+        "繁荣 81.92–92.16 秒"
+      ],
+      "date_basis": "Steam 公告发布日期；图片拍摄日未单独标注。",
+      "width": 960,
+      "height": 540,
+      "bytes": 592027,
+      "sha256": "25f95571f47ce88651f33ce78fdb678c8cec4eda0c43aef66837f23a0da6d7a6",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "vrc-2017-hub-new-worlds",
+      "path": "art/reference/episode123-v2/vrc2017-newhub-08-new-worlds.png",
+      "title": "VRChat New Hub：New Worlds 门户",
+      "category": "vrc",
+      "source_url": "https://store.steampowered.com/news/app/438100/view/2486412956109322857",
+      "image_url": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/27574735/0ca02f4feebd51ea4939f8660faccb3feadb2d95.png",
+      "source_date": "2017-11-18",
+      "kind": "同期官方 Steam 公告配图",
+      "real_context": "公告介绍动态更新的新公开世界传送门。",
+      "segments": [
+        "繁荣 81.92–92.16 秒"
+      ],
+      "date_basis": "Steam 公告发布日期；图片拍摄日未单独标注。",
+      "width": 960,
+      "height": 540,
+      "bytes": 534419,
+      "sha256": "3f6b5a274445f7edb02e29c97caecfd591388c101dfe628c62384b76e14b551e",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "vrc-2017-hub-panosphere",
+      "path": "art/reference/episode123-v2/vrc2017-newhub-09-panosphere.png",
+      "title": "VRChat New Hub：VRCHIVE Panosphere",
+      "category": "vrc",
+      "source_url": "https://store.steampowered.com/news/app/438100/view/2486412956109322857",
+      "image_url": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/27574735/0331a1024ff7c0d40740c28047c06970dfb47629.png",
+      "source_date": "2017-11-18",
+      "kind": "同期官方 Steam 公告配图",
+      "real_context": "公告介绍可以进入观看立体全景的 Panosphere。",
+      "segments": [
+        "繁荣 81.92–92.16 秒"
+      ],
+      "date_basis": "Steam 公告发布日期；图片拍摄日未单独标注。",
+      "width": 960,
+      "height": 540,
+      "bytes": 440670,
+      "sha256": "90407cee3b719537647d1ac90bda4f6108d23b06ebb69ea7304ad9dc5c48fe39",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "vrc-2017-hub-sculpture",
+      "path": "art/reference/episode123-v2/vrc2017-newhub-10-sculpture.png",
+      "title": "VRChat New Hub：互动雕塑",
+      "category": "vrc",
+      "source_url": "https://store.steampowered.com/news/app/438100/view/2486412956109322857",
+      "image_url": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/27574735/8cd9a6028d795ff32a93757d7d009b5ea3c93bdf.png",
+      "source_date": "2017-11-18",
+      "kind": "同期官方 Steam 公告配图",
+      "real_context": "公告配图展示 Hub 中可互动的雕塑和人物。",
+      "segments": [
+        "繁荣 81.92–92.16 秒"
+      ],
+      "date_basis": "Steam 公告发布日期；图片拍摄日未单独标注。",
+      "width": 1902,
+      "height": 1175,
+      "bytes": 2070195,
+      "sha256": "436201be2b27515b01b78b55c861ecd3d5a334c75d263ca9a8d1c388c6388095",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "windows95-osr2-desktop",
+      "path": "art/reference/episode123-v2/win95-desktop-vm.png",
+      "title": "Windows 95 OSR2 桌面",
+      "category": "system",
+      "source_url": "https://archive.org/details/windows-95-osr-2",
+      "image_url": "https://archive.org/download/windows-95-osr-2/Windows%2095%20Desktop.png",
+      "source_date": null,
+      "kind": "后世虚拟机实机截屏",
+      "real_context": "Internet Archive 保存的 Windows 95 OSR2 虚拟机条目附图，展示桌面和任务栏。",
+      "segments": [
+        "接入 0–10.24 秒"
+      ],
+      "date_basis": "条目指向 Windows 95 OSR2（1997）；图像截图日期未标，不把条目软件年份当作图像拍摄日。",
+      "width": 1024,
+      "height": 768,
+      "bytes": 15425,
+      "sha256": "7670ea681bb010f412bad15a0f5f7a25f8a52b08e7251ea4dede0da63cf363af",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "windows95-osr2-explorer",
+      "path": "art/reference/episode123-v2/win95-explorer-vm.png",
+      "title": "Windows 95 OSR2 Explorer 文件管理器",
+      "category": "system",
+      "source_url": "https://archive.org/details/windows-95-osr-2",
+      "image_url": "https://archive.org/download/windows-95-osr-2/Windows%2095%20Explorer.png",
+      "source_date": null,
+      "kind": "后世虚拟机实机截屏",
+      "real_context": "同一 OSR2 虚拟机归档的 Explorer 窗口，目录树与文件列表清晰可辨。",
+      "segments": [
+        "接入 0–10.24 秒",
+        "接入 10.24–20.48 秒"
+      ],
+      "date_basis": "条目指向 Windows 95 OSR2；图像截图日期未标。",
+      "width": 1024,
+      "height": 768,
+      "bytes": 48610,
+      "sha256": "1ceb0f0c05d3537a7b3214382cfa8cd518a23d519279546bbc9353443f091988",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "windows98-se-desktop",
+      "path": "art/reference/episode123-v2/win98-desktop-vm.png",
+      "title": "Windows 98 SE 桌面",
+      "category": "system",
+      "source_url": "https://archive.org/details/windows-98-32-bit",
+      "image_url": "https://archive.org/download/windows-98-32-bit/Windows%2098%20Desktop.png",
+      "source_date": null,
+      "kind": "后世虚拟机实机截屏",
+      "real_context": "Internet Archive 保存的 Windows 98 SE 虚拟机条目附图，显示经典桌面图标、任务栏和开始按钮。",
+      "segments": [
+        "接入 0–10.24 秒"
+      ],
+      "date_basis": "来源条目的软件时期标为 Windows 98 SE；具体截图日期未标。",
+      "width": 800,
+      "height": 600,
+      "bytes": 14898,
+      "sha256": "95a280de9e20d583905fe4425fe31b4d46ab37edaa6281474524b799c69c4a39",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "windows98-se-explorer",
+      "path": "art/reference/episode123-v2/win98-explorer-vm.png",
+      "title": "Windows 98 SE 文件管理器",
+      "category": "system",
+      "source_url": "https://archive.org/details/windows-98-32-bit",
+      "image_url": "https://archive.org/download/windows-98-32-bit/Windows%2098%20File%20Explorer.png",
+      "source_date": null,
+      "kind": "后世虚拟机实机截屏",
+      "real_context": "Windows 98 SE 虚拟机条目附图中的文件管理器窗口。",
+      "segments": [
+        "接入 0–10.24 秒",
+        "接入 10.24–20.48 秒"
+      ],
+      "date_basis": "来源条目的软件时期标为 Windows 98 SE；具体截图日期未标。",
+      "width": 1280,
+      "height": 1024,
+      "bytes": 72751,
+      "sha256": "af7055ff5087e31acc359272df0f00f2b01b4876933f19acc8b62a46f4d34d10",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "windows-xp-build2474-desktop",
+      "path": "art/reference/episode123-v2/xp-build2474-2001-01.png",
+      "title": "Windows XP Build 2474 桌面",
+      "category": "system",
+      "source_url": "https://archive.org/details/windows-xp-build-2474",
+      "image_url": "https://archive.org/download/windows-xp-build-2474/Windows%20XP%20Build%202474%201.png",
+      "source_date": "2001-05-17",
+      "kind": "后世实机截屏（Windows XP 预发布 Build 2474）",
+      "real_context": "Internet Archive 条目提供的真实 Windows XP 预发布系统桌面图，保留草地壁纸与任务栏。",
+      "segments": [
+        "接入 0–10.24 秒"
+      ],
+      "date_basis": "2001-05-17 是 Archive 条目日期；截图实际拍摄日未单独标。",
+      "width": 1024,
+      "height": 768,
+      "bytes": 837921,
+      "sha256": "189ba40a4b976fa66312e96f22a47abb30cec5ce5d24738469408cc4b184687e",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "windows-xp-build2474-winver",
+      "path": "art/reference/episode123-v2/xp-build2474-2001-02.png",
+      "title": "Windows XP Build 2474 About Windows 对话框",
+      "category": "system",
+      "source_url": "https://archive.org/details/windows-xp-build-2474",
+      "image_url": "https://archive.org/download/windows-xp-build-2474/Windows%20XP%20Build%202474%202.png",
+      "source_date": "2001-05-17",
+      "kind": "后世实机截屏（Windows XP 预发布 Build 2474）",
+      "real_context": "同一条目中的 About Windows 对话框，可见产品名和预发布 build 信息。",
+      "segments": [
+        "接入 0–10.24 秒"
+      ],
+      "date_basis": "2001-05-17 是 Archive 条目日期；截图实际拍摄日未单独标。",
+      "width": 1024,
+      "height": 768,
+      "bytes": 791609,
+      "sha256": "5821cdc6ae5ea218f68ec3f123b56a03ae59dfa401122e750e481bb74955726c",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "internet-explorer-5-textfiles",
+      "path": "art/reference/episode123-v2/ie5-textfiles-1999.png",
+      "title": "Internet Explorer 5 浏览 Textfiles.com",
+      "category": "software",
+      "source_url": "https://archive.org/details/ie5_20231127",
+      "image_url": "https://archive.org/download/ie5_20231127/Screenshot%20-%20Textfiles.com.png",
+      "source_date": "1999",
+      "kind": "Internet Explorer 5 归档安装包附图",
+      "real_context": "IE5 浏览器窗口中打开 Textfiles.com 的黑底绿色文字页面，兼有旧浏览器和旧站点界面。",
+      "segments": [
+        "接入 0–10.24 秒",
+        "接入 10.24–20.48 秒"
+      ],
+      "date_basis": "Archive 条目将软件标为 1999 年；这张配图的精确截图日期未标。",
+      "width": 800,
+      "height": 572,
+      "bytes": 27237,
+      "sha256": "87a2fe1a95988dd51af9a48d08872487680306f3d8b955cbac241d68d618066c",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "internet-explorer-6-wikipedia",
+      "path": "art/reference/episode123-v2/ie6-wikipedia-screenshot.png",
+      "title": "Internet Explorer 6 SP2 中的 Wikipedia MonoBook 首页",
+      "category": "software",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Wikipedia_frontpage_in_Monobook_rendered_by_Internet_Explorer_6.png",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Wikipedia_frontpage_in_Monobook_rendered_by_Internet_Explorer_6.png",
+      "source_date": "2014-10-21",
+      "kind": "后世实机截屏（Commons 原始上传日期）",
+      "real_context": "Wikimedia 页面描述明确指出 IE 6.0 SP2、Windows XP SP3；画面保留 MonoBook 页面与旧浏览器外观。",
+      "segments": [
+        "接入 0–10.24 秒",
+        "接入 10.24–20.48 秒"
+      ],
+      "date_basis": "2014-10-21 为 Commons 文件原始上传日，不主张是截图拍摄日。",
+      "width": 796,
+      "height": 446,
+      "bytes": 70602,
+      "sha256": "10d362ff2d626783b5e064230e24ab70d73bd31aee62692fb145d373eb94337d",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "winamp-windows-classic-skin",
+      "path": "art/reference/episode123-v2/winamp-classic-skin-2005.png",
+      "title": "Winamp Windows Classic 皮肤",
+      "category": "software",
+      "source_url": "https://archive.org/details/winampskin_Windows_Classic",
+      "image_url": "https://archive.org/download/winampskin_Windows_Classic/00_coverscreenshot.png",
+      "source_date": "2005-07-07",
+      "kind": "互联网档案馆保存的 Winamp 皮肤预览图",
+      "real_context": "Windows Classic 皮肤在 Winamp 主窗口、均衡器和播放列表上的组合预览。",
+      "segments": [
+        "接入 10.24–20.48 秒",
+        "繁荣 30.72–40.96 秒"
+      ],
+      "date_basis": "2005-07-07 是皮肤条目所标日期；预览图生成/截图日期未标。",
+      "width": 550,
+      "height": 696,
+      "bytes": 17592,
+      "sha256": "31ab1e09df7e63f91ee9bf1e5c64cbad7b68ce08f7f4ee0df8e4a272f8e25ea2",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "emule-047c-windows-xp",
+      "path": "art/reference/episode123-v2/emule-047c-winxp.png",
+      "title": "eMule 0.47c 在 Windows XP 上的界面",
+      "category": "distribution",
+      "source_url": "https://commons.wikimedia.org/wiki/File:EMule_047c_windowsXP.png",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/EMule%20047c%20windowsXP.png",
+      "source_date": "2006-10-23",
+      "kind": "同期软件界面截图（Commons 记录原始上传日）",
+      "real_context": "eMule 0.47c 文件列表窗口，展示当时 P2P 客户端的目录、文件状态和传输列。",
+      "segments": [
+        "繁荣 51.20–71.68 秒"
+      ],
+      "date_basis": "Wikimedia Commons 文件元数据记录 original upload date 2006-10-23。",
+      "width": 1288,
+      "height": 846,
+      "bytes": 133498,
+      "sha256": "4b2b6394f2191137cdd6ef8934af151dafbb34f53a41f83b7a215dde995af3cd",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "aegisub-translation-assistant-doc",
+      "path": "art/reference/episode123-v2/aegisub_translation-00.png",
+      "title": "Aegisub 3.2 Translation Assistant",
+      "category": "translation",
+      "source_url": "https://aegisub.org/docs/latest/translation_assistant/",
+      "image_url": "https://aegisub.org/img/3.2/Translation_Assistant.png#center",
+      "source_date": null,
+      "kind": "工具文档配图（版本路径为 3.2，截图日期未标）",
+      "real_context": "Aegisub 翻译助手将原文、译文和 ASS 标签分区显示；这是工具功能图，不证明所有字幕组都使用同一流程。",
+      "segments": [
+        "繁荣 40.96–51.20 秒"
+      ],
+      "date_basis": "文档没有标注图像拍摄日期。",
+      "width": 383,
+      "height": 546,
+      "bytes": 27605,
+      "sha256": "43f099e4a8bd7b64dbb4b82f9bf2354219d6716ca3f6f6205c8285bf8dafa2ce",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "xiaonei-home-2007",
+      "path": "art/reference/episode123-v2/xiaonei-2007-wayback-screenshot.png",
+      "title": "校内网 2007 归档首页",
+      "category": "community",
+      "source_url": "https://web.archive.org/web/20071201052645/http://www.xiaonei.com/",
+      "source_date": "2007-12-01T05:26:45Z",
+      "kind": "Wayback 原页面本地浏览器截屏",
+      "capture_method": "Chromium 对固定时间戳的 Internet Archive 回放页截屏；截图保留 Archive 横幅。",
+      "real_context": "当时校内网登录首页，页面文字列出个人主页、日志、好友动态、群组及内容分享。",
+      "segments": [
+        "繁荣 71.68–81.92 秒"
+      ],
+      "date_basis": "采用 Wayback URL 和截图横幅的捕获时间；部分远端图片没有存档，页面框架与文字仍可见。",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 80326,
+      "sha256": "6e0845b1e30bd9eee265cd67ddaf646dc6af44edc354e3e0a9fcdc3532528307",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "tianya-bbs-2009",
+      "path": "art/reference/episode123-v2/tianya-2009-archive-screenshot.png",
+      "title": "天涯论坛 2009 首页与版块目录",
+      "category": "community",
+      "source_url": "https://web.archive.org/web/20090805075432/http://www.tianya.cn/bbs/",
+      "source_date": "2009-08-05T07:54:32Z",
+      "kind": "Wayback 原页面本地浏览器截屏",
+      "capture_method": "Chromium 对固定时间戳的 Internet Archive 回放页截屏；本地图像保存站点原始呈现。",
+      "real_context": "天涯论坛首页的左侧版块目录、热帖榜、公告、版块列表与排行。",
+      "segments": [
+        "繁荣 71.68–81.92 秒"
+      ],
+      "date_basis": "精确存档时间来自 Internet Archive 回放 URL；不把它当作天涯创站日期。",
+      "width": 1440,
+      "height": 1100,
+      "bytes": 355000,
+      "sha256": "d822d9e59b808dcf0c17a3d2fd4b1ed2848f767aa143901419863f563f0fae80",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "sina-weibo-home-2009",
+      "path": "art/reference/episode123-v2/weibo-2009-archive-screenshot.png",
+      "title": "新浪微博 2009 公开首页（内测时期）",
+      "category": "community",
+      "source_url": "https://web.archive.org/web/20091101000000/http://t.sina.com.cn/",
+      "source_date": "2009-11-01",
+      "kind": "Wayback 原页面本地浏览器截屏",
+      "capture_method": "Chromium 对 Internet Archive 2009-11-01 回放页截屏；保留 Wayback 横幅和当时首页。",
+      "real_context": "t.sina.com.cn 早期微博公开首页，画面显示登录/注册、短消息流和移动访问宣传。",
+      "segments": [
+        "繁荣 71.68–81.92 秒"
+      ],
+      "date_basis": "截图横幅显示 2009-11-01；源页面不是后来 weibo.com 的新界面。",
+      "width": 1440,
+      "height": 1100,
+      "bytes": 372584,
+      "sha256": "2b1ae1f87f5d9884474cbeb59347eb1f7db33f6c451da2990e82a3f8dbc9dbdd",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "3q-qq-letter-2010",
+      "path": "art/reference/episode123-v2/3q-17.jpg",
+      "title": "3Q 事件：QQ 用户公开信截图",
+      "category": "event",
+      "source_url": "https://big5.hmo.gov.cn/gate/big5/big5.cctv.com/gate/big5/jingji.cntv.cn/20101103/104893.shtml",
+      "image_url": "https://big5.hmo.gov.cn/gate/big5/big5.cctv.com/gate/big5/jingji.cntv.cn/20101103/images/1288785594016_201011031827478fce7.jpg",
+      "source_date": "2010-11-03",
+      "kind": "同期报道中的原始界面/公告图",
+      "real_context": "央视网转载网易科技当日报道所附的腾讯致 QQ 用户公开信窗口图。",
+      "segments": [
+        "条件改变 102.40–112.64 秒"
+      ],
+      "date_basis": "报道发布日期 2010-11-03；图片为报道所附，不据此单独判定争议双方指控。",
+      "width": 260,
+      "height": 135,
+      "bytes": 14313,
+      "sha256": "de9593c17dc34fec989f43480e539dad6dc217e8c87f6ac1414139b1c3cc753e",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "3q-security-choice-options-2010",
+      "path": "art/reference/episode123-v2/3q-18.jpg",
+      "title": "3Q 事件：卸载 360 与安全软件选择页面",
+      "category": "event",
+      "source_url": "https://big5.hmo.gov.cn/gate/big5/big5.cctv.com/gate/big5/jingji.cntv.cn/20101103/104893.shtml",
+      "image_url": "https://big5.hmo.gov.cn/gate/big5/big5.cctv.com/gate/big5/jingji.cntv.cn/20101103/images/1288785594044_201011031836524063f.jpg",
+      "source_date": "2010-11-03",
+      "kind": "同期报道中的原始页面截图",
+      "real_context": "报道所附页面显示卸载 360 的选项以及卸载后的可选安全软件。",
+      "segments": [
+        "条件改变 102.40–112.64 秒"
+      ],
+      "date_basis": "报道发布日期 2010-11-03；页面反映当时用户端争议材料。",
+      "width": 500,
+      "height": 364,
+      "bytes": 27437,
+      "sha256": "429e76723a52e04ef960b294deae5e7a4d0ccfb68d5e140a35fbccec76845532",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "panda-burning-incense-meme-2007",
+      "path": "art/reference/episode123-v2/panda-sina-2007-4.jpg",
+      "title": "熊猫烧香引发的网络二创配图",
+      "category": "security",
+      "source_url": "http://tech.sina.com.cn/it/2007-02-04/10381368604.shtml",
+      "image_url": "http://image2.sina.com.cn/IT/cr/2007/0204/1638632423.jpg",
+      "source_date": "2007-02-04",
+      "kind": "同期新闻配图（网络二创，不是感染截图）",
+      "real_context": "新浪科技当日报道网民围绕“熊猫烧香”制作的网络创意图；该图用于说明事件如何成为网络梗，不作为病毒样本或受害电脑证据。",
+      "segments": [
+        "繁荣 92.16–102.40 秒"
+      ],
+      "date_basis": "文章日期 2007-02-04；图中卡通形象是二创表现，不是原始恶意文件。",
+      "width": 400,
+      "height": 108,
+      "bytes": 7471,
+      "sha256": "2b273338f39c20c44838171231da2f0ea5887bb5542a3c3dab5ccecd90753efb",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "vrchat-eac-security-banner-2022",
+      "path": "art/reference/episode123-v2/eac-02.png",
+      "title": "VRChat 2022 Security Update 官方标题图",
+      "category": "event",
+      "source_url": "https://hello.vrchat.com/blog/vrchat-security-update",
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5f0770791aaf57311515b23d/eb661694-d6f9-4a64-8517-e9f90bcf422e/EAC_v3.png",
+      "source_date": "2022-07-25",
+      "kind": "同期官方公告配图",
+      "real_context": "VRChat 公布 Easy Anti-Cheat、Secure Instances 等安全更新时使用的标题图。",
+      "segments": [
+        "条件改变 112.64–122.88 秒"
+      ],
+      "date_basis": "官方安全公告日期；配图日期与公告日一致，非系统弹窗截图。",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 467714,
+      "sha256": "4b23420e6f13310c8fb6ec9b888c6f0e11e8ee27254657ef05fdd6f0644ceedf",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "vrchat-eac-secure-instances-2022",
+      "path": "art/reference/episode123-v2/eac-03.png",
+      "title": "VRChat Secure Instances 官方说明图",
+      "category": "event",
+      "source_url": "https://hello.vrchat.com/blog/vrchat-security-update",
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5f0770791aaf57311515b23d/31adfcc0-cb79-4001-8f2a-7b0b39e31b8c/SI_v1+%281%29.png",
+      "source_date": "2022-07-25",
+      "kind": "同期官方说明图/信息图",
+      "real_context": "公告配图解释锁定实例和受邀访问的功能变化；图中网页界面是官方说明示例。",
+      "segments": [
+        "条件改变 112.64–122.88 秒"
+      ],
+      "date_basis": "官方公告发布日期；此图说明 Secure Instances，不能把所有 QoL 工具等同于客户端修改。",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 412754,
+      "sha256": "52cc803d715e2e4de1f07e1edcaa9ca278a03c0b219658354135f2ad500e3794",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "vrc-world-unity-open-dialog",
+      "path": "art/reference/episode123-v2/world_creator_2017-02.png",
+      "title": "Unity 2017 项目版本选择对话框",
+      "category": "vrc",
+      "source_url": "https://bibinbaleo.hatenablog.com/entry/2017/11/24/183801",
+      "image_url": "https://cdn-ak.f.st-hatena.com/images/fotolife/b/bibinbaleo/20181218/20181218140146.png",
+      "source_date": "2018-12-18（文件名时间）",
+      "kind": "后世实机截屏（教程补充图；实际截屏日未单独确认）",
+      "real_context": "日本玩家的 VRChat 世界制作教程补充图，Unity Hub 对话框显示 Unity 2017.4.15f1；文章原始发布日期为 2017-11-24。",
+      "segments": [
+        "接入 20.48–30.72 秒"
+      ],
+      "date_basis": "图像文件名包含 2018-12-18；只将其当作资源时间线索，不宣称是截屏日。",
+      "width": 563,
+      "height": 337,
+      "bytes": 19741,
+      "sha256": "a7e96c409ca36793b2074e48ef49a1bde75414760c8e25f230d75806a6ad1ae5",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "vrc-world-sdk-build-controller-2017",
+      "path": "art/reference/episode123-v2/world_creator_2017-09.png",
+      "title": "2017 VRChat SDK Build & Publish 面板",
+      "category": "vrc",
+      "source_url": "https://bibinbaleo.hatenablog.com/entry/2017/11/24/183801",
+      "image_url": "https://cdn-ak.f.st-hatena.com/images/fotolife/b/bibinbaleo/20171124/20171124145550.png",
+      "source_date": "2017-11-24（文件名时间）",
+      "kind": "同期教程配图/真实 SDK 截图",
+      "real_context": "文章演示将 Unity 场景通过 VRChat SDK Build & Publish 面板发布。",
+      "segments": [
+        "接入 20.48–30.72 秒"
+      ],
+      "date_basis": "文章发表于 2017-11-24，图片文件名也带该日期；不另断言精确截屏时间。",
+      "width": 496,
+      "height": 490,
+      "bytes": 29633,
+      "sha256": "f7059385c3b67d04763f117c4a7d5b9fda99b10ea4634a697467ba46d82d9036",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "vrc-world-profile-page-2018",
+      "path": "art/reference/episode123-v2/world_creator_2017-15.png",
+      "title": "VRChat 旧网页世界资料页",
+      "category": "vrc",
+      "source_url": "https://bibinbaleo.hatenablog.com/entry/2017/11/24/183801",
+      "image_url": "https://cdn-ak.f.st-hatena.com/images/fotolife/b/bibinbaleo/20180628/20180628172037.png",
+      "source_date": "2018-06-28（文件名时间）",
+      "kind": "后续教程配图/旧版 VRChat 网页截图",
+      "real_context": "旧版 VRChat 网站的 World 资料编辑界面，页面含 Worlds、Avatar、Social、System 导航和可见性/发布字段。",
+      "segments": [
+        "接入 20.48–30.72 秒",
+        "繁荣 81.92–92.16 秒"
+      ],
+      "date_basis": "图像文件名包含 2018-06-28；来源文章页面原始日期为 2017-11-24。",
+      "width": 1024,
+      "height": 507,
+      "bytes": 231919,
+      "sha256": "c46137c1e62794cf9e3d49845957f9ada3b9779a1909ecc8734f35f77a4ffd37",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "vrc-avatar-world-2018-example",
+      "path": "art/reference/episode123-v2/avatar_list_2018-01.jpg",
+      "title": "2018 Avatar World 推荐资料中的世界实景",
+      "category": "vrc",
+      "source_url": "https://m.blog.naver.com/PostView.nhn?blogId=esop3565&isHttpsRedirect=true&logNo=221279641328",
+      "image_url": "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fblogthumb.pstatic.net%2FMjAxODA2MjJfMTYy%2FMDAxNTI5NjM4MDI4Njc2.7IU5VUm6SHGwq8N7uF1DNGxr6V3gBwycUafeYXfokR8g.BOvTRijes_eH9sS8iKRvkdcevxq93CeOd891CxKKIhog.PNG.esop3565%2FK-001.png%3Ftype%3Dw2%22&type=f560_336",
+      "source_date": null,
+      "kind": "社区推荐列表配图（原页面截图，确切拍摄日未标）",
+      "real_context": "2018 年玩家 Avatar World 推荐列表中的一个夜间空间与 Avatar 示例；只是一个社区清单条目，不代表全体玩家偏好。",
+      "segments": [
+        "繁荣 81.92–92.16 秒"
+      ],
+      "date_basis": "项目研究记录该清单基准日为 2018-05-19；该图本身日期未核，Naver 图片文件键含 2018-06-22，故不把它写成图像拍摄日。",
+      "width": 560,
+      "height": 336,
+      "bytes": 118120,
+      "sha256": "2ad6fbd8905712a46bfdd2be02c7f21d1a9073c533bee3ac06f089409805feba",
+      "checked_on": "2026-10-16"
+    }
+  ],
+  "editorial_note": "真实历史界面与源材料。后世虚拟机截屏、后世文档图及同期报道图均在 kind/date_basis 中明确区分；不得把未标拍摄日的页面发布日期写成拍摄日期。"
+}

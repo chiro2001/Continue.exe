@@ -1,0 +1,210 @@
+{
+  "schema": "fullfilm-v3-pen-four-pieces.1",
+  "checked_date": "2026-10-17",
+  "source_windows": "E:\\BaiduNetdiskDownload\\地图基本功能合集-初音的VRC小店\\笔4件",
+  "source_file_count": 27,
+  "source_total_bytes": 75897366,
+  "unity_project_changed": false,
+  "preview_linux": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/intake/pen-four-pieces/pen-styles.jpg",
+  "core": {
+    "path": "OVPen本体/QvPen本体_v3.3.6/net.ureishi.qvpen-3.3.6.unitypackage",
+    "version_from_contents": "3.3.6",
+    "unity_from_contents": "2022.3",
+    "worlds_dependency_from_contents": "^3.5.0",
+    "other_versions_by_archive_filename": [
+      "3.2.9",
+      "3.2.14"
+    ],
+    "same_as_adopted_source_cs_files": 15,
+    "different_overlap_files_are_generated_programs_only": true
+  },
+  "styles": [
+    {
+      "id": "wood",
+      "source": "4553516木头笔/QvPen_Wood_v1/QvPen_Wood_v1.unitypackage",
+      "source_files_identical_to_adopted_old_world_copy": 12,
+      "prefabs": [
+        {
+          "path": "Assets/QvPen/QvPen_WOOD.prefab",
+          "guid": "bc94d81522e742e4b8fe409d02b3acb7",
+          "bytes": 439742,
+          "sha256": "08e1e8eee709941b70535beca0c91f2d14919283f70c5899992e0d084d140f4e",
+          "current_file_identical": true
+        },
+        {
+          "path": "Assets/QvPen/QvPen_WOOD_PenStand.prefab",
+          "guid": "f4351ff05524c30418f4c4896b489928",
+          "bytes": 466475,
+          "sha256": "d6cdb7e0bf671dfdc773cb0e894b81dde81097b8aeacf5037b29552aaffe9573",
+          "current_file_identical": true
+        }
+      ]
+    },
+    {
+      "id": "rabbit",
+      "source": "5781637兔兔画笔/ARI_QVPen_usa/ARI_QVPen_usa.unitypackage",
+      "documented_core_version": "3.3.5",
+      "requires_liltoon": true,
+      "scripts_in_skin": 0,
+      "runtime_compatibility_with_current_world_not_tested": true,
+      "prefabs": [
+        {
+          "path": "Assets/Ichigo Lab/ARI_QVPen_usa/ARI_QVPen_usa_simple (mini).prefab",
+          "guid": "1205a62c0939eac429b7392f423f317c",
+          "bytes": 1451228,
+          "sha256": "22cc13b3dc317074139a2225d2dbdf20933943400c9b4920db0e62c1f5eb7751"
+        },
+        {
+          "path": "Assets/Ichigo Lab/ARI_QVPen_usa/ARI_QVPen_usa_ribbon (mini).prefab",
+          "guid": "4003c24b369a3324d8d1f4ad0e103623",
+          "bytes": 1660305,
+          "sha256": "b001019a9818a6cddda637191297f25dc07dad73a187385dbac3f1ea5be2a5f3"
+        },
+        {
+          "path": "Assets/Ichigo Lab/ARI_QVPen_usa/ARI_QVPen_usa_simple.prefab",
+          "guid": "522b4b08c8c9edf42a6af64b4d3b9c87",
+          "bytes": 1451222,
+          "sha256": "5f4fbb05e5cd5424112e562f04328f8d2908c2680267d2264c9522d54dfd2ab0"
+        },
+        {
+          "path": "Assets/Ichigo Lab/ARI_QVPen_usa/ARI_QVPen_usa (mini).prefab",
+          "guid": "6a1d589ceea2d13439eadb7d5267c6d0",
+          "bytes": 1451209,
+          "sha256": "e262299f7b1af4d78389e4d417e38618fdb8be08a7e4992704b768d7a7abc342"
+        },
+        {
+          "path": "Assets/Ichigo Lab/ARI_QVPen_usa/ARI_QVPen_usa_plain (mini).prefab",
+          "guid": "9014c02e5f429fa42ba485c406e0540d",
+          "bytes": 1451215,
+          "sha256": "5cd7e5f422e4681cc169529c9212d8335c56443c7eb68b2e785397018d0a0aaf"
+        },
+        {
+          "path": "Assets/Ichigo Lab/ARI_QVPen_usa/ARI_QVPen_usa.prefab",
+          "guid": "98d1e79c4d0c2544db13153a679af3fb",
+          "bytes": 1451203,
+          "sha256": "5064fd3a2d2ff70155d58c97f9c6b878835ac3fdf01f40a7e5b2024af1a03e1a"
+        },
+        {
+          "path": "Assets/Ichigo Lab/ARI_QVPen_usa/ARI_QVPen_usa_plain_usagi (mini).prefab",
+          "guid": "9b30819ae30f21646a63a908663ff74b",
+          "bytes": 1451281,
+          "sha256": "49c9dd78415ef48ff303a3d399319ec5479bf58680a5b3882f41a6f8859cb91c"
+        },
+        {
+          "path": "Assets/Ichigo Lab/ARI_QVPen_usa/ARI_QVPen_usa_ribbon.prefab",
+          "guid": "aabe3419bb372f745826c754cffcf8f5",
+          "bytes": 1660286,
+          "sha256": "85c41f92fe7b46fc20ac35e2f566525d5866c7529b5824396801d25870914ad9"
+        },
+        {
+          "path": "Assets/Ichigo Lab/ARI_QVPen_usa/ARI_QVPen_usa_plain_usagi.prefab",
+          "guid": "d96c0413d39dd0049b44a768aea45600",
+          "bytes": 1451275,
+          "sha256": "19814ebc6dfb186e92c4d19b6fc40c19fe2757b25badd731d17fa479656978ba"
+        },
+        {
+          "path": "Assets/Ichigo Lab/ARI_QVPen_usa/ARI_QVPen_usa_plain.prefab",
+          "guid": "d9bcd574fba0bd5409a32c50529d36ec",
+          "bytes": 1451209,
+          "sha256": "a2b0037cd2372d216d8b98ed2f8b6b93b1113b2522cb4b57d7633d4a617290c3"
+        }
+      ]
+    },
+    {
+      "id": "short-v2",
+      "source": "5920768圆滑风格笔/QvPenShortV2(1)/QvPenShortV2.unitypackage",
+      "scripts_in_skin": 0,
+      "prefabs": [
+        {
+          "path": "Assets/QvPen/QvPenShortStand Variant.prefab",
+          "guid": "0ede3a3b9e5683349b3d3e4b1f294669",
+          "bytes": 62764,
+          "sha256": "7c08f2b7244a048e9214fd02da3bbc61cc53847c9aaa18888de34ea14581e296"
+        },
+        {
+          "path": "Assets/QvPen/QvPenShort Variant.prefab",
+          "guid": "4bb3f7b85e716514ba010d8d143cf476",
+          "bytes": 51053,
+          "sha256": "808cc5ee9cb75be3b0ff0361aa30ee27eb91d11ad8b58a7a1f17c74097bcb1c6"
+        }
+      ],
+      "conflicting_payload_paths": [
+        {
+          "path": "Assets/QvPen/Texture/qvpen_button.xcf",
+          "guid": "24befb6a738c98446a108c0e449e6f70",
+          "bytes": 1839198,
+          "sha256": "1b88d6746424de1f19e79f52729a611a80752fa55ea39ce35ce24535c5c73cfa",
+          "current_file_identical": false
+        },
+        {
+          "path": "Assets/QvPen/Texture/qvpen_button.png",
+          "guid": "6ef560ae19687364c94499b0520575e3",
+          "bytes": 318409,
+          "sha256": "6e38daf96ce83ee0555e70ca8e9b093d20647fcf2788b369d40433de12d4722e",
+          "current_file_identical": false
+        }
+      ],
+      "note": "Both qvpen_button.png and qvpen_button.xcf share existing paths with changed payload. Import must isolate or deliberately preserve these resources; no import was performed."
+    }
+  ],
+  "packages": [
+    {
+      "file": "ari-qvpen-rabbit.unitypackage",
+      "sha256": "4a753cc8ed682edf97b846ab7064adc10ebcffa7b4b6289b5c47c5526e0d5213",
+      "asset_count": 79,
+      "extensions": {
+        ".mat": 36,
+        "": 11,
+        ".png": 20,
+        ".prefab": 10,
+        ".fbx": 2
+      }
+    },
+    {
+      "file": "qvpen-core-3.3.6.unitypackage",
+      "sha256": "0399d777f6ea9a7d7c4eaed2e1af2b14704f3b90ce7fe4c51e3e1a024a2c89e7",
+      "asset_count": 105,
+      "extensions": {
+        ".asset": 30,
+        ".cs": 15,
+        "": 16,
+        ".png": 5,
+        ".json": 1,
+        ".mat": 26,
+        ".asmdef": 1,
+        ".xcf": 1,
+        ".prefab": 4,
+        ".txt": 1,
+        ".shader": 1,
+        ".unity": 1,
+        ".exr": 1,
+        ".fbx": 2
+      }
+    },
+    {
+      "file": "qvpen-short-v2.unitypackage",
+      "sha256": "7867954c12421079d9d7319687e7e9cf06e74dd01074d949ef8ba057f6033999",
+      "asset_count": 24,
+      "extensions": {
+        "": 4,
+        ".prefab": 2,
+        ".xcf": 1,
+        ".png": 10,
+        ".mat": 4,
+        ".fbx": 3
+      }
+    },
+    {
+      "file": "qvpen-wood-v1.unitypackage",
+      "sha256": "33552a9f23a3946919e398085407c72917ef2c852e6d36924295f5fd19446dc0",
+      "asset_count": 16,
+      "extensions": {
+        ".png": 6,
+        "": 4,
+        ".fbx": 2,
+        ".mat": 2,
+        ".prefab": 2
+      }
+    }
+  ]
+}

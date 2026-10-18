@@ -1,0 +1,2763 @@
+{
+  "schema": "fullfilm-v5-emotes.1",
+  "generated_by": "tools/prepare_fullfilm_v5_emotes.py",
+  "generated_on": "2026-10-18",
+  "scope_note": "Four dated sets keep forum-native PHPBB smilies distinct from QQ/IM references, then show Tieba's 2014 catalog preview, a separately identified 2020 mobile extraction, and the actual current 2026 app preset. All dates describe release/listing/app evidence, not inferred drawing creation dates.",
+  "timeline_groups": [
+    {
+      "id": "forum-phpbb-3.0.8",
+      "display_name": "phpBB 3.0.8 default forum smilies",
+      "release_date": "2010-11-20",
+      "release_tag": "release-3.0.8",
+      "date_basis": "Official phpBB release announcement dated 2010-11-20; source GIFs are from the release tag's phpBB/images/smilies directory.",
+      "current_placement_seconds": [],
+      "recommendation_seconds": [
+        [
+          51.2,
+          71.68
+        ]
+      ],
+      "source_url": "https://www.phpbb.com/community/viewtopic.php?f=14&t=2111068",
+      "source_repository": "https://github.com/phpbb/phpbb/tree/release-3.0.8/phpBB/images/smilies",
+      "license": "GPL-2.0; COPYING from the release package is included. Verify the individual image licensing terms before public redistribution.",
+      "license_file": "art/reference/fullfilm-v5/emotes/forum-phpbb-3.0.8/COPYING",
+      "rights_note": "The release package includes GPL-2.0 COPYING. The exhibition should credit the phpBB Project and preserve the individual asset notices/terms.",
+      "assets": [
+        {
+          "id": "forum-phpbb-3.0.8-icon_e_smile",
+          "label": "smile",
+          "source_path": "art/reference/fullfilm-v5/emotes/forum-phpbb-3.0.8/icon_e_smile.gif",
+          "source_sha256": "922e07628efdacf04d3816cb42cd311b8843ad01b4f8c79b4f39d4d839b0ce91",
+          "source_format": "GIF",
+          "source_size_px": [
+            15,
+            17
+          ],
+          "source_frame_count": 1,
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_e_smile.png",
+          "export_sha256": "bba5155926c8bca3d72801f8ddde2dc23b879efd77e76252bbb5dd1044e0ee1c",
+          "export_size_px": [
+            60,
+            68
+          ],
+          "background_processing": "First GIF frame decoded to RGBA and enlarged 4× with nearest-neighbor interpolation; source transparency preserved."
+        },
+        {
+          "id": "forum-phpbb-3.0.8-icon_e_biggrin",
+          "label": "biggrin",
+          "source_path": "art/reference/fullfilm-v5/emotes/forum-phpbb-3.0.8/icon_e_biggrin.gif",
+          "source_sha256": "4cc92a608cb9082ceaa8871b993bc9632e3ff0d1fcdc1d460a3a935062b84874",
+          "source_format": "GIF",
+          "source_size_px": [
+            15,
+            17
+          ],
+          "source_frame_count": 1,
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_e_biggrin.png",
+          "export_sha256": "3559f2b7c58be8fc0e02fd8e326d997b74a854ea38a523b08b825e7dd748b349",
+          "export_size_px": [
+            60,
+            68
+          ],
+          "background_processing": "First GIF frame decoded to RGBA and enlarged 4× with nearest-neighbor interpolation; source transparency preserved."
+        },
+        {
+          "id": "forum-phpbb-3.0.8-icon_e_wink",
+          "label": "wink",
+          "source_path": "art/reference/fullfilm-v5/emotes/forum-phpbb-3.0.8/icon_e_wink.gif",
+          "source_sha256": "0d62fc894a10bf6d3ca2f0c71d7df6c3d0946eaa02297745b45480f79d85f02e",
+          "source_format": "GIF",
+          "source_size_px": [
+            15,
+            17
+          ],
+          "source_frame_count": 1,
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_e_wink.png",
+          "export_sha256": "18855c5141d34f85986ee90fcfa32f77b11352734c9b73933996272659861661",
+          "export_size_px": [
+            60,
+            68
+          ],
+          "background_processing": "First GIF frame decoded to RGBA and enlarged 4× with nearest-neighbor interpolation; source transparency preserved."
+        },
+        {
+          "id": "forum-phpbb-3.0.8-icon_e_surprised",
+          "label": "surprised",
+          "source_path": "art/reference/fullfilm-v5/emotes/forum-phpbb-3.0.8/icon_e_surprised.gif",
+          "source_sha256": "805314b0505bc4d143209dab2b45e4e45d8d3077a424cff1227747253735a3d5",
+          "source_format": "GIF",
+          "source_size_px": [
+            15,
+            17
+          ],
+          "source_frame_count": 1,
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_e_surprised.png",
+          "export_sha256": "a7504f86b02d8fd5a9d0df4af18cb3f3e4850c4a4e6dd0fd1338cf28cbea992e",
+          "export_size_px": [
+            60,
+            68
+          ],
+          "background_processing": "First GIF frame decoded to RGBA and enlarged 4× with nearest-neighbor interpolation; source transparency preserved."
+        },
+        {
+          "id": "forum-phpbb-3.0.8-icon_e_sad",
+          "label": "sad",
+          "source_path": "art/reference/fullfilm-v5/emotes/forum-phpbb-3.0.8/icon_e_sad.gif",
+          "source_sha256": "4ea9ca68e5599672f04acd76857068a3c5fdda4dc8e2e7f94c3b2d38b90f77b7",
+          "source_format": "GIF",
+          "source_size_px": [
+            15,
+            17
+          ],
+          "source_frame_count": 1,
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_e_sad.png",
+          "export_sha256": "add3444e56a6ffa5363db019d9537a7423387de69b29472e9893226649c27984",
+          "export_size_px": [
+            60,
+            68
+          ],
+          "background_processing": "First GIF frame decoded to RGBA and enlarged 4× with nearest-neighbor interpolation; source transparency preserved."
+        },
+        {
+          "id": "forum-phpbb-3.0.8-icon_e_confused",
+          "label": "confused",
+          "source_path": "art/reference/fullfilm-v5/emotes/forum-phpbb-3.0.8/icon_e_confused.gif",
+          "source_sha256": "dce2e5c3805c155ceb313de4c339b4718040cf32d19a7218953a705bdeea5990",
+          "source_format": "GIF",
+          "source_size_px": [
+            15,
+            17
+          ],
+          "source_frame_count": 1,
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_e_confused.png",
+          "export_sha256": "35bc16d51d98c50c5ddd69c27411c772b13e6882aefa48fa35e89a0bac9eb8a7",
+          "export_size_px": [
+            60,
+            68
+          ],
+          "background_processing": "First GIF frame decoded to RGBA and enlarged 4× with nearest-neighbor interpolation; source transparency preserved."
+        },
+        {
+          "id": "forum-phpbb-3.0.8-icon_cool",
+          "label": "cool",
+          "source_path": "art/reference/fullfilm-v5/emotes/forum-phpbb-3.0.8/icon_cool.gif",
+          "source_sha256": "f628cb87a148d1f3dcbb4cba0b0ba7e3a4c56acc5a0b23f2ea7c86f108df585a",
+          "source_format": "GIF",
+          "source_size_px": [
+            15,
+            17
+          ],
+          "source_frame_count": 1,
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_cool.png",
+          "export_sha256": "9cf408ef008173bee43162ff3cb5a440c840fea2973eff5572f211fa222a090a",
+          "export_size_px": [
+            60,
+            68
+          ],
+          "background_processing": "First GIF frame decoded to RGBA and enlarged 4× with nearest-neighbor interpolation; source transparency preserved."
+        },
+        {
+          "id": "forum-phpbb-3.0.8-icon_lol",
+          "label": "lol",
+          "source_path": "art/reference/fullfilm-v5/emotes/forum-phpbb-3.0.8/icon_lol.gif",
+          "source_sha256": "89ccb750653bfe3f34358971241830db883d6ce8edfa122bfdc25326e4f08077",
+          "source_format": "GIF",
+          "source_size_px": [
+            15,
+            17
+          ],
+          "source_frame_count": 2,
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_lol.png",
+          "export_sha256": "165d1cf98264256be21a41041e64af621cc13185f2491de66b2fe1832be1c21e",
+          "export_size_px": [
+            60,
+            68
+          ],
+          "background_processing": "First GIF frame decoded to RGBA and enlarged 4× with nearest-neighbor interpolation; source transparency preserved."
+        }
+      ]
+    },
+    {
+      "id": "tieba-middle-pack-listing-2014",
+      "display_name": "百度贴吧泡泡 QQ 表情包 +50p（第三方目录快照）",
+      "listing_update_date": "2014-09-11",
+      "listing_date_basis": "JB51 listing field `更新时间：2014-09-11`; this dates the listing snapshot, not the original pack's creation.",
+      "original_pack_creation_date": null,
+      "current_placement_seconds": [],
+      "recommendation_seconds": [
+        [
+          71.68,
+          86.4
+        ]
+      ],
+      "source_page_url": "https://www.jb51.net/softs/216567.html",
+      "preview_source_url": "https://img.jbzj.com/do/uploads/litimg/140911/10234433Q91.gif",
+      "original_preview_path": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+      "original_preview_sha256": "e44e6acf951824de5e781733ae7abea31043b8f03b35d11773e3e4e5bc678556",
+      "supporting_2013_listing": {
+        "listing_update_date": "2013-09-10",
+        "source_page_url": "https://www.jb51.net/softs/103281.html",
+        "preview_path": "art/reference/fullfilm-v5/emotes/tieba-2013-pack-preview.gif",
+        "preview_sha256": "9553ba512a6a50b49734c7d040857be98fdb613d28a01b94b8b787846e2f3513",
+        "note": "The 2013 and 2014 listing previews show the same 7×4 default-pack family; they are not counted as two distinct artwork generations."
+      },
+      "rights_note": "Third-party catalog thumbnails and Tieba artwork rights are not cleared here; preserve attribution and treat as internal historical reference.",
+      "uncertainty": "The original .rar download is no longer available at the listing path. The 14 isolated files are transparent crops from the clean upper rows of the visible listing preview and intentionally have no guessed expression captions.",
+      "assets": [
+        {
+          "id": "tieba-middle-2014-preview-01",
+          "caption": null,
+          "preview_cell_row_col_1based": [
+            1,
+            1
+          ],
+          "source_crop_xyxy_px": [
+            20,
+            38,
+            64,
+            82
+          ],
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+          "source_sha256": "e44e6acf951824de5e781733ae7abea31043b8f03b35d11773e3e4e5bc678556",
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-01.png",
+          "export_sha256": "9e2ede8462c69f6c593baa858c2e9ffc1d1834f6a291b4fca1dc2b5df37f0782",
+          "native_crop_size_px": [
+            44,
+            44
+          ],
+          "export_size_px": [
+            132,
+            132
+          ],
+          "background_processing": "Connected near-uniform pale-blue cell background removed; source cell cropped and enlarged 3× with nearest-neighbor interpolation. No expression names inferred from the preview."
+        },
+        {
+          "id": "tieba-middle-2014-preview-02",
+          "caption": null,
+          "preview_cell_row_col_1based": [
+            1,
+            2
+          ],
+          "source_crop_xyxy_px": [
+            82,
+            38,
+            126,
+            82
+          ],
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+          "source_sha256": "e44e6acf951824de5e781733ae7abea31043b8f03b35d11773e3e4e5bc678556",
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-02.png",
+          "export_sha256": "99824c520af3ead25e9e6fb47e6ac1b3209c9a2e0042404d73c20be793050eef",
+          "native_crop_size_px": [
+            44,
+            44
+          ],
+          "export_size_px": [
+            132,
+            132
+          ],
+          "background_processing": "Connected near-uniform pale-blue cell background removed; source cell cropped and enlarged 3× with nearest-neighbor interpolation. No expression names inferred from the preview."
+        },
+        {
+          "id": "tieba-middle-2014-preview-03",
+          "caption": null,
+          "preview_cell_row_col_1based": [
+            1,
+            3
+          ],
+          "source_crop_xyxy_px": [
+            144,
+            38,
+            188,
+            82
+          ],
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+          "source_sha256": "e44e6acf951824de5e781733ae7abea31043b8f03b35d11773e3e4e5bc678556",
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-03.png",
+          "export_sha256": "839a5bcba4b510d6fdaa1771669de56af5b98e682b2b540551314723181a481e",
+          "native_crop_size_px": [
+            44,
+            44
+          ],
+          "export_size_px": [
+            132,
+            132
+          ],
+          "background_processing": "Connected near-uniform pale-blue cell background removed; source cell cropped and enlarged 3× with nearest-neighbor interpolation. No expression names inferred from the preview."
+        },
+        {
+          "id": "tieba-middle-2014-preview-04",
+          "caption": null,
+          "preview_cell_row_col_1based": [
+            1,
+            4
+          ],
+          "source_crop_xyxy_px": [
+            206,
+            38,
+            250,
+            82
+          ],
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+          "source_sha256": "e44e6acf951824de5e781733ae7abea31043b8f03b35d11773e3e4e5bc678556",
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-04.png",
+          "export_sha256": "49dd433335a263dfd9e9d9cb31a3b78fc61ae0a64a2c8365157f002d3396e045",
+          "native_crop_size_px": [
+            44,
+            44
+          ],
+          "export_size_px": [
+            132,
+            132
+          ],
+          "background_processing": "Connected near-uniform pale-blue cell background removed; source cell cropped and enlarged 3× with nearest-neighbor interpolation. No expression names inferred from the preview."
+        },
+        {
+          "id": "tieba-middle-2014-preview-05",
+          "caption": null,
+          "preview_cell_row_col_1based": [
+            1,
+            5
+          ],
+          "source_crop_xyxy_px": [
+            268,
+            38,
+            312,
+            82
+          ],
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+          "source_sha256": "e44e6acf951824de5e781733ae7abea31043b8f03b35d11773e3e4e5bc678556",
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-05.png",
+          "export_sha256": "743703733cc267d0ebd8c3a6905c6ffa7c0e0faec3f67ad812a927f2e1be42b3",
+          "native_crop_size_px": [
+            44,
+            44
+          ],
+          "export_size_px": [
+            132,
+            132
+          ],
+          "background_processing": "Connected near-uniform pale-blue cell background removed; source cell cropped and enlarged 3× with nearest-neighbor interpolation. No expression names inferred from the preview."
+        },
+        {
+          "id": "tieba-middle-2014-preview-06",
+          "caption": null,
+          "preview_cell_row_col_1based": [
+            1,
+            6
+          ],
+          "source_crop_xyxy_px": [
+            330,
+            38,
+            374,
+            82
+          ],
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+          "source_sha256": "e44e6acf951824de5e781733ae7abea31043b8f03b35d11773e3e4e5bc678556",
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-06.png",
+          "export_sha256": "05845d19c3266450c5e6a6c94c4791c4524d24c45aee3255d389def13568dc67",
+          "native_crop_size_px": [
+            44,
+            44
+          ],
+          "export_size_px": [
+            132,
+            132
+          ],
+          "background_processing": "Connected near-uniform pale-blue cell background removed; source cell cropped and enlarged 3× with nearest-neighbor interpolation. No expression names inferred from the preview."
+        },
+        {
+          "id": "tieba-middle-2014-preview-07",
+          "caption": null,
+          "preview_cell_row_col_1based": [
+            1,
+            7
+          ],
+          "source_crop_xyxy_px": [
+            392,
+            38,
+            436,
+            82
+          ],
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+          "source_sha256": "e44e6acf951824de5e781733ae7abea31043b8f03b35d11773e3e4e5bc678556",
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-07.png",
+          "export_sha256": "4e518340276fa14a6d4e24e64ea52e8c25d1d1c27333ec9b610ae86b7b1ce587",
+          "native_crop_size_px": [
+            44,
+            44
+          ],
+          "export_size_px": [
+            132,
+            132
+          ],
+          "background_processing": "Connected near-uniform pale-blue cell background removed; source cell cropped and enlarged 3× with nearest-neighbor interpolation. No expression names inferred from the preview."
+        },
+        {
+          "id": "tieba-middle-2014-preview-08",
+          "caption": null,
+          "preview_cell_row_col_1based": [
+            2,
+            1
+          ],
+          "source_crop_xyxy_px": [
+            20,
+            99,
+            64,
+            143
+          ],
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+          "source_sha256": "e44e6acf951824de5e781733ae7abea31043b8f03b35d11773e3e4e5bc678556",
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-08.png",
+          "export_sha256": "a6a71469f07642df0f6b2c284f3b2bbf9748eb770cff3e4945ba9fa25a8792e1",
+          "native_crop_size_px": [
+            44,
+            44
+          ],
+          "export_size_px": [
+            132,
+            132
+          ],
+          "background_processing": "Connected near-uniform pale-blue cell background removed; source cell cropped and enlarged 3× with nearest-neighbor interpolation. No expression names inferred from the preview."
+        },
+        {
+          "id": "tieba-middle-2014-preview-09",
+          "caption": null,
+          "preview_cell_row_col_1based": [
+            2,
+            2
+          ],
+          "source_crop_xyxy_px": [
+            82,
+            99,
+            126,
+            143
+          ],
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+          "source_sha256": "e44e6acf951824de5e781733ae7abea31043b8f03b35d11773e3e4e5bc678556",
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-09.png",
+          "export_sha256": "7fffa9b58d49eca5eb5435b538a021d2b683284ef9ba74cfac1c4195a35755ae",
+          "native_crop_size_px": [
+            44,
+            44
+          ],
+          "export_size_px": [
+            132,
+            132
+          ],
+          "background_processing": "Connected near-uniform pale-blue cell background removed; source cell cropped and enlarged 3× with nearest-neighbor interpolation. No expression names inferred from the preview."
+        },
+        {
+          "id": "tieba-middle-2014-preview-10",
+          "caption": null,
+          "preview_cell_row_col_1based": [
+            2,
+            3
+          ],
+          "source_crop_xyxy_px": [
+            144,
+            99,
+            188,
+            143
+          ],
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+          "source_sha256": "e44e6acf951824de5e781733ae7abea31043b8f03b35d11773e3e4e5bc678556",
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-10.png",
+          "export_sha256": "8a145af6253004a6ced9981b25743a4496a0842acaa96191dc5f610015e39134",
+          "native_crop_size_px": [
+            44,
+            44
+          ],
+          "export_size_px": [
+            132,
+            132
+          ],
+          "background_processing": "Connected near-uniform pale-blue cell background removed; source cell cropped and enlarged 3× with nearest-neighbor interpolation. No expression names inferred from the preview."
+        },
+        {
+          "id": "tieba-middle-2014-preview-11",
+          "caption": null,
+          "preview_cell_row_col_1based": [
+            2,
+            4
+          ],
+          "source_crop_xyxy_px": [
+            206,
+            99,
+            250,
+            143
+          ],
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+          "source_sha256": "e44e6acf951824de5e781733ae7abea31043b8f03b35d11773e3e4e5bc678556",
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-11.png",
+          "export_sha256": "2b702872969333cd84fe47cfe04cb86992997026e9ae979628113e2183eeb258",
+          "native_crop_size_px": [
+            44,
+            44
+          ],
+          "export_size_px": [
+            132,
+            132
+          ],
+          "background_processing": "Connected near-uniform pale-blue cell background removed; source cell cropped and enlarged 3× with nearest-neighbor interpolation. No expression names inferred from the preview."
+        },
+        {
+          "id": "tieba-middle-2014-preview-12",
+          "caption": null,
+          "preview_cell_row_col_1based": [
+            2,
+            5
+          ],
+          "source_crop_xyxy_px": [
+            268,
+            99,
+            312,
+            143
+          ],
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+          "source_sha256": "e44e6acf951824de5e781733ae7abea31043b8f03b35d11773e3e4e5bc678556",
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-12.png",
+          "export_sha256": "92aa42dcad120c61e7a390dc0eb1247766b27b19d1dc6d5b389abcae1a11299c",
+          "native_crop_size_px": [
+            44,
+            44
+          ],
+          "export_size_px": [
+            132,
+            132
+          ],
+          "background_processing": "Connected near-uniform pale-blue cell background removed; source cell cropped and enlarged 3× with nearest-neighbor interpolation. No expression names inferred from the preview."
+        },
+        {
+          "id": "tieba-middle-2014-preview-13",
+          "caption": null,
+          "preview_cell_row_col_1based": [
+            2,
+            6
+          ],
+          "source_crop_xyxy_px": [
+            330,
+            99,
+            374,
+            143
+          ],
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+          "source_sha256": "e44e6acf951824de5e781733ae7abea31043b8f03b35d11773e3e4e5bc678556",
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-13.png",
+          "export_sha256": "23eb77bf863db0a54207605e0b3b267a1788d14ce93018be4aba401e5148eed9",
+          "native_crop_size_px": [
+            44,
+            44
+          ],
+          "export_size_px": [
+            132,
+            132
+          ],
+          "background_processing": "Connected near-uniform pale-blue cell background removed; source cell cropped and enlarged 3× with nearest-neighbor interpolation. No expression names inferred from the preview."
+        },
+        {
+          "id": "tieba-middle-2014-preview-14",
+          "caption": null,
+          "preview_cell_row_col_1based": [
+            2,
+            7
+          ],
+          "source_crop_xyxy_px": [
+            392,
+            99,
+            436,
+            143
+          ],
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+          "source_sha256": "e44e6acf951824de5e781733ae7abea31043b8f03b35d11773e3e4e5bc678556",
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-14.png",
+          "export_sha256": "9913921f91472077099858027d84b34866e584a20a871070db587fa9a2ada63a",
+          "native_crop_size_px": [
+            44,
+            44
+          ],
+          "export_size_px": [
+            132,
+            132
+          ],
+          "background_processing": "Connected near-uniform pale-blue cell background removed; source cell cropped and enlarged 3× with nearest-neighbor interpolation. No expression names inferred from the preview."
+        }
+      ]
+    },
+    {
+      "id": "tieba-mobile-snapshot-2020",
+      "display_name": "Baidu Tieba mobile default emotes snapshot",
+      "host_app_version": "11.6.8.2",
+      "host_app_updated": "2020-07-13",
+      "host_app_updated_evidence": "art/reference/fullfilm-v5/emotes/tieba-mobile-2020/README.md",
+      "repository_created_at": "2020-07-18T09:32:50Z",
+      "date_basis": "Repository README explicitly says these default emotes were extracted from this Baidu Tieba app build, updated 2020-07-13.",
+      "current_placement_seconds": [],
+      "recommendation_seconds": [
+        [
+          86.4,
+          112.64
+        ]
+      ],
+      "source_repository_url": "https://github.com/microlong666/Tieba_mobile_emotions",
+      "source_readme": "art/reference/fullfilm-v5/emotes/tieba-mobile-2020/README.md",
+      "rights_note": "The repository README says the set is for study/learning and personal non-commercial use, and asks users to contact the author about infringement. The repository does not clear underlying Tieba artwork rights. Keep as internal historical reference; do not redistribute or publish without separate clearance.",
+      "uncertainty": "The upstream extraction has numbered files without per-image captions. These eight figures are identified by source file number only; this 2020 snapshot is not described as the current 2026 app pack.",
+      "assets": [
+        {
+          "id": "tieba-mobile-2020-101",
+          "label": "素材 101",
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-mobile-2020/image_emoticon101.png",
+          "source_sha256": "8ae06de0f93e562eb306e586e557eddcf157d9670820f3796acda24dcecb0f4e",
+          "source_format": "PNG",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-101.png",
+          "export_sha256": "283c167da46789f7433b12a0839e9e761ebd971677c674c0bb0629b0ebbb2904",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "PNG decoded to RGBA; palette transparency preserved, no crop or resizing. No expression names inferred from the numbered source files."
+        },
+        {
+          "id": "tieba-mobile-2020-102",
+          "label": "素材 102",
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-mobile-2020/image_emoticon102.png",
+          "source_sha256": "27e7877076cb7cddd8b0119c3284c5234a3f2a5148b85861a6dbe9148f1ba801",
+          "source_format": "PNG",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-102.png",
+          "export_sha256": "9e213994569dcbba126b96b048d436eddb15a7d9b9aacc03d0c437647ab8cd5a",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "PNG decoded to RGBA; palette transparency preserved, no crop or resizing. No expression names inferred from the numbered source files."
+        },
+        {
+          "id": "tieba-mobile-2020-103",
+          "label": "素材 103",
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-mobile-2020/image_emoticon103.png",
+          "source_sha256": "46b06269680eaf4a3925ae607b26773b8d1fda5da25f6500088b6267b2014ffb",
+          "source_format": "PNG",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-103.png",
+          "export_sha256": "2169f47e11ab89f9bf367d858642216a8b5f19f9803f89af7f0b24a1db26a771",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "PNG decoded to RGBA; palette transparency preserved, no crop or resizing. No expression names inferred from the numbered source files."
+        },
+        {
+          "id": "tieba-mobile-2020-104",
+          "label": "素材 104",
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-mobile-2020/image_emoticon104.png",
+          "source_sha256": "656bf81235ee6e44ae5db821f0fd8c9b1cde2fdbeb6fca85561ddf60299e1c13",
+          "source_format": "PNG",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-104.png",
+          "export_sha256": "6a36f1a8bdf6b83ce4f01adfa08e628bc59b29aa4c4631487d8d9e2121c3b95a",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "PNG decoded to RGBA; palette transparency preserved, no crop or resizing. No expression names inferred from the numbered source files."
+        },
+        {
+          "id": "tieba-mobile-2020-118",
+          "label": "素材 118",
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-mobile-2020/image_emoticon118.png",
+          "source_sha256": "09a28924b42c8fd1d21dba740991f0892e0dc408b812f3fdbb023c7a95a1df0b",
+          "source_format": "PNG",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-118.png",
+          "export_sha256": "c3cefd549c9f71d1da857b9e67a9194f4949ddb5ce6242c4a1555c9167ed1374",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "PNG decoded to RGBA; palette transparency preserved, no crop or resizing. No expression names inferred from the numbered source files."
+        },
+        {
+          "id": "tieba-mobile-2020-120",
+          "label": "素材 120",
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-mobile-2020/image_emoticon120.png",
+          "source_sha256": "5929007193cf02b0755c922597ef18bb8bf2300e2b8721e6e0cdcda47530eb7f",
+          "source_format": "PNG",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-120.png",
+          "export_sha256": "82d9e1c744f11a5a173e4187bd9f2f991d497fd5fb46b09f6ecb4062c820daf0",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "PNG decoded to RGBA; palette transparency preserved, no crop or resizing. No expression names inferred from the numbered source files."
+        },
+        {
+          "id": "tieba-mobile-2020-123",
+          "label": "素材 123",
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-mobile-2020/image_emoticon123.png",
+          "source_sha256": "c340b5197810525e97ce9120425877a8b5fdc81fcc3d306ca79bb0008a065776",
+          "source_format": "PNG",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-123.png",
+          "export_sha256": "b99f592fa706a40b9d37ae39e45b28798cf2abf7ef18abaac7189ad362d42c84",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "PNG decoded to RGBA; palette transparency preserved, no crop or resizing. No expression names inferred from the numbered source files."
+        },
+        {
+          "id": "tieba-mobile-2020-124",
+          "label": "素材 124",
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-mobile-2020/image_emoticon124.png",
+          "source_sha256": "c92c31396eec93cc335cc9a5eb1255e535dc4de53ea96b2b4a006ba82415d164",
+          "source_format": "PNG",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-124.png",
+          "export_sha256": "f4480662fa41c25d1c3e203bfca9d705e499880444a9286563aeca8407150f1c",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "PNG decoded to RGBA; palette transparency preserved, no crop or resizing. No expression names inferred from the numbered source files."
+        }
+      ]
+    },
+    {
+      "id": "tieba-current-default-pack-2026",
+      "display_name": "百度贴吧移动端默认 emoji 预设",
+      "host_app_package": "com.baidu.tieba",
+      "host_app_version": "22.12.1.0",
+      "host_app_updated": "2026-09-24",
+      "host_app_updated_evidence": "https://mobile.baidu.com/appitemp/321367844",
+      "preset_package_name": "com.baidu.spswitch.emotion",
+      "preset_version": "1.0.0.0",
+      "preset_version_code": "21",
+      "host_min_version": "11.13.0.0",
+      "current_placement_seconds": [],
+      "recommendation_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "asset_archive_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/com.baidu.spswitch.emotion.preset.zip",
+      "asset_archive_sha256": "6034d18b9d4f34af301c2c688177d1d1cb6b31187e2f6d78ab716bae98a1a0ea",
+      "source_apk": {
+        "schema": "fullfilm-v5-tieba-apk-provenance.1",
+        "app_package": "com.baidu.tieba",
+        "app_version": "22.12.1.0",
+        "app_version_code": 369885440,
+        "app_updated": "2026-09-24",
+        "app_size_bytes": 88718506,
+        "app_developer": "百度",
+        "listing_source_url": "https://mobile.baidu.com/appitemp/321367844",
+        "corroborating_store_url": "https://sj.qq.com/appdetail/com.baidu.tieba",
+        "corroborating_store_update_date": "2026-09-23",
+        "corroboration_note": "The official Baidu Mobile Assistant listing and Tencent MyApp listing both report version 22.12.1.0. Baidu lists 2026-09-24; Tencent MyApp lists 2026-09-23. Use the Baidu date as primary and preserve the one-day listing discrepancy in provenance.",
+        "download_source": "Tencent MyApp CDN URL provided by the current Baidu app listing flow",
+        "download_url": "https://imtt.dd.qq.com/sjy.20025/sjy.00004/70F9FEB84B66FE6D/16891/apk/E85DA03E9B00E513FA359D40F6FCCA36.apk?fsname=com.baidu.tieba_22.12.1.0.apk&csr=6a4e",
+        "downloaded_to": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v5/material-audit/tieba-22.12.1.0-2026-09-24.apk",
+        "apk_stored_in_repository": false,
+        "apk_md5": "e85da03e9b00e513fa359d40f6fcca36",
+        "apk_sha256": "b7e46a08951c87e04ad7b4b6be6b99420268e225183f6ceb5f8c54b0f26551ba",
+        "apk_md5_check": "Matches the 32-hex package identifier in the official Tencent CDN filename.",
+        "preset_archive_member": "assets/emotion/com.baidu.spswitch.emotion.preset.zip",
+        "preset_archive_repository_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/com.baidu.spswitch.emotion.preset.zip",
+        "preset_archive_sha256": "6034d18b9d4f34af301c2c688177d1d1cb6b31187e2f6d78ab716bae98a1a0ea",
+        "preset_metadata_repository_paths": [
+          "art/reference/fullfilm-v5/emotes/tieba-current-2026/emotion_info.json",
+          "art/reference/fullfilm-v5/emotes/tieba-current-2026/pkginfo.json"
+        ],
+        "preset_host_min_version": "11.13.0.0",
+        "preset_version": "1.0.0.0",
+        "preset_version_code": "21",
+        "asset_count": 32,
+        "limitations": [
+          "The preset is the default emoji package embedded in the 2026-09-24 Android app build; this does not establish when each individual drawing was first created.",
+          "The app APK was not added to the repository. Only the compact nested preset archive, its package metadata, and original WebP assets are retained.",
+          "The CDN package hash was checked; no separate publisher certificate allowlist was available in the local project."
+        ]
+      },
+      "rights_note": "Extracted from Baidu Tieba's app package; Baidu retains the underlying artwork rights. Use only as internally reviewed reference unless exhibition rights are cleared.",
+      "assets": [
+        {
+          "id": "001001",
+          "text": "[微笑]",
+          "panel_order_1based": 1,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_01.webp",
+          "source_sha256": "479f9a2dfd59531958dab2d61e358b1121adc2ca241eb3489ed8c9864e7625a7",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001001.png",
+          "export_sha256": "1f69c7bceb4f7592b36861cd707b8401a0057063b1bae4cd340a9f72abaf5d7f",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001004",
+          "text": "[大笑]",
+          "panel_order_1based": 2,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_04.webp",
+          "source_sha256": "e1b67a7b8cdf7aa5fec8efdc57bb8507526ba592604b4c9a8b01dcff69f18fef",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001004.png",
+          "export_sha256": "dd13011c07eb712187dc08f17fd849b94d9e76f53912a280fd4d79309b257fbb",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001005",
+          "text": "[鼓掌]",
+          "panel_order_1based": 3,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_05.webp",
+          "source_sha256": "e5b520eb556a22b724041474c2a1cc8dfc3ddbb634fc293c2c9122b90acdf6d7",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001005.png",
+          "export_sha256": "aaba762719d360ce83c26597ab056b52219f2b220132d5a61de3036b660453bb",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001206",
+          "text": "[嘻嘻]",
+          "panel_order_1based": 4,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_206.webp",
+          "source_sha256": "a633768b0e93d4b8b5a1d1836110621319753918168b638a26f14cf69d2848c4",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001206.png",
+          "export_sha256": "9dbbf9f0c859a0d7044468cc811b824f356244d994ea26a03cf8d6ebf9943d66",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001023",
+          "text": "[色]",
+          "panel_order_1based": 5,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_23.webp",
+          "source_sha256": "6efbdc209ed67b09f7802dec349b92374be6eb9dfd0fe065079b4fa1396ad9f3",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001023.png",
+          "export_sha256": "218d20a3f7dc260e9d7101d01be2cf96f9b0f4360ce7bc46d4d10120298c4f35",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001025",
+          "text": "[得意]",
+          "panel_order_1based": 6,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_25.webp",
+          "source_sha256": "f44c1dc3c8240109fb1e3fb2bf2065b62096912bcd24fb015868e8f240d3002a",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001025.png",
+          "export_sha256": "decf9d23364641b0a1d9e5ab429c5289138d4ca67da65ed4b4e23c8a70f4f903",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001007",
+          "text": "[笑哭]",
+          "panel_order_1based": 7,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_07.webp",
+          "source_sha256": "87751bde78357978010992350f465c7e3c14db86c8f65031e8ee93c785f6cc25",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001007.png",
+          "export_sha256": "68ec44857aac70b27c7ae3c209687e25b1fe58f9f0f23ed979498399d30df351",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001016",
+          "text": "[不高兴]",
+          "panel_order_1based": 8,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_16.webp",
+          "source_sha256": "ba42d064627157424376a3aabb660cbc23e80bdd4cf956bc80ae8335f49ba130",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001016.png",
+          "export_sha256": "92bef6219968b8c8c7a9158ede6ad47d9ff1151da62846544da7bdcfa1e1f383",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001186",
+          "text": "[悲伤]",
+          "panel_order_1based": 9,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_186.webp",
+          "source_sha256": "c56b3f5983ffd0e8073ecb80efd029b1d37220b504588eee9203cb00b6329352",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001186.png",
+          "export_sha256": "a0ae72d3f63c14abede22505c154215e707c135a0c99256e5bf5acdc6b2c0892",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001020",
+          "text": "[流泪]",
+          "panel_order_1based": 10,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_20.webp",
+          "source_sha256": "b085936787d2b20dc705c2970d098d9019cb25aeb8092cb88d20bb617e32890e",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001020.png",
+          "export_sha256": "78acadb45798392f202a148c5d98bc9f3bbb646b12670247517b96588a1be6a6",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001019",
+          "text": "[大哭]",
+          "panel_order_1based": 11,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_19.webp",
+          "source_sha256": "e4ab6defa58594d9d376e069d5860d2bd6c3c3c04237b536d84ed2505bd8ddad",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001019.png",
+          "export_sha256": "9f71f9e6235305978470412c88f983dcbba4504a032cf4a7156fb8c1614f3016",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001073",
+          "text": "[左捂脸]",
+          "panel_order_1based": 12,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_73.webp",
+          "source_sha256": "55b53de9c8f6f5c57cf0a347dd05391f446677c27e4a1d0a268bfbd7d6d164a3",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001073.png",
+          "export_sha256": "fafda9b74224868f23a9d0d5eae74bf35b7dea68f6eb2cfac453a0eb2c7088ca",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001072",
+          "text": "[捂脸]",
+          "panel_order_1based": 13,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_72.webp",
+          "source_sha256": "ea5e73d12ba514cd938848c18a1489fcecc254f526c0be3e355b3dd336bf8893",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001072.png",
+          "export_sha256": "8f470563f16319da8e8115561be695326d213ce0f73c0be9fa0791f748785132",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001014",
+          "text": "[发怒]",
+          "panel_order_1based": 14,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_14.webp",
+          "source_sha256": "d4e33146e900b0b67f3b7f72d170905e6379531ab96cf178ece1d222082ff340",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001014.png",
+          "export_sha256": "5dd0449dba35419aa901493cec2efdac2af04d14c080c5a3fde45fd5a8548bd1",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001071",
+          "text": "[滑稽]",
+          "panel_order_1based": 15,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_71.webp",
+          "source_sha256": "77bdd07e7729a9f8778743af2b531580d10f3cfde01784664eae571970c96092",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001071.png",
+          "export_sha256": "7ccf5b8c0b71dd42af3b035d231c770688d66e627bfc673d7fc6e7b51bb8f423",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001012",
+          "text": "[抠鼻]",
+          "panel_order_1based": 16,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_12.webp",
+          "source_sha256": "6db309358672f38b2819c85cc00d6d5241cc52d81365fa9470b5af214590ecc8",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001012.png",
+          "export_sha256": "8e652f60c34ae473be4e9bd70fa50e9b687f99402237b0863d0b1a6213576baf",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001003",
+          "text": "[期待]",
+          "panel_order_1based": 17,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_03.webp",
+          "source_sha256": "bee00eac0e5f39c41b263fb3462ab2f132952d395adcbd96256ef09ca068fe27",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001003.png",
+          "export_sha256": "4bd13944b107e8c886c376cc97eb563c4d51d8cdd35b876ed5292736a6bdff49",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001065",
+          "text": "[打call]",
+          "panel_order_1based": 18,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_65.webp",
+          "source_sha256": "ab472d9a6c61a19b93479e5218f4f143e76c7ff34111ad8186833d15a33064fe",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001065.png",
+          "export_sha256": "4786f04d62c2cbe4638a26186720772e9ee26844ae0f5c3c0113c3a9ab0ba2a9",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001024",
+          "text": "[舔屏]",
+          "panel_order_1based": 19,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_24.webp",
+          "source_sha256": "25444bce9a7a7829c5021bf8d4ded64eac777a5a7d41b7e85efa38a8ae384084",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001024.png",
+          "export_sha256": "274615c4b0922add7b0647b52552379ad1a0dd290b49b31917181ffb8d7a65d6",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001098",
+          "text": "[亲吻]",
+          "panel_order_1based": 20,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_98.webp",
+          "source_sha256": "e5157e8d1eda1a96687ff54768e4d351f99270c35a802092d9429f5399bae1c0",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001098.png",
+          "export_sha256": "7a70d7cdc1799c0bf6b41652bb7412fc1d420b18692fd1b4c66e842b05a1f1ec",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001021",
+          "text": "[害羞]",
+          "panel_order_1based": 21,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_21.webp",
+          "source_sha256": "b8daba86f5dcd2f6e7c8ff05ebdae029d40483f12e6be4af17560f9026f9726c",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001021.png",
+          "export_sha256": "7d57ccc2ca24d7abb41dc28b807b7c5b8fb5f896c17e2468d622b4435e98025c",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001070",
+          "text": "[前面的别走]",
+          "panel_order_1based": 22,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_70.webp",
+          "source_sha256": "e21fec7215a61089166260de88b7b6598b4b6d9e5324898bd0441eefe5d6ce5e",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001070.png",
+          "export_sha256": "078065bf78fc18f8c191995d4fc7f1e4e074d398e5afdf8d0fa03603c426259d",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001068",
+          "text": "[没眼看]",
+          "panel_order_1based": 23,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_68.webp",
+          "source_sha256": "10bb50f9184b58e86874806e3fabd15ad1d2a1023e345dc74d20c089d324d893",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001068.png",
+          "export_sha256": "f9385000fbeced2f3c5b6935ff4073eeec9ab81565418a1c47926f14d9ab92f8",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001013",
+          "text": "[哼]",
+          "panel_order_1based": 24,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_13.webp",
+          "source_sha256": "23ec52900f39c211277a6cc68b7625b4e9f7008158c1462c37a140cc529c1515",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001013.png",
+          "export_sha256": "0d23b3dbe1c8e95f2cc5b7233877b98acf5007f4c7788b7c00a73781030638a1",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001011",
+          "text": "[汗]",
+          "panel_order_1based": 25,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_11.webp",
+          "source_sha256": "ca8fce2d22029687c4b69d73d3e5fc83a9f40b9367d579ed2fdbe84794983ddc",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001011.png",
+          "export_sha256": "05d6cfad25c4bfdcf5c5a7eb0773f6ede5a3a92adc9adb005391f817aa6788f5",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001069",
+          "text": "[嘿哈]",
+          "panel_order_1based": 26,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_69.webp",
+          "source_sha256": "66dca0d8c58d357e1552db7617e29c3be9b235995415d3fe0cf3b29d21d31e6a",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001069.png",
+          "export_sha256": "fb0bb45f06b4f619bc38b72e713d0908c4996f47103f6b7d3d09adbed011a3c1",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001067",
+          "text": "[坏笑]",
+          "panel_order_1based": 27,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_67.webp",
+          "source_sha256": "7123a873804fc14f7bb12568c6ffcbf2f268806b631e091bc9d7afec96e256ad",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001067.png",
+          "export_sha256": "a84feef658ce4583482d8763b71fb622f73e2611dc5407803a9e7013e995eb85",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001060",
+          "text": "[赞同]",
+          "panel_order_1based": 28,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_60.webp",
+          "source_sha256": "2cef6eab826a98ead74b21153aa17c7c9227671640f31f6e2c098f7d20c678c7",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001060.png",
+          "export_sha256": "3ff3672fa3b79a9f94e99f1527809355e81c6480debe2e8ad16635391834d886",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001207",
+          "text": "[心]",
+          "panel_order_1based": 29,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_207.webp",
+          "source_sha256": "936d382c7fb26f77d36688b044f94964caa84a9f25d305d49d25848b2c35457c",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001207.png",
+          "export_sha256": "b53d3393847698ecb6af66887c7d520996e16fbb87d3d424ad0ebe316f8a0933",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001055",
+          "text": "[鲜花]",
+          "panel_order_1based": 30,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_55.webp",
+          "source_sha256": "33febd48cccf12fd5cd668d68e5d4534cea076084c8ff1b71050659030a59005",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001055.png",
+          "export_sha256": "60201a6279b2c74a04fe34c2a70a53b2fbf6c80c737dde6cf68be4ceeb5f11b0",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001097",
+          "text": "[祈福]",
+          "panel_order_1based": 31,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_97.webp",
+          "source_sha256": "0108933b0dd46d037f13ca427dda4c40b751d226b93c08e9610d5fcf59e98b43",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001097.png",
+          "export_sha256": "25f0eda7d713ee163634d93434cb1764998ff838f9b67360c7d053fe4389c33a",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        },
+        {
+          "id": "001122",
+          "text": "[加油啊]",
+          "panel_order_1based": 32,
+          "source_path": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_122.webp",
+          "source_sha256": "10a5b979fed1df046b4892782bd9d583a3dc5f7170b9ace16f2536cabf6d7b99",
+          "source_format": "WebP",
+          "source_size_px": [
+            90,
+            90
+          ],
+          "source_has_transparency": true,
+          "export_path": "art/export/fullfilm-v5/emotes/tieba-current-2026-001122.png",
+          "export_sha256": "636bc7adfb9f01fb42124d3abb3c607c2d8fe94bca41744a48c2618d8f67ede2",
+          "export_size_px": [
+            90,
+            90
+          ],
+          "background_processing": "WebP decoded to RGBA PNG; original alpha preserved, no crop, recolor, or resizing."
+        }
+      ]
+    }
+  ],
+  "legacy_cross_service_context_not_counted_as_forum_source": {
+    "asset_ids": [
+      "qq-2003-00-surprised",
+      "qq-2003-01-pout",
+      "qq-2003-02-love-struck",
+      "qq-2003-03-blank",
+      "qq-2003-04-smug",
+      "qq-2003-05-tears",
+      "qq-2003-06-shy",
+      "qq-2003-07-shush",
+      "qq-2003-08-sleep",
+      "qq-2003-09-cry",
+      "qq-2003-10-awkward",
+      "qq-2003-11-angry",
+      "qq-2003-12-playful",
+      "qq-2003-13-toothy-grin",
+      "qq-2003-14-smile",
+      "qq-2003-15-sad",
+      "qq-2003-16-cool",
+      "qq-2003-17-sars",
+      "qq-2003-18-rage",
+      "qq-2003-19-vomit",
+      "onionhead-2007-shout",
+      "onionhead-2007-blush",
+      "onionhead-2007-smile"
+    ],
+    "note": "These existing sources may be referenced as QQ/IM or cross-service Onion Head context. QQ assets are not forum-native, and the Sohu 2007 four-panel image is not a verified original forum sticker pack; they are excluded from the new flat binding list."
+  },
+  "items": [
+    {
+      "id": "forum-phpbb-3.0.8-icon_e_smile",
+      "file": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_e_smile.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/forum-phpbb-3.0.8/icon_e_smile.gif",
+      "sha256": "bba5155926c8bca3d72801f8ddde2dc23b879efd77e76252bbb5dd1044e0ee1c",
+      "timeline_group": "forum-phpbb-3.0.8",
+      "time_windows_seconds": [
+        [
+          51.2,
+          71.68
+        ]
+      ],
+      "source_title": "phpBB 3.0.8 default smilies",
+      "source_publisher_or_author": "phpBB Project",
+      "source_version_or_date": "release-3.0.8 / 2010-11-20",
+      "source_url": "https://github.com/phpbb/phpbb/tree/release-3.0.8/phpBB/images/smilies",
+      "caption": "smile"
+    },
+    {
+      "id": "forum-phpbb-3.0.8-icon_e_biggrin",
+      "file": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_e_biggrin.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/forum-phpbb-3.0.8/icon_e_biggrin.gif",
+      "sha256": "3559f2b7c58be8fc0e02fd8e326d997b74a854ea38a523b08b825e7dd748b349",
+      "timeline_group": "forum-phpbb-3.0.8",
+      "time_windows_seconds": [
+        [
+          51.2,
+          71.68
+        ]
+      ],
+      "source_title": "phpBB 3.0.8 default smilies",
+      "source_publisher_or_author": "phpBB Project",
+      "source_version_or_date": "release-3.0.8 / 2010-11-20",
+      "source_url": "https://github.com/phpbb/phpbb/tree/release-3.0.8/phpBB/images/smilies",
+      "caption": "biggrin"
+    },
+    {
+      "id": "forum-phpbb-3.0.8-icon_e_wink",
+      "file": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_e_wink.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/forum-phpbb-3.0.8/icon_e_wink.gif",
+      "sha256": "18855c5141d34f85986ee90fcfa32f77b11352734c9b73933996272659861661",
+      "timeline_group": "forum-phpbb-3.0.8",
+      "time_windows_seconds": [
+        [
+          51.2,
+          71.68
+        ]
+      ],
+      "source_title": "phpBB 3.0.8 default smilies",
+      "source_publisher_or_author": "phpBB Project",
+      "source_version_or_date": "release-3.0.8 / 2010-11-20",
+      "source_url": "https://github.com/phpbb/phpbb/tree/release-3.0.8/phpBB/images/smilies",
+      "caption": "wink"
+    },
+    {
+      "id": "forum-phpbb-3.0.8-icon_e_surprised",
+      "file": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_e_surprised.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/forum-phpbb-3.0.8/icon_e_surprised.gif",
+      "sha256": "a7504f86b02d8fd5a9d0df4af18cb3f3e4850c4a4e6dd0fd1338cf28cbea992e",
+      "timeline_group": "forum-phpbb-3.0.8",
+      "time_windows_seconds": [
+        [
+          51.2,
+          71.68
+        ]
+      ],
+      "source_title": "phpBB 3.0.8 default smilies",
+      "source_publisher_or_author": "phpBB Project",
+      "source_version_or_date": "release-3.0.8 / 2010-11-20",
+      "source_url": "https://github.com/phpbb/phpbb/tree/release-3.0.8/phpBB/images/smilies",
+      "caption": "surprised"
+    },
+    {
+      "id": "forum-phpbb-3.0.8-icon_e_sad",
+      "file": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_e_sad.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/forum-phpbb-3.0.8/icon_e_sad.gif",
+      "sha256": "add3444e56a6ffa5363db019d9537a7423387de69b29472e9893226649c27984",
+      "timeline_group": "forum-phpbb-3.0.8",
+      "time_windows_seconds": [
+        [
+          51.2,
+          71.68
+        ]
+      ],
+      "source_title": "phpBB 3.0.8 default smilies",
+      "source_publisher_or_author": "phpBB Project",
+      "source_version_or_date": "release-3.0.8 / 2010-11-20",
+      "source_url": "https://github.com/phpbb/phpbb/tree/release-3.0.8/phpBB/images/smilies",
+      "caption": "sad"
+    },
+    {
+      "id": "forum-phpbb-3.0.8-icon_e_confused",
+      "file": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_e_confused.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/forum-phpbb-3.0.8/icon_e_confused.gif",
+      "sha256": "35bc16d51d98c50c5ddd69c27411c772b13e6882aefa48fa35e89a0bac9eb8a7",
+      "timeline_group": "forum-phpbb-3.0.8",
+      "time_windows_seconds": [
+        [
+          51.2,
+          71.68
+        ]
+      ],
+      "source_title": "phpBB 3.0.8 default smilies",
+      "source_publisher_or_author": "phpBB Project",
+      "source_version_or_date": "release-3.0.8 / 2010-11-20",
+      "source_url": "https://github.com/phpbb/phpbb/tree/release-3.0.8/phpBB/images/smilies",
+      "caption": "confused"
+    },
+    {
+      "id": "forum-phpbb-3.0.8-icon_cool",
+      "file": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_cool.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/forum-phpbb-3.0.8/icon_cool.gif",
+      "sha256": "9cf408ef008173bee43162ff3cb5a440c840fea2973eff5572f211fa222a090a",
+      "timeline_group": "forum-phpbb-3.0.8",
+      "time_windows_seconds": [
+        [
+          51.2,
+          71.68
+        ]
+      ],
+      "source_title": "phpBB 3.0.8 default smilies",
+      "source_publisher_or_author": "phpBB Project",
+      "source_version_or_date": "release-3.0.8 / 2010-11-20",
+      "source_url": "https://github.com/phpbb/phpbb/tree/release-3.0.8/phpBB/images/smilies",
+      "caption": "cool"
+    },
+    {
+      "id": "forum-phpbb-3.0.8-icon_lol",
+      "file": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_lol.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/forum-phpbb-3.0.8/icon_lol.gif",
+      "sha256": "165d1cf98264256be21a41041e64af621cc13185f2491de66b2fe1832be1c21e",
+      "timeline_group": "forum-phpbb-3.0.8",
+      "time_windows_seconds": [
+        [
+          51.2,
+          71.68
+        ]
+      ],
+      "source_title": "phpBB 3.0.8 default smilies",
+      "source_publisher_or_author": "phpBB Project",
+      "source_version_or_date": "release-3.0.8 / 2010-11-20",
+      "source_url": "https://github.com/phpbb/phpbb/tree/release-3.0.8/phpBB/images/smilies",
+      "caption": "lol"
+    },
+    {
+      "id": "tieba-middle-2014-preview-01",
+      "file": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-01.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+      "sha256": "9e2ede8462c69f6c593baa858c2e9ffc1d1834f6a291b4fca1dc2b5df37f0782",
+      "timeline_group": "tieba-middle-pack-listing-2014",
+      "time_windows_seconds": [
+        [
+          71.68,
+          86.4
+        ]
+      ],
+      "source_title": "百度贴吧泡泡 QQ 表情包 +50p preview",
+      "source_publisher_or_author": "JB51 listing; underlying pack author unknown",
+      "source_version_or_date": "listing updated 2014-09-11",
+      "source_url": "https://www.jb51.net/softs/216567.html",
+      "caption": null
+    },
+    {
+      "id": "tieba-middle-2014-preview-02",
+      "file": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-02.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+      "sha256": "99824c520af3ead25e9e6fb47e6ac1b3209c9a2e0042404d73c20be793050eef",
+      "timeline_group": "tieba-middle-pack-listing-2014",
+      "time_windows_seconds": [
+        [
+          71.68,
+          86.4
+        ]
+      ],
+      "source_title": "百度贴吧泡泡 QQ 表情包 +50p preview",
+      "source_publisher_or_author": "JB51 listing; underlying pack author unknown",
+      "source_version_or_date": "listing updated 2014-09-11",
+      "source_url": "https://www.jb51.net/softs/216567.html",
+      "caption": null
+    },
+    {
+      "id": "tieba-middle-2014-preview-03",
+      "file": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-03.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+      "sha256": "839a5bcba4b510d6fdaa1771669de56af5b98e682b2b540551314723181a481e",
+      "timeline_group": "tieba-middle-pack-listing-2014",
+      "time_windows_seconds": [
+        [
+          71.68,
+          86.4
+        ]
+      ],
+      "source_title": "百度贴吧泡泡 QQ 表情包 +50p preview",
+      "source_publisher_or_author": "JB51 listing; underlying pack author unknown",
+      "source_version_or_date": "listing updated 2014-09-11",
+      "source_url": "https://www.jb51.net/softs/216567.html",
+      "caption": null
+    },
+    {
+      "id": "tieba-middle-2014-preview-04",
+      "file": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-04.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+      "sha256": "49dd433335a263dfd9e9d9cb31a3b78fc61ae0a64a2c8365157f002d3396e045",
+      "timeline_group": "tieba-middle-pack-listing-2014",
+      "time_windows_seconds": [
+        [
+          71.68,
+          86.4
+        ]
+      ],
+      "source_title": "百度贴吧泡泡 QQ 表情包 +50p preview",
+      "source_publisher_or_author": "JB51 listing; underlying pack author unknown",
+      "source_version_or_date": "listing updated 2014-09-11",
+      "source_url": "https://www.jb51.net/softs/216567.html",
+      "caption": null
+    },
+    {
+      "id": "tieba-middle-2014-preview-05",
+      "file": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-05.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+      "sha256": "743703733cc267d0ebd8c3a6905c6ffa7c0e0faec3f67ad812a927f2e1be42b3",
+      "timeline_group": "tieba-middle-pack-listing-2014",
+      "time_windows_seconds": [
+        [
+          71.68,
+          86.4
+        ]
+      ],
+      "source_title": "百度贴吧泡泡 QQ 表情包 +50p preview",
+      "source_publisher_or_author": "JB51 listing; underlying pack author unknown",
+      "source_version_or_date": "listing updated 2014-09-11",
+      "source_url": "https://www.jb51.net/softs/216567.html",
+      "caption": null
+    },
+    {
+      "id": "tieba-middle-2014-preview-06",
+      "file": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-06.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+      "sha256": "05845d19c3266450c5e6a6c94c4791c4524d24c45aee3255d389def13568dc67",
+      "timeline_group": "tieba-middle-pack-listing-2014",
+      "time_windows_seconds": [
+        [
+          71.68,
+          86.4
+        ]
+      ],
+      "source_title": "百度贴吧泡泡 QQ 表情包 +50p preview",
+      "source_publisher_or_author": "JB51 listing; underlying pack author unknown",
+      "source_version_or_date": "listing updated 2014-09-11",
+      "source_url": "https://www.jb51.net/softs/216567.html",
+      "caption": null
+    },
+    {
+      "id": "tieba-middle-2014-preview-07",
+      "file": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-07.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+      "sha256": "4e518340276fa14a6d4e24e64ea52e8c25d1d1c27333ec9b610ae86b7b1ce587",
+      "timeline_group": "tieba-middle-pack-listing-2014",
+      "time_windows_seconds": [
+        [
+          71.68,
+          86.4
+        ]
+      ],
+      "source_title": "百度贴吧泡泡 QQ 表情包 +50p preview",
+      "source_publisher_or_author": "JB51 listing; underlying pack author unknown",
+      "source_version_or_date": "listing updated 2014-09-11",
+      "source_url": "https://www.jb51.net/softs/216567.html",
+      "caption": null
+    },
+    {
+      "id": "tieba-middle-2014-preview-08",
+      "file": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-08.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+      "sha256": "a6a71469f07642df0f6b2c284f3b2bbf9748eb770cff3e4945ba9fa25a8792e1",
+      "timeline_group": "tieba-middle-pack-listing-2014",
+      "time_windows_seconds": [
+        [
+          71.68,
+          86.4
+        ]
+      ],
+      "source_title": "百度贴吧泡泡 QQ 表情包 +50p preview",
+      "source_publisher_or_author": "JB51 listing; underlying pack author unknown",
+      "source_version_or_date": "listing updated 2014-09-11",
+      "source_url": "https://www.jb51.net/softs/216567.html",
+      "caption": null
+    },
+    {
+      "id": "tieba-middle-2014-preview-09",
+      "file": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-09.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+      "sha256": "7fffa9b58d49eca5eb5435b538a021d2b683284ef9ba74cfac1c4195a35755ae",
+      "timeline_group": "tieba-middle-pack-listing-2014",
+      "time_windows_seconds": [
+        [
+          71.68,
+          86.4
+        ]
+      ],
+      "source_title": "百度贴吧泡泡 QQ 表情包 +50p preview",
+      "source_publisher_or_author": "JB51 listing; underlying pack author unknown",
+      "source_version_or_date": "listing updated 2014-09-11",
+      "source_url": "https://www.jb51.net/softs/216567.html",
+      "caption": null
+    },
+    {
+      "id": "tieba-middle-2014-preview-10",
+      "file": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-10.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+      "sha256": "8a145af6253004a6ced9981b25743a4496a0842acaa96191dc5f610015e39134",
+      "timeline_group": "tieba-middle-pack-listing-2014",
+      "time_windows_seconds": [
+        [
+          71.68,
+          86.4
+        ]
+      ],
+      "source_title": "百度贴吧泡泡 QQ 表情包 +50p preview",
+      "source_publisher_or_author": "JB51 listing; underlying pack author unknown",
+      "source_version_or_date": "listing updated 2014-09-11",
+      "source_url": "https://www.jb51.net/softs/216567.html",
+      "caption": null
+    },
+    {
+      "id": "tieba-middle-2014-preview-11",
+      "file": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-11.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+      "sha256": "2b702872969333cd84fe47cfe04cb86992997026e9ae979628113e2183eeb258",
+      "timeline_group": "tieba-middle-pack-listing-2014",
+      "time_windows_seconds": [
+        [
+          71.68,
+          86.4
+        ]
+      ],
+      "source_title": "百度贴吧泡泡 QQ 表情包 +50p preview",
+      "source_publisher_or_author": "JB51 listing; underlying pack author unknown",
+      "source_version_or_date": "listing updated 2014-09-11",
+      "source_url": "https://www.jb51.net/softs/216567.html",
+      "caption": null
+    },
+    {
+      "id": "tieba-middle-2014-preview-12",
+      "file": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-12.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+      "sha256": "92aa42dcad120c61e7a390dc0eb1247766b27b19d1dc6d5b389abcae1a11299c",
+      "timeline_group": "tieba-middle-pack-listing-2014",
+      "time_windows_seconds": [
+        [
+          71.68,
+          86.4
+        ]
+      ],
+      "source_title": "百度贴吧泡泡 QQ 表情包 +50p preview",
+      "source_publisher_or_author": "JB51 listing; underlying pack author unknown",
+      "source_version_or_date": "listing updated 2014-09-11",
+      "source_url": "https://www.jb51.net/softs/216567.html",
+      "caption": null
+    },
+    {
+      "id": "tieba-middle-2014-preview-13",
+      "file": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-13.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+      "sha256": "23eb77bf863db0a54207605e0b3b267a1788d14ce93018be4aba401e5148eed9",
+      "timeline_group": "tieba-middle-pack-listing-2014",
+      "time_windows_seconds": [
+        [
+          71.68,
+          86.4
+        ]
+      ],
+      "source_title": "百度贴吧泡泡 QQ 表情包 +50p preview",
+      "source_publisher_or_author": "JB51 listing; underlying pack author unknown",
+      "source_version_or_date": "listing updated 2014-09-11",
+      "source_url": "https://www.jb51.net/softs/216567.html",
+      "caption": null
+    },
+    {
+      "id": "tieba-middle-2014-preview-14",
+      "file": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-14.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+      "sha256": "9913921f91472077099858027d84b34866e584a20a871070db587fa9a2ada63a",
+      "timeline_group": "tieba-middle-pack-listing-2014",
+      "time_windows_seconds": [
+        [
+          71.68,
+          86.4
+        ]
+      ],
+      "source_title": "百度贴吧泡泡 QQ 表情包 +50p preview",
+      "source_publisher_or_author": "JB51 listing; underlying pack author unknown",
+      "source_version_or_date": "listing updated 2014-09-11",
+      "source_url": "https://www.jb51.net/softs/216567.html",
+      "caption": null
+    },
+    {
+      "id": "tieba-mobile-2020-101",
+      "file": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-101.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-mobile-2020/image_emoticon101.png",
+      "sha256": "283c167da46789f7433b12a0839e9e761ebd971677c674c0bb0629b0ebbb2904",
+      "timeline_group": "tieba-mobile-snapshot-2020",
+      "time_windows_seconds": [
+        [
+          86.4,
+          112.64
+        ]
+      ],
+      "source_title": "Baidu Tieba mobile default emotes snapshot",
+      "source_publisher_or_author": "microlong666 extraction repository; underlying artwork by Baidu/Tieba",
+      "source_version_or_date": "app 11.6.8.2; README says updated 2020-07-13",
+      "source_url": "https://github.com/microlong666/Tieba_mobile_emotions",
+      "caption": "素材 101"
+    },
+    {
+      "id": "tieba-mobile-2020-102",
+      "file": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-102.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-mobile-2020/image_emoticon102.png",
+      "sha256": "9e213994569dcbba126b96b048d436eddb15a7d9b9aacc03d0c437647ab8cd5a",
+      "timeline_group": "tieba-mobile-snapshot-2020",
+      "time_windows_seconds": [
+        [
+          86.4,
+          112.64
+        ]
+      ],
+      "source_title": "Baidu Tieba mobile default emotes snapshot",
+      "source_publisher_or_author": "microlong666 extraction repository; underlying artwork by Baidu/Tieba",
+      "source_version_or_date": "app 11.6.8.2; README says updated 2020-07-13",
+      "source_url": "https://github.com/microlong666/Tieba_mobile_emotions",
+      "caption": "素材 102"
+    },
+    {
+      "id": "tieba-mobile-2020-103",
+      "file": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-103.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-mobile-2020/image_emoticon103.png",
+      "sha256": "2169f47e11ab89f9bf367d858642216a8b5f19f9803f89af7f0b24a1db26a771",
+      "timeline_group": "tieba-mobile-snapshot-2020",
+      "time_windows_seconds": [
+        [
+          86.4,
+          112.64
+        ]
+      ],
+      "source_title": "Baidu Tieba mobile default emotes snapshot",
+      "source_publisher_or_author": "microlong666 extraction repository; underlying artwork by Baidu/Tieba",
+      "source_version_or_date": "app 11.6.8.2; README says updated 2020-07-13",
+      "source_url": "https://github.com/microlong666/Tieba_mobile_emotions",
+      "caption": "素材 103"
+    },
+    {
+      "id": "tieba-mobile-2020-104",
+      "file": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-104.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-mobile-2020/image_emoticon104.png",
+      "sha256": "6a36f1a8bdf6b83ce4f01adfa08e628bc59b29aa4c4631487d8d9e2121c3b95a",
+      "timeline_group": "tieba-mobile-snapshot-2020",
+      "time_windows_seconds": [
+        [
+          86.4,
+          112.64
+        ]
+      ],
+      "source_title": "Baidu Tieba mobile default emotes snapshot",
+      "source_publisher_or_author": "microlong666 extraction repository; underlying artwork by Baidu/Tieba",
+      "source_version_or_date": "app 11.6.8.2; README says updated 2020-07-13",
+      "source_url": "https://github.com/microlong666/Tieba_mobile_emotions",
+      "caption": "素材 104"
+    },
+    {
+      "id": "tieba-mobile-2020-118",
+      "file": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-118.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-mobile-2020/image_emoticon118.png",
+      "sha256": "c3cefd549c9f71d1da857b9e67a9194f4949ddb5ce6242c4a1555c9167ed1374",
+      "timeline_group": "tieba-mobile-snapshot-2020",
+      "time_windows_seconds": [
+        [
+          86.4,
+          112.64
+        ]
+      ],
+      "source_title": "Baidu Tieba mobile default emotes snapshot",
+      "source_publisher_or_author": "microlong666 extraction repository; underlying artwork by Baidu/Tieba",
+      "source_version_or_date": "app 11.6.8.2; README says updated 2020-07-13",
+      "source_url": "https://github.com/microlong666/Tieba_mobile_emotions",
+      "caption": "素材 118"
+    },
+    {
+      "id": "tieba-mobile-2020-120",
+      "file": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-120.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-mobile-2020/image_emoticon120.png",
+      "sha256": "82d9e1c744f11a5a173e4187bd9f2f991d497fd5fb46b09f6ecb4062c820daf0",
+      "timeline_group": "tieba-mobile-snapshot-2020",
+      "time_windows_seconds": [
+        [
+          86.4,
+          112.64
+        ]
+      ],
+      "source_title": "Baidu Tieba mobile default emotes snapshot",
+      "source_publisher_or_author": "microlong666 extraction repository; underlying artwork by Baidu/Tieba",
+      "source_version_or_date": "app 11.6.8.2; README says updated 2020-07-13",
+      "source_url": "https://github.com/microlong666/Tieba_mobile_emotions",
+      "caption": "素材 120"
+    },
+    {
+      "id": "tieba-mobile-2020-123",
+      "file": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-123.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-mobile-2020/image_emoticon123.png",
+      "sha256": "b99f592fa706a40b9d37ae39e45b28798cf2abf7ef18abaac7189ad362d42c84",
+      "timeline_group": "tieba-mobile-snapshot-2020",
+      "time_windows_seconds": [
+        [
+          86.4,
+          112.64
+        ]
+      ],
+      "source_title": "Baidu Tieba mobile default emotes snapshot",
+      "source_publisher_or_author": "microlong666 extraction repository; underlying artwork by Baidu/Tieba",
+      "source_version_or_date": "app 11.6.8.2; README says updated 2020-07-13",
+      "source_url": "https://github.com/microlong666/Tieba_mobile_emotions",
+      "caption": "素材 123"
+    },
+    {
+      "id": "tieba-mobile-2020-124",
+      "file": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-124.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-mobile-2020/image_emoticon124.png",
+      "sha256": "f4480662fa41c25d1c3e203bfca9d705e499880444a9286563aeca8407150f1c",
+      "timeline_group": "tieba-mobile-snapshot-2020",
+      "time_windows_seconds": [
+        [
+          86.4,
+          112.64
+        ]
+      ],
+      "source_title": "Baidu Tieba mobile default emotes snapshot",
+      "source_publisher_or_author": "microlong666 extraction repository; underlying artwork by Baidu/Tieba",
+      "source_version_or_date": "app 11.6.8.2; README says updated 2020-07-13",
+      "source_url": "https://github.com/microlong666/Tieba_mobile_emotions",
+      "caption": "素材 124"
+    },
+    {
+      "id": "001001",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001001.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_01.webp",
+      "sha256": "1f69c7bceb4f7592b36861cd707b8401a0057063b1bae4cd340a9f72abaf5d7f",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[微笑]"
+    },
+    {
+      "id": "001004",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001004.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_04.webp",
+      "sha256": "dd13011c07eb712187dc08f17fd849b94d9e76f53912a280fd4d79309b257fbb",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[大笑]"
+    },
+    {
+      "id": "001005",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001005.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_05.webp",
+      "sha256": "aaba762719d360ce83c26597ab056b52219f2b220132d5a61de3036b660453bb",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[鼓掌]"
+    },
+    {
+      "id": "001206",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001206.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_206.webp",
+      "sha256": "9dbbf9f0c859a0d7044468cc811b824f356244d994ea26a03cf8d6ebf9943d66",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[嘻嘻]"
+    },
+    {
+      "id": "001023",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001023.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_23.webp",
+      "sha256": "218d20a3f7dc260e9d7101d01be2cf96f9b0f4360ce7bc46d4d10120298c4f35",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[色]"
+    },
+    {
+      "id": "001025",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001025.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_25.webp",
+      "sha256": "decf9d23364641b0a1d9e5ab429c5289138d4ca67da65ed4b4e23c8a70f4f903",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[得意]"
+    },
+    {
+      "id": "001007",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001007.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_07.webp",
+      "sha256": "68ec44857aac70b27c7ae3c209687e25b1fe58f9f0f23ed979498399d30df351",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[笑哭]"
+    },
+    {
+      "id": "001016",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001016.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_16.webp",
+      "sha256": "92bef6219968b8c8c7a9158ede6ad47d9ff1151da62846544da7bdcfa1e1f383",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[不高兴]"
+    },
+    {
+      "id": "001186",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001186.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_186.webp",
+      "sha256": "a0ae72d3f63c14abede22505c154215e707c135a0c99256e5bf5acdc6b2c0892",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[悲伤]"
+    },
+    {
+      "id": "001020",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001020.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_20.webp",
+      "sha256": "78acadb45798392f202a148c5d98bc9f3bbb646b12670247517b96588a1be6a6",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[流泪]"
+    },
+    {
+      "id": "001019",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001019.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_19.webp",
+      "sha256": "9f71f9e6235305978470412c88f983dcbba4504a032cf4a7156fb8c1614f3016",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[大哭]"
+    },
+    {
+      "id": "001073",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001073.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_73.webp",
+      "sha256": "fafda9b74224868f23a9d0d5eae74bf35b7dea68f6eb2cfac453a0eb2c7088ca",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[左捂脸]"
+    },
+    {
+      "id": "001072",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001072.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_72.webp",
+      "sha256": "8f470563f16319da8e8115561be695326d213ce0f73c0be9fa0791f748785132",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[捂脸]"
+    },
+    {
+      "id": "001014",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001014.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_14.webp",
+      "sha256": "5dd0449dba35419aa901493cec2efdac2af04d14c080c5a3fde45fd5a8548bd1",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[发怒]"
+    },
+    {
+      "id": "001071",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001071.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_71.webp",
+      "sha256": "7ccf5b8c0b71dd42af3b035d231c770688d66e627bfc673d7fc6e7b51bb8f423",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[滑稽]"
+    },
+    {
+      "id": "001012",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001012.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_12.webp",
+      "sha256": "8e652f60c34ae473be4e9bd70fa50e9b687f99402237b0863d0b1a6213576baf",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[抠鼻]"
+    },
+    {
+      "id": "001003",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001003.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_03.webp",
+      "sha256": "4bd13944b107e8c886c376cc97eb563c4d51d8cdd35b876ed5292736a6bdff49",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[期待]"
+    },
+    {
+      "id": "001065",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001065.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_65.webp",
+      "sha256": "4786f04d62c2cbe4638a26186720772e9ee26844ae0f5c3c0113c3a9ab0ba2a9",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[打call]"
+    },
+    {
+      "id": "001024",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001024.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_24.webp",
+      "sha256": "274615c4b0922add7b0647b52552379ad1a0dd290b49b31917181ffb8d7a65d6",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[舔屏]"
+    },
+    {
+      "id": "001098",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001098.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_98.webp",
+      "sha256": "7a70d7cdc1799c0bf6b41652bb7412fc1d420b18692fd1b4c66e842b05a1f1ec",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[亲吻]"
+    },
+    {
+      "id": "001021",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001021.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_21.webp",
+      "sha256": "7d57ccc2ca24d7abb41dc28b807b7c5b8fb5f896c17e2468d622b4435e98025c",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[害羞]"
+    },
+    {
+      "id": "001070",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001070.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_70.webp",
+      "sha256": "078065bf78fc18f8c191995d4fc7f1e4e074d398e5afdf8d0fa03603c426259d",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[前面的别走]"
+    },
+    {
+      "id": "001068",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001068.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_68.webp",
+      "sha256": "f9385000fbeced2f3c5b6935ff4073eeec9ab81565418a1c47926f14d9ab92f8",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[没眼看]"
+    },
+    {
+      "id": "001013",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001013.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_13.webp",
+      "sha256": "0d23b3dbe1c8e95f2cc5b7233877b98acf5007f4c7788b7c00a73781030638a1",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[哼]"
+    },
+    {
+      "id": "001011",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001011.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_11.webp",
+      "sha256": "05d6cfad25c4bfdcf5c5a7eb0773f6ede5a3a92adc9adb005391f817aa6788f5",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[汗]"
+    },
+    {
+      "id": "001069",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001069.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_69.webp",
+      "sha256": "fb0bb45f06b4f619bc38b72e713d0908c4996f47103f6b7d3d09adbed011a3c1",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[嘿哈]"
+    },
+    {
+      "id": "001067",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001067.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_67.webp",
+      "sha256": "a84feef658ce4583482d8763b71fb622f73e2611dc5407803a9e7013e995eb85",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[坏笑]"
+    },
+    {
+      "id": "001060",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001060.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_60.webp",
+      "sha256": "3ff3672fa3b79a9f94e99f1527809355e81c6480debe2e8ad16635391834d886",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[赞同]"
+    },
+    {
+      "id": "001207",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001207.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_207.webp",
+      "sha256": "b53d3393847698ecb6af66887c7d520996e16fbb87d3d424ad0ebe316f8a0933",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[心]"
+    },
+    {
+      "id": "001055",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001055.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_55.webp",
+      "sha256": "60201a6279b2c74a04fe34c2a70a53b2fbf6c80c737dde6cf68be4ceeb5f11b0",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[鲜花]"
+    },
+    {
+      "id": "001097",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001097.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_97.webp",
+      "sha256": "25f0eda7d713ee163634d93434cb1764998ff838f9b67360c7d053fe4389c33a",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[祈福]"
+    },
+    {
+      "id": "001122",
+      "file": "art/export/fullfilm-v5/emotes/tieba-current-2026-001122.png",
+      "source_file": "art/reference/fullfilm-v5/emotes/tieba-current-2026/face_122.webp",
+      "sha256": "636bc7adfb9f01fb42124d3abb3c607c2d8fe94bca41744a48c2618d8f67ede2",
+      "timeline_group": "tieba-current-default-pack-2026",
+      "time_windows_seconds": [
+        [
+          112.64,
+          186.88
+        ],
+        [
+          235.52,
+          249.6
+        ]
+      ],
+      "source_title": "Baidu Tieba current mobile default emoji preset",
+      "source_publisher_or_author": "Baidu Tieba",
+      "source_version_or_date": "app 22.12.1.0 / 2026-09-24",
+      "source_url": "https://mobile.baidu.com/appitemp/321367844",
+      "caption": "[加油啊]"
+    }
+  ],
+  "contact_sheets": [
+    "art/export/fullfilm-v5/emotes/contact-sheet-forum-phpbb-2010.png",
+    "art/export/fullfilm-v5/emotes/contact-sheet-tieba-middle-2014.png",
+    "art/export/fullfilm-v5/emotes/contact-sheet-tieba-mobile-2020.png",
+    "art/export/fullfilm-v5/emotes/contact-sheet-tieba-current-2026.png",
+    "art/export/fullfilm-v5/emotes/contact-sheet-fullfilm-v5-emotes.png"
+  ],
+  "counts": {
+    "forum_phpbb_2010": 8,
+    "middle_listing_preview_cells": 14,
+    "tieba_mobile_2020_snapshot": 8,
+    "current_official_preset_items": 32,
+    "flat_binding_items": 62,
+    "current_export_pngs_preserving_source_alpha": 32
+  }
+}

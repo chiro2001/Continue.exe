@@ -1,0 +1,1210 @@
+{
+  "schema": "fullfilm-v5-story.1",
+  "ribbons": [
+    {
+      "index": 0,
+      "id": "idle",
+      "text": "一首旧曲，一起听。",
+      "start": -1,
+      "end": 0,
+      "tokens": [
+        {
+          "text": "一首旧曲，一起听。",
+          "start": 20,
+          "end": 696.8
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 0,
+      "pixels": 717,
+      "file": "art/export/fullfilm-v5/story/ribbon-00-idle.png",
+      "sha256": "3335f52a391326ae53eed419c75ab989278cebcbb479b2e52ca139b31dea0947",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 1,
+      "id": "welcome",
+      "text": "欢迎来到我的主页。　✦　请稍候，正在载入……",
+      "start": 0,
+      "end": 10.24,
+      "tokens": [
+        {
+          "text": "欢迎来到我的主页。",
+          "start": 20,
+          "end": 696.8
+        },
+        {
+          "text": "请稍候，正在载入……",
+          "start": 778.4,
+          "end": 1535.2
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 179.29688,
+      "pixels": 1556,
+      "file": "art/export/fullfilm-v5/story/ribbon-01-welcome.png",
+      "sha256": "b0c4496f7b1564a3d65e0ef3fa5b76f63dc1adaa61bd2af60230248a078e03f5",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 2,
+      "id": "tools",
+      "text": "欢迎使用。　✦　解压后即可运行。　✦　README.TXT",
+      "start": 10.24,
+      "end": 20.48,
+      "tokens": [
+        {
+          "text": "欢迎使用。",
+          "start": 20,
+          "end": 395.99999999999994
+        },
+        {
+          "text": "解压后即可运行。",
+          "start": 477.5999999999999,
+          "end": 1079.2000000000003
+        },
+        {
+          "text": "README.TXT",
+          "start": 1160.8000000000002,
+          "end": 1651.3926562500003
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 190.625,
+      "pixels": 1672,
+      "file": "art/export/fullfilm-v5/story/ribbon-02-tools.png",
+      "sha256": "100948f73381c4ace4c5d598e8f509516866dae5776e82fe674180dc9fa0dc01",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 3,
+      "id": "homepage",
+      "text": "欢迎交换链接。　✦　欢迎留言。　✦　本站更新中。",
+      "start": 20.48,
+      "end": 30.72,
+      "tokens": [
+        {
+          "text": "欢迎交换链接。",
+          "start": 20,
+          "end": 546.3999999999999
+        },
+        {
+          "text": "欢迎留言。",
+          "start": 627.9999999999999,
+          "end": 1004.0
+        },
+        {
+          "text": "本站更新中。",
+          "start": 1085.6,
+          "end": 1536.8000000000002
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 179.39453,
+      "pixels": 1557,
+      "file": "art/export/fullfilm-v5/story/ribbon-03-homepage.png",
+      "sha256": "f2362fec8d2241f2fdd66aa9c7fb54b1f5f401df58351ecee699b13deb120787",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 4,
+      "id": "translation",
+      "text": "翻译　✦　校对　✦　清字　✦　嵌字",
+      "start": 30.72,
+      "end": 40.96,
+      "tokens": [
+        {
+          "text": "翻译",
+          "start": 20,
+          "end": 170.39999999999998
+        },
+        {
+          "text": "校对",
+          "start": 251.99999999999997,
+          "end": 402.3999999999999
+        },
+        {
+          "text": "清字",
+          "start": 483.9999999999999,
+          "end": 634.3999999999999
+        },
+        {
+          "text": "嵌字",
+          "start": 715.9999999999999,
+          "end": 866.3999999999999
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 113.96484,
+      "pixels": 887,
+      "file": "art/export/fullfilm-v5/story/ribbon-04-translation.png",
+      "sha256": "065ad7b4e4cdf6d0eae15647a27137e8c4af11258e53ad3745ba09f3cb29e17e",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 5,
+      "id": "napster",
+      "text": "分享一首歌。　✦　正在连接……",
+      "start": 40.96,
+      "end": 43.52,
+      "tokens": [
+        {
+          "text": "分享一首歌。",
+          "start": 20,
+          "end": 471.19999999999993
+        },
+        {
+          "text": "正在连接……",
+          "start": 552.8,
+          "end": 1008.8000000000002
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 511.32812,
+      "pixels": 1029,
+      "file": "art/export/fullfilm-v5/story/ribbon-05-napster.png",
+      "sha256": "eb978e40f8dabd97242c43c404070a7cc284d1f65fea3fac8b201ded29966447",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 6,
+      "id": "sharing",
+      "text": "下载中……　✦　校验完成。　✦　继续做种。",
+      "start": 43.52,
+      "end": 48.64,
+      "tokens": [
+        {
+          "text": "下载中……",
+          "start": 20,
+          "end": 400.79999999999995
+        },
+        {
+          "text": "校验完成。",
+          "start": 482.4,
+          "end": 858.4000000000001
+        },
+        {
+          "text": "继续做种。",
+          "start": 940.0000000000001,
+          "end": 1316.0000000000002
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 315.82031,
+      "pixels": 1337,
+      "file": "art/export/fullfilm-v5/story/ribbon-06-sharing.png",
+      "sha256": "2e948fe1e749a2c79c3798857a9136030dcbe80a90fd5f1e93247a7b1f8733ca",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 7,
+      "id": "bt-night",
+      "text": "晚安，BT。",
+      "start": 48.64,
+      "end": 51.2,
+      "tokens": [
+        {
+          "text": "晚安，BT。",
+          "start": 20,
+          "end": 422.14984374999995
+        }
+      ],
+      "falling_tokens": [
+        0
+      ],
+      "speed_px_s": 282.42187,
+      "pixels": 443,
+      "file": "art/export/fullfilm-v5/story/ribbon-07-bt-night.png",
+      "sha256": "e6c36887765498031bbe4cad9b9f81e1f794b576ddf25ebd775977f3066c4048",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 8,
+      "id": "forum",
+      "text": "欢迎回来。　✦　最后回复：刚刚。　✦　谢谢楼主。",
+      "start": 51.2,
+      "end": 61.44,
+      "tokens": [
+        {
+          "text": "欢迎回来。",
+          "start": 20,
+          "end": 395.99999999999994
+        },
+        {
+          "text": "最后回复：刚刚。",
+          "start": 477.5999999999999,
+          "end": 1079.2000000000003
+        },
+        {
+          "text": "谢谢楼主。",
+          "start": 1160.8000000000002,
+          "end": 1536.8000000000004
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 179.39453,
+      "pixels": 1557,
+      "file": "art/export/fullfilm-v5/story/ribbon-08-forum.png",
+      "sha256": "2c373a74d932b6f635219ea426e4d85e3840baf8ad264f6e2e359cce4e48a30d",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 9,
+      "id": "subtitles",
+      "text": "时间轴已对齐。　✦　字幕加载完成。",
+      "start": 61.44,
+      "end": 71.68,
+      "tokens": [
+        {
+          "text": "时间轴已对齐。",
+          "start": 20,
+          "end": 546.3999999999999
+        },
+        {
+          "text": "字幕加载完成。",
+          "start": 627.9999999999999,
+          "end": 1154.4
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 142.08984,
+      "pixels": 1175,
+      "file": "art/export/fullfilm-v5/story/ribbon-09-subtitles.png",
+      "sha256": "6ea301358e3d41bef4b2f88b3febe1591ca0ba9f287562c2cf0fc8559f3138d9",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 10,
+      "id": "choice",
+      "text": "请选择其一。　✦　2010",
+      "start": 71.68,
+      "end": 74.24,
+      "tokens": [
+        {
+          "text": "请选择其一。",
+          "start": 20,
+          "end": 471.19999999999993
+        },
+        {
+          "text": "2010",
+          "start": 552.8,
+          "end": 735.9481250000001
+        }
+      ],
+      "falling_tokens": [
+        0
+      ],
+      "speed_px_s": 404.6875,
+      "pixels": 756,
+      "file": "art/export/fullfilm-v5/story/ribbon-10-choice.png",
+      "sha256": "1608d3246ec15f886d3173dc73f6c99855f711f2af4dba1bd42c0f9b33570b75",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 11,
+      "id": "blackout",
+      "text": "Wikipedia　✦　Blackout / 2012",
+      "start": 74.24,
+      "end": 77.44,
+      "tokens": [
+        {
+          "text": "Wikipedia",
+          "start": 20,
+          "end": 399.5125
+        },
+        {
+          "text": "Blackout / 2012",
+          "start": 481.11249999999995,
+          "end": 1071.0767187499998
+        }
+      ],
+      "falling_tokens": [
+        1
+      ],
+      "speed_px_s": 428.75,
+      "pixels": 1092,
+      "file": "art/export/fullfilm-v5/story/ribbon-11-blackout.png",
+      "sha256": "4e9e35a5d17aeeaab2a0161aa9d83cb91e8c9087d265805581aab5537feb3f5d",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 12,
+      "id": "vrc-year",
+      "text": "2014",
+      "start": 77.44,
+      "end": 78.08,
+      "tokens": [
+        {
+          "text": "2014",
+          "start": 20,
+          "end": 203.148125
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 504.0,
+      "pixels": 224,
+      "file": "art/export/fullfilm-v5/story/ribbon-12-vrc-year.png",
+      "sha256": "dff6df53c8bbd2cf64dab4e6bce1444b8f58a99c02f3b367a0e3cfe94c32cb4f",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 13,
+      "id": "subtitle-close",
+      "text": "链接失效。",
+      "start": 78.08,
+      "end": 79.36,
+      "tokens": [
+        {
+          "text": "链接失效。",
+          "start": 20,
+          "end": 395.99999999999994
+        }
+      ],
+      "falling_tokens": [
+        0
+      ],
+      "speed_px_s": 543.75,
+      "pixels": 416,
+      "file": "art/export/fullfilm-v5/story/ribbon-13-subtitle-close.png",
+      "sha256": "19e760ea54ba96de9576cf148eefc9a826184f61edbd0e2a0ff2d83a597196b5",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 14,
+      "id": "vrc-join",
+      "text": "Joining world…　✦　欢迎来到这里。",
+      "start": 79.36,
+      "end": 86.4,
+      "tokens": [
+        {
+          "text": "Joining world…",
+          "start": 20,
+          "end": 624.631875
+        },
+        {
+          "text": "欢迎来到这里。",
+          "start": 706.2318750000001,
+          "end": 1232.6318750000003
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 217.75568,
+      "pixels": 1253,
+      "file": "art/export/fullfilm-v5/story/ribbon-14-vrc-join.png",
+      "sha256": "5a2c43fe12ad023a4c18c698b8cbbba685b5d5736cce5aaef25df7e8cbbaa8c0",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 15,
+      "id": "vrc-return",
+      "text": "欢迎回来。　✦　从这里，去下一个世界。",
+      "start": 86.4,
+      "end": 102.4,
+      "tokens": [
+        {
+          "text": "欢迎回来。",
+          "start": 20,
+          "end": 395.99999999999994
+        },
+        {
+          "text": "从这里，去下一个世界。",
+          "start": 477.5999999999999,
+          "end": 1304.8000000000004
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 100.3125,
+      "pixels": 1325,
+      "file": "art/export/fullfilm-v5/story/ribbon-15-vrc-return.png",
+      "sha256": "8bd36469cf561800dbe31080184a399fcaf88fcd21e2b942512bb25ddc65cbfa",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 16,
+      "id": "conditions-a",
+      "text": "正在连接……",
+      "start": 102.4,
+      "end": 104.96,
+      "tokens": [
+        {
+          "text": "正在连接……",
+          "start": 20,
+          "end": 476.0
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 303.125,
+      "pixels": 496,
+      "file": "art/export/fullfilm-v5/story/ribbon-16-conditions-a.png",
+      "sha256": "3679bd115b2f8bee6831cad4c5b42874a0984875e1bc6914130b80709d91c63a",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 17,
+      "id": "security",
+      "text": "Easy Anti-Cheat　✦　安全更新",
+      "start": 104.96,
+      "end": 110.08,
+      "tokens": [
+        {
+          "text": "Easy Anti-Cheat",
+          "start": 20,
+          "end": 622.79796875
+        },
+        {
+          "text": "安全更新",
+          "start": 704.39796875,
+          "end": 1005.1979687500002
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 255.07812,
+      "pixels": 1026,
+      "file": "art/export/fullfilm-v5/story/ribbon-17-security.png",
+      "sha256": "94200d80ccb3d6c988c02e39f0460e7701c78694783f954a759ca3c205d4d4ee",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 18,
+      "id": "startup",
+      "text": "启动中……",
+      "start": 110.08,
+      "end": 112.64,
+      "tokens": [
+        {
+          "text": "启动中……",
+          "start": 20,
+          "end": 400.79999999999995
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 273.82812,
+      "pixels": 421,
+      "file": "art/export/fullfilm-v5/story/ribbon-18-startup.png",
+      "sha256": "f1ee3b610682f1483cd69fdfc858064d1c928e80f12a64b9b03f4559a4792a75",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 19,
+      "id": "conditions-b",
+      "text": "Launch Error　✦　再试一次。",
+      "start": 112.64,
+      "end": 120.32,
+      "tokens": [
+        {
+          "text": "Launch Error",
+          "start": 20,
+          "end": 515.82515625
+        },
+        {
+          "text": "再试一次。",
+          "start": 597.42515625,
+          "end": 973.4251562500001
+        }
+      ],
+      "falling_tokens": [
+        0
+      ],
+      "speed_px_s": 165.88542,
+      "pixels": 994,
+      "file": "art/export/fullfilm-v5/story/ribbon-19-conditions-b.png",
+      "sha256": "0236e6b89057627155c49ae28fd6df35820badb32d7f398cab76709c0665b4c5",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 20,
+      "id": "permission",
+      "text": "Private　✦　使用许可　✦　保留来源",
+      "start": 120.32,
+      "end": 133.12,
+      "tokens": [
+        {
+          "text": "Private",
+          "start": 20,
+          "end": 297.49578124999994
+        },
+        {
+          "text": "使用许可",
+          "start": 379.09578124999996,
+          "end": 679.89578125
+        },
+        {
+          "text": "保留来源",
+          "start": 761.49578125,
+          "end": 1062.2957812500001
+        }
+      ],
+      "falling_tokens": [
+        0
+      ],
+      "speed_px_s": 106.48437,
+      "pixels": 1083,
+      "file": "art/export/fullfilm-v5/story/ribbon-20-permission.png",
+      "sha256": "eb0dd0d7d3983414474adb0fdfa146b914c9007f10372fdf39e1653afb4bec82",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 21,
+      "id": "overload-a",
+      "text": "新消息　✦　正在接收……　✦　窗口未响应。",
+      "start": 133.12,
+      "end": 143.36,
+      "tokens": [
+        {
+          "text": "新消息",
+          "start": 20,
+          "end": 245.59999999999997
+        },
+        {
+          "text": "正在接收……",
+          "start": 327.19999999999993,
+          "end": 783.2
+        },
+        {
+          "text": "窗口未响应。",
+          "start": 864.8000000000001,
+          "end": 1316.0000000000002
+        }
+      ],
+      "falling_tokens": [
+        2
+      ],
+      "speed_px_s": 157.91016,
+      "pixels": 1337,
+      "file": "art/export/fullfilm-v5/story/ribbon-21-overload-a.png",
+      "sha256": "088f363e5e27b2851d2090d3eb1ac473f33897b71ca5470cd0372f5347248eb8",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 22,
+      "id": "overload-b",
+      "text": "模型来源　✦　Private　✦　上传",
+      "start": 143.36,
+      "end": 153.6,
+      "tokens": [
+        {
+          "text": "模型来源",
+          "start": 20,
+          "end": 320.79999999999995
+        },
+        {
+          "text": "Private",
+          "start": 402.4,
+          "end": 679.89578125
+        },
+        {
+          "text": "上传",
+          "start": 761.49578125,
+          "end": 911.89578125
+        }
+      ],
+      "falling_tokens": [
+        0,
+        1
+      ],
+      "speed_px_s": 118.35938,
+      "pixels": 932,
+      "file": "art/export/fullfilm-v5/story/ribbon-22-overload-b.png",
+      "sha256": "3325235d09f8743a82bf0483ab79de4f89c0460d2e938bfd2055614dbf3947d1",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 23,
+      "id": "overload-c",
+      "text": "使用许可　✦　复制　✦　转卖",
+      "start": 153.6,
+      "end": 163.84,
+      "tokens": [
+        {
+          "text": "使用许可",
+          "start": 20,
+          "end": 320.79999999999995
+        },
+        {
+          "text": "复制",
+          "start": 402.4,
+          "end": 552.8
+        },
+        {
+          "text": "转卖",
+          "start": 634.4,
+          "end": 784.8
+        }
+      ],
+      "falling_tokens": [
+        0,
+        1
+      ],
+      "speed_px_s": 105.95703,
+      "pixels": 805,
+      "file": "art/export/fullfilm-v5/story/ribbon-23-overload-c.png",
+      "sha256": "f5c0aea7041fb49bcf8951b2c579215bc1ad7b594e2b4d4c518c462e85dc18e8",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 24,
+      "id": "overload-d",
+      "text": "模型不错，　✦　我扫走了哈",
+      "start": 163.84,
+      "end": 174.08,
+      "tokens": [
+        {
+          "text": "模型不错，",
+          "start": 20,
+          "end": 395.99999999999994
+        },
+        {
+          "text": "我扫走了哈",
+          "start": 477.5999999999999,
+          "end": 853.6000000000001
+        }
+      ],
+      "falling_tokens": [
+        1
+      ],
+      "speed_px_s": 112.69531,
+      "pixels": 874,
+      "file": "art/export/fullfilm-v5/story/ribbon-24-overload-d.png",
+      "sha256": "ba8aa8bef97c566078e7c7452b9cd5d7d0a627cdfa9ceaef59edaba630d8d14d",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 25,
+      "id": "overload-e",
+      "text": "正在连接……　✦　请求超时。",
+      "start": 174.08,
+      "end": 186.88,
+      "tokens": [
+        {
+          "text": "正在连接……",
+          "start": 20,
+          "end": 476.0
+        },
+        {
+          "text": "请求超时。",
+          "start": 557.6,
+          "end": 933.6000000000001
+        }
+      ],
+      "falling_tokens": [
+        0,
+        1
+      ],
+      "speed_px_s": 96.40625,
+      "pixels": 954,
+      "file": "art/export/fullfilm-v5/story/ribbon-25-overload-e.png",
+      "sha256": "b21379be187c64f2a752046a5518d60dd48e4569485669a1a7dd5ff6c1239272",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 26,
+      "id": "quiet",
+      "text": "",
+      "start": 186.88,
+      "end": 197.12,
+      "tokens": [
+        {
+          "text": "",
+          "start": 20,
+          "end": 20
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 33.59375,
+      "pixels": 64,
+      "file": "art/export/fullfilm-v5/story/ribbon-26-quiet.png",
+      "sha256": "1466cd6bf6ac2e41c5f95d257da72a14ea8426c96daa8133f680ddaa3a7c67bb",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 27,
+      "id": "try",
+      "text": "新建工程。　✦　我也试试。",
+      "start": 197.12,
+      "end": 202.24,
+      "tokens": [
+        {
+          "text": "新建工程。",
+          "start": 20,
+          "end": 395.99999999999994
+        },
+        {
+          "text": "我也试试。",
+          "start": 477.5999999999999,
+          "end": 853.6000000000001
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 225.39062,
+      "pixels": 874,
+      "file": "art/export/fullfilm-v5/story/ribbon-27-try.png",
+      "sha256": "33405aa70c6a78568f530de11b773b93cde75c7f70a2ccdb1988482aee062438",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 28,
+      "id": "animate",
+      "text": "正在渲染。　✦　再试一帧。",
+      "start": 202.24,
+      "end": 207.36,
+      "tokens": [
+        {
+          "text": "正在渲染。",
+          "start": 20,
+          "end": 395.99999999999994
+        },
+        {
+          "text": "再试一帧。",
+          "start": 477.5999999999999,
+          "end": 853.6000000000001
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 225.39062,
+      "pixels": 874,
+      "file": "art/export/fullfilm-v5/story/ribbon-28-animate.png",
+      "sha256": "944516d1c4cad65d4055b6159ae53f12e8c52dc279b29498ee1086ca012bd2dd",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 29,
+      "id": "edit",
+      "text": "保存场景。　✦　还差一点。",
+      "start": 207.36,
+      "end": 212.48,
+      "tokens": [
+        {
+          "text": "保存场景。",
+          "start": 20,
+          "end": 395.99999999999994
+        },
+        {
+          "text": "还差一点。",
+          "start": 477.5999999999999,
+          "end": 853.6000000000001
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 225.39063,
+      "pixels": 874,
+      "file": "art/export/fullfilm-v5/story/ribbon-29-edit.png",
+      "sha256": "2f7751a4430d80c282cc012e968d3b2fa8625bf5160ff62382769bd718176521",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 30,
+      "id": "rewrite",
+      "text": "再调一遍。",
+      "start": 212.48,
+      "end": 217.6,
+      "tokens": [
+        {
+          "text": "再调一遍。",
+          "start": 20,
+          "end": 395.99999999999994
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 135.9375,
+      "pixels": 416,
+      "file": "art/export/fullfilm-v5/story/ribbon-30-rewrite.png",
+      "sha256": "ffa7f0b8ff8c1187280af7b5f9c1d32887898e13e86899d705597bfe73200237",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 31,
+      "id": "play",
+      "text": "进入 Play Mode。　✦　世界，运行起来。",
+      "start": 217.6,
+      "end": 235.52,
+      "tokens": [
+        {
+          "text": "进入 Play Mode。",
+          "start": 20,
+          "end": 657.23578125
+        },
+        {
+          "text": "世界，运行起来。",
+          "start": 738.83578125,
+          "end": 1340.4357812500002
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 91.57366,
+      "pixels": 1361,
+      "file": "art/export/fullfilm-v5/story/ribbon-31-play.png",
+      "sha256": "f580f8581b138aa35ff246f15717817416ea70fa015e04a9fb8843fd41a89767",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 32,
+      "id": "together",
+      "text": "一起补完。　✦　创作仍将继续。",
+      "start": 235.52,
+      "end": 250.88,
+      "tokens": [
+        {
+          "text": "一起补完。",
+          "start": 20,
+          "end": 395.99999999999994
+        },
+        {
+          "text": "创作仍将继续。",
+          "start": 477.5999999999999,
+          "end": 1004.0000000000002
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 84.96094,
+      "pixels": 1025,
+      "file": "art/export/fullfilm-v5/story/ribbon-32-together.png",
+      "sha256": "7c904564fbd53b127ca612784c60799e233e3e13c35659f7bc2c6315722f5d7a",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    },
+    {
+      "index": 33,
+      "id": "land",
+      "text": "还可以写点什么。",
+      "start": 250.88,
+      "end": 253.44,
+      "tokens": [
+        {
+          "text": "还可以写点什么。",
+          "start": 20,
+          "end": 621.5999999999999
+        }
+      ],
+      "falling_tokens": [],
+      "speed_px_s": 360.15625,
+      "pixels": 642,
+      "file": "art/export/fullfilm-v5/story/ribbon-33-land.png",
+      "sha256": "fe6660577ac43d63eb4929c6030e27b31630e21a936c62ce42d46be6bd3df617",
+      "font": "Noto Sans CJK SC",
+      "repeat": false
+    }
+  ],
+  "provenance": [
+    {
+      "index": 1,
+      "file": "art/export/fullfilm-v5/story/provenance-01.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack/redacted/01_访问规则与模型来源_脱敏.png",
+      "sha256": "eec17b0d8e5336199b57b8db2e6c869ce51b5a7d64ee0f24d283fe2f059322f9",
+      "source_sha256": "bf35f3b11731835271b84d9c617f7b68478be3d6fc415c74a483468962a5468f",
+      "width": 945,
+      "height": 2048,
+      "aspect": 0.46142578125,
+      "policy": "approved baked redaction; derivatives only; no source identifiers in captions",
+      "detail_file": "art/export/fullfilm-v5/story/provenance-01-detail.png",
+      "detail_aspect": 1.048834628190899,
+      "detail_sha256": "b43f48841977091fb288b111e127996f754cab86ae20737d5fd1b5f190506f9f",
+      "normalized_crop": [
+        0,
+        0.47,
+        1,
+        0.91
+      ]
+    },
+    {
+      "index": 2,
+      "file": "art/export/fullfilm-v5/story/provenance-02.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack/redacted/02_模型功能介绍与访问权限_脱敏.png",
+      "sha256": "81ba930138ad1d9eebca2d500166237eafb67f3fb1925fb44b9fb8503495f7cb",
+      "source_sha256": "d08a60e17a7574051a2f6e7bc5866d5e742d36b12a0083ae38c7a1552c620b7b",
+      "width": 945,
+      "height": 2048,
+      "aspect": 0.46142578125,
+      "policy": "approved baked redaction; derivatives only; no source identifiers in captions",
+      "detail_file": "art/export/fullfilm-v5/story/provenance-02-detail.png",
+      "detail_aspect": 0.8873239436619719,
+      "detail_sha256": "acca2d60484d8f1f5853ff3ae2da92c228cde8fc2d0e8dc4b4dd379a6536558a",
+      "normalized_crop": [
+        0,
+        0.34,
+        1,
+        0.86
+      ]
+    },
+    {
+      "index": 3,
+      "file": "art/export/fullfilm-v5/story/provenance-03.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack/redacted/03_账号安全与上传说明_脱敏.png",
+      "sha256": "a1cdc4dbfd7a2df20491a1650b7235ab790bfda5837e5a13078151bbc87ff777",
+      "source_sha256": "c370bff047846ece0bd7ca615699994251fa6105c9bfc39f4fde9554030ccb34",
+      "width": 945,
+      "height": 2048,
+      "aspect": 0.46142578125,
+      "policy": "approved baked redaction; derivatives only; no source identifiers in captions",
+      "detail_file": "art/export/fullfilm-v5/story/provenance-03-detail.png",
+      "detail_aspect": 0.7446808510638298,
+      "detail_sha256": "bc9cf1b56ad291b35f052be6fe0bfd0c6fadbe610d991d91a90a2bb2ce9882c6",
+      "normalized_crop": [
+        0,
+        0.14,
+        1,
+        0.76
+      ]
+    },
+    {
+      "index": 4,
+      "file": "art/export/fullfilm-v5/story/provenance-04.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack/redacted/04_上传步骤与使用规则_脱敏.png",
+      "sha256": "f5e203c8724e05e013ac2a3030205c3852b219ed5ced3650ef5068ad5b2c7229",
+      "source_sha256": "d5bb9f7f36172fe1b739c3fdc2eaca4a8120d5445fda251bdd55cca34e038484",
+      "width": 945,
+      "height": 2048,
+      "aspect": 0.46142578125,
+      "policy": "approved baked redaction; derivatives only; no source identifiers in captions",
+      "detail_file": "art/export/fullfilm-v5/story/provenance-04-detail.png",
+      "detail_aspect": 0.7816377171215881,
+      "detail_sha256": "b259cbecd7d2fcfb188e330aa736f8209cacecb3773c5cab6fa8741ec4bda411",
+      "normalized_crop": [
+        0,
+        0.28,
+        1,
+        0.87
+      ]
+    },
+    {
+      "index": 5,
+      "file": "art/export/fullfilm-v5/story/provenance-05.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack/redacted/05_模型来源公告局部_脱敏.png",
+      "sha256": "60c2c871f80b703b029ba18990dc179a9701dda83f08c34079a9086bff0a05c0",
+      "source_sha256": "537b5f608e76ada8763ce2001d806003ede0c65befbe0b93380945947b9731c7",
+      "width": 1125,
+      "height": 659,
+      "aspect": 1.7071320182094083,
+      "policy": "approved baked redaction; derivatives only; no source identifiers in captions",
+      "detail_file": "art/export/fullfilm-v5/story/provenance-05-detail.png",
+      "detail_aspect": 1.7071320182094083,
+      "detail_sha256": "60c2c871f80b703b029ba18990dc179a9701dda83f08c34079a9086bff0a05c0",
+      "normalized_crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "index": 6,
+      "file": "art/export/fullfilm-v5/story/provenance-06.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack/redacted/06_社群宣传与资源规则_脱敏.png",
+      "sha256": "e7a5a354b9207426a00224cb712345dde62433a048ed979124fbf57327035d5a",
+      "source_sha256": "8f74a825d127fd4b7b91dd9c964a6c0631353cddaf12f12791fc11c3b245530d",
+      "width": 1012,
+      "height": 673,
+      "aspect": 1.5037147102526003,
+      "policy": "approved baked redaction; derivatives only; no source identifiers in captions",
+      "detail_file": "art/export/fullfilm-v5/story/provenance-06-detail.png",
+      "detail_aspect": 2.353488372093023,
+      "detail_sha256": "a97001b84ae9a8866e3879db782727ec2537751e4171ffa28296b5cec3c5fc61",
+      "normalized_crop": [
+        0,
+        0.2,
+        1,
+        0.84
+      ]
+    },
+    {
+      "index": 7,
+      "file": "art/export/fullfilm-v5/story/provenance-07.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack/redacted/07_浏览器头像列表画面_脱敏.png",
+      "sha256": "8ef433f00338a9004b678534febd83d6edcbbe20c7ee0c72aa17043d9281bdf2",
+      "source_sha256": "9e2869d422bca887a79caba8976f8af7ff13bf17061d96c373414a3cc33014d4",
+      "width": 2048,
+      "height": 1252,
+      "aspect": 1.6357827476038338,
+      "policy": "approved baked redaction; derivatives only; no source identifiers in captions",
+      "detail_file": "art/export/fullfilm-v5/story/provenance-07-detail.png",
+      "detail_aspect": 2.3378995433789953,
+      "detail_sha256": "768a57a4fe868ac570e6020da85f0a6fb301afcae96d7531aedc1ec98e7369f8",
+      "normalized_crop": [
+        0,
+        0.23,
+        1,
+        0.93
+      ]
+    },
+    {
+      "index": 8,
+      "file": "art/export/fullfilm-v5/story/provenance-08.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack/redacted/08_湖畔Avatar场景_脱敏.png",
+      "sha256": "74e6e574040f9fd798ac7cc4f540a00d92c0894396b23e9c9c7a8b9c040eb8d7",
+      "source_sha256": "0e0c306f637d8c99bfc69e641f5ff4ad7db6a0d0494fa948687b0afbf0e4f0da",
+      "width": 800,
+      "height": 600,
+      "aspect": 1.3333333333333333,
+      "policy": "approved baked redaction; derivatives only; no source identifiers in captions",
+      "detail_file": "art/export/fullfilm-v5/story/provenance-08-detail.png",
+      "detail_aspect": 1.3333333333333333,
+      "detail_sha256": "74e6e574040f9fd798ac7cc4f540a00d92c0894396b23e9c9c7a8b9c040eb8d7",
+      "normalized_crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "index": 9,
+      "file": "art/export/fullfilm-v5/story/provenance-09.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack/redacted/09_商品页与模型分发言论_脱敏.png",
+      "sha256": "ebd64a0f6ffb1eeb300c6de36a2efac22408c934068b6dac667f6ad73e0a046b",
+      "source_sha256": "e21af12f596e3c0957c7f9a65387803cacdf811b9a6780bb9dfaba4237e697b3",
+      "width": 1440,
+      "height": 1785,
+      "aspect": 0.8067226890756303,
+      "policy": "approved baked redaction; derivatives only; no source identifiers in captions",
+      "detail_file": "art/export/fullfilm-v5/story/provenance-09-detail.png",
+      "detail_aspect": 0.8197945845004668,
+      "detail_sha256": "2544bcece57d97ca4630142188de44264a1f8b4c07ea78e27148453e150681c2",
+      "normalized_crop": [
+        0,
+        0,
+        0.61,
+        0.6
+      ]
+    },
+    {
+      "index": 10,
+      "file": "art/export/fullfilm-v5/story/provenance-10.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack/redacted/10_聊天与模型来源争议_脱敏.png",
+      "sha256": "eb896ee935ff952a07e104da28bac56de9f2d4dd6b372a6814c7e08c6dafbb34",
+      "source_sha256": "d2d3fc2debde121be68e8443338f286f2b28c27c6690d44caee34c8a14ff4baf",
+      "width": 1094,
+      "height": 2048,
+      "aspect": 0.5341796875,
+      "policy": "approved baked redaction; derivatives only; no source identifiers in captions",
+      "detail_file": "art/export/fullfilm-v5/story/provenance-10-detail.png",
+      "detail_aspect": 1.6702290076335877,
+      "detail_sha256": "7ee263705d4c8533a78b3abeceddb219fe685b88a4025968d6a8b89a83196fbc",
+      "normalized_crop": [
+        0,
+        0.62,
+        1,
+        0.94
+      ],
+      "hero_file": "art/export/fullfilm-v5/story/provenance-10-hero.png",
+      "hero_aspect": 2.425720620842572,
+      "hero_sha256": "68dc7214e853b8838f6f279ffe7ecb441a4b63327a317d59d37192d4772e9923"
+    },
+    {
+      "index": 11,
+      "file": "art/export/fullfilm-v5/story/provenance-11.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack/redacted/11_交易留言与转卖争论_脱敏.png",
+      "sha256": "bcf7aa2059c17813f99243a6bfc4790497a860c629a563ce091ba515176bce6a",
+      "source_sha256": "3ad46d4ef434eec280a163e894f662a4fdd10eb0825f4793c26c64b44c76f79c",
+      "width": 922,
+      "height": 2048,
+      "aspect": 0.4501953125,
+      "policy": "approved baked redaction; derivatives only; no source identifiers in captions",
+      "detail_file": "art/export/fullfilm-v5/story/provenance-11-detail.png",
+      "detail_aspect": 1.363905325443787,
+      "detail_sha256": "a0bfdd19dc3f25ee2810cf6d6189b29cb1adbd30f178cdfdff5d07866070011d",
+      "normalized_crop": [
+        0,
+        0.52,
+        1,
+        0.85
+      ]
+    },
+    {
+      "index": 12,
+      "file": "art/export/fullfilm-v5/story/provenance-12.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack/redacted/12_模型使用授权范围说明.png",
+      "sha256": "62521fd765edc832b90b2fbca70771c139d773d818c35bacc4a28ca355a17542",
+      "source_sha256": "09d4bb1497338548ad2d0a60299f8140e28ba29d31ee5ab58207fefd8ebfaeb4",
+      "width": 1192,
+      "height": 1684,
+      "aspect": 0.7078384798099763,
+      "policy": "approved baked redaction; derivatives only; no source identifiers in captions",
+      "detail_file": "art/export/fullfilm-v5/story/provenance-12-detail.png",
+      "detail_aspect": 0.6776929601357082,
+      "detail_sha256": "fbda57619b5f4a4d9ca2f69c8d99520d7aec3bafb0f58fa024728b0f4b62cd5a",
+      "normalized_crop": [
+        0,
+        0.1,
+        0.67,
+        0.8
+      ]
+    },
+    {
+      "index": 13,
+      "file": "art/export/fullfilm-v5/story/provenance-13.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack/redacted/13_模型不错我扫走了哈表情.png",
+      "sha256": "d261d341a1352801613b68a64311cd0bbafc197b521b04085d73f94b5d242090",
+      "source_sha256": "be4f3f109891e0162ecd98c09db48753c4c67d62f40178a14b322b8e45526777",
+      "width": 642,
+      "height": 180,
+      "aspect": 3.566666666666667,
+      "policy": "approved baked redaction; derivatives only; no source identifiers in captions",
+      "detail_file": "art/export/fullfilm-v5/story/provenance-13-detail.png",
+      "detail_aspect": 3.566666666666667,
+      "detail_sha256": "d261d341a1352801613b68a64311cd0bbafc197b521b04085d73f94b5d242090",
+      "normalized_crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "index": 14,
+      "file": "art/export/fullfilm-v5/story/provenance-14.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack/stamp-redraw/扫走了_完整邮戳.png",
+      "sha256": "a6e607ed707c1bf3fbc0cf28dc6dd864e4b1256fc7b9613e7b67aa365583c24e",
+      "source_sha256": "885463036a9eb3b40c73ff2f0be9e3d8986233e9a633fcdb288df64e55fb6724",
+      "width": 1400,
+      "height": 1000,
+      "aspect": 1.4,
+      "policy": "approved baked redaction; derivatives only; no source identifiers in captions",
+      "detail_file": "art/export/fullfilm-v5/story/provenance-14-detail.png",
+      "detail_aspect": 1.4,
+      "detail_sha256": "a6e607ed707c1bf3fbc0cf28dc6dd864e4b1256fc7b9613e7b67aa365583c24e",
+      "normalized_crop": [
+        0,
+        0,
+        1,
+        1
+      ]
+    }
+  ],
+  "end_phrase": "创作仍将继续",
+  "main_ripping_span": [
+    133.12,
+    186.88
+  ],
+  "ribbon_method": "episode123-v5 cumulative flow; right upper entry; detached glyphs; position-triggered flat grey hold before falling"
+}

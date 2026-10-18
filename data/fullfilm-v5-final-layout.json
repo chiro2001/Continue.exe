@@ -1,0 +1,106 @@
+{
+  "schema": "fullfilm-v5-final-layout.1",
+  "date": "2026-10-18",
+  "scene": "Assets/Scenes/OWM_FullFilm_v5.unity",
+  "credits": {
+    "success": true,
+    "pages": 2,
+    "separateObjects": true,
+    "position": "(0.00, 1.20, 0.50)",
+    "standingOnAuthoredFloor": true,
+    "placements": [
+      {
+        "page": 1,
+        "angle": -125.0,
+        "facing": -125.0,
+        "radius": 2.8,
+        "floor": -0.5244002,
+        "position": "(-2.29, 0.63, -1.11)",
+        "clearReadViews": [
+          0.65,
+          1.15,
+          1.35
+        ],
+        "viewingDistances": [
+          2.0,
+          2.5
+        ]
+      },
+      {
+        "page": 2,
+        "angle": 125.0,
+        "facing": 125.0,
+        "radius": 3.4,
+        "floor": -0.5244004,
+        "position": "(2.79, 0.63, -1.45)",
+        "clearReadViews": [
+          0.65,
+          1.15,
+          1.35
+        ],
+        "viewingDistances": [
+          2.0,
+          2.5
+        ]
+      }
+    ],
+    "readViewMeshAndCanvasChecks": true,
+    "supersededLegacySourceBoard": "CommunityPanel",
+    "visible": "after performance",
+    "includesQvPen": true
+  },
+  "canopy": {
+    "success": true,
+    "source": "Assets/OldWebMap/FullFilm/Revision5/ModelAssets/Meshes/fullfilm_v5_branch_canopy.fbx",
+    "oldPivot": "(-1.58, -0.55, 0.84)",
+    "oldLocal": "(-0.01, 0.00, 0.00)",
+    "rootScale": "(1.00, 1.00, 1.00)",
+    "rootRotation": "(0.00, 0.00, 0.00)",
+    "worldBoundsCentre": "(-1.58, 2.13, 0.84)",
+    "worldBoundsSize": "(6.40, 4.43, 6.39)",
+    "meshes": 75,
+    "materials": 9,
+    "shader": "lilToon",
+    "disabledOld": [
+      "Canopy_EdgeBatten_00",
+      "Canopy_EdgeBatten_01",
+      "Canopy_EdgeBatten_02",
+      "Canopy_EdgeBatten_03",
+      "Canopy_EdgeBatten_04",
+      "Canopy_EdgeBatten_05",
+      "Canopy_FoldedLeaf_00",
+      "Canopy_FoldedLeaf_01",
+      "Canopy_FoldedLeaf_02",
+      "Canopy_FoldedLeaf_03",
+      "Canopy_FoldedLeaf_04",
+      "Canopy_FoldedLeaf_05",
+      "Canopy_RadialRib_00",
+      "Canopy_RadialRib_01",
+      "Canopy_RadialRib_02",
+      "Canopy_RadialRib_03",
+      "Canopy_RadialRib_04",
+      "Canopy_RadialRib_05",
+      "Canopy_RootCollar",
+      "Canopy_Trunk",
+      "CanopyBranch_00",
+      "CanopyBranch_01",
+      "CanopyBranch_02",
+      "CanopyBranch_03",
+      "CanopyBranch_04",
+      "CanopyBranch_05"
+    ],
+    "collidersUntouched": true
+  },
+  "floor": {
+    "bridge_y": -0.05,
+    "plaza_y": -0.5244,
+    "count": 28,
+    "scope": "Authored final-floor and seat surfaces; walls, rails and canopy have no added colliders"
+  },
+  "credits_board_dimensions": [
+    2.4,
+    1.35
+  ],
+  "credits_centre_above_local_floor": 1.15,
+  "opening_faces": 6
+}

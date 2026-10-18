@@ -1,0 +1,503 @@
+{
+  "schema": "oldwebmap.fullfilm.v3.user-images.v1",
+  "review_date": "2026-10-17",
+  "prompt_asset_source": "data/fullfilm-v2-prompt-assets.json",
+  "remote_intake_directory": "C:/Users/Chiro/tmp/vrc-old-web-map/fullfilm-v2/user-images",
+  "repository_asset_directory": "art/source/fullfilm-v3-user-images",
+  "count": 8,
+  "copy_integrity": "All 8 byte-for-byte copies verified against remote SHA-256 and byte-length manifest; original files were not modified.",
+  "dimensions_summary": {
+    "width": 1672,
+    "height": 941,
+    "mode": "RGB",
+    "exact_duplicate_sha256_count": 0
+  },
+  "crop_coordinate_convention": {
+    "origin": "top-left",
+    "units": "pixels",
+    "rect_format": "[x,y,width,height] with half-open right/bottom bounds unless a grid explicitly says inclusive"
+  },
+  "images": [
+    {
+      "id": "v2-07-game-cg-localization-pair",
+      "prompt_asset_id": "v2-07-game-cg-localization-pair",
+      "filename": "原文与中文译文：月下古桥奇境.png",
+      "source_filename": "原文与中文译文：月下古桥奇境.png",
+      "source_windows_path": "C:/Users/Chiro/tmp/vrc-old-web-map/fullfilm-v2/user-images/原文与中文译文：月下古桥奇境.png",
+      "repository_path": "art/source/fullfilm-v3-user-images/原文与中文译文：月下古桥奇境.png",
+      "byte_length": 2670729,
+      "sha256": "e141b219b8f086d81f640e30d014edc1ed0068bd72e3400243cc4aa39cf9c2a0",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "aspect_ratio": 1.776833156,
+      "review_status": "reviewed",
+      "visual_review": "同一原创古桥场景左右并列，人物、地图、灯光、城堡与镜头一致；两句日文和中文译文均可读。是原创概念CG，不像真实游戏截图。可整列切换原文/译文。",
+      "crop_plan": {
+        "mode": "two_language_halves",
+        "regions": [
+          {
+            "id": "original_japanese",
+            "pixel_rect_xywh_half_open": [
+              0,
+              0,
+              830,
+              941
+            ]
+          },
+          {
+            "id": "localized_chinese",
+            "pixel_rect_xywh_half_open": [
+              842,
+              0,
+              830,
+              941
+            ]
+          }
+        ],
+        "notes": "避开x=830..841中央白色分隔条；保留每侧标题和两个对白框。"
+      }
+    },
+    {
+      "id": "v2-08-original-homepage-artwork",
+      "prompt_asset_id": "v2-08-original-homepage-artwork",
+      "filename": "夜航邮局：星海寄信之夜.png",
+      "source_filename": "夜航邮局：星海寄信之夜.png",
+      "source_windows_path": "C:/Users/Chiro/tmp/vrc-old-web-map/fullfilm-v2/user-images/夜航邮局：星海寄信之夜.png",
+      "repository_path": "art/source/fullfilm-v3-user-images/夜航邮局：星海寄信之夜.png",
+      "byte_length": 3209227,
+      "sha256": "281f5bc69e6a1c6facbcf381c8062c95c992cf997519589c47964475a7e9faaa",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "aspect_ratio": 1.776833156,
+      "review_status": "reviewed",
+      "visual_review": "主画面、菜单（主页/作品/留言/链接）与更新03:14均可读；内容为原创网页插画而非历史站点或软件实拍。适合全幅保持并单独高亮菜单/更新提示。",
+      "crop_plan": {
+        "mode": "whole_board_plus_optional_zones",
+        "regions": [
+          {
+            "id": "full_board",
+            "pixel_rect_xywh_half_open": [
+              0,
+              0,
+              1672,
+              941
+            ]
+          },
+          {
+            "id": "central_illustration",
+            "pixel_rect_xywh_half_open": [
+              286,
+              55,
+              1284,
+              697
+            ]
+          },
+          {
+            "id": "left_menu",
+            "pixel_rect_xywh_half_open": [
+              72,
+              259,
+              202,
+              420
+            ]
+          },
+          {
+            "id": "title_banner",
+            "pixel_rect_xywh_half_open": [
+              202,
+              25,
+              623,
+              180
+            ]
+          },
+          {
+            "id": "update_badge",
+            "pixel_rect_xywh_half_open": [
+              1377,
+              823,
+              263,
+              86
+            ]
+          }
+        ],
+        "notes": "切中央插画时保留船、海面和城堡；菜单、标题和更新徽章是同一原创画面中的装饰，不拆成历史UI。"
+      }
+    },
+    {
+      "id": "v2-05-comic-clean-layer-board",
+      "prompt_asset_id": "v2-05-comic-clean-layer-board",
+      "filename": "星夜山巅的漫画对白.png",
+      "source_filename": "星夜山巅的漫画对白.png",
+      "source_windows_path": "C:/Users/Chiro/tmp/vrc-old-web-map/fullfilm-v2/user-images/星夜山巅的漫画对白.png",
+      "repository_path": "art/source/fullfilm-v3-user-images/星夜山巅的漫画对白.png",
+      "byte_length": 2651211,
+      "sha256": "728193caceb5c1692a2b22a241d77248ef12b761b3e935d37ebda13348a373cf",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "aspect_ratio": 1.776833156,
+      "review_status": "reviewed",
+      "visual_review": "两格黑白漫画的无字版与中文嵌字版并列；人物姿态、发型、星空、山景、分格与气泡位置与04基本一致。可将左侧无字版当底图，只在相同气泡坐标显现中文。顶部状态标签不属于漫画画格。",
+      "crop_plan": {
+        "mode": "paired_clean_and_chinese_panels",
+        "regions": [
+          {
+            "id": "panel_1_clean",
+            "pixel_rect_xywh_half_open": [
+              18,
+              50,
+              802,
+              417
+            ]
+          },
+          {
+            "id": "panel_1_chinese",
+            "pixel_rect_xywh_half_open": [
+              854,
+              50,
+              802,
+              417
+            ]
+          },
+          {
+            "id": "panel_2_clean",
+            "pixel_rect_xywh_half_open": [
+              18,
+              480,
+              802,
+              442
+            ]
+          },
+          {
+            "id": "panel_2_chinese",
+            "pixel_rect_xywh_half_open": [
+              854,
+              480,
+              802,
+              442
+            ]
+          }
+        ],
+        "notes": "裁掉顶部“无字清稿/中文嵌字”标签和中央分隔；两个画格高度原本略有差异，按各自边框裁，不强行等比缩放。"
+      }
+    },
+    {
+      "id": "v2-04-comic-translation-pair",
+      "prompt_asset_id": "v2-04-comic-translation-pair",
+      "filename": "星空下的原文与中文译文.png",
+      "source_filename": "星空下的原文与中文译文.png",
+      "source_windows_path": "C:/Users/Chiro/tmp/vrc-old-web-map/fullfilm-v2/user-images/星空下的原文与中文译文.png",
+      "repository_path": "art/source/fullfilm-v3-user-images/星空下的原文与中文译文.png",
+      "byte_length": 2701428,
+      "sha256": "cf82779b8295c82672c21181855c3f9d864f1b264125d6eca23d8f2f91c2a18b",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "aspect_ratio": 1.776833156,
+      "review_status": "reviewed",
+      "visual_review": "两格原创黑白漫画左侧日文、右侧中文；文字分别为“おはよう！/あの星を見に行こう。”与“早上好！/去看看那颗星吧。”人物、动作、背景、气泡和取景与05连续。可按格对照，也可在固定底图上切换语言。",
+      "crop_plan": {
+        "mode": "paired_language_panels",
+        "regions": [
+          {
+            "id": "panel_1_japanese",
+            "pixel_rect_xywh_half_open": [
+              18,
+              50,
+              802,
+              417
+            ]
+          },
+          {
+            "id": "panel_1_chinese",
+            "pixel_rect_xywh_half_open": [
+              854,
+              50,
+              802,
+              417
+            ]
+          },
+          {
+            "id": "panel_2_japanese",
+            "pixel_rect_xywh_half_open": [
+              18,
+              480,
+              802,
+              442
+            ]
+          },
+          {
+            "id": "panel_2_chinese",
+            "pixel_rect_xywh_half_open": [
+              854,
+              480,
+              802,
+              442
+            ]
+          }
+        ],
+        "notes": "裁掉顶部状态标题与中央分隔；每个场景格左右配对。"
+      }
+    },
+    {
+      "id": "v2-11-scene-block-concept-art",
+      "prompt_asset_id": "v2-11-scene-block-concept-art",
+      "filename": "水上花园圆亭与落日光影.png",
+      "source_filename": "水上花园圆亭与落日光影.png",
+      "source_windows_path": "C:/Users/Chiro/tmp/vrc-old-web-map/fullfilm-v2/user-images/水上花园圆亭与落日光影.png",
+      "repository_path": "art/source/fullfilm-v3-user-images/水上花园圆亭与落日光影.png",
+      "byte_length": 2906767,
+      "sha256": "04d750cabb0e98af6519d936bbf0d71dc9cb7ba377525a5e339919c7f23c168b",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "aspect_ratio": 1.776833156,
+      "review_status": "reviewed",
+      "visual_review": "保留圆形平台、拱形构件、棚顶、弧形座位、桥与灯具等相近意象；但桥进入方向、拱门/棚顶相对位置及座席分段与art/models/fullfilm-v2/fullfilm_v2_scene_block_preview.png不一致，且写实花园/水面细节较多。适合作氛围概念画，不可替代或证明实际模型结构。",
+      "crop_plan": {
+        "mode": "whole_concept_plus_mood_zones",
+        "regions": [
+          {
+            "id": "whole_concept",
+            "pixel_rect_xywh_half_open": [
+              0,
+              0,
+              1672,
+              941
+            ]
+          },
+          {
+            "id": "ring_platform",
+            "pixel_rect_xywh_half_open": [
+              252,
+              235,
+              1190,
+              690
+            ]
+          },
+          {
+            "id": "arch_and_canopy",
+            "pixel_rect_xywh_half_open": [
+              350,
+              31,
+              620,
+              484
+            ]
+          },
+          {
+            "id": "bridge",
+            "pixel_rect_xywh_half_open": [
+              0,
+              321,
+              506,
+              439
+            ]
+          },
+          {
+            "id": "curved_seating",
+            "pixel_rect_xywh_half_open": [
+              824,
+              385,
+              762,
+              448
+            ]
+          }
+        ],
+        "notes": "主体全幅最能表达气氛；裁出的局部只用于绘画细节，不作结构实证。"
+      }
+    },
+    {
+      "id": "v2-10-culture-artifact-still-life",
+      "prompt_asset_id": "v2-10-culture-artifact-still-life",
+      "filename": "温馨创作者桌面时光.png",
+      "source_filename": "温馨创作者桌面时光.png",
+      "source_windows_path": "C:/Users/Chiro/tmp/vrc-old-web-map/fullfilm-v2/user-images/温馨创作者桌面时光.png",
+      "repository_path": "art/source/fullfilm-v3-user-images/温馨创作者桌面时光.png",
+      "byte_length": 2876594,
+      "sha256": "8a65bfcd0b6a6f5cd194d1e47a8a3f65c5e0e9e7ae55d313eff964d68e2ca5f5",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "aspect_ratio": 1.776833156,
+      "review_status": "reviewed",
+      "visual_review": "画面含漫画稿、译稿、键鼠、游戏手柄、纸模型、显示器和VR头显；屏幕是风景插画，不是软件UI，也没有可读的历史界面。物品互相遮挡，适合整幅静物或缓慢视差，不适合逐件抠成独立透明素材。",
+      "crop_plan": {
+        "mode": "whole_still_life_with_overlapping_zones",
+        "regions": [
+          {
+            "id": "whole_still_life",
+            "pixel_rect_xywh_half_open": [
+              0,
+              0,
+              1672,
+              941
+            ]
+          },
+          {
+            "id": "monitor_and_keyboard",
+            "pixel_rect_xywh_half_open": [
+              426,
+              0,
+              739,
+              505
+            ]
+          },
+          {
+            "id": "manga_pages_and_pencils",
+            "pixel_rect_xywh_half_open": [
+              0,
+              305,
+              825,
+              636
+            ]
+          },
+          {
+            "id": "translation_notes",
+            "pixel_rect_xywh_half_open": [
+              580,
+              400,
+              577,
+              500
+            ]
+          },
+          {
+            "id": "vr_headset",
+            "pixel_rect_xywh_half_open": [
+              1128,
+              42,
+              544,
+              491
+            ]
+          },
+          {
+            "id": "controllers_and_paper_models",
+            "pixel_rect_xywh_half_open": [
+              1083,
+              419,
+              589,
+              522
+            ]
+          }
+        ],
+        "notes": "局部框互相重叠，保留层级关系；若做视差，优先整幅轻微移动。"
+      }
+    },
+    {
+      "id": "v2-09-community-reaction-stickers",
+      "prompt_asset_id": "v2-09-community-reaction-stickers",
+      "filename": "猫咪聊天贴纸十二格合集.png",
+      "source_filename": "猫咪聊天贴纸十二格合集.png",
+      "source_windows_path": "C:/Users/Chiro/tmp/vrc-old-web-map/fullfilm-v2/user-images/猫咪聊天贴纸十二格合集.png",
+      "repository_path": "art/source/fullfilm-v3-user-images/猫咪聊天贴纸十二格合集.png",
+      "byte_length": 2308042,
+      "sha256": "d1e8ed6a7d264bb987454356eb04e48a820ad81620594541a4c60b7ae5c5345b",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "aspect_ratio": 1.776833156,
+      "review_status": "reviewed",
+      "visual_review": "12张贴纸文字清楚，顺序为orz、囧、233、在吗；沙发、顶、路过、收到；分享、收藏、一起、继续。实际排布是4列×3行。每格有圆角彩底，没有透明底；适合保留卡片背景裁切，不能当成透明抠图。",
+      "crop_plan": {
+        "mode": "row_major_card_grid",
+        "grid": {
+          "columns": 4,
+          "rows": 3,
+          "order": "row-major",
+          "x_bounds_inclusive": [
+            [
+              19,
+              408
+            ],
+            [
+              435,
+              822
+            ],
+            [
+              850,
+              1237
+            ],
+            [
+              1265,
+              1654
+            ]
+          ],
+          "y_bounds_inclusive": [
+            [
+              18,
+              300
+            ],
+            [
+              322,
+              600
+            ],
+            [
+              622,
+              919
+            ]
+          ]
+        },
+        "regions": [],
+        "notes": "按卡片外缘裁切以留住圆角彩底；每列间的白色 gutter 约13–25px，每行 gutter 约20px，可直接分格，周边再留少量透明/空白仅需后期处理。"
+      }
+    },
+    {
+      "id": "v2-06-flash-animation-sheet",
+      "prompt_asset_id": "v2-06-flash-animation-sheet",
+      "filename": "霓虹像素星辰六格动画分镜.png",
+      "source_filename": "霓虹像素星辰六格动画分镜.png",
+      "source_windows_path": "C:/Users/Chiro/tmp/vrc-old-web-map/fullfilm-v2/user-images/霓虹像素星辰六格动画分镜.png",
+      "repository_path": "art/source/fullfilm-v3-user-images/霓虹像素星辰六格动画分镜.png",
+      "byte_length": 1560022,
+      "sha256": "c45b2169ffe9aea8f66ffac10d69add5b367d645fc94be72846565ed55e90a49",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "aspect_ratio": 1.776833156,
+      "review_status": "reviewed",
+      "visual_review": "六格按01星点、02线框起笔、03窗口成形、04画面填入、05像素散开、06回到星点推进；青色主星贯穿六态，适合短循环或逐格播放。网格分隔清楚；每格左上角编号是板面文字，做动画帧需去除编号。",
+      "crop_plan": {
+        "mode": "3_columns_by_2_rows",
+        "grid": {
+          "columns": 3,
+          "rows": 2,
+          "order": "row-major",
+          "x_bounds_inclusive": [
+            [
+              0,
+              556
+            ],
+            [
+              560,
+              1111
+            ],
+            [
+              1116,
+              1671
+            ]
+          ],
+          "y_bounds_inclusive": [
+            [
+              0,
+              464
+            ],
+            [
+              471,
+              940
+            ]
+          ]
+        },
+        "regions": [],
+        "mask_each_cell_local_px": [
+          12,
+          8,
+          48,
+          44
+        ],
+        "notes": "裁开白色分隔线；mask_each_cell_local_px用于移除每格左上01–06数字，避免播放时数字跳闪。"
+      }
+    }
+  ],
+  "set_review": "Eight distinct files map one-to-one to the revised v2 prompt items v2-04 through v2-11. The v2-04/v2-05 manga are an intentional continuity pair. All other SHA-256 values are distinct."
+}

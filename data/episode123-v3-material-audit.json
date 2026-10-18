@@ -1,0 +1,174 @@
+{
+  "unique_used_assets": 355,
+  "baseline": 57,
+  "multiplier": 6.228,
+  "asset_kinds": {
+    "同期官方 Steam 公告配图": 10,
+    "后世虚拟机实机截屏": 4,
+    "后世实机截屏（Windows XP 预发布 Build 2474）": 2,
+    "Internet Explorer 5 归档安装包附图": 1,
+    "后世实机截屏（Commons 原始上传日期）": 1,
+    "互联网档案馆保存的 Winamp 皮肤预览图": 1,
+    "同期软件界面截图（Commons 记录原始上传日）": 1,
+    "工具文档配图（版本路径为 3.2，截图日期未标）": 1,
+    "Wayback 原页面本地浏览器截屏": 3,
+    "同期报道中的原始界面/公告图": 1,
+    "同期报道中的原始页面截图": 1,
+    "同期新闻配图（网络二创，不是感染截图）": 1,
+    "同期官方公告配图": 1,
+    "同期官方说明图/信息图": 1,
+    "后世实机截屏（教程补充图；实际截屏日未单独确认）": 1,
+    "同期教程配图/真实 SDK 截图": 1,
+    "后续教程配图/旧版 VRChat 网页截图": 1,
+    "社区推荐列表配图（原页面截图，确切拍摄日未标）": 1,
+    "archival-client-screenshot": 5,
+    "archived-product-ui-image": 2,
+    "archived-webpage-render": 2,
+    "retrospective-article-image-date-needs-caption-check": 64,
+    "museum-software-version-screenshot": 62,
+    "official-documentation-screenshot": 33,
+    "official-steam-announcement-image": 4,
+    "official-2019-announcement-image": 3,
+    "current-project-self-capture": 3,
+    "original-operation-reconstruction": 144
+  },
+  "asset_categories": {
+    "vrc": 33,
+    "system": 6,
+    "software": 3,
+    "distribution": 17,
+    "translation": 9,
+    "community": 10,
+    "event": 4,
+    "security": 5,
+    "chinese-web": 55,
+    "desktop": 70,
+    "fansub": 41,
+    "web": 63,
+    "making": 3,
+    "tools": 8,
+    "creation": 16,
+    "conditions": 8,
+    "maintenance": 4
+  },
+  "events": 703,
+  "actual_note_events": 693,
+  "concurrency": {
+    "min": 0,
+    "max": 14,
+    "mean": 5.066
+  },
+  "excluded": [
+    {
+      "id": "chinese-web-d246b93d5131",
+      "reason": "article cover/office photograph, not the historical UI requested"
+    },
+    {
+      "id": "chinese-web-d96c82e7c764",
+      "reason": "article cover/office photograph, not the historical UI requested"
+    },
+    {
+      "id": "chinese-web-e44c225d9232",
+      "reason": "article cover/office photograph, not the historical UI requested"
+    },
+    {
+      "id": "fansub-8d0c3256b218",
+      "reason": "identical full frame after colour/size normalization"
+    },
+    {
+      "id": "vrc-02b85c9f2344",
+      "reason": "identical full frame after colour/size normalization"
+    },
+    {
+      "id": "vrc-240b462f393f",
+      "reason": "identical full frame after colour/size normalization"
+    },
+    {
+      "id": "vrc-81784301671c",
+      "reason": "identical full frame after colour/size normalization"
+    },
+    {
+      "id": "vrc-d785393e6f28",
+      "reason": "identical full frame after colour/size normalization"
+    },
+    {
+      "id": "web-281853c364ba",
+      "reason": "contact review: outside first-three-act scope / blank / museum wrapper"
+    },
+    {
+      "id": "web-34dddd345977",
+      "reason": "contact review: outside first-three-act scope / blank / museum wrapper"
+    },
+    {
+      "id": "web-397aed02f909",
+      "reason": "contact review: outside first-three-act scope / blank / museum wrapper"
+    },
+    {
+      "id": "web-57cb0a095cd6",
+      "reason": "contact review: outside first-three-act scope / blank / museum wrapper"
+    },
+    {
+      "id": "web-62947f66a618",
+      "reason": "contact review: outside first-three-act scope / blank / museum wrapper"
+    },
+    {
+      "id": "web-64e85fad6b50",
+      "reason": "contact review: outside first-three-act scope / blank / museum wrapper"
+    },
+    {
+      "id": "web-6dbfc4bfa7c4",
+      "reason": "contact review: outside first-three-act scope / blank / museum wrapper"
+    },
+    {
+      "id": "web-785f0f314949",
+      "reason": "contact review: outside first-three-act scope / blank / museum wrapper"
+    },
+    {
+      "id": "web-8a28a3a856dd",
+      "reason": "contact review: outside first-three-act scope / blank / museum wrapper"
+    },
+    {
+      "id": "web-994871bf4dbf",
+      "reason": "contact review: outside first-three-act scope / blank / museum wrapper"
+    },
+    {
+      "id": "web-a2cbc7a989d3",
+      "reason": "contact review: outside first-three-act scope / blank / museum wrapper"
+    },
+    {
+      "id": "web-af3a9e8d4b6d",
+      "reason": "contact review: outside first-three-act scope / blank / museum wrapper"
+    },
+    {
+      "id": "web-afbeedf9575c",
+      "reason": "contact review: outside first-three-act scope / blank / museum wrapper"
+    },
+    {
+      "id": "web-c64de97679f3",
+      "reason": "contact review: outside first-three-act scope / blank / museum wrapper"
+    },
+    {
+      "id": "web-cc1cb45a9fef",
+      "reason": "contact review: outside first-three-act scope / blank / museum wrapper"
+    },
+    {
+      "id": "web-ceaa7acb8e12",
+      "reason": "contact review: outside first-three-act scope / blank / museum wrapper"
+    },
+    {
+      "id": "web-fd1e870e0b12",
+      "reason": "contact review: outside first-three-act scope / blank / museum wrapper"
+    },
+    {
+      "id": "web-fdeae981640f",
+      "reason": "contact review: outside first-three-act scope / blank / museum wrapper"
+    },
+    {
+      "id": "web-fe2bdab4f367",
+      "reason": "contact review: outside first-three-act scope / blank / museum wrapper"
+    }
+  ],
+  "all_assets_used": true,
+  "source_images_are_full_frames": true,
+  "workflow_assets": 144
+}

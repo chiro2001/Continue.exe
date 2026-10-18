@@ -1,0 +1,589 @@
+{
+ "schema": "episode123-v5-text/1",
+ "keylines": [
+  {
+   "start": 1.6,
+   "end": 5.9,
+   "text": "这些界面，你认得吗？",
+   "region": 0,
+   "style": 0
+  },
+  {
+   "start": 23.2,
+   "end": 27.6,
+   "text": "我们先把它，做出来。",
+   "region": 0,
+   "style": 1
+  },
+  {
+   "start": 33.2,
+   "end": 37.7,
+   "text": "有人把它译成了，我们读得懂的样子。",
+   "region": 0,
+   "style": 0
+  },
+  {
+   "start": 46.3,
+   "end": 50.5,
+   "text": "下载完成以后，仍有人留着灯。",
+   "region": 0,
+   "style": 1
+  },
+  {
+   "start": 66.0,
+   "end": 70.3,
+   "text": "一条字幕，许多双手",
+   "region": 0,
+   "style": 0
+  },
+  {
+   "start": 89.5,
+   "end": 94.1,
+   "text": "原来，我们能在这里见面",
+   "region": 2,
+   "style": 1
+  },
+  {
+   "start": 105.2,
+   "end": 109.4,
+   "text": "联系人还在，选择却变了",
+   "region": 3,
+   "style": 0
+  },
+  {
+   "start": 128.5,
+   "end": 132.7,
+   "text": "把可用的方法，留给后来的人",
+   "region": 3,
+   "style": 1
+  }
+ ],
+ "comments": [
+  {
+   "time": 53.28,
+   "text": "沙发！",
+   "region": 0,
+   "channel": 3,
+   "duration": 4.6
+  },
+  {
+   "time": 53.92,
+   "text": "板凳",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 54.56,
+   "text": "前排围观",
+   "region": 0,
+   "channel": 3,
+   "duration": 4.6
+  },
+  {
+   "time": 55.36,
+   "text": "楼主好人一生平安",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 56.16,
+   "text": "mark 一下",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 56.96,
+   "text": "顶上去",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 57.6,
+   "text": "这个页面我存过",
+   "region": 0,
+   "channel": 3,
+   "duration": 4.6
+  },
+  {
+   "time": 58.24,
+   "text": "打酱油路过",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 58.88,
+   "text": "求种，谢楼主",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 59.52,
+   "text": "楼主还在吗",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 60.16,
+   "text": "贾君鹏，你妈妈喊你回家吃饭",
+   "region": 0,
+   "channel": 3,
+   "duration": 5.4
+  },
+  {
+   "time": 60.64,
+   "text": "神马都是浮云",
+   "region": 0,
+   "channel": 3,
+   "duration": 4.6
+  },
+  {
+   "time": 61.12,
+   "text": "给力！",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 61.76,
+   "text": "空降成功",
+   "region": 0,
+   "channel": 3,
+   "duration": 4.6
+  },
+  {
+   "time": 62.24,
+   "text": "字幕组辛苦了",
+   "region": 0,
+   "channel": 3,
+   "duration": 4.6
+  },
+  {
+   "time": 62.88,
+   "text": "熟肉来了",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 63.52,
+   "text": "这句我会背",
+   "region": 0,
+   "channel": 3,
+   "duration": 4.6
+  },
+  {
+   "time": 64.16,
+   "text": "23333",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 64.64,
+   "text": "时间轴好准",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 65.28,
+   "text": "谢谢翻译",
+   "region": 0,
+   "channel": 3,
+   "duration": 4.6
+  },
+  {
+   "time": 65.92,
+   "text": "<color=#7FE7FF>弹幕护体</color>",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 67.04,
+   "text": "生肉也看懂了",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 67.52,
+   "text": "这里对上了",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 68.16,
+   "text": "求压制版",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 68.96,
+   "text": "校对辛苦",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 69.6,
+   "text": "第一次见这么准的轴",
+   "region": 0,
+   "channel": 0,
+   "duration": 5.4
+  },
+  {
+   "time": 70.4,
+   "text": "收藏了",
+   "region": 0,
+   "channel": 3,
+   "duration": 4.6
+  },
+  {
+   "time": 71.04,
+   "text": "字幕君威武",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 72.0,
+   "text": "求教程",
+   "region": 0,
+   "channel": 3,
+   "duration": 4.6
+  },
+  {
+   "time": 72.64,
+   "text": "原来还可以这样",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 73.28,
+   "text": "UP 主更新了",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 73.92,
+   "text": "我也想试试",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 74.56,
+   "text": "骨骼又歪了……",
+   "region": 0,
+   "channel": 3,
+   "duration": 4.6
+  },
+  {
+   "time": 75.2,
+   "text": "贴图终于对上了",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 75.84,
+   "text": "收藏 = 学会",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 76.64,
+   "text": "建模好难",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 77.28,
+   "text": "学会了！",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 77.92,
+   "text": "下一期呢",
+   "region": 0,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 80.64,
+   "text": "<color=#FFD24A>前方高能预警</color>",
+   "region": 1,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 82.24,
+   "text": "听得见吗？",
+   "region": 1,
+   "channel": 3,
+   "duration": 4.6
+  },
+  {
+   "time": 82.88,
+   "text": "你也来了",
+   "region": 1,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 83.52,
+   "text": "麦有点炸",
+   "region": 1,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 84.32,
+   "text": "新来的？",
+   "region": 1,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 84.96,
+   "text": "跟我来",
+   "region": 1,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 85.76,
+   "text": "我带你过去",
+   "region": 1,
+   "channel": 3,
+   "duration": 4.6
+  },
+  {
+   "time": 88.64,
+   "text": "这边坐",
+   "region": 2,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 89.28,
+   "text": "晚上好",
+   "region": 2,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 89.92,
+   "text": "你的模型好可爱",
+   "region": 2,
+   "channel": 3,
+   "duration": 4.6
+  },
+  {
+   "time": 90.72,
+   "text": "原来你在这里",
+   "region": 2,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 91.52,
+   "text": "一起拍张照",
+   "region": 2,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 92.32,
+   "text": "镜子前集合",
+   "region": 2,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 93.12,
+   "text": "手势怎么做？",
+   "region": 2,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 93.92,
+   "text": "像这样——",
+   "region": 2,
+   "channel": 3,
+   "duration": 4.6
+  },
+  {
+   "time": 94.72,
+   "text": "学会了",
+   "region": 2,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 95.52,
+   "text": "换个地方聊",
+   "region": 2,
+   "channel": 3,
+   "duration": 4.6
+  },
+  {
+   "time": 96.48,
+   "text": "我卡住了，拉我一下",
+   "region": 2,
+   "channel": 3,
+   "duration": 5.4
+  },
+  {
+   "time": 97.28,
+   "text": "重进一下试试",
+   "region": 2,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 98.24,
+   "text": "好了！",
+   "region": 2,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 99.04,
+   "text": "谢谢你",
+   "region": 2,
+   "channel": 3,
+   "duration": 4.6
+  },
+  {
+   "time": 100.0,
+   "text": "下次见",
+   "region": 2,
+   "channel": 3,
+   "duration": 4.6
+  },
+  {
+   "time": 100.96,
+   "text": "晚安",
+   "region": 2,
+   "channel": 3,
+   "duration": 4.6
+  },
+  {
+   "time": 105.92,
+   "text": "要登录才能看？",
+   "region": 3,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 107.2,
+   "text": "<color=#FFB0A0>艰难的决定……</color>",
+   "region": 3,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 108.64,
+   "text": "二选一？",
+   "region": 3,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 109.92,
+   "text": "换个入口试试",
+   "region": 3,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 112.8,
+   "text": "Mod 不能用了",
+   "region": 3,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 114.24,
+   "text": "辅助功能呢？",
+   "region": 3,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 115.68,
+   "text": "有人找到办法了吗",
+   "region": 3,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 117.92,
+   "text": "先导出一份",
+   "region": 3,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 120.32,
+   "text": "我的收藏夹打不开了",
+   "region": 3,
+   "channel": 0,
+   "duration": 5.4
+  },
+  {
+   "time": 123.36,
+   "text": "我这里还有备份",
+   "region": 3,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 125.12,
+   "text": "这个方法能用",
+   "region": 3,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 127.04,
+   "text": "谢谢，还在维护",
+   "region": 3,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 129.6,
+   "text": "收到了",
+   "region": 3,
+   "channel": 0,
+   "duration": 4.6
+  },
+  {
+   "time": 131.2,
+   "text": "我也留一份",
+   "region": 3,
+   "channel": 0,
+   "duration": 4.6
+  }
+ ],
+ "notes": "Keylines 15→8; danmaku rewritten by period, unique texts, times snapped to actual FC14 onsets."
+}

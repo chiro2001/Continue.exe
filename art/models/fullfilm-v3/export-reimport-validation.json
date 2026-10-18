@@ -1,0 +1,283 @@
+{
+  "blender": "4.2.0",
+  "method": "Fresh empty scene import for each export; raw FBX property parse",
+  "assets": [
+    {
+      "asset": "fullfilm_v3_workbench",
+      "format": ".fbx",
+      "mesh_count": 59,
+      "triangles": 17512,
+      "all_meshes_have_uv": true,
+      "ui_uv": [
+        {
+          "object": "UI_Main_16x9",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_Timeline",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_LeftHierarchy",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_RightAssets",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_Thumbnail_00",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_Thumbnail_01",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_Thumbnail_02",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_LowReadingCard",
+          "full_0_1_uv": true
+        }
+      ],
+      "bounds_blender_m": [
+        [
+          -0.784716,
+          0.809639
+        ],
+        [
+          -0.259375,
+          0.344375
+        ],
+        [
+          -0.0,
+          0.724063
+        ]
+      ],
+      "cameras": 0,
+      "lights": 0,
+      "animation_actions": 0,
+      "passed": true
+    },
+    {
+      "asset": "fullfilm_v3_workbench",
+      "format": ".glb",
+      "mesh_count": 59,
+      "triangles": 17512,
+      "all_meshes_have_uv": true,
+      "ui_uv": [
+        {
+          "object": "UI_Timeline",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_Main_16x9",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_LeftHierarchy",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_LowReadingCard",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_RightAssets",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_Thumbnail_00",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_Thumbnail_01",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_Thumbnail_02",
+          "full_0_1_uv": true
+        }
+      ],
+      "bounds_blender_m": [
+        [
+          -0.784716,
+          0.809639
+        ],
+        [
+          -0.259375,
+          0.344375
+        ],
+        [
+          0.0,
+          0.724063
+        ]
+      ],
+      "cameras": 0,
+      "lights": 0,
+      "animation_actions": 0,
+      "passed": true
+    },
+    {
+      "asset": "fullfilm_v3_scene_block",
+      "format": ".fbx",
+      "mesh_count": 214,
+      "triangles": 33522,
+      "all_meshes_have_uv": true,
+      "ui_uv": [
+        {
+          "object": "UI_CommunitySign",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_WorldNotice",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_ArchiveLabel",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_SharedWork_00",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_SharedWorkCredit_00",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_SharedWork_01",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_SharedWorkCredit_01",
+          "full_0_1_uv": true
+        }
+      ],
+      "bounds_blender_m": [
+        [
+          -3.9,
+          3.9
+        ],
+        [
+          -3.9,
+          3.9
+        ],
+        [
+          -0.275001,
+          3.56
+        ]
+      ],
+      "cameras": 0,
+      "lights": 0,
+      "animation_actions": 0,
+      "passed": true
+    },
+    {
+      "asset": "fullfilm_v3_scene_block",
+      "format": ".glb",
+      "mesh_count": 214,
+      "triangles": 33522,
+      "all_meshes_have_uv": true,
+      "ui_uv": [
+        {
+          "object": "UI_ArchiveLabel",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_WorldNotice",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_CommunitySign",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_SharedWork_00",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_SharedWork_01",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_SharedWorkCredit_00",
+          "full_0_1_uv": true
+        },
+        {
+          "object": "UI_SharedWorkCredit_01",
+          "full_0_1_uv": true
+        }
+      ],
+      "bounds_blender_m": [
+        [
+          -3.9,
+          3.9
+        ],
+        [
+          -3.9,
+          3.9
+        ],
+        [
+          -0.275,
+          3.56
+        ]
+      ],
+      "cameras": 0,
+      "lights": 0,
+      "animation_actions": 0,
+      "passed": true
+    }
+  ],
+  "fbx_metadata": [
+    {
+      "asset": "fullfilm_v3_workbench",
+      "fbx_version": 7400,
+      "global_settings": {
+        "UpAxis": 1,
+        "UpAxisSign": 1,
+        "FrontAxis": 2,
+        "FrontAxisSign": 1,
+        "UnitScaleFactor": 1.0
+      },
+      "root_transform": {
+        "Lcl Rotation": [
+          -90.00000933466734,
+          0.0,
+          0.0
+        ],
+        "Lcl Scaling": [
+          100.0,
+          100.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "asset": "fullfilm_v3_scene_block",
+      "fbx_version": 7400,
+      "global_settings": {
+        "UpAxis": 1,
+        "UpAxisSign": 1,
+        "FrontAxis": 2,
+        "FrontAxisSign": 1,
+        "UnitScaleFactor": 1.0
+      },
+      "root_transform": {
+        "Lcl Rotation": [
+          -90.00000933466734,
+          0.0,
+          0.0
+        ],
+        "Lcl Scaling": [
+          100.0,
+          100.0,
+          100.0
+        ]
+      }
+    }
+  ],
+  "passed": true
+}

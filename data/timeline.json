@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "title": "世界地图 / World Map —— 共享精神的颂歌与安魂曲",
+  "subtitle": "致所有失效的链接",
+  "duration_seconds": 180,
+  "fps": 30,
+  "audio": {
+    "source": "module (XM/IT)",
+    "render": "libopenmpt -> 48kHz WAV",
+    "beats_file": "audio/beats.json",
+    "cue_rule": "切段与事件对齐到最近的小节线"
+  },
+  "palette": {
+    "amber": "#FFB000",
+    "cyan": "#00D8D8",
+    "magenta": "#FF00AA",
+    "paper": "#E8E8E8",
+    "background": "#0A0A0F",
+    "hope": "#3DFFB0"
+  },
+  "segments": [
+    {
+      "id": "cold-boot",
+      "name": "冷启动",
+      "act": 0,
+      "start": 0,
+      "end": 14,
+      "music": "intro",
+      "space": "Stage/BootSequence",
+      "visual": "CMOS 自检文字浮出，Starting World Map…，地面格栅首次亮起",
+      "lyrics": [],
+      "quotes": [],
+      "node_states": ["boot"],
+      "events": [
+        { "t": 3.5, "beat": 5, "type": "text", "id": "cmos-selftest" },
+        { "t": 9.0, "beat": 12, "type": "text", "id": "starting-world-map" },
+        { "t": 12.5, "beat": 17, "type": "node_online", "id": "node-first-light" }
+      ]
+    },
+    {
+      "id": "act1-golden",
+      "name": "第一幕：黄金时代",
+      "act": 1,
+      "start": 14,
+      "end": 45,
+      "music": "theme-A",
+      "space": "Stage/Act1_GoldenMap",
+      "visual": "目录树展开，缩略图逐行扫描成相，名片卡依次弹出",
+      "lyrics": [1, 2, 3, 4],
+      "quotes": [],
+      "node_states": ["online"],
+      "events": [
+        { "t": 16.0, "beat": 21, "type": "directory_expand", "id": "tree-root" },
+        { "t": 24.0, "beat": 33, "type": "thumbnail_scan", "id": "thumbnail-row-01" },
+        { "t": 40.0, "beat": 60, "type": "greetz_switch", "id": "greetz-01" }
+      ]
+    },
+    {
+      "id": "act2a-netdisk",
+      "name": "第二幕 A：网盘峡",
+      "act": 2,
+      "start": 45,
+      "end": 80,
+      "music": "theme-A-repeat",
+      "space": "Stage/Act2A_Netdisk",
+      "visual": "分享链接逐条失效，限速进度条卡在 100KB/s，会员弹窗堆叠成墙",
+      "lyrics": [5],
+      "quotes": ["q-360-closure", "q-aliyunpan-limit"],
+      "node_states": ["throttled", "dead"],
+      "events": [
+        { "t": 49.0, "beat": 75, "type": "link_expire", "id": "link-expire-01" },
+        { "t": 58.0, "beat": 90, "type": "throttle_stall", "id": "throttle-100kb" },
+        { "t": 70.0, "beat": 108, "type": "popup_wall", "id": "popup-wall-01" }
+      ]
+    },
+    {
+      "id": "act2b-opensource",
+      "name": "第二幕 B：开源荒原",
+      "act": 2,
+      "start": 80,
+      "end": 115,
+      "music": "theme-A-variation",
+      "space": "Stage/Act2B_OpenSource",
+      "visual": "仓库墓碑林，最后提交日期悬在碑顶，issue 洪水淹没地面",
+      "lyrics": [6, 7],
+      "quotes": ["q-curl-ddos", "q-curl-bounty"],
+      "node_states": ["archived"],
+      "events": [
+        { "t": 84.0, "beat": 130, "type": "tombstone_reveal", "id": "last-commit-4y" },
+        { "t": 96.0, "beat": 150, "type": "issue_flood", "id": "issue-flood-01" },
+        { "t": 110.0, "beat": 172, "type": "quote_card", "id": "q-curl-ddos" }
+      ]
+    },
+    {
+      "id": "act2c-vrchat",
+      "name": "第二幕 C：VRChat 城",
+      "act": 2,
+      "start": 115,
+      "end": 145,
+      "music": "breakdown -> theme-B",
+      "space": "Stage/Act2C_VRChat",
+      "visual": "世界被逐个摘除，缩略图被框选、复制粘贴到另一扇窗口，地图大面积熄灭",
+      "lyrics": [8, 9, 10],
+      "quotes": ["q-vrchat-ban", "q-ripping"],
+      "node_states": ["exported", "dead"],
+      "events": [
+        { "t": 120.0, "beat": 186, "type": "world_removed", "id": "removed-01" },
+        { "t": 128.0, "beat": 198, "type": "copy_paste", "id": "exported-01" },
+        { "t": 140.0, "beat": 216, "type": "blackout_wave", "id": "blackout-all" }
+      ]
+    },
+    {
+      "id": "act3-hope",
+      "name": "第三幕：希望之河",
+      "act": 3,
+      "start": 145,
+      "end": 170,
+      "music": "theme-B",
+      "space": "Stage/Act3_Hope",
+      "visual": "熄灭的点换色重亮，老驱动重新跑起来，逆向互通案例沿河滚动",
+      "lyrics": [11, 12],
+      "quotes": ["q-mecell-revival", "q-reverse-engineering"],
+      "node_states": ["revived"],
+      "events": [
+        { "t": 148.0, "beat": 228, "type": "node_revive", "id": "revive-first" },
+        { "t": 158.0, "beat": 244, "type": "case_wall", "id": "rea-cases" }
+      ]
+    },
+    {
+      "id": "outro",
+      "name": "片尾",
+      "act": 4,
+      "start": 170,
+      "end": 180,
+      "music": "outro",
+      "space": "Stage/HUD",
+      "visual": "地图合拢成一枚磁盘图标，访客计数器归零，黑屏一行 C:\\>_",
+      "lyrics": [13],
+      "quotes": [],
+      "node_states": ["revived"],
+      "events": [
+        { "t": 172.0, "beat": 262, "type": "map_collapse", "id": "disk-icon" },
+        { "t": 176.0, "beat": 268, "type": "counter_reset", "id": "visitor-zero" },
+        { "t": 178.5, "beat": 271, "type": "prompt", "id": "c-prompt" }
+      ]
+    }
+  ]
+}

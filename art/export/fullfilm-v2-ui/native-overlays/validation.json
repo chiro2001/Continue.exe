@@ -1,0 +1,92 @@
+{
+  "success": true,
+  "groups": [
+    {
+      "group": "readme",
+      "states": 4,
+      "size": [
+        960,
+        640
+      ],
+      "source_copies_exact": true,
+      "full_and_layers_pixel_equal": true,
+      "cropped_components_pixel_equal": true,
+      "rectangles_and_uv_valid": true,
+      "primary_unique": 3,
+      "secondary_unique": 4
+    },
+    {
+      "group": "manga",
+      "states": 4,
+      "size": [
+        800,
+        540
+      ],
+      "source_copies_exact": true,
+      "full_and_layers_pixel_equal": true,
+      "cropped_components_pixel_equal": true,
+      "rectangles_and_uv_valid": true,
+      "primary_unique": 2,
+      "secondary_unique": 4
+    },
+    {
+      "group": "subtitles",
+      "states": 4,
+      "size": [
+        1200,
+        580
+      ],
+      "source_copies_exact": true,
+      "full_and_layers_pixel_equal": true,
+      "cropped_components_pixel_equal": true,
+      "rectangles_and_uv_valid": true,
+      "primary_unique": 3,
+      "secondary_unique": 4
+    },
+    {
+      "group": "torrent",
+      "states": 4,
+      "size": [
+        1024,
+        708
+      ],
+      "source_copies_exact": true,
+      "full_and_layers_pixel_equal": true,
+      "cropped_components_pixel_equal": true,
+      "rectangles_and_uv_valid": true,
+      "primary_unique": 4,
+      "secondary_unique": 4
+    },
+    {
+      "group": "forum",
+      "states": 4,
+      "size": [
+        1440,
+        1100
+      ],
+      "source_copies_exact": true,
+      "full_and_layers_pixel_equal": true,
+      "cropped_components_pixel_equal": true,
+      "rectangles_and_uv_valid": true,
+      "primary_unique": 2,
+      "secondary_unique": 4
+    },
+    {
+      "group": "access",
+      "states": 4,
+      "size": [
+        960,
+        640
+      ],
+      "source_copies_exact": true,
+      "full_and_layers_pixel_equal": true,
+      "cropped_components_pixel_equal": true,
+      "rectangles_and_uv_valid": true,
+      "primary_unique": 4,
+      "secondary_unique": 4
+    }
+  ],
+  "files_hash_checked": 150,
+  "source_edits": 0,
+  "unity_operations": 0
+}

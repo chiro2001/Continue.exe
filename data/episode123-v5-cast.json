@@ -1,0 +1,207 @@
+{
+  "schema": "episode123-v5-cast/1",
+  "note": "V5 cast changes over the saved V4 OWV4HubCast tables. Builder: unity/AgentScripts/OWEpisodeV5Cast.cs (Apply/Validate). Coordinates are physical metres: actor world position = positions[] because OWV4HubCast adds ActorRegionOffset(t) and the worldFrame subtracts the same virtual journey position. Viewer eye column is (0,*,-2.8).",
+  "viewer": {"eye": [0, 1.35, -2.8], "column": [0, -2.8]},
+  "limits": {"walkPeakAuthored": 1.25, "speedMax": 1.3, "viewerClearance": 0.6, "nearMin": 1.8, "nearMax": 2.4, "bodyRadius": 0.25, "bandMargin": 0.12, "sampleStep": 0.16, "cutStep": 1.0, "actorSeparationMin": 0.35},
+  "band": {"halfWidth": 1.8, "zMin": 0.5, "zMax": 1.5, "yMax": 0.6, "regionZ": [0, 24, 52, 80], "note": "keyline band, region-local; the band of region r sits at physical z-range [zMin,zMax]+RegionOffset(r)-VirtualPosition(t)"},
+  "gestureNames": ["V4Idle", "V4Type", "V4Carry", "V4Present", "V4Point", "V4Inspect", "V4Walk", "V4Wave", "V4Calibrate", "V4Talk", "V4Adjust", "V4Shelve"],
+  "v4": {
+    "source": "OWEpisodeV4HubCast.BuildCast (saved V4 scene); y=0.2 for slots 0,1 at keys 81.92..84.48 (avatar hall).",
+    "keyTimes": [0, 2.56, 7.68, 10.24, 15.36, 20.48, 25.6, 30.72, 35.84, 40.96, 46.08, 51.2, 56.32, 61.44, 66.56, 71.68, 76.8, 79.36, 81.92, 83.2, 84.48, 85.76, 87.04, 88.32, 89.6, 90.88, 92.16, 97.28, 102.4, 104.96, 107.52, 110.08, 112.64, 115.2, 117.76, 120.32, 122.88, 125.44, 128, 133.12],
+    "hallLift": {"slots": [0, 1], "from": 81.92, "to": 84.48, "y": 0.2},
+    "slots": [
+      {
+        "slot": 0,
+        "nick": "小满",
+        "role": "工具制作",
+        "x": [-2.3, -2.3, -4.55, -4.55, -2.5, -2.5, -4.5, -3.9, -3.9, -2.5, -4.5, -4.5, -2.2, -2.2, -4.4, -3.8, -3.8, -3.0, -3.1, -3.5, -3.5, -1.8, -1.8, -1.8, -1.7, -1.7, -1.7, -1.7, -2.4, -2.4, -2.4, -2.4, -2.4, -2.4, -2.4, -2.4, -1.8, -1.2, -1.2, -1.2],
+        "z": [1.8, 1.8, 3.4, 3.4, 3.0, 3, 4.5, 4.0, 4, 3, 3.4, 3.4, 4.1, 4.1, 4.7, 4.3, 4.3, 4.8, 5.2, 5.8, 5.8, 5.4, 5.4, 4.0, 4.0, 4, 4, 4, 4.7, 5.35, 5.35, 5.35, 5.35, 5.35, 5.35, 7.2, 7.2, 4, 4, 4],
+        "g": [1, 1, 5, 10, 3, 3, 11, 1, 1, 3, 5, 5, 2, 3, 11, 5, 5, 7, 8, 8, 7, 4, 4, 7, 9, 9, 9, 9, 5, 5, 4, 4, 4, 5, 5, 4, 5, 3, 3, 3]
+      },
+      {
+        "slot": 1,
+        "nick": "阿澄",
+        "role": "转译校对",
+        "x": [2.3, 2.3, 3.8, 3.8, 4.6, 4.6, 2.7, 2.7, 4.6, 4.6, 2.8, 2.8, 4.6, 4.6, 3.8, 2.8, 2.8, 1.8, -1.7, -2.3, -2.3, 0.7, 0.7, 1.8, 1.8, 1.8, 1.8, 1.8, 2.8, 2.8, 2.8, 2.8, 2.8, 2.8, 2.8, 3.8, 4.55, 4.55, 4.55, 4.55],
+        "z": [1.8, 1.8, 3.8, 3.8, 4.6, 4.6, 3.1, 3.1, 4.6, 4.6, 4.4, 4.4, 3.4, 3.4, 4.6, 4.5, 4.5, 5.3, 5.4, 5.9, 5.9, 5.5, 5.5, 4.1, 4.1, 4.1, 4.1, 4.1, 4.6, 5.2, 5.2, 5.2, 5.2, 5.2, 4.6, 4.2, 4.35, 4.35, 4.35, 4.35],
+        "g": [5, 5, 2, 2, 11, 11, 3, 3, 1, 1, 5, 5, 11, 11, 3, 5, 5, 7, 8, 8, 7, 4, 4, 7, 9, 9, 9, 9, 5, 5, 4, 4, 4, 10, 10, 5, 5, 5, 1, 1]
+      },
+      {
+        "slot": 2,
+        "nick": "木木",
+        "role": "分发归档",
+        "x": [-4.7, -4.7, -3.5, -3.5, -4.9, -4.9, -3.2, -3.2, -4.7, -4.7, -3.0, -3, -4.7, -4.7, -3.0, -3, -2.2, -0.3, 1.4, 2.3, 2.3, 0.8, -0.3, -1.4, -1.4, -1.4, -1.4, -1.4, -1.1, -1.1, -1.1, -1.1, -1.1, -1.1, -1.1, -0.8, 0.6, 1.0, 0.8, 0.8],
+        "z": [4.7, 4.7, 4.2, 4.2, 3.0, 3, 3.6, 3.6, 4.7, 4.7, 3.7, 3.7, 4.7, 4.7, 4.0, 4, 4.8, 5.3, 6.1, 6.2, 6.2, 6.1, 6.1, 6.6, 6.6, 6.6, 6.6, 6.6, 5, 5.35, 5.35, 5.35, 5.35, 5.35, 5.35, 9.35, 10.8, 8, 5.5, 5.5],
+        "g": [11, 11, 2, 3, 11, 11, 3, 3, 11, 11, 2, 3, 11, 11, 2, 3, 11, 7, 4, 4, 7, 4, 4, 7, 9, 9, 9, 9, 2, 2, 4, 4, 5, 5, 5, 4, 4, 2, 2, 3]
+      },
+      {
+        "slot": 3,
+        "nick": "北辰",
+        "role": "维护引路",
+        "x": [4.8, 4.8, 3.5, 3.5, 4.7, 4.7, 3.4, 3.4, 4.8, 4.8, 3.7, 3.7, 4.8, 4.8, 3.2, 3.2, 4.4, 4.4, 3.8, 4.0, 4.0, 3.8, 2.8, 1.5, 1.5, 1.5, 1.5, 1.5, 4.5, 4.6, 4.6, 4.6, 4.6, 4.6, 4.6, 4.6, 4.6, 4.6, 3.9, 3.9],
+        "z": [4.7, 4.7, 4.4, 4.4, 3.4, 3.4, 4.8, 4.8, 4.7, 4.7, 3.4, 3.4, 4.7, 4.7, 4, 4, 4.7, 4.7, 5.3, 5.5, 5.5, 6.2, 6.4, 6.8, 6.8, 6.8, 6.8, 6.8, 4.7, 5.3, 5.3, 5.3, 5.3, 5.3, 5.3, 5.3, 5.3, 6.5, 5.75, 5.75],
+        "g": [10, 10, 4, 4, 10, 10, 4, 4, 10, 10, 3, 3, 10, 10, 4, 4, 10, 7, 4, 4, 7, 4, 4, 7, 9, 9, 9, 9, 10, 10, 4, 4, 4, 10, 10, 10, 10, 11, 11, 11]
+      }
+    ]
+  },
+  "newKeys": [27.84, 94.4, 130.0],
+  "newKeysNote": "Inserted only inside intervals where the three other slots hold still (builder asserts equal position, gaze and yaw; a differing gesture keeps the earlier one, so slot 2 Present at 130.0..133.12 shifts by < 0.6 s).",
+  "keepOut": [
+    {"name": "2017 sign (travel map)", "rect": [2.7, 2.9, 4.3, 3.3], "from": 81.92, "to": 86.4},
+    {"name": "2017 sign (be nice)", "rect": [-4.3, 2.9, -2.7, 3.3], "from": 81.92, "to": 86.4},
+    {"name": "2017 stair rail right", "rect": [2.42, 0.38, 2.58, 1.1], "from": 81.92, "to": 86.4},
+    {"name": "2017 stair rail left", "rect": [-2.58, 0.38, -2.42, 1.1], "from": 81.92, "to": 86.4},
+    {"name": "2019 campfire stones and logs", "circle": [0, 4.55, 1.0], "from": 88.32, "to": 102.4}
+  ],
+  "moments": [
+    {
+      "id": "A",
+      "slot": 0,
+      "name": "小满",
+      "region": 0,
+      "window": [23.2, 27.6],
+      "spot": [-1.2, -0.9],
+      "gesture": "Present -> Point",
+      "need": [3, 4],
+      "keyline": "我们先把它，做出来。",
+      "timeline": "leaves the bench 15.4, arrives 19.1 (Present), Point 24.2, Idle 27.2, walks back 27.9 along the band side, typing again 34.4",
+      "story": "The maker walks to the front-left, holds up the work, points, then steps back and returns to the bench."
+    },
+    {
+      "id": "B",
+      "slot": 3,
+      "name": "北辰",
+      "region": 2,
+      "window": [89.5, 94.1],
+      "spot": [1.2, -0.9],
+      "gesture": "Wave -> Point",
+      "need": [7],
+      "keyline": "",
+      "timeline": "leaves the Tools bench 71.7, waits at the 2017 entrance 81.9-84.5, steps in 85.8-88.0 (arrives 88.0, Wave), Point 91.8, leaves 94.4, side gate again 106.8",
+      "story": "The guide leaves the workshop early, waits at the 2017 entrance, comes to the viewer in the 2019 Hub, waves then points to the fire and goes back to the side gate."
+    },
+    {
+      "id": "C",
+      "slot": 0,
+      "name": "小满",
+      "region": 3,
+      "window": [128.5, 132.7],
+      "spot": [-1.2, -0.9],
+      "gesture": "Carry -> Present",
+      "need": [2, 3],
+      "keyline": "把可用的方法，留给后来的人",
+      "timeline": "waits nearer (z 4.2) before gate 1, turns back at 117.8, arrives 127.3 (Carry), Present from 129.5 to the end",
+      "story": "After gate 1 opens the maker turns back, carries the saved copy to the front-left and holds it out; the film ends there."
+    }
+  ],
+  "tradeoffs": ["All four slots share one key grid and each key interval moves in its first 72% (smoothstep), so a long walk is a chain of hops with short pauses; hops stay at or below 1.18 m/s peak.", "Walk-ins of 4-6 m need 8-10 s at that speed, so the walkers start early: slot 0 at 10.2 (A) and 117.8 (C), slot 3 at 71.7 (B). Slot 3 therefore leaves the 2017 World area before the Hub arrives; slot 2 keeps observing there.", "V4 hub and gate sprints (up to 4.8 m/s, e.g. slot 1 at 84.48-85.76, slot 2 at 117.76-128) are inherited unchanged; every authored sample stays below 1.3 m/s.", "From the reference eye the near actor stands in front of the lower third of a tracker side panel (A: left, B: right) and, in the Hub, its nameplate sits at the height of the panel highlight row; move the spot only if that matters more than clearing the keyline band.", "The three actors are 2.25 m from the eye column and 27-37 degrees off axis: the outer edge is close to the 16:9 frame edge (40.9 degrees)."],
+  "paths": [
+    {
+      "moment": "A",
+      "slot": 0,
+      "edits": [
+        {"t": 15.36, "x": -2.7, "z": 1.2, "g": 3, "gaze": "viewer", "why": "leave the left bench by the band side (|x|>1.92 around z .4..1.6)"},
+        {"t": 20.48, "x": -1.2, "z": -0.9, "g": 3, "gaze": "viewer", "why": "arrive at 19.05 s, Present until 24.16"},
+        {"t": 25.6, "x": -1.2, "z": -0.9, "g": 4, "gaze": "viewer", "why": "Point 24.16..27.2 inside the keyline"},
+        {"t": 27.84, "x": -1.2, "z": -0.9, "g": 0, "gaze": "viewer", "why": "new key: step back, Idle, wait for feedback"},
+        {"t": 30.72, "x": -2.2, "z": 0.3, "g": 7, "gaze": "viewer", "why": "walk out along the band side, short pause with a wave"},
+        {"t": 35.84, "x": -2.5, "z": 3.0, "g": 1, "why": "back at the bench, typing again (V4 had Type at (-3.9,4.0))"}
+      ]
+    },
+    {
+      "moment": "B",
+      "slot": 3,
+      "edits": [
+        {"t": 76.8, "x": 2.6, "z": 3.2, "g": 4, "gaze": "viewer", "why": "leaves the Tools bench early, leads the way"},
+        {"t": 79.36, "x": 2.2, "z": 1.9, "g": 7, "gaze": "viewer", "why": "V4 hub-arrival wave kept"},
+        {"t": 81.92, "x": 2.05, "z": 0.6, "g": 7, "gaze": "viewer", "why": "waits at the 2017 entrance (x=2.05: clear of the stair rail and the band), greets the viewer"},
+        {"t": 83.2, "x": 2.05, "z": 0.6, "g": 4, "gaze": "viewer", "why": "looks back and points the way"},
+        {"t": 84.48, "x": 2.05, "z": 0.6, "g": 7, "gaze": "viewer", "why": "V4 wave at 84.48 kept"},
+        {"t": 85.76, "x": 1.85, "z": 0.0, "g": 4, "gaze": "viewer", "why": "steps in"},
+        {"t": 87.04, "x": 1.5, "z": -0.5, "g": 4, "gaze": "viewer", "why": "steps in"},
+        {"t": 88.32, "x": 1.2, "z": -0.9, "g": 7, "gaze": "viewer", "why": "arrives at 87.96, Wave 87.96..91.8"},
+        {"t": 89.6, "x": 1.2, "z": -0.9, "g": 7, "gaze": "viewer", "why": "Wave"},
+        {"t": 90.88, "x": 1.2, "z": -0.9, "g": 7, "gaze": "viewer", "why": "Wave"},
+        {"t": 92.16, "x": 1.2, "z": -0.9, "g": 4, "gaze": "viewer", "why": "Point 91.8..94.4 (towards the fire)"},
+        {"t": 94.4, "x": 1.2, "z": -0.9, "g": 4, "gaze": "viewer", "why": "new key: leaves the viewer"},
+        {"t": 97.28, "x": 2.3, "z": 0.3, "g": 4, "why": "walks out along the band side"},
+        {"t": 102.4, "x": 3.5, "z": 2.8, "why": "crosses the 2019 deck to the side gate"},
+        {"t": 104.96, "x": 4.0, "z": 4.0}
+      ]
+    },
+    {
+      "moment": "C",
+      "slot": 0,
+      "edits": [
+        {"t": 104.96, "x": -2.3, "z": 4.2, "why": "waits nearer to the viewer before gate 1 (V4 (-2.4,5.35)); still z<5.6"},
+        {"t": 107.52, "x": -2.3, "z": 4.2, "why": "waits nearer to the viewer before gate 1 (V4 (-2.4,5.35)); still z<5.6"},
+        {"t": 110.08, "x": -2.3, "z": 4.2, "why": "waits nearer to the viewer before gate 1 (V4 (-2.4,5.35)); still z<5.6"},
+        {"t": 112.64, "x": -2.3, "z": 4.2, "why": "waits nearer to the viewer before gate 1 (V4 (-2.4,5.35)); still z<5.6"},
+        {"t": 115.2, "x": -2.3, "z": 4.2, "why": "waits nearer to the viewer before gate 1 (V4 (-2.4,5.35)); still z<5.6"},
+        {"t": 117.76, "x": -2.3, "z": 4.2, "why": "waits nearer to the viewer before gate 1 (V4 (-2.4,5.35)); still z<5.6"},
+        {"t": 120.32, "x": -2.2, "z": 2.9, "g": 2, "gaze": "viewer", "why": "after gate 1 opens: turns back with the saved copy"},
+        {"t": 122.88, "x": -2.2, "z": 1.5, "g": 2, "gaze": "viewer"},
+        {"t": 125.44, "x": -2.2, "z": 0.1, "g": 2, "gaze": "viewer"},
+        {"t": 128.0, "x": -1.2, "z": -0.9, "g": 2, "gaze": "viewer", "why": "arrives at 127.3, Carry"},
+        {"t": 130.0, "x": -1.2, "z": -0.9, "g": 3, "gaze": "viewer", "why": "new key: Present from 129.4 to the end"},
+        {"t": 133.12, "x": -1.2, "z": -0.9, "g": 3, "gaze": "viewer"}
+      ]
+    }
+  ],
+  "habits": [
+    {
+      "slot": 0,
+      "edits": [
+        {"t": 7.68, "g": 1, "was": 5, "why": "Type at the bench"},
+        {"t": 10.24, "g": 1, "was": 10, "why": "Type at the bench"},
+        {"t": 56.32, "g": 1, "was": 2, "why": "Type"},
+        {"t": 66.56, "g": 1, "was": 11, "why": "Type (tutorials)"},
+        {"t": 71.68, "g": 1, "was": 5, "why": "Type (making)"},
+        {"t": 76.8, "g": 1, "was": 5, "why": "Type (making)"},
+        {"t": 92.16, "g": 3, "was": 9, "why": "shows the work at the fire"},
+        {"t": 97.28, "g": 3, "was": 9, "why": "shows the work at the fire"}
+      ]
+    },
+    {
+      "slot": 1,
+      "edits": [
+        {"t": 7.68, "g": 5, "was": 2, "why": "Inspect"},
+        {"t": 10.24, "g": 9, "was": 2, "why": "reads the README aloud"},
+        {"t": 15.36, "g": 5, "was": 11, "why": "Inspect"},
+        {"t": 20.48, "g": 5, "was": 11, "why": "Inspect"},
+        {"t": 25.6, "g": 9, "was": 3, "why": "Talk"},
+        {"t": 30.72, "g": 9, "was": 3, "why": "Talk"},
+        {"t": 35.84, "g": 5, "was": 1, "why": "Inspect"},
+        {"t": 40.96, "g": 5, "was": 1, "why": "Inspect"},
+        {"t": 56.32, "g": 5, "was": 11, "why": "Inspect"},
+        {"t": 61.44, "g": 9, "was": 11, "why": "subtitles: says the line"},
+        {"t": 66.56, "g": 9, "was": 3, "why": "subtitles: says the line"}
+      ]
+    },
+    {
+      "slot": 2,
+      "edits": [
+        {"t": 10.24, "g": 2, "was": 3, "why": "Carry"},
+        {"t": 25.6, "g": 2, "was": 3, "why": "Carry"},
+        {"t": 30.72, "g": 2, "was": 3, "why": "Carry"},
+        {"t": 51.2, "g": 2, "was": 3, "why": "Carry"},
+        {"t": 71.68, "g": 2, "was": 3, "why": "Carry"},
+        {"t": 92.16, "g": 2, "was": 9, "why": "holds the book at the fire"},
+        {"t": 97.28, "g": 2, "was": 9, "why": "holds the book at the fire"}
+      ]
+    },
+    {
+      "slot": 3,
+      "edits": [
+        {"t": 46.08, "g": 4, "was": 3, "why": "Point to the transfer"},
+        {"t": 51.2, "g": 4, "was": 3, "why": "Point to the transfer"}
+      ]
+    }
+  ],
+  "habitSummary": {
+    "0": {"nick": "小满", "habit": "Type -> Present: works at the bench, then holds the work up", "gestures": [1, 3]},
+    "1": {"nick": "阿澄", "habit": "Inspect -> Talk: reads closely, then says it aloud", "gestures": [5, 9]},
+    "2": {"nick": "木木", "habit": "Shelve -> Carry: puts away, carries on", "gestures": [11, 2]},
+    "3": {"nick": "北辰", "habit": "Adjust -> Point: fixes, then shows the way", "gestures": [10, 4, 7]}
+  }
+}

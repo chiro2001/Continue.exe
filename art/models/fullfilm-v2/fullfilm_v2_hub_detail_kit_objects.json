@@ -1,0 +1,842 @@
+{
+  "id": "fullfilm_v2_hub_detail_kit",
+  "root": "FFV2_HubDetailKit",
+  "files": [
+    "fullfilm_v2_hub_detail_kit.blend",
+    "fullfilm_v2_hub_detail_kit.fbx",
+    "fullfilm_v2_hub_detail_kit.glb"
+  ],
+  "mesh_count": 26,
+  "triangles": 3218,
+  "vertices": 1664,
+  "objects": [
+    {
+      "name": "FFV2_HubDetailKit",
+      "parent": null,
+      "type": "EMPTY",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HubCategorySign",
+      "parent": "FFV2_HubDetailKit",
+      "type": "EMPTY",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        3.12
+      ],
+      "dimensions_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HubSign_Body",
+      "parent": "HubCategorySign",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        2.38,
+        0.18,
+        0.34
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Endgrain"
+      ]
+    },
+    {
+      "name": "UI_HubSign",
+      "parent": "HubCategorySign",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.095,
+        0.0
+      ],
+      "dimensions_m": [
+        2.18,
+        0.0,
+        0.25
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 4,
+      "triangles": 2,
+      "uv_layers": [
+        "ScreenshotUV"
+      ],
+      "materials": [
+        "M_UI_Thumbnail_SLOT"
+      ]
+    },
+    {
+      "name": "HubConversationBench",
+      "parent": "FFV2_HubDetailKit",
+      "type": "EMPTY",
+      "pivot_local_blender_m": [
+        3.1,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HubBench_BackSlat",
+      "parent": "HubConversationBench",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.33,
+        0.77
+      ],
+      "dimensions_m": [
+        1.94,
+        0.065,
+        0.13
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Endgrain"
+      ]
+    },
+    {
+      "name": "HubBench_BackSlat.001",
+      "parent": "HubConversationBench",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.33,
+        0.95
+      ],
+      "dimensions_m": [
+        1.94,
+        0.065,
+        0.13
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Endgrain"
+      ]
+    },
+    {
+      "name": "HubBench_StoneSupport",
+      "parent": "HubConversationBench",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        -0.69,
+        0.0,
+        0.21
+      ],
+      "dimensions_m": [
+        0.24,
+        0.6,
+        0.42
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Sandstone"
+      ]
+    },
+    {
+      "name": "HubBench_StoneSupport.001",
+      "parent": "HubConversationBench",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.69,
+        0.0,
+        0.21
+      ],
+      "dimensions_m": [
+        0.24,
+        0.6,
+        0.42
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Sandstone"
+      ]
+    },
+    {
+      "name": "HubBench_TopSlat",
+      "parent": "HubConversationBench",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.22,
+        0.46
+      ],
+      "dimensions_m": [
+        1.94,
+        0.13,
+        0.075
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Walnut"
+      ]
+    },
+    {
+      "name": "HubBench_TopSlat.001",
+      "parent": "HubConversationBench",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        -0.075,
+        0.46
+      ],
+      "dimensions_m": [
+        1.94,
+        0.13,
+        0.075
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Walnut"
+      ]
+    },
+    {
+      "name": "HubBench_TopSlat.002",
+      "parent": "HubConversationBench",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.07,
+        0.46
+      ],
+      "dimensions_m": [
+        1.94,
+        0.13,
+        0.075
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Walnut"
+      ]
+    },
+    {
+      "name": "HubBench_TopSlat.003",
+      "parent": "HubConversationBench",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.215,
+        0.46
+      ],
+      "dimensions_m": [
+        1.94,
+        0.13,
+        0.075
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Walnut"
+      ]
+    },
+    {
+      "name": "HubBenchBackSupport",
+      "parent": "HubConversationBench",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        -0.83,
+        -0.315,
+        0.72
+      ],
+      "dimensions_m": [
+        0.054,
+        0.054,
+        0.643817
+      ],
+      "rotation_euler_deg": [
+        6.242,
+        -0.0,
+        0.0
+      ],
+      "vertices": 72,
+      "triangles": 140,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_GraphitePowderCoat"
+      ]
+    },
+    {
+      "name": "HubBenchBackSupport.001",
+      "parent": "HubConversationBench",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.83,
+        -0.315,
+        0.72
+      ],
+      "dimensions_m": [
+        0.054,
+        0.054,
+        0.643817
+      ],
+      "rotation_euler_deg": [
+        6.242,
+        -0.0,
+        0.0
+      ],
+      "vertices": 72,
+      "triangles": 140,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_GraphitePowderCoat"
+      ]
+    },
+    {
+      "name": "HubEntrance",
+      "parent": "FFV2_HubDetailKit",
+      "type": "EMPTY",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HubEntrance_ArchRib",
+      "parent": "HubEntrance",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        2.62,
+        0.32,
+        1.31
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 116,
+      "triangles": 228,
+      "uv_layers": [
+        "SurfaceUV"
+      ],
+      "materials": [
+        "M_CreamConcrete"
+      ]
+    },
+    {
+      "name": "HubEntrance_InsetJadeStrip",
+      "parent": "HubEntrance",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        -1.15,
+        0.164,
+        0.85
+      ],
+      "dimensions_m": [
+        0.048,
+        0.012,
+        1.411
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_JadeAccent"
+      ]
+    },
+    {
+      "name": "HubEntrance_InsetJadeStrip.001",
+      "parent": "HubEntrance",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        1.15,
+        0.164,
+        0.85
+      ],
+      "dimensions_m": [
+        0.048,
+        0.012,
+        1.411
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_JadeAccent"
+      ]
+    },
+    {
+      "name": "HubEntrance_Jamb",
+      "parent": "HubEntrance",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        -1.15,
+        0.0,
+        0.85
+      ],
+      "dimensions_m": [
+        0.32,
+        0.32,
+        1.7
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_CreamConcrete"
+      ]
+    },
+    {
+      "name": "HubEntrance_Jamb.001",
+      "parent": "HubEntrance",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        1.15,
+        0.0,
+        0.85
+      ],
+      "dimensions_m": [
+        0.32,
+        0.32,
+        1.7
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_CreamConcrete"
+      ]
+    },
+    {
+      "name": "HubEntrance_StoneShoe",
+      "parent": "HubEntrance",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        -1.15,
+        0.0,
+        0.11
+      ],
+      "dimensions_m": [
+        0.46,
+        0.46,
+        0.22
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Sandstone"
+      ]
+    },
+    {
+      "name": "HubEntrance_StoneShoe.001",
+      "parent": "HubEntrance",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        1.15,
+        0.0,
+        0.11
+      ],
+      "dimensions_m": [
+        0.46,
+        0.46,
+        0.22
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Sandstone"
+      ]
+    },
+    {
+      "name": "HubEntrance_Threshold",
+      "parent": "FFV2_HubDetailKit",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.08,
+        0.045
+      ],
+      "dimensions_m": [
+        2.63,
+        0.74,
+        0.09
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Sandstone"
+      ]
+    },
+    {
+      "name": "HubTimberPostDetail",
+      "parent": "FFV2_HubDetailKit",
+      "type": "EMPTY",
+      "pivot_local_blender_m": [
+        -2.35,
+        0.0,
+        0.0
+      ],
+      "dimensions_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "HubPost_Capital",
+      "parent": "HubTimberPostDetail",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        3.15
+      ],
+      "dimensions_m": [
+        0.7,
+        0.56,
+        0.16
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Endgrain"
+      ]
+    },
+    {
+      "name": "HubPost_KneeBrace_L",
+      "parent": "HubTimberPostDetail",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        -0.35,
+        0.0,
+        2.825
+      ],
+      "dimensions_m": [
+        0.115327,
+        0.115327,
+        0.915478
+      ],
+      "rotation_euler_deg": [
+        49.8739,
+        -0.0,
+        -90.0
+      ],
+      "vertices": 112,
+      "triangles": 220,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Endgrain"
+      ]
+    },
+    {
+      "name": "HubPost_KneeBrace_R",
+      "parent": "HubTimberPostDetail",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.35,
+        0.0,
+        2.825
+      ],
+      "dimensions_m": [
+        0.115327,
+        0.115327,
+        0.915478
+      ],
+      "rotation_euler_deg": [
+        49.8739,
+        0.0,
+        90.0
+      ],
+      "vertices": 112,
+      "triangles": 220,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Endgrain"
+      ]
+    },
+    {
+      "name": "HubPost_MetalStraps",
+      "parent": "HubTimberPostDetail",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.37
+      ],
+      "dimensions_m": [
+        0.35,
+        0.35,
+        2.675
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 112,
+      "triangles": 216,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_GraphitePowderCoat"
+      ]
+    },
+    {
+      "name": "HubPost_StoneShoe",
+      "parent": "HubTimberPostDetail",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        0.14
+      ],
+      "dimensions_m": [
+        0.61,
+        0.61,
+        0.28
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Sandstone"
+      ]
+    },
+    {
+      "name": "HubPost_Timber",
+      "parent": "HubTimberPostDetail",
+      "type": "MESH",
+      "pivot_local_blender_m": [
+        0.0,
+        0.0,
+        1.66
+      ],
+      "dimensions_m": [
+        0.32,
+        0.32,
+        3.0
+      ],
+      "rotation_euler_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "vertices": 56,
+      "triangles": 108,
+      "uv_layers": [
+        "UVMap"
+      ],
+      "materials": [
+        "M_Walnut"
+      ]
+    }
+  ]
+}

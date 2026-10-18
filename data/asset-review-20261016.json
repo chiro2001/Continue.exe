@@ -1,0 +1,1652 @@
+{
+  "id": "asset-review-20261016",
+  "reviewedAt": "2026-10-16",
+  "spec": "spec/22-new-assets-review.md",
+  "inventory": "data/gamepc-assets.json",
+  "validationScope": {
+    "archiveAndMetadataInspection": true,
+    "shaderSourceInspection": true,
+    "unityOperatedThisRun": false,
+    "originalPackagesImportedThisRun": false,
+    "shaderCodeChangedThisRun": false,
+    "hmdTestedThisRun": false,
+    "targetPlatformBuildTestedThisRun": false,
+    "performanceMeasuredThisRun": false
+  },
+  "scope": {
+    "host": "gpu5080 (192.168.101.5)",
+    "roots": [
+      "D:\\BaiduNetdiskDownload",
+      "E:\\BaiduNetdiskDownload"
+    ],
+    "sinceUtc": "2026-10-14T16:00:00+00:00",
+    "timestampSelection": "creation OR modification >= sinceUtc",
+    "filesVisited": 12294,
+    "candidateFileCount": 1303,
+    "extensions": [
+      ".zip",
+      ".rar",
+      ".7z",
+      ".unitypackage",
+      ".shader",
+      ".hlsl",
+      ".cginc",
+      ".fbx",
+      ".blend",
+      ".obj",
+      ".unity"
+    ],
+    "errors": [],
+    "recentFiles": [
+      {
+        "path": "E:\\BaiduNetdiskDownload\\8540189【MA対応・武器召喚ギミック】ファントムワルツ\\Phantomwaltz.zip",
+        "bytes": 13750860,
+        "createdUtc": "2026-10-15T16:06:08.410616+00:00",
+        "modifiedUtc": "2026-10-15T16:06:11.013268+00:00"
+      },
+      {
+        "path": "E:\\BaiduNetdiskDownload\\JJJ963\\Field_of_Stars_by_Floppiii_1.0.rar",
+        "bytes": 12661251,
+        "createdUtc": "2026-10-15T16:06:15.083066+00:00",
+        "modifiedUtc": "2026-10-15T16:06:17.432471+00:00"
+      },
+      {
+        "path": "E:\\BaiduNetdiskDownload\\k787\\Modern_Asset_Pack.zip",
+        "bytes": 537888530,
+        "createdUtc": "2026-10-15T16:06:30.767170+00:00",
+        "modifiedUtc": "2026-10-15T16:06:38.491580+00:00"
+      },
+      {
+        "path": "E:\\BaiduNetdiskDownload\\LH80\\Vrchat插件 立体音乐魔法 ma导入\\MA_MusicMagicGimmick_v1\\MusicMagic_Gimmick.unitypackage",
+        "bytes": 16823985,
+        "createdUtc": "2026-10-15T16:06:02.660054+00:00",
+        "modifiedUtc": "2026-10-15T16:06:05.121596+00:00"
+      },
+      {
+        "path": "E:\\BaiduNetdiskDownload\\vrchat地图素材 家具合集 超多类型的家具\\vrchat地图素材 家具合集 超多类型的家具\\Furniture_Asset_Pack_2022_VRS.zip",
+        "bytes": 984976896,
+        "createdUtc": "2026-10-15T16:06:24.306150+00:00",
+        "modifiedUtc": "2026-10-15T16:06:34.825310+00:00"
+      }
+    ],
+    "scopeLimit": "仅这两个下载根目录；不包含全盘和压缩包内文件的时间戳筛选"
+  },
+  "assetIds": [
+    "music-magic-gimmick",
+    "field-of-stars",
+    "phantomwaltz",
+    "modern-asset-pack",
+    "furniture-pack-duplicate"
+  ],
+  "duplicate": {
+    "assetId": "furniture-pack-duplicate",
+    "path": "E:\\BaiduNetdiskDownload\\vrchat地图素材 家具合集 超多类型的家具\\vrchat地图素材 家具合集 超多类型的家具\\Furniture_Asset_Pack_2022_VRS.zip",
+    "duplicateOf": "E:\\BaiduNetdiskDownload\\家具包\\Furniture_Asset_Pack_2022_VRS.zip",
+    "sha256": "ADB7882772E67258AB3DF5E9C4BDF08441C078A224C999F8FFD8AD8FA9E903C5",
+    "bytes": 984976896,
+    "method": "本会话前序只读检查分别计算两份 SHA-256，结果一致；本轮沿用该结果，未重复读取两份大包"
+  },
+  "modernAssetPack": {
+    "assetId": "modern-asset-pack",
+    "archive": "E:\\BaiduNetdiskDownload\\k787\\Modern_Asset_Pack.zip",
+    "innerPackage": "Modern Asset Pack.unitypackage",
+    "pathCount": 71,
+    "extensions": {
+      ".mat": 30,
+      ".png": 29,
+      "": 10,
+      ".fbx": 1,
+      ".unity": 1
+    },
+    "materialShaderReference": {
+      "fileID": 46,
+      "guid": "0000000000000000f000000000000000",
+      "type": 0,
+      "interpretation": "Built-in Standard"
+    },
+    "allMaterialTextureGuidsResolvedInPackage": true,
+    "independentMeshObjects": 32,
+    "sourceTriangles": 695803,
+    "meshStatisticsMethod": "读取源 FBX 7400 Geometry PolygonVertexIndex 并连接 Model 节点；三角形数为索引数 - 2 × 多边形数，不是 Unity 导入后实测",
+    "meshes": [
+      {
+        "name": [
+          "Side Table"
+        ],
+        "sourceMesh": "prim0-mesh",
+        "triangles": 2776,
+        "positions": 1709
+      },
+      {
+        "name": [
+          "Coffee Table"
+        ],
+        "sourceMesh": "prim0-mesh.001",
+        "triangles": 6144,
+        "positions": 3640
+      },
+      {
+        "name": [
+          "Sofa"
+        ],
+        "sourceMesh": "prim3-mesh",
+        "triangles": 14564,
+        "positions": 8256
+      },
+      {
+        "name": [
+          "Carpet"
+        ],
+        "sourceMesh": "prim0-mesh.008",
+        "triangles": 2432,
+        "positions": 1460
+      },
+      {
+        "name": [
+          "Dresser"
+        ],
+        "sourceMesh": "prim0-mesh.009",
+        "triangles": 49388,
+        "positions": 30047
+      },
+      {
+        "name": [
+          "Closet Deco 2"
+        ],
+        "sourceMesh": "prim4-mesh",
+        "triangles": 1477,
+        "positions": 1155
+      },
+      {
+        "name": [
+          "Closet Deco 1"
+        ],
+        "sourceMesh": "prim5-mesh",
+        "triangles": 34714,
+        "positions": 20234
+      },
+      {
+        "name": [
+          "Closet"
+        ],
+        "sourceMesh": "prim8-mesh",
+        "triangles": 2940,
+        "positions": 2744
+      },
+      {
+        "name": [
+          "Coffee Table Glass"
+        ],
+        "sourceMesh": "prim0-mesh.011",
+        "triangles": 284,
+        "positions": 308
+      },
+      {
+        "name": [
+          "Statue"
+        ],
+        "sourceMesh": "prim1-mesh.006",
+        "triangles": 17834,
+        "positions": 10119
+      },
+      {
+        "name": [
+          "Pillow 2"
+        ],
+        "sourceMesh": "prim0-mesh.013",
+        "triangles": 2048,
+        "positions": 1089
+      },
+      {
+        "name": [
+          "Pillow 3"
+        ],
+        "sourceMesh": "prim1-mesh.007",
+        "triangles": 2048,
+        "positions": 1089
+      },
+      {
+        "name": [
+          "Pillow 1"
+        ],
+        "sourceMesh": "prim2-mesh.004",
+        "triangles": 2048,
+        "positions": 1105
+      },
+      {
+        "name": [
+          "Table Deco"
+        ],
+        "sourceMesh": "prim0-mesh.014",
+        "triangles": 3132,
+        "positions": 2389
+      },
+      {
+        "name": [
+          "Lamp"
+        ],
+        "sourceMesh": "prim0-mesh.015",
+        "triangles": 2704,
+        "positions": 1808
+      },
+      {
+        "name": [
+          "Wall Art 2"
+        ],
+        "sourceMesh": "prim0-mesh.017",
+        "triangles": 372,
+        "positions": 504
+      },
+      {
+        "name": [
+          "Book Deco 1"
+        ],
+        "sourceMesh": "prim0-mesh.023",
+        "triangles": 828,
+        "positions": 1086
+      },
+      {
+        "name": [
+          "Chair Swing Pillows"
+        ],
+        "sourceMesh": "prim3-mesh.003",
+        "triangles": 108626,
+        "positions": 55894
+      },
+      {
+        "name": [
+          "Chair Swing"
+        ],
+        "sourceMesh": "prim5-mesh.001",
+        "triangles": 34004,
+        "positions": 20059
+      },
+      {
+        "name": [
+          "Wire"
+        ],
+        "sourceMesh": "prim8-mesh.001",
+        "triangles": 3074,
+        "positions": 1979
+      },
+      {
+        "name": [
+          "Book Deco 2"
+        ],
+        "sourceMesh": "prim0-mesh.025",
+        "triangles": 2630,
+        "positions": 1878
+      },
+      {
+        "name": [
+          "Wall Art 1"
+        ],
+        "sourceMesh": "prim0-mesh.037",
+        "triangles": 61985,
+        "positions": 34667
+      },
+      {
+        "name": [
+          "Bottle Deco"
+        ],
+        "sourceMesh": "prim0-mesh.038",
+        "triangles": 2448,
+        "positions": 1502
+      },
+      {
+        "name": [
+          "LV Bag Deco"
+        ],
+        "sourceMesh": "prim0-mesh.039",
+        "triangles": 2438,
+        "positions": 2024
+      },
+      {
+        "name": [
+          "Rolex Bag Deco"
+        ],
+        "sourceMesh": "prim0-mesh.041",
+        "triangles": 2588,
+        "positions": 2006
+      },
+      {
+        "name": [
+          "Lamp Glass"
+        ],
+        "sourceMesh": "prim0-mesh.042",
+        "triangles": 1350,
+        "positions": 744
+      },
+      {
+        "name": [
+          "Lamp Light"
+        ],
+        "sourceMesh": "prim0-mesh.043",
+        "triangles": 300,
+        "positions": 182
+      },
+      {
+        "name": [
+          "Plant 1"
+        ],
+        "sourceMesh": "prim1-mesh.011",
+        "triangles": 46776,
+        "positions": 27974
+      },
+      {
+        "name": [
+          "Plant 2"
+        ],
+        "sourceMesh": "prim2-mesh.007",
+        "triangles": 147615,
+        "positions": 105539
+      },
+      {
+        "name": [
+          "Plant 3"
+        ],
+        "sourceMesh": "prim0-mesh.049",
+        "triangles": 72764,
+        "positions": 46895
+      },
+      {
+        "name": [
+          "Plant 4"
+        ],
+        "sourceMesh": "prim1-mesh.015",
+        "triangles": 63068,
+        "positions": 41823
+      },
+      {
+        "name": [
+          "Lights"
+        ],
+        "sourceMesh": "prim8-mesh.002",
+        "triangles": 404,
+        "positions": 314
+      }
+    ],
+    "textures": [
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Furn/Chair Swing Wood.png",
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Deco/Wall Art 2.png",
+        "sourceDimensions": [
+          2048,
+          2048
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Deco/Table Deco.png",
+        "sourceDimensions": [
+          4096,
+          4096
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Furn/Side Table.png",
+        "sourceDimensions": [
+          3072,
+          3072
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Deco/Bottle Deco.png",
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Plants/Plant 1.png",
+        "sourceDimensions": [
+          8192,
+          8192
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Deco/Pillow 3.png",
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Furn/Coffee Table Glass.png",
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Furn/Coffee Table.png",
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Deco/Lamp Glass.png",
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Furn/Closet Deco 1.png",
+        "sourceDimensions": [
+          2048,
+          2048
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Furn/Closet.png",
+        "sourceDimensions": [
+          4096,
+          4096
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Deco/Rolex Bag Deco.png",
+        "sourceDimensions": [
+          7168,
+          7168
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Deco/Book Deco 2.png",
+        "sourceDimensions": [
+          2048,
+          2048
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Furn/Carpet.png",
+        "sourceDimensions": [
+          2070,
+          2070
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Deco/Book Deco 1.png",
+        "sourceDimensions": [
+          2048,
+          2048
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Furn/Chair Swing Pillows.png",
+        "sourceDimensions": [
+          3072,
+          3072
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Deco/Pillow 1.png",
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Plants/Plant 2.png",
+        "sourceDimensions": [
+          10240,
+          10240
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Plants/Plant 4.png",
+        "sourceDimensions": [
+          4096,
+          4096
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Plants/Plant 3.png",
+        "sourceDimensions": [
+          12288,
+          12288
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Furn/Closet Deco 2.png",
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Deco/LV Bag Deco.png",
+        "sourceDimensions": [
+          5120,
+          5120
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Deco/Statue.png",
+        "sourceDimensions": [
+          2048,
+          2048
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Deco/Lamp.png",
+        "sourceDimensions": [
+          1536,
+          1536
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Furn/Sofa.png",
+        "sourceDimensions": [
+          3072,
+          3072
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Deco/Pillow 2.png",
+        "sourceDimensions": [
+          1024,
+          1024
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Deco/Wall Art 1.png",
+        "sourceDimensions": [
+          3072,
+          3072
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      },
+      {
+        "path": "Assets/Modern Asset Pack/Textures/Furn/Dresser.png",
+        "sourceDimensions": [
+          2048,
+          2048
+        ],
+        "importerValues": {
+          "maxTextureSize": [
+            "2048",
+            "2048",
+            "2048",
+            "2048"
+          ],
+          "sRGBTexture": [
+            "1"
+          ],
+          "textureCompression": [
+            "1",
+            "1",
+            "1"
+          ],
+          "mipmaps": [],
+          "enableMipMap": [
+            "1"
+          ],
+          "isReadable": [
+            "0"
+          ],
+          "alphaIsTransparency": [
+            "0"
+          ],
+          "textureType": [
+            "0"
+          ]
+        }
+      }
+    ],
+    "runtimeGpuMemoryBytes": null,
+    "priority": "selective-nearfield-props"
+  },
+  "particleReferenceAudit": [
+    {
+      "assetName": "Field of Stars by Floppiii.prefab",
+      "particleSystemCount": 8,
+      "serializedMoveWithTransform": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "serializedScalingMode": [
+        "0",
+        "1",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "note": "原始序列化值用于差异证据；实际模拟参照和缩放效果须在目标 Unity 导入后验证"
+    },
+    {
+      "assetName": "3D de Music_Gimmick.prefab",
+      "particleSystemCount": 0,
+      "serializedMoveWithTransform": [],
+      "serializedScalingMode": [],
+      "note": "原始序列化值用于差异证据；实际模拟参照和缩放效果须在目标 Unity 导入后验证"
+    },
+    {
+      "assetName": "World.prefab",
+      "particleSystemCount": 0,
+      "serializedMoveWithTransform": [],
+      "serializedScalingMode": [],
+      "note": "原始序列化值用于差异证据；实际模拟参照和缩放效果须在目标 Unity 导入后验证"
+    },
+    {
+      "assetName": "Music Circle Particle.prefab",
+      "particleSystemCount": 4,
+      "serializedMoveWithTransform": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "serializedScalingMode": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "note": "原始序列化值用于差异证据；实际模拟参照和缩放效果须在目标 Unity 导入后验证"
+    }
+  ],
+  "shaderSourceAudit": [
+    {
+      "file": "unity/Assets/OldWebMap/Shaders/OWAdditiveGlow.shader",
+      "sha256": "2d55457042ae5e6d10ac231d1949190f2f83bead0f51aa0ea6bcfa4acfafb332",
+      "kind": "hand-written-vertex-fragment",
+      "passCount": 1,
+      "stereoMacroCounts": {
+        "UNITY_VERTEX_INPUT_INSTANCE_ID": 0,
+        "UNITY_SETUP_INSTANCE_ID": 0,
+        "UNITY_VERTEX_OUTPUT_STEREO": 0,
+        "UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO": 0,
+        "UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX": 0
+      },
+      "thisRunValidation": "source-only",
+      "runtimeStatus": "not-tested-this-run",
+      "priorEditorEvidence": "spec/20-vfx-reference.md"
+    },
+    {
+      "file": "unity/Assets/OldWebMap/Shaders/OWAnimeParticle.shader",
+      "sha256": "3fbbcfb33c2420fcc78ca8db01e4d0cff70d6e4f2da1d43ed26f25e0af5b27ff",
+      "kind": "hand-written-vertex-fragment",
+      "passCount": 1,
+      "stereoMacroCounts": {
+        "UNITY_VERTEX_INPUT_INSTANCE_ID": 0,
+        "UNITY_SETUP_INSTANCE_ID": 0,
+        "UNITY_VERTEX_OUTPUT_STEREO": 0,
+        "UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO": 0,
+        "UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX": 0
+      },
+      "thisRunValidation": "source-only",
+      "runtimeStatus": "not-tested-this-run",
+      "priorEditorEvidence": "spec/20-vfx-reference.md"
+    },
+    {
+      "file": "unity/Assets/OldWebMap/Shaders/OWCrtGlitch.shader",
+      "sha256": "156d0c3dcca76de5e1374cce9f70949655191bd29a036200aca9578dc66c7035",
+      "kind": "hand-written-vertex-fragment",
+      "passCount": 1,
+      "stereoMacroCounts": {
+        "UNITY_VERTEX_INPUT_INSTANCE_ID": 0,
+        "UNITY_SETUP_INSTANCE_ID": 0,
+        "UNITY_VERTEX_OUTPUT_STEREO": 0,
+        "UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO": 0,
+        "UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX": 0
+      },
+      "thisRunValidation": "source-only",
+      "runtimeStatus": "not-tested-this-run",
+      "priorEditorEvidence": "spec/20-vfx-reference.md"
+    },
+    {
+      "file": "unity/Assets/OldWebMap/Shaders/OWHeadAtmosphere.shader",
+      "sha256": "6e8661a20392b4e3dab1a335d25de6f72e94449c6c7d0700e35cd928587ee5e6",
+      "kind": "hand-written-vertex-fragment",
+      "passCount": 2,
+      "stereoMacroCounts": {
+        "UNITY_VERTEX_INPUT_INSTANCE_ID": 0,
+        "UNITY_SETUP_INSTANCE_ID": 0,
+        "UNITY_VERTEX_OUTPUT_STEREO": 0,
+        "UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO": 0,
+        "UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX": 0
+      },
+      "thisRunValidation": "source-only",
+      "runtimeStatus": "not-tested-this-run",
+      "priorEditorEvidence": "spec/21-head-camera-fx.md"
+    },
+    {
+      "file": "unity/Assets/OldWebMap/Shaders/OWHeadSignalNoise.shader",
+      "sha256": "99d9acbfc0774c36955080fe274534c3eda9a381b572bc05824a4d01200c7c22",
+      "kind": "hand-written-vertex-fragment",
+      "passCount": 2,
+      "stereoMacroCounts": {
+        "UNITY_VERTEX_INPUT_INSTANCE_ID": 0,
+        "UNITY_SETUP_INSTANCE_ID": 0,
+        "UNITY_VERTEX_OUTPUT_STEREO": 0,
+        "UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO": 0,
+        "UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX": 0
+      },
+      "thisRunValidation": "source-only",
+      "runtimeStatus": "not-tested-this-run",
+      "priorEditorEvidence": "spec/21-head-camera-fx.md"
+    },
+    {
+      "file": "unity/Assets/OldWebMap/Shaders/OWNoiseDissolve.shader",
+      "sha256": "a8e36dc2bbf1193661063e9b96fba5c5bd4dec58b4b095680708cc081e9d74a8",
+      "kind": "hand-written-vertex-fragment",
+      "passCount": 1,
+      "stereoMacroCounts": {
+        "UNITY_VERTEX_INPUT_INSTANCE_ID": 0,
+        "UNITY_SETUP_INSTANCE_ID": 0,
+        "UNITY_VERTEX_OUTPUT_STEREO": 0,
+        "UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO": 0,
+        "UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX": 0
+      },
+      "thisRunValidation": "source-only",
+      "runtimeStatus": "not-tested-this-run",
+      "priorEditorEvidence": "spec/20-vfx-reference.md"
+    }
+  ],
+  "findings": [
+    {
+      "id": "spi-unverified",
+      "files": [
+        "unity/Assets/OldWebMap/Shaders/OWAdditiveGlow.shader",
+        "unity/Assets/OldWebMap/Shaders/OWAnimeParticle.shader",
+        "unity/Assets/OldWebMap/Shaders/OWCrtGlitch.shader",
+        "unity/Assets/OldWebMap/Shaders/OWHeadAtmosphere.shader",
+        "unity/Assets/OldWebMap/Shaders/OWHeadSignalNoise.shader",
+        "unity/Assets/OldWebMap/Shaders/OWNoiseDissolve.shader"
+      ],
+      "status": "source-risk-runtime-unverified",
+      "evidence": "六份手写 vertex/fragment Shader 均缺少显式 instance/stereo 初始化、传递和 fragment 眼睛设置宏链",
+      "nextStep": "适配并验证目标立体渲染路径；不能只凭宏计数宣称已实测故障"
+    },
+    {
+      "id": "dissolve-progress-direction",
+      "files": [
+        "unity/Assets/OldWebMap/Shaders/OWNoiseDissolve.shader"
+      ],
+      "status": "confirmed-source-issue-unfixed",
+      "evidence": "wave = h + _Progress - noise; body = smoothstep(0, _EdgeSoftness, wave)，进度增加时显示增加，与注释约定相反；默认白噪声使 noise=1.25，-1 时本体 alpha 全零"
+    },
+    {
+      "id": "dissolve-fresnel-masked",
+      "files": [
+        "unity/Assets/OldWebMap/Shaders/OWNoiseDissolve.shader"
+      ],
+      "status": "confirmed-source-issue-unfixed",
+      "evidence": "深度淡出关闭时 depthFade=1，max(fresnel, depthFade)=1，默认 mask 不受菲涅尔指数控制"
+    },
+    {
+      "id": "world-space-noise-motion",
+      "files": [
+        "unity/Assets/OldWebMap/Shaders/OWNoiseDissolve.shader"
+      ],
+      "status": "design-adaptation-needed",
+      "evidence": "worldPos 三向投影在世界景物移动时相对表面滑动",
+      "nextStep": "依据意图选择物件/场景局部参照或固定世界场"
+    },
+    {
+      "id": "head-overlay-scope",
+      "files": [
+        "unity/Assets/OldWebMap/Shaders/OWHeadAtmosphere.shader",
+        "unity/Assets/OldWebMap/Shaders/OWHeadSignalNoise.shader",
+        "unity/Assets/OldWebMap/Scripts/OWHeadOverlayRig.cs"
+      ],
+      "status": "runtime-unverified",
+      "evidence": "两个效果共四 Pass；覆盖尺寸依赖手填 FOV/aspect，尚无头显、镜子和目标平台性能证据",
+      "nextStep": "保留短段研究，不据编译记录采用全片常态或认定 Quest 可用"
+    },
+    {
+      "id": "original-screenspace-shader",
+      "assetId": "field-of-stars",
+      "status": "selective-evaluation-needed",
+      "evidence": "原 ScreenSpace Ubershader 有 stereo 处理，同时使用 GrabPass、相机深度和 target 5.0",
+      "nextStep": "按独立短时效果评估，不整套常开"
+    },
+    {
+      "id": "avatar-to-world",
+      "assetIds": [
+        "music-magic-gimmick",
+        "field-of-stars",
+        "phantomwaltz"
+      ],
+      "status": "adaptation-needed",
+      "evidence": "Avatar/MA 安装、FX 或约束触发不能当作现成 Udon 世界系统",
+      "nextStep": "提取渲染与动画片段接本片时钟，明确粒子参照；不叠加原包音乐"
+    }
+  ],
+  "currentCreativeReferences": [
+    "spec/15-integrated-show-outline.md",
+    "spec/18-visual-style-direction.md",
+    "spec/19-spatial-scene-plan.md",
+    "spec/20-world-motion-performance.md",
+    "spec/14-fc14-music-visual-score.md"
+  ],
+  "rawReportsDirectory": "/home/chiro/tmp/vrc-old-web-map/asset-review-20261016"
+}

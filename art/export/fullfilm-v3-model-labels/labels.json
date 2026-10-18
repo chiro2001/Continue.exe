@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "technique": "Pillow static text layout",
+  "labels": [
+    {
+      "file": "community-sign.png",
+      "text": "作品 / 留言 / 存档",
+      "target_mesh": "UI_CommunitySign",
+      "pixels": [
+        1950,
+        300
+      ],
+      "physical_size_m": [
+        1.3,
+        0.2
+      ],
+      "aspect": 6.5,
+      "color_space": "sRGB",
+      "alpha": false,
+      "font": "Noto Sans CJK SC Regular; installed TTC index 2",
+      "binding": "Unique material per mesh, ScreenshotUV full 0..1. Do not change shared thumbnail material globally."
+    },
+    {
+      "file": "archive-label.png",
+      "text": "资料与来源",
+      "target_mesh": "UI_ArchiveLabel",
+      "pixels": [
+        1680,
+        240
+      ],
+      "physical_size_m": [
+        0.84,
+        0.12
+      ],
+      "aspect": 7.0,
+      "color_space": "sRGB",
+      "alpha": false,
+      "font": "Noto Sans CJK SC Regular; installed TTC index 2",
+      "binding": "Unique material per mesh, ScreenshotUV full 0..1. Do not change shared thumbnail material globally."
+    },
+    {
+      "file": "shared-work-credit-00.png",
+      "text": "漫画与翻译",
+      "target_mesh": "UI_SharedWorkCredit_00",
+      "pixels": [
+        2048,
+        256
+      ],
+      "physical_size_m": [
+        0.52,
+        0.065
+      ],
+      "aspect": 8.0,
+      "color_space": "sRGB",
+      "alpha": false,
+      "font": "Noto Sans CJK SC Regular; installed TTC index 2",
+      "binding": "Unique material per mesh, ScreenshotUV full 0..1. Do not change shared thumbnail material globally."
+    },
+    {
+      "file": "shared-work-credit-01.png",
+      "text": "游戏与本地化",
+      "target_mesh": "UI_SharedWorkCredit_01",
+      "pixels": [
+        2048,
+        256
+      ],
+      "physical_size_m": [
+        0.52,
+        0.065
+      ],
+      "aspect": 8.0,
+      "color_space": "sRGB",
+      "alpha": false,
+      "font": "Noto Sans CJK SC Regular; installed TTC index 2",
+      "binding": "Unique material per mesh, ScreenshotUV full 0..1. Do not change shared thumbnail material globally."
+    }
+  ]
+}

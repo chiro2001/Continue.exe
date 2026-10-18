@@ -1,0 +1,61 @@
+{
+  "success": true,
+  "states": [
+    {
+      "id": "01-page-unavailable",
+      "main_size": [
+        1200,
+        800
+      ],
+      "detail_size": [
+        1072,
+        164
+      ],
+      "crop_pixel_equal": true,
+      "text_rects_in_bounds": true
+    },
+    {
+      "id": "02-download-interrupted",
+      "main_size": [
+        1200,
+        800
+      ],
+      "detail_size": [
+        861,
+        276
+      ],
+      "crop_pixel_equal": true,
+      "text_rects_in_bounds": true
+    },
+    {
+      "id": "03-cached-page-missing-images",
+      "main_size": [
+        1200,
+        800
+      ],
+      "detail_size": [
+        1075,
+        414
+      ],
+      "crop_pixel_equal": true,
+      "text_rects_in_bounds": true
+    },
+    {
+      "id": "04-title-with-dead-entry",
+      "main_size": [
+        1200,
+        800
+      ],
+      "detail_size": [
+        1086,
+        219
+      ],
+      "crop_pixel_equal": true,
+      "text_rects_in_bounds": true
+    }
+  ],
+  "source_copies_exact": true,
+  "files_hash_checked": 11,
+  "source_edits": 0,
+  "unity_operations": 0
+}

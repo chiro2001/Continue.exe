@@ -1,0 +1,1879 @@
+{
+  "version": 1,
+  "status": "research-and-creative-candidates",
+  "purpose": "互联网文化史素材池；记录事件、界面、软件分发文化与网络梗，供后续筛选。本轮不制作或运行相关软件。",
+  "user_requested_topics": [
+    "绿色版软件与分发文化",
+    "电脑病毒的历史事件",
+    "千禧年前后的网络梗",
+    "Windows UI、当年的新闻及更多时代元素",
+    "游戏与视觉小说汉化组",
+    "漫画汉化组与嵌字劳动",
+    "番剧字幕组与字幕制作",
+    "BT 下载站、索引、发布与做种文化",
+    "早期中国互联网与中文公共生活",
+    "天涯、猫扑/西祠、校园 BBS 与贴吧",
+    "校内/人人、博客、微博与兴趣社群"
+  ],
+  "editorial_notes": [
+    "人物线提供情绪记忆，时代蒙太奇可以超出同一人物或项目的经历。",
+    "candidate-needs-recheck 不代表已证实年代、流行起点或具体事实；summary-verified 只确认所列摘要，不确认图像素材。",
+    "绿色/便携、汉化、非官方再分发和破解按具体来源分别记录，不能直接等同。",
+    "千年虫是日期处理问题，与电脑病毒分开；2000s 后半及 2010s 的梗分别归位。",
+    "病毒条目只收集历史资料与视觉记忆，不含程序样本、传播方法或实际系统操作。",
+    "音乐署名、注册机本体及真实侵权受害者处理沿用 AGENTS.md 和 spec/05。",
+    "游戏汉化、漫画汉化与番剧字幕分别记录分工、工具、作品和年代；制作劳动、传播技术及授权状况分别核对。",
+    "字幕组、发布者、索引站、Tracker、DHT 与做种节点不是同一角色；一座站关停不自动证明所有文件或译稿消失。",
+    "seed 数为 0 不能单独判断是否可完成，按当前可获得的分块和连接情况设计；场景中的分块拼世界是表现手法，不声称 VRChat 实际使用 BT 分发。",
+    "具体组名、站名、招募文案与关停事件在原始来源核对前保留候选，不把全部民间转译归为相同许可状态。",
+    "游戏翻译项目现行文档、英语民间漫画翻译口述、职业漫画本地化记录和中文字幕/汉化组史分别标注，不能相互替代年代与群体证据。",
+    "BTChina 同期采访只取关站可访问性记录及明确归属的维护者口述；不采用报道文末未经独立核实的产业链规模或泛化评价。",
+    "中文论坛、熟人SNS、博客、微博和兴趣社群有各自年代且长期并存，不把它们编成全体用户同步迁移的单线史。",
+    "天涯2023暂停与2026恢复访问公告分别记录；暂停、关停、改名、业务变化和数据删除不是同一事实，恢复也不证明所有历史内容完整。",
+    "母公司成立、产品推出、测试、计划公测、品牌改名与具体功能上线分别标注；2009微博话题按钮不证明所有后期机制当时均存在。",
+    "存档抓取日、报道日、原文转载日期和图像拍摄日分开，获取到原图位置不等于已经取得并查看旧版截图。"
+  ],
+  "categories": [
+    {
+      "id": "desktop",
+      "name": "Windows 与桌面生活"
+    },
+    {
+      "id": "access",
+      "name": "接入网络与浏览器"
+    },
+    {
+      "id": "distribution",
+      "name": "绿色软件与分发文化"
+    },
+    {
+      "id": "security",
+      "name": "病毒、信任与电脑维修"
+    },
+    {
+      "id": "social",
+      "name": "论坛、聊天与网络梗"
+    },
+    {
+      "id": "creation",
+      "name": "Flash、游戏与大众创作"
+    },
+    {
+      "id": "media",
+      "name": "播放器、声音与模块文化"
+    },
+    {
+      "id": "sharing",
+      "name": "下载与文件共享"
+    },
+    {
+      "id": "enclosure",
+      "name": "平台竞争与入口围栏"
+    },
+    {
+      "id": "loss",
+      "name": "停服、停更与数字消失"
+    },
+    {
+      "id": "commons",
+      "name": "开放协作与维护成本"
+    },
+    {
+      "id": "preservation",
+      "name": "保存、互通与新工具"
+    },
+    {
+      "id": "translation",
+      "name": "游戏/漫画汉化、番剧字幕与翻译协作"
+    },
+    {
+      "id": "chinese-web",
+      "name": "中文互联网的论坛、社交与公共表达"
+    }
+  ],
+  "sources": {
+    "portableapps-definition": {
+      "title": "What is a portable app?",
+      "publisher": "PortableApps.com",
+      "url": "https://portableapps.com/about/what_is_a_portable_app",
+      "checked_on": "2026-10-15",
+      "supports": "该项目对免传统安装、可移动软件的定义；不能推广为全部“绿色版”的来源或授权结论"
+    },
+    "panda-court-history": {
+      "title": "“熊猫烧香”案详析",
+      "publisher": "湖北省巴东县人民法院网站",
+      "published": "2008-05-17",
+      "url": "http://bdxfy.hbfy.gov.cn/DocManage/ViewDoc?docId=2c2e3080-aa6c-11e1-8d35-4c1fcc467667",
+      "checked_on": "2026-10-15",
+      "supports": "2006—2007 年间相关事件的案例分析；仅引用历史事实摘要，不收集样本或制作方法"
+    },
+    "3q-contemporaneous-report": {
+      "title": "腾讯逼迫用户二选一：装了360就不能用QQ",
+      "publisher": "央视网转载网易科技报道（政府网站繁体转码存档）",
+      "published": "2010-11-03",
+      "url": "https://big5.hmo.gov.cn/gate/big5/big5.cctv.com/gate/big5/jingji.cntv.cn/20101103/104893.shtml",
+      "checked_on": "2026-10-15",
+      "supports": "2010-11-03 用户端不兼容公告与当时公开信；报道中双方相互指控按各方主张处理"
+    },
+    "microsoft-xp-eos": {
+      "title": "Support for Windows XP, Office 2003 and Exchange 2003 ended",
+      "publisher": "Microsoft Learn / Microsoft Lifecycle",
+      "url": "https://learn.microsoft.com/en-us/lifecycle/announcements/windows-xp-office-exchange-2003-end-of-support",
+      "checked_on": "2026-10-15",
+      "supports": "Windows XP 等产品于 2014-04-08 结束支持；不等于该日软件停止运行"
+    },
+    "adobe-flash-eol": {
+      "title": "Adobe Flash Player EOL General Information",
+      "publisher": "Adobe",
+      "url": "https://www.adobe.com/products/flashplayer/end-of-life-alternative.html",
+      "checked_on": "2026-10-15",
+      "supports": "2020-12-31 结束支持；2021-01-12 开始在 Flash Player 中阻止 Flash 内容运行；不等于所有历史内容被删除"
+    },
+    "microsoft-blaster-history": {
+      "title": "Virus alert about Blaster worm and its variants (KB 826955)",
+      "publisher": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/troubleshoot/windows-server/security-and-malware/blaster-worm-virus-alert",
+      "checked_on": "2026-10-15",
+      "supports": "2003-08-11 调查与告警历史、RPC 服务意外终止和系统关机/重启症状；只取历史摘要"
+    },
+    "fsecure-blaster-history": {
+      "title": "Net-Worm:W32/Lovsan",
+      "publisher": "F-Secure",
+      "url": "https://www.f-secure.com/v-descs/msblast",
+      "checked_on": "2026-10-15",
+      "supports": "2003-08-11 起的同期更新记录、部分 XP 用户所见 60 秒关机提示；同类提示不单独证明感染，不收录操作步骤"
+    },
+    "ruffle-project": {
+      "title": "Ruffle - Flash Emulator",
+      "publisher": "Ruffle project",
+      "url": "https://ruffle.rs/",
+      "checked_on": "2026-10-15",
+      "supports": "开源 Flash Player 模拟器，面向现代桌面系统和浏览器；项目代码 MIT/Apache 2.0 许可不替代具体 Flash 作品许可"
+    },
+    "ruffle-compatibility": {
+      "title": "ActionScript Compatibility",
+      "publisher": "Ruffle project",
+      "url": "https://ruffle.rs/compatibility",
+      "checked_on": "2026-10-15",
+      "supports": "AS1/2 与 AS3 的兼容进展及仍存在的问题；不能承诺全部旧内容可运行，不把当日进度百分比作永久结论"
+    },
+    "flashpoint-project": {
+      "title": "Flashpoint Archive",
+      "publisher": "Flashpoint Archive",
+      "url": "https://flashpointarchive.org/",
+      "checked_on": "2026-10-15",
+      "supports": "社区保存网页游戏、动画及互动体验，涵盖 Flash 等多种技术；首页自述始于 2017-12，藏量是项目自述且会变化，不把保存等同于再分发许可"
+    },
+    "bittorrent-bep3": {
+      "title": "The BitTorrent Protocol Specification (BEP 3)",
+      "publisher": "BitTorrent Enhancement Proposals",
+      "url": "https://www.bittorrent.org/beps/bep_0003.html",
+      "checked_on": "2026-10-15",
+      "supports": "文件分块、校验后通告已有块、下载者互相上传、Tracker 返回 peer 信息；规范页 Created 不等于协议发明或中文 BT 站兴起日期"
+    },
+    "bittorrent-bep5": {
+      "title": "DHT Protocol (BEP 5)",
+      "publisher": "BitTorrent Enhancement Proposals",
+      "url": "https://www.bittorrent.org/beps/bep_0005.html",
+      "checked_on": "2026-10-15",
+      "supports": "DHT 保存 peer 联系信息，可支持 trackerless 查找；不支持将一座索引站或一个 Tracker 关停等同于全部副本消失"
+    },
+    "thpatch-tutorial": {
+      "title": "Touhou Patch Center:Tutorial",
+      "publisher": "Touhou Patch Center",
+      "url": "https://www.thpatch.net/wiki/Touhou_Patch_Center:Tutorial",
+      "checked_on": "2026-10-15",
+      "supports": "现行翻译协作教程；不据页面确定项目创立日或中文汉化史起点"
+    },
+    "thpatch-project-docs": {
+      "title": "thcrap and thpatch project documentation",
+      "publisher": "Touhou Patch Center",
+      "url": "https://docs.thpatch.net/en/latest/1_index/",
+      "checked_on": "2026-10-15",
+      "supports": "区分社区翻译/补丁平台与应用补丁的工具；可作社区游戏翻译的具体例子"
+    },
+    "thpatch-staff": {
+      "title": "Touhou Patch Center:Staff",
+      "publisher": "Touhou Patch Center",
+      "url": "https://www.thpatch.net/wiki/Touhou_Patch_Center:Staff",
+      "checked_on": "2026-10-15",
+      "supports": "公开名单列出翻译、校对、绘图、测试等角色；不推断所有项目分工一致"
+    },
+    "aegisub-translation-assistant": {
+      "title": "Translation Assistant",
+      "publisher": "Aegisub documentation",
+      "url": "https://aegisub.org/docs/latest/translation_assistant/",
+      "checked_on": "2026-10-15",
+      "supports": "按行并列原文与译文、保留 ASS 格式标签等工具功能；不代表全部字幕组采用的流程"
+    },
+    "aegisub-typesetting": {
+      "title": "Typesetting Introduction",
+      "publisher": "Aegisub documentation",
+      "url": "https://aegisub.org/docs/latest/typesetting/",
+      "checked_on": "2026-10-15",
+      "supports": "对白可读性、背景文字/标牌翻译、片名字卡和卡拉 OK 等排版功能与原则；页面未标历史发布日期"
+    },
+    "lettering-author2023": {
+      "title": "Hello / What Do Letterers Do?",
+      "publisher": "Sara Linsley / Reverse, Retouch, Repeat",
+      "url": "https://buttondown.com/salinsley/archive/1-hello-what-do-letterers-do/",
+      "checked_on": "2026-10-15",
+      "supports": "职业漫画嵌字者第一人称工作说明，涉及字体、气泡、音效和修补；商业本地化实例不直接代表民间汉化组",
+      "published": "2023-08-10"
+    },
+    "lettering-industry2020": {
+      "title": "Manga Lettering and Translation",
+      "publisher": "SWET",
+      "url": "https://swet.jp/members/article/manga_lettering_and_translation",
+      "checked_on": "2026-10-15",
+      "supports": "职业漫画嵌字与翻译公开讨论记录；排字、重绘音效、工具与设计，不能直接当中文汉化组史",
+      "published": "2020-11-02"
+    },
+    "scanlation-oral2009": {
+      "title": "Ookla The Mok interview",
+      "publisher": "Inside Scanlation",
+      "url": "https://www.insidescanlation.com/interviews/ookla-the-mok",
+      "checked_on": "2026-10-15",
+      "supports": "2009-06 前编辑回顾 2001—2002 年 Toriyama’s World 的译稿、扫描、编辑、复核与协调；是英语民间漫画翻译的一人口述，不证明中文汉化组同期做法",
+      "published_month": "2009-06",
+      "recalled_period": "2001—2002"
+    },
+    "btchina-interview2009": {
+      "title": "BTChina站长：早知“业余兴趣”到尽头",
+      "publisher": "每日经济新闻",
+      "url": "https://www.nbd.com.cn/articles/2009-12-09/257272.html",
+      "checked_on": "2026-10-15",
+      "supports": "报道记载 12/4 起被发现关闭、12/8 采访；维护方式、收入、站点定位与关站原因解释为受访者陈述，文末产业链推测不作为已核统计",
+      "published": "2009-12-09",
+      "interviewed_on": "2009-12-08"
+    },
+    "btchina-report2009": {
+      "title": "广电总局严查视听许可证 三大 BT 网站遭关停",
+      "publisher": "中国日报网",
+      "url": "https://www.chinadaily.com.cn/hqzx/2009-12/11/content_9159582.htm",
+      "checked_on": "2026-10-15",
+      "supports": "同期关站报道和首页公告线索；仅支持站点可访问性及当时说法，不证明全部作品文件消失",
+      "published": "2009-12-11"
+    },
+    "tianya-history2019": {
+      "title": "天涯社区二十周年时期的成立日期报道",
+      "publisher": "每日经济新闻转载上海证券报",
+      "url": "https://www.nbd.com.cn/articles/2019-04-20/1323508.html",
+      "kind": "media-retrospective",
+      "checked_on": "2026-10-15",
+      "supports": "记载成立于 1999-03-01；只取成立日期，不将后来首页冒充 1999 原图或将经营分析当统一事实",
+      "published": "2019-04-20"
+    },
+    "tianya-pause2023": {
+      "title": "天涯近期暂停访问服务公告的转载与同期报道",
+      "publisher": "IT之家 / 所附天涯公告",
+      "url": "https://www.ithome.com/0/695/746.htm",
+      "kind": "media-report-with-platform-statement",
+      "checked_on": "2026-10-15",
+      "supports": "报道说 4/25 起无法打开，所附 5/27 公告回顾 4/1 暂停通知并解释资金/IDC与技术问题；原因属平台自述，不证明永久关闭或数据删除",
+      "published": "2023-05-28",
+      "statement_dated": "2023-05-27"
+    },
+    "tianya-bbs-archive2009": {
+      "title": "天涯 BBS 首页的 2009 网页存档",
+      "publisher": "Internet Archive / 原天涯页面",
+      "url": "https://web.archive.org/web/20090805075432/http://www.tianya.cn/bbs/",
+      "kind": "archived-original-page",
+      "checked_on": "2026-10-15",
+      "supports": "保留热帖榜、公告、版块与排行等文字；抓取时刻不等于建站日，图片、字体和完整视觉未确认",
+      "captured_utc": "2009-08-05T07:54:32Z",
+      "visual_scope": "archived-text-available-full-layout-and-images-unverified"
+    },
+    "tianya-interview2026": {
+      "title": "天涯重启与天下霸唱的早期连载回忆",
+      "publisher": "澎湃新闻",
+      "url": "https://www.thepaper.cn/newsDetail_forward_33280547",
+      "kind": "media-report-and-author-interview",
+      "checked_on": "2026-10-15",
+      "supports": "报道转述官方宣布 2026-06-01 恢复访问，另有作者回忆长帖、催更、加载困难与转站。早期具体年份不以这一回顾独立定案，不由恢复公告推定历史帖完整或本轮已实测访问",
+      "published": "2026-06-05",
+      "announced_restoration_date": "2026-06-01"
+    },
+    "bbs-revisit2013": {
+      "title": "BBS拍砖灌水20年 南京“斑竹”们的网络江湖",
+      "publisher": "新浪转载龙虎网",
+      "url": "https://news.sina.com.cn/o/2013-05-12/072027096938.shtml",
+      "kind": "media-interviews",
+      "checked_on": "2026-10-15",
+      "supports": "西祠讨论版、版主与东南大学虎踞龙蟠 BBS 的分区/站务/本地服务实例；猫扑仅并列提及，不能支持其全部特色",
+      "published": "2013-05-12"
+    },
+    "tieba-official2023": {
+      "title": "什么是百度贴吧？百度贴吧详细介绍",
+      "publisher": "百度营销",
+      "url": "https://sem.baidu.com/news/sem/402.html",
+      "kind": "official-retrospective-description",
+      "checked_on": "2026-10-15",
+      "supports": "官方回顾称 2003 年创建，以关键词结合搜索聚集同好；不是 2003 实图，后续楼中楼功能不能倒灌到初版",
+      "published": "2023-06-25"
+    },
+    "xiaonei-campus2006": {
+      "title": "校园SNS：投入地真一次，活出了精彩",
+      "publisher": "中国青年报 / 中青在线",
+      "url": "http://zqb.cyol.com/content/2006-08/07/content_1470101.htm",
+      "kind": "contemporaneous-media-report",
+      "checked_on": "2026-10-15",
+      "supports": "回溯 2005-12 发布；描述校园邮箱/IP准入、实名/照片、同学搜索、日志与活动等早期使用，不概括为所有时期或所有用户",
+      "published": "2006-08-07"
+    },
+    "xiaonei-home-archive2007": {
+      "title": "校内网 2007 首页文案存档",
+      "publisher": "Internet Archive / 原校内网页面",
+      "url": "https://web.archive.org/web/20071201052645/http://www.xiaonei.com/",
+      "kind": "archived-original-page",
+      "checked_on": "2026-10-15",
+      "supports": "首页列日志、相册、好友动态和分享群组/音乐/电影/书籍；外链图片与完整浏览器外观未确认",
+      "captured_utc": "2007-12-01T05:26:45Z",
+      "visual_scope": "archived-copy-text-available-original-rendering-unverified"
+    },
+    "oakpacific-archive2010": {
+      "title": "千橡集团公司与产品介绍存档",
+      "publisher": "Internet Archive / 原千橡官网",
+      "url": "https://web.archive.org/web/20100910093054/http://www.oakpacific.com/zh/index.html",
+      "kind": "archived-company-statement",
+      "checked_on": "2026-10-15",
+      "supports": "区分集团自述 2002-11 成立与校内服务 2005 出现，不能把母公司日期当产品上线日",
+      "captured_utc": "2010-09-10T09:30:54Z"
+    },
+    "renren-rename2009": {
+      "title": "校内网宣布更名人人网的同期报道",
+      "publisher": "央视网转载中新网",
+      "url": "http://finance.cctv.com/20090805/105716.shtml",
+      "kind": "contemporaneous-media-report",
+      "checked_on": "2026-10-15",
+      "supports": "报道记载 2009-08-04 宣布改名，面向更广泛用户；不代表所有界面和内容当天同时变更",
+      "published": "2009-08-05",
+      "announcement_date": "2009-08-04"
+    },
+    "weibo-review2009": {
+      "title": "新浪微博测试版上手评测",
+      "publisher": "驱动中国",
+      "url": "https://www.qudong.com/article/48950.html",
+      "kind": "contemporaneous-product-review",
+      "checked_on": "2026-10-15",
+      "supports": "正文记录申请测试、140字、图片/话题按钮和博客同步；图1—8位置可定位但原始图片文件本轮未取得。标题“推出”不代替正文测试状态，文章末尾另列 2009-08-25 原文链接尚未核原页",
+      "published": "2009-08-31",
+      "visual_scope": "figure-positions-located-original-image-files-not-retrieved"
+    },
+    "weibo-testing2009": {
+      "title": "新浪的微博探险前途未卜",
+      "publisher": "中国信息化周报 / CIO360",
+      "url": "https://www.cio360.net/show-610-41068-1.html",
+      "kind": "contemporaneous-media-interview",
+      "checked_on": "2026-10-15",
+      "supports": "同期采访区分立项、内测、邀请和计划公测，且公测延期；不将 8/14 内测写为正式公开上线",
+      "published": "2009-10-12"
+    },
+    "weibo-chronology2014": {
+      "title": "新浪微博简介",
+      "publisher": "央广网",
+      "url": "https://tech.cnr.cn/techzt/xlweiboipo/intro/20140415/t20140415_515300163.shtml",
+      "kind": "media-retrospective-chronology",
+      "checked_on": "2026-10-15",
+      "supports": "2014 回顾早期功能变化；@ 的具体日期仅有后续回顾，私信日期与 2009 报道有差异，暂不写死",
+      "published": "2014-04-15"
+    }
+  },
+  "items": [
+    {
+      "id": "desktop-post",
+      "category": "desktop",
+      "title": "DOS、BIOS 自检与命令提示符",
+      "kind": "ui",
+      "period_hint": "1980s—2000s，界面版本待核",
+      "theme_connection": "第一次掌握机器的感觉",
+      "visual_candidate": "自检文字成为房间局部投影，命令行沿桌面展开",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "desktop-win95",
+      "category": "desktop",
+      "title": "Windows 95/98 的开始菜单、任务栏与启动声",
+      "kind": "ui",
+      "period_hint": "1990s 后半至 2000s",
+      "theme_connection": "桌面记忆与共同入口",
+      "visual_candidate": "开始菜单长成楼梯，任务栏成为地平线",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "desktop-active-desktop",
+      "category": "desktop",
+      "title": "Active Desktop、窗口残影与死机记忆",
+      "kind": "ui",
+      "period_hint": "1990s 后半至 2000s，版本待核",
+      "theme_connection": "不稳定与自己修理电脑的经历",
+      "visual_candidate": "拖动窗口留下空间残影，桌面背景脱落",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "desktop-xp-luna",
+      "category": "desktop",
+      "title": "XP 登录界面、Luna 与草地桌面",
+      "kind": "ui",
+      "period_hint": "2000s",
+      "theme_connection": "共同的视觉记忆",
+      "visual_candidate": "人物从桌面窗口走入草地，随后回望图标构成的城市",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "desktop-games-tools",
+      "category": "desktop",
+      "title": "扫雷、纸牌、画图、弹球与 Office 助手",
+      "kind": "culture",
+      "period_hint": "跨多个 Windows/Office 版本，逐项待核",
+      "theme_connection": "第一次游戏、涂画和探索",
+      "visual_candidate": "熟悉的小格子和涂鸦变成真实三维道具",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "desktop-errors",
+      "category": "desktop",
+      "title": "蓝屏、程序未响应、任务管理器和错误提示",
+      "kind": "ui",
+      "period_hint": "跨年代，逐项匹配版本",
+      "theme_connection": "机器故障与人的无能为力",
+      "visual_candidate": "人物动作冻结为“未响应”，进程条目围住空间",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "event-xp-support-end",
+      "category": "desktop",
+      "title": "Windows XP 结束支持",
+      "kind": "event",
+      "period_hint": "2014-04-08",
+      "theme_connection": "熟悉环境的老去",
+      "visual_candidate": "支持结束通知出现，仍亮着的旧桌面留在远方",
+      "status": "summary-verified",
+      "sources": [
+        "microsoft-xp-eos"
+      ],
+      "verified_summary": "已核对 2014-04-08 结束支持；界面素材另行核对"
+    },
+    {
+      "id": "access-dialup",
+      "category": "access",
+      "title": "拨号音、调制解调器与电话占线",
+      "kind": "culture",
+      "period_hint": "1990s—2000s，地区与设备待核",
+      "theme_connection": "连接世界的成本与期待",
+      "visual_candidate": "握手音从房间另一端传来，连接成功时远方出现窗口",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "access-adsl",
+      "category": "access",
+      "title": "ADSL 拨号、连接错误与网吧计时",
+      "kind": "culture",
+      "period_hint": "2000s，错误码与年代待核",
+      "theme_connection": "等待、重试与有限的在线时间",
+      "visual_candidate": "计时器和拨号窗口变成入口装置",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "access-browser-wars",
+      "category": "access",
+      "title": "Netscape、IE、Firefox 等浏览器与兼容提示",
+      "kind": "culture",
+      "period_hint": "1990s—2010s，具体版本待核",
+      "theme_connection": "入口竞争与网页互通",
+      "visual_candidate": "同一页面在不同浏览器门框中呈现不同形状",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "access-view-source",
+      "category": "access",
+      "title": "查看源代码、另存网页与自学 HTML",
+      "kind": "culture",
+      "period_hint": "1990s 至今",
+      "theme_connection": "从使用者变成创作者",
+      "visual_candidate": "网页背后展开源码，陌生人留下的注释可被看见",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "access-plugin-resolution",
+      "category": "access",
+      "title": "插件缺失、最佳分辨率与 Under Construction",
+      "kind": "ui",
+      "period_hint": "1990s—2000s，版本待核",
+      "theme_connection": "早期网页的自制感",
+      "visual_candidate": "施工 GIF 成为警戒带，缺插件的房间只剩空框",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "software-portable",
+      "category": "distribution",
+      "title": "便携版软件与免传统安装的分发方式",
+      "kind": "culture",
+      "period_hint": "跨年代",
+      "theme_connection": "软件随人移动、工具可携带",
+      "visual_candidate": "一个文件夹被交给另一人，在不同桌面继续工作",
+      "status": "summary-verified",
+      "sources": [
+        "portableapps-definition"
+      ],
+      "verified_summary": "已核对 PortableApps.com 的便携软件定义；中文绿色软件站文化需另行考证"
+    },
+    {
+      "id": "software-green-sites",
+      "category": "distribution",
+      "title": "绿色版软件站、压缩包与作者说明",
+      "kind": "culture",
+      "period_hint": "2000s—2010s，具体站点待核",
+      "theme_connection": "便利、再分发与来源信任",
+      "visual_candidate": "解压列表成为街区，作者说明贴在工具箱内侧",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "software-localization",
+      "category": "distribution",
+      "title": "汉化组、语言包、字体与使用教程",
+      "kind": "culture",
+      "period_hint": "1990s—2010s，具体项目待核",
+      "theme_connection": "降低语言和使用门槛的协作",
+      "visual_candidate": "界面逐渐出现可读中文，署名从窗口边缘展开",
+      "status": "candidate-needs-recheck",
+      "sources": [],
+      "scope_note": "本项保留软件界面语言包与教程；游戏、漫画和番剧转译另见 translation 分类。"
+    },
+    {
+      "id": "software-readme",
+      "category": "distribution",
+      "title": "README、更新日志、作者邮箱与共享说明",
+      "kind": "culture",
+      "period_hint": "跨年代",
+      "theme_connection": "软件背后曾经有一个人",
+      "visual_candidate": "工具的背面留着作者名、日期和短留言",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "software-discs-drivers",
+      "category": "distribution",
+      "title": "装机光盘、驱动包与系统修复文化",
+      "kind": "culture",
+      "period_hint": "1990s—2010s，来源与版本待核",
+      "theme_connection": "电脑维修与互助",
+      "visual_candidate": "旧设备旁排列光盘，缺失驱动让一个部件熄灭",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "software-shareware",
+      "category": "distribution",
+      "title": "共享软件、试用提醒与捐赠按钮",
+      "kind": "culture",
+      "period_hint": "1990s 至今，具体软件待核",
+      "theme_connection": "免费使用与作者维持工作的关系",
+      "visual_candidate": "小小试用窗与作者工作桌并置",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "software-bundles",
+      "category": "distribution",
+      "title": "捆绑安装、工具栏与主页被改变的记忆",
+      "kind": "culture",
+      "period_hint": "2000s—2010s，具体事件待核",
+      "theme_connection": "便利与用户控制权",
+      "visual_candidate": "安装勾选框长成围栏，工具栏挤压可见空间",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "security-cih",
+      "category": "security",
+      "title": "CIH 相关病毒事件",
+      "kind": "event",
+      "period_hint": "1990s 末，具体日期待核",
+      "theme_connection": "早期电脑安全的脆弱感",
+      "visual_candidate": "新闻标题与文件损坏记忆短暂出现",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "security-iloveyou",
+      "category": "security",
+      "title": "ILOVEYOU 邮件蠕虫事件",
+      "kind": "event",
+      "period_hint": "2000，具体日期与表述待核",
+      "theme_connection": "熟悉联系人与附件带来的信任问题",
+      "visual_candidate": "一封邮件在许多桌面间接力，温暖图形转为警示",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "security-blaster",
+      "category": "security",
+      "title": "冲击波与关机倒计时记忆",
+      "kind": "event",
+      "period_hint": "2003-08；60 秒提示见同期厂商记录，系统与语言版本分别核对",
+      "theme_connection": "无法完成工作的焦急",
+      "visual_candidate": "关机倒计时悬在头顶，人物仍努力完成手上的事",
+      "status": "summary-verified",
+      "sources": [
+        "microsoft-blaster-history",
+        "fsecure-blaster-history"
+      ],
+      "verified_summary": "已核对 2003-08-11 起的冲击波事件记录，以及部分 XP 用户所见 RPC 服务终止与 60 秒重启提示；该画面不是感染的充分证据。实际 UI 与截图另核。"
+    },
+    {
+      "id": "security-panda",
+      "category": "security",
+      "title": "熊猫烧香相关事件",
+      "kind": "event",
+      "period_hint": "2006—2007",
+      "theme_connection": "混乱网络中的信任与损失",
+      "visual_candidate": "新闻剪影、图标变化和电脑前的人物反应",
+      "status": "summary-verified",
+      "sources": [
+        "panda-court-history"
+      ],
+      "verified_summary": "已核对法院网站案例分析关于 2006—2007 年相关事件的摘要，不采用个人受害者信息"
+    },
+    {
+      "id": "security-antivirus",
+      "category": "security",
+      "title": "扫描进度、隔离区与杀毒提示音",
+      "kind": "ui",
+      "period_hint": "1990s 至今，具体界面待核",
+      "theme_connection": "日常维护与安全产品的在场",
+      "visual_candidate": "扫描线扫过房间，警告框逐渐增多",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "security-repair-help",
+      "category": "security",
+      "title": "论坛求助、重装系统与共享救援工具",
+      "kind": "culture",
+      "period_hint": "跨年代",
+      "theme_connection": "混乱中的互助",
+      "visual_candidate": "一个陌生人坐到故障电脑旁，留下一页修复笔记",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "social-y2k",
+      "category": "social",
+      "title": "千年虫与跨世纪新闻",
+      "kind": "event",
+      "period_hint": "1999—2000，具体报道待核",
+      "theme_connection": "对技术未来的期待与焦虑",
+      "visual_candidate": "倒计时、日期与旧新闻在空间中换页；与病毒条目分开",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "social-bbs-words",
+      "category": "social",
+      "title": "沙发、板凳、顶、灌水、潜水、斑竹、楼主好人",
+      "kind": "meme",
+      "period_hint": "1990s 末—2000s，流行起点待核",
+      "theme_connection": "陌生人之间的共同语言",
+      "visual_candidate": "帖子楼层真的长成看台，回复在人群间传递",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "social-emoticons",
+      "category": "social",
+      "title": "ASCII 表情、orz、囧与签名档",
+      "kind": "meme",
+      "period_hint": "跨年代，各自起源待核",
+      "theme_connection": "低带宽条件下的情绪表达",
+      "visual_candidate": "文字表情由人物姿势接续，签名变成空间横幅",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "social-qq-oicq",
+      "category": "social",
+      "title": "OICQ/QQ 联系人、头像和消息声音",
+      "kind": "culture",
+      "period_hint": "1990s 末起，具体版本待核",
+      "theme_connection": "在线状态与人与人的等待",
+      "visual_candidate": "联系人列表成为一排亮着的房间，头像逐渐离线",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "social-qq-custom",
+      "category": "social",
+      "title": "QQ 秀、个性签名、火星文与空间装饰",
+      "kind": "culture",
+      "period_hint": "2000s，项目分别定年",
+      "theme_connection": "个人表达与身份创造",
+      "visual_candidate": "签名和装饰从人物周围展开，形成各自的小天地",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "social-homepages",
+      "category": "social",
+      "title": "个人主页、友情链接、留言本与访问计数",
+      "kind": "culture",
+      "period_hint": "1990s—2000s，具体页面待核",
+      "theme_connection": "自建网络与被看见的愿望",
+      "visual_candidate": "友链变成可走的桥，留言本留下人物来过的痕迹",
+      "status": "candidate-needs-recheck",
+      "sources": [],
+      "regional_examples_pending": [
+        "中文免费主页服务、留言本与站点链接的具体旧版实例"
+      ],
+      "scope_note": "与 chinese-web 分类的门户/博客等关联；个人主页条目不重复计作新的中国平台历史事件。"
+    },
+    {
+      "id": "social-farm-era",
+      "category": "social",
+      "title": "开心网、QQ 空间与偷菜记忆",
+      "kind": "culture",
+      "period_hint": "2000s 后半起，具体时间待核",
+      "theme_connection": "社交平台与共同活动",
+      "visual_candidate": "许多小房间同时进行熟悉的重复动作",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "social-early-global-memes",
+      "category": "social",
+      "title": "Dancing Baby、Hampster Dance、All Your Base 等",
+      "kind": "meme",
+      "period_hint": "1990s—2000s 初，各项待核",
+      "theme_connection": "早期全球网络的自发传播",
+      "visual_candidate": "短促舞步和文字在不同房间接力出现",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "social-later-video-memes",
+      "category": "social",
+      "title": "Numa Numa、甩葱歌、Rickroll、Nyan Cat 等",
+      "kind": "meme",
+      "period_hint": "2000s—2010s，各项分开定年",
+      "theme_connection": "二次创作与跨语言传播",
+      "visual_candidate": "一小段节拍由不同人物和房间轮流接续",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "creation-flash-animation",
+      "category": "creation",
+      "title": "Flash 动画、火柴人与民间短片",
+      "kind": "culture",
+      "period_hint": "2000s，具体作品待核",
+      "theme_connection": "普通人的创作与传播",
+      "visual_candidate": "二维角色走出窗口，在三维空间继续原有动作",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "creation-flash-games",
+      "category": "creation",
+      "title": "Flash 小游戏与网页游戏站",
+      "kind": "culture",
+      "period_hint": "2000s—2010s，具体作品待核",
+      "theme_connection": "随手打开就能玩的共同记忆",
+      "visual_candidate": "小游戏规则变成地板和房间结构",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "creation-maps-mods",
+      "category": "creation",
+      "title": "局域网游戏、地图编辑器、MOD 与玩家补丁",
+      "kind": "culture",
+      "period_hint": "1990s—2010s，具体游戏待核",
+      "theme_connection": "使用者改造作品与社区接力",
+      "visual_candidate": "人物搭出关卡，别人加入并修改其中一部分",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "creation-server-browser",
+      "category": "creation",
+      "title": "服务器列表、联机房间与关服公告",
+      "kind": "culture",
+      "period_hint": "跨年代，具体游戏待核",
+      "theme_connection": "曾经热闹的共同地点",
+      "visual_candidate": "服务器列表逐行变空，一处旧房间仍亮着灯",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "creation-web-small-art",
+      "category": "creation",
+      "title": "GIF、鼠标跟随、网页小宠物和手绘图标",
+      "kind": "culture",
+      "period_hint": "1990s—2000s，具体素材待核",
+      "theme_connection": "个人网页的不整齐与趣味",
+      "visual_candidate": "小装饰在人群间游走，随后成为反复出现的记忆点",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "media-winamp",
+      "category": "media",
+      "title": "Winamp、皮肤与播放列表",
+      "kind": "culture",
+      "period_hint": "1990s 末起，具体版本待核",
+      "theme_connection": "个性化软件与音乐社群",
+      "visual_candidate": "皮肤成为房间表面，播放列表在头顶流动",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "media-visualizers",
+      "category": "media",
+      "title": "Windows Media Player 与音乐可视化",
+      "kind": "ui",
+      "period_hint": "2000s，版本待核",
+      "theme_connection": "熟悉的声音与抽象想象",
+      "visual_candidate": "可视化占据天空，人物沿节拍穿过",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "media-ttplayer-lrc",
+      "category": "media",
+      "title": "千千静听、LRC 与歌词乱码",
+      "kind": "culture",
+      "period_hint": "2000s，软件与格式史待核",
+      "theme_connection": "一起听歌与自发整理歌词",
+      "visual_candidate": "乱码逐渐被修正为可读歌词，接入本片字幕线",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "media-tracker-demoscene",
+      "category": "media",
+      "title": "MOD/XM、tracker、ASCII/NFO 与 greetz",
+      "kind": "culture",
+      "period_hint": "1980s 起，具体作品待核",
+      "theme_connection": "小体积音乐、技术创作与署名",
+      "visual_candidate": "音符格子和署名随音乐展开；遵循既有注册机本体边界",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "media-codecs-buffering",
+      "category": "media",
+      "title": "RealPlayer、RM/RMVB、解码器与缓冲等待",
+      "kind": "culture",
+      "period_hint": "1990s—2000s，界面待核",
+      "theme_connection": "多媒体普及与格式壁垒",
+      "visual_candidate": "缓冲圆环成为等待空间，缺少解码器的画面只剩轮廓",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "sharing-ftp-index",
+      "category": "sharing",
+      "title": "FTP、Index of 目录与校园资源服务器",
+      "kind": "culture",
+      "period_hint": "1990s—2000s，站点待核",
+      "theme_connection": "直接、朴素的资源交换",
+      "visual_candidate": "目录树长成走廊，文件名标在门口",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "sharing-discs-usb",
+      "category": "sharing",
+      "title": "光盘、移动硬盘与 U 盘传递",
+      "kind": "culture",
+      "period_hint": "跨年代",
+      "theme_connection": "网络之外的分享与备份",
+      "visual_candidate": "一个存储介质由几个人先后接过，末尾成为保存的线索",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "sharing-p2p",
+      "category": "sharing",
+      "title": "Napster、电驴、BT 等不同 P2P 分发文化",
+      "kind": "culture",
+      "period_hint": "1990s 末起，各系统分别核对",
+      "theme_connection": "每个接收者也能贡献连接",
+      "visual_candidate": "多人同时接收与分享；BT 场景按分块互补与所需块的可用性表现传输能否继续",
+      "status": "candidate-needs-recheck",
+      "sources": [],
+      "scope_note": "不同系统分别核对；BT 分块、发现与缺块机制见新建的专门条目，不将 seed 数为 0 直接等同于内容消失。"
+    },
+    {
+      "id": "sharing-download-managers",
+      "category": "sharing",
+      "title": "断点续传、下载工具与长时间进度条",
+      "kind": "culture",
+      "period_hint": "1990s—2000s，具体工具待核",
+      "theme_connection": "等待、带宽与便利",
+      "visual_candidate": "进度条成为缓慢移动的路，断点由人物继续接上",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "sharing-forum-gates",
+      "category": "sharing",
+      "title": "回复可见、提取码、积分与失效附件",
+      "kind": "culture",
+      "period_hint": "2000s 起，具体机制待核",
+      "theme_connection": "帮助、礼貌与访问门槛的混合",
+      "visual_candidate": "一句感谢暂时打开一扇门，后来出现更多层入口",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "sharing-netdisk-loss",
+      "category": "sharing",
+      "title": "网盘关闭、分享过期与下载限速",
+      "kind": "event",
+      "period_hint": "2010s 起，各事件待核",
+      "theme_connection": "个人收藏依赖服务提供者",
+      "visual_candidate": "许多收藏门牌仍在，门后空间逐渐消失",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "enclosure-3q",
+      "category": "enclosure",
+      "title": "3Q 事件与用户端二选一公告",
+      "kind": "event",
+      "period_hint": "2010-11-03",
+      "theme_connection": "软件争夺入口与用户选择权",
+      "visual_candidate": "熟悉的两扇窗口互相推挤，用户夹在其间",
+      "status": "summary-verified",
+      "sources": [
+        "3q-contemporaneous-report"
+      ],
+      "verified_summary": "已核对 2010-11-03 报道与所载公开信；精确界面、原始截图和画面引用仍需核对"
+    },
+    {
+      "id": "enclosure-captcha",
+      "category": "enclosure",
+      "title": "验证码、人机验证与证明你是人",
+      "kind": "ui",
+      "period_hint": "跨年代，区分文字验证码与现代交互",
+      "theme_connection": "开放访问中的信任与阻碍",
+      "visual_candidate": "验证码格子长成墙，窗口短暂固定在玩家视野",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "enclosure-app-qr",
+      "category": "enclosure",
+      "title": "登录墙、扫码与仅 App 打开",
+      "kind": "culture",
+      "period_hint": "2010s—2020s，具体案例待核",
+      "theme_connection": "可链接网页逐渐变为受控入口",
+      "visual_candidate": "网页缩成一道扫码门，原本直接相连的路断开",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "enclosure-subscription",
+      "category": "enclosure",
+      "title": "会员加速、订阅与服务入口",
+      "kind": "culture",
+      "period_hint": "跨年代，具体案例待核",
+      "theme_connection": "服务成本、商业选择与用户体验",
+      "visual_candidate": "多条速度不同的队列在同一空间并置",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "enclosure-feeds",
+      "category": "enclosure",
+      "title": "推荐流、推广内容与无尽滚动",
+      "kind": "culture",
+      "period_hint": "2010s—2020s，具体案例待核",
+      "theme_connection": "信息更多与主动寻找减少",
+      "visual_candidate": "信息流形成越来越高的传送带，熟悉的个人页面被淹没",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "loss-reader",
+      "category": "loss",
+      "title": "Google Reader 退场与 RSS 迁移",
+      "kind": "event",
+      "period_hint": "2010s，具体日期待核",
+      "theme_connection": "用户自主订阅与迁移",
+      "visual_candidate": "订阅线暂时熄灭，导出列表被后来的人重新接上",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "loss-msn",
+      "category": "loss",
+      "title": "MSN Messenger 退场",
+      "kind": "event",
+      "period_hint": "2010s，全球与中国大陆时间分别核对",
+      "theme_connection": "联系人还在、服务已经离开",
+      "visual_candidate": "联系人头像留在空房间，最后一条消息悬在原处",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "loss-geocities",
+      "category": "loss",
+      "title": "GeoCities 等个人主页服务关闭",
+      "kind": "event",
+      "period_hint": "2000s—2010s，不同地区分别核对",
+      "theme_connection": "自建网页的消失与存档",
+      "visual_candidate": "大量不同风格的小房间成为缩略图，部分留在档案中",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "loss-forums-blogs",
+      "category": "loss",
+      "title": "老论坛、博客和个人站点停服",
+      "kind": "event",
+      "period_hint": "跨年代，选定案例后核对",
+      "theme_connection": "讨论、经验与个人记忆的失去",
+      "visual_candidate": "帖子楼层塌成空架，只剩收藏地址",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "event-flash-eol",
+      "category": "loss",
+      "title": "Adobe Flash Player 结束支持",
+      "kind": "event",
+      "period_hint": "2020-12-31",
+      "theme_connection": "依赖平台的文化退场",
+      "visual_candidate": "一片正在运动的 Flash 世界逐渐停住",
+      "status": "summary-verified",
+      "sources": [
+        "adobe-flash-eol"
+      ],
+      "verified_summary": "已核对 2020-12-31 结束支持"
+    },
+    {
+      "id": "event-flash-block",
+      "category": "loss",
+      "title": "Flash Player 开始阻止 Flash 内容运行",
+      "kind": "event",
+      "period_hint": "2021-01-12",
+      "theme_connection": "文件仍在与原播放器失效的区别",
+      "visual_candidate": "文件图标还在，原窗口内的角色无法继续动作",
+      "status": "summary-verified",
+      "sources": [
+        "adobe-flash-eol"
+      ],
+      "verified_summary": "已核对 2021-01-12 开始在 Flash Player 中阻止 Flash 内容运行"
+    },
+    {
+      "id": "loss-broken-images",
+      "category": "loss",
+      "title": "图床失效、外链图片与 404",
+      "kind": "ui",
+      "period_hint": "跨年代",
+      "theme_connection": "链接与内容分离",
+      "visual_candidate": "画框保留，画面成为缺图图标，背后空间变空",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "commons-gpl",
+      "category": "commons",
+      "title": "开源许可、源代码与贡献者名单",
+      "kind": "culture",
+      "period_hint": "跨年代，具体项目待核",
+      "theme_connection": "把成果交给后来的使用者",
+      "visual_candidate": "源文件背后显示许多贡献者的名字",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "commons-wiki",
+      "category": "commons",
+      "title": "维基、社区知识库与编辑记录",
+      "kind": "culture",
+      "period_hint": "2000s 起，具体项目待核",
+      "theme_connection": "普通人共同积累知识",
+      "visual_candidate": "一页教程由多个人先后写下，修订记录成为楼层",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "commons-dependencies",
+      "category": "commons",
+      "title": "依赖树与少数维护者支撑大量使用者",
+      "kind": "culture",
+      "period_hint": "跨年代，选定数据再核对",
+      "theme_connection": "便利背后被忽视的维护",
+      "visual_candidate": "庞大结构落在少数工作桌周围",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "commons-left-pad",
+      "category": "commons",
+      "title": "left-pad 事件",
+      "kind": "event",
+      "period_hint": "2016，具体经过待核",
+      "theme_connection": "微小依赖与整个生态的脆弱",
+      "visual_candidate": "一个小积木离开，许多远处结构同时停住",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "commons-xz",
+      "category": "commons",
+      "title": "xz 后门事件",
+      "kind": "event",
+      "period_hint": "2024，具体经过待核",
+      "theme_connection": "开源协作中的信任与审查成本",
+      "visual_candidate": "不起眼的改动影响大结构，再由细小异常引出检查",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "commons-report-flood",
+      "category": "commons",
+      "title": "维护者面对大量自动化低质量报告",
+      "kind": "event",
+      "period_hint": "2020s，复用已有待复核素材",
+      "theme_connection": "自动化把工作量施加给少数人",
+      "visual_candidate": "请求数量暴涨，桌前的人逐渐停止回应",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "commons-vrc-assets",
+      "category": "commons",
+      "title": "VRChat 模型导出与作者署名风波",
+      "kind": "event",
+      "period_hint": "复用已有待复核 VRChat 素材",
+      "theme_connection": "展示、复制与创作者的信任",
+      "visual_candidate": "复制品扩大并增多，原作者署名脱落",
+      "status": "candidate-needs-recheck",
+      "sources": [],
+      "detail_file": "data/vrchat-materials.json"
+    },
+    {
+      "id": "commons-vrc-worlds",
+      "category": "commons",
+      "title": "VRChat 世界下架、私有化与作者离开",
+      "kind": "culture",
+      "period_hint": "具体案例待核",
+      "theme_connection": "社交地点与创作者的持续投入",
+      "visual_candidate": "世界名片还在，入口后只有残留的房间轮廓",
+      "status": "candidate-needs-recheck",
+      "sources": [],
+      "detail_file": "data/vrchat-materials.json"
+    },
+    {
+      "id": "preserve-wayback",
+      "category": "preservation",
+      "title": "网页存档与 Internet Archive",
+      "kind": "preservation",
+      "period_hint": "跨年代，具体档案与许可待核",
+      "theme_connection": "留下可供后来者寻找的痕迹",
+      "visual_candidate": "旧网页切片在黑暗中被重新拼接",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "preserve-ruffle",
+      "category": "preservation",
+      "title": "Ruffle 等 Flash 兼容与重实现项目",
+      "kind": "preservation",
+      "period_hint": "跨年维护项目；2026-10-15 核对当前说明，起始年份另核",
+      "theme_connection": "旧作品通过新运行方式继续存在",
+      "visual_candidate": "先前停住的二维角色在新容器里重新动起来",
+      "status": "summary-verified",
+      "sources": [
+        "ruffle-project",
+        "ruffle-compatibility"
+      ],
+      "verified_summary": "已核对 Ruffle 是面向桌面和网页的开源 Flash Player 模拟器，支持多代 ActionScript 但仍有兼容问题。具体作品能否运行、画面与许可另核。"
+    },
+    {
+      "id": "preserve-flashpoint",
+      "category": "preservation",
+      "title": "Flashpoint 等网页游戏保存计划",
+      "kind": "preservation",
+      "period_hint": "当前官网自述始于 2017-12；具体藏品分别定年",
+      "theme_connection": "分散的个人记忆被重新组织",
+      "visual_candidate": "无数失效图标中出现少量重新可进入的小世界",
+      "status": "summary-verified",
+      "sources": [
+        "flashpoint-project"
+      ],
+      "verified_summary": "已核对 Flashpoint 是由社区参与的网页游戏、动画与互动体验保存计划，覆盖多种网页技术。具体藏品、运行表现与素材许可另核，不引用会变化的藏量作为独立统计。"
+    },
+    {
+      "id": "preserve-retro",
+      "category": "preservation",
+      "title": "旧硬件、模拟器与格式转换",
+      "kind": "preservation",
+      "period_hint": "跨年代，具体案例待核",
+      "theme_connection": "老设备和文件继续被理解",
+      "visual_candidate": "一台旧设备重新响应，窗口跨越不同机器保持连接",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "preserve-protocols",
+      "category": "preservation",
+      "title": "协议重实现、开源替代与互通",
+      "kind": "preservation",
+      "period_hint": "具体案例待核",
+      "theme_connection": "让设备和软件再次交流",
+      "visual_candidate": "两种不同接口之间出现新的通道",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "preserve-ai-repair",
+      "category": "preservation",
+      "title": "AI 辅助阅读旧资料、移植与修复",
+      "kind": "preservation",
+      "period_hint": "具体案例待核，沿用既有希望线",
+      "theme_connection": "降低后来者接手的门槛",
+      "visual_candidate": "旧文档、补丁和测试响应串起一次具体修复",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "preserve-fork-maintainers",
+      "category": "preservation",
+      "title": "fork、新维护者与重新发布",
+      "kind": "preservation",
+      "period_hint": "具体项目与许可待核",
+      "theme_connection": "人的接力与承认来源",
+      "visual_candidate": "保留旧名字，在旁边追加后来者署名",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "translation-game-localization",
+      "category": "translation",
+      "title": "游戏与视觉小说汉化组",
+      "kind": "culture",
+      "period_hint": "具体项目、平台和年代分别核对",
+      "theme_connection": "把陌生语言的游戏变成能够进入的文化",
+      "visual_candidate": "无法读懂的对白和菜单逐层出现中文，旁边展开翻译、校对、测试署名",
+      "status": "candidate-needs-recheck",
+      "sources": [
+        "thpatch-tutorial",
+        "thpatch-project-docs",
+        "thpatch-staff"
+      ],
+      "verified_scope": "已有 Touhou Patch Center/thcrap 的现行社区翻译实例；具体中文汉化组与各游戏年代尚未选定。",
+      "documented_examples": [
+        {
+          "name": "Touhou Patch Center / thcrap",
+          "scope": "游戏社区翻译与补丁平台/工具分工，现行文档实例，不当作全部中文汉化组史。"
+        }
+      ]
+    },
+    {
+      "id": "translation-game-font-ui",
+      "category": "translation",
+      "title": "游戏汉化中的字体、乱码、排版与测试",
+      "kind": "culture",
+      "period_hint": "依具体游戏与运行环境核对",
+      "theme_connection": "翻译之外还有不显眼的技术和校验劳动",
+      "visual_candidate": "人物修正越框文字、缺字与换行，原先无法继续的界面变得可读",
+      "status": "candidate-needs-recheck",
+      "sources": [
+        "thpatch-tutorial",
+        "thpatch-staff"
+      ],
+      "verified_scope": "已有游戏社区翻译和绘图/测试分工线索；不同游戏的字体、编码和界面处理仍逐项核对。"
+    },
+    {
+      "id": "translation-game-patch-credits",
+      "category": "translation",
+      "title": "汉化补丁、版本更正、说明与贡献名单",
+      "kind": "culture",
+      "period_hint": "依项目发布页、README 与许可核对",
+      "theme_connection": "一份翻译成果依靠多人协作和后续修订",
+      "visual_candidate": "版本号、修正记录与贡献者逐项追加，名字被保留或在转手中脱落",
+      "status": "candidate-needs-recheck",
+      "sources": [
+        "thpatch-project-docs",
+        "thpatch-staff"
+      ],
+      "verified_scope": "已有项目平台与角色名单；各发布补丁的 README、修订和素材许可仍待具体项目。"
+    },
+    {
+      "id": "translation-manga-workflow",
+      "category": "translation",
+      "title": "漫画汉化中的翻译、校对、清字与嵌字",
+      "kind": "culture",
+      "period_hint": "各组分工与年代分别核对",
+      "theme_connection": "读者看到的一页背后有许多人的工作",
+      "visual_candidate": "同一张原创示意漫画页经过数张工作台，从原文气泡变成可读的中文",
+      "status": "candidate-needs-recheck",
+      "sources": [
+        "scanlation-oral2009",
+        "lettering-author2023",
+        "lettering-industry2020"
+      ],
+      "verified_scope": "英语民间翻译的前编辑口述与职业漫画本地化材料可支持工序实例；不混写为中文汉化组在相同年代的统一流程。"
+    },
+    {
+      "id": "translation-manga-redraw-sfx",
+      "category": "translation",
+      "title": "漫画修图、拟声字、字体与阅读方向",
+      "kind": "culture",
+      "period_hint": "具体作者记录和页面另核",
+      "theme_connection": "翻译还包括视觉表达与画面修补",
+      "visual_candidate": "文字暂时离开气泡，重绘与排版图层在观众四周逐层合拢",
+      "status": "candidate-needs-recheck",
+      "sources": [
+        "lettering-author2023",
+        "lettering-industry2020"
+      ],
+      "verified_scope": "职业嵌字资料描述音效、字体与修补；具体中文民间项目的页面和年代仍待核。"
+    },
+    {
+      "id": "translation-anime-fansub",
+      "category": "translation",
+      "title": "番剧字幕组的翻译、校对、时间轴与发布协作",
+      "kind": "culture",
+      "period_hint": "具体组史与工作流待原始记录",
+      "theme_connection": "一集能够被理解的作品包含集体劳动",
+      "visual_candidate": "对白、译文、时间轴和画面在多个空间对齐，字幕终于落到恰当时刻",
+      "status": "candidate-needs-recheck",
+      "sources": [
+        "aegisub-translation-assistant",
+        "aegisub-typesetting"
+      ],
+      "verified_scope": "已核工具中的翻译与排版功能，尚不能据此确认某字幕组人员分工、建组日期或工作量。"
+    },
+    {
+      "id": "translation-subtitle-style-karaoke",
+      "category": "translation",
+      "title": "字幕排版、背景文字与卡拉 OK 特效",
+      "kind": "culture",
+      "period_hint": "工具功能与具体组作风分别核对",
+      "theme_connection": "技术与审美共同构成字幕制作文化",
+      "visual_candidate": "歌词沿音乐事件发亮，片头署名从字幕层展开为三维排版",
+      "status": "summary-verified",
+      "sources": [
+        "aegisub-typesetting"
+      ],
+      "verified_summary": "Aegisub 排版文档明确对白、背景文字/标牌翻译，以及片名字卡和卡拉 OK 等设计；只确认功能和排版原则，不确认具体组史、作品或年代。"
+    },
+    {
+      "id": "translation-credits-readme",
+      "category": "translation",
+      "title": "汉化/字幕组署名页、组标、说明与合作名单",
+      "kind": "culture",
+      "period_hint": "具体组标、声明原文和日期另核",
+      "theme_connection": "作品被记住时，转译与整理的劳动也能被看见",
+      "visual_candidate": "发布前先看见多人分工，流传时保留名字或呈现名字被抹去的变化",
+      "status": "candidate-needs-recheck",
+      "sources": [
+        "thpatch-staff"
+      ],
+      "verified_scope": "已有项目分工与公开角色名单；片内字幕组标、原始声明与汉化发布页仍分别待核。"
+    },
+    {
+      "id": "translation-collaboration-recruitment",
+      "category": "translation",
+      "title": "翻译校对招募、术语表、进度与接坑",
+      "kind": "culture",
+      "period_hint": "具体公开招募/项目记录另核",
+      "theme_connection": "自发协作依靠组织、知识积累和持续投入",
+      "visual_candidate": "进度板、术语争论与招募空位占据工作区，后来者接续已有资料",
+      "status": "candidate-needs-recheck",
+      "sources": [
+        "thpatch-tutorial",
+        "thpatch-staff",
+        "scanlation-oral2009"
+      ],
+      "verified_scope": "已有协作教程、人员分工与项目交接口述；不概括所有中文组的招募、术语表和停更经历。"
+    },
+    {
+      "id": "translation-release-filenames",
+      "category": "translation",
+      "title": "发布帖、文件命名、分辨率、字幕与修订版本",
+      "kind": "culture",
+      "period_hint": "格式和各标签流行年代分别核对",
+      "theme_connection": "用户借发布元数据辨认版本与贡献",
+      "visual_candidate": "虚构片名的长文件名展开为字幕、集数、版本和署名图层",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "translation-audience-terms",
+      "category": "translation",
+      "title": "生肉/熟肉、开坑/填坑、催更与补档求助",
+      "kind": "culture",
+      "period_hint": "用语起源与具体语境待核",
+      "theme_connection": "共同语言、等待与贡献者承受的期待",
+      "visual_candidate": "弹幕或回帖从感谢与讨论变成请求堆积，停在可理解而非必须读完的密度",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "sharing-bt-release-indexes",
+      "category": "sharing",
+      "title": "BT 发布站、动漫索引、分类目录与发布帖",
+      "kind": "culture",
+      "period_hint": "具体站点、截图、存续和关停日期另核",
+      "theme_connection": "发现、整理、发布和传输由不同人承担",
+      "visual_candidate": "索引目录展开为门与展架，发布帖旁可看见版本、贡献与社区讨论",
+      "status": "candidate-needs-recheck",
+      "sources": [
+        "btchina-interview2009",
+        "bittorrent-bep3"
+      ],
+      "verified_scope": "有 BTChina 2009 同期采访中的搜索/索引站自述；具体页面布局除当时蓝色简易界面的文字描述外，截图和其他站点另核。"
+    },
+    {
+      "id": "sharing-bt-pieces-upload",
+      "category": "sharing",
+      "title": "BT 分块交换：接收者也能上传已有块",
+      "kind": "technical-mechanism",
+      "period_hint": "跨年代机制；规范核对不等于中文社区起始日",
+      "theme_connection": "共享传播可以由许多普通接收者共同承担",
+      "visual_candidate": "不同位置持有不同色块，边接收边转交，逐步拼成完整画面",
+      "status": "summary-verified",
+      "sources": [
+        "bittorrent-bep3"
+      ],
+      "verified_summary": "BEP 3 明确文件分块、校验已有块并通告、下载者可互相上传；技术机制已核，不据此推断某站规模或某社群普遍实践。"
+    },
+    {
+      "id": "sharing-bt-trackers-discovery",
+      "category": "sharing",
+      "title": "索引站、Tracker、DHT 与实际文件副本的区别",
+      "kind": "technical-mechanism",
+      "period_hint": "按具体协议能力和站点版本分别标年",
+      "theme_connection": "目录、寻找同伴和保存内容是不同层次",
+      "visual_candidate": "目录牌熄灭时，已有连接可仍在；某些入口消失使后来的寻找更加困难",
+      "status": "summary-verified",
+      "sources": [
+        "bittorrent-bep3",
+        "bittorrent-bep5"
+      ],
+      "verified_summary": "BEP 3 分列网页/metainfo、Tracker 与 peers；BEP 5 描述 DHT 保存 peer 联系信息。可区分索引、发现与传输，不将站点关停等同于全部文件被删除。"
+    },
+    {
+      "id": "sharing-bt-rare-piece",
+      "category": "sharing",
+      "title": "可用分块不足、等待与重新出现的来源",
+      "kind": "technical-mechanism",
+      "period_hint": "虚构场景须符合分块与可用性条件",
+      "theme_connection": "完整传播依赖仍有人保存并提供所需内容",
+      "visual_candidate": "缺少的块始终暗着，持有该块的来源出现后进度才继续；不只凭 seed 数判断",
+      "status": "summary-verified",
+      "sources": [
+        "bittorrent-bep3"
+      ],
+      "verified_summary": "按 BEP 3 的分块交换机制，当前可访问 peers 的已有块若覆盖全部内容，完整 seed 数为 0 不单独证明永远无法完成；若所需块当前不可获得，则不能仅靠这些节点补齐。是机制推导与场景约束，不是特定历史下载实录。"
+    },
+    {
+      "id": "sharing-bt-seeding-retention",
+      "category": "sharing",
+      "title": "下载后继续做种、长期保种与带宽维护",
+      "kind": "culture",
+      "period_hint": "具体社群实践、承诺与成本待核",
+      "theme_connection": "完成自己的下载之后仍愿意贡献资源",
+      "visual_candidate": "下载完成提示之后上传仍在继续，散布各处的节点维持共享而非只照亮一个英雄",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "sharing-private-tracker-culture",
+      "category": "sharing",
+      "title": "PT 社群的邀请、分享率与保种规则",
+      "kind": "culture",
+      "period_hint": "站点规则各不相同，具体实例另核",
+      "theme_connection": "资源维护、互惠约束和进入门槛之间的张力",
+      "visual_candidate": "门边出现社区规则与保种面板，与开放目录形成制度上的并置",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "loss-fansub-project-suspension",
+      "category": "loss",
+      "title": "汉化/字幕项目停更、未完成与后续接手",
+      "kind": "event-topic",
+      "period_hint": "具体公告、原因和日期待查，不归为单一趋势",
+      "theme_connection": "未完成作品背后也有术语、工具和已经付出的劳动",
+      "visual_candidate": "完成了一部分的文本、时间轴和项目页仍在，新的提交从已有成果继续",
+      "status": "candidate-needs-recheck",
+      "sources": [
+        "scanlation-oral2009"
+      ],
+      "verified_scope": "口述提供人员交接、现实生活与品质要求影响项目进度的实例；不代表全部组，也不将英语漫画翻译经历写成某中文字幕组事实。"
+    },
+    {
+      "id": "loss-index-pages-and-data",
+      "category": "loss",
+      "title": "索引站或发布社区关停与散落的副本",
+      "kind": "event-topic",
+      "period_hint": "按具体站点及各次变动核对",
+      "theme_connection": "入口、版本说明与社群记录的消失不同于文件全部消失",
+      "visual_candidate": "熟悉首页撤空，仍亮的副本与断开的目录分处不同距离",
+      "status": "candidate-needs-recheck",
+      "sources": [
+        "btchina-interview2009",
+        "btchina-report2009",
+        "bittorrent-bep3",
+        "bittorrent-bep5"
+      ],
+      "verified_scope": "BTChina 关站有单独事件记录，文件与入口的差别有协议依据；其他关站个案与影响另核。"
+    },
+    {
+      "id": "preserve-translation-reseed",
+      "category": "preservation",
+      "title": "译稿、术语表、字幕工程、版本记录与补档续种",
+      "kind": "preservation",
+      "period_hint": "具体保存案例、来源与可复用范围另核",
+      "theme_connection": "后来者继承的是内容、知识与贡献记录",
+      "visual_candidate": "旧稿和工程资料再次对齐成可读作品，缺块补齐后由多处继续转交",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "event-btchina-2009",
+      "category": "loss",
+      "title": "BTChina 2009 年关站报道与维护者采访",
+      "kind": "event",
+      "period_hint": "2009-12-04 起被发现无法访问；12-08 采访；12-09/11 报道",
+      "theme_connection": "自发整理传播背后的维护，以及入口消失与分散副本的差别",
+      "visual_candidate": "索引首页与维护便笺、服务器支出并置；目录熄灭后仍保留散落副本，不把全网文件同时抹去",
+      "status": "summary-verified",
+      "sources": [
+        "btchina-interview2009",
+        "btchina-report2009"
+      ],
+      "verified_summary": "同期报道支持 2009 年 12 月初该站关闭/无法访问；编写脚本、租服务器、各有本职工作等为受访者自述。法律理由、经营性质与文末产业链推测不作独立认定；尚无可据以精确复刻首页的截图。"
+    },
+    {
+      "id": "cn-portal-navigation",
+      "category": "chinese-web",
+      "title": "中文门户、网址导航与分类链接",
+      "kind": "culture",
+      "period_hint": "具体门户与页面版本分别核对",
+      "theme_connection": "公开内容怎样被找到和串联",
+      "visual_candidate": "新浪/搜狐/网易等门户栏目与网址目录在四周展开，链接接到个人站和内容空间",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "cn-tianya-long-threads",
+      "category": "chinese-web",
+      "title": "天涯社区的长帖、连载、经验与回帖",
+      "kind": "culture",
+      "period_hint": "1999-03-01 成立日期见后续报道；2009-08-05 首页存档；早期连载访谈回忆另记",
+      "theme_connection": "普通人的写作、知识和共同讨论可以长期积累",
+      "visual_candidate": "帖子分页与楼层向纵深展开，不同位置补充、争论和续写",
+      "status": "summary-verified",
+      "sources": [
+        "tianya-history2019",
+        "tianya-bbs-archive2009",
+        "tianya-interview2026"
+      ],
+      "verified_summary": "有成立日期报道、2009 原页版块/热帖文字存档和 2026 作者对连载、回帖、加载困难的回忆；不据回忆独立确定原帖年份，不声称已取得早期完整截图。",
+      "visual_sources_status": "archived-text-and-interview-available-full-old-layout-unverified"
+    },
+    {
+      "id": "cn-mop-xici-forums",
+      "category": "chinese-web",
+      "title": "猫扑、西祠等社区的版面、恶搞与讨论",
+      "kind": "culture",
+      "period_hint": "具体站点、板块与年代分别核对",
+      "theme_connection": "不同社群形成自己的语言、表达和聚集方式",
+      "visual_candidate": "不同风格版面和签名构成同时存在的活动区域，梗与普通交流交错",
+      "status": "candidate-needs-recheck",
+      "sources": [
+        "bbs-revisit2013"
+      ],
+      "verified_scope": "有西祠讨论版/版主具体回访，猫扑只被并列提及；猫扑专属界面、梗与机制仍候选。"
+    },
+    {
+      "id": "cn-campus-bbs",
+      "category": "chinese-web",
+      "title": "中文校园/学生 BBS、站务与本地服务",
+      "kind": "culture",
+      "period_hint": "平台来源、学校关系与版本分别核对",
+      "theme_connection": "学生社群、技术问答、生活经验和自治劳动",
+      "visual_candidate": "板块列表接到公告栏、答疑桌和各自活动的人群，不把同名或分化平台混为一站",
+      "status": "candidate-needs-recheck",
+      "sources": [
+        "bbs-revisit2013"
+      ],
+      "verified_scope": "已补东南大学虎踞龙蟠 BBS 的站务、分区与校内/公网访问回忆；水木、未名、北邮人等仍分别待核。",
+      "documented_examples": [
+        {
+          "name": "东南大学虎踞龙蟠 BBS",
+          "scope": "2013 地方媒体回访案例，不代表全部校园 BBS。"
+        }
+      ]
+    },
+    {
+      "id": "cn-baidu-tieba",
+      "category": "chinese-web",
+      "title": "百度贴吧的主题聚集、盖楼与同好发布",
+      "kind": "culture",
+      "period_hint": "官方 2023 回顾称始于 2003；具体功能和旧画面分别核对",
+      "theme_connection": "按共同兴趣找到同伴，积累帖子、知识与作品",
+      "visual_candidate": "搜索词展开为主题房间和回帖分支，招募、教程与讨论通向制作工位",
+      "status": "summary-verified",
+      "sources": [
+        "tieba-official2023"
+      ],
+      "verified_summary": "官方描述以关键词结合搜索聚集共同兴趣；后续功能有自己的日期，当前页面不是初版图，盖楼用语与具体社区经历另核。"
+    },
+    {
+      "id": "cn-renren-xiaonei",
+      "category": "chinese-web",
+      "title": "校内/人人的校园熟人网络与记录",
+      "kind": "culture",
+      "period_hint": "2005-12 校内服务发布；2007 首页存档；2009-08-04 宣布更名",
+      "theme_connection": "同学关系、相册、日志和状态进入网络",
+      "visual_candidate": "相册与日志从桌面展开，转贴连接朋友和原作者，记录的保存与迁移参与后段",
+      "status": "summary-verified",
+      "sources": [
+        "xiaonei-campus2006",
+        "xiaonei-home-archive2007",
+        "oakpacific-archive2010",
+        "renren-rename2009"
+      ],
+      "verified_summary": "同期报道支持校内服务推出、校园使用与更名；2007 首页文案列日志/相册/好友动态。母公司成立与服务上线分开，不推定所有用户/页面同步变化或现今历史数据可用。",
+      "visual_sources_status": "contemporaneous-text-and-archived-home-copy-original-rendering-unverified"
+    },
+    {
+      "id": "cn-kaixin-familiar-social",
+      "category": "chinese-web",
+      "title": "开心网与熟人社交中的小游戏、状态和互访",
+      "kind": "culture",
+      "period_hint": "具体产品、游戏与各功能年代待核",
+      "theme_connection": "日常、社交和娱乐交织成平台生活",
+      "visual_candidate": "游戏与状态小窗口分布在人群之间；与现有偷菜条目关联，不把各产品规则混写",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "cn-blog-bsp-independent",
+      "category": "chinese-web",
+      "title": "新浪博客、博客大巴与独立博客/RSS",
+      "kind": "culture",
+      "period_hint": "各服务与页面版本分别核对",
+      "theme_connection": "个人积累、订阅、评论和引用构成可延续的表达",
+      "visual_candidate": "长文、友情链接、订阅与评论展开成多层内容，作者和引用来源保持可见",
+      "status": "candidate-needs-recheck",
+      "sources": [
+        "weibo-review2009"
+      ],
+      "verified_scope": "2009 评测列新浪博客、QQ空间、百度空间、搜狐/天涯/MSN/网易等同步对象，可证明当时接口文案；博客大巴、RSS和独立博客的具体史实仍另核，评测作者对同步实现的猜测不作技术结论。"
+    },
+    {
+      "id": "cn-sina-weibo-early",
+      "category": "chinese-web",
+      "title": "新浪微博早期短消息、转发、@与话题",
+      "kind": "culture",
+      "period_hint": "2009 夏季内测、秋季扩大测试/功能；不合并为单一正式上线日",
+      "theme_connection": "公开表达和聚集变快，来源与上下文的传播条件改变",
+      "visual_candidate": "一条短消息沿转发路径扩散，原文、补充和评论处于不同距离，后期功能不倒放到早期",
+      "status": "summary-verified",
+      "sources": [
+        "weibo-review2009",
+        "weibo-testing2009",
+        "weibo-chronology2014"
+      ],
+      "verified_summary": "2009 评测支持140字、话题/图片输入和博客同步、申请测试状态；同期采访支持测试与计划公测区分。@ 具体日期为2014回顾，私信日期冲突待核；不将后来的热搜或其他功能直接放入初版。",
+      "visual_sources_status": "figure-positions-located-images-not-retrieved",
+      "visual_references": [
+        {
+          "caption": "评测图6：话题与输入界面候选",
+          "url": "https://upload.qudong.com/uploads/allimg/090831/1500495.png",
+          "status": "source-figure-location-known-image-not-retrieved",
+          "date_basis": "2009-08-31转载评测配图，实际拍摄日未标"
+        },
+        {
+          "caption": "评测图8：博客同步/首次发布候选",
+          "url": "https://upload.qudong.com/uploads/allimg/090831/1500497.png",
+          "status": "source-figure-location-known-image-not-retrieved",
+          "date_basis": "2009-08-31转载评测配图，实际拍摄日未标"
+        }
+      ]
+    },
+    {
+      "id": "cn-tencent-weibo",
+      "category": "chinese-web",
+      "title": "腾讯微博等不同微博产品的界面与竞争",
+      "kind": "culture",
+      "period_hint": "与新浪微博分开记录，推出及功能待核",
+      "theme_connection": "同类表达方式由不同产品和生态承载",
+      "visual_candidate": "相似消息流在不同入口出现；平台变化后保留各自记录与迁移问题",
+      "status": "candidate-needs-recheck",
+      "sources": [],
+      "scope_note": "2009 新浪评测中提及的腾讯“滔滔”不能直接当作后来腾讯微博的上线证据，具体产品分别核对。"
+    },
+    {
+      "id": "cn-douban-interest",
+      "category": "chinese-web",
+      "title": "豆瓣的书影音记录、评论、小组与主页",
+      "kind": "culture",
+      "period_hint": "网站上线与各功能上线分开核对",
+      "theme_connection": "用户共同整理文化经验并组织兴趣生活",
+      "visual_candidate": "条目、短评、长评和小组讨论构成不同空间，可接翻译作品与VRChat兴趣社群",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "cn-forum-points-signatures",
+      "category": "chinese-web",
+      "title": "论坛头像、等级、积分、签名与版面习惯",
+      "kind": "culture",
+      "period_hint": "具体平台规则和界面版本待核",
+      "theme_connection": "身份表达、地位标记与社区管理形成独特经验",
+      "visual_candidate": "头像和签名先承载个性，等级与规则在人物周围显形；并置名牌但不宣称相同机制",
+      "status": "candidate-needs-recheck",
+      "sources": [
+        "tianya-bbs-archive2009",
+        "bbs-revisit2013"
+      ],
+      "verified_scope": "存档和报道支持部分排行、版主称呼与社区管理，具体头像、积分、等级和签名视觉仍待对应版面。"
+    },
+    {
+      "id": "cn-reposting-credit",
+      "category": "chinese-web",
+      "title": "转帖、引用、注明出处与来源逐渐脱落",
+      "kind": "culture",
+      "period_hint": "具体帖子与原始/转述关系逐项核对",
+      "theme_connection": "传播带来可见性，也可能使原作者和上下文难以追溯",
+      "visual_candidate": "同一篇内容被转成不同形态，保留原链接或展示其在转手中消失",
+      "status": "candidate-needs-recheck",
+      "sources": [
+        "xiaonei-home-archive2007",
+        "weibo-review2009"
+      ],
+      "verified_scope": "已有分享/同步/内容传播的早期文案；署名脱落是待选表达议题，不据此指控某平台必然抹除来源。"
+    },
+    {
+      "id": "cn-public-topics-corrections",
+      "category": "chinese-web",
+      "title": "公共话题中的围观、求证、辟谣与争论",
+      "kind": "culture",
+      "period_hint": "具体公共事件和材料待选，不将标题指控当事实",
+      "theme_connection": "参与讨论需要资料、核实与承担影响",
+      "visual_candidate": "消息、人群与证据以不同节奏出现，补充资料改变观众原先看到的短句",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "cn-moderation-visibility-rules",
+      "category": "chinese-web",
+      "title": "版主、公约、审核、删帖与内容可见性",
+      "kind": "editorial-topic",
+      "period_hint": "各平台与时期的规则、行动和理由分别核对",
+      "theme_connection": "保护、秩序、表达和平台控制之间存在选择与成本",
+      "visual_candidate": "公约、管理动作和内容状态改变同一公共空间，不能只以页面消失推断原因",
+      "status": "candidate-needs-recheck",
+      "sources": [
+        "bbs-revisit2013"
+      ],
+      "verified_scope": "回访可支持版主和站务劳动；具体删帖、公约和审核措施仍需对应案例，不从页面缺失推断原因。"
+    },
+    {
+      "id": "cn-reading-subscription-discovery",
+      "category": "chinese-web",
+      "title": "目录、收藏、RSS、好友动态与推荐发现",
+      "kind": "editorial-topic",
+      "period_hint": "这些路径长期并存，不预设唯一替代顺序",
+      "theme_connection": "读者寻找内容的方式影响谁能被看见和作品如何流传",
+      "visual_candidate": "观众主动点选、订阅到访与自动流入的内容交织，保留每条入口的来路",
+      "status": "candidate-needs-recheck",
+      "sources": [
+        "xiaonei-home-archive2007",
+        "weibo-review2009"
+      ],
+      "verified_scope": "有好友动态和跨博客同步的早期资料，不能把作者对 RSS 的猜测当实现事实；具体目录、订阅与推荐机制仍分别待核。"
+    },
+    {
+      "id": "cn-personal-records-preservation",
+      "category": "chinese-web",
+      "title": "日志、相册、长帖、引用与版本的保存迁移",
+      "kind": "preservation",
+      "period_hint": "具体平台的数据可用性和保存案例待核",
+      "theme_connection": "文件存在、讨论留存、图片可见和作者能否取回记录是不同问题",
+      "visual_candidate": "同一页面中的文字、图片、评论分别暗下或保留，存档与本地副本补回部分层次",
+      "status": "candidate-needs-recheck",
+      "sources": [
+        "tianya-pause2023",
+        "tianya-interview2026",
+        "tianya-bbs-archive2009",
+        "xiaonei-home-archive2007"
+      ],
+      "verified_scope": "有平台对数据保存的关切、暂停/恢复公告报道和页面存档；不证明现今全部历史日志、相册或帖子已完整可用。"
+    },
+    {
+      "id": "cn-self-hosted-forums",
+      "category": "chinese-web",
+      "title": "Discuz!/phpwind 等建站工具与论坛维护",
+      "kind": "culture",
+      "period_hint": "具体工具版本、许可和站点实践待核",
+      "theme_connection": "普通人搭建社区也需要模板、空间、管理与维护",
+      "visual_candidate": "从后台和模板展开到前台板块，站长/版主工作与访客活动同时存在",
+      "status": "candidate-needs-recheck",
+      "sources": []
+    },
+    {
+      "id": "cn-tianya-access-2023",
+      "category": "chinese-web",
+      "title": "天涯 2023 暂停访问及平台说明",
+      "kind": "event",
+      "period_hint": "2023-04/05 访问中断；5/27 公告、5/28 报道",
+      "theme_connection": "长期社区内容依赖持续的基础设施和维护",
+      "visual_candidate": "等待页与原版块目录并置，另留数据和存档层，不把暂停表现成所有作品被抹去",
+      "status": "summary-verified",
+      "sources": [
+        "tianya-pause2023"
+      ],
+      "verified_summary": "公告回顾4/1暂停通知，报道记载4/25起无法打开；资金、IDC欠费与技术问题为平台解释，不独立认定原因，不宣称永久关闭或全部数据删除。"
+    },
+    {
+      "id": "cn-tianya-restoration-report-2026",
+      "category": "chinese-web",
+      "title": "天涯 2026 恢复访问公告的报道",
+      "kind": "event",
+      "period_hint": "2026-06-05 报道转述官方 6/1 恢复访问",
+      "theme_connection": "服务恢复、文化传承和数据完整性是不同层次的接续",
+      "visual_candidate": "原先中断的入口再次出现，已保存内容与仍待确认的部分各自可见，不将恢复公告演成全部历史复原",
+      "status": "summary-verified",
+      "sources": [
+        "tianya-interview2026"
+      ],
+      "verified_summary": "澎湃报道明确转述天涯官宣6/1恢复访问；本轮未实测所有入口与历史帖子完整性，不把2023暂停写成永久关闭，也不把公告等同于2026-10全部内容可用。"
+    }
+  ],
+  "related_catalogues": [
+    {
+      "file": "data/vrchat-materials.json",
+      "description": "VRChat 社区史：早期界面、Avatar、梗、Mod/EAC、资产、社群风险与 AI"
+    },
+    {
+      "file": "spec/13-chinese-web-history.md",
+      "description": "中文互联网公共生活：论坛、熟人SNS、博客、微博、兴趣社群与公共记忆"
+    }
+  ],
+  "checked_on": "2026-10-15"
+}

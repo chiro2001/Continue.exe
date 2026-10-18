@@ -1,0 +1,62 @@
+{
+  "schema": "forum-phpbb-3.0.8-smilies.1",
+  "project": "phpBB Project",
+  "upstream_repository": "https://github.com/phpbb/phpbb/tree/release-3.0.8/phpBB/images/smilies",
+  "tag": "release-3.0.8",
+  "release_announcement_url": "https://www.phpbb.com/community/viewtopic.php?f=14&t=2111068",
+  "release_date": "2010-11-20",
+  "date_basis": "Official phpBB 3.0.8 release announcement.",
+  "source_archive_url": "https://codeload.github.com/phpbb/phpbb/zip/refs/tags/release-3.0.8",
+  "source_archive_sha256": "725c678c6446f754bbe6ed0e8dd8af7c13703084e3ba0ee81f1c4f20911fe497",
+  "license": "GPL-2.0; COPYING from the release package is included. Verify the individual image licensing terms before public redistribution.",
+  "items": [
+    {
+      "filename": "icon_e_smile.gif",
+      "source_zip_member": "phpbb-release-3.0.8/phpBB/images/smilies/icon_e_smile.gif",
+      "size_bytes": 630,
+      "sha256": "922e07628efdacf04d3816cb42cd311b8843ad01b4f8c79b4f39d4d839b0ce91"
+    },
+    {
+      "filename": "icon_e_biggrin.gif",
+      "source_zip_member": "phpbb-release-3.0.8/phpBB/images/smilies/icon_e_biggrin.gif",
+      "size_bytes": 627,
+      "sha256": "4cc92a608cb9082ceaa8871b993bc9632e3ff0d1fcdc1d460a3a935062b84874"
+    },
+    {
+      "filename": "icon_e_wink.gif",
+      "source_zip_member": "phpbb-release-3.0.8/phpBB/images/smilies/icon_e_wink.gif",
+      "size_bytes": 630,
+      "sha256": "0d62fc894a10bf6d3ca2f0c71d7df6c3d0946eaa02297745b45480f79d85f02e"
+    },
+    {
+      "filename": "icon_e_surprised.gif",
+      "source_zip_member": "phpbb-release-3.0.8/phpBB/images/smilies/icon_e_surprised.gif",
+      "size_bytes": 415,
+      "sha256": "805314b0505bc4d143209dab2b45e4e45d8d3077a424cff1227747253735a3d5"
+    },
+    {
+      "filename": "icon_e_sad.gif",
+      "source_zip_member": "phpbb-release-3.0.8/phpBB/images/smilies/icon_e_sad.gif",
+      "size_bytes": 628,
+      "sha256": "4ea9ca68e5599672f04acd76857068a3c5fdda4dc8e2e7f94c3b2d38b90f77b7"
+    },
+    {
+      "filename": "icon_e_confused.gif",
+      "source_zip_member": "phpbb-release-3.0.8/phpBB/images/smilies/icon_e_confused.gif",
+      "size_bytes": 628,
+      "sha256": "dce2e5c3805c155ceb313de4c339b4718040cf32d19a7218953a705bdeea5990"
+    },
+    {
+      "filename": "icon_cool.gif",
+      "source_zip_member": "phpbb-release-3.0.8/phpBB/images/smilies/icon_cool.gif",
+      "size_bytes": 408,
+      "sha256": "f628cb87a148d1f3dcbb4cba0b0ba7e3a4c56acc5a0b23f2ea7c86f108df585a"
+    },
+    {
+      "filename": "icon_lol.gif",
+      "source_zip_member": "phpbb-release-3.0.8/phpBB/images/smilies/icon_lol.gif",
+      "size_bytes": 707,
+      "sha256": "89ccb750653bfe3f34358971241830db883d6ce8edfa122bfdc25326e4f08077"
+    }
+  ]
+}

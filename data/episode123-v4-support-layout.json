@@ -1,0 +1,247 @@
+{
+  "version": 1,
+  "spec": "spec/41-v4-focus-spacing-and-sound.md",
+  "library": "data/episode123-v4-score.json",
+  "independent_image_sources_added": 0,
+  "maximum_persistent_support_quads": 4,
+  "reference_eye": [
+    0,
+    1.35,
+    -2.8
+  ],
+  "viewer_position_radius_metres": 0.3,
+  "focus_support_phase": "hold",
+  "support_exposure": 0.56,
+  "history_exposure": 0.5,
+  "rows": [
+    {
+      "kind": "focus",
+      "focus_image": "desktop-a2a3aabf7bc5",
+      "images": [
+        "desktop-10e78456c5c9",
+        "desktop-42894146dfc0",
+        "desktop-1dd2be7411f8"
+      ],
+      "theme": "1995：命令、运行与文件"
+    },
+    {
+      "kind": "focus",
+      "focus_image": "desktop-6f670e11ded1",
+      "images": [
+        "desktop-6ec9ffe65d35",
+        "desktop-67bd01ecf872"
+      ],
+      "theme": "1995：桌面的日常工具"
+    },
+    {
+      "kind": "focus",
+      "focus_image": "desktop-408b3546a859",
+      "images": [
+        "desktop-4560e18fef77",
+        "desktop-7c79d61756ce"
+      ],
+      "theme": "2001：同一桌面里的制作与整理"
+    },
+    {
+      "kind": "focus",
+      "focus_image": "workflow-homepage-2",
+      "images": [
+        "workflow-homepage-1",
+        "workflow-homepage-3"
+      ],
+      "theme": "个人主页：源码、预览与上传"
+    },
+    {
+      "kind": "focus",
+      "focus_image": "workflow-tieba-2",
+      "images": [
+        "workflow-tieba-1",
+        "workflow-tieba-4"
+      ],
+      "theme": "论坛：进入版面与整理索引"
+    },
+    {
+      "kind": "focus",
+      "focus_image": "workflow-manga-2",
+      "images": [
+        "workflow-manga-1",
+        "workflow-manga-3"
+      ],
+      "theme": "漫画汉化：原稿、翻译与嵌字"
+    },
+    {
+      "kind": "focus",
+      "focus_image": "panda-burning-incense-meme-2007",
+      "images": [
+        "qq-2005-ui",
+        "desktop-6d4c712a640a",
+        "workflow-bbs-2"
+      ],
+      "theme": "2007：桌面、联系人与求助回应"
+    },
+    {
+      "kind": "focus",
+      "focus_image": "xiaonei-home-2007",
+      "images": [
+        "workflow-xiaonei-2",
+        "workflow-xiaonei-3"
+      ],
+      "theme": "2007：相册、同学与个人主页"
+    },
+    {
+      "kind": "focus",
+      "focus_image": "vrc-world-sdk-build-controller-2017",
+      "images": [
+        "workflow-world-1",
+        "workflow-world-2"
+      ],
+      "theme": "2017：搭建世界并准备贴图"
+    },
+    {
+      "kind": "focus",
+      "focus_image": "workflow-world-3",
+      "images": [
+        "workflow-world-2",
+        "workflow-world-4"
+      ],
+      "theme": "世界制作：贴图、光照与测试"
+    },
+    {
+      "kind": "focus",
+      "focus_image": "3q-cnet-popup",
+      "images": [
+        "3q-qq-letter-2010",
+        "3q-security-choice-options-2010"
+      ],
+      "theme": "2010：公开信与桌面上的选择"
+    },
+    {
+      "kind": "focus",
+      "focus_image": "3q-yukict-forum",
+      "images": [
+        "3q-sina-poll",
+        "3q-tencent-open-letter"
+      ],
+      "theme": "2010：新闻、公开信与论坛讨论"
+    },
+    {
+      "kind": "focus",
+      "focus_image": "vrchat-eac-2022",
+      "images": [
+        "vrchat-eac-security-banner-2022",
+        "vrchat-feedback-response"
+      ],
+      "theme": "2022：安全更新与官方反馈回应"
+    },
+    {
+      "kind": "focus",
+      "focus_image": "vrchat-accessibility-request",
+      "images": [
+        "vrchat-feedback-response",
+        "workflow-eac-3"
+      ],
+      "theme": "2022：访问需求与设置入口"
+    },
+    {
+      "kind": "focus",
+      "focus_image": "reddit-private-notice",
+      "images": [
+        "reddit-blackout-extension",
+        "workflow-maintain-1"
+      ],
+      "theme": "2023：关闭的社区入口与失效书签"
+    },
+    {
+      "kind": "operation",
+      "start": 10.24,
+      "end": 20.48,
+      "images": [
+        "windows98-se-desktop",
+        "desktop-acf845dacb7a"
+      ],
+      "theme": "1998：文件操作旁的桌面与记事本",
+      "protect_width": 5.2,
+      "protect_height": 3.5,
+      "protect_depth": 6.1
+    },
+    {
+      "kind": "operation",
+      "start": 40.96,
+      "end": 51.2,
+      "images": [
+        "workflow-torrent-1",
+        "workflow-torrent-4"
+      ],
+      "theme": "2005—2007：制作种子与继续做种",
+      "protect_width": 5.6,
+      "protect_height": 3.6,
+      "protect_depth": 5.9
+    },
+    {
+      "kind": "operation",
+      "start": 61.44,
+      "end": 71.68,
+      "images": [
+        "fansub-1aa7087fb86d",
+        "fansub-faea80eedd3d"
+      ],
+      "theme": "字幕协作：样式编辑与导出",
+      "protect_width": 5.4,
+      "protect_height": 3.5,
+      "protect_depth": 5.9
+    },
+    {
+      "kind": "cast",
+      "start": 79.36,
+      "end": 86.4,
+      "images": [
+        "vrc-2017-hub-entrance",
+        "vrc-2017-hub-avatar-hall"
+      ],
+      "theme": "2017：进入同一个 Hub",
+      "protect_width": 2.15,
+      "protect_height": 1.8,
+      "protect_depth": 3.0
+    },
+    {
+      "kind": "cast",
+      "start": 86.4,
+      "end": 92.16,
+      "images": [
+        "official-2019-cross-platform",
+        "official-2019-hub"
+      ],
+      "theme": "2019：跨平台与围坐的 Hub",
+      "protect_width": 2.15,
+      "protect_height": 1.8,
+      "protect_depth": 3.0
+    },
+    {
+      "kind": "cast",
+      "start": 92.16,
+      "end": 102.4,
+      "images": [
+        "vrc-avatar-world-2018-example",
+        "workflow-vrc19-4"
+      ],
+      "theme": "2018—2019：不同身体，共同在场",
+      "protect_width": 2.15,
+      "protect_height": 1.8,
+      "protect_depth": 3.0
+    },
+    {
+      "kind": "maintenance",
+      "start": 128.0,
+      "end": 133.12,
+      "images": [
+        "current-unity-world-authoring",
+        "current-unity-kipfel"
+      ],
+      "theme": "现在：仍在维护的工程与人物",
+      "protect_width": 3.6,
+      "protect_height": 1.8,
+      "protect_depth": 3.0
+    }
+  ],
+  "focus_hold_margin_seconds": 0.02
+}

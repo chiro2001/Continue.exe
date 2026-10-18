@@ -1,0 +1,409 @@
+{
+  "success": true,
+  "reimports": [
+    {
+      "file": "fullfilm_v2_editor_frame.fbx",
+      "mesh_count": 53,
+      "triangles": 4762,
+      "bounds_blender_xyz_m": [
+        [
+          -2.0,
+          -0.1540001779794693,
+          -1.2999999523162842
+        ],
+        [
+          2.0,
+          0.11600019037723541,
+          1.2999999523162842
+        ]
+      ],
+      "span_blender_xyz_m": [
+        4.0,
+        0.2700003683567047,
+        2.5999999046325684
+      ],
+      "meshes_missing_uv": [],
+      "animation_data_count": 0,
+      "cameras_or_lights": 0,
+      "opening_rays": [
+        {
+          "sample_xz": [
+            -1.59,
+            -0.89
+          ],
+          "unobstructed": true
+        },
+        {
+          "sample_xz": [
+            -1.59,
+            0
+          ],
+          "unobstructed": true
+        },
+        {
+          "sample_xz": [
+            -1.59,
+            0.89
+          ],
+          "unobstructed": true
+        },
+        {
+          "sample_xz": [
+            0,
+            -0.89
+          ],
+          "unobstructed": true
+        },
+        {
+          "sample_xz": [
+            0,
+            0
+          ],
+          "unobstructed": true
+        },
+        {
+          "sample_xz": [
+            0,
+            0.89
+          ],
+          "unobstructed": true
+        },
+        {
+          "sample_xz": [
+            1.59,
+            -0.89
+          ],
+          "unobstructed": true
+        },
+        {
+          "sample_xz": [
+            1.59,
+            0
+          ],
+          "unobstructed": true
+        },
+        {
+          "sample_xz": [
+            1.59,
+            0.89
+          ],
+          "unobstructed": true
+        }
+      ],
+      "ui_uv": {
+        "UI_TopToolbar": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "UI_TopTitle": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "UI_LeftHierarchy": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "UI_RightInspector": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "UI_BottomTimeline": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "file": "fullfilm_v2_editor_frame.glb",
+      "mesh_count": 53,
+      "triangles": 4762,
+      "bounds_blender_xyz_m": [
+        [
+          -2.0,
+          -0.15399999916553497,
+          -1.2999999523162842
+        ],
+        [
+          2.0,
+          0.11599999666213989,
+          1.2999999523162842
+        ]
+      ],
+      "span_blender_xyz_m": [
+        4.0,
+        0.26999999582767487,
+        2.5999999046325684
+      ],
+      "meshes_missing_uv": [],
+      "animation_data_count": 0,
+      "cameras_or_lights": 0,
+      "opening_rays": [
+        {
+          "sample_xz": [
+            -1.59,
+            -0.89
+          ],
+          "unobstructed": true
+        },
+        {
+          "sample_xz": [
+            -1.59,
+            0
+          ],
+          "unobstructed": true
+        },
+        {
+          "sample_xz": [
+            -1.59,
+            0.89
+          ],
+          "unobstructed": true
+        },
+        {
+          "sample_xz": [
+            0,
+            -0.89
+          ],
+          "unobstructed": true
+        },
+        {
+          "sample_xz": [
+            0,
+            0
+          ],
+          "unobstructed": true
+        },
+        {
+          "sample_xz": [
+            0,
+            0.89
+          ],
+          "unobstructed": true
+        },
+        {
+          "sample_xz": [
+            1.59,
+            -0.89
+          ],
+          "unobstructed": true
+        },
+        {
+          "sample_xz": [
+            1.59,
+            0
+          ],
+          "unobstructed": true
+        },
+        {
+          "sample_xz": [
+            1.59,
+            0.89
+          ],
+          "unobstructed": true
+        }
+      ],
+      "ui_uv": {
+        "UI_BottomTimeline": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "UI_LeftHierarchy": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "UI_RightInspector": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "UI_TopTitle": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "UI_TopToolbar": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ]
+      }
+    }
+  ]
+}

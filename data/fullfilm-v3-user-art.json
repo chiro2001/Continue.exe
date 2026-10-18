@@ -1,0 +1,829 @@
+{
+  "schema": "fullfilm-v3-user-art.1",
+  "generator": "tools/prepare_fullfilm_v3_user_art.py",
+  "crop_convention": "[left,top,right,bottom] pixels, top-left origin; right/bottom exclusive",
+  "source_policy": "Original user PNG files are read-only. Crops preserve source RGB pixels without resizing.",
+  "ui_nature": "Authored performance UI derivative using a project period-style frame; not a historical software screenshot.",
+  "assets": [
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-comic-original.png",
+      "name": "user-comic-original.png",
+      "role": "comic-original",
+      "source": "art/source/fullfilm-v3-user-images/星空下的原文与中文译文.png",
+      "source_sha256": "cf82779b8295c82672c21181855c3f9d864f1b264125d6eca23d8f2f91c2a18b",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        18,
+        51,
+        820,
+        921
+      ],
+      "size_px": [
+        802,
+        870
+      ],
+      "sha256": "3598fce7d9017567cfb9db5a601c60c14d2ae8630e5fd6a5c14ebfdf2af4b012",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-comic-clean.png",
+      "name": "user-comic-clean.png",
+      "role": "comic-clean",
+      "source": "art/source/fullfilm-v3-user-images/星夜山巅的漫画对白.png",
+      "source_sha256": "728193caceb5c1692a2b22a241d77248ef12b761b3e935d37ebda13348a373cf",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        18,
+        51,
+        820,
+        921
+      ],
+      "size_px": [
+        802,
+        870
+      ],
+      "sha256": "570b5dc2a6ed37ee6d77dc952904570e414e4ae9234019fd1c06e157565049d9",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-comic-chinese.png",
+      "name": "user-comic-chinese.png",
+      "role": "comic-chinese",
+      "source": "art/source/fullfilm-v3-user-images/星夜山巅的漫画对白.png",
+      "source_sha256": "728193caceb5c1692a2b22a241d77248ef12b761b3e935d37ebda13348a373cf",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        854,
+        51,
+        1656,
+        921
+      ],
+      "size_px": [
+        802,
+        870
+      ],
+      "sha256": "69948f54e7b48f32fddb083462bcc2ea4e4c967e730e0673df4dbb38093552cb",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-game-original.png",
+      "name": "user-game-original.png",
+      "role": "game-original",
+      "source": "art/source/fullfilm-v3-user-images/原文与中文译文：月下古桥奇境.png",
+      "source_sha256": "e141b219b8f086d81f640e30d014edc1ed0068bd72e3400243cc4aa39cf9c2a0",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        0,
+        0,
+        830,
+        941
+      ],
+      "size_px": [
+        830,
+        941
+      ],
+      "sha256": "b4daf957323055819698438a6c01e4ad93ae447dc7fe2ae916fe49bfeb9e314a",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-game-chinese.png",
+      "name": "user-game-chinese.png",
+      "role": "game-chinese",
+      "source": "art/source/fullfilm-v3-user-images/原文与中文译文：月下古桥奇境.png",
+      "source_sha256": "e141b219b8f086d81f640e30d014edc1ed0068bd72e3400243cc4aa39cf9c2a0",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        842,
+        0,
+        1672,
+        941
+      ],
+      "size_px": [
+        830,
+        941
+      ],
+      "sha256": "efde03dc44228d4231e7d8690ee8e79c6baeeea543e4d5759d50d58f2a9058e7",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-homepage.png",
+      "name": "user-homepage.png",
+      "role": "homepage",
+      "source": "art/source/fullfilm-v3-user-images/夜航邮局：星海寄信之夜.png",
+      "source_sha256": "281f5bc69e6a1c6facbcf381c8062c95c992cf997519589c47964475a7e9faaa",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "size_px": [
+        1672,
+        941
+      ],
+      "sha256": "81f1645e67bcdbc8f892b794204ea44bda86c274917074358084f26f5bfeb6c8",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-still-life.png",
+      "name": "user-still-life.png",
+      "role": "still-life",
+      "source": "art/source/fullfilm-v3-user-images/温馨创作者桌面时光.png",
+      "source_sha256": "8a65bfcd0b6a6f5cd194d1e47a8a3f65c5e0e9e7ae55d313eff964d68e2ca5f5",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "size_px": [
+        1672,
+        941
+      ],
+      "sha256": "ec0108a1819b8d140471f0fcd1c0f68baf51f1bd6389da58a802b6b841c09d5f",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-concept.png",
+      "name": "user-concept.png",
+      "role": "world-concept",
+      "source": "art/source/fullfilm-v3-user-images/水上花园圆亭与落日光影.png",
+      "source_sha256": "04d750cabb0e98af6519d936bbf0d71dc9cb7ba377525a5e339919c7f23c168b",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "size_px": [
+        1672,
+        941
+      ],
+      "sha256": "451a697506475da4e45cfd20ffed6a6a2fc6126b56fdc8e7c251716d93ac366f",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-flash-00.png",
+      "name": "user-flash-00.png",
+      "role": "flash-frame",
+      "source": "art/source/fullfilm-v3-user-images/霓虹像素星辰六格动画分镜.png",
+      "source_sha256": "c45b2169ffe9aea8f66ffac10d69add5b367d645fc94be72846565ed55e90a49",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        3,
+        52,
+        553,
+        466
+      ],
+      "size_px": [
+        550,
+        414
+      ],
+      "sha256": "04a0c1f267660a83046f50608552614185e9fc8f0b68cb2520ddbb2bbe22ff30",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-flash-01.png",
+      "name": "user-flash-01.png",
+      "role": "flash-frame",
+      "source": "art/source/fullfilm-v3-user-images/霓虹像素星辰六格动画分镜.png",
+      "source_sha256": "c45b2169ffe9aea8f66ffac10d69add5b367d645fc94be72846565ed55e90a49",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        562,
+        52,
+        1112,
+        466
+      ],
+      "size_px": [
+        550,
+        414
+      ],
+      "sha256": "8daa5afd0643e0b987cd9ff8459e1031be8aef0455f46534cefdd536d1dd8468",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-flash-02.png",
+      "name": "user-flash-02.png",
+      "role": "flash-frame",
+      "source": "art/source/fullfilm-v3-user-images/霓虹像素星辰六格动画分镜.png",
+      "source_sha256": "c45b2169ffe9aea8f66ffac10d69add5b367d645fc94be72846565ed55e90a49",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        1118,
+        52,
+        1668,
+        466
+      ],
+      "size_px": [
+        550,
+        414
+      ],
+      "sha256": "734366df0339a856951ee432a2a824496728966606ca1c344fabebb380eb47bb",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-flash-03.png",
+      "name": "user-flash-03.png",
+      "role": "flash-frame",
+      "source": "art/source/fullfilm-v3-user-images/霓虹像素星辰六格动画分镜.png",
+      "source_sha256": "c45b2169ffe9aea8f66ffac10d69add5b367d645fc94be72846565ed55e90a49",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        3,
+        523,
+        553,
+        937
+      ],
+      "size_px": [
+        550,
+        414
+      ],
+      "sha256": "a458c774eaae9814eaef52fd50b6f1e6ff2c2300f5a8cf77a7d0e1f28fe2b486",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-flash-04.png",
+      "name": "user-flash-04.png",
+      "role": "flash-frame",
+      "source": "art/source/fullfilm-v3-user-images/霓虹像素星辰六格动画分镜.png",
+      "source_sha256": "c45b2169ffe9aea8f66ffac10d69add5b367d645fc94be72846565ed55e90a49",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        562,
+        523,
+        1112,
+        937
+      ],
+      "size_px": [
+        550,
+        414
+      ],
+      "sha256": "a56a5210e11f26dd7d03e21706ff27c1949c7e08a2d85792cafbb376a7b51fc5",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-flash-05.png",
+      "name": "user-flash-05.png",
+      "role": "flash-frame",
+      "source": "art/source/fullfilm-v3-user-images/霓虹像素星辰六格动画分镜.png",
+      "source_sha256": "c45b2169ffe9aea8f66ffac10d69add5b367d645fc94be72846565ed55e90a49",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        1118,
+        523,
+        1668,
+        937
+      ],
+      "size_px": [
+        550,
+        414
+      ],
+      "sha256": "72a6646c84845ca284c23c3f4965db5e6f331186592ece5780c8aa6fec66d79c",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-sticker-00.png",
+      "name": "user-sticker-00.png",
+      "role": "chat-sticker",
+      "source": "art/source/fullfilm-v3-user-images/猫咪聊天贴纸十二格合集.png",
+      "source_sha256": "d1e8ed6a7d264bb987454356eb04e48a820ad81620594541a4c60b7ae5c5345b",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        14,
+        13,
+        415,
+        305
+      ],
+      "size_px": [
+        401,
+        292
+      ],
+      "sha256": "2399c23c0528abfd81754a384e52b9eceabaa982d7dd4dd07ed5caddfdcd0d63",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-sticker-01.png",
+      "name": "user-sticker-01.png",
+      "role": "chat-sticker",
+      "source": "art/source/fullfilm-v3-user-images/猫咪聊天贴纸十二格合集.png",
+      "source_sha256": "d1e8ed6a7d264bb987454356eb04e48a820ad81620594541a4c60b7ae5c5345b",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        430,
+        13,
+        828,
+        305
+      ],
+      "size_px": [
+        398,
+        292
+      ],
+      "sha256": "c96db156862ea7d782a60efc0fce2a3ecba64f37a01246b3e5eae23c7a814545",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-sticker-02.png",
+      "name": "user-sticker-02.png",
+      "role": "chat-sticker",
+      "source": "art/source/fullfilm-v3-user-images/猫咪聊天贴纸十二格合集.png",
+      "source_sha256": "d1e8ed6a7d264bb987454356eb04e48a820ad81620594541a4c60b7ae5c5345b",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        845,
+        13,
+        1243,
+        305
+      ],
+      "size_px": [
+        398,
+        292
+      ],
+      "sha256": "2b289f2d824a32bdb5d4063f10473b676a2c927cb94d96f06a9ec14414938ced",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-sticker-03.png",
+      "name": "user-sticker-03.png",
+      "role": "chat-sticker",
+      "source": "art/source/fullfilm-v3-user-images/猫咪聊天贴纸十二格合集.png",
+      "source_sha256": "d1e8ed6a7d264bb987454356eb04e48a820ad81620594541a4c60b7ae5c5345b",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        1261,
+        13,
+        1660,
+        305
+      ],
+      "size_px": [
+        399,
+        292
+      ],
+      "sha256": "49951c5a71665727dd66cbdfb46762644f245a942a5cc6fcc82396e9b64fd483",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-sticker-04.png",
+      "name": "user-sticker-04.png",
+      "role": "chat-sticker",
+      "source": "art/source/fullfilm-v3-user-images/猫咪聊天贴纸十二格合集.png",
+      "source_sha256": "d1e8ed6a7d264bb987454356eb04e48a820ad81620594541a4c60b7ae5c5345b",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        14,
+        318,
+        415,
+        605
+      ],
+      "size_px": [
+        401,
+        287
+      ],
+      "sha256": "2e330a69fa5d7ff5326676dd10e26f5fcb8c52cd2e1b1aa305cdb617cbbd2e98",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-sticker-05.png",
+      "name": "user-sticker-05.png",
+      "role": "chat-sticker",
+      "source": "art/source/fullfilm-v3-user-images/猫咪聊天贴纸十二格合集.png",
+      "source_sha256": "d1e8ed6a7d264bb987454356eb04e48a820ad81620594541a4c60b7ae5c5345b",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        430,
+        318,
+        828,
+        605
+      ],
+      "size_px": [
+        398,
+        287
+      ],
+      "sha256": "c2a01606e3927ee6cabee07e0e3f6195519e49d558f1d73032cd73fa3e91d579",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-sticker-06.png",
+      "name": "user-sticker-06.png",
+      "role": "chat-sticker",
+      "source": "art/source/fullfilm-v3-user-images/猫咪聊天贴纸十二格合集.png",
+      "source_sha256": "d1e8ed6a7d264bb987454356eb04e48a820ad81620594541a4c60b7ae5c5345b",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        845,
+        318,
+        1243,
+        605
+      ],
+      "size_px": [
+        398,
+        287
+      ],
+      "sha256": "ef4c95e7aff0bd4ab1ddde5305256fbb67f85451244fddca5dd5f89b4a5eddff",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-sticker-07.png",
+      "name": "user-sticker-07.png",
+      "role": "chat-sticker",
+      "source": "art/source/fullfilm-v3-user-images/猫咪聊天贴纸十二格合集.png",
+      "source_sha256": "d1e8ed6a7d264bb987454356eb04e48a820ad81620594541a4c60b7ae5c5345b",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        1261,
+        318,
+        1660,
+        605
+      ],
+      "size_px": [
+        399,
+        287
+      ],
+      "sha256": "a58fd2a49884d4d588a9a229dea2e6edd787f5f869ea34ca5991e47c1240d953",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-sticker-08.png",
+      "name": "user-sticker-08.png",
+      "role": "chat-sticker",
+      "source": "art/source/fullfilm-v3-user-images/猫咪聊天贴纸十二格合集.png",
+      "source_sha256": "d1e8ed6a7d264bb987454356eb04e48a820ad81620594541a4c60b7ae5c5345b",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        14,
+        618,
+        415,
+        926
+      ],
+      "size_px": [
+        401,
+        308
+      ],
+      "sha256": "0accb74b1ec946ce82fafe1537e6922a252df9169079a0601dc650a07dcdeb37",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-sticker-09.png",
+      "name": "user-sticker-09.png",
+      "role": "chat-sticker",
+      "source": "art/source/fullfilm-v3-user-images/猫咪聊天贴纸十二格合集.png",
+      "source_sha256": "d1e8ed6a7d264bb987454356eb04e48a820ad81620594541a4c60b7ae5c5345b",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        430,
+        618,
+        828,
+        926
+      ],
+      "size_px": [
+        398,
+        308
+      ],
+      "sha256": "b815223fde604560e62c3b6ace4cf1e2a3a79b29282ba3846577e649cf9b00db",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-sticker-10.png",
+      "name": "user-sticker-10.png",
+      "role": "chat-sticker",
+      "source": "art/source/fullfilm-v3-user-images/猫咪聊天贴纸十二格合集.png",
+      "source_sha256": "d1e8ed6a7d264bb987454356eb04e48a820ad81620594541a4c60b7ae5c5345b",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        845,
+        618,
+        1243,
+        926
+      ],
+      "size_px": [
+        398,
+        308
+      ],
+      "sha256": "c38eee8304cf4adcc5c71310a210fd1c907a02f000e3b78cab58d5c0593b04bf",
+      "resized": false
+    },
+    {
+      "file": "art/export/fullfilm-v3-user-art/user-sticker-11.png",
+      "name": "user-sticker-11.png",
+      "role": "chat-sticker",
+      "source": "art/source/fullfilm-v3-user-images/猫咪聊天贴纸十二格合集.png",
+      "source_sha256": "d1e8ed6a7d264bb987454356eb04e48a820ad81620594541a4c60b7ae5c5345b",
+      "source_size_px": [
+        1672,
+        941
+      ],
+      "crop_px": [
+        1261,
+        618,
+        1660,
+        926
+      ],
+      "size_px": [
+        399,
+        308
+      ],
+      "sha256": "1c8fdd67fa70d619eac2f5f2b5367a3126664ecff293f26363b37409596460d8",
+      "resized": false
+    }
+  ],
+  "manga_states": [
+    {
+      "state": 0,
+      "label": "原文整理",
+      "full": "art/export/fullfilm-v3-user-art/native-manga-user-00-full.png",
+      "full_size_px": [
+        800,
+        540
+      ],
+      "full_sha256": "830d9669bb08f12988758768c6910425e4dc30376634e1b296ff221d377dde33",
+      "detail": "art/export/fullfilm-v3-user-art/native-manga-user-00-detail.png",
+      "detail_size_px": [
+        384,
+        402
+      ],
+      "detail_crop_from_full_px": [
+        402,
+        77,
+        786,
+        479
+      ],
+      "detail_sha256": "4e91ce7b17f207980612089dfa5fc780cb675613a24eaadd4fdae9dcf98b4cc8",
+      "art_asset": "user-comic-original.png",
+      "art_source": "art/source/fullfilm-v3-user-images/星空下的原文与中文译文.png",
+      "art_source_sha256": "cf82779b8295c82672c21181855c3f9d864f1b264125d6eca23d8f2f91c2a18b",
+      "art_source_crop_px": [
+        18,
+        51,
+        820,
+        921
+      ],
+      "art_paste_rect_px": [
+        26,
+        96,
+        383,
+        483
+      ],
+      "frame_source": "art/export/fullfilm-v2-ui/native-overlays/manga/state-00.png",
+      "frame_source_sha256": "8a6d609bf3d6f8dfd595b3d2920a3b229ec0dd306cc9bca8f5e8844f813ba6a8",
+      "active_layer": 1,
+      "dialogue": [
+        {
+          "ja": "おはよう！",
+          "zh": "早上好！",
+          "translation_visible": false
+        },
+        {
+          "ja": "あの星を見に行こう。",
+          "zh": "去看看那颗星吧。",
+          "translation_visible": false
+        }
+      ]
+    },
+    {
+      "state": 1,
+      "label": "无字清稿",
+      "full": "art/export/fullfilm-v3-user-art/native-manga-user-01-full.png",
+      "full_size_px": [
+        800,
+        540
+      ],
+      "full_sha256": "43a0e8e63b403c2dc7571156bdd32ba25654fdee70cc4c275479f88a97472262",
+      "detail": "art/export/fullfilm-v3-user-art/native-manga-user-01-detail.png",
+      "detail_size_px": [
+        384,
+        402
+      ],
+      "detail_crop_from_full_px": [
+        402,
+        77,
+        786,
+        479
+      ],
+      "detail_sha256": "42bd4483b6d49ea404afda678e671f469bbc95f2a11267bdd01045efd68f2da0",
+      "art_asset": "user-comic-clean.png",
+      "art_source": "art/source/fullfilm-v3-user-images/星夜山巅的漫画对白.png",
+      "art_source_sha256": "728193caceb5c1692a2b22a241d77248ef12b761b3e935d37ebda13348a373cf",
+      "art_source_crop_px": [
+        18,
+        51,
+        820,
+        921
+      ],
+      "art_paste_rect_px": [
+        26,
+        96,
+        383,
+        483
+      ],
+      "frame_source": "art/export/fullfilm-v2-ui/native-overlays/manga/state-00.png",
+      "frame_source_sha256": "8a6d609bf3d6f8dfd595b3d2920a3b229ec0dd306cc9bca8f5e8844f813ba6a8",
+      "active_layer": 2,
+      "dialogue": [
+        {
+          "ja": "おはよう！",
+          "zh": "早上好！",
+          "translation_visible": true
+        },
+        {
+          "ja": "あの星を見に行こう。",
+          "zh": "去看看那颗星吧。",
+          "translation_visible": true
+        }
+      ]
+    },
+    {
+      "state": 2,
+      "label": "中文嵌字",
+      "full": "art/export/fullfilm-v3-user-art/native-manga-user-02-full.png",
+      "full_size_px": [
+        800,
+        540
+      ],
+      "full_sha256": "4b963ce02b612ea3ef71ffb08b76d66254759afac711d70a148ca2f4630a6148",
+      "detail": "art/export/fullfilm-v3-user-art/native-manga-user-02-detail.png",
+      "detail_size_px": [
+        384,
+        402
+      ],
+      "detail_crop_from_full_px": [
+        402,
+        77,
+        786,
+        479
+      ],
+      "detail_sha256": "3b4c8b477991b14d2ea99861a47818770512d12ee645a860010b9688f9181fc6",
+      "art_asset": "user-comic-chinese.png",
+      "art_source": "art/source/fullfilm-v3-user-images/星夜山巅的漫画对白.png",
+      "art_source_sha256": "728193caceb5c1692a2b22a241d77248ef12b761b3e935d37ebda13348a373cf",
+      "art_source_crop_px": [
+        854,
+        51,
+        1656,
+        921
+      ],
+      "art_paste_rect_px": [
+        26,
+        96,
+        383,
+        483
+      ],
+      "frame_source": "art/export/fullfilm-v2-ui/native-overlays/manga/state-00.png",
+      "frame_source_sha256": "8a6d609bf3d6f8dfd595b3d2920a3b229ec0dd306cc9bca8f5e8844f813ba6a8",
+      "active_layer": 3,
+      "dialogue": [
+        {
+          "ja": "おはよう！",
+          "zh": "早上好！",
+          "translation_visible": true
+        },
+        {
+          "ja": "あの星を見に行こう。",
+          "zh": "去看看那颗星吧。",
+          "translation_visible": true
+        }
+      ]
+    },
+    {
+      "state": 3,
+      "label": "校对完成",
+      "full": "art/export/fullfilm-v3-user-art/native-manga-user-03-full.png",
+      "full_size_px": [
+        800,
+        540
+      ],
+      "full_sha256": "43cd1d3961f2bc7540171e05573597d6ce0f89dabb5ce0e5a4236fc0d33edcbd",
+      "detail": "art/export/fullfilm-v3-user-art/native-manga-user-03-detail.png",
+      "detail_size_px": [
+        384,
+        402
+      ],
+      "detail_crop_from_full_px": [
+        402,
+        77,
+        786,
+        479
+      ],
+      "detail_sha256": "b1c09562a430a53d7c76f50d02558187874dd9b716b74f844050834292438dee",
+      "art_asset": "user-comic-chinese.png",
+      "art_source": "art/source/fullfilm-v3-user-images/星夜山巅的漫画对白.png",
+      "art_source_sha256": "728193caceb5c1692a2b22a241d77248ef12b761b3e935d37ebda13348a373cf",
+      "art_source_crop_px": [
+        854,
+        51,
+        1656,
+        921
+      ],
+      "art_paste_rect_px": [
+        26,
+        96,
+        383,
+        483
+      ],
+      "frame_source": "art/export/fullfilm-v2-ui/native-overlays/manga/state-00.png",
+      "frame_source_sha256": "8a6d609bf3d6f8dfd595b3d2920a3b229ec0dd306cc9bca8f5e8844f813ba6a8",
+      "active_layer": 4,
+      "dialogue": [
+        {
+          "ja": "おはよう！",
+          "zh": "早上好！",
+          "translation_visible": true
+        },
+        {
+          "ja": "あの星を見に行こう。",
+          "zh": "去看看那颗星吧。",
+          "translation_visible": true
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "original_files_unchanged": true,
+    "source_count": 8,
+    "crop_count": 26,
+    "manga_full_count": 4,
+    "checks": [
+      "All crop sizes equal pixel rectangle extents",
+      "Original SHA-256 checked before and after",
+      "No source crop resizing",
+      "All performance PNG files use English names; text contains content/native UI only"
+    ]
+  }
+}

@@ -1,0 +1,474 @@
+{
+  "note": "GamePC(192.168.101.5) 本地可用素材盘点。用户自购/付费下载，可在本项目中使用；此处只记录位置与结论，不存放资产本体。",
+  "scannedAt": "2026-10-15",
+  "host": "192.168.101.5 (GamePC, ssh alias gpu5080)",
+  "roots": [
+    "D:\\BaiduNetdiskDownload",
+    "E:\\BaiduNetdiskDownload"
+  ],
+  "method": "递归扫描目录 + 解析 .unitypackage(tar.gz) 内的 pathname 清单，未运行任何可执行文件",
+  "worldReadyAssets": [
+    {
+      "id": "room01",
+      "name": "Room01 室内房间场景",
+      "path": "E:\\BaiduNetdiskDownload\\6370315 room1\\Room_-01-\\Room01.unitypackage",
+      "sizeMB": 775.2,
+      "contents": "198 项：Room01.unity 场景、Scene/model/Room01.fbx、59 材质、60 贴图、烘焙光照(Lightmap/ReflectionProbe/Post-process)、Room01 Variant.prefab、SerializedUdonPrograms",
+      "kind": "室内场景（木地板/地毯/沙发/坐垫/书架/相框/吊灯/盆栽/冰箱/瓷杯等）",
+      "verdict": "可用：现成室内空间，最适合做某个年代房间/卧室",
+      "evidence": "包内含 Udon 编译程序与烘焙光照，属世界用资产；同一套资产已导入 D:\\Projects\\VRChatProjects\\GiantSleepWorld\\Assets\\Room01\\（材质与目录一致），导入可行性已验证"
+    },
+    {
+      "id": "vrs-furniture-2022",
+      "name": "VRS Asset Pack 2022 家具包",
+      "path": "E:\\BaiduNetdiskDownload\\家具包\\Furniture_Asset_Pack_2022_VRS.zip → Furniture_Asset_Pack_BOOTH_2022_VRS.unitypackage",
+      "sizeMB": 939.3,
+      "contents": "1229 项：257 个 fbx、272 个 prefab、643 张贴图、22 动画、16 粒子、9 shader、3 音频、3 个 udon 脚本、2 个场景",
+      "kind": "家具与室内道具库（椅/沙发/床/吧台/吊灯/浴室/餐饮器具等）",
+      "verdict": "最有用的一包：分区室内外细节靠它搭，含 Udon 交互脚本",
+      "evidence": "包内目录含 udon scripts 与 scene"
+    },
+    {
+      "id": "skybox-55",
+      "name": "55 Skybox pack 天空盒合集",
+      "path": "E:\\BaiduNetdiskDownload\\地图基本功能合集-初音的VRC小店\\天空盒贴图合集\\天空盒贴图合集.rar → 55 Skybox pack.unitypackage",
+      "sizeMB": 905.9,
+      "contents": "443 项：55 个天空盒材质 + 385 张贴图",
+      "kind": "环境天空盒",
+      "verdict": "可用：七段可按情绪换天空；挑低对比的，避免压过点阵美学"
+    },
+    {
+      "id": "skybox-zrain-city",
+      "name": "城市夜景天空盒 zrain",
+      "path": "E:\\BaiduNetdiskDownload\\4922509城市天空盒【Skybox】zrain\\【Skybox】zrain.unitypackage",
+      "sizeMB": 62.8,
+      "contents": "5 项，含 night.mat 与 Fog.mat",
+      "kind": "城市夜景天空盒 + 雾效",
+      "verdict": "可用：夜景直接对应「旧网页在深夜」的基调，优先级高于通用天空包"
+    },
+    {
+      "id": "okaeri-camp",
+      "name": "Okaeri Ultimate Camp 营地",
+      "path": "E:\\BaiduNetdiskDownload\\Okaeri_UltimateCamp_1.0\\Okaeri_UltimateCamp_1.0.unitypackage",
+      "sizeMB": 91.6,
+      "contents": "80 项：Camp.fbx、Tent.fbx、Chair.fbx、Chop.fbx、Fork.fbx、UltimateCamp_Content.prefab、World.prefab + EN/JP 说明书",
+      "kind": "户外营地场景",
+      "verdict": "可用：适合做开阔段落，也可只取帐篷与小道具"
+    },
+    {
+      "id": "isolation-cube",
+      "name": "ISOLATION-CUBE v1.3.2 隔离立方",
+      "path": "E:\\BaiduNetdiskDownload\\ISOLATION-CUBE(1)\\ISOLATION-CUBE1_ver1.3.2.zip → ISOLATION-CUBE.unitypackage",
+      "sizeMB": 5.1,
+      "contents": "145 项：isolation_cube.prefab、blackout/coldzone/heatzone/sky_cloaking/window/singularity_point 材质、开机 UI 与准星贴图、操作解説.mp4、説明書.pdf",
+      "kind": "科幻封闭舱 / 空间站构件",
+      "verdict": "可用且贴合主题：可做冷启动、断网隔离、失效链接收容的封闭装置"
+    },
+    {
+      "id": "lakestar-scene",
+      "name": "LakeStar 场景（小）",
+      "path": "E:\\BaiduNetdiskDownload\\7560137 LakeStar_V1.0\\LakeStar\\LakeStar_Scene.unitypackage",
+      "sizeMB": 4.1,
+      "contents": "3 项：LakeStar.unity + LakeStar_Mat.mat",
+      "kind": "小型场景（湖面/星空）",
+      "verdict": "参考用：资源少，可作「希望之河」水面表现参考"
+    }
+  ],
+  "worldSystems": [
+    {
+      "id": "photo-clip",
+      "name": "照片墙 Photo Clip ×30",
+      "path": "E:\\BaiduNetdiskDownload\\地图基本功能合集-初音的VRC小店\\6608076照片墙 Photo Clip ×30\\",
+      "sizeMB": 45.6,
+      "contents": "PhotoClip_03.unitypackage(39.3MB/84 项) + PhotoClip_02(4.2MB) + BloomGlassShader",
+      "verdict": "直接对应「缩略图/案例墙」：30 个照片位可换成本片要展示的网页截图"
+    },
+    {
+      "id": "visitor-board",
+      "name": "来访者信息板 v1.02 中文版",
+      "path": "E:\\BaiduNetdiskDownload\\地图基本功能合集-初音的VRC小店\\5403376来访者信息板\\v1.02中文版\\v1.02c1.unitypackage",
+      "sizeMB": 13.5,
+      "contents": "58 项（Assets/yoshio_will），含占位预制体",
+      "verdict": "对应「访客计数器」：可做片尾归零计数器或名片卡辅助屏"
+    },
+    {
+      "id": "population-counter",
+      "name": "人数计数器 MIKI",
+      "path": "E:\\BaiduNetdiskDownload\\地图基本功能合集-初音的VRC小店\\2588663人数计数器\\2588663人数计数器\\MIKI_PC_SDK3.unitypackage",
+      "sizeMB": 0.03,
+      "contents": "11 项 SDK3 预制体",
+      "verdict": "在线人数显示：契合「旧网站计数器」母题，比自研更省事"
+    },
+    {
+      "id": "vizvid",
+      "name": "VizVid 视频播放器 v1.5.2",
+      "path": "E:\\BaiduNetdiskDownload\\地图基本功能合集-初音的VRC小店\\5056077Vizvid视频播放器\\VizVid-1.5.2.zip",
+      "sizeMB": 2.1,
+      "contents": "338 项，含 C# 源码与 asmdef（Packages/idv.jlchntoz.vvmw）",
+      "verdict": "可用：世界内播放参考片/证据视频，是世界地图里的屏幕"
+    },
+    {
+      "id": "music-player-sv",
+      "name": "SVMusicPlayer 音乐播放器",
+      "path": "E:\\BaiduNetdiskDownload\\地图基本功能合集-初音的VRC小店\\2876742音乐播放器\\2876742音乐播放器\\SVMusicPlayer.unitypackage",
+      "sizeMB": 1.2,
+      "contents": "36 项预制体",
+      "verdict": "可用：点唱机/曲目展示；正式 BGM 仍走 FC14 母带"
+    },
+    {
+      "id": "clock-azhkwid",
+      "name": "钟 AzhkwidClock v1.0.1",
+      "path": "E:\\BaiduNetdiskDownload\\地图基本功能合集-初音的VRC小店\\2225650钟\\2225650钟\\AzhkwidClock_v1_0_1.unitypackage",
+      "sizeMB": 22.4,
+      "contents": "时钟模型 + 说明书截图",
+      "verdict": "可用：做「最后提交：四年前」的时间装置"
+    },
+    {
+      "id": "mirrors",
+      "name": "镜子 3 件（通用镜/床镜）",
+      "path": "E:\\BaiduNetdiskDownload\\地图基本功能合集-初音的VRC小店\\镜子3件\\",
+      "sizeMB": 1.3,
+      "contents": "TerasMirror.unitypackage(4 项)、BedMirrorGimmick_v1-4、通用镜子2",
+      "verdict": "可用：VRChat 早期 Hub 的 Avatar Hall 镜子是社区史素材，做一面官方感镜子"
+    },
+    {
+      "id": "qvpen",
+      "name": "QvPen 画笔本体 v3.3.6 + 皮肤 3 款",
+      "path": "E:\\BaiduNetdiskDownload\\地图基本功能合集-初音的VRC小店\\笔4件\\",
+      "sizeMB": 27.5,
+      "contents": "net.ureishi.qvpen-3.3.6.unitypackage（105 项，含 SerializedUdonPrograms 与 asmdef）+ 木头笔/兔兔画笔/圆滑笔",
+      "verdict": "可用：对应论坛涂鸦板/留言墙，观众可在世界里留字"
+    },
+    {
+      "id": "world-lighting",
+      "name": "WorldLighting 亮度调节",
+      "path": "E:\\BaiduNetdiskDownload\\地图基本功能合集-初音的VRC小店\\4726955亮度调节\\WorldLighting_20240318\\WorldLighting.unitypackage",
+      "sizeMB": 0.03,
+      "contents": "13 项（Assets/XOXO_INSPIRED）",
+      "verdict": "可用：暗场景需调可见度，做调试与玩家亮度开关"
+    },
+    {
+      "id": "bakery",
+      "name": "Bakery 光照烘焙器 v1.96",
+      "path": "E:\\BaiduNetdiskDownload\\地图基本功能合集-初音的VRC小店\\Bakery光照烘焙\\烘焙器和预览器-v1.96.zip",
+      "sizeMB": 477.7,
+      "contents": "编辑器插件（付费工具）",
+      "verdict": "工具可用：本片光照以烘焙为主；仅在编辑器侧使用，不进世界"
+    },
+    {
+      "id": "fake-disconnect",
+      "name": "假掉线系统",
+      "path": "E:\\BaiduNetdiskDownload\\插件道具合集-初音的VRC小店\\插件17件\\假掉线系统\\假掉线.unitypackage",
+      "sizeMB": 6.4,
+      "contents": "22 项（Assets/Arcxingye），含着色器补充与 ThryEditor 可选包",
+      "verdict": "高契合：全片讲「失效的链接」，掉线装置是现成道具；需验证世界/Avatar 用途"
+    }
+  ],
+  "visualStyleAssets": [
+    {
+      "id": "hologram-shader",
+      "name": "Hologram Shader for VRChat V1.3",
+      "path": "E:\\BaiduNetdiskDownload\\全息 着色器 Hologram Shader for VRChat\\",
+      "sizeMB": 4.0,
+      "verdict": "可用：做点阵/扫描线全息态，与「扫描线 + 发光点」美学一致"
+    },
+    {
+      "id": "cyber-glitch",
+      "name": "CyberGlitchParticles",
+      "path": "E:\\BaiduNetdiskDownload\\CyberGlitchParticles.zip",
+      "sizeMB": 3.2,
+      "verdict": "可用：数据损坏/复制粘贴的故障粒子"
+    },
+    {
+      "id": "frosted-glass",
+      "name": "FrostedGlassShader v007",
+      "path": "E:\\BaiduNetdiskDownload\\3260764磨砂玻璃着色器 FrostedGlassShader\\FrostedGlass_v007\\FrostedGlass_v007.unitypackage",
+      "sizeMB": 13.9,
+      "verdict": "可用：做旧 CRT/玻璃反射层，压掉现代感"
+    },
+    {
+      "id": "blackbody-shader",
+      "name": "Blackbody Shader v1.2",
+      "path": "E:\\BaiduNetdiskDownload\\3698935 Blackbody Shader\\blackbody_shader_ver1.2\\blackbody_shader_ver1.2.unitypackage",
+      "sizeMB": 0.5,
+      "verdict": "可选：热感/发光体"
+    },
+    {
+      "id": "manga-shader",
+      "name": "漫画风 Manga Shader 1.0.3",
+      "path": "E:\\BaiduNetdiskDownload\\动漫 着色器 漫画風シェーダー Manga Shader\\mangashader-1.0.3\\mangashader.unitypackage",
+      "sizeMB": 0.05,
+      "verdict": "可选：做「漫画嵌字/汉化」段的描边风格"
+    },
+    {
+      "id": "touch-glow",
+      "name": "Touch Glow System",
+      "path": "E:\\BaiduNetdiskDownload\\Touch Glow System\\",
+      "sizeMB": 0.6,
+      "verdict": "可用：节点被触碰后亮起，对应节点六态的点亮反馈"
+    },
+    {
+      "id": "multi-halo",
+      "name": "MagicHalo prototype 多功能光环",
+      "path": "E:\\BaiduNetdiskDownload\\7297063MagicHalo prototype多功能光环\\",
+      "sizeMB": 202.2,
+      "verdict": "可选：悬浮光环/加载指示"
+    }
+  ],
+  "propsAndGimmicks": [
+    {
+      "id": "throwable-error",
+      "name": "投げれるエラー（可扔的错误框）",
+      "path": "E:\\BaiduNetdiskDownload\\投げれるエラーv1.0.1.rar → 投げれるエラー.unitypackage",
+      "sizeMB": 2.5,
+      "contents": "42 项（Assets/KINYOUZAKKA）",
+      "verdict": "主题命中：错误弹窗可以直接扔出去，正对「失效链接」那一幕（需验证世界可用性）"
+    },
+    {
+      "id": "fusenmemo",
+      "name": "fusenmemo 便签",
+      "path": "E:\\BaiduNetdiskDownload\\fusenmemo.unitypackage",
+      "sizeMB": 8.3,
+      "contents": "81 项（Assets/Chamm）",
+      "verdict": "可用：留言条/帖子纸片，可铺成论坛墙面"
+    },
+    {
+      "id": "artboard",
+      "name": "ArtBoardGimmick v1.12（可换图挂画）",
+      "path": "E:\\BaiduNetdiskDownload\\插件道具合集-初音的VRC小店\\道具22件\\5774152奇怪镜子\\ArtBoardGimmick_ v1.12.unitypackage",
+      "sizeMB": 76.5,
+      "contents": "46 项（Assets/KotohaShop）+ 导入解说视频",
+      "verdict": "很有用：任意图换成画框内容，可挂旧网页截图/海报"
+    },
+    {
+      "id": "bloomphone2",
+      "name": "BloomPhone2 手机",
+      "path": "E:\\BaiduNetdiskDownload\\BloomPhone2_ver1.0.1.zip",
+      "sizeMB": 10.8,
+      "contents": "169 项",
+      "verdict": "可用：手机屏幕可放界面素材，做「从 PC 转移到手机」的段落"
+    },
+    {
+      "id": "odradek",
+      "name": "BT Odradek V1.1 扫描仪",
+      "path": "E:\\BaiduNetdiskDownload\\BT Odradek_V1.1\\（D 盘同名目录另有一份）",
+      "sizeMB": 20.3,
+      "contents": "79 项 + 12 个音效 mp3（Chirping/Init/Spin 等）+ 双翼贴图 PSD",
+      "verdict": "可用：扫描/检索类道具，音效可复用为检索旧网页的反馈声"
+    },
+    {
+      "id": "dangerous-box",
+      "name": "DangerousBox（危险纸箱）",
+      "path": "E:\\BaiduNetdiskDownload\\DangerousBox_1-0-0.zip（D 盘同名目录另有一份）",
+      "sizeMB": 7.9,
+      "contents": "40 项（Assets/MisMart）",
+      "verdict": "可用：随手可扔的纸箱，做网盘峡的杂物堆"
+    },
+    {
+      "id": "time-bomb",
+      "name": "Time Bomb",
+      "path": "E:\\BaiduNetdiskDownload\\插件道具合集-初音的VRC小店\\道具22件\\6028290Time Bomb\\6028290time bomb.zip",
+      "sizeMB": 4.3,
+      "contents": "48 项（Assets/maru_maru）",
+      "verdict": "可选：倒计时/删除倒计时装置"
+    },
+    {
+      "id": "press-conference",
+      "name": "即刻謝罪 记者会套装",
+      "path": "E:\\BaiduNetdiskDownload\\即刻謝罪_どこでも記者会見セットv1.0.0\\",
+      "sizeMB": 21.5,
+      "verdict": "可选：调侃「服务终止公告」类场面"
+    },
+    {
+      "id": "kigaering",
+      "name": "MegaKigaeRing 换装衣柜/变身特效",
+      "path": "E:\\BaiduNetdiskDownload\\7528888魔法少女变身 换装衣柜 特效变装\\MegaKigaeRingFULL_RururiLab_v1.0\\MegaKigaeRingFULL_RururiLab_v1.0.unitypackage",
+      "sizeMB": 2.7,
+      "verdict": "可选：Avatar 换装机制；本片演员固定，多半只借光效"
+    },
+    {
+      "id": "udon-bed",
+      "name": "UdonBed v1.0.5 可躺床",
+      "path": "E:\\BaiduNetdiskDownload\\6109755udonbed\\UdonBed_v1.0.5\\UdonBed_v1.0.5.unitypackage",
+      "sizeMB": 5.7,
+      "verdict": "可用：与 Room01 搭配做「坐下观察」位"
+    },
+    {
+      "id": "vroomba",
+      "name": "VRoomba 2.1.1 扫地机器人",
+      "path": "E:\\BaiduNetdiskDownload\\VRoomba_2.1.1\\VRoomba 2.1.1.unitypackage",
+      "sizeMB": 76.6,
+      "verdict": "可选：自走道具，做背景生命感"
+    },
+    {
+      "id": "miki-clock",
+      "name": "MIKI 数字钟 v3.0",
+      "path": "E:\\BaiduNetdiskDownload\\电子钟\\MIKI_DigiC_VCC_v3.0\\MIKI_CLOCK.unitypackage",
+      "sizeMB": 8.6,
+      "verdict": "可用：桌面数字钟，与 AzhkwidClock 二选一"
+    },
+    {
+      "id": "zennama-money",
+      "name": "随地撒钱 げんなま",
+      "path": "E:\\BaiduNetdiskDownload\\03 随地撒钱げんなま\\",
+      "sizeMB": 18.5,
+      "verdict": "可选：做充值/会员段的钞票特效"
+    },
+    {
+      "id": "eraser",
+      "name": "消しゴムまじっくん 橡皮擦",
+      "path": "E:\\BaiduNetdiskDownload\\消しゴムまじっくん_1.00.zip",
+      "sizeMB": 3.4,
+      "verdict": "可选：删除/擦除动作的实体化"
+    },
+    {
+      "id": "cassette-player",
+      "name": "卡带音乐播放器",
+      "path": "E:\\BaiduNetdiskDownload\\插件道具合集-初音的VRC小店\\更新\\道具14件\\8476612卡带音乐播放器\\",
+      "sizeMB": null,
+      "verdict": "可用：磁带意象回应模块音乐年代（FC14 是 Amiga 时代产物）"
+    },
+    {
+      "id": "rk-player",
+      "name": "RK Player 音乐播放器",
+      "path": "E:\\BaiduNetdiskDownload\\插件道具合集-初音的VRC小店\\道具22件\\6834553音乐播放器\\",
+      "sizeMB": 42.4,
+      "verdict": "可用：另一款点唱机实现，与 SVMusicPlayer 二选一"
+    },
+    {
+      "id": "pig-stack",
+      "name": "小猪叠叠乐 1.2 / 小猪跟随宠物",
+      "path": "E:\\BaiduNetdiskDownload\\0003小猪叠叠乐\\、E:\\BaiduNetdiskDownload\\0004小猪跟随宠物\\",
+      "sizeMB": 14.4,
+      "verdict": "可选：小游戏与宠物，可呼应「网络小游戏/Flash 记忆」段"
+    },
+    {
+      "id": "tarai",
+      "name": "たらい落とし（铁盆）",
+      "path": "E:\\BaiduNetdiskDownload\\铁盆\\たらい落とし\\",
+      "sizeMB": 7.2,
+      "verdict": "可选：喜剧节拍点，与全片基调需再判断"
+    }
+  ],
+  "avatarAndUnrelated": {
+    "note": "D/E 网盘里绝大多数是 Avatar 服饰、贴图与插件（Kipfel / Mamehinata / Nemesis 系列），本片演员资产已就位，暂不需要；ERP 类与成人向道具明确排除。",
+    "notBuildingDespiteName": [
+      {
+        "path": "E:\\BaiduNetdiskDownload\\AoharuSchool_FullPack\\AoharuSchool_FullPack.unitypackage",
+        "actual": "青春学园「制服」套装（AoharuUniform.MAME/EMO + FBX），不是校舍建筑",
+        "sizeMB": 36.2
+      },
+      {
+        "path": "E:\\BaiduNetdiskDownload\\xiari\\xiari.unitypackage",
+        "actual": "「清凉」夏日服装（Assets/清凉/fbx/yifu.prefab + lilToon）",
+        "sizeMB": 188.5
+      },
+      {
+        "path": "D:\\BaiduNetdiskDownload\\ライブラリガーデン\\LibraryGarden_v1_01\\LibraryGarden_v1_01.unitypackage",
+        "actual": "CloudzStorage 的 Lop 用衣装（同款也在 E 盘 R5753 合集的 5886016LibraryGarden_v1_00），不是图书馆场景",
+        "sizeMB": 35.9
+      }
+    ],
+    "excluded": [
+      "插件道具合集-初音的VRC小店\\ERP用12件\\（成人向，全部不用）",
+      "各类 Kipfel / Mamehinata / Nemesis 服饰、眼睛贴图、发型包（演员外观已定）",
+      "D:\\BaiduNetdiskDownload 下的电子/嵌入式与乐谱书籍资料（与本片无关）"
+    ]
+  },
+  "openQuestions": [
+    "标称 Avatar 向的道具（投げれるエラー、fusenmemo、BloomPhone2、Odradek、DangerousBox、假掉线、Time Bomb、ArtBoard、VRoomba 等）需要在 Unity 里确认是 Udon 世界装置还是 Avatar 装置，再决定是否改造。",
+    "Room01（775 MB）与 VRS 家具包（939 MB）体量大，导入前先定性能预算与目标平台（PC 优先 / 兼容 Quest）。",
+    "授权：均为用户自购素材，可在本项目内使用；正式发布前按各包 readme/利用规约确认是否允许在世界中公开展示（部分日系素材限个人使用）。"
+  ],
+  "vfxBatch20261016": {
+    "note": "新批次的原始拆解见 spec/20-vfx-reference.md；2026-10-16 静态复核见 spec/22-new-assets-review.md。前次编辑器编译记录不等于本轮运行或头显验证。",
+    "extractedAt": "2026-10-16",
+    "shadersWritten": [
+      {
+        "file": "unity/Assets/OldWebMap/Shaders/OWAnimeParticle.shader",
+        "shader": "OldWebMap/Anime Particle (3 Layer)",
+        "basedOn": "CooGee Works《立体音乐魔法》粒子层 + Floppiii《Field of Stars》AnimeParticlesV1.1 的多层思路",
+        "verified": "远端 Unity 2022.3.22f1 导入后 isSupported=true，控制台 0 错误 0 警告",
+        "verificationScope": "前次编辑器导入/编译记录，来源 spec/20-vfx-reference.md；本轮静态审查，未重跑 Unity，未验证头显双眼、Quest 或性能。",
+        "reviewData": "data/asset-review-20261016.json"
+      },
+      {
+        "file": "unity/Assets/OldWebMap/Shaders/OWNoiseDissolve.shader",
+        "shader": "OldWebMap/Noise Dissolve",
+        "basedOn": "CooGee Works DissolveSphereField（triplanar 噪声 + 菲涅尔 + 深度淡出 + 出现波前）",
+        "verified": "同上",
+        "verificationScope": "前次编辑器导入/编译记录，来源 spec/20-vfx-reference.md；本轮静态审查，未重跑 Unity，未验证头显双眼、Quest 或性能。",
+        "reviewData": "data/asset-review-20261016.json"
+      },
+      {
+        "file": "unity/Assets/OldWebMap/Shaders/OWAdditiveGlow.shader",
+        "shader": "OldWebMap/Additive Center Glow",
+        "basedOn": "CooGee Works Add_CenterGlow（流场扰动 + 阈值中心光晕）",
+        "verified": "同上",
+        "verificationScope": "前次编辑器导入/编译记录，来源 spec/20-vfx-reference.md；本轮静态审查，未重跑 Unity，未验证头显双眼、Quest 或性能。",
+        "reviewData": "data/asset-review-20261016.json"
+      },
+      {
+        "file": "unity/Assets/OldWebMap/Shaders/OWCrtGlitch.shader",
+        "shader": "OldWebMap/CRT Glitch",
+        "basedOn": "Leviant ScreenSpace Ubershader（MIT）的 glitch 分层思路，哈希与实现为自写",
+        "verified": "同上",
+        "verificationScope": "前次编辑器导入/编译记录，来源 spec/20-vfx-reference.md；本轮静态审查，未重跑 Unity，未验证头显双眼、Quest 或性能。",
+        "reviewData": "data/asset-review-20261016.json"
+      }
+    ],
+    "newAssets": [
+      {
+        "id": "music-magic-gimmick",
+        "name": "立体音乐魔法 MA_MusicMagicGimmick_v1（CooGee Works）",
+        "path": "E:\\BaiduNetdiskDownload\\LH80\\Vrchat插件 立体音乐魔法 ma导入\\MA_MusicMagicGimmick_v1\\MusicMagic_Gimmick.unitypackage",
+        "sizeMB": 16.0,
+        "contents": "37 项：2 个着色器（Add_CenterGlow / DissolveSphereField）、6 个材质、4 组粒子（Sparks 50/s、Notes 3.75s、Music Circle、Smoke）、12 张噪声/遮罩/渐变贴图、1 段 mp3、AnimatorController、MA 预制体",
+        "verdict": "优先复用光晕、消融波前和粒子；MA/Avatar 挂载与约束需适配，不使用原包音乐替代或叠加 FC14，未确认自动音频分析能力。",
+        "reviewData": "data/asset-review-20261016.json"
+      },
+      {
+        "id": "field-of-stars",
+        "name": "Field of Stars by Floppiii 1.0",
+        "path": "E:\\BaiduNetdiskDownload\\JJJ963\\Field_of_Stars_by_Floppiii_1.0.rar → Field of Stars by Floppiii 1.0.unitypackage",
+        "sizeMB": 12.1,
+        "contents": "59 项：3 个着色器（AnimeParticlesV1.1 / Particles Additive Intensify / Leviant ScreenSpace Ubershader 2.9，后者 MIT）、8 组粒子系统、星空噪声与闪光贴图、Avatar FX 动画层",
+        "verdict": "星尘与多层粒子可用于长段无界和短高潮；Avatar FX 触发需转为世界演出控制，原 GrabPass 屏幕特效单独评估；原发射率和上限仅作参考。",
+        "reviewData": "data/asset-review-20261016.json"
+      },
+      {
+        "id": "phantomwaltz",
+        "name": "Phantomwaltz 武器召唤ギミック（orinigi）",
+        "path": "E:\\BaiduNetdiskDownload\\8540189【MA対応・武器召喚ギミック】ファントムワルツ\\Phantomwaltz.zip",
+        "sizeMB": 13.1,
+        "contents": "89 项：24 段 FX 动画、8 段 WAV 音效、刀身/斩击/圆柱 FBX、36 张贴图（slash/tear/flare/moya/noise/caust）、AnimatorController",
+        "verdict": "动画与音画对点参考；原武器形象是否入片另由剧情决定，无自定义 shader。",
+        "reviewData": "data/asset-review-20261016.json"
+      },
+      {
+        "id": "modern-asset-pack",
+        "name": "Modern Asset Pack",
+        "path": "E:\\BaiduNetdiskDownload\\k787\\Modern_Asset_Pack.zip",
+        "sizeMB": 513.0,
+        "contents": "内层 Unity 包 71 个路径项：10 个目录、30 个 Built-in Standard 材质、29 张 PNG、1 个 FBX、1 个场景，无独立 prefab/脚本/自定义 shader；源 FBX 含 32 个独立网格对象，合计约 695803 三角形；外层另含 blend 与贴图",
+        "verdict": "选择性复用：桌/灯/沙发/书等补近景生活细节；高密度植物与装饰需精简，不整套铺场。源图最高 12K，但原包 maxTextureSize 均为 2048，实际占用待导入核对。",
+        "reviewData": "data/asset-review-20261016.json"
+      },
+      {
+        "id": "furniture-pack-duplicate",
+        "name": "vrchat地图素材 家具合集（重复）",
+        "path": "E:\\BaiduNetdiskDownload\\vrchat地图素材 家具合集 超多类型的家具\\vrchat地图素材 家具合集 超多类型的家具\\Furniture_Asset_Pack_2022_VRS.zip",
+        "sizeMB": 939.3,
+        "contents": "与原 VRS Furniture 2022 包字节数及 SHA-256 完全一致，已核实重复；修正双层同名目录的实际位置。",
+        "verdict": "确认重复，不重复导入；保留磁盘原文件。",
+        "duplicateOf": "E:\\BaiduNetdiskDownload\\家具包\\Furniture_Asset_Pack_2022_VRS.zip",
+        "sha256": "ADB7882772E67258AB3DF5E9C4BDF08441C078A224C999F8FFD8AD8FA9E903C5",
+        "duplicateVerifiedBy": "本会话前序只读检查分别计算两份 SHA-256，结果一致；本轮沿用该结果，未重复读取两份大包",
+        "reviewData": "data/asset-review-20261016.json"
+      }
+    ],
+    "lastReviewedAt": "2026-10-16",
+    "reviewSpec": "spec/22-new-assets-review.md",
+    "reviewData": "data/asset-review-20261016.json"
+  }
+}

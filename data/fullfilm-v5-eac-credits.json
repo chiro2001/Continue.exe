@@ -1,0 +1,577 @@
+{
+  "schema": "fullfilm-v5-eac-credits.1",
+  "checked_at": "2026-10-18",
+  "eac": {
+    "installed_client": {
+      "steam_app_id": "438100",
+      "branch": "public",
+      "build_id": "25841461",
+      "public_manifest_gid": "6882122889258462941",
+      "steam_branch_updated_at_utc": "2026-10-09T23:26:50Z",
+      "local_appmanifest_last_updated_utc": "2026-10-11T07:59:17Z",
+      "local_appmanifest_file_last_write_local": "2026-10-18T03:56:53+08:00",
+      "local_install_path": "D:\\Software\\Steam\\steamapps\\common\\VRChat",
+      "verification": "Read-only inspection of the target Windows Steam library; the installed build ID matches the current public-branch BuildID listed by SteamDB on 2026-10-09."
+    },
+    "forum_launch_error_screenshot": {
+      "id": "vrchat-eac-launch-error-2026-09-24",
+      "file": "art/reference/fullfilm-v5/eac/vrchat-eac-launch-error-2026-09-24.png",
+      "kind": "public user-submitted screenshot of a real VRChat launch error state",
+      "title": "Launch Error - VRChat",
+      "author": "Chazv",
+      "forum_posted_at_utc": "2026-09-24T05:10:50Z",
+      "screenshot_filename_in_post": "Screenshot 2026-09-24 145921",
+      "capture_time_zone": null,
+      "source_page_url": "https://ask.vrchat.com/t/launch-error-vrchat/48969",
+      "original_image_url": "https://global.discourse-cdn.com/vrchat/original/3X/d/8/d8cb5660d4e941277353461a2bfd4a892a78610c.png",
+      "retrieved_at_utc": "2026-10-17T20:53:58Z",
+      "http_status": 200,
+      "mime_type": "image/png",
+      "bytes": 114238,
+      "dimensions_px": [
+        800,
+        450
+      ],
+      "sha256": "7bd092917c7cb651d23c9e3f90366f5b8f595844d265de4fbd6c64e4dd67426a",
+      "crop_bounds_px": [
+        0,
+        0,
+        800,
+        450
+      ],
+      "retouch": "None; original full image preserved.",
+      "visible_content": "A real EAC-related launch error window over VRChat startup art, with the blue EAC mark visible. It is an error state, not the ordinary successful startup splash.",
+      "version_relation": "The post does not state a client BuildID. The screenshot predates the target computer's current public BuildID 25841461 (installed 2026-10-11) by 17 days. Its VRChat splash artwork and EAC branding visually correspond to assets present in that current installation; this is not proof that the screenshot came from BuildID 25841461.",
+      "recommended_use": "If used in the film, label it as a 2026-09-24 user-posted launch error. Use in a present-day access-conditions beat, not as evidence of the 2022 EAC rollout.",
+      "rights_note": "Source page provides attribution context but no separate reuse license was found. Do not describe the user screenshot as official VRChat press art."
+    },
+    "current_client_splash_asset": {
+      "id": "vrchat-current-client-splashscreen",
+      "file": "art/reference/fullfilm-v5/eac/vrchat-current-splashscreen.png",
+      "kind": "original splash artwork file from the currently installed client; not a captured screen",
+      "source_file": "D:\\Software\\Steam\\steamapps\\common\\VRChat\\EasyAntiCheat\\SplashScreen.png",
+      "branch": "public",
+      "build_id": "25841461",
+      "retrieved_at_utc": "2026-10-17T20:52:19Z",
+      "source_file_last_write_local": "2026-07-04T20:08:00.6041052+08:00",
+      "bytes": 304586,
+      "dimensions_px": [
+        800,
+        450
+      ],
+      "sha256": "ece4da9441acac56df4bde01605bfb3349c573b5e0dad01bde941a33162d1613",
+      "crop_bounds_px": [
+        0,
+        0,
+        800,
+        450
+      ],
+      "retouch": "None; original full image preserved.",
+      "visible_content": "VRChat wordmark and avatar artwork; the image itself contains no EAC bear."
+    },
+    "current_eac_setup_icon": {
+      "id": "eac-current-setup-icon",
+      "file": "art/reference/fullfilm-v5/eac/eac-current-setup-icon.png",
+      "kind": "current EAC setup executable's associated icon extracted as a raster image; not a captured screen",
+      "source_executable": "D:\\Software\\Steam\\steamapps\\common\\VRChat\\EasyAntiCheat\\EasyAntiCheat_EOS_Setup.exe",
+      "source_executable_sha256": "F6A52ADBB75C0155C2DE073BAFECA731EC5268D9B558F9CBE3449928584F210A",
+      "source_executable_last_write_local": "2026-10-11T15:59:04.5333524+08:00",
+      "extraction_method": "Read the associated icon resource using System.Drawing.Icon.ExtractAssociatedIcon in memory; the setup executable was not run.",
+      "retrieved_at_utc": "2026-10-17T20:52:19Z",
+      "bytes": 1831,
+      "dimensions_px": [
+        32,
+        32
+      ],
+      "sha256": "b86181e50ab143d907589151299003cb5507880b6ae40d64f446ce85416fd841",
+      "crop_bounds_px": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "retouch": "Icon resource rasterized at its extracted 32x32 size; no crop or redraw."
+    },
+    "source_review": [
+      {
+        "source": "VRChat Ask Forum user screenshot",
+        "url": "https://ask.vrchat.com/t/launch-error-vrchat/48969",
+        "date": "2026-09-24",
+        "result": "Suitable real startup-error screenshot; near-current, but its exact client build is not stated."
+      },
+      {
+        "source": "VRChat current installed public client files",
+        "url": null,
+        "date": "BuildID 25841461; appmanifest updated 2026-10-11",
+        "result": "Exact current splash artwork and EAC setup icon are available locally. These are original app resources, not a screenshot of the running client."
+      },
+      {
+        "source": "SteamDB public depot manifest listing",
+        "url": "https://steamdb.info/depot/438101/manifests/",
+        "date": "Public BuildID 25841461 listed 2026-10-09",
+        "result": "The target workstation's installed BuildID matches the latest public branch listed during this check."
+      },
+      {
+        "source": "VRChat Security Update official post",
+        "url": "https://hello.vrchat.com/blog/vrchat-security-update",
+        "date": "2022-07-25",
+        "result": "Its EAC title art and Secure Instances diagram are historical announcement graphics, not a startup-window screenshot. Do not substitute them for the current image."
+      }
+    ],
+    "placement": {
+      "related_subject_interval_seconds": [
+        112.64,
+        122.88
+      ],
+      "label": "2026-09-24 · 用户上传的 EAC 启动报错画面",
+      "instruction": "The subject matches the existing EAC interval, but the image is from 2026. Place it as a present-day follow-up or a clearly dated 2026 beat, never as 2022 evidence. Keep the forum screenshot, current client SplashScreen asset, and extracted current EAC icon as distinct genuine resources; do not composite them into a simulated current-version screenshot."
+    }
+  },
+  "credits": {
+    "display_title": "借物表",
+    "separate_from_end_title": true,
+    "table_columns": [
+      "分类",
+      "项目 / 作品",
+      "作者",
+      "来源"
+    ],
+    "layout": {
+      "canvas_px": [
+        2048,
+        1152
+      ],
+      "background": "deep navy",
+      "text_font": "Noto Sans CJK SC",
+      "pages": 2,
+      "presentation": "Two separate static boards, placed as separate world entities by the main agent."
+    },
+    "pages": [
+      {
+        "id": "credits-01-tools-and-world",
+        "title": "借物表",
+        "subtitle": "场景、人物与工具",
+        "output_png": "art/export/fullfilm-v5/credits/credits-01-tools-and-world.png",
+        "output_size_px": [
+          2048,
+          1152
+        ],
+        "output_bytes": 203315,
+        "output_sha256": "43a330d413a5ae14bee1c3a72eaf0af92460f0d083e2aca3735a81818f44b3a4",
+        "rows": [
+          {
+            "category": "原创场景",
+            "work": "本片原创场景、模型与图稿",
+            "author": "Chiro（Unity · Blender · ChatGPT 辅助）",
+            "source": "本片原创制作"
+          },
+          {
+            "category": "原创 Shader",
+            "work": "OWFilmV4 / OWV5 着色器",
+            "author": "Chiro（Unity · ChatGPT 辅助）",
+            "source": "本片原创制作"
+          },
+          {
+            "category": "人物模型",
+            "work": "Kipfel / キプフェル",
+            "author": "もち山金魚 · 模型制作：かめ山",
+            "source": "BOOTH · 5813187"
+          },
+          {
+            "category": "衣装 / 发型",
+            "work": "眠猫せーらー（Kipfel）",
+            "author": "ねこまんま屋",
+            "source": "https://booth.pm/ja/items/8379856"
+          },
+          {
+            "category": "人物模型",
+            "work": "Nemesis / ネメシス",
+            "author": "こぬい（こまいぬ通り）",
+            "source": "BOOTH · 5986971"
+          },
+          {
+            "category": "场景资产",
+            "work": "Room -01-（书架、书籍与桌面陈设）",
+            "author": "どんぐりちゃん（どんぐりのお店）",
+            "source": "BOOTH · 6370315"
+          },
+          {
+            "category": "Shader",
+            "work": "lilToon 2.3.4",
+            "author": "lilxyzw · lilLab",
+            "source": "BOOTH · 3087170 · MIT License"
+          },
+          {
+            "category": "笔 / 系统",
+            "work": "QvPen 3.3.6",
+            "author": "ureishi · Package Shop @aivrc",
+            "source": "BOOTH · 1555789 · GitHub / ureishi"
+          },
+          {
+            "category": "Shader",
+            "work": "QvPen rounded_trail",
+            "author": "phi16",
+            "source": "QvPen 官方发布页 · BOOTH 1555789"
+          },
+          {
+            "category": "笔具模型",
+            "work": "QvPen Wood v1（木制笔与笔架）",
+            "author": "#たくあん屋さん",
+            "source": "BOOTH · 4553516"
+          },
+          {
+            "category": "脚本工具",
+            "work": "UdonSharp",
+            "author": "MerlinVR · UdonSharp Contributors",
+            "source": "VRChat Community · MIT License"
+          },
+          {
+            "category": "字体",
+            "work": "Noto Sans CJK SC",
+            "author": "The Noto Project Authors",
+            "source": "Noto CJK · SIL Open Font License 1.1"
+          }
+        ],
+        "footer": "QvPen 协作署名：MerlinVR · powass · phi16 · ChiuGameProject · mkc1370 · aaavrc · NekoShatoo · koyashiro"
+      },
+      {
+        "id": "credits-02-music-and-media",
+        "title": "借物表",
+        "subtitle": "音乐、历史影像与社区表情",
+        "output_png": "art/export/fullfilm-v5/credits/credits-02-music-and-media.png",
+        "output_size_px": [
+          2048,
+          1152
+        ],
+        "output_bytes": 210009,
+        "output_sha256": "16c7800afc0f12e4bf7e9236a134b4c11f54c2908f3366e6de42ac27c5c0dae2",
+        "rows": [
+          {
+            "category": "音乐",
+            "work": "Future Composer 1.4 音乐模块",
+            "author": "Rhino of Torment",
+            "source": "Cytax · I.C.E. 2 / EDGE Cracking Group · 2008"
+          },
+          {
+            "category": "画面模板",
+            "work": "Cracktro 视觉模板",
+            "author": "EDGE Cracking Group",
+            "source": "2008 年 cracktro 视觉模板来源"
+          },
+          {
+            "category": "历史影像",
+            "work": "《6分钟看完VRChat历史》",
+            "author": "一个一个hs",
+            "source": "Bilibili · BV1brH769EtM · 2026-10-04"
+          },
+          {
+            "category": "历史画面",
+            "work": "VRChat New Hub 官方配图",
+            "author": "VRChat",
+            "source": "Steam 公告 · 2017-11-18"
+          },
+          {
+            "category": "启动截图",
+            "work": "EAC 启动错误窗口 · 2026-09-24",
+            "author": "Chazv",
+            "source": "VRChat Ask Forum · Launch Error"
+          },
+          {
+            "category": "当前客户端",
+            "work": "VRChat SplashScreen.png",
+            "author": "VRChat Inc.",
+            "source": "Steam Public Build 25841461 · 2026-10-11"
+          },
+          {
+            "category": "当前客户端",
+            "work": "Easy Anti-Cheat 安装图标",
+            "author": "Easy Anti-Cheat · Epic Games",
+            "source": "Steam Public Build 25841461 · 2026-10-11"
+          },
+          {
+            "category": "历史网页 / 图片",
+            "work": "旧网页、论坛与公开报道画面",
+            "author": "各原始发布者",
+            "source": "Internet Archive · Wayback · Wikimedia Commons · 公开媒体"
+          },
+          {
+            "category": "论坛表情",
+            "work": "phpBB 3.0.8 原生论坛表情（8枚）",
+            "author": "phpBB Project",
+            "source": "release-3.0.8 · 2010-11-20"
+          },
+          {
+            "category": "贴吧泡泡",
+            "work": "2014 贴吧泡泡包目录预览（14格）",
+            "author": "JB51（目录预览来源）",
+            "source": "目录更新时间 · 2014-09-11"
+          },
+          {
+            "category": "贴吧移动版",
+            "work": "贴吧 Android 11.6.8.2 表情快照（8枚）",
+            "author": "百度贴吧 · 提取者 microlong666",
+            "source": "Android 11.6.8.2 · 2020-07-13"
+          },
+          {
+            "category": "贴吧当前版",
+            "work": "贴吧默认 emoji 预设（32枚）",
+            "author": "百度贴吧",
+            "source": "Android 22.12.1.0 · 2026-09-24"
+          }
+        ],
+        "footer": "感谢每一份创作与分享。"
+      }
+    ],
+    "source_records": [
+      {
+        "id": "qvpen",
+        "title": "QvPen",
+        "author_account": "Package Shop @aivrc",
+        "maintainer": "ureishi",
+        "local_version_used": "3.3.6",
+        "local_origin": "E:\\BaiduNetdiskDownload\\地图基本功能合集-初音的VRC小店\\笔4件\\OVPen本体\\QvPen本体_v3.3.6\\net.ureishi.qvpen-3.3.6.unitypackage",
+        "source_urls": [
+          "https://booth.pm/ja/items/1555789",
+          "https://github.com/ureishi/QvPen"
+        ],
+        "acknowledged_contributors": [
+          "MerlinVR",
+          "powass",
+          "phi16",
+          "ChiuGameProject",
+          "mkc1370",
+          "aaavrc",
+          "NekoShatoo",
+          "koyashiro"
+        ],
+        "terms_summary": "BOOTH source page permits use in a VRChat world and prohibits redistribution of the package. No SPDX license is declared by the local package.",
+        "local_evidence": "data/fullfilm-v3-local-assets.json; data/fullfilm-v3-pen-four-pieces.json"
+      },
+      {
+        "id": "qvpen-wood-v1",
+        "title": "QvPen Wood v1 / wooden QvPen replacement model",
+        "author": "#たくあん屋さん",
+        "local_source": "4553516木头笔/QvPen_Wood_v1/QvPen_Wood_v1.unitypackage",
+        "source_url": "https://booth.pm/ja/items/4553516",
+        "terms_summary": "BOOTH source page permits use and commercial use in VRChat worlds; prohibits re-distribution of the asset file.",
+        "local_evidence": "data/fullfilm-v3-pen-four-pieces.json; selected current prefab is QvPen_WOOD_PenStand.prefab"
+      },
+      {
+        "id": "kipfel",
+        "title": "Kipfel / キプフェル",
+        "seller": "もち山金魚",
+        "model_creator": "かめ山",
+        "source_url": "https://booth.pm/ja/items/5813187",
+        "local_evidence": "The current actor appearance is imported from the user's existing Kipfel project; the public credit names the source avatar creator."
+      },
+      {
+        "id": "kipfel-nemuneko-sailor",
+        "title": "眠猫せーらー【キプフェル対応髪型＋衣装】",
+        "seller": "ねこまんま屋",
+        "source_url": "https://booth.pm/ja/items/8379856",
+        "shop_url": "https://nekomanma-ya.booth.pm/",
+        "checked_on": "2026-10-18",
+        "current_usage": "Kipfel performance appearance: sailor outfit, matching hair and pin.",
+        "local_source": "D:\\Projects\\VRChatProjects2\\MyKipfel1.2.0\\Assets\\衣服\\眠眠",
+        "local_evidence": [
+          "Source prefabs: Prefab/Nemuneko_sailor_Set.prefab, Prefab/Nemuneko_sailor.prefab, Prefab/Nemuneko_Hair.prefab",
+          "Imported performance renderers reference Nemuneko_Sailor / Nemu_Neko_sailor_Tex.png and Hair_kip / Nemu_Neko_Hair.png."
+        ],
+        "verification": "BOOTH product title and description explicitly identify a Kipfel-compatible hairstyle and outfit set; seller is independently present in the product structured metadata."
+      },
+      {
+        "id": "nemesis",
+        "title": "Nemesis / ネメシス",
+        "seller": "こまいぬ通り",
+        "character_design_and_model_creator": "こぬい",
+        "source_url": "https://booth.pm/ja/items/5986971",
+        "local_evidence": "The current actor appearance is imported from the user's existing Nemesis project; the public credit names the source avatar creator."
+      },
+      {
+        "id": "room-01",
+        "title": "Room -01-",
+        "seller": "どんぐりのお店",
+        "creator": "どんぐりちゃん",
+        "source_url": "https://booth.pm/ja/items/6370315",
+        "current_usage": "Selected shelf, books, table, and lamp assets; the world does not use the complete packaged room scene.",
+        "terms_summary": "The BOOTH page allows use in VRChat worlds and prohibits re-distribution of the asset files.",
+        "local_evidence": "Project build records identify the selected Room -01- furniture and mesh parts."
+      },
+      {
+        "id": "liltoon",
+        "title": "lilToon",
+        "local_version_used": "2.3.4",
+        "seller": "lilLab",
+        "author": "lilxyzw",
+        "source_urls": [
+          "https://lilxyzw.booth.pm/items/3087170",
+          "https://github.com/lilxyzw/lilToon"
+        ],
+        "license": "MIT",
+        "local_evidence": "Existing shader package used by 11 opaque world materials in the V3/V4 project records."
+      },
+      {
+        "id": "project-original-assets",
+        "author": "Chiro",
+        "work": "Original world scene composition, models, artwork, and OWFilmV4/OWV5 shaders",
+        "assistance_and_tools": [
+          "Unity",
+          "Blender",
+          "ChatGPT"
+        ],
+        "local_evidence": "Project creation and build records; credits follow the user's specified authoring preference."
+      },
+      {
+        "id": "noto-sans-cjk-sc",
+        "title": "Noto Sans CJK SC Regular",
+        "author": "The Noto Project Authors",
+        "source_url": "https://github.com/notofonts/noto-cjk",
+        "license": "SIL Open Font License 1.1",
+        "local_file": "art/export/fullfilm-v4/NotoSansCJKsc-Regular.otf",
+        "local_sha256": "bf9217e3a4f1ee090ffbeb791b42edaa28d074e2374898a24a0d3a2393ef40da"
+      },
+      {
+        "id": "udonsharp",
+        "title": "UdonSharp",
+        "author": "MerlinVR and UdonSharp Contributors; maintained in the VRChat Community repository",
+        "source_url": "https://github.com/vrchat-community/UdonSharp",
+        "license": "MIT",
+        "local_evidence": "VRChat SDK Worlds integration in the Windows Unity project"
+      },
+      {
+        "id": "history-video",
+        "title": "6分钟看完VRChat历史",
+        "author": "一个一个hs",
+        "bvid": "BV1brH769EtM",
+        "published_at_utc": "2026-10-04T14:10:43Z",
+        "source_url": "https://www.bilibili.com/video/BV1brH769EtM",
+        "metadata_api_url": "https://api.bilibili.com/x/web-interface/view?bvid=BV1brH769EtM",
+        "local_evidence": "data/fullfilm-v4-history-video.json"
+      },
+      {
+        "id": "vrchat-new-hub",
+        "title": "New Hub official screenshots",
+        "author": "VRChat",
+        "published_date": "2017-11-18",
+        "source_url": "https://store.steampowered.com/news/app/438100/view/2486412956109322857",
+        "local_evidence": "spec/29-historical-image-sources.md"
+      },
+      {
+        "id": "historical-source-indexes",
+        "title": "Historical web and press images",
+        "source_indexes": [
+          "spec/29-historical-image-sources.md",
+          "data/episode123-historical-images.json",
+          "data/fullfilm-v2-public-media.json"
+        ],
+        "source_families": [
+          "Internet Archive",
+          "Wayback Machine",
+          "Wikimedia Commons",
+          "VRChat/Steam official posts",
+          "public news and forum pages"
+        ],
+        "note": "Individual image creators are credited on their indexed source records; the board uses a concise family-level line."
+      },
+      {
+        "id": "phpbb-2010-emotes",
+        "title": "phpBB 3.0.8 default forum smilies",
+        "author": "phpBB Project",
+        "release_tag": "release-3.0.8",
+        "release_date": "2010-11-20",
+        "use_intervals_seconds": [
+          [
+            51.2,
+            71.68
+          ]
+        ],
+        "source_urls": [
+          "https://www.phpbb.com/community/viewtopic.php?t=2113924",
+          "https://github.com/phpbb/phpbb/tree/release-3.0.8/phpBB/images/smilies"
+        ],
+        "asset_count": 8,
+        "local_evidence": "data/fullfilm-v5-emotes.json",
+        "license_note": "Release COPYING identifies GPL-2.0; verify individual image terms before public redistribution."
+      },
+      {
+        "id": "tieba-2014-bubble-preview",
+        "title": "百度贴吧泡泡 QQ 表情包 +50p directory preview",
+        "source_publisher": "JB51",
+        "listing_updated": "2014-09-11",
+        "use_intervals_seconds": [
+          [
+            71.68,
+            86.4
+          ]
+        ],
+        "source_urls": [
+          "https://www.jb51.net/softs/216567.html",
+          "https://img.jbzj.com/do/uploads/litimg/140911/10234433Q91.gif"
+        ],
+        "asset_count": 14,
+        "asset_type": "Transparent crops from a third-party catalog preview; no inferred captions.",
+        "rights_note": "The listing dates the preview, not the creation or authorship of the original pack."
+      },
+      {
+        "id": "tieba-mobile-2020-emotes",
+        "title": "Tieba_mobile_emotions snapshot of Baidu Tieba Android 11.6.8.2",
+        "source_repository_author": "microlong666",
+        "host_app_updated": "2020-07-13",
+        "repository_created_at_utc": "2020-07-18T09:32:50Z",
+        "use_intervals_seconds": [
+          [
+            86.4,
+            112.64
+          ]
+        ],
+        "source_repository_url": "https://github.com/microlong666/Tieba_mobile_emotions",
+        "asset_count": 8,
+        "rights_note": "The repository states the images were extracted from Baidu Tieba; it does not clear the underlying artwork rights."
+      },
+      {
+        "id": "tieba-current-2026-emotes",
+        "title": "Baidu Tieba Android default emoji preset",
+        "developer": "百度",
+        "host_app_version": "22.12.1.0",
+        "host_app_updated": "2026-09-24",
+        "preset_version": "1.0.0.0",
+        "asset_count": 32,
+        "use_intervals_seconds": [
+          [
+            112.64,
+            186.88
+          ],
+          [
+            235.52,
+            249.6
+          ]
+        ],
+        "source_urls": [
+          "https://mobile.baidu.com/appitemp/321367844",
+          "https://sj.qq.com/appdetail/com.baidu.tieba"
+        ],
+        "rights_note": "The preset comes from the current Tieba app package; Baidu retains the underlying artwork rights."
+      },
+      {
+        "id": "music-fc14",
+        "title": "Future Composer 1.4 embedded module; original track title not established in project records",
+        "composer_as_reported": "Rhino of Torment",
+        "source_attribution": "Cytax · I.C.E. 2 disk magazine; 2008 EDGE Keil program resource",
+        "local_evidence": [
+          "audio/SOURCE.md",
+          "spec/05-toolchain-and-m0.md"
+        ],
+        "rights_note": "No separate reuse license was identified in the project evidence. The audience-facing board lists attribution only."
+      },
+      {
+        "id": "eac-user-screenshot",
+        "title": "Launch Error - VRChat",
+        "author": "Chazv",
+        "posted_at_utc": "2026-09-24T05:10:50Z",
+        "source_url": "https://ask.vrchat.com/t/launch-error-vrchat/48969",
+        "image_url": "https://global.discourse-cdn.com/vrchat/original/3X/d/8/d8cb5660d4e941277353461a2bfd4a892a78610c.png",
+        "license_status": "No separate reuse license found on the source page."
+      }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "schema": "fullfilm-v5-acceptance.1",
+  "date": "2026-10-18",
+  "scene": "Assets/Scenes/OWM_FullFilm_v5.unity",
+  "spec": "spec/76-fullfilm-v5-acceptance.md",
+  "requirements": [
+    {
+      "id": "shelf",
+      "description": "书架贴图",
+      "status": "implemented_editor_and_clientsim_verified",
+      "evidence": [
+        "reports/model-material-bindings.json",
+        "reports/room01-wood-material-bindings.json",
+        "details/shelf-124-2.png"
+      ]
+    },
+    {
+      "id": "ribbon-idle",
+      "description": "等待短句",
+      "status": "implemented_editor_and_clientsim_verified",
+      "evidence": [
+        "stills/waiting.png",
+        "fullfilm-v5-story.json"
+      ]
+    },
+    {
+      "id": "ribbon-reveal",
+      "description": "从头展开并同步焦点",
+      "status": "implemented_editor_and_clientsim_verified",
+      "evidence": [
+        "reports/v5-story-validation.json",
+        "stills/v5_000.12.png",
+        "stills/v5_007.68.png"
+      ]
+    },
+    {
+      "id": "ribbon-decay",
+      "description": "文案与逐节点灰化飘散",
+      "status": "implemented_editor_and_clientsim_verified",
+      "evidence": [
+        "fullfilm-v5-story.json",
+        "reports/v5-story-validation.json",
+        "stills/v5_073.00.png",
+        "stills/v5_129.28.png"
+      ]
+    },
+    {
+      "id": "emotes",
+      "description": "论坛贴吧版本演进",
+      "status": "implemented_editor_and_clientsim_verified",
+      "evidence": [
+        "fullfilm-v5-emotes.json",
+        "reports/emotes-build.json"
+      ]
+    },
+    {
+      "id": "ai-curation",
+      "description": "AI图逐项取舍",
+      "status": "implemented_editor_and_clientsim_verified",
+      "evidence": [
+        "fullfilm-v5-curation.json",
+        "fullfilm-v5-material-audit.json",
+        "reports/curation.json"
+      ]
+    },
+    {
+      "id": "chronology",
+      "description": "素材时间线",
+      "status": "implemented_editor_and_clientsim_verified",
+      "evidence": [
+        "fullfilm-v5-related-focus.json",
+        "reports/timeline-eac-build.json",
+        "reports/v5-story-validation.json"
+      ]
+    },
+    {
+      "id": "opening-room",
+      "description": "同色六面闭合开场",
+      "status": "implemented_editor_and_clientsim_verified",
+      "evidence": [
+        "reports/waiting-walls.json",
+        "details/waiting-yaw-180.png",
+        "details/waiting-yaw-90.png",
+        "details/waiting-yaw-270.png"
+      ]
+    },
+    {
+      "id": "eac",
+      "description": "EAC真实素材",
+      "status": "implemented_editor_and_clientsim_verified",
+      "evidence": [
+        "fullfilm-v5-eac-credits.json",
+        "reports/timeline-eac-build.json",
+        "stills/v5_107.52.png",
+        "stills/v5_111.36.png",
+        "stills/v5_116.48.png"
+      ]
+    },
+    {
+      "id": "credits",
+      "description": "独立借物表含QvPen",
+      "status": "implemented_editor_and_clientsim_verified",
+      "evidence": [
+        "reports/credits-build.json",
+        "reports/ending-layout-validation.json",
+        "details/credits-page-1.png",
+        "details/credits-page-2-eye-0.65.png"
+      ]
+    },
+    {
+      "id": "ending",
+      "description": "创作仍将继续",
+      "status": "implemented_editor_and_clientsim_verified",
+      "evidence": [
+        "reports/v5-story-validation.json",
+        "stills/v5_243.20.png",
+        "stills/v5_247.04.png",
+        "stills/v5_251.52.png"
+      ]
+    },
+    {
+      "id": "canopy",
+      "description": "片尾模型",
+      "status": "implemented_editor_and_clientsim_verified",
+      "evidence": [
+        "reports/canopy-integration.json",
+        "reports/source-integrity.json",
+        "details/canopy-front.png",
+        "details/canopy-back.png"
+      ]
+    },
+    {
+      "id": "ripping-climax",
+      "description": "盗模并入中间信息过载",
+      "status": "implemented_editor_and_clientsim_verified",
+      "evidence": [
+        "reports/v5-story-validation.json",
+        "stills/v5_145.92.png",
+        "details/complete-postmark.png",
+        "stills/v5_169.28.png"
+      ]
+    }
+  ],
+  "verification_scope": "Static scene and actual single-client Editor ClientSim; device stereo, real remote multiplayer and human spatial hearing remain to be checked.",
+  "delivery_status": "implemented_and_locally_verified",
+  "local_build_uploaded": false,
+  "sdk_editor_playerloop_logs": 2,
+  "review_windows": "C:/Users/Chiro/tmp/vrc-old-web-map/fullfilm-v5/review/index.html"
+}

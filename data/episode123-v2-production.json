@@ -1,0 +1,336 @@
+{
+  "version": 2,
+  "status": "review-ready",
+  "spec": "spec/27-episode123-review-and-revision.md",
+  "scene": "Assets/Scenes/OWM_Episode123_v2.unity",
+  "source_user_scene_preserved": "Assets/Scenes/OWM_Episode123.unity",
+  "scope": {
+    "start": 0,
+    "end": 133.12,
+    "sections": 3,
+    "coarse_cues": 12,
+    "montage_cuts": 208,
+    "source_images": 42,
+    "total_images": 57,
+    "fft_channels": 4,
+    "bands_per_channel": 16
+  },
+  "current_phase": "completed-awaiting-user-review",
+  "review_comments_recorded_verbatim": true,
+  "reference_video_downloaded_and_studied": true,
+  "remaining": [],
+  "validation": {
+    "continuous": {
+      "success": true,
+      "duration": 133.12,
+      "cuesSeen": 12,
+      "cutsSeen": 208,
+      "fftChannels": 4,
+      "fftBands": 16,
+      "maxIntertrackSamples": 0,
+      "maxRawSamples": 1024,
+      "maxMontageMs": 1.13677979,
+      "maxAudioClockError": 0.09039307,
+      "maxListenerRms": 0.09669236,
+      "maxSourceRms": [
+        0.08032687,
+        0.039889805,
+        0.041567076,
+        0.0402212068
+      ],
+      "endStopped": true,
+      "bufferLength": 1024,
+      "bufferCount": 4,
+      "transients": [
+        {
+          "time": 23.8429947,
+          "raw": 1024,
+          "readings": [
+            1145507,
+            1144483,
+            1144483,
+            1144483
+          ],
+          "confirmed": 0,
+          "next": [
+            1148579,
+            1148579,
+            1148579,
+            1148579
+          ]
+        },
+        {
+          "time": 71.95654,
+          "raw": 1024,
+          "readings": [
+            3454627,
+            3453603,
+            3453603,
+            3453603
+          ],
+          "confirmed": 0,
+          "next": [
+            3457699,
+            3457699,
+            3457699,
+            3457699
+          ]
+        },
+        {
+          "time": 128.691666,
+          "raw": 1024,
+          "readings": [
+            6178467,
+            6177443,
+            6177443,
+            6177443
+          ],
+          "confirmed": 0,
+          "next": [
+            6181539,
+            6181539,
+            6181539,
+            6181539
+          ]
+        },
+        {
+          "time": 130.169464,
+          "raw": 1024,
+          "readings": [
+            6249123,
+            6248099,
+            6248099,
+            6248099
+          ],
+          "confirmed": 0,
+          "next": [
+            6252195,
+            6252195,
+            6252195,
+            6252195
+          ]
+        }
+      ],
+      "snapshots": [
+        {
+          "cue": 0,
+          "time": 0.554478645,
+          "cut": 0,
+          "path": "C:\\Users\\Chiro\\tmp/vrc-old-web-map/episode123-v2\\frames\\live_00.png"
+        },
+        {
+          "cue": 1,
+          "time": 10.7784824,
+          "cut": 16,
+          "path": "C:\\Users\\Chiro\\tmp/vrc-old-web-map/episode123-v2\\frames\\live_01.png"
+        },
+        {
+          "cue": 2,
+          "time": 21.0633183,
+          "cut": 32,
+          "path": "C:\\Users\\Chiro\\tmp/vrc-old-web-map/episode123-v2\\frames\\live_02.png"
+        },
+        {
+          "cue": 3,
+          "time": 31.2688046,
+          "cut": 48,
+          "path": "C:\\Users\\Chiro\\tmp/vrc-old-web-map/episode123-v2\\frames\\live_03.png"
+        },
+        {
+          "cue": 4,
+          "time": 41.47789,
+          "cut": 64,
+          "path": "C:\\Users\\Chiro\\tmp/vrc-old-web-map/episode123-v2\\frames\\live_04.png"
+        },
+        {
+          "cue": 5,
+          "time": 51.702713,
+          "cut": 80,
+          "path": "C:\\Users\\Chiro\\tmp/vrc-old-web-map/episode123-v2\\frames\\live_05.png"
+        },
+        {
+          "cue": 6,
+          "time": 72.20081,
+          "cut": 112,
+          "path": "C:\\Users\\Chiro\\tmp/vrc-old-web-map/episode123-v2\\frames\\live_06.png"
+        },
+        {
+          "cue": 7,
+          "time": 82.4424438,
+          "cut": 128,
+          "path": "C:\\Users\\Chiro\\tmp/vrc-old-web-map/episode123-v2\\frames\\live_07.png"
+        },
+        {
+          "cue": 8,
+          "time": 92.71069,
+          "cut": 144,
+          "path": "C:\\Users\\Chiro\\tmp/vrc-old-web-map/episode123-v2\\frames\\live_08.png"
+        },
+        {
+          "cue": 9,
+          "time": 102.905846,
+          "cut": 160,
+          "path": "C:\\Users\\Chiro\\tmp/vrc-old-web-map/episode123-v2\\frames\\live_09.png"
+        },
+        {
+          "cue": 10,
+          "time": 113.184212,
+          "cut": 176,
+          "path": "C:\\Users\\Chiro\\tmp/vrc-old-web-map/episode123-v2\\frames\\live_10.png"
+        },
+        {
+          "cue": 11,
+          "time": 123.437767,
+          "cut": 192,
+          "path": "C:\\Users\\Chiro\\tmp/vrc-old-web-map/episode123-v2\\frames\\live_11.png"
+        }
+      ]
+    },
+    "interaction": {
+      "success": true,
+      "rayShapeHit": true,
+      "pointerClickPlayed": true,
+      "panelHiddenWhilePlaying": true,
+      "pauseIgnored": true,
+      "lateJoinRebuilt": true,
+      "endPanelShown": true,
+      "reconstructed": 74.05479,
+      "scope": "Real Udon/ClientSim pointerClick -> persistent SendCustomEvent -> Udon. Late join checks received-anchor local reconstruction, not real multiclient network transport."
+    },
+    "sdk": {
+      "success": true,
+      "path": "C:\\Users\\Chiro\\tmp/vrc-old-web-map/episode123-v2\\OWM_Episode123_v2.vrcw",
+      "bytes": 40997988,
+      "uploaded": false
+    },
+    "viewpoints": {
+      "success": true,
+      "captionOverlay": true,
+      "baselinePreserved": true,
+      "views": [
+        {
+          "height": 0.59,
+          "eye": -0.032,
+          "path": "C:\\Users\\Chiro\\tmp/vrc-old-web-map/episode123-v2\\frames\\view_0_left.png"
+        },
+        {
+          "height": 0.59,
+          "eye": 0.032,
+          "path": "C:\\Users\\Chiro\\tmp/vrc-old-web-map/episode123-v2\\frames\\view_0_right.png"
+        },
+        {
+          "height": 1.35,
+          "eye": -0.032,
+          "path": "C:\\Users\\Chiro\\tmp/vrc-old-web-map/episode123-v2\\frames\\view_1_left.png"
+        },
+        {
+          "height": 1.35,
+          "eye": 0.032,
+          "path": "C:\\Users\\Chiro\\tmp/vrc-old-web-map/episode123-v2\\frames\\view_1_right.png"
+        },
+        {
+          "height": 1.9,
+          "eye": -0.032,
+          "path": "C:\\Users\\Chiro\\tmp/vrc-old-web-map/episode123-v2\\frames\\view_2_left.png"
+        },
+        {
+          "height": 1.9,
+          "eye": 0.032,
+          "path": "C:\\Users\\Chiro\\tmp/vrc-old-web-map/episode123-v2\\frames\\view_2_right.png"
+        }
+      ],
+      "stereoVariants": "compiled and warmed",
+      "messages": [],
+      "headsetTested": false
+    },
+    "reference_movie": {
+      "duration": 135.04,
+      "resolution": [
+        1600,
+        900
+      ],
+      "fps": 25,
+      "full_decode": "passed",
+      "visual_samples": 30,
+      "path": "/home/chiro/tmp/vrc-old-web-map/episode123-v2/review/episode123-v2-review.mp4",
+      "kind": "offline reference with stereo mix"
+    },
+    "static_and_runtime_report_checks": {
+      "passed": 440,
+      "failed": 0,
+      "report": "/home/chiro/tmp/vrc-old-web-map/episode123-v2/inspection/full-validation.txt"
+    },
+    "ray_panel_facing": {
+      "success": true,
+      "rows": [
+        {
+          "height": 0.59,
+          "hit": true,
+          "facing": 0.9933204
+        },
+        {
+          "height": 1.35,
+          "hit": true,
+          "facing": 0.986940265
+        },
+        {
+          "height": 1.9,
+          "hit": true,
+          "facing": 0.939259648
+        }
+      ],
+      "yaw": -54
+    },
+    "final_editor": {
+      "stopped": true,
+      "compiling": false,
+      "scene_saved": true,
+      "bad_materials": 0,
+      "new_unresolved_errors": 0
+    }
+  },
+  "iterations": [
+    {
+      "id": 1,
+      "status": "reviewed",
+      "findings": [
+        "旧CRT壳体在切图入场时遮挡新图",
+        "原BT机制网格遮挡历史图片",
+        "字幕与频谱相互靠近"
+      ]
+    },
+    {
+      "id": 2,
+      "status": "reviewed",
+      "fixes": [
+        "移除旧中心CRT遮挡",
+        "BT机制与漫画/插画深度层移至侧面",
+        "字幕缩短并移到独立近处层",
+        "真实Udon连续133.12秒通过，208主切换全覆盖"
+      ]
+    },
+    {
+      "id": 3,
+      "status": "reviewed",
+      "fixes": [
+        "真实Overlay字幕材质，替代无效深度参数",
+        "低视点主关键词安全区与描边",
+        "EDGE点阵与主关键词分开构图"
+      ],
+      "artifacts": "/home/chiro/tmp/vrc-old-web-map/episode123-v2/iteration3"
+    }
+  ],
+  "follow_up_outside_this_delivery": [
+    "真实头显双眼与舒适度体验",
+    "真实多客户端网络传输与容量",
+    "精细动捕和表情手指",
+    "其余四段"
+  ],
+  "review_artifacts": {
+    "entry": "/home/chiro/tmp/vrc-old-web-map/episode123-v2/review/index.html",
+    "movie": "/home/chiro/tmp/vrc-old-web-map/episode123-v2/review/episode123-v2-review.mp4",
+    "contact_sheet": "/home/chiro/tmp/vrc-old-web-map/episode123-v2/review/contact-sheet.jpg",
+    "sources": "/home/chiro/tmp/vrc-old-web-map/episode123-v2/review/sources-provenance.md",
+    "bundle": "/home/chiro/tmp/vrc-old-web-map/episode123-v2/review/OWM_Episode123_v2.vrcw"
+  }
+}

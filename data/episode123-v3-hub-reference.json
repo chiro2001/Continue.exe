@@ -1,0 +1,219 @@
+{
+  "version": 3,
+  "scope": "episode123 / detailed spatial set and cast",
+  "status": "text-builder-ready-pending-unity-verification",
+  "scene": "Assets/Scenes/OWM_Episode123_v3.unity",
+  "asset_root": "Assets/OldWebMap/Episode123/Revision3",
+  "sources": [
+    {
+      "id": "official-2017-new-hub",
+      "publisher": "VRChat",
+      "article_date": "2017-11-18",
+      "kind": "contemporary official announcement images",
+      "url": "https://store.steampowered.com/news/app/438100/view/5318144537297816864",
+      "readable_api": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=438100&count=100&maxlength=0&enddate=1511500000",
+      "image_paths": [
+        "art/reference/episode123-v2/vrc2017-newhub-01-header.png",
+        "art/reference/episode123-v2/vrc2017-newhub-02-entrance.png",
+        "art/reference/episode123-v2/vrc2017-newhub-03-travel-map.png",
+        "art/reference/episode123-v2/vrc2017-newhub-04-help.png",
+        "art/reference/episode123-v2/vrc2017-newhub-05-avatar-hall.png",
+        "art/reference/episode123-v2/vrc2017-newhub-06-avatar-mirror.png",
+        "art/reference/episode123-v2/vrc2017-newhub-07-event.png",
+        "art/reference/episode123-v2/vrc2017-newhub-08-new-worlds.png",
+        "art/reference/episode123-v2/vrc2017-newhub-09-panosphere.png",
+        "art/reference/episode123-v2/vrc2017-newhub-10-sculpture.png"
+      ],
+      "confirmed": [
+        "pale tiered masonry and ochre-gold bands",
+        "dark blue floor",
+        "entrance information boards",
+        "Travel Maps with user dots",
+        "Avatar Hall with mirror",
+        "Event Hall with hanging blue crystals",
+        "oval New Worlds portals",
+        "polygonal garden trees and social seating"
+      ]
+    },
+    {
+      "id": "official-2019-home-hub",
+      "publisher": "VRChat",
+      "article_date": "2019-05-13",
+      "published_utc": "2019-05-13T21:01:30Z",
+      "url": "https://medium.com/vrchat/welcome-to-your-new-home-and-hub-139e06e0dea8",
+      "readable_image_provenance": "https://medium.com/feed/@vrchat",
+      "kind": "official original article, retrieved through official legacy-account RSS; original CDN images downloaded and visually reviewed",
+      "images": [
+        {
+          "name": "home",
+          "url": "https://miro.medium.com/v2/resize:fit:1400/1*6HF8JaYAct288sIlvyIPOg.png",
+          "path": "art/reference/episode123-v3-hub/2019-home.png",
+          "sha256": "1bbf87be654c028c8aed229f59d03687b0eb59c849609b2885c6cbb19b016243",
+          "publisher": "VRChat",
+          "article_published_utc": "2019-05-13T21:01:30Z",
+          "image_capture_date": "not stated",
+          "width": 1400,
+          "height": 788,
+          "visual_confirmed_features": [
+            "米白色墙面与深色上部墙带",
+            "露明木梁/顶棚木条",
+            "木质沙发、红色坐垫、白枕头",
+            "同心圆地毯与低木桌",
+            "左侧The Hub圆形门户",
+            "大陶盆与分叉绿色叶片",
+            "顶部青色发光吊装结构"
+          ]
+        },
+        {
+          "name": "hub",
+          "url": "https://miro.medium.com/v2/resize:fit:1400/1*I5c-QMDHVPeyC35pM1V4Ng.png",
+          "path": "art/reference/episode123-v3-hub/2019-hub.png",
+          "sha256": "c8ec8b2ff0fd48260a2e0d0dd4e34c914922935d00853fa5aa5fb5b4da74ccc8",
+          "publisher": "VRChat",
+          "article_published_utc": "2019-05-13T21:01:30Z",
+          "image_capture_date": "not stated",
+          "width": 1400,
+          "height": 788,
+          "visual_confirmed_features": [
+            "绿地中央营火与不规则石圈",
+            "围绕营火的原木长凳",
+            "弯曲树干与块面树冠",
+            "木柱、柱脚、横梁、木质平台",
+            "后台PC Worlds分类与多个椭圆传送门",
+            "银河/星空视觉与空中蓝色轨道结构"
+          ]
+        },
+        {
+          "name": "cross-platform",
+          "url": "https://miro.medium.com/v2/resize:fit:1400/1*pMRP83SKAKJMydkUPgb7sQ.png",
+          "path": "art/reference/episode123-v3-hub/2019-cross-platform.png",
+          "sha256": "728d8515bc0c6a2f899ca9f492be753118e6249537667b4166d2711b9e4472a3",
+          "publisher": "VRChat",
+          "article_published_utc": "2019-05-13T21:01:30Z",
+          "image_capture_date": "not stated",
+          "width": 1217,
+          "height": 614,
+          "visual_confirmed_features": [
+            "PC左蓝圆、Quest右绿圆",
+            "重叠双圆表示双平台内容",
+            "PC-only和Quest-only分别置灰另一侧"
+          ]
+        }
+      ],
+      "text_confirmed_features": [
+        "Home: avatar selector next to mirror",
+        "Home: buttons next to portals switch a variety of worlds",
+        "Hub: compact conversational groups and evening lighting",
+        "Hub: campfire gathering place",
+        "Hub: portal section split into cross-platform and active PC worlds",
+        "Hub: mirror initially 2D and switchable to standard VRChat mirror"
+      ],
+      "not_confirmed": [
+        "exact floor plan",
+        "metric dimensions",
+        "all portal destinations in photograph",
+        "location of Home mirror within the pictured frame"
+      ]
+    }
+  ],
+  "reconstruction": {
+    "approach": "Source-based detailed theatrical condensation; not a measured or exact historical reconstruction.",
+    "2017": [
+      "separate entrance pavilion, Avatar Hall, Event Hall and world portals compressed into a visible cross-court",
+      "retains blue walking surface, pale stone terraces, gold bands, mirror piers, tall boards, hanging crystals, social stools",
+      "surface roughness and seams authored procedurally and persisted as textures; not extracted historical assets"
+    ],
+    "2019": [
+      "campfire Hub and pale Home lounge are separate vignettes, not falsely merged into one historical floor plan",
+      "Hub shows timber posts, green circular lawn, bent tree, stone fire circle, log seats and rear PC/cross-platform portal categories",
+      "Home shows lounge/rug/wooden beams/planters/portal; mirror-side avatar selector follows the article text and uses an adapted location"
+    ],
+    "adaptations": [
+      "open front walls for seated audience visibility",
+      "reduced height/width/travel to fit 10.24-second world beat",
+      "world-space Avatar/World menu with independently changing selection cards; not a pixel-exact 2017 menu",
+      "native SDK mirror enabled in short windows if SDK component and shader exist",
+      "Kipfel/Nemesis are current performance bodies, not a claim of their existence in 2017 or 2019",
+      "Room01 furniture is modern supporting set dressing, not a historical Hub asset"
+    ]
+  },
+  "world_score": [
+    {
+      "from": 79.36,
+      "to": 81.92,
+      "action": "2017 approach; library crew leaves their working zones; two original desks retract from beat"
+    },
+    {
+      "from": 81.92,
+      "to": 84.48,
+      "action": "enter mirror/Avatar Hall; two actors calibrate and face mirror; Avatar menu selects replacement body"
+    },
+    {
+      "from": 84.48,
+      "to": 85.76,
+      "action": "two actual Humanoid visual replacements appear and persist; group observes result"
+    },
+    {
+      "from": 85.76,
+      "to": 87.04,
+      "action": "World menu changes selection and Portal ready; actors turn/point/walk toward world area"
+    },
+    {
+      "from": 87.04,
+      "to": 89.6,
+      "action": "2019 timber campfire Hub enters; four actors cross to four distinct places around lawn"
+    },
+    {
+      "from": 89.6,
+      "to": 92.16,
+      "action": "four-person conversation and response; PC/Quest icons and separate Home lounge remain readable"
+    },
+    {
+      "from": 92.16,
+      "to": 102.4,
+      "action": "conversation continues as stable shared place before conditions change"
+    }
+  ],
+  "cast": {
+    "slots": 4,
+    "shared_keyframes": 35,
+    "humanoid_clips": 12,
+    "roles": [
+      "tool maker",
+      "translator/proofreader",
+      "distributor/archivist",
+      "maintainer/guide"
+    ],
+    "normal_clock": "OWV3HubCast.Update and LateUpdate read director.Elapsed()",
+    "offline_clock": "OWV3HubCast.Sample(float), editor helper OWEpisodeV3HubCast.Sample(float) samples authored Humanoid states",
+    "mocap_contract": "externalMotion[i] releases transform/animation ownership; OWActorRig and Humanoid remain replaceable; actor root paths are separate from visualRoot",
+    "hand_separation": "Arm Front-Back = 0 corrected axis; type/carry/reach do not use the old crossed -.6 setting. Must still check both actual Humanoids at representative phases in Unity."
+  },
+  "asset_reuse": {
+    "primary_model": "Assets/Room01/Scene/model/Room01.fbx",
+    "builder_behaviour": "scans already imported Room01/Modern/Furniture model child MeshRenderers; selects sofa, coffee table, shelves, lamp; preserves source mesh/material references; reports actual matched path/node",
+    "source_package": "user-owned Room01; selectively imported by root agent from the existing other Windows project",
+    "fallback": "authored wooden bookshelf, cart, sofa/table if a named source part is absent; fallback never counted as imported asset reuse",
+    "confirmed_source_nodes": [
+      "Sofa",
+      "LowTable_wood",
+      "LowTable_White",
+      "Living_Shelf",
+      "Shelf",
+      "Books",
+      "Book",
+      "Desk_Lamp",
+      "Lamp"
+    ],
+    "material_handling": "Prefer already imported external Room01 .mat with exact material name over embedded FBX material stubs; retain source references and report actual shader/texture paths."
+  },
+  "validation_required": [
+    "Unity C# and Udon compile",
+    "persisted mesh/material/texture counts and actual asset reuse report",
+    "81.92/84.48/85.76/89.60/92.16 visual comparison",
+    "native mirror reflection in target view",
+    "all four actors locomote and turn; hands stay left/right separated",
+    "seek/replay deterministic world/cast state",
+    "same scene stopped and relevant changes saved by root agent"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "spec": "spec/35-native-operations-v3.md",
+  "duration": 133.12,
+  "reuses_existing_images_without_new_count": true,
+  "groups": [
+    {"id":"win98-readme","range":[10.24,20.48],"source":"windows98-se-explorer","milestones":{"select":11.6,"drag":13.6,"expand":17.2,"complete":18.88},"body_kind":"original-demonstration"},
+    {"id":"aegisub-proofread","range":[40.96,51.20],"sources":["fansub-51517e462c93","fansub-acae7d9029f6"],"row_seconds":0.08,"milestones":{"uncorrected":44.16,"corrected":44.40,"export":50.46},"mini_waveforms":"same verified four-channel PCM atlas; visual reference only"},
+    {"id":"bt-keep-seeding","range":[51.20,61.44],"nodes":4,"pieces":16,"milestones":{"assembled":57.60,"seeding":58.24,"last_arrival":61.29},"trigger_source":"original tracks.csv note attacks; CH02 sustain preserved without invented attacks"}
+  ]
+}

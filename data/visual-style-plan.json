@@ -1,0 +1,238 @@
+{
+  "version": 1,
+  "status": "user-provided-period-faithful-style-carrier-details-pending",
+  "checked_on": "2026-10-16",
+  "spec": "spec/18-visual-style-direction.md",
+  "art_production_plan": "data/art-production-plan.json",
+  "show_outline": "data/show-outline.json",
+  "spatial_plan_proposal": "data/spatial-scene-plan.json",
+  "recommended_direction": "period-faithful-carriers",
+  "selected_direction": "period-faithful-carriers",
+  "selection_scope": "旧内容保留真实年代风格、轻度调色协调、前期屏幕与窗口承载、后期更自由；具体软件设备、文字配置、滤镜与展开时点待细化",
+  "study": {
+    "svg": "/home/chiro/tmp/vrc-old-web-map/style-discussion-20261015/18-style-directions.svg",
+    "png": "/home/chiro/tmp/vrc-old-web-map/style-discussion-20261015/18-style-directions.png",
+    "location_scope": "user-visible-task-temporary-directory",
+    "status": "self-authored-vector-comparison-study",
+    "scope": "前轮共用构图比较图，当前仅供构图和氛围留档；简化界面不作为真实年代 UI 还原标准，人物为抽象占位",
+    "superseded_as_main_style_reference": true,
+    "not_evidence_of": [
+      "最终演员造型",
+      "成品绘制质量",
+      "历史原始画面",
+      "Unity 渲染",
+      "VR 双眼效果"
+    ],
+    "counts_as_production_master": false
+  },
+  "directions": [
+    {
+      "id": "period-faithful-carriers",
+      "label": "年代还原与载体展开",
+      "status": "user-provided-selected-direction",
+      "art": "旧内容按具体年代、设备和软件还原，轻微配色覆盖或局部滤镜协调全片",
+      "staging": "前期通过电脑、按键机、早期智能手机屏幕与浏览器窗口建立边界，后期逐步拆层、越界和自由组合",
+      "preserve": "空间更自由时，旧内容的边框、按钮、文字与像素结构继续保留"
+    },
+    {
+      "id": "era-collage",
+      "label": "年代界面拼贴与实体场景",
+      "status": "previous-option-archived",
+      "art": "历史界面保留年代差异，自绘插画、矢量排版与简单实体结合",
+      "staging": "明确身体尺度、前中远景与局部照明，生活和制作持续发生",
+      "study_palette": [
+        "#DFE4DD",
+        "#B99B76",
+        "#304E97",
+        "#6CAE9E",
+        "#B67C99",
+        "#D7B46A"
+      ]
+    },
+    {
+      "id": "illustrated-stage",
+      "label": "手绘插画场景",
+      "status": "previous-option-local-technique-only",
+      "art": "场景和物件使用更明显的绘画轮廓、笔触与色块，界面布局仍保留年代依据",
+      "staging": "较柔和亲近的局部光与场景关系",
+      "study_limitation": "比较图只有简化的轮廓与色彩示意，正式手绘质感待样张"
+    },
+    {
+      "id": "abstract-graphic-space",
+      "label": "抽象图形空间",
+      "status": "previous-option-local-technique-only",
+      "art": "几何关系、发光轮廓与图形阵列较突出",
+      "staging": "冷暗空间、留白与反差，突出秩序、尺度和压迫"
+    }
+  ],
+  "shared_confirmed_basis": [
+    "大量自绘内容，面片内外两级真实深度分层",
+    "简单模型、可替换骨骼演员与精选现有资产",
+    "互联网与 VRChat 全片交织，群像与少数熟面孔",
+    "音乐常态前方轻微分层，少数高潮短暂展开",
+    "结尾一起做下去，关键词继续"
+  ],
+  "recommended_art_rules": [
+    "旧 UI 以具体系统、浏览器版本和设备为参考，还原布局、边框、按钮、图标、文字、分辨率与年代配色。",
+    "原创插画按内容家族保留像素、涂鸦、漫画或清晰矢量图形的差异。",
+    "简单模型主要轮廓、少量倒角和必要厚度明确，细节由贴图与标识补充。",
+    "演员保留现有 Avatar 辨识度，以曝光、局部色彩和接触关系协调场景。",
+    "面片表面可以是屏幕、塑料、纸或插画，材质按内容确定。",
+    "旧 UI 先按对应虚拟像素网格制作，像素结构和文字栅格按实际参考保留，正文、演员与当代内容分别处理。",
+    "CRT、扫描线、故障与全息等效果按物体、来源和段落局部使用。"
+  ],
+  "recommended_picture_rules": [
+    "前期用电脑、手机实体与清楚的软件窗口建立边界、身体尺度和像素尺度，再安排尺度变化。",
+    "载体可逐步放大、拆层、越出边框并成为入口或共同工作区，旧样式不会因此自动现代化。",
+    "前方一个主要动作与阅读面，中景有相邻活动，侧后与远景可发现更多内容。",
+    "场景组之间和一幅画面内部均有真实深度，正文与控件浅层且可读。",
+    "局部提示可以快，递交、操作与图层合拢保留完整过程。",
+    "跨年代转场按动作与形态连接，各事件保留日期、来源和语境。",
+    "不同人物与背景有各自的活动周期，高潮才集中提高整体运动与尺度。",
+    "人物保留独立参照，以周围场景整体运动表现进入和穿行，旧内容外观与局部分层保持；具体方案见 world-motion-plan。"
+  ],
+  "color_and_light": {
+    "status": "authored-candidate-not-runtime-values",
+    "palette_scope": "以真实年代和设备配色为基础；前轮 A 色卡只作旧比较图记录，不成为统一重绘色卡",
+    "content_adjustment": "轻微色彩覆盖、色温或明度调整与局部滤镜协调全片，保留系统主色、图标和文字边缘的辨识度",
+    "carrier": "中性或较低对比的大面积环境",
+    "content": "具体文化内容、人物和主要动作可以有更鲜明的局部颜色",
+    "lighting": "自然光、工位暖灯与屏幕光按场面组织，暗处与局部亮处控制注意力",
+    "readability": "关键界面以稳定底色、自发光比例和局部照明保持可读；具体滤镜强度尚未锁定"
+  },
+  "period_ui_rendering": {
+    "status": "production-guidance-specific-reference-selection-pending",
+    "basis": "具体系统、浏览器、字体、字号、渲染设置、显示分辨率与设备共同决定样式",
+    "pixel_grid": "界面先在相应虚拟分辨率下制作，文字与控件优先整数像素对齐，放大时保留图形结构",
+    "historical_text_note": "Windows XP 支持字体平滑和 ClearType，部分更早 Windows 配置也支持字体平滑；不能把 XP 及以前一律记为只能显示无抗锯齿点阵字。小字号中文界面常见内嵌点阵表现，具体仍依字体、应用和设置。",
+    "reference_modes": [
+      "位图或内嵌点阵",
+      "灰度抗锯齿",
+      "ClearType 实际样本"
+    ],
+    "display_effects": "CRT 的扫描、辉光或弯曲仅按具体载体使用；LCD、按键机与早期智能手机采用自身显示性质",
+    "scope": "像素化与滤镜作用于目标内容或屏幕组，不对演员和整个 VR 视野统一处理",
+    "readability": "通过载体大小、距离和构图组织阅读，实际采样与头显表现待验证"
+  },
+  "carriers": [
+    {
+      "id": "computer-screen",
+      "kind": "physical",
+      "model_ids": [
+        "crt-monitor"
+      ],
+      "content": "对应年代的桌面、浏览器和程序界面"
+    },
+    {
+      "id": "feature-phone-screen",
+      "kind": "physical",
+      "model_ids": [
+        "feature-phone"
+      ],
+      "content": "对应机型的菜单、软键提示、短信或 WAP/移动页面"
+    },
+    {
+      "id": "early-smartphone-screen",
+      "kind": "physical",
+      "model_ids": [
+        "early-smartphone"
+      ],
+      "content": "对应早期智能系统与浏览器，保留宽高比和交互控件"
+    },
+    {
+      "id": "browser-window",
+      "kind": "software-boundary",
+      "model_ids": [
+        "ui-window-frame"
+      ],
+      "content": "保留对应版本的标题栏、工具栏、边框与页面布局"
+    }
+  ],
+  "carrier_progression": {
+    "status": "user-provided-direction-section-staging-authored-not-runtime",
+    "phases": [
+      {
+        "id": "contained",
+        "sections": [
+          "connect"
+        ],
+        "picture": "内容优先位于实体屏幕或清楚的软件窗口内，明确时代与边界"
+      },
+      {
+        "id": "unfold",
+        "sections": [
+          "create"
+        ],
+        "picture": "早段放大与拆层后撤去全局容器，进入持续的无界内容场。"
+      },
+      {
+        "id": "reconfigure-boundary",
+        "sections": [
+          "constrain",
+          "overload"
+        ],
+        "picture": "在无界环境中保留局部条件入口与过载，外部不重新封闭。"
+      },
+      {
+        "id": "distant-anchor",
+        "sections": [
+          "distance"
+        ],
+        "picture": "撤去近处内容，远处保留熟悉的旧屏幕、文件或作品"
+      },
+      {
+        "id": "free-workspace",
+        "sections": [
+          "continue",
+          "trace"
+        ],
+        "picture": "无界环境中建立回应并候选重构内外和远近关系，结尾人尺度协作、外围仍无界。"
+      }
+    ],
+    "exact_release_points": "随具体音乐与样张细化，不表示新时段或卡点已确认"
+  },
+  "section_staging": [
+    {
+      "section": "connect",
+      "picture": "电脑、按键机、早期智能手机屏幕和明确浏览器窗口承载年代内容，先建立边界与像素尺度"
+    },
+    {
+      "section": "create",
+      "picture": "撤去全局房间与场地边沿，进入长段无界内容场，各类活动在不同尺度和深度展开。"
+    },
+    {
+      "section": "constrain",
+      "picture": "无界基底保留，局部入口、重复与遮挡改变可用能力和注意力。"
+    },
+    {
+      "section": "overload",
+      "picture": "无界基底保留，局部入口、重复与遮挡改变可用能力和注意力。"
+    },
+    {
+      "section": "distance",
+      "picture": "无界留白里远处仅亮一个已见保存物。"
+    },
+    {
+      "section": "continue",
+      "picture": "无界环境中先有具体回应，再候选内外互换与远近重构。"
+    },
+    {
+      "section": "trace",
+      "picture": "局部人尺度操作继续，外围无界，片尾那就一起做下去。"
+    }
+  ],
+  "next_studies": [
+    "create",
+    "overload",
+    "distance",
+    "continue"
+  ],
+  "runtime_implemented": false,
+  "production_assets_completed_by_this_study": 0,
+  "spatial_experience": {
+    "requirement": "长段无边界与一段空间关系超越",
+    "window_source": "data/spatial-scene-plan.json",
+    "style_scope": "旧内容保持真实年代样式，界面边框是局部物件边界，不构成包围整体的房间。"
+  },
+  "world_motion_plan": "data/world-motion-plan.json"
+}

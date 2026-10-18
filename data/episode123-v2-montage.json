@@ -1,0 +1,2191 @@
+{
+  "version": 2,
+  "duration": 133.12,
+  "pulse_seconds": 0.64,
+  "secondary_tick_seconds": 0.32,
+  "primary_cuts": 208,
+  "old_primary_scenes": 12,
+  "primary_change_ratio": 17.333333333333332,
+  "images": [
+    {
+      "id": "vrc-2017-hub-header",
+      "path": "art/reference/episode123-v2/vrc2017-newhub-01-header.png",
+      "title": "VRChat New Hub：入口与玩家聚集",
+      "category": "vrc",
+      "kind": "同期官方 Steam 公告配图",
+      "width": 954,
+      "height": 593
+    },
+    {
+      "id": "vrc-2017-hub-entrance",
+      "path": "art/reference/episode123-v2/vrc2017-newhub-02-entrance.png",
+      "title": "VRChat New Hub：入口与告示板",
+      "category": "vrc",
+      "kind": "同期官方 Steam 公告配图",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "id": "vrc-2017-hub-travel-map",
+      "path": "art/reference/episode123-v2/vrc2017-newhub-03-travel-map.png",
+      "title": "VRChat New Hub：Travel Maps",
+      "category": "vrc",
+      "kind": "同期官方 Steam 公告配图",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "id": "vrc-2017-hub-help",
+      "path": "art/reference/episode123-v2/vrc2017-newhub-04-help.png",
+      "title": "VRChat New Hub：Help Area",
+      "category": "vrc",
+      "kind": "同期官方 Steam 公告配图",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "id": "vrc-2017-hub-avatar-hall",
+      "path": "art/reference/episode123-v2/vrc2017-newhub-05-avatar-hall.png",
+      "title": "VRChat New Hub：Avatar Hall 展示区",
+      "category": "vrc",
+      "kind": "同期官方 Steam 公告配图",
+      "width": 959,
+      "height": 539
+    },
+    {
+      "id": "vrc-2017-hub-mirror",
+      "path": "art/reference/episode123-v2/vrc2017-newhub-06-avatar-mirror.png",
+      "title": "VRChat New Hub：镜子与 Avatar Hall",
+      "category": "vrc",
+      "kind": "同期官方 Steam 公告配图",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "id": "vrc-2017-hub-events",
+      "path": "art/reference/episode123-v2/vrc2017-newhub-07-event.png",
+      "title": "VRChat New Hub：Event Hall",
+      "category": "vrc",
+      "kind": "同期官方 Steam 公告配图",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "id": "vrc-2017-hub-new-worlds",
+      "path": "art/reference/episode123-v2/vrc2017-newhub-08-new-worlds.png",
+      "title": "VRChat New Hub：New Worlds 门户",
+      "category": "vrc",
+      "kind": "同期官方 Steam 公告配图",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "id": "vrc-2017-hub-panosphere",
+      "path": "art/reference/episode123-v2/vrc2017-newhub-09-panosphere.png",
+      "title": "VRChat New Hub：VRCHIVE Panosphere",
+      "category": "vrc",
+      "kind": "同期官方 Steam 公告配图",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "id": "vrc-2017-hub-sculpture",
+      "path": "art/reference/episode123-v2/vrc2017-newhub-10-sculpture.png",
+      "title": "VRChat New Hub：互动雕塑",
+      "category": "vrc",
+      "kind": "同期官方 Steam 公告配图",
+      "width": 1902,
+      "height": 1175
+    },
+    {
+      "id": "windows95-osr2-desktop",
+      "path": "art/reference/episode123-v2/win95-desktop-vm.png",
+      "title": "Windows 95 OSR2 桌面",
+      "category": "system",
+      "kind": "后世虚拟机实机截屏",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": "windows95-osr2-explorer",
+      "path": "art/reference/episode123-v2/win95-explorer-vm.png",
+      "title": "Windows 95 OSR2 Explorer 文件管理器",
+      "category": "system",
+      "kind": "后世虚拟机实机截屏",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": "windows98-se-desktop",
+      "path": "art/reference/episode123-v2/win98-desktop-vm.png",
+      "title": "Windows 98 SE 桌面",
+      "category": "system",
+      "kind": "后世虚拟机实机截屏",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "windows98-se-explorer",
+      "path": "art/reference/episode123-v2/win98-explorer-vm.png",
+      "title": "Windows 98 SE 文件管理器",
+      "category": "system",
+      "kind": "后世虚拟机实机截屏",
+      "width": 1280,
+      "height": 1024
+    },
+    {
+      "id": "windows-xp-build2474-desktop",
+      "path": "art/reference/episode123-v2/xp-build2474-2001-01.png",
+      "title": "Windows XP Build 2474 桌面",
+      "category": "system",
+      "kind": "后世实机截屏（Windows XP 预发布 Build 2474）",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": "windows-xp-build2474-winver",
+      "path": "art/reference/episode123-v2/xp-build2474-2001-02.png",
+      "title": "Windows XP Build 2474 About Windows 对话框",
+      "category": "system",
+      "kind": "后世实机截屏（Windows XP 预发布 Build 2474）",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "id": "internet-explorer-5-textfiles",
+      "path": "art/reference/episode123-v2/ie5-textfiles-1999.png",
+      "title": "Internet Explorer 5 浏览 Textfiles.com",
+      "category": "software",
+      "kind": "Internet Explorer 5 归档安装包附图",
+      "width": 800,
+      "height": 572
+    },
+    {
+      "id": "internet-explorer-6-wikipedia",
+      "path": "art/reference/episode123-v2/ie6-wikipedia-screenshot.png",
+      "title": "Internet Explorer 6 SP2 中的 Wikipedia MonoBook 首页",
+      "category": "software",
+      "kind": "后世实机截屏（Commons 原始上传日期）",
+      "width": 796,
+      "height": 446
+    },
+    {
+      "id": "winamp-windows-classic-skin",
+      "path": "art/reference/episode123-v2/winamp-classic-skin-2005.png",
+      "title": "Winamp Windows Classic 皮肤",
+      "category": "software",
+      "kind": "互联网档案馆保存的 Winamp 皮肤预览图",
+      "width": 550,
+      "height": 696
+    },
+    {
+      "id": "emule-047c-windows-xp",
+      "path": "art/reference/episode123-v2/emule-047c-winxp.png",
+      "title": "eMule 0.47c 在 Windows XP 上的界面",
+      "category": "distribution",
+      "kind": "同期软件界面截图（Commons 记录原始上传日）",
+      "width": 1288,
+      "height": 846
+    },
+    {
+      "id": "aegisub-translation-assistant-doc",
+      "path": "art/reference/episode123-v2/aegisub_translation-00.png",
+      "title": "Aegisub 3.2 Translation Assistant",
+      "category": "translation",
+      "kind": "工具文档配图（版本路径为 3.2，截图日期未标）",
+      "width": 383,
+      "height": 546
+    },
+    {
+      "id": "xiaonei-home-2007",
+      "path": "art/reference/episode123-v2/xiaonei-2007-wayback-screenshot.png",
+      "title": "校内网 2007 归档首页",
+      "category": "community",
+      "kind": "Wayback 原页面本地浏览器截屏",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "id": "tianya-bbs-2009",
+      "path": "art/reference/episode123-v2/tianya-2009-archive-screenshot.png",
+      "title": "天涯论坛 2009 首页与版块目录",
+      "category": "community",
+      "kind": "Wayback 原页面本地浏览器截屏",
+      "width": 1440,
+      "height": 1100
+    },
+    {
+      "id": "sina-weibo-home-2009",
+      "path": "art/reference/episode123-v2/weibo-2009-archive-screenshot.png",
+      "title": "新浪微博 2009 公开首页（内测时期）",
+      "category": "community",
+      "kind": "Wayback 原页面本地浏览器截屏",
+      "width": 1440,
+      "height": 1100
+    },
+    {
+      "id": "3q-qq-letter-2010",
+      "path": "art/reference/episode123-v2/3q-17.jpg",
+      "title": "3Q 事件：QQ 用户公开信截图",
+      "category": "event",
+      "kind": "同期报道中的原始界面/公告图",
+      "width": 260,
+      "height": 135
+    },
+    {
+      "id": "3q-security-choice-options-2010",
+      "path": "art/reference/episode123-v2/3q-18.jpg",
+      "title": "3Q 事件：卸载 360 与安全软件选择页面",
+      "category": "event",
+      "kind": "同期报道中的原始页面截图",
+      "width": 500,
+      "height": 364
+    },
+    {
+      "id": "panda-burning-incense-meme-2007",
+      "path": "art/reference/episode123-v2/panda-sina-2007-4.jpg",
+      "title": "熊猫烧香引发的网络二创配图",
+      "category": "security",
+      "kind": "同期新闻配图（网络二创，不是感染截图）",
+      "width": 400,
+      "height": 108
+    },
+    {
+      "id": "vrchat-eac-security-banner-2022",
+      "path": "art/reference/episode123-v2/eac-02.png",
+      "title": "VRChat 2022 Security Update 官方标题图",
+      "category": "event",
+      "kind": "同期官方公告配图",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "vrchat-eac-secure-instances-2022",
+      "path": "art/reference/episode123-v2/eac-03.png",
+      "title": "VRChat Secure Instances 官方说明图",
+      "category": "event",
+      "kind": "同期官方说明图/信息图",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "vrc-world-unity-open-dialog",
+      "path": "art/reference/episode123-v2/world_creator_2017-02.png",
+      "title": "Unity 2017 项目版本选择对话框",
+      "category": "vrc",
+      "kind": "后世实机截屏（教程补充图；实际截屏日未单独确认）",
+      "width": 563,
+      "height": 337
+    },
+    {
+      "id": "vrc-world-sdk-build-controller-2017",
+      "path": "art/reference/episode123-v2/world_creator_2017-09.png",
+      "title": "2017 VRChat SDK Build & Publish 面板",
+      "category": "vrc",
+      "kind": "同期教程配图/真实 SDK 截图",
+      "width": 496,
+      "height": 490
+    },
+    {
+      "id": "vrc-world-profile-page-2018",
+      "path": "art/reference/episode123-v2/world_creator_2017-15.png",
+      "title": "VRChat 旧网页世界资料页",
+      "category": "vrc",
+      "kind": "后续教程配图/旧版 VRChat 网页截图",
+      "width": 1024,
+      "height": 507
+    },
+    {
+      "id": "vrc-avatar-world-2018-example",
+      "path": "art/reference/episode123-v2/avatar_list_2018-01.jpg",
+      "title": "2018 Avatar World 推荐资料中的世界实景",
+      "category": "vrc",
+      "kind": "社区推荐列表配图（原页面截图，确切拍摄日未标）",
+      "width": 560,
+      "height": 336
+    },
+    {
+      "id": "bitcomet-053-main",
+      "path": "art/reference/episode123-v2-software/bitcomet-053-main.png",
+      "title": "BitComet 主下载窗口（标题栏显示 0.53）",
+      "category": "distribution",
+      "kind": "archival-client-screenshot",
+      "width": 1024,
+      "height": 708
+    },
+    {
+      "id": "bitcomet-options",
+      "path": "art/reference/episode123-v2-software/bitcomet-options.png",
+      "title": "BitComet 选项窗口",
+      "category": "distribution",
+      "kind": "archival-client-screenshot",
+      "width": 673,
+      "height": 455
+    },
+    {
+      "id": "qq-2003-ui",
+      "path": "art/reference/episode123-v2-software/qq-2003.png",
+      "title": "QQ 2003 联系人列表与聊天窗口",
+      "category": "community",
+      "kind": "archived-product-ui-image",
+      "width": 300,
+      "height": 210
+    },
+    {
+      "id": "qq-2005-ui",
+      "path": "art/reference/episode123-v2-software/qq-2005.png",
+      "title": "QQ 2005 联系人列表与聊天窗口",
+      "category": "community",
+      "kind": "archived-product-ui-image",
+      "width": 300,
+      "height": 210
+    },
+    {
+      "id": "msn-7-install",
+      "path": "art/reference/episode123-v2-software/msn-7-install.png",
+      "title": "MSN Messenger 7.0 安装向导",
+      "category": "community",
+      "kind": "archival-client-screenshot",
+      "width": 499,
+      "height": 385
+    },
+    {
+      "id": "msn-7-about",
+      "path": "art/reference/episode123-v2-software/msn-7-about-0777.png",
+      "title": "MSN Messenger 7.0 关于窗口（Build 7.0.0777）",
+      "category": "community",
+      "kind": "archival-client-screenshot",
+      "width": 348,
+      "height": 295
+    },
+    {
+      "id": "msn-7-beta-login",
+      "path": "art/reference/episode123-v2-software/msn-7-beta-login.png",
+      "title": "MSN Messenger 登录窗口（画面明确标记 BETA）",
+      "category": "community",
+      "kind": "archival-client-screenshot",
+      "width": 295,
+      "height": 558
+    },
+    {
+      "id": "wikipedia-homepage-2001",
+      "path": "art/reference/episode123-v2-software/wikipedia-homepage-2001.png",
+      "title": "Wikipedia 2001 HomePage（Wayback 渲染截图）",
+      "category": "community",
+      "kind": "archived-webpage-render",
+      "width": 1280,
+      "height": 1000
+    },
+    {
+      "id": "wikipedia-main-page-2005",
+      "path": "art/reference/episode123-v2-software/wikipedia-main-page-2005.png",
+      "title": "Wikipedia 2005 Main Page（Wayback 渲染截图）",
+      "category": "community",
+      "kind": "archived-webpage-render",
+      "width": 1440,
+      "height": 1200
+    },
+    {
+      "id": "authored-manga_ink",
+      "path": "art/export/episode123/manga_ink.png",
+      "title": "原画",
+      "category": "translation",
+      "kind": "original-demonstration",
+      "width": 800,
+      "height": 700
+    },
+    {
+      "id": "authored-manga_original",
+      "path": "art/export/episode123/manga_original.png",
+      "title": "原文",
+      "category": "translation",
+      "kind": "original-demonstration",
+      "width": 800,
+      "height": 700
+    },
+    {
+      "id": "authored-manga_chinese",
+      "path": "art/export/episode123/manga_chinese.png",
+      "title": "汉化",
+      "category": "translation",
+      "kind": "original-demonstration",
+      "width": 800,
+      "height": 700
+    },
+    {
+      "id": "authored-subtitle_editor",
+      "path": "art/export/episode123/subtitle_editor.png",
+      "title": "字幕时间轴 · 原创示例",
+      "category": "translation",
+      "kind": "original-demonstration",
+      "width": 960,
+      "height": 640
+    },
+    {
+      "id": "authored-animation_bg",
+      "path": "art/export/episode123/animation_bg.png",
+      "title": "原创动画 · 背景层",
+      "category": "translation",
+      "kind": "original-demonstration",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "id": "authored-animation_front",
+      "path": "art/export/episode123/animation_front.png",
+      "title": "原创动画 · 前景层",
+      "category": "translation",
+      "kind": "original-demonstration",
+      "width": 960,
+      "height": 540
+    },
+    {
+      "id": "authored-credits",
+      "path": "art/export/episode123/credits.png",
+      "title": "翻译 / 校对 / 嵌字",
+      "category": "translation",
+      "kind": "original-demonstration",
+      "width": 800,
+      "height": 640
+    },
+    {
+      "id": "authored-explorer",
+      "path": "art/export/episode123/explorer.png",
+      "title": "目录 / 文件",
+      "category": "software",
+      "kind": "original-demonstration",
+      "width": 960,
+      "height": 640
+    },
+    {
+      "id": "authored-readme",
+      "path": "art/export/episode123/readme.png",
+      "title": "README · 原创演示",
+      "category": "software",
+      "kind": "original-demonstration",
+      "width": 960,
+      "height": 640
+    },
+    {
+      "id": "authored-bt_transfer",
+      "path": "art/export/episode123/bt_transfer.png",
+      "title": "分块传递 · 机制示意",
+      "category": "distribution",
+      "kind": "original-demonstration",
+      "width": 960,
+      "height": 640
+    },
+    {
+      "id": "authored-maintenance_queue",
+      "path": "art/export/episode123/maintenance_queue.png",
+      "title": "维护请求 · 原创示意",
+      "category": "maintenance",
+      "kind": "original-demonstration",
+      "width": 960,
+      "height": 640
+    },
+    {
+      "id": "authored-error_dialog",
+      "path": "art/export/episode123/error_dialog.png",
+      "title": "错误提示 · 原创示意",
+      "category": "event",
+      "kind": "original-demonstration",
+      "width": 660,
+      "height": 330
+    },
+    {
+      "id": "current-unity-kipfel",
+      "path": "/home/chiro/tmp/vrc-old-web-map/episode123-v2/self-captures/current-unity-kipfel.png",
+      "title": "本项目制作过程 · 当前自截",
+      "category": "making",
+      "kind": "current-project-self-capture",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "id": "current-unity-nemesis",
+      "path": "/home/chiro/tmp/vrc-old-web-map/episode123-v2/self-captures/current-unity-nemesis.png",
+      "title": "本项目制作过程 · 当前自截",
+      "category": "making",
+      "kind": "current-project-self-capture",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "id": "current-unity-world-authoring",
+      "path": "/home/chiro/tmp/vrc-old-web-map/episode123-v2/self-captures/current-unity-world-authoring.png",
+      "title": "本项目制作过程 · 当前自截",
+      "category": "making",
+      "kind": "current-project-self-capture",
+      "width": 1600,
+      "height": 1000
+    }
+  ],
+  "cuts": [
+    {
+      "time": 0.0,
+      "image": 10,
+      "layout": 0,
+      "word": "HELLO",
+      "label": "Windows 95 OSR2 桌面",
+      "section": 0
+    },
+    {
+      "time": 0.64,
+      "image": 11,
+      "layout": 1,
+      "word": "连接",
+      "label": "Windows 95 OSR2 Explorer 文件管理器",
+      "section": 0
+    },
+    {
+      "time": 1.28,
+      "image": 12,
+      "layout": 2,
+      "word": "OPEN",
+      "label": "Windows 98 SE 桌面",
+      "section": 0
+    },
+    {
+      "time": 1.92,
+      "image": 13,
+      "layout": 3,
+      "word": "1998",
+      "label": "Windows 98 SE 文件管理器",
+      "section": 0
+    },
+    {
+      "time": 2.56,
+      "image": 14,
+      "layout": 0,
+      "word": "欢迎",
+      "label": "Windows XP Build 2474 桌面",
+      "section": 0
+    },
+    {
+      "time": 3.2,
+      "image": 15,
+      "layout": 1,
+      "word": "START",
+      "label": "Windows XP Build 2474 About Windows 对话框",
+      "section": 0
+    },
+    {
+      "time": 3.84,
+      "image": 16,
+      "layout": 2,
+      "word": "双击",
+      "label": "Internet Explorer 5 浏览 Textfiles.com",
+      "section": 0
+    },
+    {
+      "time": 4.48,
+      "image": 17,
+      "layout": 3,
+      "word": "读取",
+      "label": "Internet Explorer 6 SP2 中的 Wikipedia MonoBook 首页",
+      "section": 0
+    },
+    {
+      "time": 5.12,
+      "image": 18,
+      "layout": 0,
+      "word": "HELLO",
+      "label": "Winamp Windows Classic 皮肤",
+      "section": 0
+    },
+    {
+      "time": 5.76,
+      "image": 49,
+      "layout": 1,
+      "word": "连接",
+      "label": "目录 / 文件 · 原创示意",
+      "section": 0
+    },
+    {
+      "time": 6.4,
+      "image": 50,
+      "layout": 2,
+      "word": "OPEN",
+      "label": "README · 原创演示",
+      "section": 0
+    },
+    {
+      "time": 7.04,
+      "image": 10,
+      "layout": 3,
+      "word": "1998",
+      "label": "Windows 95 OSR2 桌面",
+      "section": 0
+    },
+    {
+      "time": 7.68,
+      "image": 11,
+      "layout": 0,
+      "word": "欢迎",
+      "label": "Windows 95 OSR2 Explorer 文件管理器",
+      "section": 0
+    },
+    {
+      "time": 8.32,
+      "image": 12,
+      "layout": 1,
+      "word": "START",
+      "label": "Windows 98 SE 桌面",
+      "section": 0
+    },
+    {
+      "time": 8.96,
+      "image": 13,
+      "layout": 2,
+      "word": "双击",
+      "label": "Windows 98 SE 文件管理器",
+      "section": 0
+    },
+    {
+      "time": 9.6,
+      "image": 14,
+      "layout": 3,
+      "word": "读取",
+      "label": "Windows XP Build 2474 桌面",
+      "section": 0
+    },
+    {
+      "time": 10.24,
+      "image": 19,
+      "layout": 1,
+      "word": "README",
+      "label": "eMule 0.47c 在 Windows XP 上的界面",
+      "section": 1
+    },
+    {
+      "time": 10.88,
+      "image": 33,
+      "layout": 2,
+      "word": "解压",
+      "label": "BitComet 主下载窗口（标题栏显示 0.53）",
+      "section": 1
+    },
+    {
+      "time": 11.52,
+      "image": 34,
+      "layout": 3,
+      "word": "打开",
+      "label": "BitComet 选项窗口",
+      "section": 1
+    },
+    {
+      "time": 12.16,
+      "image": 49,
+      "layout": 0,
+      "word": "复制",
+      "label": "目录 / 文件 · 原创示意",
+      "section": 1
+    },
+    {
+      "time": 12.8,
+      "image": 50,
+      "layout": 1,
+      "word": "PORTABLE",
+      "label": "README · 原创演示",
+      "section": 1
+    },
+    {
+      "time": 13.44,
+      "image": 51,
+      "layout": 2,
+      "word": "工具",
+      "label": "分块传递 · 机制示意 · 原创示意",
+      "section": 1
+    },
+    {
+      "time": 14.08,
+      "image": 54,
+      "layout": 3,
+      "word": "GREETZ",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 1
+    },
+    {
+      "time": 14.72,
+      "image": 55,
+      "layout": 0,
+      "word": "试试看",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 1
+    },
+    {
+      "time": 15.36,
+      "image": 56,
+      "layout": 1,
+      "word": "README",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 1
+    },
+    {
+      "time": 16.0,
+      "image": 16,
+      "layout": 2,
+      "word": "解压",
+      "label": "Internet Explorer 5 浏览 Textfiles.com",
+      "section": 1
+    },
+    {
+      "time": 16.64,
+      "image": 17,
+      "layout": 3,
+      "word": "打开",
+      "label": "Internet Explorer 6 SP2 中的 Wikipedia MonoBook 首页",
+      "section": 1
+    },
+    {
+      "time": 17.28,
+      "image": 18,
+      "layout": 0,
+      "word": "复制",
+      "label": "Winamp Windows Classic 皮肤",
+      "section": 1
+    },
+    {
+      "time": 17.92,
+      "image": 19,
+      "layout": 1,
+      "word": "PORTABLE",
+      "label": "eMule 0.47c 在 Windows XP 上的界面",
+      "section": 1
+    },
+    {
+      "time": 18.56,
+      "image": 33,
+      "layout": 2,
+      "word": "工具",
+      "label": "BitComet 主下载窗口（标题栏显示 0.53）",
+      "section": 1
+    },
+    {
+      "time": 19.2,
+      "image": 34,
+      "layout": 3,
+      "word": "GREETZ",
+      "label": "BitComet 选项窗口",
+      "section": 1
+    },
+    {
+      "time": 19.84,
+      "image": 17,
+      "layout": 0,
+      "word": "试试看",
+      "label": "Internet Explorer 6 SP2 中的 Wikipedia MonoBook 首页",
+      "section": 1
+    },
+    {
+      "time": 20.48,
+      "image": 0,
+      "layout": 2,
+      "word": "WORLD",
+      "label": "VRChat New Hub：入口与玩家聚集",
+      "section": 2
+    },
+    {
+      "time": 21.12,
+      "image": 1,
+      "layout": 3,
+      "word": "骨骼",
+      "label": "VRChat New Hub：入口与告示板",
+      "section": 2
+    },
+    {
+      "time": 21.76,
+      "image": 2,
+      "layout": 0,
+      "word": "材质",
+      "label": "VRChat New Hub：Travel Maps",
+      "section": 2
+    },
+    {
+      "time": 22.4,
+      "image": 29,
+      "layout": 1,
+      "word": "BUILD",
+      "label": "Unity 2017 项目版本选择对话框",
+      "section": 2
+    },
+    {
+      "time": 23.04,
+      "image": 30,
+      "layout": 2,
+      "word": "AVATAR",
+      "label": "2017 VRChat SDK Build & Publish 面板",
+      "section": 2
+    },
+    {
+      "time": 23.68,
+      "image": 31,
+      "layout": 3,
+      "word": "UPLOAD",
+      "label": "VRChat 旧网页世界资料页",
+      "section": 2
+    },
+    {
+      "time": 24.32,
+      "image": 54,
+      "layout": 0,
+      "word": "创建",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 2
+    },
+    {
+      "time": 24.96,
+      "image": 14,
+      "layout": 1,
+      "word": "进入",
+      "label": "Windows XP Build 2474 桌面",
+      "section": 2
+    },
+    {
+      "time": 25.6,
+      "image": 56,
+      "layout": 2,
+      "word": "WORLD",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 2
+    },
+    {
+      "time": 26.24,
+      "image": 0,
+      "layout": 3,
+      "word": "骨骼",
+      "label": "VRChat New Hub：入口与玩家聚集",
+      "section": 2
+    },
+    {
+      "time": 26.88,
+      "image": 1,
+      "layout": 0,
+      "word": "材质",
+      "label": "VRChat New Hub：入口与告示板",
+      "section": 2
+    },
+    {
+      "time": 27.52,
+      "image": 2,
+      "layout": 1,
+      "word": "BUILD",
+      "label": "VRChat New Hub：Travel Maps",
+      "section": 2
+    },
+    {
+      "time": 28.16,
+      "image": 29,
+      "layout": 2,
+      "word": "AVATAR",
+      "label": "Unity 2017 项目版本选择对话框",
+      "section": 2
+    },
+    {
+      "time": 28.8,
+      "image": 30,
+      "layout": 3,
+      "word": "UPLOAD",
+      "label": "2017 VRChat SDK Build & Publish 面板",
+      "section": 2
+    },
+    {
+      "time": 29.44,
+      "image": 31,
+      "layout": 0,
+      "word": "创建",
+      "label": "VRChat 旧网页世界资料页",
+      "section": 2
+    },
+    {
+      "time": 30.08,
+      "image": 55,
+      "layout": 1,
+      "word": "进入",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 2
+    },
+    {
+      "time": 30.72,
+      "image": 47,
+      "layout": 3,
+      "word": "原文",
+      "label": "原创动画 · 前景层",
+      "section": 3
+    },
+    {
+      "time": 31.36,
+      "image": 48,
+      "layout": 0,
+      "word": "翻译",
+      "label": "翻译 / 校对 / 嵌字 · 原创示意",
+      "section": 3
+    },
+    {
+      "time": 32.0,
+      "image": 49,
+      "layout": 1,
+      "word": "清字",
+      "label": "目录 / 文件 · 原创示意",
+      "section": 3
+    },
+    {
+      "time": 32.64,
+      "image": 50,
+      "layout": 2,
+      "word": "嵌字",
+      "label": "README · 原创演示",
+      "section": 3
+    },
+    {
+      "time": 33.28,
+      "image": 16,
+      "layout": 3,
+      "word": "校对",
+      "label": "Internet Explorer 5 浏览 Textfiles.com",
+      "section": 3
+    },
+    {
+      "time": 33.92,
+      "image": 17,
+      "layout": 0,
+      "word": "理解",
+      "label": "Internet Explorer 6 SP2 中的 Wikipedia MonoBook 首页",
+      "section": 3
+    },
+    {
+      "time": 34.56,
+      "image": 18,
+      "layout": 1,
+      "word": "汉化",
+      "label": "Winamp Windows Classic 皮肤",
+      "section": 3
+    },
+    {
+      "time": 35.2,
+      "image": 17,
+      "layout": 2,
+      "word": "共享",
+      "label": "Internet Explorer 6 SP2 中的 Wikipedia MonoBook 首页",
+      "section": 3
+    },
+    {
+      "time": 35.84,
+      "image": 42,
+      "layout": 3,
+      "word": "原文",
+      "label": "原画 · 原创示意",
+      "section": 3
+    },
+    {
+      "time": 36.48,
+      "image": 43,
+      "layout": 0,
+      "word": "翻译",
+      "label": "原文 · 原创示意",
+      "section": 3
+    },
+    {
+      "time": 37.12,
+      "image": 44,
+      "layout": 1,
+      "word": "清字",
+      "label": "汉化 · 原创示意",
+      "section": 3
+    },
+    {
+      "time": 37.76,
+      "image": 45,
+      "layout": 2,
+      "word": "嵌字",
+      "label": "字幕时间轴 · 原创示例",
+      "section": 3
+    },
+    {
+      "time": 38.4,
+      "image": 46,
+      "layout": 3,
+      "word": "校对",
+      "label": "原创动画 · 背景层",
+      "section": 3
+    },
+    {
+      "time": 39.04,
+      "image": 47,
+      "layout": 0,
+      "word": "理解",
+      "label": "原创动画 · 前景层",
+      "section": 3
+    },
+    {
+      "time": 39.68,
+      "image": 48,
+      "layout": 1,
+      "word": "汉化",
+      "label": "翻译 / 校对 / 嵌字 · 原创示意",
+      "section": 3
+    },
+    {
+      "time": 40.32,
+      "image": 14,
+      "layout": 2,
+      "word": "共享",
+      "label": "Windows XP Build 2474 桌面",
+      "section": 3
+    },
+    {
+      "time": 40.96,
+      "image": 42,
+      "layout": 0,
+      "word": "00:00:01",
+      "label": "原画 · 原创示意",
+      "section": 4
+    },
+    {
+      "time": 41.6,
+      "image": 43,
+      "layout": 1,
+      "word": "对齐",
+      "label": "原文 · 原创示意",
+      "section": 4
+    },
+    {
+      "time": 42.24,
+      "image": 44,
+      "layout": 2,
+      "word": "字幕",
+      "label": "汉化 · 原创示意",
+      "section": 4
+    },
+    {
+      "time": 42.88,
+      "image": 45,
+      "layout": 3,
+      "word": "下一句",
+      "label": "字幕时间轴 · 原创示例",
+      "section": 4
+    },
+    {
+      "time": 43.52,
+      "image": 46,
+      "layout": 0,
+      "word": "一起试一下",
+      "label": "原创动画 · 背景层",
+      "section": 4
+    },
+    {
+      "time": 44.16,
+      "image": 47,
+      "layout": 1,
+      "word": "Aegisub",
+      "label": "原创动画 · 前景层",
+      "section": 4
+    },
+    {
+      "time": 44.8,
+      "image": 48,
+      "layout": 2,
+      "word": "TIMING",
+      "label": "翻译 / 校对 / 嵌字 · 原创示意",
+      "section": 4
+    },
+    {
+      "time": 45.44,
+      "image": 55,
+      "layout": 3,
+      "word": "播放",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 4
+    },
+    {
+      "time": 46.08,
+      "image": 55,
+      "layout": 0,
+      "word": "00:00:01",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 4
+    },
+    {
+      "time": 46.72,
+      "image": 56,
+      "layout": 1,
+      "word": "对齐",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 4
+    },
+    {
+      "time": 47.36,
+      "image": 20,
+      "layout": 2,
+      "word": "字幕",
+      "label": "Aegisub 3.2 Translation Assistant",
+      "section": 4
+    },
+    {
+      "time": 48.0,
+      "image": 42,
+      "layout": 3,
+      "word": "下一句",
+      "label": "原画 · 原创示意",
+      "section": 4
+    },
+    {
+      "time": 48.64,
+      "image": 43,
+      "layout": 0,
+      "word": "一起试一下",
+      "label": "原文 · 原创示意",
+      "section": 4
+    },
+    {
+      "time": 49.28,
+      "image": 44,
+      "layout": 1,
+      "word": "Aegisub",
+      "label": "汉化 · 原创示意",
+      "section": 4
+    },
+    {
+      "time": 49.92,
+      "image": 45,
+      "layout": 2,
+      "word": "TIMING",
+      "label": "字幕时间轴 · 原创示例",
+      "section": 4
+    },
+    {
+      "time": 50.56,
+      "image": 17,
+      "layout": 3,
+      "word": "播放",
+      "label": "Internet Explorer 6 SP2 中的 Wikipedia MonoBook 首页",
+      "section": 4
+    },
+    {
+      "time": 51.2,
+      "image": 41,
+      "layout": 1,
+      "word": "分块",
+      "label": "Wikipedia 2005 Main Page（Wayback 渲染截图）",
+      "section": 5
+    },
+    {
+      "time": 51.84,
+      "image": 49,
+      "layout": 2,
+      "word": "下载",
+      "label": "目录 / 文件 · 原创示意",
+      "section": 5
+    },
+    {
+      "time": 52.48,
+      "image": 50,
+      "layout": 3,
+      "word": "上传",
+      "label": "README · 原创演示",
+      "section": 5
+    },
+    {
+      "time": 53.12,
+      "image": 51,
+      "layout": 0,
+      "word": "继续做种",
+      "label": "分块传递 · 机制示意 · 原创示意",
+      "section": 5
+    },
+    {
+      "time": 53.76,
+      "image": 16,
+      "layout": 1,
+      "word": "100%",
+      "label": "Internet Explorer 5 浏览 Textfiles.com",
+      "section": 5
+    },
+    {
+      "time": 54.4,
+      "image": 17,
+      "layout": 2,
+      "word": "BT",
+      "label": "Internet Explorer 6 SP2 中的 Wikipedia MonoBook 首页",
+      "section": 5
+    },
+    {
+      "time": 55.04,
+      "image": 18,
+      "layout": 3,
+      "word": "分享",
+      "label": "Winamp Windows Classic 皮肤",
+      "section": 5
+    },
+    {
+      "time": 55.68,
+      "image": 14,
+      "layout": 0,
+      "word": "收到",
+      "label": "Windows XP Build 2474 桌面",
+      "section": 5
+    },
+    {
+      "time": 56.32,
+      "image": 21,
+      "layout": 1,
+      "word": "分块",
+      "label": "校内网 2007 归档首页",
+      "section": 5
+    },
+    {
+      "time": 56.96,
+      "image": 22,
+      "layout": 2,
+      "word": "下载",
+      "label": "天涯论坛 2009 首页与版块目录",
+      "section": 5
+    },
+    {
+      "time": 57.6,
+      "image": 23,
+      "layout": 3,
+      "word": "上传",
+      "label": "新浪微博 2009 公开首页（内测时期）",
+      "section": 5
+    },
+    {
+      "time": 58.24,
+      "image": 33,
+      "layout": 0,
+      "word": "继续做种",
+      "label": "BitComet 主下载窗口（标题栏显示 0.53）",
+      "section": 5
+    },
+    {
+      "time": 58.88,
+      "image": 34,
+      "layout": 1,
+      "word": "100%",
+      "label": "BitComet 选项窗口",
+      "section": 5
+    },
+    {
+      "time": 59.52,
+      "image": 35,
+      "layout": 2,
+      "word": "BT",
+      "label": "QQ 2003 联系人列表与聊天窗口",
+      "section": 5
+    },
+    {
+      "time": 60.16,
+      "image": 36,
+      "layout": 3,
+      "word": "分享",
+      "label": "QQ 2005 联系人列表与聊天窗口",
+      "section": 5
+    },
+    {
+      "time": 60.8,
+      "image": 55,
+      "layout": 0,
+      "word": "收到",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 5
+    },
+    {
+      "time": 61.44,
+      "image": 38,
+      "layout": 1,
+      "word": "分块",
+      "label": "MSN Messenger 7.0 关于窗口（Build 7.0.0777）",
+      "section": 5
+    },
+    {
+      "time": 62.08,
+      "image": 39,
+      "layout": 2,
+      "word": "下载",
+      "label": "MSN Messenger 登录窗口（画面明确标记 BETA）",
+      "section": 5
+    },
+    {
+      "time": 62.72,
+      "image": 40,
+      "layout": 3,
+      "word": "上传",
+      "label": "Wikipedia 2001 HomePage（Wayback 渲染截图）",
+      "section": 5
+    },
+    {
+      "time": 63.36,
+      "image": 41,
+      "layout": 0,
+      "word": "继续做种",
+      "label": "Wikipedia 2005 Main Page（Wayback 渲染截图）",
+      "section": 5
+    },
+    {
+      "time": 64.0,
+      "image": 49,
+      "layout": 1,
+      "word": "100%",
+      "label": "目录 / 文件 · 原创示意",
+      "section": 5
+    },
+    {
+      "time": 64.64,
+      "image": 50,
+      "layout": 2,
+      "word": "BT",
+      "label": "README · 原创演示",
+      "section": 5
+    },
+    {
+      "time": 65.28,
+      "image": 51,
+      "layout": 3,
+      "word": "分享",
+      "label": "分块传递 · 机制示意 · 原创示意",
+      "section": 5
+    },
+    {
+      "time": 65.92,
+      "image": 17,
+      "layout": 0,
+      "word": "收到",
+      "label": "Internet Explorer 6 SP2 中的 Wikipedia MonoBook 首页",
+      "section": 5
+    },
+    {
+      "time": 66.56,
+      "image": 17,
+      "layout": 1,
+      "word": "分块",
+      "label": "Internet Explorer 6 SP2 中的 Wikipedia MonoBook 首页",
+      "section": 5
+    },
+    {
+      "time": 67.2,
+      "image": 18,
+      "layout": 2,
+      "word": "下载",
+      "label": "Winamp Windows Classic 皮肤",
+      "section": 5
+    },
+    {
+      "time": 67.84,
+      "image": 19,
+      "layout": 3,
+      "word": "上传",
+      "label": "eMule 0.47c 在 Windows XP 上的界面",
+      "section": 5
+    },
+    {
+      "time": 68.48,
+      "image": 21,
+      "layout": 0,
+      "word": "继续做种",
+      "label": "校内网 2007 归档首页",
+      "section": 5
+    },
+    {
+      "time": 69.12,
+      "image": 22,
+      "layout": 1,
+      "word": "100%",
+      "label": "天涯论坛 2009 首页与版块目录",
+      "section": 5
+    },
+    {
+      "time": 69.76,
+      "image": 23,
+      "layout": 2,
+      "word": "BT",
+      "label": "新浪微博 2009 公开首页（内测时期）",
+      "section": 5
+    },
+    {
+      "time": 70.4,
+      "image": 33,
+      "layout": 3,
+      "word": "分享",
+      "label": "BitComet 主下载窗口（标题栏显示 0.53）",
+      "section": 5
+    },
+    {
+      "time": 71.04,
+      "image": 14,
+      "layout": 0,
+      "word": "收到",
+      "label": "Windows XP Build 2474 桌面",
+      "section": 5
+    },
+    {
+      "time": 71.68,
+      "image": 21,
+      "layout": 2,
+      "word": "楼主好人",
+      "label": "校内网 2007 归档首页",
+      "section": 6
+    },
+    {
+      "time": 72.32,
+      "image": 22,
+      "layout": 3,
+      "word": "路过",
+      "label": "天涯论坛 2009 首页与版块目录",
+      "section": 6
+    },
+    {
+      "time": 72.96,
+      "image": 23,
+      "layout": 0,
+      "word": "顶",
+      "label": "新浪微博 2009 公开首页（内测时期）",
+      "section": 6
+    },
+    {
+      "time": 73.6,
+      "image": 35,
+      "layout": 1,
+      "word": "相册",
+      "label": "QQ 2003 联系人列表与聊天窗口",
+      "section": 6
+    },
+    {
+      "time": 74.24,
+      "image": 36,
+      "layout": 2,
+      "word": "日志",
+      "label": "QQ 2005 联系人列表与聊天窗口",
+      "section": 6
+    },
+    {
+      "time": 74.88,
+      "image": 37,
+      "layout": 3,
+      "word": "转发",
+      "label": "MSN Messenger 7.0 安装向导",
+      "section": 6
+    },
+    {
+      "time": 75.52,
+      "image": 38,
+      "layout": 0,
+      "word": "233",
+      "label": "MSN Messenger 7.0 关于窗口（Build 7.0.0777）",
+      "section": 6
+    },
+    {
+      "time": 76.16,
+      "image": 55,
+      "layout": 1,
+      "word": "在吗",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 6
+    },
+    {
+      "time": 76.8,
+      "image": 40,
+      "layout": 2,
+      "word": "楼主好人",
+      "label": "Wikipedia 2001 HomePage（Wayback 渲染截图）",
+      "section": 6
+    },
+    {
+      "time": 77.44,
+      "image": 41,
+      "layout": 3,
+      "word": "路过",
+      "label": "Wikipedia 2005 Main Page（Wayback 渲染截图）",
+      "section": 6
+    },
+    {
+      "time": 78.08,
+      "image": 49,
+      "layout": 0,
+      "word": "顶",
+      "label": "目录 / 文件 · 原创示意",
+      "section": 6
+    },
+    {
+      "time": 78.72,
+      "image": 50,
+      "layout": 1,
+      "word": "相册",
+      "label": "README · 原创演示",
+      "section": 6
+    },
+    {
+      "time": 79.36,
+      "image": 16,
+      "layout": 2,
+      "word": "日志",
+      "label": "Internet Explorer 5 浏览 Textfiles.com",
+      "section": 6
+    },
+    {
+      "time": 80.0,
+      "image": 17,
+      "layout": 3,
+      "word": "转发",
+      "label": "Internet Explorer 6 SP2 中的 Wikipedia MonoBook 首页",
+      "section": 6
+    },
+    {
+      "time": 80.64,
+      "image": 18,
+      "layout": 0,
+      "word": "233",
+      "label": "Winamp Windows Classic 皮肤",
+      "section": 6
+    },
+    {
+      "time": 81.28,
+      "image": 17,
+      "layout": 1,
+      "word": "在吗",
+      "label": "Internet Explorer 6 SP2 中的 Wikipedia MonoBook 首页",
+      "section": 6
+    },
+    {
+      "time": 81.92,
+      "image": 4,
+      "layout": 3,
+      "word": "HELLO",
+      "label": "VRChat New Hub：Avatar Hall 展示区",
+      "section": 7
+    },
+    {
+      "time": 82.56,
+      "image": 5,
+      "layout": 0,
+      "word": "WELCOME",
+      "label": "VRChat New Hub：镜子与 Avatar Hall",
+      "section": 7
+    },
+    {
+      "time": 83.2,
+      "image": 6,
+      "layout": 1,
+      "word": "换个身体",
+      "label": "VRChat New Hub：Event Hall",
+      "section": 7
+    },
+    {
+      "time": 83.84,
+      "image": 7,
+      "layout": 2,
+      "word": "一起",
+      "label": "VRChat New Hub：New Worlds 门户",
+      "section": 7
+    },
+    {
+      "time": 84.48,
+      "image": 8,
+      "layout": 3,
+      "word": "WORLD",
+      "label": "VRChat New Hub：VRCHIVE Panosphere",
+      "section": 7
+    },
+    {
+      "time": 85.12,
+      "image": 9,
+      "layout": 0,
+      "word": "GREETZ",
+      "label": "VRChat New Hub：互动雕塑",
+      "section": 7
+    },
+    {
+      "time": 85.76,
+      "image": 29,
+      "layout": 1,
+      "word": "在这里",
+      "label": "Unity 2017 项目版本选择对话框",
+      "section": 7
+    },
+    {
+      "time": 86.4,
+      "image": 14,
+      "layout": 2,
+      "word": "来玩",
+      "label": "Windows XP Build 2474 桌面",
+      "section": 7
+    },
+    {
+      "time": 87.04,
+      "image": 31,
+      "layout": 3,
+      "word": "HELLO",
+      "label": "VRChat 旧网页世界资料页",
+      "section": 7
+    },
+    {
+      "time": 87.68,
+      "image": 32,
+      "layout": 0,
+      "word": "WELCOME",
+      "label": "2018 Avatar World 推荐资料中的世界实景",
+      "section": 7
+    },
+    {
+      "time": 88.32,
+      "image": 54,
+      "layout": 1,
+      "word": "换个身体",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 7
+    },
+    {
+      "time": 88.96,
+      "image": 55,
+      "layout": 2,
+      "word": "一起",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 7
+    },
+    {
+      "time": 89.6,
+      "image": 56,
+      "layout": 3,
+      "word": "WORLD",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 7
+    },
+    {
+      "time": 90.24,
+      "image": 0,
+      "layout": 0,
+      "word": "GREETZ",
+      "label": "VRChat New Hub：入口与玩家聚集",
+      "section": 7
+    },
+    {
+      "time": 90.88,
+      "image": 1,
+      "layout": 1,
+      "word": "在这里",
+      "label": "VRChat New Hub：入口与告示板",
+      "section": 7
+    },
+    {
+      "time": 91.52,
+      "image": 55,
+      "layout": 2,
+      "word": "来玩",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 7
+    },
+    {
+      "time": 92.16,
+      "image": 21,
+      "layout": 0,
+      "word": "ORZ",
+      "label": "校内网 2007 归档首页",
+      "section": 8
+    },
+    {
+      "time": 92.8,
+      "image": 22,
+      "layout": 1,
+      "word": "报错了",
+      "label": "天涯论坛 2009 首页与版块目录",
+      "section": 8
+    },
+    {
+      "time": 93.44,
+      "image": 23,
+      "layout": 2,
+      "word": "重试",
+      "label": "新浪微博 2009 公开首页（内测时期）",
+      "section": 8
+    },
+    {
+      "time": 94.08,
+      "image": 26,
+      "layout": 3,
+      "word": "求助",
+      "label": "熊猫烧香引发的网络二创配图",
+      "section": 8
+    },
+    {
+      "time": 94.72,
+      "image": 35,
+      "layout": 0,
+      "word": "已解决",
+      "label": "QQ 2003 联系人列表与聊天窗口",
+      "section": 8
+    },
+    {
+      "time": 95.36,
+      "image": 36,
+      "layout": 1,
+      "word": ":)",
+      "label": "QQ 2005 联系人列表与聊天窗口",
+      "section": 8
+    },
+    {
+      "time": 96.0,
+      "image": 37,
+      "layout": 2,
+      "word": "谢谢",
+      "label": "MSN Messenger 7.0 安装向导",
+      "section": 8
+    },
+    {
+      "time": 96.64,
+      "image": 17,
+      "layout": 3,
+      "word": "再来一次",
+      "label": "Internet Explorer 6 SP2 中的 Wikipedia MonoBook 首页",
+      "section": 8
+    },
+    {
+      "time": 97.28,
+      "image": 39,
+      "layout": 0,
+      "word": "ORZ",
+      "label": "MSN Messenger 登录窗口（画面明确标记 BETA）",
+      "section": 8
+    },
+    {
+      "time": 97.92,
+      "image": 40,
+      "layout": 1,
+      "word": "报错了",
+      "label": "Wikipedia 2001 HomePage（Wayback 渲染截图）",
+      "section": 8
+    },
+    {
+      "time": 98.56,
+      "image": 41,
+      "layout": 2,
+      "word": "重试",
+      "label": "Wikipedia 2005 Main Page（Wayback 渲染截图）",
+      "section": 8
+    },
+    {
+      "time": 99.2,
+      "image": 53,
+      "layout": 3,
+      "word": "求助",
+      "label": "错误提示 · 原创示意",
+      "section": 8
+    },
+    {
+      "time": 99.84,
+      "image": 21,
+      "layout": 0,
+      "word": "已解决",
+      "label": "校内网 2007 归档首页",
+      "section": 8
+    },
+    {
+      "time": 100.48,
+      "image": 22,
+      "layout": 1,
+      "word": ":)",
+      "label": "天涯论坛 2009 首页与版块目录",
+      "section": 8
+    },
+    {
+      "time": 101.12,
+      "image": 23,
+      "layout": 2,
+      "word": "谢谢",
+      "label": "新浪微博 2009 公开首页（内测时期）",
+      "section": 8
+    },
+    {
+      "time": 101.76,
+      "image": 14,
+      "layout": 3,
+      "word": "再来一次",
+      "label": "Windows XP Build 2474 桌面",
+      "section": 8
+    },
+    {
+      "time": 102.4,
+      "image": 36,
+      "layout": 1,
+      "word": "请选择",
+      "label": "QQ 2005 联系人列表与聊天窗口",
+      "section": 9
+    },
+    {
+      "time": 103.04,
+      "image": 37,
+      "layout": 2,
+      "word": "版本",
+      "label": "MSN Messenger 7.0 安装向导",
+      "section": 9
+    },
+    {
+      "time": 103.68,
+      "image": 38,
+      "layout": 3,
+      "word": "兼容",
+      "label": "MSN Messenger 7.0 关于窗口（Build 7.0.0777）",
+      "section": 9
+    },
+    {
+      "time": 104.32,
+      "image": 39,
+      "layout": 0,
+      "word": "登录",
+      "label": "MSN Messenger 登录窗口（画面明确标记 BETA）",
+      "section": 9
+    },
+    {
+      "time": 104.96,
+      "image": 53,
+      "layout": 1,
+      "word": "继续？",
+      "label": "错误提示 · 原创示意",
+      "section": 9
+    },
+    {
+      "time": 105.6,
+      "image": 24,
+      "layout": 2,
+      "word": "允许",
+      "label": "3Q 事件：QQ 用户公开信截图",
+      "section": 9
+    },
+    {
+      "time": 106.24,
+      "image": 25,
+      "layout": 3,
+      "word": "拒绝",
+      "label": "3Q 事件：卸载 360 与安全软件选择页面",
+      "section": 9
+    },
+    {
+      "time": 106.88,
+      "image": 55,
+      "layout": 0,
+      "word": "下一步",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 9
+    },
+    {
+      "time": 107.52,
+      "image": 36,
+      "layout": 1,
+      "word": "请选择",
+      "label": "QQ 2005 联系人列表与聊天窗口",
+      "section": 9
+    },
+    {
+      "time": 108.16,
+      "image": 37,
+      "layout": 2,
+      "word": "版本",
+      "label": "MSN Messenger 7.0 安装向导",
+      "section": 9
+    },
+    {
+      "time": 108.8,
+      "image": 38,
+      "layout": 3,
+      "word": "兼容",
+      "label": "MSN Messenger 7.0 关于窗口（Build 7.0.0777）",
+      "section": 9
+    },
+    {
+      "time": 109.44,
+      "image": 39,
+      "layout": 0,
+      "word": "登录",
+      "label": "MSN Messenger 登录窗口（画面明确标记 BETA）",
+      "section": 9
+    },
+    {
+      "time": 110.08,
+      "image": 53,
+      "layout": 1,
+      "word": "继续？",
+      "label": "错误提示 · 原创示意",
+      "section": 9
+    },
+    {
+      "time": 110.72,
+      "image": 24,
+      "layout": 2,
+      "word": "允许",
+      "label": "3Q 事件：QQ 用户公开信截图",
+      "section": 9
+    },
+    {
+      "time": 111.36,
+      "image": 25,
+      "layout": 3,
+      "word": "拒绝",
+      "label": "3Q 事件：卸载 360 与安全软件选择页面",
+      "section": 9
+    },
+    {
+      "time": 112.0,
+      "image": 17,
+      "layout": 0,
+      "word": "下一步",
+      "label": "Internet Explorer 6 SP2 中的 Wikipedia MonoBook 首页",
+      "section": 9
+    },
+    {
+      "time": 112.64,
+      "image": 27,
+      "layout": 2,
+      "word": "2022",
+      "label": "VRChat 2022 Security Update 官方标题图",
+      "section": 10
+    },
+    {
+      "time": 113.28,
+      "image": 28,
+      "layout": 3,
+      "word": "安全",
+      "label": "VRChat Secure Instances 官方说明图",
+      "section": 10
+    },
+    {
+      "time": 113.92,
+      "image": 27,
+      "layout": 0,
+      "word": "EAC",
+      "label": "VRChat 2022 Security Update 官方标题图",
+      "section": 10
+    },
+    {
+      "time": 114.56,
+      "image": 28,
+      "layout": 1,
+      "word": "能力",
+      "label": "VRChat Secure Instances 官方说明图",
+      "section": 10
+    },
+    {
+      "time": 115.2,
+      "image": 27,
+      "layout": 2,
+      "word": "便利",
+      "label": "VRChat 2022 Security Update 官方标题图",
+      "section": 10
+    },
+    {
+      "time": 115.84,
+      "image": 28,
+      "layout": 3,
+      "word": "回应",
+      "label": "VRChat Secure Instances 官方说明图",
+      "section": 10
+    },
+    {
+      "time": 116.48,
+      "image": 4,
+      "layout": 0,
+      "word": "更新",
+      "label": "VRChat New Hub：Avatar Hall 展示区",
+      "section": 10
+    },
+    {
+      "time": 117.12,
+      "image": 14,
+      "layout": 1,
+      "word": "取舍",
+      "label": "Windows XP Build 2474 桌面",
+      "section": 10
+    },
+    {
+      "time": 117.76,
+      "image": 30,
+      "layout": 2,
+      "word": "2022",
+      "label": "2017 VRChat SDK Build & Publish 面板",
+      "section": 10
+    },
+    {
+      "time": 118.4,
+      "image": 32,
+      "layout": 3,
+      "word": "安全",
+      "label": "2018 Avatar World 推荐资料中的世界实景",
+      "section": 10
+    },
+    {
+      "time": 119.04,
+      "image": 27,
+      "layout": 0,
+      "word": "EAC",
+      "label": "VRChat 2022 Security Update 官方标题图",
+      "section": 10
+    },
+    {
+      "time": 119.68,
+      "image": 28,
+      "layout": 1,
+      "word": "能力",
+      "label": "VRChat Secure Instances 官方说明图",
+      "section": 10
+    },
+    {
+      "time": 120.32,
+      "image": 27,
+      "layout": 2,
+      "word": "便利",
+      "label": "VRChat 2022 Security Update 官方标题图",
+      "section": 10
+    },
+    {
+      "time": 120.96,
+      "image": 28,
+      "layout": 3,
+      "word": "回应",
+      "label": "VRChat Secure Instances 官方说明图",
+      "section": 10
+    },
+    {
+      "time": 121.6,
+      "image": 27,
+      "layout": 0,
+      "word": "更新",
+      "label": "VRChat 2022 Security Update 官方标题图",
+      "section": 10
+    },
+    {
+      "time": 122.24,
+      "image": 55,
+      "layout": 1,
+      "word": "取舍",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 10
+    },
+    {
+      "time": 122.88,
+      "image": 54,
+      "layout": 3,
+      "word": "依赖",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 11
+    },
+    {
+      "time": 123.52,
+      "image": 55,
+      "layout": 0,
+      "word": "检查",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 11
+    },
+    {
+      "time": 124.16,
+      "image": 56,
+      "layout": 1,
+      "word": "旧版本",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 11
+    },
+    {
+      "time": 124.8,
+      "image": 16,
+      "layout": 2,
+      "word": "修复",
+      "label": "Internet Explorer 5 浏览 Textfiles.com",
+      "section": 11
+    },
+    {
+      "time": 125.44,
+      "image": 17,
+      "layout": 3,
+      "word": "等待",
+      "label": "Internet Explorer 6 SP2 中的 Wikipedia MonoBook 首页",
+      "section": 11
+    },
+    {
+      "time": 126.08,
+      "image": 18,
+      "layout": 0,
+      "word": "维护",
+      "label": "Winamp Windows Classic 皮肤",
+      "section": 11
+    },
+    {
+      "time": 126.72,
+      "image": 49,
+      "layout": 1,
+      "word": "有人在做",
+      "label": "目录 / 文件 · 原创示意",
+      "section": 11
+    },
+    {
+      "time": 127.36,
+      "image": 17,
+      "layout": 2,
+      "word": "继续可用",
+      "label": "Internet Explorer 6 SP2 中的 Wikipedia MonoBook 首页",
+      "section": 11
+    },
+    {
+      "time": 128.0,
+      "image": 52,
+      "layout": 3,
+      "word": "依赖",
+      "label": "维护请求 · 原创示意",
+      "section": 11
+    },
+    {
+      "time": 128.64,
+      "image": 54,
+      "layout": 0,
+      "word": "检查",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 11
+    },
+    {
+      "time": 129.28,
+      "image": 55,
+      "layout": 1,
+      "word": "旧版本",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 11
+    },
+    {
+      "time": 129.92,
+      "image": 56,
+      "layout": 2,
+      "word": "修复",
+      "label": "本项目制作过程 · 当前自截",
+      "section": 11
+    },
+    {
+      "time": 130.56,
+      "image": 16,
+      "layout": 3,
+      "word": "等待",
+      "label": "Internet Explorer 5 浏览 Textfiles.com",
+      "section": 11
+    },
+    {
+      "time": 131.2,
+      "image": 17,
+      "layout": 0,
+      "word": "维护",
+      "label": "Internet Explorer 6 SP2 中的 Wikipedia MonoBook 首页",
+      "section": 11
+    },
+    {
+      "time": 131.84,
+      "image": 18,
+      "layout": 1,
+      "word": "有人在做",
+      "label": "Winamp Windows Classic 皮肤",
+      "section": 11
+    },
+    {
+      "time": 132.48,
+      "image": 14,
+      "layout": 2,
+      "word": "继续可用",
+      "label": "Windows XP Build 2474 桌面",
+      "section": 11
+    }
+  ],
+  "note": "0.64s is an eight-row visual pulse mapped to FC14; no claim of independently confirmed musical metre. Main images, flashbacks, words, 4x16 FFT bars and spatial micro-motion share the show clock."
+}

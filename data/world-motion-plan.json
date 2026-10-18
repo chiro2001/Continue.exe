@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "status": "user-proposed-technique-primary-use-recommended-not-runtime",
+  "checked_on": "2026-10-16",
+  "spec": "spec/20-world-motion-performance.md",
+  "spatial_plan": "data/spatial-scene-plan.json",
+  "show_outline": "data/show-outline.json",
+  "music_plan": "data/music-visual-plan.json",
+  "runtime_implemented": false,
+  "premise": "人物维持独立参照，移动、缩放和旋转周围实际几何，使站在原处的玩家感到正在进入、穿行三维场景。",
+  "use_recommendation": "原生立体的连续空间运动作为主路线，摄像机画面覆盖保留为特定短段备选。",
+  "frames": [
+    {"id": "people-support", "role": "真实玩家原生追踪、NPC 独立表演与脚下稳定支撑", "global_world_transform": false, "note": "真实玩家不作为自建 Transform 的子物体；NPC 可有自己的骨骼动作和走位。"},
+    {"id": "world-motion", "role": "页面、面片、建筑、非接触道具和景物", "global_world_transform": true, "note": "使用共享枢轴的平移、旋转和正的统一缩放。"},
+    {"id": "local-scene-chunks", "role": "窗口、内部空间、远处工位等局部分组", "global_world_transform": true, "note": "整体运动下保留独立局部变换，支持尺度接续、复制布景与内外互换。"},
+    {"id": "contact-props", "role": "手持、触碰与正在操作的物件", "global_world_transform": false, "note": "按接触状态在场景参照与稳定参照间交接，交接保持世界姿态。"},
+    {"id": "music-stage", "role": "前方融合的四条音乐声部", "global_world_transform": false, "note": "沿原音乐计划调度，不自动跟随整片场景旋转和缩放。"},
+    {"id": "scene-audio-light", "role": "场景声音和局部光照", "global_world_transform": true, "note": "位置随实际发声/发光物，音频范围和灯光配置单独校准。"}
+  ],
+  "transform": {
+    "formula": "p_display = a + d + R * (s * (p_source - a))",
+    "pivot": "共同演出坐标或当前入口中的共享枢轴，不逐帧追随单个头部",
+    "scale": "正的统一缩放，保留旧界面宽高比和局部分层对齐",
+    "virtual_travel": "相对观众反向移动场景可表达前进；场景转向与统一缩放表达转弯、靠近和进入。",
+    "scope": "只对加入世界运动组的内容应用，人物和稳定支撑独立",
+    "topology_limit": "单个整体变换保留场景内部相对结构；更复杂的内外关系需局部分组、复制与遮挡接续。"
+  },
+  "contact_sequence": ["航行", "减速停靠", "操作台与人物对齐", "操作与试用", "保持姿态完成道具交接", "再次航行"],
+  "interaction_rules": [
+    "人物的骨骼与独立走位保持人体尺度，不随整个世界统一放大和翻转。",
+    "脚下支撑与视觉地面分别管理，不靠移动碰撞面把玩家带走。",
+    "与人接触的桌、椅、屏幕、手持物按状态暂时独立，非接触布景随世界运动。",
+    "换组保持世界姿态，再按表演过渡，实际 SDK 与 ownership 行为待原型。",
+    "入口与经过路线按整个观众组及自然活动范围检查，不只检查中央视点。"
+  ],
+  "section_use": [
+    {"section": "connect", "motion": "主要保持具体载体与近处操作，建立稳定参照。"},
+    {"section": "create", "motion": "外壳退出、内容经过、短暂停靠制作或发布，再连续进入下一片段。"},
+    {"section": "constrain", "motion": "局部条件入口靠近、放大与停靠，保留无界外部。"},
+    {"section": "overload", "motion": "副本和请求经过得更密，尺度与遮挡增加压力；强度待头显调校。"},
+    {"section": "distance", "motion": "运动明显减弱或停止，近处撤空，仅保留远处保存物。"},
+    {"section": "continue", "motion": "先停靠建立具体帮助，再以世界和局部分组运动完成进入、内外接续和远近协作。"},
+    {"section": "trace", "motion": "回到人尺度停靠或低运动状态，交接和新点子继续，外围无界。"}
+  ],
+  "audio": {
+    "music_frame": "music-stage",
+    "normal": "前方四声部轻微分层、整体融合",
+    "scene_audio": "跟随发声物的变换后位置，衰减范围与音量单独校准",
+    "doppler": "主音乐先关闭，场景效果按意图另行校准",
+    "climaxes": "保留原两处未启用候选，不新增或自动启用高潮",
+    "sync": "沿用同一四轨时基，视觉曲线尺度不作为音轨同步容差"
+  },
+  "multiplayer": {
+    "proposal": "共享段落和演出时间，各客户端重建相同的世界运动曲线与枢轴",
+    "individual_tracking": "各玩家头手与身体追踪保持原生，不为每人各自把整片世界转向其头部",
+    "checks": ["中途加入", "暂停与恢复", "重播复位", "独处与共同状态恢复", "多人同时经过同一入口"]
+  },
+  "camera_substitution": {
+    "role": "特定短段备选，不是连续空间穿行的默认依赖",
+    "existing_candidate_catalogue": "data/show-outline.json#/vr_effect_candidates",
+    "existing_candidate_id": "view-substitution",
+    "default_enabled": false,
+    "window_preserved": [151.04, 153.6],
+    "note": "若以后采用仍需双眼与恢复验证，不因本路线延长窗口。"
+  },
+  "validation_needs": [
+    "先验证平移、缓慢偏航、均匀缩放与加减速，再检验短段俯仰或横滚。",
+    "自然头部追踪和原生立体不等于大范围视觉运动已通过舒适度验证。",
+    "检查近物穿越、全组入口间隙、手脚接触、道具交接和稳定支撑。",
+    "检查静态合批、烘焙、阴影与反射在运动场景下的实际表现。",
+    "主音乐参照、环境声位置与本地视听状态一并检查。"
+  ],
+  "preview": {
+    "directory": "/home/chiro/tmp/vrc-old-web-map/world-motion-20261016",
+    "interactive": "/home/chiro/tmp/vrc-old-web-map/world-motion-20261016/20-world-motion.html",
+    "png": "/home/chiro/tmp/vrc-old-web-map/world-motion-20261016/20-world-motion-preview.png",
+    "scope": "固定观察视点的脚本投影结构示意，可调场景参数，不是 Unity、真实演员或 VR 双眼测试。",
+    "production_master_units_completed": 0
+  }
+}

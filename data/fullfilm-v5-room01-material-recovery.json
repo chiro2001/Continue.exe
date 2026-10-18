@@ -1,0 +1,257 @@
+{
+  "schema": 1,
+  "source_fbx": "Assets/Room01/Scene/model/Room01.fbx",
+  "diagnosis": {
+    "report": "~/tmp/vrc-old-web-map/fullfilm-v5/reports/room01-materials.json",
+    "renderers_in_report": 47,
+    "affected_furniture_renderers": 20,
+    "bad_material_name": "Inherited-ab7a9631e24269a46b38253421ef9828",
+    "bad_texture": "Assets/Room01/texture/book4.png",
+    "finding": "V4 isolated distinct embedded material sub-assets using the FBX path GUID only. The affected slots all point to the book4 clone."
+  },
+  "affected_source_slots": [
+    {
+      "mesh": "Desk_Lamp",
+      "blender_slot_name": "wood.004",
+      "blender_slot_index": 0,
+      "unity_affected_slot": 1
+    },
+    {
+      "mesh": "Wooden_Table",
+      "blender_slot_name": "wood.001",
+      "blender_slot_index": 0,
+      "unity_affected_slot": 0
+    },
+    {
+      "mesh": "LowTable_wood",
+      "blender_slot_name": "wood.004",
+      "blender_slot_index": 0,
+      "unity_affected_slot": 0
+    },
+    {
+      "mesh": "Sofa",
+      "blender_slot_name": "wood.001",
+      "blender_slot_index": 0,
+      "unity_affected_slot": 1
+    }
+  ],
+  "source_materials": {
+    "wood.001": {
+      "source_material": "wood.001",
+      "base_color": [
+        0.8010555505752563,
+        0.2969183325767517,
+        0.05132599174976349,
+        1.0
+      ],
+      "base_color_is_texture_linked": true,
+      "metallic": 0.0,
+      "roughness_socket_default": 0.5,
+      "roughness_is_texture_linked": true,
+      "specular_ior_level": 0.5,
+      "normal_map": {
+        "space": "TANGENT",
+        "uv_map": "",
+        "strength": 1.0
+      },
+      "images": [
+        {
+          "source_image": "Wood021_1K-JPG_Color.jpg",
+          "purpose": "BaseColor",
+          "output": "art/export/fullfilm-v5/model-textures/room01-wood021-color.jpg",
+          "embedded_in_source_fbx": true,
+          "width": 1024,
+          "height": 1024,
+          "source_format": "JPEG",
+          "source_color_space": "sRGB",
+          "sha256": "a931fab0059ab047ba6e9d8d634bf8e614351d9651feb19c7e23641ca14e28eb"
+        },
+        {
+          "source_image": "Wood021_1K-JPG_NormalGL.jpg",
+          "purpose": "TangentNormal",
+          "output": "art/export/fullfilm-v5/model-textures/room01-wood021-normal-gl.jpg",
+          "embedded_in_source_fbx": true,
+          "width": 1024,
+          "height": 1024,
+          "source_format": "JPEG",
+          "source_color_space": "Non-Color",
+          "sha256": "2a4f9195fdcaeaa4e224614759bb93308f1968e732b5ef2f73b7a1a388746f33"
+        },
+        {
+          "source_image": "Wood021_1K-JPG_Roughness.jpg",
+          "purpose": "Roughness",
+          "output": "art/export/fullfilm-v5/model-textures/room01-wood021-roughness.jpg",
+          "embedded_in_source_fbx": true,
+          "width": 1024,
+          "height": 1024,
+          "source_format": "JPEG",
+          "source_color_space": "Non-Color",
+          "sha256": "cd30e3f32f4542df8d32c607653fa33714cabef9629611e900abf578a5a30208"
+        },
+        {
+          "source_image": "derived: 1 - Wood021_1K-JPG_Roughness.jpg; RGB=0, alpha=smoothness",
+          "purpose": "MetallicSmoothnessAlpha",
+          "output": "art/export/fullfilm-v5/model-textures/room01-wood021-metallic-smoothness.png",
+          "embedded_in_source_fbx": false,
+          "width": 1024,
+          "height": 1024,
+          "source_format": "PNG RGBA",
+          "source_color_space": "Non-Color",
+          "sha256": "078e9ecaee148cfcc16c6ec2a711a9ea915e77da8750ca4b0c51685b65ae0a49"
+        }
+      ],
+      "unity_material": "Room01_Wood021_V5: Standard metallic setup, tint white because Wood021 Color drives BaseColor; metallic 0, smoothness from source roughness alpha"
+    },
+    "wood.004": {
+      "source_material": "wood.004",
+      "base_color": [
+        0.8004578351974487,
+        0.30146050453186035,
+        0.07232236862182617,
+        1.0
+      ],
+      "base_color_is_texture_linked": false,
+      "metallic": 0.0,
+      "roughness_socket_default": 0.5,
+      "roughness_is_texture_linked": true,
+      "specular_ior_level": 0.0,
+      "normal_map": {
+        "space": "TANGENT",
+        "uv_map": "",
+        "strength": 1.0
+      },
+      "images": [
+        {
+          "source_image": "Wood032_2K-JPG_NormalGL.jpg",
+          "purpose": "TangentNormal",
+          "output": "art/export/fullfilm-v5/model-textures/room01-wood032-normal-gl.jpg",
+          "embedded_in_source_fbx": true,
+          "width": 2048,
+          "height": 2048,
+          "source_format": "JPEG",
+          "source_color_space": "Non-Color",
+          "sha256": "2de7bc51ebc952496fd750d9bde4dfa9d8166e63f09910cf4e6e4621f5a7e873"
+        },
+        {
+          "source_image": "Wood032_2K-JPG_Roughness.jpg",
+          "purpose": "Roughness",
+          "output": "art/export/fullfilm-v5/model-textures/room01-wood032-roughness.jpg",
+          "embedded_in_source_fbx": true,
+          "width": 2048,
+          "height": 2048,
+          "source_format": "JPEG",
+          "source_color_space": "Non-Color",
+          "sha256": "416925e44b6d10c3b213659e006eda2d69511fc19bce978e09fe44469f645a3b"
+        },
+        {
+          "source_image": "derived: 1 - Wood032_2K-JPG_Roughness.jpg; RGB=0, alpha=smoothness",
+          "purpose": "SpecularSmoothnessAlpha",
+          "output": "art/export/fullfilm-v5/model-textures/room01-wood032-specular-smoothness.png",
+          "embedded_in_source_fbx": false,
+          "width": 2048,
+          "height": 2048,
+          "source_format": "PNG RGBA",
+          "source_color_space": "Non-Color",
+          "sha256": "a4beb4dccdc60a85be8b431ba9983a22be0df180783d6c3276ed728b0727a67e"
+        }
+      ],
+      "unity_material": "Room01_Wood032_V5: Standard specular setup with exact FBX base color, black specular color, metallic 0, smoothness from source roughness alpha"
+    }
+  },
+  "binding_policy": "In V5, replace only the four listed mesh/slot pairs confirmed by the 47-Renderer report. Leave all other slots and healthy external materials untouched.",
+  "unity_entrypoint": "OWFilmV5ModelBuild.RestoreRoom01WoodMaterials",
+  "textures": [
+    {
+      "source_image": "Wood021_1K-JPG_Color.jpg",
+      "purpose": "BaseColor",
+      "output": "art/export/fullfilm-v5/model-textures/room01-wood021-color.jpg",
+      "embedded_in_source_fbx": true,
+      "width": 1024,
+      "height": 1024,
+      "source_format": "JPEG",
+      "source_color_space": "sRGB",
+      "sha256": "a931fab0059ab047ba6e9d8d634bf8e614351d9651feb19c7e23641ca14e28eb"
+    },
+    {
+      "source_image": "Wood021_1K-JPG_NormalGL.jpg",
+      "purpose": "TangentNormal",
+      "output": "art/export/fullfilm-v5/model-textures/room01-wood021-normal-gl.jpg",
+      "embedded_in_source_fbx": true,
+      "width": 1024,
+      "height": 1024,
+      "source_format": "JPEG",
+      "source_color_space": "Non-Color",
+      "sha256": "2a4f9195fdcaeaa4e224614759bb93308f1968e732b5ef2f73b7a1a388746f33"
+    },
+    {
+      "source_image": "Wood021_1K-JPG_Roughness.jpg",
+      "purpose": "Roughness",
+      "output": "art/export/fullfilm-v5/model-textures/room01-wood021-roughness.jpg",
+      "embedded_in_source_fbx": true,
+      "width": 1024,
+      "height": 1024,
+      "source_format": "JPEG",
+      "source_color_space": "Non-Color",
+      "sha256": "cd30e3f32f4542df8d32c607653fa33714cabef9629611e900abf578a5a30208"
+    },
+    {
+      "source_image": "derived: 1 - Wood021_1K-JPG_Roughness.jpg; RGB=0, alpha=smoothness",
+      "purpose": "MetallicSmoothnessAlpha",
+      "output": "art/export/fullfilm-v5/model-textures/room01-wood021-metallic-smoothness.png",
+      "embedded_in_source_fbx": false,
+      "width": 1024,
+      "height": 1024,
+      "source_format": "PNG RGBA",
+      "source_color_space": "Non-Color",
+      "sha256": "078e9ecaee148cfcc16c6ec2a711a9ea915e77da8750ca4b0c51685b65ae0a49"
+    },
+    {
+      "source_image": "Wood032_2K-JPG_NormalGL.jpg",
+      "purpose": "TangentNormal",
+      "output": "art/export/fullfilm-v5/model-textures/room01-wood032-normal-gl.jpg",
+      "embedded_in_source_fbx": true,
+      "width": 2048,
+      "height": 2048,
+      "source_format": "JPEG",
+      "source_color_space": "Non-Color",
+      "sha256": "2de7bc51ebc952496fd750d9bde4dfa9d8166e63f09910cf4e6e4621f5a7e873"
+    },
+    {
+      "source_image": "Wood032_2K-JPG_Roughness.jpg",
+      "purpose": "Roughness",
+      "output": "art/export/fullfilm-v5/model-textures/room01-wood032-roughness.jpg",
+      "embedded_in_source_fbx": true,
+      "width": 2048,
+      "height": 2048,
+      "source_format": "JPEG",
+      "source_color_space": "Non-Color",
+      "sha256": "416925e44b6d10c3b213659e006eda2d69511fc19bce978e09fe44469f645a3b"
+    },
+    {
+      "source_image": "derived: 1 - Wood032_2K-JPG_Roughness.jpg; RGB=0, alpha=smoothness",
+      "purpose": "SpecularSmoothnessAlpha",
+      "output": "art/export/fullfilm-v5/model-textures/room01-wood032-specular-smoothness.png",
+      "embedded_in_source_fbx": false,
+      "width": 2048,
+      "height": 2048,
+      "source_format": "PNG RGBA",
+      "source_color_space": "Non-Color",
+      "sha256": "a4beb4dccdc60a85be8b431ba9983a22be0df180783d6c3276ed728b0727a67e"
+    }
+  ],
+  "all_recovery_texture_files": [
+    "art/export/fullfilm-v5/model-textures/archive-shelf-wood017-albedo.jpg",
+    "art/export/fullfilm-v5/model-textures/archive-shelf-wood017-normal-gl.jpg",
+    "art/export/fullfilm-v5/model-textures/archive-shelf-wood017-roughness.jpg",
+    "art/export/fullfilm-v5/model-textures/archive-shelf-wood017-metallic-smoothness.png",
+    "art/export/fullfilm-v5/model-textures/archive-books-book4.png",
+    "art/export/fullfilm-v5/model-textures/archive-books-book5.png",
+    "art/export/fullfilm-v5/model-textures/room01-wood021-color.jpg",
+    "art/export/fullfilm-v5/model-textures/room01-wood021-normal-gl.jpg",
+    "art/export/fullfilm-v5/model-textures/room01-wood021-roughness.jpg",
+    "art/export/fullfilm-v5/model-textures/room01-wood021-metallic-smoothness.png",
+    "art/export/fullfilm-v5/model-textures/room01-wood032-normal-gl.jpg",
+    "art/export/fullfilm-v5/model-textures/room01-wood032-roughness.jpg",
+    "art/export/fullfilm-v5/model-textures/room01-wood032-specular-smoothness.png"
+  ]
+}

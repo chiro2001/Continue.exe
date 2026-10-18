@@ -1,0 +1,240 @@
+{
+  "schema": "episode123-v4-anonymity-audit/v1",
+  "reviewed_on": "2026-10-16",
+  "source_score": "data/episode123-v4-score.json",
+  "selection_rule": "images where category == 'vrc' or id contains 'vrc', 'vrchat', or 'official-2019'",
+  "method": "逐张查看索引中的 source_path 原图。坐标以原图左上角为原点、单位为原始像素；对社区反馈页的姓名像素取紧边界并加 2px 留白，其他账号名框同样按原始字号紧贴字形。修正框已直接绘制匿名副本并逐张放大复看，确认姓名完整消失且相邻正文、标题保留。",
+  "reviewed_image_count": 43,
+  "reviewed_asset_ids": [
+    "vrc-2017-hub-header",
+    "vrc-2017-hub-entrance",
+    "vrc-2017-hub-travel-map",
+    "vrc-2017-hub-help",
+    "vrc-2017-hub-avatar-hall",
+    "vrc-2017-hub-mirror",
+    "vrc-2017-hub-events",
+    "vrc-2017-hub-new-worlds",
+    "vrc-2017-hub-panosphere",
+    "vrc-2017-hub-sculpture",
+    "vrchat-eac-security-banner-2022",
+    "vrchat-eac-secure-instances-2022",
+    "vrc-world-unity-open-dialog",
+    "vrc-world-sdk-build-controller-2017",
+    "vrc-world-profile-page-2018",
+    "vrc-avatar-world-2018-example",
+    "vrc-3402801d6c59",
+    "vrc-4da540c8ba8b",
+    "vrc-8bf3cbb20e05",
+    "vrc-e377f1cb40e0",
+    "official-2019-cross-platform",
+    "official-2019-home",
+    "official-2019-hub",
+    "workflow-avatar-1",
+    "workflow-avatar-2",
+    "workflow-avatar-3",
+    "workflow-avatar-4",
+    "workflow-vrc17-1",
+    "workflow-vrc17-2",
+    "workflow-vrc17-3",
+    "workflow-vrc17-4",
+    "workflow-vrc19-1",
+    "workflow-vrc19-2",
+    "workflow-vrc19-3",
+    "workflow-vrc19-4",
+    "vrchat-eac-2022",
+    "vrchat-secure-instances",
+    "vrchat-link-state-a",
+    "vrchat-link-state-b",
+    "vrchat-feedback-response",
+    "vrchat-accessibility-request",
+    "vrchat-eac-current-article",
+    "vrchat-feedback-current-article"
+  ],
+  "anonymization_items": [
+    {
+      "id": "vrc-world-sdk-build-controller-2017",
+      "source_path": "/home/chiro/projects/vrc-old-web-map/art/reference/episode123-v2/world_creator_2017-09.png",
+      "source_size": [
+        496,
+        490
+      ],
+      "action": "anonymize",
+      "regions": [
+        {
+          "x": 80,
+          "y": 38,
+          "w": 43,
+          "h": 15,
+          "target_kind": "account_handle",
+          "context": "SDK 登录状态行中的登录账号；仅覆盖账号字符串"
+        }
+      ]
+    },
+    {
+      "id": "vrc-world-profile-page-2018",
+      "source_path": "/home/chiro/projects/vrc-old-web-map/art/reference/episode123-v2/world_creator_2017-15.png",
+      "source_size": [
+        1024,
+        507
+      ],
+      "action": "anonymize",
+      "regions": [
+        {
+          "x": 486,
+          "y": 132,
+          "w": 92,
+          "h": 29,
+          "target_kind": "account_handle",
+          "context": "World 资料页的作者字段；仅覆盖账号字符串"
+        },
+        {
+          "x": 486,
+          "y": 220,
+          "w": 92,
+          "h": 28,
+          "target_kind": "account_handle",
+          "context": "World 资料页的所有者字段；仅覆盖账号字符串"
+        }
+      ]
+    },
+    {
+      "id": "vrchat-link-state-a",
+      "source_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/vrchat-eac-client-or-browser-screenshot-2022-07-13-a.png",
+      "source_size": [
+        1269,
+        351
+      ],
+      "action": "anonymize",
+      "regions": [
+        {
+          "x": 136,
+          "y": 75,
+          "w": 66,
+          "h": 22,
+          "target_kind": "account_handle",
+          "context": "World 卡片 Created by 字段；保留 World 标题和其余网页文字"
+        }
+      ]
+    },
+    {
+      "id": "vrchat-link-state-b",
+      "source_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/vrchat-eac-client-or-browser-screenshot-2022-07-13-b.png",
+      "source_size": [
+        1275,
+        321
+      ],
+      "action": "anonymize",
+      "regions": [
+        {
+          "x": 138,
+          "y": 131,
+          "w": 66,
+          "h": 22,
+          "target_kind": "account_handle",
+          "context": "World 卡片 Created by 字段；保留 World 标题和其余网页文字"
+        }
+      ]
+    },
+    {
+      "id": "vrchat-accessibility-request",
+      "source_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/vrchat-accessibility-feedback-board-page-2026.png",
+      "source_size": [
+        1440,
+        1057
+      ],
+      "action": "anonymize",
+      "regions": [
+        {
+          "x": 611,
+          "y": 213,
+          "w": 63,
+          "h": 16,
+          "target_kind": "community_account_handle",
+          "context": "反馈帖作者用户名；可读，但未独立核实为游戏内显示名"
+        },
+        {
+          "x": 294,
+          "y": 186,
+          "w": 103,
+          "h": 15,
+          "target_kind": "community_account_handle",
+          "context": "左侧投票者列表中的可读用户名；未独立核实为游戏内显示名"
+        },
+        {
+          "x": 293,
+          "y": 222,
+          "w": 87,
+          "h": 18,
+          "target_kind": "community_account_handle",
+          "context": "左侧投票者列表中的可读用户名；未独立核实为游戏内显示名"
+        },
+        {
+          "x": 294,
+          "y": 257,
+          "w": 73,
+          "h": 18,
+          "target_kind": "community_account_handle",
+          "context": "左侧投票者列表中的可读用户名；未独立核实为游戏内显示名"
+        },
+        {
+          "x": 294,
+          "y": 294,
+          "w": 87,
+          "h": 18,
+          "target_kind": "community_account_handle",
+          "context": "左侧投票者列表中的可读用户名；未独立核实为游戏内显示名"
+        },
+        {
+          "x": 293,
+          "y": 330,
+          "w": 38,
+          "h": 15,
+          "target_kind": "community_account_handle",
+          "context": "左侧投票者列表中的可读用户名；未独立核实为游戏内显示名"
+        },
+        {
+          "x": 295,
+          "y": 366,
+          "w": 100,
+          "h": 19,
+          "target_kind": "community_account_handle",
+          "context": "左侧投票者列表中的可读用户名；未独立核实为游戏内显示名"
+        },
+        {
+          "x": 294,
+          "y": 402,
+          "w": 49,
+          "h": 15,
+          "target_kind": "community_account_handle",
+          "context": "左侧投票者列表中的可读用户名；未独立核实为游戏内显示名"
+        },
+        {
+          "x": 294,
+          "y": 438,
+          "w": 59,
+          "h": 15,
+          "target_kind": "community_account_handle",
+          "context": "左侧投票者列表中的可读用户名；未独立核实为游戏内显示名"
+        },
+        {
+          "x": 294,
+          "y": 474,
+          "w": 72,
+          "h": 18,
+          "target_kind": "community_account_handle",
+          "context": "左侧投票者列表中的可读用户名；未独立核实为游戏内显示名"
+        },
+        {
+          "x": 293,
+          "y": 510,
+          "w": 36,
+          "h": 18,
+          "target_kind": "community_account_handle",
+          "context": "左侧投票者列表中的可读用户名；未独立核实为游戏内显示名"
+        }
+      ]
+    }
+  ],
+  "manual_review": [],
+  "review_note": "发现的可读账号名位于 SDK 登录状态、旧 World 作者/所有者字段、World 创建者字段及社区反馈页作者/投票者列表。社区反馈页账号明确可读，但无法仅凭截图确认其是否等同游戏内显示名；仍建议展示副本匿名处理。其余已检查素材未见清晰可读的真实玩家名牌。项目绘制的流程示意、官方账号/示例文字、普通软件和世界标题不作为真实玩家名处理。"
+}

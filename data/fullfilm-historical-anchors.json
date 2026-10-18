@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-17",
+  "scope": "少量真实公告标题/配图作为副焦点，事件性质沿用spec11和既有来源索引；无长文摘录，无玩家名字",
+  "assets": [
+    {
+      "id": "vrc-anti-ripping-2024",
+      "source_url": "https://ask.vrchat.com/t/developer-update-25-july-2024/25764",
+      "source_date": "2024-07-25",
+      "source_path": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v1/sources/vrc-anti-ripping-2024.png",
+      "source_sha256": "cc3773c2dacbbb82fffbae15a7940cd953a4614d8f1ce1a931c3fe79288d2c44",
+      "display_path": "art/reference/fullfilm-anchors/vrc-anti-ripping-2024-display.png",
+      "display_sha256": "b1980f0af46f3378fba12d4a650d9faab151e7b46a56d1bc6f0ca2f8cef0243c",
+      "kind": "本轮Chromium访问官方页面截图的标题/配图裁切；原帖与页面浏览时间分开",
+      "display_processing": "仅使用官方标题/分类与无姓名配图区域，排除所有作者/玩家名字和长篇正文",
+      "path": "Assets/OldWebMap/FullFilm/Revision1/History/Textures/vrc-anti-ripping-2024-display.png"
+    },
+    {
+      "id": "vrc-ai-2026",
+      "source_url": "https://ask.vrchat.com/t/regarding-ai-usage-on-vrchat/49058",
+      "source_date": "2026-10-06 UTC / 2026-10-07 北京时间",
+      "source_path": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v1/sources/vrc-ai-2026.png",
+      "source_sha256": "92c6a7c87cd98a4e5c0a0f740e0c7c39386f8027e87ed7d7a9d702980e01ad6f",
+      "display_path": "art/reference/fullfilm-anchors/vrc-ai-2026-display.png",
+      "display_sha256": "71da472bcabf34a07c5419992aa3c4c325270b8b016463fe5142f11e20e5c01a",
+      "kind": "本轮Chromium访问官方页面截图的标题/配图裁切；原帖与页面浏览时间分开",
+      "display_processing": "仅使用官方标题/分类与无姓名配图区域，排除所有作者/玩家名字和长篇正文",
+      "path": "Assets/OldWebMap/FullFilm/Revision1/History/Textures/vrc-ai-2026-display.png"
+    },
+    {
+      "id": "adobe-flash-eol-announcement",
+      "title": "Adobe Flash Player 结束支持公告",
+      "kind": "同期官方公告的抽象配图",
+      "path": "Assets/OldWebMap/Episode123/Revision4/Images/adobe-flash-eol-announcement.png",
+      "source_path": "/home/chiro/tmp/vrc-old-web-map/episode123-v4/sources/adobe-flash-eol-announcement-2017.jpg",
+      "source_url": "https://blog.adobe.com/en/publish/2017/07/25/adobe-flash-update",
+      "display_year": "2017"
+    },
+    {
+      "id": "vrc-4da540c8ba8b",
+      "title": "VRChat 2018-11-17 · VRChat Upgrade to Unity 2017.4 · 1",
+      "kind": "official-steam-announcement-image",
+      "path": "Assets/OldWebMap/Episode123/Revision3/Images/vrc-4da540c8ba8b.png",
+      "source_path": "/home/chiro/projects/vrc-old-web-map/art/reference/episode123-v3/vrc-4da540c8ba8b.png",
+      "source_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/3316234163922017002",
+      "display_year": "2018"
+    }
+  ]
+}

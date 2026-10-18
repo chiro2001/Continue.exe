@@ -1,0 +1,40 @@
+{
+  "request_url": "https://api.bilibili.com/x/web-interface/view?bvid=BV1brH769EtM",
+  "http_status": 200,
+  "retrieved_at_utc": "2026-10-17T16:26:00.361303+00:00",
+  "api_code": 0,
+  "api_message": "OK",
+  "bvid": "BV1brH769EtM",
+  "aid": 117382915818445,
+  "cid": 42461104673,
+  "title": "6分钟看完VRChat历史",
+  "published_at_unix": 1791123043,
+  "published_at_utc": "2026-10-04T14:10:43+00:00",
+  "page_duration_seconds": 385,
+  "reported_dimensions": {
+    "width": 1920,
+    "height": 1080,
+    "rotate": 0
+  },
+  "owner": {
+    "mid": 3537124515122022,
+    "name": "一个一个hs",
+    "face": "https://i0.hdslb.com/bfs/face/944e81328af3dc0cbbd205e680078cb8ea449331.jpg"
+  },
+  "page": {
+    "cid": 42461104673,
+    "page": 1,
+    "from": "vupload",
+    "part": "6分钟看完VRChat历史",
+    "duration": 385,
+    "vid": "",
+    "weblink": "",
+    "dimension": {
+      "width": 1920,
+      "height": 1080,
+      "rotate": 0
+    },
+    "first_frame": "http://i0.hdslb.com/bfs/storyff/_00003q1a3gzsi2lis27qfipuqu6n56b_firsti.jpg",
+    "ctime": 1791123043
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "status": "imported-and-validated",
+  "rig_contract": "Unity Humanoid; actor root motion is separate from the replaceable visual",
+  "actors": [
+    {
+      "slot": "actor-a",
+      "appearance": "Kipfel",
+      "source_project": "D:\\Projects\\VRChatProjects2\\MyKipfel1.2.0",
+      "source_scene": "Assets/Avatas/Lite-2-Pink.unity",
+      "source_modified_local": "2026-09-28T02:23:48+08:00",
+      "prefab": "Assets/OldWebActors/Imported/Kipfel/Kipfel.prefab",
+      "source_object": "芝芝喵Lite-FaceTracking[HD+HD (VIVE)]",
+      "source_sha256": "57b2a1eb8c47036d0b5b1ac98cba77dfdc9005ba188b95fcdafa64eee32f1810",
+      "cast_prefab": "Assets/OldWebActors/Cast/Actor_A.prefab",
+      "humanoid_avatar": "Assets/OldWebActors/Imported/Kipfel/Humanoid.asset",
+      "humanoid_bones": 51,
+      "renderers": 10,
+      "triangles": 45721,
+      "materials": 8,
+      "textures": 14,
+      "preview_hand_travel_meters": 0.130127147
+    },
+    {
+      "slot": "actor-b",
+      "appearance": "Nemesis",
+      "source_project": "D:\\Projects\\VRChatProjects2\\Nemesis",
+      "source_scene": "Assets/Main-2.unity",
+      "source_modified_local": "2026-10-03T14:04:01+08:00",
+      "prefab": "Assets/OldWebActors/Imported/Nemesis/Nemesis.prefab",
+      "source_object": "Nemesis_Full_FT",
+      "source_sha256": "856c502dc872e1ec5b696355d590b771980910247632b27ecd8b4a5ef376f026",
+      "cast_prefab": "Assets/OldWebActors/Cast/Actor_B.prefab",
+      "humanoid_avatar": "Assets/OldWebActors/Imported/Nemesis/Humanoid.asset",
+      "humanoid_bones": 53,
+      "renderers": 12,
+      "triangles": 83496,
+      "materials": 11,
+      "textures": 10,
+      "preview_hand_travel_meters": 0.0990767255
+    }
+  ],
+  "preview_scene": "Assets/Scenes/OWM_Actors.unity",
+  "motion_controller": "Assets/OldWebActors/Motion/ActorMotion.controller",
+  "preview_clip": "Assets/OldWebActors/Motion/ActorReach.anim",
+  "shader_package": {
+    "name": "jp.lilxyzw.liltoon",
+    "version": "2.3.4",
+    "location": "LocalPackages/jp.lilxyzw.liltoon"
+  },
+  "validation": {
+    "unity": "2022.3.22f1",
+    "humanoid": true,
+    "missing_scripts": 0,
+    "source_scenes_unchanged": true,
+    "shared_motion_edit_mode": true,
+    "shared_motion_play_mode": true,
+    "udon_reset_events_passed": 2,
+    "new_runtime_errors": 0,
+    "vrchat_client_tested": false
+  }
+}

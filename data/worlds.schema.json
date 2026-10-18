@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "description": "地图节点的数据结构。真实数据由策展后从公开来源整理；下面三条仅为结构示例，上屏前必须替换为已核实内容。",
+  "schema": {
+    "id": "string，唯一标识，用作 Unity 资产名与同步状态位键",
+    "title": "string，节点显示名",
+    "author": "string，作者署名（无作者时留空）",
+    "year": "integer，上线年份",
+    "visits": "integer，公开访问量（未知填 null）",
+    "state": "online | throttled | dead | archived | exported | revived",
+    "state_since": "string，状态起始日期（YYYY-MM-DD 或 YYYY-MM）",
+    "position": "object，点阵坐标 { x: number, y: number, z: number }",
+    "links": "array<string>，该节点引用/被引用的其他节点 id",
+    "thumbnail": "string，缩略图资源路径（缺失时使用 broken image 占位）",
+    "quote_refs": "array<string>，关联的引文 id",
+    "segment": "string，所在段落 id"
+  },
+  "examples": [
+    {
+      "id": "example-node-01",
+      "title": "示例节点 01",
+      "author": "",
+      "year": 2003,
+      "visits": null,
+      "state": "online",
+      "state_since": null,
+      "position": { "x": -6.0, "y": 1.2, "z": 0.0 },
+      "links": ["example-node-02"],
+      "thumbnail": "",
+      "quote_refs": [],
+      "segment": "act1-golden"
+    },
+    {
+      "id": "example-node-02",
+      "title": "示例节点 02",
+      "author": "",
+      "year": 2008,
+      "visits": null,
+      "state": "archived",
+      "state_since": "2021-06",
+      "position": { "x": -1.5, "y": 1.2, "z": 2.5 },
+      "links": ["example-node-01", "example-node-03"],
+      "thumbnail": "",
+      "quote_refs": ["q-curl-bounty"],
+      "segment": "act2b-opensource"
+    },
+    {
+      "id": "example-node-03",
+      "title": "示例节点 03",
+      "author": "",
+      "year": 2014,
+      "visits": null,
+      "state": "revived",
+      "state_since": "2025-01",
+      "position": { "x": 3.0, "y": 1.2, "z": 5.0 },
+      "links": ["example-node-02"],
+      "thumbnail": "",
+      "quote_refs": ["q-mecell-revival"],
+      "segment": "act3-hope"
+    }
+  ]
+}

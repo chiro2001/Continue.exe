@@ -1,0 +1,1330 @@
+{
+  "version": 1,
+  "status": "research-and-creative-candidates",
+  "checked_on": "2026-10-15",
+  "cutoff_date": "2026-10-15",
+  "purpose": "VRChat 社区史子素材池，补充互联网文化史蒙太奇；只记录和研究，本轮不制作场景或软件。",
+  "categories": [
+    {
+      "id": "early-spaces",
+      "name": "早期界面与空间"
+    },
+    {
+      "id": "avatar-bodies",
+      "name": "Avatar 谱系与身体能力"
+    },
+    {
+      "id": "memes-life",
+      "name": "梗与社区生活"
+    },
+    {
+      "id": "creation-economy",
+      "name": "创作、互助与社群结构"
+    },
+    {
+      "id": "mods-security",
+      "name": "Mod、反作弊与平台变迁"
+    },
+    {
+      "id": "asset-rights",
+      "name": "盗模与创作者权益"
+    },
+    {
+      "id": "community-harm",
+      "name": "社群风险、未成年与治理"
+    },
+    {
+      "id": "ai-vrchat",
+      "name": "AI 与 VRChat"
+    }
+  ],
+  "sources": {
+    "history2017": {
+      "title": "2017 in VRChat updates",
+      "kind": "official-hosted-reviewed-history",
+      "url": "https://wiki.vrchat.com/wiki/2017_in_VRChat_updates",
+      "supports": "2017 年更新索引，包括 Steam、全身追踪与 11 月 New Hub；界面图像和布局仍需原始素材",
+      "checked_on": "2026-10-15"
+    },
+    "history2018": {
+      "title": "2018 in VRChat updates",
+      "kind": "official-hosted-reviewed-history",
+      "url": "https://wiki.vrchat.com/wiki/2018_in_VRChat_updates",
+      "supports": "2018 年 Home、Trust and Safety、客户端修改警告等更新索引",
+      "checked_on": "2026-10-15"
+    },
+    "world-list": {
+      "title": "List of worlds created by VRChat",
+      "kind": "official-hosted-reviewed-history",
+      "url": "https://wiki.vrchat.com/wiki/List_of_worlds_created_by_VRChat",
+      "supports": "旧 Hub、Home、教程、Avatar 3.0 Hub 等官方世界线索；Created 为资产创建元数据，不能直接当作功能发布日",
+      "checked_on": "2026-10-15"
+    },
+    "knuckles-history": {
+      "title": "Community:Ugandan Knuckles",
+      "kind": "community-wiki-history",
+      "url": "https://wiki.vrchat.com/wiki/Community:Ugandan_Knuckles",
+      "supports": "2017 模型与 2018 传播的沿革及原始视频索引；梗的传播与骚扰争议一并保留",
+      "checked_on": "2026-10-15"
+    },
+    "eac2022": {
+      "title": "The VRChat Security Update",
+      "kind": "official-statement",
+      "published": "2022-07-25",
+      "url": "https://hello.vrchat.com/blog/vrchat-security-update",
+      "supports": "EAC 引入的理由、2022-07-26 追加回应与辅助功能影响；客户端修改限制早于本次更新",
+      "checked_on": "2026-10-15"
+    },
+    "feedback2022": {
+      "title": "Addressing your Feedback",
+      "kind": "official-statement",
+      "published_display": "2022-07-27",
+      "published_index_utc": "2022-07-28",
+      "url": "https://hello.vrchat.com/blog/addressing-your-feedback",
+      "supports": "官方对无障碍、QoL、镜子与菜单等需求的路线图回应；路线图不等于当日全部实现",
+      "checked_on": "2026-10-15"
+    },
+    "osc2022": {
+      "title": "VRChat OSC for Avatars",
+      "kind": "official-statement",
+      "published_display": "2022-02-16",
+      "url": "https://hello.vrchat.com/blog/vrchat-osc-for-avatars",
+      "supports": "初始 Open Beta 与后附 2022-02-24 正式上线说明；开放接口与客户端修改分别处理",
+      "checked_on": "2026-10-15"
+    },
+    "dynamics2022": {
+      "title": "Avatar Dynamics is Now Live",
+      "kind": "official-statement",
+      "published": "2022-04-21",
+      "url": "https://hello.vrchat.com/blog/avatar-dynamics-live",
+      "supports": "PhysBones、Contacts 与交互权限正式上线的公告",
+      "checked_on": "2026-10-15"
+    },
+    "ripping2024": {
+      "title": "Developer Update - 25 July 2024",
+      "kind": "official-statement",
+      "published_utc": "2024-07-25T18:41:00Z",
+      "url": "https://ask.vrchat.com/t/developer-update-25-july-2024/25764",
+      "supports": "平台披露资源下载校验措施与近期超过 1,900 名盗模工具使用者被封禁；发布日不等于每个封禁的执行日",
+      "checked_on": "2026-10-15"
+    },
+    "ripping-feedback-march": {
+      "title": "2026-03-16 私模被盗的用户反馈（匿名整理）",
+      "kind": "community-feedback",
+      "published": "2026-03-16",
+      "url": "https://feedback.vrchat.com/avatar-30/p/feedback-on-avatar-asset-theft-via-modified-clients-and-cache-hot-swapping",
+      "supports": "能确认存在该日投诉；发帖者对技术机制与严重程度的主张未独立核实，不记录受害者昵称或技术操作",
+      "checked_on": "2026-10-15"
+    },
+    "ripping-feedback-june": {
+      "title": "2026-06-24 私模被盗的用户反馈（匿名整理）",
+      "kind": "community-feedback",
+      "published": "2026-06-24",
+      "url": "https://feedback.vrchat.com/feature-requests/p/thieves-have-stolen-tens-of-thousands-of-private-avatars",
+      "supports": "能确认存在该日投诉；标题中的数量与商业规模未独立核实，不转引涉嫌侵权站点链接",
+      "checked_on": "2026-10-15"
+    },
+    "age2025": {
+      "title": "Age Verification Now Available for VRC+ Subscribers",
+      "kind": "official-statement",
+      "published_display": "2025-01-28",
+      "published_index_utc": "2025-01-29",
+      "url": "https://hello.vrchat.com/blog/age-verification",
+      "supports": "当时向 VRC+ 订阅者开放的年龄验证与 Verified 18+ 实例功能",
+      "checked_on": "2026-10-15"
+    },
+    "safety2026": {
+      "title": "Update: Age Assurance, Content Gating, and Safety Improvements in VRChat",
+      "kind": "official-statement",
+      "published": "2026-06-24",
+      "url": "https://hello.vrchat.com/blog/june-2026-safety-update",
+      "supports": "英国起步的年龄保证和分级计划、行为治理方向；公告明确没有全球完成日期，不能写为全球已全面落地",
+      "checked_on": "2026-10-15"
+    },
+    "neuro2025": {
+      "title": "Vedal 首次与 Neuro 以 VRChat 互动的报道",
+      "kind": "media-report-of-public-stream",
+      "published": "2025-12-22",
+      "url": "https://game.udn.com/game/story/122089/9218895",
+      "supports": "2025 年 12 月公开直播中的 3D 互动与陪伴体验；不证明 AI 具有意识，也不宣称是 VRChat 历史上首个 AI 角色",
+      "checked_on": "2026-10-15"
+    },
+    "ai2026": {
+      "title": "Regarding AI Usage on VRChat",
+      "kind": "official-statement",
+      "published_utc": "2026-10-06T22:21:00Z",
+      "published_beijing": "2026-10-07T06:21:00+08:00",
+      "url": "https://ask.vrchat.com/t/regarding-ai-usage-on-vrchat/49058",
+      "supports": "误导性缩略图规则、AI 内容与发现机制讨论、官方占位图误上线自述；不是全面禁 AI，AI 标签仍未承诺实施，意见表当时开放一周",
+      "checked_on": "2026-10-15"
+    },
+    "early-access2016": {
+      "title": "VRChat Releases Early Access Build",
+      "kind": "official-contemporaneous-article",
+      "url": "https://virtualrealitypop.com/vrchat-releases-early-access-build-12d1ee1986e8",
+      "supports": "2016 Early Access 扩测说明，Hub 已有镜子、道具、传送门和 World Menu；不等于 2017 Steam 上架日，不足以复原具体几何布局",
+      "checked_on": "2026-10-15",
+      "published": "2016-12-08"
+    },
+    "retrospective2019": {
+      "title": "Celebrating 5 Years of VRChat",
+      "kind": "official-retrospective",
+      "url": "https://medium.com/vrchat/celebrating-5-years-of-vrchat-ffa0e8116929",
+      "supports": "早期 Karl、旧登录菜单、Art Gallery 和聚会的官方回顾图文；文章发布日期不是每张图片拍摄日",
+      "checked_on": "2026-10-15",
+      "published": "2019-01-15"
+    },
+    "newhub2017": {
+      "title": "The New VRChat Hub",
+      "kind": "official-contemporaneous-announcement",
+      "url": "https://store.steampowered.com/news/app/438100/view/5318144537297816864",
+      "supports": "原始公告及入口、地图、Avatar Hall/镜子、Event Hall、New Worlds 等配图；原图已定位并查看，公告日与拍摄日分开",
+      "checked_on": "2026-10-15",
+      "published_utc_date": "2017-11-18",
+      "readable_api_url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=438100&count=100&maxlength=0&enddate=1511500000"
+    },
+    "hubtour2017": {
+      "title": "VRChat World Tour: The Hub!",
+      "kind": "contemporaneous-player-video",
+      "url": "https://www.youtube.com/watch?v=6zveAcwT1es",
+      "supports": "同期玩家第一人称导览与可读转录，片长 12:42；具体剪辑时间码待定位。上传早于官方公告，不据此确定全体默认入口切换日",
+      "checked_on": "2026-10-15",
+      "published_local_date": "2017-11-15",
+      "published_index_utc_date": "2017-11-16",
+      "frame_review_status": "page-and-transcript-read-timecodes-unresolved"
+    },
+    "medium-avatar2017": {
+      "title": "Bringing to life your Oculus Medium creations in VRChat",
+      "kind": "official-contemporaneous-article",
+      "url": "https://virtualrealitypop.com/bringing-to-life-your-oculus-medium-creations-in-vrchat-f565ead26435",
+      "supports": "官方署名文章中的玩家雕塑 Avatar、作者图注和制作链路；是并行创作路径的例子，不代表全部 Avatar",
+      "checked_on": "2026-10-15",
+      "published": "2017-01-06"
+    },
+    "features2017": {
+      "title": "Let’s Dance! The 5.6 Update is here!",
+      "kind": "official-contemporaneous-announcement",
+      "url": "https://store.steampowered.com/news/posts/?appids=438100&enddate=1504210000",
+      "supports": "0.12 更新的 Vive Tracker 配置、新 Avatar 预览/确认菜单及镜中眼口表情文字说明；追踪仍在开发，对应菜单实图尚缺",
+      "checked_on": "2026-10-15",
+      "published": "2017-08-30"
+    },
+    "bear-visit2017": {
+      "title": "The Many Adventures of a Bear in VR Chat",
+      "kind": "first-person-community-account",
+      "url": "https://lancegpowelljr.medium.com/the-many-adventures-of-a-bear-in-vr-chat-anime-memes-public-forums-and-alternative-notions-of-3b88eb17fecb",
+      "supports": "2017 具名玩家多次访问、Avatar 走廊、角色扮演和传送的自述；不能将全文标为同日，文内部分图像另署第三方来源",
+      "checked_on": "2026-10-15",
+      "published": "2017-12-29"
+    },
+    "avatar-directory2018": {
+      "title": "2018 Avatar World 推荐列表",
+      "kind": "contemporaneous-player-directory",
+      "url": "https://m.blog.naver.com/PostView.nhn?blogId=esop3565&isHttpsRedirect=true&logNo=221279641328",
+      "supports": "玩家按 2018-05-19 基准整理的多风格 Avatar 世界与 MMD 舞蹈线索；仅证明个人目录，不证明全年可用或模型许可",
+      "checked_on": "2026-10-15",
+      "published_basis_date": "2018-05-19"
+    },
+    "knuckles-author2017": {
+      "title": "The Knuckles meme as a 3d model",
+      "kind": "model-author-post",
+      "url": "https://www.deviantart.com/tidiestflyer/art/The-Knuckles-meme-as-a-3d-model-704695335",
+      "supports": "模型作者上传与署名要求；作者自述不是原角色设计者，未点击下载或复用模型",
+      "checked_on": "2026-10-15",
+      "published": "2017-09-16"
+    },
+    "knuckles-video2018": {
+      "title": "Jameskii VRChat Knuckles video",
+      "kind": "edited-community-video",
+      "url": "https://www.youtube.com/watch?v=sGTqmgFYYNI",
+      "supports": "2018-01-03 上传的传播视频；剪辑喜剧不代表全体玩家，上传日不等于梗起始日",
+      "checked_on": "2026-10-15",
+      "published": "2018-01-03",
+      "frame_review_status": "video-page-located-cut-points-not-selected"
+    },
+    "home-release2018": {
+      "title": "VRChat 2018.1.1 Home update",
+      "kind": "official-contemporaneous-announcement",
+      "url": "https://store.steampowered.com/news/posts/?appids=438100&enddate=1524650000",
+      "supports": "Home、Go Home 与自定义 Home 的功能更新文字；与某条 2018 Home 世界资产的 Created 日期区分",
+      "checked_on": "2026-10-15",
+      "published": "2018-04-24"
+    },
+    "home-hub2019": {
+      "title": "Welcome to Your New Home and Hub!",
+      "kind": "official-contemporaneous-article",
+      "url": "https://medium.com/vrchat/welcome-to-your-new-home-and-hub-139e06e0dea8",
+      "supports": "2019 新 Home/Hub 的图文，包含 Avatar 选择、镜子、分组会客空间和入口；不能当作 2018 Home 实图",
+      "checked_on": "2026-10-15",
+      "published": "2019-05-13"
+    },
+    "mirror-study2022": {
+      "title": "DiGRA 2022 mirror dwellers study",
+      "kind": "academic-study",
+      "url": "https://dl.digra.org/index.php/dl/article/view/1419",
+      "supports": "分析 Reddit 中关于镜子、虚拟身体与社交的分歧；不支持确定镜子文化的首发日",
+      "checked_on": "2026-10-15",
+      "published_year": "2022"
+    },
+    "emm-closure2022": {
+      "title": "emmVRC and emmCVR: Closure",
+      "kind": "project-author-statement",
+      "url": "https://thetrueyoshifan.com/2022/10/17/emmvrc-and-emmcvr-closure/index.html",
+      "supports": "作者宣布项目收尾并解释功能取舍与开发疲惫；服务器只读是当时计划，不是已执行事实，不能简化为 EAC 单一原因",
+      "checked_on": "2026-10-15",
+      "published": "2022-10-17"
+    },
+    "vrcmg-retirement": {
+      "title": "VRChat Modding Group retirement notice",
+      "kind": "community-organization-statement",
+      "url": "https://vrcmg.com/",
+      "supports": "页面自述退役并关联 EAC，但写生效日 2022-07-09、早于 7/25 官方公告，且无独立发表时间戳；日期与因果待核",
+      "checked_on": "2026-10-15",
+      "date_issue": "self-stated-effective-date-precedes-eac-announcement"
+    },
+    "tieba-avatar-help2024": {
+      "title": "头像表情问题求助与答疑（匿名摘要）",
+      "kind": "original-community-thread",
+      "url": "https://tieba.baidu.com/p/9224245026",
+      "supports": "2024-10-17 发起的 MMD 表情求助，存在 2025-07-15 后续答复；只确认讨论存在，不证明建议有效，不转录账号和属地",
+      "checked_on": "2026-10-15",
+      "published": "2024-10-17"
+    },
+    "vedal-photo2025": {
+      "title": "Vedal 公开分享的 VRChat 虚拟合照",
+      "kind": "creator-public-post",
+      "url": "https://twitter.com/Vedal987/status/2002776099886178573",
+      "supports": "作者分享虚拟拍立得的原帖线索，报道有嵌入；对应完整 Twitch VOD 和精确镜头仍待确认",
+      "checked_on": "2026-10-15",
+      "published": "2025-12-21",
+      "access_scope": "original-post-located-and-embedded-in-media-report"
+    },
+    "ai-gazebo-world": {
+      "title": "Autogenerated Gazebo 公开世界记录",
+      "kind": "platform-metadata-and-author-description",
+      "url": "https://api.vrchat.cloud/api/1/worlds/wrld_eca94bff-2cc0-433e-87b8-82606db020db",
+      "supports": "世界元数据与作者自述：测试凉亭由 Stable Diffusion + DreamFusion 生成；未审计工程和工作流程",
+      "checked_on": "2026-10-15",
+      "record_created_at": "2022-10-09T11:48:30.818Z",
+      "landing_url": "https://vrchat.com/home/launch?worldId=wrld_eca94bff-2cc0-433e-87b8-82606db020db"
+    },
+    "ai-target-sprint-world": {
+      "title": "Target Sprint 公开世界记录",
+      "kind": "platform-metadata-and-author-description",
+      "url": "https://api.vrchat.cloud/api/1/worlds/wrld_0ac59af6-d710-4a97-bb29-71f9a7739753",
+      "supports": "作者称将项目交给 Codex 制作，同时说明自己调整文字、反馈 bug；生成比例、代码质量和跨平台兼容未独立核实",
+      "checked_on": "2026-10-15",
+      "record_created_at": "2026-04-10T22:43:49.827Z",
+      "landing_url": "https://vrchat.com/home/launch?worldId=wrld_0ac59af6-d710-4a97-bb29-71f9a7739753"
+    },
+    "vket1-video2018": {
+      "title": "首届 Virtual Market 创始人实况",
+      "kind": "organizer-contemporaneous-video",
+      "url": "https://www.youtube.com/watch?v=ZKVt0BHzFkQ",
+      "supports": "2018-08-26 首届展会的创始人原始视频，约 2:11；具体取帧时间码尚未选定",
+      "checked_on": "2026-10-15",
+      "published": "2018-08-26",
+      "frame_review_status": "original-upload-located-cut-points-not-selected"
+    },
+    "vket-history2024": {
+      "title": "Vket 主办方历届回顾",
+      "kind": "organizer-retrospective",
+      "url": "https://magazine.vket.com/n/n3e34e14b7e48",
+      "supports": "首届 2018-08-26 日期、展示销售形式及历史会场图；人数与社团数是主办方自述，不作独立统计",
+      "checked_on": "2026-10-15",
+      "published": "2024-04-11"
+    },
+    "helping-hands-video2019": {
+      "title": "Syrmor 对聋人社群的公开访谈与参观",
+      "kind": "first-person-interview-video",
+      "url": "https://www.youtube.com/watch?v=jk8qz889Mok",
+      "supports": "2019 公开访谈提供社区成员自述和教学空间线索；不把个人经历概括为全体社区，具体取帧待选",
+      "checked_on": "2026-10-15",
+      "published": "2019-11-17",
+      "frame_review_status": "original-upload-located-cut-points-not-selected"
+    },
+    "helping-hands-world": {
+      "title": "Helping Hands Headquarters 世界记录",
+      "kind": "platform-metadata-and-author-description",
+      "url": "https://api.vrchat.cloud/api/1/worlds/wrld_2ee6d793-61fe-433f-b0f6-ffe3d88986b5",
+      "supports": "作者描述 ASL/KSL/BSL/LSF 教学用途，当前 releaseStatus=private；记录创建日不等于社群或教学活动起始日",
+      "checked_on": "2026-10-15",
+      "record_created_at": "2019-11-29T19:55:22.705Z",
+      "release_status_checked": "private"
+    },
+    "helping-hands-resource": {
+      "title": "Devon 的 VRChat ASL 学习辅助",
+      "kind": "community-educational-resource",
+      "url": "https://vrsl.withdevon.xyz/",
+      "supports": "资源包含社群教学视频和控制器手势说明；作者声明不是手语权威，VR 特定手势不直接等于现实 ASL",
+      "checked_on": "2026-10-15"
+    },
+    "udon-release2020": {
+      "title": "Introducing VRChat Udon: Unlocking Coding for Creators",
+      "kind": "official-contemporaneous-article",
+      "url": "https://medium.com/vrchat/introducing-vrchat-udon-unlocking-coding-for-creators-ce411a6390d1",
+      "supports": "2020-04-01 Udon Live Alpha/SDK3 发布说明和节点图，社区共同测试；文章中未来功能不作当天已上线",
+      "checked_on": "2026-10-15",
+      "published": "2020-04-01"
+    },
+    "vrcfacetracking-project": {
+      "title": "VRCFaceTracking",
+      "kind": "community-open-source-project",
+      "url": "https://github.com/benaclejames/VRCFaceTracking",
+      "supports": "社区项目将眼部/面部硬件接入 VRChat OSC；仓库创建早于 OSC 上线，不证明 2020 年已有当前能力",
+      "checked_on": "2026-10-15",
+      "repository_created_utc_date": "2020-10-12"
+    },
+    "personal-museum-world": {
+      "title": "Monfire’s Museum 公开世界记录",
+      "kind": "platform-metadata-and-author-description",
+      "url": "https://api.vrchat.cloud/api/1/worlds/wrld_e5560efa-93a1-4f5b-91dd-76496138a7ce",
+      "supports": "作者自述展示旧照片、旧资产和 2019—2024 年回忆；未进入核实布局、展品和使用方式，不代表完整社区档案",
+      "checked_on": "2026-10-15",
+      "record_created_at": "2024-12-30T01:33:29.611Z",
+      "landing_url": "https://vrchat.com/home/launch?worldId=wrld_e5560efa-93a1-4f5b-91dd-76496138a7ce"
+    }
+  },
+  "items": [
+    {
+      "id": "vrc-2017-hub",
+      "category": "early-spaces",
+      "title": "2017 New Hub 官方公告与原始图像",
+      "kind": "history",
+      "period_hint": "2017-11-18 UTC 官方公告；同期玩家导览早于公告",
+      "theme_connection": "初次进入共同世界的记忆",
+      "visual_candidate": "从旧世界缩略图走进真实三维 Hub，人物经过入口与聚集区",
+      "sources": [
+        "newhub2017",
+        "hubtour2017",
+        "history2017",
+        "world-list"
+      ],
+      "status": "verified-official-statement",
+      "visual_sources_status": "official-announcement-images-located-and-viewed",
+      "verified_summary": "原公告和入口、地图、Avatar Hall/镜子、活动厅、世界入口等原图已定位并查看；2017 公告配图不等于独立确认拍摄日。",
+      "visual_references": [
+        {
+          "caption": "Hub Entrance",
+          "url": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/27574735/c0850bd18fa9bd43a9d15e2fa197267814e24df5.png",
+          "date_basis": "2017-11-18 announcement illustration",
+          "use_status": "research-reference"
+        },
+        {
+          "caption": "Travel Map",
+          "url": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/27574735/2e05b72659e99bf309d13dc2829f30420b12d376.png",
+          "date_basis": "2017-11-18 announcement illustration",
+          "use_status": "research-reference"
+        },
+        {
+          "caption": "Avatar Hall",
+          "url": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/27574735/127fc01f2d79a1981fc9efdc34da1ba7b89e82e1.png",
+          "date_basis": "2017-11-18 announcement illustration",
+          "use_status": "research-reference"
+        },
+        {
+          "caption": "Avatar Hall mirror",
+          "url": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/27574735/750f20af856e18efb0898bf38d06e543e82e055a.png",
+          "date_basis": "2017-11-18 announcement illustration",
+          "use_status": "research-reference"
+        },
+        {
+          "caption": "Event Hall",
+          "url": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/27574735/c814a016039610921e2be6ee6a75a6e0924b238f.png",
+          "date_basis": "2017-11-18 announcement illustration",
+          "use_status": "research-reference"
+        },
+        {
+          "caption": "New Worlds",
+          "url": "https://cdn.akamai.steamstatic.com/steamcommunity/public/images/clans/27574735/0ca02f4feebd51ea4939f8660faccb3feadb2d95.png",
+          "date_basis": "2017-11-18 announcement illustration",
+          "use_status": "research-reference"
+        }
+      ]
+    },
+    {
+      "id": "vrc-2018-home",
+      "category": "early-spaces",
+      "title": "2018 Home、Go Home 与自定义入口",
+      "kind": "history",
+      "period_hint": "2018-04-24 功能更新；具体世界资产 Created 日期另记",
+      "theme_connection": "家的位置、公共入口与默认空间的变化",
+      "visual_candidate": "同一观演位置的周围环境按年代换层",
+      "sources": [
+        "home-release2018",
+        "history2018",
+        "world-list"
+      ],
+      "status": "verified-official-statement",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared",
+      "verified_summary": "已核对功能发布说明；不将 2019 新版配图当 2018 截图。"
+    },
+    {
+      "id": "vrc-legacy-ui",
+      "category": "early-spaces",
+      "title": "早期菜单、世界列表、好友与头像选择界面",
+      "kind": "ui",
+      "period_hint": "版本、截图与布局待核",
+      "theme_connection": "网页式列表逐渐成为可进入的空间",
+      "visual_candidate": "菜单图块从平面向四周展开，旧版与新版分层出现",
+      "sources": [
+        "retrospective2019",
+        "features2017"
+      ],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared",
+      "verified_scope": "旧登录菜单有官方回顾图；2017 Avatar 菜单只有功能文字，世界/好友菜单实图仍需逐项补。"
+    },
+    {
+      "id": "vrc-avatar-pedestals",
+      "category": "early-spaces",
+      "title": "早期 Hub 镜子、2017 Avatar Hall 展示区与入口",
+      "kind": "culture",
+      "period_hint": "具体旧世界与布局待核",
+      "theme_connection": "身体像网页素材一样被选择、分享",
+      "visual_candidate": "人物依次经过不同台座，变换外观后走出传送门",
+      "sources": [
+        "early-access2016",
+        "newhub2017"
+      ],
+      "status": "verified-official-statement",
+      "visual_sources_status": "official-announcement-images-located-and-viewed",
+      "verified_summary": "官方同期文字及 2017 原图支持 Hub 的换模/展示与聚集功能；不据此确定所有换模房样式或起源。"
+    },
+    {
+      "id": "vrc-classic-social-worlds",
+      "category": "early-spaces",
+      "title": "The Great Pug、The Black Cat 等社交地点",
+      "kind": "culture",
+      "period_hint": "各世界创建、开放与变更日期待核",
+      "theme_connection": "共同地点与来过这里的人",
+      "visual_candidate": "同一张桌旁出现不同年代的人，再留下空位",
+      "sources": [],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-menu-upgrades",
+      "category": "early-spaces",
+      "title": "Quick Menu、Main Menu 与镜子功能的变化",
+      "kind": "ui",
+      "period_hint": "2021/2022 等具体版本待核",
+      "theme_connection": "熟悉界面变成新习惯",
+      "visual_candidate": "手边菜单换页，旧功能的轮廓留在一旁",
+      "sources": [
+        "feedback2022"
+      ],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-avatar-styles",
+      "category": "avatar-bodies",
+      "title": "通用人形、MMD、梗模、兽人、原创素体等并行谱系",
+      "kind": "culture",
+      "period_hint": "各谱系与具体模型分别定年",
+      "theme_connection": "身份表达与社群之间的差异",
+      "visual_candidate": "同一姿态由不同外观接续，多个谱系同时在场",
+      "sources": [
+        "medium-avatar2017",
+        "bear-visit2017",
+        "avatar-directory2018"
+      ],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared",
+      "verified_scope": "已有并行风格和制作路径的同期例子；BOOTH、各具体模型和兽人社群年代仍需分别核对。"
+    },
+    {
+      "id": "vrc-booth-customization",
+      "category": "avatar-bodies",
+      "title": "BOOTH 原创素体、服装、改模与自定义文化",
+      "kind": "culture",
+      "period_hint": "具体作者、型号、版本与许可待核",
+      "theme_connection": "从取得外观到制作自己的身份",
+      "visual_candidate": "换装与制作步骤环绕人物展开，保留作者署名",
+      "sources": [],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-avatar-systems",
+      "category": "avatar-bodies",
+      "title": "SDK2、Avatars 3.0 与表达菜单沿革",
+      "kind": "history",
+      "period_hint": "2020 等功能发布日期另核；Hub 创建时间不能替代",
+      "theme_connection": "身体获得更多表达能力",
+      "visual_candidate": "原本简单的动作逐渐出现手势、表情与道具",
+      "sources": [
+        "world-list"
+      ],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-fbt-2017",
+      "category": "avatar-bodies",
+      "title": "2017 年全身追踪更新线索",
+      "kind": "history",
+      "period_hint": "2017-08-30 官方 0.12 更新",
+      "theme_connection": "从悬浮头手到更完整的身体",
+      "visual_candidate": "同一人物由头手动作展开为全身姿态",
+      "sources": [
+        "features2017",
+        "history2017"
+      ],
+      "status": "verified-official-statement",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared",
+      "verified_summary": "公告支持 Vive Tracker 腰部或腰+双脚配置，注明仍在开发；不代表已普及，也未取得该版校准过程实拍。"
+    },
+    {
+      "id": "vrc-osc-2022",
+      "category": "avatar-bodies",
+      "title": "OSC Avatar 接口",
+      "kind": "event",
+      "period_hint": "2022-02 初始公告/测试；02-24 正式上线说明",
+      "theme_connection": "开放接口与社区工具继续生长",
+      "visual_candidate": "外部设备、声音和表情通过细线连接到角色",
+      "sources": [
+        "osc2022"
+      ],
+      "status": "verified-official-statement",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-dynamics-2022",
+      "category": "avatar-bodies",
+      "title": "Avatar Dynamics、PhysBones 与 Contacts",
+      "kind": "event",
+      "period_hint": "2022-04-21 公告",
+      "theme_connection": "触碰与互动让虚拟身体更有存在感",
+      "visual_candidate": "发梢、尾巴与击掌响应进入人物表演",
+      "sources": [
+        "dynamics2022"
+      ],
+      "status": "verified-official-statement",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-face-eye-diy",
+      "category": "avatar-bodies",
+      "title": "眼追、面捕、手指追踪与社区自制设备",
+      "kind": "culture",
+      "period_hint": "各硬件与项目分别定年",
+      "theme_connection": "普通人扩展自己能够表达的东西",
+      "visual_candidate": "传感器和制作笔记落到人物细微表情上",
+      "sources": [
+        "vrcfacetracking-project",
+        "osc2022"
+      ],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared",
+      "verified_scope": "已核对面部/眼部硬件到 OSC 的社区桥接项目；具体 DIY 硬件、手指追踪设备和普及年代仍候选。"
+    },
+    {
+      "id": "vrc-platform-visibility",
+      "category": "avatar-bodies",
+      "title": "PC/Quest 差异、Fallback 与别人看到的你",
+      "kind": "culture",
+      "period_hint": "具体机制与上线版本待核",
+      "theme_connection": "同一个人可能呈现不同的外观",
+      "visual_candidate": "两个窗口显示同一人物的不同呈现，最后重新建立辨认",
+      "sources": [],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-knuckles-wave",
+      "category": "memes-life",
+      "title": "Ugandan Knuckles 的传播与 2018 人群变化",
+      "kind": "meme",
+      "period_hint": "2017 模型/视频；2018 初传播",
+      "theme_connection": "梗、涌入的人群与骚扰边界",
+      "visual_candidate": "小体型人物突然大量出现，公共空间的使用方式变化",
+      "sources": [
+        "knuckles-history",
+        "knuckles-author2017",
+        "knuckles-video2018"
+      ],
+      "status": "verified-history-summary",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared",
+      "verified_summary": "模型作者 2017-09-16 上传与 2018-01-03 传播视频分开记录；保留传播现象与骚扰/刻板印象争议，不复用模型。"
+    },
+    {
+      "id": "vrc-other-avatar-memes",
+      "category": "memes-life",
+      "title": "Brush 等梗模、巨大/微小外观与反差表演",
+      "kind": "meme",
+      "period_hint": "每个梗分别定年与核对来源",
+      "theme_connection": "身体尺度和自发模仿的乐趣",
+      "visual_candidate": "同一动作在大小不同的角色间接力",
+      "sources": [],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-mirror-culture",
+      "category": "memes-life",
+      "title": "镜子作为身体展示与社交家具",
+      "kind": "culture",
+      "period_hint": "场景和说法来源待核",
+      "theme_connection": "通过自己的虚拟身体与别人共处",
+      "visual_candidate": "镜前的人越来越多，最后镜中只剩一个人",
+      "sources": [
+        "early-access2016",
+        "newhub2017",
+        "mirror-study2022"
+      ],
+      "status": "verified-history-summary",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared",
+      "verified_summary": "2016—2017 官方说明证明镜子是 Hub 常驻空间元素；2022 研究记录对镜子社交的分歧，不据此编造文化起始日。"
+    },
+    {
+      "id": "vrc-tpose-calibration",
+      "category": "memes-life",
+      "title": "T-pose 校准与追踪失灵的共同经历",
+      "kind": "meme",
+      "period_hint": "设备与校准方式逐项核对",
+      "theme_connection": "学会使用虚拟身体的笨拙与互助",
+      "visual_candidate": "人物轮流摆校准姿势，有人上前帮助调整",
+      "sources": [],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-desktop-vr",
+      "category": "memes-life",
+      "title": "桌面玩家、开麦与头手运动差异",
+      "kind": "culture",
+      "period_hint": "按年代与设备核对",
+      "theme_connection": "不同进入方式的人仍然相遇",
+      "visual_candidate": "同一排人呈现不同追踪程度和交流方式",
+      "sources": [],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-dance-mmd",
+      "category": "memes-life",
+      "title": "舞蹈、MMD 房与动作接力",
+      "kind": "culture",
+      "period_hint": "具体世界和动作来源待核",
+      "theme_connection": "共享动作、练习与共同节奏",
+      "visual_candidate": "不同外观接同一个动作，与本片音乐联动",
+      "sources": [],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-headpat-interactions",
+      "category": "memes-life",
+      "title": "击掌、摸头与轻量互动",
+      "kind": "culture",
+      "period_hint": "Avatar Dynamics 功能已核，文化起点另核",
+      "theme_connection": "简单动作建立的亲近感",
+      "visual_candidate": "一次成功的互动成为前后段落的记忆点",
+      "sources": [
+        "dynamics2022"
+      ],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-trust-ranks",
+      "category": "memes-life",
+      "title": "Trust Rank、名牌颜色与信任的界面表达",
+      "kind": "history",
+      "period_hint": "2018 年更新索引有 Trust and Safety 沿革",
+      "theme_connection": "系统标记与实际人际关系的差别",
+      "visual_candidate": "名牌和盾牌图形在人物附近逐渐增多",
+      "sources": [
+        "history2018"
+      ],
+      "status": "verified-history-summary",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-events-community",
+      "category": "creation-economy",
+      "title": "Vket、Spookality、跨年与社区活动",
+      "kind": "culture",
+      "period_hint": "各活动分别定年，世界索引提供线索",
+      "theme_connection": "用户共同搭建的节日与公共生活",
+      "visual_candidate": "不同房间连成展会或跨年人群",
+      "sources": [
+        "vket1-video2018",
+        "vket-history2024",
+        "world-list",
+        "history2017",
+        "history2018"
+      ],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared",
+      "verified_scope": "首届 Vket 已有单独记录；Spookality、跨年及其他活动分别待核。"
+    },
+    {
+      "id": "vrc-world-authoring",
+      "category": "creation-economy",
+      "title": "Unity、SDK、Udon、世界作者与教程",
+      "kind": "culture",
+      "period_hint": "具体工具和版本待核",
+      "theme_connection": "普通人从访客变为建设者",
+      "visual_candidate": "世界背面是编辑器、施工中的物件与作者工作桌",
+      "sources": [
+        "udon-release2020"
+      ],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared",
+      "verified_scope": "Udon Live Alpha 有 2020-04-01 原始发布说明，其他工具/作者/教程仍逐项核对。"
+    },
+    {
+      "id": "vrc-creator-economy",
+      "category": "creation-economy",
+      "title": "原创作品、付费素材、改模委托与创作者生计",
+      "kind": "culture",
+      "period_hint": "具体平台和个案待核",
+      "theme_connection": "分享、交易与作者劳动可以并存",
+      "visual_candidate": "作品背后展开制作时间和贡献者，而非只显示价格",
+      "sources": [],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-public-private-groups",
+      "category": "creation-economy",
+      "title": "公共房、好友房、Invite Only 与 Groups",
+      "kind": "culture",
+      "period_hint": "各功能和社群变化待核",
+      "theme_connection": "找到同伴、建立边界与公共空间的变化",
+      "visual_candidate": "入口分叉为不同社群；隐私边界与孤立感分别表达",
+      "sources": [],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-accessibility-communities",
+      "category": "creation-economy",
+      "title": "无障碍、手语、表演与互助社区",
+      "kind": "culture",
+      "period_hint": "具体社群与史料待核",
+      "theme_connection": "工具使更多人能够在场",
+      "visual_candidate": "交流方式不同的人共处，工具改变后动作受到影响",
+      "sources": [
+        "helping-hands-video2019",
+        "helping-hands-resource",
+        "feedback2022"
+      ],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared",
+      "verified_scope": "已补手语教学实例和官方 QoL 回应；其他表演/互助群体不能由此一概证实。"
+    },
+    {
+      "id": "vrc-client-policy-before-eac",
+      "category": "mods-security",
+      "title": "客户端修改限制早于 EAC",
+      "kind": "history",
+      "period_hint": "2018 年索引已有相关警告",
+      "theme_connection": "分清长期政策与新的执行手段",
+      "visual_candidate": "旧规则与后来出现的启动器并置",
+      "sources": [
+        "history2018"
+      ],
+      "status": "verified-history-summary",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-eac-2022",
+      "category": "mods-security",
+      "title": "2022 年 EAC 安全更新与小蓝熊",
+      "kind": "event",
+      "period_hint": "2022-07-25 公告；07-26 追加回应",
+      "theme_connection": "反恶意客户端、支持成本与辅助功能损失的冲突",
+      "visual_candidate": "小蓝熊启动界面出现，部分社区工具停止响应",
+      "sources": [
+        "eac2022"
+      ],
+      "status": "verified-official-statement",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-eac-accessibility-response",
+      "category": "mods-security",
+      "title": "EAC 后无障碍与 QoL 需求的官方回应",
+      "kind": "event",
+      "period_hint": "官网显示 2022-07-27，索引 UTC 日期为 07-28",
+      "theme_connection": "社区反馈与原生功能的迭代",
+      "visual_candidate": "失去的工具旁出现改进路线图，随后保留功能演化的空间",
+      "sources": [
+        "eac2022",
+        "feedback2022"
+      ],
+      "status": "verified-official-statement",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-mod-community-changes",
+      "category": "mods-security",
+      "title": "emmVRC/emmCVR 作者公开项目收尾说明",
+      "kind": "event",
+      "period_hint": "2022-10-17 作者发文",
+      "theme_connection": "创作者与使用者在规则变化中的选择",
+      "visual_candidate": "工具列表变灰，教程与作者留言留在桌上",
+      "sources": [
+        "emm-closure2022"
+      ],
+      "status": "verified-author-statement",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared",
+      "verified_summary": "作者宣布收尾，说明功能取舍、其他开发者接续与长期疲惫；EAC 是背景之一，不能视为唯一原因；只读服务器是当时计划。"
+    },
+    {
+      "id": "vrc-open-tools-vs-mods",
+      "category": "mods-security",
+      "title": "OSC/Udon/外部工具与修改客户端的区别",
+      "kind": "editorial-topic",
+      "period_hint": "并置 2022 年开放功能与 EAC",
+      "theme_connection": "开放能力与平台边界同时变化",
+      "visual_candidate": "两条工具路径并置显示，避免把全部社区工具画成违规修改",
+      "sources": [
+        "osc2022",
+        "dynamics2022",
+        "eac2022"
+      ],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-ripping-official-2024",
+      "category": "asset-rights",
+      "title": "官方披露反盗模下载校验与逾 1,900 名使用者封禁",
+      "kind": "event",
+      "period_hint": "2024-07-25 公告",
+      "theme_connection": "创作者资产与平台保护的持续投入",
+      "visual_candidate": "作品框选复制、署名脱落与保护公告并置",
+      "sources": [
+        "ripping2024"
+      ],
+      "status": "verified-official-statement",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-ripping-feedback-2026-03",
+      "category": "asset-rights",
+      "title": "2026 年 3 月私模被盗用户反馈",
+      "kind": "community-claim",
+      "period_hint": "2026-03-16 发帖日期",
+      "theme_connection": "创作者持续表达的不安",
+      "visual_candidate": "匿名化的投诉摘要和被移走署名的作品轮廓",
+      "sources": [
+        "ripping-feedback-march"
+      ],
+      "status": "community-report-not-independently-verified",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-ripping-feedback-2026-06",
+      "category": "asset-rights",
+      "title": "2026 年 6 月私模被盗用户反馈",
+      "kind": "community-claim",
+      "period_hint": "2026-06-24 发帖日期",
+      "theme_connection": "传播、交易与作者信任",
+      "visual_candidate": "匿名化的投诉摘要；不把发帖标题中的数量当统计",
+      "sources": [
+        "ripping-feedback-june"
+      ],
+      "status": "community-report-not-independently-verified",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-asset-permissions",
+      "category": "asset-rights",
+      "title": "公开换用、克隆许可、改模与再分发边界",
+      "kind": "editorial-topic",
+      "period_hint": "具体许可与平台功能分别核对",
+      "theme_connection": "愿意分享与作者保留的选择",
+      "visual_candidate": "同一复制动作中，署名、许可与人的回应呈现不同结果",
+      "sources": [],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-minor-circle-lead",
+      "category": "community-harm",
+      "title": "用户提及的小圈子教唆未成年人事件方向",
+      "kind": "user-provided-topic",
+      "period_hint": "时间、行为类别与原帖均未定位",
+      "theme_connection": "社群权力、信任被滥用与求助",
+      "visual_candidate": "只预留匿名化关系与讨论位置；未选择具体个案或人物",
+      "sources": [],
+      "status": "user-provided-lead-unresolved",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-age-verification-2025",
+      "category": "community-harm",
+      "title": "面向 VRC+ 订阅者开放年龄验证的公告",
+      "kind": "event",
+      "period_hint": "官网显示 2025-01-28，UTC 索引为 01-29",
+      "theme_connection": "不同年龄的共同空间与访问边界",
+      "visual_candidate": "原有房间出现年龄标记和新的入口规则",
+      "sources": [
+        "age2025"
+      ],
+      "status": "verified-official-statement",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-age-assurance-2026",
+      "category": "community-harm",
+      "title": "年龄保证、内容分级与行为治理的后续方向",
+      "kind": "event",
+      "period_hint": "2026-06-24 公告",
+      "theme_connection": "保护、隐私、自由与治理成本",
+      "visual_candidate": "分级占位框和举报入口与真实社交行为并置",
+      "sources": [
+        "safety2026"
+      ],
+      "status": "verified-official-statement",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-harm-help-moderation",
+      "category": "community-harm",
+      "title": "社群施压、退出、求助与举报的体验",
+      "kind": "editorial-topic",
+      "period_hint": "具体事件待定位",
+      "theme_connection": "建立关系同时需要照顾彼此的边界",
+      "visual_candidate": "用匿名界面、距离和声音表现关系压力，避免重演伤害过程",
+      "sources": [],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-neuro-2025",
+      "category": "ai-vrchat",
+      "title": "Neuro-sama 与 Vedal 在 VRChat 的公开互动",
+      "kind": "reported-event",
+      "period_hint": "2025-12 直播，2025-12-22 报道",
+      "theme_connection": "AI 角色进入人的共同空间与陪伴体验",
+      "visual_candidate": "从屏幕中的角色到具有三维位置的同行者",
+      "sources": [
+        "neuro2025",
+        "vedal-photo2025"
+      ],
+      "status": "reported-public-event",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared",
+      "verified_summary": "公开互动有报道和作者合照线索；完整 Twitch VOD 和精确时间码尚未确认，不以候选录像 ID 当作已核实场次。"
+    },
+    {
+      "id": "vrc-ai-thumbnail-2026",
+      "category": "ai-vrchat",
+      "title": "AI 与非 AI 的误导性缩略图规则",
+      "kind": "event",
+      "period_hint": "2026-10-06 22:21 UTC；北京时间 10-07",
+      "theme_connection": "宣传图像与真正进入的世界不一致",
+      "visual_candidate": "漂亮缩略图不断扩大，进入后却是内容不符的空间",
+      "sources": [
+        "ai2026"
+      ],
+      "status": "verified-official-statement",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-ai-discoverability-2026",
+      "category": "ai-vrchat",
+      "title": "AI 低投入内容与优质作品可发现性讨论",
+      "kind": "event",
+      "period_hint": "2026-10-06 官方立场",
+      "theme_connection": "内容更多与作者更难被找到并存",
+      "visual_candidate": "推荐墙快速增殖，长时间制作的作品被挤到远处",
+      "sources": [
+        "ai2026"
+      ],
+      "status": "verified-official-statement",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-ai-labels-2026",
+      "category": "ai-vrchat",
+      "title": "AI 标签、过滤与使用界限尚在讨论",
+      "kind": "event",
+      "period_hint": "2026-10-06 官方立场",
+      "theme_connection": "工具使用、透明度与社区意见",
+      "visual_candidate": "标签草案与不同创作步骤并列，保留未定状态",
+      "sources": [
+        "ai2026"
+      ],
+      "status": "verified-official-statement",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-ai-creator-tools",
+      "category": "ai-vrchat",
+      "title": "AI 辅助代码、制作、学习与修复",
+      "kind": "editorial-topic",
+      "period_hint": "官方承认多种使用与争议；具体案例再选",
+      "theme_connection": "降低创作门槛，同时由人承担作品质量",
+      "visual_candidate": "旧文档、补丁与测试让一个房间真正工作",
+      "sources": [
+        "ai2026",
+        "ai-target-sprint-world"
+      ],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared",
+      "verified_scope": "官方承认辅助用途，另有作者自述 AI 世界制作记录；具体旧项目修复案例尚未核实。"
+    },
+    {
+      "id": "vrc-ai-avatar-agents",
+      "category": "ai-vrchat",
+      "title": "AI Avatar、语音和外部控制接口的创作实践",
+      "kind": "culture",
+      "period_hint": "具体系统、作者与许可待核",
+      "theme_connection": "谁在回应、如何建立关系",
+      "visual_candidate": "真人与自动角色在同一空间并置，保留各自来源",
+      "sources": [],
+      "status": "candidate-needs-recheck",
+      "visual_sources_status": "screenshots-layout-or-clip-not-yet-cleared"
+    },
+    {
+      "id": "vrc-early-karl-history",
+      "category": "early-spaces",
+      "title": "Karl、旧登录菜单与早期聚会的官方回顾",
+      "kind": "history",
+      "period_hint": "2019-01-15 回顾早期阶段；图片拍摄日未标",
+      "theme_connection": "从稀疏房间和笨拙身体到共同空间",
+      "visual_candidate": "早期资料图中的单房间、T-pose 和旧登录界面逐层展开",
+      "sources": [
+        "retrospective2019"
+      ],
+      "status": "verified-official-retrospective",
+      "verified_summary": "只确认官方回顾选择和叙述，不把每张图直接标为 2014 年拍摄。",
+      "visual_sources_status": "official-retrospective-images-located-exact-shot-dates-unresolved"
+    },
+    {
+      "id": "vrc-hub-2016",
+      "category": "early-spaces",
+      "title": "2016 Early Access Hub 的镜子、道具和传送门",
+      "kind": "history",
+      "period_hint": "2016-12-08 文章",
+      "theme_connection": "一起找下一个去处",
+      "visual_candidate": "围绕镜子、可玩道具和入口聚集",
+      "sources": [
+        "early-access2016"
+      ],
+      "status": "verified-official-statement",
+      "verified_summary": "同期官方文字已核；不是 Steam 上架日，也没有足以复原具体几何的全景图。",
+      "visual_sources_status": "source-located-scene-or-frames-not-yet-reviewed"
+    },
+    {
+      "id": "vrc-home-hub-2019",
+      "category": "early-spaces",
+      "title": "2019 新 Home 与 Hub 的会客布局",
+      "kind": "history",
+      "period_hint": "2019-05-13 文章与配图",
+      "theme_connection": "个人入口和分组共同生活",
+      "visual_candidate": "从 2017 广场切入 2019 小型分组会客点、营火与入口",
+      "sources": [
+        "home-hub2019"
+      ],
+      "status": "verified-official-statement",
+      "verified_summary": "官方图文已定位；2019 图像不能用于冒充 2018 旧 Home。",
+      "visual_sources_status": "official-article-images-located"
+    },
+    {
+      "id": "vrc-medium-sculpture-avatar",
+      "category": "avatar-bodies",
+      "title": "玩家将 VR 雕塑变成可使用的 Avatar",
+      "kind": "history",
+      "period_hint": "2017-01-06 官方署名文章",
+      "theme_connection": "用户不只选身体，也自己制作身体",
+      "visual_candidate": "雕塑、处理后的形体与公共空间里的同一身体衔接",
+      "sources": [
+        "medium-avatar2017"
+      ],
+      "status": "verified-official-statement",
+      "verified_summary": "有作者图注和链路说明，是并行创作路径的具体例子，不代表当时全部模型。",
+      "visual_sources_status": "official-article-images-located"
+    },
+    {
+      "id": "vrc-avatar-world-directory-2018",
+      "category": "avatar-bodies",
+      "title": "2018 玩家 Avatar World 推荐目录",
+      "kind": "community-record",
+      "period_hint": "2018-05-19 写作基准；有后续更新链接",
+      "theme_connection": "寻找身体也是寻找社区和玩法",
+      "visual_candidate": "密集搜索列表与多风格世界入口同屏存在",
+      "sources": [
+        "avatar-directory2018"
+      ],
+      "status": "verified-community-document",
+      "verified_summary": "确认个人清单的存在与基准日，不证明各世界持续可用，不复用清单中的第三方模型。",
+      "visual_sources_status": "source-located-scene-or-frames-not-yet-reviewed"
+    },
+    {
+      "id": "vrc-mod-group-retirement",
+      "category": "mods-security",
+      "title": "Modding Group 退役告示：自述日期待核",
+      "kind": "community-statement",
+      "period_hint": "页面写 2022-07-09，无发表时间戳",
+      "theme_connection": "一份社群索引停止更新",
+      "visual_candidate": "保留告示作为待核参考，不放入确定日期的主时间轴",
+      "sources": [
+        "vrcmg-retirement"
+      ],
+      "status": "community-statement-date-unresolved",
+      "verified_summary": "告示关联 EAC，但所写日期早于 7/25 官方公告；不能自行修正或据此推导因果。",
+      "visual_sources_status": "source-located-scene-or-frames-not-yet-reviewed"
+    },
+    {
+      "id": "vrc-chinese-avatar-help-thread",
+      "category": "creation-economy",
+      "title": "中文社群的头像表情求助与后续答疑",
+      "kind": "community-discussion",
+      "period_hint": "2024-10-17 原帖；2025-07-15 有答复",
+      "theme_connection": "普通用户之间具体的技术互助",
+      "visual_candidate": "匿名化问题与答复气泡，保留等待与未验证状态",
+      "sources": [
+        "tieba-avatar-help2024"
+      ],
+      "status": "verified-community-discussion",
+      "verified_summary": "确认原始讨论存在，不确认回复建议解决问题；与未成年人线索无关。",
+      "visual_sources_status": "source-located-scene-or-frames-not-yet-reviewed"
+    },
+    {
+      "id": "vrc-ai-gazebo-2022",
+      "category": "ai-vrchat",
+      "title": "Autogenerated Gazebo：生成式资产测试世界",
+      "kind": "author-described-work",
+      "period_hint": "平台记录创建于 2022-10-09 UTC",
+      "theme_connection": "生成工具进入可共同到访的作品",
+      "visual_candidate": "凉亭与材质近景对照作者对测试用途的说明",
+      "sources": [
+        "ai-gazebo-world"
+      ],
+      "status": "verified-author-statement",
+      "verified_summary": "日期来自平台记录，Stable Diffusion/DreamFusion 流程是作者自述；未审计工程或进入世界核对。",
+      "visual_sources_status": "source-located-scene-or-frames-not-yet-reviewed"
+    },
+    {
+      "id": "vrc-ai-target-sprint-2026",
+      "category": "ai-vrchat",
+      "title": "Target Sprint：作者自述由 Codex 辅助制作的世界",
+      "kind": "author-described-work",
+      "period_hint": "平台记录创建于 2026-04-10 UTC",
+      "theme_connection": "人试用、反馈并迭代工具生成的作品",
+      "visual_candidate": "从作者说明到目标练习实际响应，保留文字调整和 bug 反馈的人工环节",
+      "sources": [
+        "ai-target-sprint-world"
+      ],
+      "status": "verified-author-statement",
+      "verified_summary": "作者称高度 AI 生成，同时说明人工调整；未独立核实生成比例、代码质量或 Quest 兼容。",
+      "visual_sources_status": "source-located-scene-or-frames-not-yet-reviewed"
+    },
+    {
+      "id": "vrc-vket1-2018",
+      "category": "creation-economy",
+      "title": "2018 首届 Virtual Market",
+      "kind": "community-event",
+      "period_hint": "2018-08-26 举办；2024 主办方回顾",
+      "theme_connection": "创作者相遇、展示与销售的公共生活",
+      "visual_candidate": "展位之间行走、试穿、访客停留；不以当前 Vket 冒充首届",
+      "sources": [
+        "vket1-video2018",
+        "vket-history2024"
+      ],
+      "status": "documented-community-event",
+      "verified_summary": "日期和活动形式有主办方原始直播及回顾支持；人数是主办方自述，具体取帧待选。",
+      "visual_sources_status": "source-located-scene-or-frames-not-yet-reviewed"
+    },
+    {
+      "id": "vrc-helping-hands-2019",
+      "category": "creation-economy",
+      "title": "Helping Hands 手语教学空间与社群讲述",
+      "kind": "community-activity",
+      "period_hint": "2019-11-17 公开影片；现存世界记录创建于 11-29",
+      "theme_connection": "工具使更多人能够交流和在场",
+      "visual_candidate": "学习墙、图示与手语交谈；以实际教学来源核对动作",
+      "sources": [
+        "helping-hands-video2019",
+        "helping-hands-world",
+        "helping-hands-resource"
+      ],
+      "status": "documented-community-activity",
+      "verified_summary": "影片、资源和元数据支持教学活动存在；当前该世界记录为 private，Created 不等于社区起点，VR 手势不直接等于现实 ASL。",
+      "visual_sources_status": "source-located-scene-or-frames-not-yet-reviewed"
+    },
+    {
+      "id": "vrc-udon-live-alpha-2020",
+      "category": "creation-economy",
+      "title": "2020 Udon Live Alpha 与 SDK3",
+      "kind": "tool-release",
+      "period_hint": "2020-04-01 官方说明",
+      "theme_connection": "从访客到能改变空间的建设者",
+      "visual_candidate": "节点连接对应世界按钮与门的动作，再看到作者继续调试",
+      "sources": [
+        "udon-release2020"
+      ],
+      "status": "verified-official-statement",
+      "verified_summary": "官方当时推出可上传共享的 Live Alpha；文章中的后续功能计划不能视为全部已上线。",
+      "visual_sources_status": "official-tool-images-located"
+    },
+    {
+      "id": "vrc-personal-memory-museum",
+      "category": "creation-economy",
+      "title": "作者把旧照片与资产放进回忆博物馆",
+      "kind": "author-described-work",
+      "period_hint": "世界记录创建于 2024-12-30 UTC；描述回看 2019—2024",
+      "theme_connection": "人自己保存共同生活的痕迹",
+      "visual_candidate": "旧照片墙、资产说明与可进入的回忆空间",
+      "sources": [
+        "personal-museum-world"
+      ],
+      "status": "verified-author-statement",
+      "verified_summary": "目前核对元数据与作者描述，未进入实看；展品日期、作者、许可和布局分别待核，不代表完整社区档案。",
+      "visual_sources_status": "source-located-scene-or-frames-not-yet-reviewed"
+    }
+  ],
+  "unresolved_leads": [
+    {
+      "id": "vrc-minor-circle-lead",
+      "basis": "用户提供方向，并说明没有新闻报道，可查贴吧；不能预设具体行为类别或当事人。",
+      "status": "original-post-not-located",
+      "public_search_attempts": [
+        "site:tieba.baidu.com VRChat 教唆 未成年",
+        "site:tieba.baidu.com vrchat吧 诱导 自杀",
+        "site:tieba.baidu.com vrchat 未成年 小圈子 事件",
+        "\"VRChat\" \"教唆\" 贴吧",
+        "\"vrchat吧\" \"未成年\" 诱导"
+      ],
+      "result": "最初检索未匹配目标原帖，部分公开吧页面抓取失败；补查已能读取无关的正常求助主题，但仍未定位用户所指事件。不能将单页抓取失败写成贴吧整体无法访问，也不能据未找到推断事件不存在。",
+      "follow_up_search": {
+        "checked_on": "2026-10-15",
+        "scope": "补查 VRChat/vrchat吧/贴吧/未成年/原帖/事件/小圈子 组合与贴吧主题结果；另查中文盗模/私模/被盗作者自述。",
+        "result": "能读取其他贴吧日常求助原帖，目标事件仍未定位；无关转述、模型分享页和他平台案例未作为证据。"
+      }
+    }
+  ],
+  "editorial_notes": [
+    "官方公告证明平台当时的立场和披露，不自动证明所有事实争议已独立调查。",
+    "社区投诉与贴吧帖子按原始自述、转述、指控和核实状态记录；没有新闻报道不妨碍作为社区材料收集。",
+    "不点名侵权受害者、未成年人或未证实的被指控个人，不收录私人联系方式。",
+    "未成年人议题分别核对诱导类别、时间、平台联系和证据，不用 Roblox 或通用网络案件代替 VRChat 个案。",
+    "当前头像谱系并行共存，不把一种模型替代另一种写成全社区唯一进化顺序。",
+    "更新公告日期、功能上线日期、世界 Created 元数据和截图拍摄日期分别记录。",
+    "EAC、OSC、Udon 和系统级覆盖工具不能笼统等同；2022 年不是平台第一次规定客户端修改限制。",
+    "AI 公告限制误导缩略图，并未全面禁止 AI；截至该公告，AI 标签尚未承诺实施，功能计划不当作已上线。",
+    "早期图像、布局、具体梗模与商业素材仍需逐项找到原始资料和明确使用方式。",
+    "作者/组织自述能确认其公开说法，不代表制作比例、工具效果、人数或所有社区经历已独立核实。",
+    "2022 Modding Group 告示自述日期存在时间顺序疑点，保留待核，不混入确定发布日的时间轴。",
+    "原始视频入口、可读转录、具体取帧已看和素材使用方式分别记录；定位到视频不等于已逐帧核对。"
+  ],
+  "research_methods": {
+    "checked_on": "2026-10-15",
+    "delegated_model": "gpt-6-luna",
+    "reasoning_effort": "max",
+    "tracks": [
+      "early-images-and-avatar-history",
+      "mods-and-community-original-records",
+      "ai-and-community-creation"
+    ],
+    "integration": "主代理统一整理来源和核实范围；素材研究不包含 Unity 实现。"
+  }
+}

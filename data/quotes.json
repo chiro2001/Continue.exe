@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "verification": "上屏前逐条核对原文、日期与链接；只显示短句",
+  "quotes": [
+    {
+      "id": "q-linus-hobby",
+      "date": "1991-08-25",
+      "text": "just a hobby, won't be big and professional like gnu",
+      "source": "Linus Torvalds, comp.os.minix",
+      "status": "needs-recheck"
+    },
+    {
+      "id": "q-blue-beetle",
+      "date": "2010-08-26",
+      "text": "If you're not paying for it, you're not the customer; you're the product being sold.",
+      "source": "blue_beetle, MetaFilter",
+      "status": "needs-recheck"
+    },
+    {
+      "id": "q-360-closure",
+      "date": "2016-10-20",
+      "text": "360 云盘停止个人云盘服务",
+      "source": "官方公告",
+      "status": "needs-recheck"
+    },
+    {
+      "id": "q-aliyunpan-limit",
+      "date": "2023-05-30",
+      "text": "阿里云盘永久分享改为限时分享",
+      "source": "官方说明与用户反馈",
+      "status": "needs-recheck"
+    },
+    {
+      "id": "q-curl-ddos",
+      "date": "2025-05",
+      "text": "We are effectively being DDoSed",
+      "source": "Daniel Stenberg, curl 官方博客",
+      "status": "needs-recheck"
+    },
+    {
+      "id": "q-curl-bounty",
+      "date": "2026-01-26",
+      "text": "curl 关闭漏洞赏金计划",
+      "source": "curl 官方博客",
+      "status": "needs-recheck"
+    },
+    {
+      "id": "q-ripping",
+      "date": "2020-04",
+      "text": "模型未加密即可下载",
+      "source": "VRChat 官方论坛提案（转述）",
+      "status": "needs-recheck"
+    },
+    {
+      "id": "q-vrchat-ban",
+      "date": "2024-07-25",
+      "text": "官方称近期封禁逾 1,900 名使用盗模工具的用户，并加强 Avatar 资源下载校验",
+      "source": "VRChat Developer Update, 25 July 2024",
+      "status": "verified-official-statement",
+      "source_url": "https://ask.vrchat.com/t/developer-update-25-july-2024/25764",
+      "date_kind": "statement-date"
+    },
+    {
+      "id": "q-mecell-revival",
+      "date": "2025-01",
+      "text": "用 Claude Code 把 65k 行 PHP 的地图复活成静态 PWA",
+      "source": "作者博客",
+      "status": "needs-recheck"
+    },
+    {
+      "id": "q-reverse-engineering",
+      "date": "2025",
+      "text": "89 个 AI 逆向与互通案例",
+      "source": "公开收集仓库",
+      "status": "needs-recheck"
+    },
+    {
+      "id": "q-module-note",
+      "date": "1996-01",
+      "text": "we have to preserve the memory of the tiny-tunes, from which we all come from",
+      "source": "Quazar of Sanxion, 模块内嵌留言",
+      "status": "needs-recheck"
+    }
+  ]
+}

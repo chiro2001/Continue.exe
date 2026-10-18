@@ -1,0 +1,511 @@
+{
+ "schema": "handoff-full-film-beats/1",
+ "date": "2026-10-17",
+ "duration": 256,
+ "note": "剧本草案，供生成运行数据起步；不是运行时间轴。前半 1—13 已在 V5 实现，后半 14—24 待制作。",
+ "source": "handoff/02-full-film-script.md",
+ "scenes": [
+  {
+   "id": 1,
+   "segment": "接入",
+   "start": 0,
+   "end": 10.24,
+   "title": "设备与年代",
+   "music": "声部依次加入",
+   "must_read": "机器第一次响应",
+   "keyline": "这些界面，你认得吗？",
+   "tracker": "最亮",
+   "foley": "crt_power_on, modem_handshake",
+   "status": "implemented-v5"
+  },
+  {
+   "id": 2,
+   "segment": "接入",
+   "start": 10.24,
+   "end": 20.48,
+   "title": "工具也有作者",
+   "music": "10.24 新组合",
+   "must_read": "压缩包展开，README 有作者",
+   "cursor": "共面真实图内鼠标",
+   "foley": "hdd_seek, keyboard_mech",
+   "status": "implemented-v5"
+  },
+  {
+   "id": 3,
+   "segment": "接入",
+   "start": 20.48,
+   "end": 30.72,
+   "title": "空间也是别人做的",
+   "music": "25.60 节奏型",
+   "must_read": "从使用到制作",
+   "keyline": "我们先把它，做出来。",
+   "cast": "近场A：制作者展示作品",
+   "status": "implemented-v5"
+  },
+  {
+   "id": 4,
+   "segment": "繁荣",
+   "start": 30.72,
+   "end": 40.96,
+   "title": "漫画分层与汉化",
+   "music": "低音型 pattern22 在 ch4",
+   "must_read": "读不懂的内容变得可读",
+   "keyline": "有人把它译成了，我们读得懂的样子。",
+   "greetz": "GREETINGS TO 开始",
+   "baton": "V6 新增：出现在 ch4 位置",
+   "space": "房间撤去、暮色天穹与星场",
+   "status": "implemented-v5"
+  },
+  {
+   "id": 5,
+   "segment": "繁荣",
+   "start": 40.96,
+   "end": 51.2,
+   "title": "下载与做种",
+   "music": "",
+   "must_read": "收到以后继续传出去",
+   "keyline": "下载完成以后，仍有人留着灯。",
+   "foley": "bt_piece×16, bt_complete",
+   "status": "implemented-v5"
+  },
+  {
+   "id": 6,
+   "segment": "繁荣",
+   "start": 51.2,
+   "end": 61.44,
+   "title": "生活在页面里",
+   "music": "51.20 换组合",
+   "must_read": "公共生活被看见",
+   "danmaku": "论坛回帖时代",
+   "space": "网格地面",
+   "status": "implemented-v5"
+  },
+  {
+   "id": 7,
+   "segment": "繁荣",
+   "start": 61.44,
+   "end": 71.68,
+   "title": "字幕与共同劳动",
+   "music": "",
+   "must_read": "一条字幕许多双手",
+   "keyline": "一条字幕，许多双手",
+   "danmaku": "视频弹幕时代",
+   "status": "implemented-v5"
+  },
+  {
+   "id": 8,
+   "segment": "繁荣",
+   "start": 71.68,
+   "end": 81.92,
+   "title": "从方块到世界",
+   "music": "71.68 换组合",
+   "must_read": "自己做出空间",
+   "danmaku": "教程时代；80.64 前方高能预警",
+   "space": "79.36 旅行、星流",
+   "status": "implemented-v5"
+  },
+  {
+   "id": 9,
+   "segment": "繁荣",
+   "start": 81.92,
+   "end": 92.16,
+   "title": "共同在场",
+   "music": "第一高潮：声部向外打开",
+   "must_read": "原来能在这里见面",
+   "keyline": "原来，我们能在这里见面",
+   "cast": "近场B：引路者挥手",
+   "status": "implemented-v5"
+  },
+  {
+   "id": 10,
+   "segment": "繁荣",
+   "start": 92.16,
+   "end": 102.4,
+   "title": "彼此回应",
+   "music": "",
+   "must_read": "出错时有人帮忙",
+   "danmaku": "Hub 交谈",
+   "foley": "campfire",
+   "status": "implemented-v5"
+  },
+  {
+   "id": 11,
+   "segment": "条件改变",
+   "start": 102.4,
+   "end": 112.64,
+   "title": "入口与选择",
+   "music": "低音型交到 ch2",
+   "must_read": "同一个入口多了条件",
+   "keyline": "联系人还在，选择却变了",
+   "greetz": "【需要登录】",
+   "baton": "V6 新增：移到 ch2 位置",
+   "status": "implemented-v5"
+  },
+  {
+   "id": 12,
+   "segment": "条件改变",
+   "start": 112.64,
+   "end": 122.88,
+   "title": "安全与可访问性",
+   "music": "",
+   "must_read": "安全，也要容得下每个人",
+   "foley": "gate_close/open, verify",
+   "status": "implemented-v5"
+  },
+  {
+   "id": 13,
+   "segment": "条件改变",
+   "start": 122.88,
+   "end": 133.12,
+   "title": "维护与保存",
+   "music": "",
+   "must_read": "有人在维持它；128 秒保存资料",
+   "keyline": "把可用的方法，留给后来的人",
+   "cast": "近场C：制作者带着保存资料",
+   "status": "implemented-v5"
+  },
+  {
+   "id": 14,
+   "segment": "过载",
+   "start": 133.12,
+   "end": 143.36,
+   "title": "来源从副本中脱落",
+   "music": "四声部最密组合回归",
+   "must_read": "汉化页被复制成阵列，署名栏变空",
+   "keyline": "副本越来越多，留下的名字越来越少。（候选）",
+   "danmaku": "机器式成排复制",
+   "greetz": "名字掉落，补进灰色“转载/搬运/来源：网络”",
+   "cursor": "脱离平面、复制增殖",
+   "space": "副本网格传送带；苍白过曝",
+   "status": "planned",
+   "candidates": [
+    "反盗模官方公告（核实）"
+   ]
+  },
+  {
+   "id": 15,
+   "segment": "过载",
+   "start": 143.36,
+   "end": 153.6,
+   "title": "短暂压力峰值",
+   "music": "第二高潮：ch3/ch4 压近观众；153.60 ch3 变稀即释放",
+   "must_read": "每扇窗都亮，却找不到能回应的一扇",
+   "space": "警示红；缩略图与请求压近",
+   "status": "planned",
+   "candidates": [
+    "151.04—153.60 视野替代（默认关）"
+   ]
+  },
+  {
+   "id": 16,
+   "segment": "过载",
+   "start": 153.6,
+   "end": 168.96,
+   "title": "机械运转",
+   "music": "153.60 ch3 稀；163.84 仅 ch1；166.40 pattern29 回来",
+   "must_read": "内容自动运转，回应变少；维护者解决一个问题",
+   "danmaku": "前半短语被机器重复",
+   "tracker": "ch3 列变空",
+   "space": "163.84 局部抽空只剩维护灯；166.40 熟悉版式回来但都在加载",
+   "status": "planned"
+  },
+  {
+   "id": 17,
+   "segment": "过载",
+   "start": 168.96,
+   "end": 186.88,
+   "title": "逐项失去可用条件",
+   "music": "ch2 静音；低音型交到 ch4",
+   "must_read": "播放器不响应 / 图床缺失 / 入口打不开 / 迁移需重做",
+   "greetz": "减速并停住",
+   "cursor": "只有沙漏",
+   "baton": "移到 ch4 位置",
+   "foley": "报错后逐层撤声",
+   "status": "planned",
+   "candidates": [
+    "Flash 退场告示",
+    "天涯暂停与恢复公告",
+    "VRChat 旧 SDK 迁移说明（均需核实）"
+   ]
+  },
+  {
+   "id": 18,
+   "segment": "骤空",
+   "start": 186.88,
+   "end": 197.12,
+   "title": "远处的保存点",
+   "music": "186.88 ch1 撤；189.44—194.56 仅 ch3；194.56 ch1 过门",
+   "must_read": "远处单灯照着 128 秒的保存资料",
+   "keyline": "文件还在，打开它的路不见了。（候选）",
+   "danmaku": "无",
+   "greetz": "熄灭",
+   "tracker": "CH1 列空，随后只剩 CH3 列",
+   "space": "近黑；声部退远到灯的方向；194.56 手边光标闪烁",
+   "status": "planned",
+   "candidates": [
+    "个人落点与隔离（默认关）"
+   ]
+  },
+  {
+   "id": 19,
+   "segment": "再兴",
+   "start": 197.12,
+   "end": 207.36,
+   "title": "更多人能够开始",
+   "music": "ch1 稳定 16 音，其余零星",
+   "must_read": "后来者借保存资料和 AI 做出可检查的小原型（图层→可调深度）",
+   "keyline": "原来，我也能做出来。（候选）",
+   "greetz": "重新亮起，只有“_”",
+   "cursor": "回到一个共面光标",
+   "tracker": "CH1 列回来",
+   "cast": "新增“后来者”角色",
+   "space": "黎明深蓝",
+   "status": "planned"
+  },
+  {
+   "id": 20,
+   "segment": "再兴",
+   "start": 207.36,
+   "end": 217.6,
+   "title": "具体问题找到同伴",
+   "music": "ch2/ch4 一问一答",
+   "must_read": "原型带着问题被分享，引路者找到并一起验证",
+   "danmaku": "当代、稀疏、具体",
+   "greetz": "第一批新角色",
+   "cursor": "第二个带 xxxx 名牌的远程光标",
+   "status": "planned"
+  },
+  {
+   "id": 21,
+   "segment": "再兴",
+   "start": 217.6,
+   "end": 230.4,
+   "title": "合作改变距离",
+   "music": "215.04 ch3 pattern30 换型；217.60 ch1 休止；225.28 ch4 新旋律",
+   "must_read": "手边小窗→穿越→上一空间成为新空间里的小屏幕；同伴来到身边",
+   "cast": "近场D：引路者示范",
+   "space": "第四次旅行与窗口穿越；地平线变暖",
+   "status": "planned"
+  },
+  {
+   "id": 22,
+   "segment": "再兴",
+   "start": 230.4,
+   "end": 235.52,
+   "title": "多类新作品显出结果",
+   "music": "230.40 ch1 休止",
+   "must_read": "新工具（回认 README）/ 新字幕（回认 Aegisub）/ 新小世界（回认方块到世界）",
+   "space": "日出；版本号 v0.1→v0.3",
+   "status": "planned"
+  },
+  {
+   "id": 23,
+   "segment": "再兴",
+   "start": 235.52,
+   "end": 245.76,
+   "title": "接收者开始帮助别人",
+   "music": "低音型交到 ch1；旋律 ch4→ch2",
+   "must_read": "受过帮助的人为新人示范，新人第一次发布",
+   "keyline": "这一次，换我来教你。（候选，可删）",
+   "danmaku": "前半人声以真诚形式回来",
+   "greetz": "旧角色＋新角色",
+   "baton": "移到 ch1 位置，由人物递给新人",
+   "cast": "新增“新人”角色",
+   "foley": "发布时回认 BT 完成音",
+   "status": "planned"
+  },
+  {
+   "id": 24,
+   "segment": "继续",
+   "start": 245.76,
+   "end": 256,
+   "title": "一起做下去",
+   "music": "245.76 仅 ch3；250.88—253.44 全静；253.44 pattern29 弱起",
+   "must_read": "交接与继续工作；静止中出现片尾句",
+   "keyline": "那就一起做下去。（250.88—253.44，已定）",
+   "tracker": "只剩 CH3 列，随后全空",
+   "space": "世界运动停靠；外围无界；cracktro 窗“重新接通”",
+   "status": "planned",
+   "candidates": [
+    "结尾 A/B/C（推荐 B）"
+   ]
+  }
+ ],
+ "colour_keys_second_half": [
+  [
+   133.12,
+   [
+    0.06,
+    0.06,
+    0.07
+   ],
+   [
+    0.55,
+    0.52,
+    0.5
+   ]
+  ],
+  [
+   143.36,
+   [
+    0.08,
+    0.04,
+    0.04
+   ],
+   [
+    0.62,
+    0.26,
+    0.2
+   ]
+  ],
+  [
+   153.6,
+   [
+    0.05,
+    0.08,
+    0.09
+   ],
+   [
+    0.12,
+    0.18,
+    0.2
+   ]
+  ],
+  [
+   168.96,
+   [
+    0.04,
+    0.04,
+    0.045
+   ],
+   [
+    0.09,
+    0.09,
+    0.1
+   ]
+  ],
+  [
+   186.88,
+   [
+    0.004,
+    0.005,
+    0.007
+   ],
+   [
+    0.012,
+    0.014,
+    0.016
+   ]
+  ],
+  [
+   197.12,
+   [
+    0.015,
+    0.025,
+    0.06
+   ],
+   [
+    0.1,
+    0.09,
+    0.15
+   ]
+  ],
+  [
+   215.04,
+   [
+    0.03,
+    0.06,
+    0.14
+   ],
+   [
+    0.32,
+    0.2,
+    0.2
+   ]
+  ],
+  [
+   230.4,
+   [
+    0.08,
+    0.14,
+    0.3
+   ],
+   [
+    0.55,
+    0.36,
+    0.24
+   ]
+  ],
+  [
+   245.76,
+   [
+    0.1,
+    0.16,
+    0.28
+   ],
+   [
+    0.42,
+    0.32,
+    0.26
+   ]
+  ]
+ ],
+ "baton_handovers": [
+  [
+   30.72,
+   "ch4"
+  ],
+  [
+   102.4,
+   "ch2"
+  ],
+  [
+   168.96,
+   "ch4"
+  ],
+  [
+   235.52,
+   "ch1"
+  ]
+ ],
+ "danmaku_drafts": {
+  "overload_repeated": [
+   "已转",
+   "求资源",
+   "链接在评论区",
+   "好用记得点赞",
+   "搬运自网络",
+   "原地址失效"
+  ],
+  "renewal": [
+   "这个思路好",
+   "我试了，第三层顺序反了",
+   "求源文件",
+   "已复现",
+   "感谢分享",
+   "机翻我帮你校一下"
+  ],
+  "callback": [
+   "沙发！",
+   "楼主好人",
+   "学会了！",
+   "我也想试试"
+  ]
+ },
+ "greetz_drafts": {
+  "overload_replacements": [
+   "转载",
+   "搬运",
+   "来源：网络"
+  ],
+  "renewal_new_roles": [
+   "把问题写清楚的人",
+   "回答“我也遇到过”的人",
+   "第一次发布作品的人",
+   "帮忙校对 AI 初译的人",
+   "写新 README 的人",
+   "保留原作者名字的人",
+   "把方法教给下一个人的人"
+  ]
+ }
+}

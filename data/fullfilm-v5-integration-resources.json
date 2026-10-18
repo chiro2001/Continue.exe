@@ -1,0 +1,923 @@
+{
+  "schema": "fullfilm-v5-integration-resources.1",
+  "resources": [
+    {
+      "source": "unity/Assets/OldWebMap/Scripts/OWFilmV5Presentation.cs",
+      "destination": "Assets/OldWebMap/Scripts/OWFilmV5Presentation.cs",
+      "sha256": "c550148fa99f3c5226dbf1be37c8389ba970a39995fa493e55a87d66b6183a20",
+      "bytes": 31853
+    },
+    {
+      "source": "unity/Assets/OldWebMap/Scripts/OWFilmV5BasePresentation.cs",
+      "destination": "Assets/OldWebMap/Scripts/OWFilmV5BasePresentation.cs",
+      "sha256": "df7e99b32d9de2970161f235e1aae166098cc5bfa382aa53ff7df6879ef24648",
+      "bytes": 8883
+    },
+    {
+      "source": "unity/Assets/OldWebMap/Scripts/OWFilmV5Signal.cs",
+      "destination": "Assets/OldWebMap/Scripts/OWFilmV5Signal.cs",
+      "sha256": "75202c36aae0857a9bbf12fc0f60cec23da312f1cd870b47564b9df29e95f3e6",
+      "bytes": 20397
+    },
+    {
+      "source": "unity/Assets/OldWebMap/Scripts/OWFilmV5AudioFloor.cs",
+      "destination": "Assets/OldWebMap/Scripts/OWFilmV5AudioFloor.cs",
+      "sha256": "949a93fd4c374118ab31557e9bf18a2a55179ecf842f7b498a3a100bad2eed56",
+      "bytes": 2818
+    },
+    {
+      "source": "unity/Assets/OldWebMap/Scripts/OWFilmV5Details.cs",
+      "destination": "Assets/OldWebMap/Scripts/OWFilmV5Details.cs",
+      "sha256": "067bb998c66cb65abceeeb15f85f00f4ac36c84e832d778af19ea92610859e8e",
+      "bytes": 27220
+    },
+    {
+      "source": "unity/Assets/OldWebMap/Scripts/OWFilmV5Media.cs",
+      "destination": "Assets/OldWebMap/Scripts/OWFilmV5Media.cs",
+      "sha256": "75f61b3c155c7845fa7b88136e81beb3f591bf7581c97dc4be3d562d7048a8c6",
+      "bytes": 17313
+    },
+    {
+      "source": "unity/Assets/OldWebMap/Scripts/OWFilmV5Provenance.cs",
+      "destination": "Assets/OldWebMap/Scripts/OWFilmV5Provenance.cs",
+      "sha256": "bd17025bcd4f1d5181a73b1b8908d6cc42a7ef05113ff57733997d60f82a7b58",
+      "bytes": 7634
+    },
+    {
+      "source": "unity/Assets/OldWebMap/Shaders/OWFilmV5Ribbon.shader",
+      "destination": "Assets/OldWebMap/Shaders/OWFilmV5Ribbon.shader",
+      "sha256": "d54dfca06bb09cd4416a43c6bb13b0cd474d34ee8af61aa976d75652f5461f07",
+      "bytes": 5071
+    },
+    {
+      "source": "unity/Assets/OldWebMap/Shaders/OWFilmV5WaitingWall.shader",
+      "destination": "Assets/OldWebMap/Shaders/OWFilmV5WaitingWall.shader",
+      "sha256": "c1d10685ecae8546fd27402d69520563d167a317c4db6e98b006c4c82b06d0e9",
+      "bytes": 1836
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-00-idle.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-00-idle.png",
+      "sha256": "3335f52a391326ae53eed419c75ab989278cebcbb479b2e52ca139b31dea0947",
+      "bytes": 18139
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-01-welcome.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-01-welcome.png",
+      "sha256": "b0c4496f7b1564a3d65e0ef3fa5b76f63dc1adaa61bd2af60230248a078e03f5",
+      "bytes": 60978
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-02-tools.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-02-tools.png",
+      "sha256": "100948f73381c4ace4c5d598e8f509516866dae5776e82fe674180dc9fa0dc01",
+      "bytes": 55981
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-03-homepage.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-03-homepage.png",
+      "sha256": "f2362fec8d2241f2fdd66aa9c7fb54b1f5f401df58351ecee699b13deb120787",
+      "bytes": 52206
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-04-translation.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-04-translation.png",
+      "sha256": "065ad7b4e4cdf6d0eae15647a27137e8c4af11258e53ad3745ba09f3cb29e17e",
+      "bytes": 34271
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-05-napster.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-05-napster.png",
+      "sha256": "eb978e40f8dabd97242c43c404070a7cc284d1f65fea3fac8b201ded29966447",
+      "bytes": 36633
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-06-sharing.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-06-sharing.png",
+      "sha256": "2e948fe1e749a2c79c3798857a9136030dcbe80a90fd5f1e93247a7b1f8733ca",
+      "bytes": 49385
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-07-bt-night.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-07-bt-night.png",
+      "sha256": "e6c36887765498031bbe4cad9b9f81e1f794b576ddf25ebd775977f3066c4048",
+      "bytes": 16472
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-08-forum.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-08-forum.png",
+      "sha256": "2c373a74d932b6f635219ea426e4d85e3840baf8ad264f6e2e359cce4e48a30d",
+      "bytes": 46920
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-09-subtitles.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-09-subtitles.png",
+      "sha256": "6ea301358e3d41bef4b2f88b3febe1591ca0ba9f287562c2cf0fc8559f3138d9",
+      "bytes": 42490
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-10-choice.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-10-choice.png",
+      "sha256": "1608d3246ec15f886d3173dc73f6c99855f711f2af4dba1bd42c0f9b33570b75",
+      "bytes": 29758
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-11-blackout.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-11-blackout.png",
+      "sha256": "4e9e35a5d17aeeaab2a0161aa9d83cb91e8c9087d265805581aab5537feb3f5d",
+      "bytes": 41813
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-12-vrc-year.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-12-vrc-year.png",
+      "sha256": "dff6df53c8bbd2cf64dab4e6bce1444b8f58a99c02f3b367a0e3cfe94c32cb4f",
+      "bytes": 11474
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-13-subtitle-close.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-13-subtitle-close.png",
+      "sha256": "19e760ea54ba96de9576cf148eefc9a826184f61edbd0e2a0ff2d83a597196b5",
+      "bytes": 22434
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-14-vrc-join.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-14-vrc-join.png",
+      "sha256": "5a2c43fe12ad023a4c18c698b8cbbba685b5d5736cce5aaef25df7e8cbbaa8c0",
+      "bytes": 47037
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-15-vrc-return.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-15-vrc-return.png",
+      "sha256": "8bd36469cf561800dbe31080184a399fcaf88fcd21e2b942512bb25ddc65cbfa",
+      "bytes": 46871
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-16-conditions-a.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-16-conditions-a.png",
+      "sha256": "3679bd115b2f8bee6831cad4c5b42874a0984875e1bc6914130b80709d91c63a",
+      "bytes": 17772
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-17-security.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-17-security.png",
+      "sha256": "94200d80ccb3d6c988c02e39f0460e7701c78694783f954a759ca3c205d4d4ee",
+      "bytes": 41236
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-18-startup.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-18-startup.png",
+      "sha256": "f1ee3b610682f1483cd69fdfc858064d1c928e80f12a64b9b03f4559a4792a75",
+      "bytes": 13479
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-19-conditions-b.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-19-conditions-b.png",
+      "sha256": "0236e6b89057627155c49ae28fd6df35820badb32d7f398cab76709c0665b4c5",
+      "bytes": 33604
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-20-permission.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-20-permission.png",
+      "sha256": "eb0dd0d7d3983414474adb0fdfa146b914c9007f10372fdf39e1653afb4bec82",
+      "bytes": 41637
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-21-overload-a.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-21-overload-a.png",
+      "sha256": "088f363e5e27b2851d2090d3eb1ac473f33897b71ca5470cd0372f5347248eb8",
+      "bytes": 46704
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-22-overload-b.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-22-overload-b.png",
+      "sha256": "3325235d09f8743a82bf0483ab79de4f89c0460d2e938bfd2055614dbf3947d1",
+      "bytes": 35550
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-23-overload-c.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-23-overload-c.png",
+      "sha256": "f5c0aea7041fb49bcf8951b2c579215bc1ad7b594e2b4d4c518c462e85dc18e8",
+      "bytes": 31822
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-24-overload-d.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-24-overload-d.png",
+      "sha256": "ba8aa8bef97c566078e7c7452b9cd5d7d0a627cdfa9ceaef59edaba630d8d14d",
+      "bytes": 34000
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-25-overload-e.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-25-overload-e.png",
+      "sha256": "b21379be187c64f2a752046a5518d60dd48e4569485669a1a7dd5ff6c1239272",
+      "bytes": 35045
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-26-quiet.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-26-quiet.png",
+      "sha256": "1466cd6bf6ac2e41c5f95d257da72a14ea8426c96daa8133f680ddaa3a7c67bb",
+      "bytes": 2111
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-27-try.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-27-try.png",
+      "sha256": "33405aa70c6a78568f530de11b773b93cde75c7f70a2ccdb1988482aee062438",
+      "bytes": 32426
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-28-animate.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-28-animate.png",
+      "sha256": "944516d1c4cad65d4055b6159ae53f12e8c52dc279b29498ee1086ca012bd2dd",
+      "bytes": 29984
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-29-edit.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-29-edit.png",
+      "sha256": "2f7751a4430d80c282cc012e968d3b2fa8625bf5160ff62382769bd718176521",
+      "bytes": 32088
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-30-rewrite.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-30-rewrite.png",
+      "sha256": "99ee1e7e543bbd87d022a8d16856ea35622ffcc8b12174af7f1473bdb04bb15a",
+      "bytes": 22681
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-31-play.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-31-play.png",
+      "sha256": "f580f8581b138aa35ff246f15717817416ea70fa015e04a9fb8843fd41a89767",
+      "bytes": 52673
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-32-together.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-32-together.png",
+      "sha256": "7c904564fbd53b127ca612784c60799e233e3e13c35659f7bc2c6315722f5d7a",
+      "bytes": 40567
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/ribbon-33-land.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/ribbon-33-land.png",
+      "sha256": "fe6660577ac43d63eb4929c6030e27b31630e21a936c62ce42d46be6bd3df617",
+      "bytes": 29300
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-01.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-01.png",
+      "sha256": "eec17b0d8e5336199b57b8db2e6c869ce51b5a7d64ee0f24d283fe2f059322f9",
+      "bytes": 1021685
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-01-detail.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-01-detail.png",
+      "sha256": "b43f48841977091fb288b111e127996f754cab86ae20737d5fd1b5f190506f9f",
+      "bytes": 554098
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-02.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-02.png",
+      "sha256": "81ba930138ad1d9eebca2d500166237eafb67f3fb1925fb44b9fb8503495f7cb",
+      "bytes": 962591
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-02-detail.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-02-detail.png",
+      "sha256": "acca2d60484d8f1f5853ff3ae2da92c228cde8fc2d0e8dc4b4dd379a6536558a",
+      "bytes": 648802
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-03.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-03.png",
+      "sha256": "a1cdc4dbfd7a2df20491a1650b7235ab790bfda5837e5a13078151bbc87ff777",
+      "bytes": 1185287
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-03-detail.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-03-detail.png",
+      "sha256": "bc9cf1b56ad291b35f052be6fe0bfd0c6fadbe610d991d91a90a2bb2ce9882c6",
+      "bytes": 963229
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-04.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-04.png",
+      "sha256": "f5e203c8724e05e013ac2a3030205c3852b219ed5ced3650ef5068ad5b2c7229",
+      "bytes": 1038127
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-04-detail.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-04-detail.png",
+      "sha256": "b259cbecd7d2fcfb188e330aa736f8209cacecb3773c5cab6fa8741ec4bda411",
+      "bytes": 780603
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-05.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-05.png",
+      "sha256": "60c2c871f80b703b029ba18990dc179a9701dda83f08c34079a9086bff0a05c0",
+      "bytes": 470797
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-05-detail.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-05-detail.png",
+      "sha256": "60c2c871f80b703b029ba18990dc179a9701dda83f08c34079a9086bff0a05c0",
+      "bytes": 470797
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-06.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-06.png",
+      "sha256": "e7a5a354b9207426a00224cb712345dde62433a048ed979124fbf57327035d5a",
+      "bytes": 120980
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-06-detail.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-06-detail.png",
+      "sha256": "a97001b84ae9a8866e3879db782727ec2537751e4171ffa28296b5cec3c5fc61",
+      "bytes": 95863
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-07.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-07.png",
+      "sha256": "8ef433f00338a9004b678534febd83d6edcbbe20c7ee0c72aa17043d9281bdf2",
+      "bytes": 415586
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-07-detail.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-07-detail.png",
+      "sha256": "768a57a4fe868ac570e6020da85f0a6fb301afcae96d7531aedc1ec98e7369f8",
+      "bytes": 258357
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-08.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-08.png",
+      "sha256": "74e6e574040f9fd798ac7cc4f540a00d92c0894396b23e9c9c7a8b9c040eb8d7",
+      "bytes": 570129
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-08-detail.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-08-detail.png",
+      "sha256": "74e6e574040f9fd798ac7cc4f540a00d92c0894396b23e9c9c7a8b9c040eb8d7",
+      "bytes": 570129
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-09.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-09.png",
+      "sha256": "ebd64a0f6ffb1eeb300c6de36a2efac22408c934068b6dac667f6ad73e0a046b",
+      "bytes": 996308
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-09-detail.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-09-detail.png",
+      "sha256": "2544bcece57d97ca4630142188de44264a1f8b4c07ea78e27148453e150681c2",
+      "bytes": 639425
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-10.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-10.png",
+      "sha256": "eb896ee935ff952a07e104da28bac56de9f2d4dd6b372a6814c7e08c6dafbb34",
+      "bytes": 998002
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-10-detail.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-10-detail.png",
+      "sha256": "7ee263705d4c8533a78b3abeceddb219fe685b88a4025968d6a8b89a83196fbc",
+      "bytes": 314445
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-10-hero.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-10-hero.png",
+      "sha256": "68dc7214e853b8838f6f279ffe7ecb441a4b63327a317d59d37192d4772e9923",
+      "bytes": 128254
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-11.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-11.png",
+      "sha256": "bcf7aa2059c17813f99243a6bfc4790497a860c629a563ce091ba515176bce6a",
+      "bytes": 1383112
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-11-detail.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-11-detail.png",
+      "sha256": "a0bfdd19dc3f25ee2810cf6d6189b29cb1adbd30f178cdfdff5d07866070011d",
+      "bytes": 391752
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-12.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-12.png",
+      "sha256": "62521fd765edc832b90b2fbca70771c139d773d818c35bacc4a28ca355a17542",
+      "bytes": 1170907
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-12-detail.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-12-detail.png",
+      "sha256": "fbda57619b5f4a4d9ca2f69c8d99520d7aec3bafb0f58fa024728b0f4b62cd5a",
+      "bytes": 523903
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-13.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-13.png",
+      "sha256": "d261d341a1352801613b68a64311cd0bbafc197b521b04085d73f94b5d242090",
+      "bytes": 65240
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-13-detail.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-13-detail.png",
+      "sha256": "d261d341a1352801613b68a64311cd0bbafc197b521b04085d73f94b5d242090",
+      "bytes": 65240
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-14.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-14.png",
+      "sha256": "a6e607ed707c1bf3fbc0cf28dc6dd864e4b1256fc7b9613e7b67aa365583c24e",
+      "bytes": 384191
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/provenance-14-detail.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/provenance-14-detail.png",
+      "sha256": "a6e607ed707c1bf3fbc0cf28dc6dd864e4b1256fc7b9613e7b67aa365583c24e",
+      "bytes": 384191
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/eac-current-splash.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/eac-current-splash.png",
+      "sha256": "ece4da9441acac56df4bde01605bfb3349c573b5e0dad01bde941a33162d1613",
+      "bytes": 304586
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/eac-launch-error-20260924.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/eac-launch-error-20260924.png",
+      "sha256": "7bd092917c7cb651d23c9e3f90366f5b8f595844d265de4fbd6c64e4dd67426a",
+      "bytes": 114238
+    },
+    {
+      "source": "art/export/fullfilm-v5/story/eac-current-bear.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/eac-current-bear.png",
+      "sha256": "b86181e50ab143d907589151299003cb5507880b6ae40d64f446ce85416fd841",
+      "bytes": 1831
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_e_smile.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/forum-phpbb-3.0.8-icon_e_smile.png",
+      "sha256": "bba5155926c8bca3d72801f8ddde2dc23b879efd77e76252bbb5dd1044e0ee1c",
+      "bytes": 955
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_e_biggrin.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/forum-phpbb-3.0.8-icon_e_biggrin.png",
+      "sha256": "3559f2b7c58be8fc0e02fd8e326d997b74a854ea38a523b08b825e7dd748b349",
+      "bytes": 972
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_e_wink.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/forum-phpbb-3.0.8-icon_e_wink.png",
+      "sha256": "18855c5141d34f85986ee90fcfa32f77b11352734c9b73933996272659861661",
+      "bytes": 934
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_e_surprised.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/forum-phpbb-3.0.8-icon_e_surprised.png",
+      "sha256": "a7504f86b02d8fd5a9d0df4af18cb3f3e4850c4a4e6dd0fd1338cf28cbea992e",
+      "bytes": 899
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_e_sad.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/forum-phpbb-3.0.8-icon_e_sad.png",
+      "sha256": "add3444e56a6ffa5363db019d9537a7423387de69b29472e9893226649c27984",
+      "bytes": 957
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_e_confused.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/forum-phpbb-3.0.8-icon_e_confused.png",
+      "sha256": "35bc16d51d98c50c5ddd69c27411c772b13e6882aefa48fa35e89a0bac9eb8a7",
+      "bytes": 945
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_cool.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/forum-phpbb-3.0.8-icon_cool.png",
+      "sha256": "9cf408ef008173bee43162ff3cb5a440c840fea2973eff5572f211fa222a090a",
+      "bytes": 903
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/forum-phpbb-3.0.8-icon_lol.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/forum-phpbb-3.0.8-icon_lol.png",
+      "sha256": "165d1cf98264256be21a41041e64af621cc13185f2491de66b2fe1832be1c21e",
+      "bytes": 921
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-01.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-middle-2014-preview-01.png",
+      "sha256": "9e2ede8462c69f6c593baa858c2e9ffc1d1834f6a291b4fca1dc2b5df37f0782",
+      "bytes": 2710
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-02.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-middle-2014-preview-02.png",
+      "sha256": "99824c520af3ead25e9e6fb47e6ac1b3209c9a2e0042404d73c20be793050eef",
+      "bytes": 2640
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-03.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-middle-2014-preview-03.png",
+      "sha256": "839a5bcba4b510d6fdaa1771669de56af5b98e682b2b540551314723181a481e",
+      "bytes": 2679
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-04.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-middle-2014-preview-04.png",
+      "sha256": "49dd433335a263dfd9e9d9cb31a3b78fc61ae0a64a2c8365157f002d3396e045",
+      "bytes": 2489
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-05.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-middle-2014-preview-05.png",
+      "sha256": "743703733cc267d0ebd8c3a6905c6ffa7c0e0faec3f67ad812a927f2e1be42b3",
+      "bytes": 2764
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-06.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-middle-2014-preview-06.png",
+      "sha256": "05845d19c3266450c5e6a6c94c4791c4524d24c45aee3255d389def13568dc67",
+      "bytes": 2605
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-07.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-middle-2014-preview-07.png",
+      "sha256": "4e518340276fa14a6d4e24e64ea52e8c25d1d1c27333ec9b610ae86b7b1ce587",
+      "bytes": 2689
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-08.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-middle-2014-preview-08.png",
+      "sha256": "a6a71469f07642df0f6b2c284f3b2bbf9748eb770cff3e4945ba9fa25a8792e1",
+      "bytes": 2630
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-09.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-middle-2014-preview-09.png",
+      "sha256": "7fffa9b58d49eca5eb5435b538a021d2b683284ef9ba74cfac1c4195a35755ae",
+      "bytes": 2740
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-10.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-middle-2014-preview-10.png",
+      "sha256": "8a145af6253004a6ced9981b25743a4496a0842acaa96191dc5f610015e39134",
+      "bytes": 2693
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-11.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-middle-2014-preview-11.png",
+      "sha256": "2b702872969333cd84fe47cfe04cb86992997026e9ae979628113e2183eeb258",
+      "bytes": 2618
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-12.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-middle-2014-preview-12.png",
+      "sha256": "92aa42dcad120c61e7a390dc0eb1247766b27b19d1dc6d5b389abcae1a11299c",
+      "bytes": 2609
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-13.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-middle-2014-preview-13.png",
+      "sha256": "23eb77bf863db0a54207605e0b3b267a1788d14ce93018be4aba401e5148eed9",
+      "bytes": 2822
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-middle-2014-preview-14.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-middle-2014-preview-14.png",
+      "sha256": "9913921f91472077099858027d84b34866e584a20a871070db587fa9a2ada63a",
+      "bytes": 2883
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-101.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-mobile-2020-101.png",
+      "sha256": "283c167da46789f7433b12a0839e9e761ebd971677c674c0bb0629b0ebbb2904",
+      "bytes": 10202
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-102.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-mobile-2020-102.png",
+      "sha256": "9e213994569dcbba126b96b048d436eddb15a7d9b9aacc03d0c437647ab8cd5a",
+      "bytes": 5576
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-103.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-mobile-2020-103.png",
+      "sha256": "2169f47e11ab89f9bf367d858642216a8b5f19f9803f89af7f0b24a1db26a771",
+      "bytes": 6018
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-104.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-mobile-2020-104.png",
+      "sha256": "6a36f1a8bdf6b83ce4f01adfa08e628bc59b29aa4c4631487d8d9e2121c3b95a",
+      "bytes": 6652
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-118.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-mobile-2020-118.png",
+      "sha256": "c3cefd549c9f71d1da857b9e67a9194f4949ddb5ce6242c4a1555c9167ed1374",
+      "bytes": 7638
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-120.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-mobile-2020-120.png",
+      "sha256": "82d9e1c744f11a5a173e4187bd9f2f991d497fd5fb46b09f6ecb4062c820daf0",
+      "bytes": 5136
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-123.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-mobile-2020-123.png",
+      "sha256": "b99f592fa706a40b9d37ae39e45b28798cf2abf7ef18abaac7189ad362d42c84",
+      "bytes": 6703
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-mobile-2020-124.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-mobile-2020-124.png",
+      "sha256": "f4480662fa41c25d1c3e203bfca9d705e499880444a9286563aeca8407150f1c",
+      "bytes": 6029
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001001.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001001.png",
+      "sha256": "1f69c7bceb4f7592b36861cd707b8401a0057063b1bae4cd340a9f72abaf5d7f",
+      "bytes": 14117
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001004.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001004.png",
+      "sha256": "dd13011c07eb712187dc08f17fd849b94d9e76f53912a280fd4d79309b257fbb",
+      "bytes": 16319
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001005.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001005.png",
+      "sha256": "aaba762719d360ce83c26597ab056b52219f2b220132d5a61de3036b660453bb",
+      "bytes": 15189
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001206.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001206.png",
+      "sha256": "9dbbf9f0c859a0d7044468cc811b824f356244d994ea26a03cf8d6ebf9943d66",
+      "bytes": 15004
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001023.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001023.png",
+      "sha256": "218d20a3f7dc260e9d7101d01be2cf96f9b0f4360ce7bc46d4d10120298c4f35",
+      "bytes": 16035
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001025.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001025.png",
+      "sha256": "decf9d23364641b0a1d9e5ab429c5289138d4ca67da65ed4b4e23c8a70f4f903",
+      "bytes": 16340
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001007.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001007.png",
+      "sha256": "68ec44857aac70b27c7ae3c209687e25b1fe58f9f0f23ed979498399d30df351",
+      "bytes": 16334
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001016.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001016.png",
+      "sha256": "92bef6219968b8c8c7a9158ede6ad47d9ff1151da62846544da7bdcfa1e1f383",
+      "bytes": 14979
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001186.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001186.png",
+      "sha256": "a0ae72d3f63c14abede22505c154215e707c135a0c99256e5bf5acdc6b2c0892",
+      "bytes": 16073
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001020.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001020.png",
+      "sha256": "78acadb45798392f202a148c5d98bc9f3bbb646b12670247517b96588a1be6a6",
+      "bytes": 16915
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001019.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001019.png",
+      "sha256": "9f71f9e6235305978470412c88f983dcbba4504a032cf4a7156fb8c1614f3016",
+      "bytes": 17536
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001073.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001073.png",
+      "sha256": "fafda9b74224868f23a9d0d5eae74bf35b7dea68f6eb2cfac453a0eb2c7088ca",
+      "bytes": 16903
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001072.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001072.png",
+      "sha256": "8f470563f16319da8e8115561be695326d213ce0f73c0be9fa0791f748785132",
+      "bytes": 17351
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001014.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001014.png",
+      "sha256": "5dd0449dba35419aa901493cec2efdac2af04d14c080c5a3fde45fd5a8548bd1",
+      "bytes": 16900
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001071.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001071.png",
+      "sha256": "7ccf5b8c0b71dd42af3b035d231c770688d66e627bfc673d7fc6e7b51bb8f423",
+      "bytes": 15323
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001012.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001012.png",
+      "sha256": "8e652f60c34ae473be4e9bd70fa50e9b687f99402237b0863d0b1a6213576baf",
+      "bytes": 15176
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001003.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001003.png",
+      "sha256": "4bd13944b107e8c886c376cc97eb563c4d51d8cdd35b876ed5292736a6bdff49",
+      "bytes": 16759
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001065.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001065.png",
+      "sha256": "4786f04d62c2cbe4638a26186720772e9ee26844ae0f5c3c0113c3a9ab0ba2a9",
+      "bytes": 17958
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001024.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001024.png",
+      "sha256": "274615c4b0922add7b0647b52552379ad1a0dd290b49b31917181ffb8d7a65d6",
+      "bytes": 16837
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001098.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001098.png",
+      "sha256": "7a70d7cdc1799c0bf6b41652bb7412fc1d420b18692fd1b4c66e842b05a1f1ec",
+      "bytes": 14948
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001021.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001021.png",
+      "sha256": "7d57ccc2ca24d7abb41dc28b807b7c5b8fb5f896c17e2468d622b4435e98025c",
+      "bytes": 14426
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001070.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001070.png",
+      "sha256": "078065bf78fc18f8c191995d4fc7f1e4e074d398e5afdf8d0fa03603c426259d",
+      "bytes": 16924
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001068.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001068.png",
+      "sha256": "f9385000fbeced2f3c5b6935ff4073eeec9ab81565418a1c47926f14d9ab92f8",
+      "bytes": 17130
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001013.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001013.png",
+      "sha256": "0d23b3dbe1c8e95f2cc5b7233877b98acf5007f4c7788b7c00a73781030638a1",
+      "bytes": 15071
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001011.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001011.png",
+      "sha256": "05d6cfad25c4bfdcf5c5a7eb0773f6ede5a3a92adc9adb005391f817aa6788f5",
+      "bytes": 14116
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001069.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001069.png",
+      "sha256": "fb0bb45f06b4f619bc38b72e713d0908c4996f47103f6b7d3d09adbed011a3c1",
+      "bytes": 17017
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001067.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001067.png",
+      "sha256": "a84feef658ce4583482d8763b71fb622f73e2611dc5407803a9e7013e995eb85",
+      "bytes": 16046
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001060.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001060.png",
+      "sha256": "3ff3672fa3b79a9f94e99f1527809355e81c6480debe2e8ad16635391834d886",
+      "bytes": 12074
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001207.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001207.png",
+      "sha256": "b53d3393847698ecb6af66887c7d520996e16fbb87d3d424ad0ebe316f8a0933",
+      "bytes": 12054
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001055.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001055.png",
+      "sha256": "60201a6279b2c74a04fe34c2a70a53b2fbf6c80c737dde6cf68be4ceeb5f11b0",
+      "bytes": 13362
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001097.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001097.png",
+      "sha256": "25f0eda7d713ee163634d93434cb1764998ff838f9b67360c7d053fe4389c33a",
+      "bytes": 10240
+    },
+    {
+      "source": "art/export/fullfilm-v5/emotes/tieba-current-2026-001122.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/tieba-current-2026-001122.png",
+      "sha256": "636bc7adfb9f01fb42124d3abb3c607c2d8fe94bca41744a48c2618d8f67ede2",
+      "bytes": 16957
+    },
+    {
+      "source": "art/export/fullfilm-v5/credits/credits-01-tools-and-world.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/credits-01-tools-and-world.png",
+      "sha256": "fe3d40fa84ee0a64ed0e519db5d55b4a692973e0b4db50d173c81354bef11be5",
+      "bytes": 188037
+    },
+    {
+      "source": "art/export/fullfilm-v5/credits/credits-02-music-and-media.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/Textures/credits-02-music-and-media.png",
+      "sha256": "da3d2baba402841ad9f675e42e6b60d26f1a7310e4bd20a7037df124f76a44d7",
+      "bytes": 209700
+    },
+    {
+      "source": "art/export/fullfilm-v5/model-textures/archive-books-book4.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/ModelAssets/Textures/archive-books-book4.png",
+      "sha256": "2c06c345fded6c5998678cd6bbaf4dce9267070efe968c89c9c267f01381f34a",
+      "bytes": 794100
+    },
+    {
+      "source": "art/export/fullfilm-v5/model-textures/archive-books-book5.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/ModelAssets/Textures/archive-books-book5.png",
+      "sha256": "0201d3b36b157b364e8e6f006c67fffdd96a409bb2db2eca86576e3ff6acb9d5",
+      "bytes": 1277468
+    },
+    {
+      "source": "art/export/fullfilm-v5/model-textures/archive-shelf-wood017-albedo.jpg",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/ModelAssets/Textures/archive-shelf-wood017-albedo.jpg",
+      "sha256": "67b620e11874140c2b3f742e2f79ef7222736b012784022e6767952b78be4f00",
+      "bytes": 2437436
+    },
+    {
+      "source": "art/export/fullfilm-v5/model-textures/archive-shelf-wood017-metallic-smoothness.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/ModelAssets/Textures/archive-shelf-wood017-metallic-smoothness.png",
+      "sha256": "b45d3f7e4d4ba06f1224d1d50c156db15bc26c608c4abcd5708fc70124b2abe3",
+      "bytes": 3443882
+    },
+    {
+      "source": "art/export/fullfilm-v5/model-textures/archive-shelf-wood017-normal-gl.jpg",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/ModelAssets/Textures/archive-shelf-wood017-normal-gl.jpg",
+      "sha256": "2b9784ca2e89ad04c23bf8b70af31bffc35d7e21217e850f26038495e89c9b32",
+      "bytes": 4298089
+    },
+    {
+      "source": "art/export/fullfilm-v5/model-textures/archive-shelf-wood017-roughness.jpg",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/ModelAssets/Textures/archive-shelf-wood017-roughness.jpg",
+      "sha256": "cdbbd5d9ba24ea62a2f7a7dac728f5ad1c55ac2f972c98198a19d110fefe49da",
+      "bytes": 1942513
+    },
+    {
+      "source": "art/models/fullfilm-v5/fullfilm_v5_branch_canopy.fbx",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/ModelAssets/Meshes/fullfilm_v5_branch_canopy.fbx",
+      "sha256": "6e62efdb55928288c8e4e31b2aca875dfc2bb599ca5a82d358cc5526e5cd327b",
+      "bytes": 546156
+    },
+    {
+      "source": "art/export/fullfilm-v5/model-textures/room01-wood021-color.jpg",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/ModelAssets/Textures/room01-wood021-color.jpg",
+      "sha256": "a931fab0059ab047ba6e9d8d634bf8e614351d9651feb19c7e23641ca14e28eb",
+      "bytes": 933168
+    },
+    {
+      "source": "art/export/fullfilm-v5/model-textures/room01-wood021-metallic-smoothness.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/ModelAssets/Textures/room01-wood021-metallic-smoothness.png",
+      "sha256": "078e9ecaee148cfcc16c6ec2a711a9ea915e77da8750ca4b0c51685b65ae0a49",
+      "bytes": 931089
+    },
+    {
+      "source": "art/export/fullfilm-v5/model-textures/room01-wood021-normal-gl.jpg",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/ModelAssets/Textures/room01-wood021-normal-gl.jpg",
+      "sha256": "2a4f9195fdcaeaa4e224614759bb93308f1968e732b5ef2f73b7a1a388746f33",
+      "bytes": 1423148
+    },
+    {
+      "source": "art/export/fullfilm-v5/model-textures/room01-wood021-roughness.jpg",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/ModelAssets/Textures/room01-wood021-roughness.jpg",
+      "sha256": "cd30e3f32f4542df8d32c607653fa33714cabef9629611e900abf578a5a30208",
+      "bytes": 516431
+    },
+    {
+      "source": "art/export/fullfilm-v5/model-textures/room01-wood032-normal-gl.jpg",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/ModelAssets/Textures/room01-wood032-normal-gl.jpg",
+      "sha256": "2de7bc51ebc952496fd750d9bde4dfa9d8166e63f09910cf4e6e4621f5a7e873",
+      "bytes": 6472311
+    },
+    {
+      "source": "art/export/fullfilm-v5/model-textures/room01-wood032-roughness.jpg",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/ModelAssets/Textures/room01-wood032-roughness.jpg",
+      "sha256": "416925e44b6d10c3b213659e006eda2d69511fc19bce978e09fe44469f645a3b",
+      "bytes": 1887429
+    },
+    {
+      "source": "art/export/fullfilm-v5/model-textures/room01-wood032-specular-smoothness.png",
+      "destination": "Assets/OldWebMap/FullFilm/Revision5/ModelAssets/Textures/room01-wood032-specular-smoothness.png",
+      "sha256": "a4beb4dccdc60a85be8b431ba9983a22be0df180783d6c3276ed728b0727a67e",
+      "bytes": 3430188
+    }
+  ]
+}

@@ -1,0 +1,1142 @@
+{
+  "schema": "fullfilm-v5-related-focus.1",
+  "layout": "one held primary + independently changing upper/lower/side related sources; min .32s flashes and 1.28s reading holds",
+  "groups": [
+    {
+      "start": 0,
+      "end": 10.24,
+      "id": "desktop",
+      "indices": [
+        76,
+        86,
+        94,
+        100,
+        106,
+        112,
+        75,
+        85
+      ],
+      "note": "Dates refer to original sources; montage is a memory, not a claim that all material is contemporaneous."
+    },
+    {
+      "start": 10.24,
+      "end": 20.48,
+      "id": "tools",
+      "indices": [
+        8,
+        42,
+        93,
+        13,
+        16,
+        43,
+        44
+      ],
+      "note": "Dates refer to original sources; montage is a memory, not a claim that all material is contemporaneous."
+    },
+    {
+      "start": 20.48,
+      "end": 30.72,
+      "id": "homepage-flash",
+      "indices": [
+        25,
+        38,
+        26,
+        39,
+        24,
+        10
+      ],
+      "note": "Dates refer to original sources; montage is a memory, not a claim that all material is contemporaneous."
+    },
+    {
+      "start": 30.72,
+      "end": 40.96,
+      "id": "translation",
+      "indices": [
+        51,
+        41,
+        74,
+        77,
+        9,
+        68
+      ],
+      "note": "Dates refer to original sources; montage is a memory, not a claim that all material is contemporaneous."
+    },
+    {
+      "start": 40.96,
+      "end": 51.2,
+      "id": "sharing",
+      "indices": [
+        34,
+        11,
+        33,
+        82,
+        72,
+        59,
+        60,
+        61,
+        56
+      ],
+      "note": "Dates refer to original sources; montage is a memory, not a claim that all material is contemporaneous."
+    },
+    {
+      "start": 51.2,
+      "end": 61.44,
+      "id": "bbs-sns",
+      "indices": [
+        2,
+        3,
+        28,
+        48,
+        80,
+        70,
+        89,
+        97,
+        103
+      ],
+      "note": "Dates refer to original sources; montage is a memory, not a claim that all material is contemporaneous."
+    },
+    {
+      "start": 61.44,
+      "end": 71.68,
+      "id": "fansub",
+      "indices": [
+        9,
+        68,
+        77,
+        74,
+        99,
+        105,
+        111,
+        117
+      ],
+      "note": "Dates refer to original sources; montage is a memory, not a claim that all material is contemporaneous."
+    },
+    {
+      "start": 71.68,
+      "end": 77.44,
+      "id": "making",
+      "indices": [
+        13,
+        16,
+        41,
+        46,
+        51
+      ],
+      "note": "Dates refer to original sources; montage is a memory, not a claim that all material is contemporaneous."
+    },
+    {
+      "start": 104.96,
+      "end": 120.32,
+      "id": "conditions",
+      "indices": [
+        83
+      ],
+      "note": "EAC platform security context. Current installed resources are appended by the V5 integration builder."
+    },
+    {
+      "start": 133.12,
+      "end": 168.96,
+      "id": "memory-overload",
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        56,
+        57,
+        66,
+        73,
+        80,
+        83,
+        89,
+        97,
+        103
+      ],
+      "note": "Dates refer to original sources; montage is a memory, not a claim that all material is contemporaneous."
+    }
+  ],
+  "sources": [
+    {
+      "index": 0,
+      "id": "archive-sina-portal-2004",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-00.png",
+      "aspect": 1.6718913270637408,
+      "label": "sina.com.cn  /  2004"
+    },
+    {
+      "index": 1,
+      "id": "archive-163-portal-2004",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-01.png",
+      "aspect": 1.6718913270637408,
+      "label": "163.com  /  2004"
+    },
+    {
+      "index": 2,
+      "id": "archive-xici-directory-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-02.png",
+      "aspect": 1.6718913270637408,
+      "label": "xici.net  /  2005"
+    },
+    {
+      "index": 3,
+      "id": "archive-mop-portal-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-03.png",
+      "aspect": 1.6718913270637408,
+      "label": "mop.com  /  2005"
+    },
+    {
+      "index": 4,
+      "id": "archive-kaixin-entry-2008",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-04.png",
+      "aspect": 1.6718913270637408,
+      "label": "kaixin001.com  /  2008"
+    },
+    {
+      "index": 5,
+      "id": "archive-qq-portal-2004",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-05.png",
+      "aspect": 1.6718913270637408,
+      "label": "qq.com  /  2004"
+    },
+    {
+      "index": 6,
+      "id": "archive-sohu-news-2003",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-06.png",
+      "aspect": 1.6718913270637408,
+      "label": "sohu.com  /  2003"
+    },
+    {
+      "index": 7,
+      "id": "archive-yesky-it-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-07.png",
+      "aspect": 1.6718913270637408,
+      "label": "yesky.com  /  2005"
+    },
+    {
+      "index": 8,
+      "id": "archive-skycn-software-2006",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-08.png",
+      "aspect": 1.6718913270637408,
+      "label": "skycn.com  /  2006"
+    },
+    {
+      "index": 9,
+      "id": "archive-shooter-subtitle-2006",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-09.png",
+      "aspect": 1.6718913270637408,
+      "label": "shooter.cn  /  2006"
+    },
+    {
+      "index": 10,
+      "id": "archive-tudou-video-2007",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-10.png",
+      "aspect": 1.6718913270637408,
+      "label": "tudou.com  /  2007"
+    },
+    {
+      "index": 11,
+      "id": "archive-verycd-sharing-2006",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-11.png",
+      "aspect": 1.6718913270637408,
+      "label": "verycd.com  /  2006"
+    },
+    {
+      "index": 12,
+      "id": "archive-yahoo-directory-2001",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-12.png",
+      "aspect": 1.6718913270637408,
+      "label": "yahoo.com  /  2001"
+    },
+    {
+      "index": 13,
+      "id": "archive-csdn-community-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-13.png",
+      "aspect": 1.6718913270637408,
+      "label": "csdn.net  /  2005"
+    },
+    {
+      "index": 14,
+      "id": "archive-cnbeta-news-2006",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-14.png",
+      "aspect": 1.6718913270637408,
+      "label": "cnbeta.com  /  2006"
+    },
+    {
+      "index": 15,
+      "id": "archive-zol-tech-2004",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-15.png",
+      "aspect": 1.6718913270637408,
+      "label": "zol.com.cn  /  2004"
+    },
+    {
+      "index": 16,
+      "id": "archive-chinaunix-community-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-16.png",
+      "aspect": 1.6718913270637408,
+      "label": "chinaunix.net  /  2005"
+    },
+    {
+      "index": 17,
+      "id": "archive-blogcn-portal-2004",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-17.png",
+      "aspect": 1.6718913270637408,
+      "label": "blogcn.com  /  2004"
+    },
+    {
+      "index": 18,
+      "id": "archive-sohu-blog-beta-2006",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-18.png",
+      "aspect": 1.6718913270637408,
+      "label": "blog.sohu.com  /  2006"
+    },
+    {
+      "index": 19,
+      "id": "archive-yupoo-photo-sharing-2006",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-19.png",
+      "aspect": 1.6718913270637408,
+      "label": "yupoo.com  /  2006"
+    },
+    {
+      "index": 20,
+      "id": "archive-51-mail-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-20.png",
+      "aspect": 1.6718913270637408,
+      "label": "51.com  /  2005"
+    },
+    {
+      "index": 21,
+      "id": "archive-google-search-2003",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-21.png",
+      "aspect": 1.6718913270637408,
+      "label": "google.com  /  2003"
+    },
+    {
+      "index": 22,
+      "id": "archive-myspace-home-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-22.png",
+      "aspect": 1.6718913270637408,
+      "label": "myspace.com  /  2005"
+    },
+    {
+      "index": 23,
+      "id": "archive-friendster-home-2004",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-23.png",
+      "aspect": 1.6718913270637408,
+      "label": "friendster.com  /  2004"
+    },
+    {
+      "index": 24,
+      "id": "archive-youtube-home-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-24.png",
+      "aspect": 1.6718913270637408,
+      "label": "youtube.com  /  2005"
+    },
+    {
+      "index": 25,
+      "id": "archive-geocities-home-1999",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-25.png",
+      "aspect": 1.6718913270637408,
+      "label": "geocities.com  /  1999"
+    },
+    {
+      "index": 26,
+      "id": "archive-4399-games-2006",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-26.png",
+      "aspect": 1.6718913270637408,
+      "label": "4399.com  /  2006"
+    },
+    {
+      "index": 27,
+      "id": "archive-21cn-portal-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-27.png",
+      "aspect": 1.6718913270637408,
+      "label": "21cn.com  /  2005"
+    },
+    {
+      "index": 28,
+      "id": "archive-kdnet-community-2004",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-28.png",
+      "aspect": 1.6718913270637408,
+      "label": "cat898.com  /  2004"
+    },
+    {
+      "index": 29,
+      "id": "archive-china-portal-2004",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-29.png",
+      "aspect": 1.6718913270637408,
+      "label": "china.com  /  2004"
+    },
+    {
+      "index": 30,
+      "id": "archive-sina-mail-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-30.png",
+      "aspect": 1.6718913270637408,
+      "label": "mail.sina.com.cn  /  2005"
+    },
+    {
+      "index": 31,
+      "id": "archive-blogchina-portal-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-31.png",
+      "aspect": 1.6718913270637408,
+      "label": "blogchina.com  /  2005"
+    },
+    {
+      "index": 32,
+      "id": "archive-xitek-forum-2004",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-32.png",
+      "aspect": 1.6718913270637408,
+      "label": "xitek.com  /  2004"
+    },
+    {
+      "index": 33,
+      "id": "archive-emule-cn-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-33.png",
+      "aspect": 1.6718913270637408,
+      "label": "emule.org.cn  /  2005"
+    },
+    {
+      "index": 34,
+      "id": "archive-bittorrent-official-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-34.png",
+      "aspect": 1.6718913270637408,
+      "label": "bittorrent.com  /  2005"
+    },
+    {
+      "index": 35,
+      "id": "archive-napster-1999",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-35.png",
+      "aspect": 1.6718913270637408,
+      "label": "napster.com  /  1999"
+    },
+    {
+      "index": 36,
+      "id": "archive-altavista-search-2001",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-36.png",
+      "aspect": 1.6718913270637408,
+      "label": "altavista.com  /  2001"
+    },
+    {
+      "index": 37,
+      "id": "archive-livejournal-home-2002",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-37.png",
+      "aspect": 1.6718913270637408,
+      "label": "livejournal.com  /  2002"
+    },
+    {
+      "index": 38,
+      "id": "archive-angelfire-home-1999",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-38.png",
+      "aspect": 1.6718913270637408,
+      "label": "angelfire.com  /  1999"
+    },
+    {
+      "index": 39,
+      "id": "archive-7k7k-games-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-39.png",
+      "aspect": 1.6718913270637408,
+      "label": "7k7k.com  /  2005"
+    },
+    {
+      "index": 40,
+      "id": "archive-17173-games-2003",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-40.png",
+      "aspect": 1.6718913270637408,
+      "label": "17173.com  /  2003"
+    },
+    {
+      "index": 41,
+      "id": "archive-tgbus-console-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-41.png",
+      "aspect": 1.6718913270637408,
+      "label": "tgbus.com  /  2005"
+    },
+    {
+      "index": 42,
+      "id": "archive-duote-software-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-42.png",
+      "aspect": 1.6718913270637408,
+      "label": "duote.com  /  2005"
+    },
+    {
+      "index": 43,
+      "id": "archive-itpub-forum-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-43.png",
+      "aspect": 1.6718913270637408,
+      "label": "itpub.net  /  2005"
+    },
+    {
+      "index": 44,
+      "id": "archive-51cto-tech-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-44.png",
+      "aspect": 1.6718913270637408,
+      "label": "51cto.com  /  2005"
+    },
+    {
+      "index": 45,
+      "id": "archive-bbsland-readers-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-45.png",
+      "aspect": 1.6718913270637408,
+      "label": "bbsland.com  /  2005"
+    },
+    {
+      "index": 46,
+      "id": "archive-cnblogs-2006",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-46.png",
+      "aspect": 1.6718913270637408,
+      "label": "cnblogs.com  /  2006"
+    },
+    {
+      "index": 47,
+      "id": "archive-pconline-forum-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-47.png",
+      "aspect": 1.6718913270637408,
+      "label": "bbs.pconline.com.cn  /  2005"
+    },
+    {
+      "index": 48,
+      "id": "archive-sina-bbs-2006",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-48.png",
+      "aspect": 1.6718913270637408,
+      "label": "bbs.sina.com.cn  /  2006"
+    },
+    {
+      "index": 49,
+      "id": "archive-flickr-home-2004",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-49.png",
+      "aspect": 1.6718913270637408,
+      "label": "flickr.com  /  2004"
+    },
+    {
+      "index": 50,
+      "id": "archive-orkut-home-2004",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-50.png",
+      "aspect": 1.6718913270637408,
+      "label": "orkut.com  /  2004"
+    },
+    {
+      "index": 51,
+      "id": "archive-3dm-games-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-51.png",
+      "aspect": 1.6718913270637408,
+      "label": "chnren.com  /  2005"
+    },
+    {
+      "index": 52,
+      "id": "cn-first-email-test-1987",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-52.png",
+      "aspect": 1.1741666666666666,
+      "label": "ncsti.gov.cn  /  1987"
+    },
+    {
+      "index": 53,
+      "id": "cn-network-project-contract-1986",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-53.png",
+      "aspect": 0.75,
+      "label": "ncsti.gov.cn  /  1986"
+    },
+    {
+      "index": 54,
+      "id": "cn-network-worklog-1986-1989",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-54.png",
+      "aspect": 1.5873015873015872,
+      "label": "ncsti.gov.cn  /  1986"
+    },
+    {
+      "index": 55,
+      "id": "cn-network-team-meeting-2003",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-55.png",
+      "aspect": 1.3333333333333333,
+      "label": "ncsti.gov.cn  /  2003"
+    },
+    {
+      "index": 56,
+      "id": "btchina-homepage-2009",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-56.png",
+      "aspect": 4.3126684636118595,
+      "label": "torrentfreak.com  /  2009"
+    },
+    {
+      "index": 57,
+      "id": "cbn-weekly-goodnight-bt-cover-2009",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-57.png",
+      "aspect": 0.79,
+      "label": "finance.sina.cn  /  2009"
+    },
+    {
+      "index": 58,
+      "id": "chinanews-subtitle-group-editorial-cartoon-2014",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-58.png",
+      "aspect": 1.3333333333333333,
+      "label": "chinanews.com  /  2014"
+    },
+    {
+      "index": 59,
+      "id": "azureus-client-screen-2006",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-59.png",
+      "aspect": 1.4981273408239701,
+      "label": "commons.wikimedia.org  /  2006"
+    },
+    {
+      "index": 60,
+      "id": "shareaza-all-networks-screen-2008",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-60.png",
+      "aspect": 2.37741456166419,
+      "label": "commons.wikimedia.org  /  2008"
+    },
+    {
+      "index": 61,
+      "id": "vuze-swarm-animation-2009",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-61.png",
+      "aspect": 1.6913319238900635,
+      "label": "commons.wikimedia.org  /  2009"
+    },
+    {
+      "index": 62,
+      "id": "pork-irc-client-status-2006",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-62.png",
+      "aspect": 1.1666666666666667,
+      "label": "commons.wikimedia.org  /  2006"
+    },
+    {
+      "index": 63,
+      "id": "irc-remote-collaboration-2013",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-63.png",
+      "aspect": 1.5701668302257115,
+      "label": "commons.wikimedia.org  /  2013"
+    },
+    {
+      "index": 64,
+      "id": "china-cybercafe-kunming-2006",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-64.png",
+      "aspect": 1.6666666666666667,
+      "label": "commons.wikimedia.org  /  2006"
+    },
+    {
+      "index": 65,
+      "id": "china-cybercafe-lijiang-2006",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-65.png",
+      "aspect": 1.3333333333333333,
+      "label": "commons.wikimedia.org  /  2006"
+    },
+    {
+      "index": 66,
+      "id": "wikipedia-blackout-screen-2012",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-66.png",
+      "aspect": 1.6016016016016017,
+      "label": "commons.wikimedia.org  /  2012"
+    },
+    {
+      "index": 67,
+      "id": "wikimania-italian-wikipedians-2005",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-67.png",
+      "aspect": 1.3333333333333333,
+      "label": "commons.wikimedia.org  /  2005"
+    },
+    {
+      "index": 68,
+      "id": "somdom-thai-subtitle-recruitment-thread-2008",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-68.png",
+      "aspect": 0.37,
+      "label": "somdom.com  /  2008"
+    },
+    {
+      "index": 69,
+      "id": "chinese-web-0800a41349e5",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-69.png",
+      "aspect": 1.1666666666666667,
+      "label": "tech.sina.com.cn"
+    },
+    {
+      "index": 70,
+      "id": "xiaonei-home-2007",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-70.png",
+      "aspect": 1.4401440144014401,
+      "label": "web.archive.org  /  2007"
+    },
+    {
+      "index": 71,
+      "id": "desktop-051be8cc5613",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-71.png",
+      "aspect": 1.4953271028037383,
+      "label": "guidebookgallery.org"
+    },
+    {
+      "index": 72,
+      "id": "emule-047c-windows-xp",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-72.png",
+      "aspect": 1.522359657469077,
+      "label": "commons.wikimedia.org  /  2006"
+    },
+    {
+      "index": 73,
+      "id": "3q-security-choice-options-2010",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-73.png",
+      "aspect": 1.3733905579399142,
+      "label": "big5.hmo.gov.cn  /  2010"
+    },
+    {
+      "index": 74,
+      "id": "fansub-07363843c1c1",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-74.png",
+      "aspect": 1.6824395373291272,
+      "label": "aegisub.org"
+    },
+    {
+      "index": 75,
+      "id": "internet-explorer-5-textfiles",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-75.png",
+      "aspect": 1.3986013986013985,
+      "label": "archive.org  /  1999"
+    },
+    {
+      "index": 76,
+      "id": "windows95-osr2-desktop",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-76.png",
+      "aspect": 1.3333333333333333,
+      "label": "archive.org"
+    },
+    {
+      "index": 77,
+      "id": "aegisub-translation-assistant-doc",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-77.png",
+      "aspect": 0.7016666666666667,
+      "label": "aegisub.org"
+    },
+    {
+      "index": 78,
+      "id": "web-06d6915f8825",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-78.png",
+      "aspect": 0.6666666666666666,
+      "label": "ifanr.com"
+    },
+    {
+      "index": 79,
+      "id": "chinese-web-164df8636c95",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-79.png",
+      "aspect": 0.8358333333333333,
+      "label": "usold.cn"
+    },
+    {
+      "index": 80,
+      "id": "tianya-bbs-2009",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-80.png",
+      "aspect": 1.3091666666666666,
+      "label": "web.archive.org  /  2009"
+    },
+    {
+      "index": 81,
+      "id": "desktop-081b403750c6",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-81.png",
+      "aspect": 0.9366666666666666,
+      "label": "guidebookgallery.org"
+    },
+    {
+      "index": 82,
+      "id": "bitcomet-053-main",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-82.png",
+      "aspect": 1.4466546112115732,
+      "label": "emule-mods.de"
+    },
+    {
+      "index": 83,
+      "id": "vrchat-eac-security-banner-2022",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-83.png",
+      "aspect": 1.7777777777777777,
+      "label": "hello.vrchat.com  /  2022"
+    },
+    {
+      "index": 84,
+      "id": "fansub-08bd70973a85",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-84.png",
+      "aspect": 4.0,
+      "label": "aegisub.org"
+    },
+    {
+      "index": 85,
+      "id": "internet-explorer-6-wikipedia",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-85.png",
+      "aspect": 1.7857142857142858,
+      "label": "commons.wikimedia.org  /  2014"
+    },
+    {
+      "index": 86,
+      "id": "windows95-osr2-explorer",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-86.png",
+      "aspect": 1.3333333333333333,
+      "label": "archive.org"
+    },
+    {
+      "index": 87,
+      "id": "web-11f57538e25c",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-87.png",
+      "aspect": 1.3722126929674099,
+      "label": "ifanr.com"
+    },
+    {
+      "index": 88,
+      "id": "chinese-web-1b97b1cd92a1",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-88.png",
+      "aspect": 1.1733333333333333,
+      "label": "usold.cn"
+    },
+    {
+      "index": 89,
+      "id": "sina-weibo-home-2009",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-89.png",
+      "aspect": 1.3091666666666666,
+      "label": "web.archive.org  /  2009"
+    },
+    {
+      "index": 90,
+      "id": "desktop-08f8114da892",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-90.png",
+      "aspect": 1.839080459770115,
+      "label": "guidebookgallery.org"
+    },
+    {
+      "index": 91,
+      "id": "bitcomet-options",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-91.png",
+      "aspect": 1.478743068391867,
+      "label": "emule-mods.de"
+    },
+    {
+      "index": 92,
+      "id": "fansub-0dda223af24e",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-92.png",
+      "aspect": 2.3154848046309695,
+      "label": "aegisub.org"
+    },
+    {
+      "index": 93,
+      "id": "winamp-windows-classic-skin",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-93.png",
+      "aspect": 0.79,
+      "label": "archive.org  /  2005"
+    },
+    {
+      "index": 94,
+      "id": "windows98-se-desktop",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-94.png",
+      "aspect": 1.3333333333333333,
+      "label": "archive.org"
+    },
+    {
+      "index": 95,
+      "id": "web-1246bf7f47f8",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-95.png",
+      "aspect": 1.7241379310344827,
+      "label": "ifanr.com"
+    },
+    {
+      "index": 96,
+      "id": "chinese-web-25c1e982cf2a",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-96.png",
+      "aspect": 0.9325,
+      "label": "usold.cn"
+    },
+    {
+      "index": 97,
+      "id": "qq-2003-ui",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-97.png",
+      "aspect": 1.4285714285714286,
+      "label": "web.archive.org"
+    },
+    {
+      "index": 98,
+      "id": "desktop-0c2b6f97db1e",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-98.png",
+      "aspect": 1.0316666666666667,
+      "label": "guidebookgallery.org"
+    },
+    {
+      "index": 99,
+      "id": "fansub-1aa7087fb86d",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-99.png",
+      "aspect": 1.7718715393133997,
+      "label": "aegisub.org"
+    },
+    {
+      "index": 100,
+      "id": "windows98-se-explorer",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-100.png",
+      "aspect": 1.25,
+      "label": "archive.org"
+    },
+    {
+      "index": 101,
+      "id": "web-1d3944f6e23c",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-101.png",
+      "aspect": 1.2341666666666666,
+      "label": "ifanr.com"
+    },
+    {
+      "index": 102,
+      "id": "chinese-web-3ac18274f103",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-102.png",
+      "aspect": 1.0908333333333333,
+      "label": "tech.sina.com.cn"
+    },
+    {
+      "index": 103,
+      "id": "qq-2005-ui",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-103.png",
+      "aspect": 1.4285714285714286,
+      "label": "web.archive.org"
+    },
+    {
+      "index": 104,
+      "id": "desktop-10e78456c5c9",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-104.png",
+      "aspect": 2.127659574468085,
+      "label": "guidebookgallery.org"
+    },
+    {
+      "index": 105,
+      "id": "fansub-24944ed32e88",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-105.png",
+      "aspect": 2.030456852791878,
+      "label": "aegisub.org"
+    },
+    {
+      "index": 106,
+      "id": "windows-xp-build2474-desktop",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-106.png",
+      "aspect": 1.3333333333333333,
+      "label": "archive.org  /  2001"
+    },
+    {
+      "index": 107,
+      "id": "web-281853c364ba",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-107.png",
+      "aspect": 1.2875,
+      "label": "ifanr.com"
+    },
+    {
+      "index": 108,
+      "id": "chinese-web-6fef39de81e8",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-108.png",
+      "aspect": 2.080624187256177,
+      "label": "usold.cn"
+    },
+    {
+      "index": 109,
+      "id": "msn-7-install",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-109.png",
+      "aspect": 1.2958333333333334,
+      "label": "scr.wfcdn.de"
+    },
+    {
+      "index": 110,
+      "id": "desktop-12a74d3f7eb7",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-110.png",
+      "aspect": 1.1366666666666667,
+      "label": "guidebookgallery.org"
+    },
+    {
+      "index": 111,
+      "id": "fansub-3982ab32c816",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-111.png",
+      "aspect": 1.6771488469601676,
+      "label": "aegisub.org"
+    },
+    {
+      "index": 112,
+      "id": "windows-xp-build2474-winver",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-112.png",
+      "aspect": 1.3333333333333333,
+      "label": "archive.org  /  2001"
+    },
+    {
+      "index": 113,
+      "id": "web-2907afc33eee",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-113.png",
+      "aspect": 0.75,
+      "label": "ifanr.com"
+    },
+    {
+      "index": 114,
+      "id": "chinese-web-7c7d13eb8ac5",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-114.png",
+      "aspect": 1.0933333333333333,
+      "label": "tech.sina.com.cn"
+    },
+    {
+      "index": 115,
+      "id": "msn-7-about",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-115.png",
+      "aspect": 1.18,
+      "label": "scr.wfcdn.de"
+    },
+    {
+      "index": 116,
+      "id": "desktop-1dd2be7411f8",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-116.png",
+      "aspect": 1.4953271028037383,
+      "label": "guidebookgallery.org"
+    },
+    {
+      "index": 117,
+      "id": "fansub-402d643a10aa",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-117.png",
+      "aspect": 1.4184397163120568,
+      "label": "aegisub.org"
+    },
+    {
+      "index": 118,
+      "id": "web-2fb1b31a77fb",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-118.png",
+      "aspect": 0.75,
+      "label": "ifanr.com"
+    },
+    {
+      "index": 119,
+      "id": "chinese-web-9609ea148700",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-119.png",
+      "aspect": 0.9558333333333333,
+      "label": "usold.cn"
+    },
+    {
+      "index": 120,
+      "id": "msn-7-beta-login",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-120.png",
+      "aspect": 0.5283333333333333,
+      "label": "scr.wfcdn.de"
+    },
+    {
+      "index": 121,
+      "id": "desktop-20a0dff7f22c",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-121.png",
+      "aspect": 1.1433333333333333,
+      "label": "guidebookgallery.org"
+    },
+    {
+      "index": 122,
+      "id": "fansub-51517e462c93",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-122.png",
+      "aspect": 1.3141666666666667,
+      "label": "aegisub.org"
+    },
+    {
+      "index": 123,
+      "id": "web-3013a8c09c1d",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-123.png",
+      "aspect": 1.7857142857142858,
+      "label": "ifanr.com"
+    },
+    {
+      "index": 124,
+      "id": "chinese-web-ba8075adc576",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-124.png",
+      "aspect": 0.8991666666666667,
+      "label": "usold.cn"
+    },
+    {
+      "index": 125,
+      "id": "wikipedia-homepage-2001",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-125.png",
+      "aspect": 1.28,
+      "label": "web.archive.org  /  2001"
+    },
+    {
+      "index": 126,
+      "id": "desktop-21fe27241e6c",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-126.png",
+      "aspect": 1.4953271028037383,
+      "label": "guidebookgallery.org"
+    },
+    {
+      "index": 127,
+      "id": "fansub-51bff5df2313",
+      "unity_path": "Assets/OldWebMap/FullFilm/Revision4/Textures/source-127.png",
+      "aspect": 3.2989690721649483,
+      "label": "aegisub.org"
+    }
+  ],
+  "chronology_override_cues": [
+    {
+      "start": 40.96,
+      "end": 43.52,
+      "index": 35,
+      "label": "Napster / 1999"
+    },
+    {
+      "start": 48.64,
+      "end": 51.2,
+      "index": 57,
+      "label": "晚安，BT / 2009"
+    },
+    {
+      "start": 71.68,
+      "end": 74.24,
+      "index": 73,
+      "label": "3Q / 2010"
+    },
+    {
+      "start": 74.24,
+      "end": 77.44,
+      "index": 66,
+      "label": "Wikipedia / 2012"
+    },
+    {
+      "start": 78.08,
+      "end": 79.36,
+      "index": 58,
+      "label": "字幕组与下载站 / 2014"
+    },
+    {
+      "start": 104.96,
+      "end": 110.08,
+      "index": 83,
+      "label": "VRChat / 2022"
+    }
+  ]
+}

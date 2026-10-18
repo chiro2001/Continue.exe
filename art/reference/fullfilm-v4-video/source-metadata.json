@@ -1,0 +1,43 @@
+{
+  "bvid": "BV1brH769EtM",
+  "title": "6分钟看完VRChat历史",
+  "published_at_utc": "2026-10-04T14:10:43Z",
+  "page_url": "https://www.bilibili.com/video/BV1brH769EtM",
+  "user_reference_url": "https://b23.tv/7SVvqj7",
+  "download_route": "https://bs.chiro.work:8443/play/BV1brH769EtM?p=1",
+  "download_http_status": 200,
+  "download_content_type": "video/mp4",
+  "download_content_length_bytes": 51167482,
+  "download_response_headers": {
+    "ETag": "\"f37362f8f949ef29b38344dca3ea57dd\"",
+    "Last-Modified": "Mon, 05 Oct 2026 03:38:41 GMT",
+    "Accept-Ranges": "bytes",
+    "Content-MD5": "83Ni+PlJ7ymzg0Tco+pX3Q=="
+  },
+  "resolved_media_url": "CDN URL path /upgcxcode/73/46/42461104673/42461104673_qe1-1-192.mp4; expiring signature retained only in the task temp response log.",
+  "full_fidelity_local_source": "~/tmp/vrc-old-web-map/fullfilm-v4/history-video/source-full.mp4",
+  "full_fidelity_source_sha256": "6f156db2b0687169492d448d3f98d03658cdc8368ead9993c494ebb6a34a79be",
+  "full_fidelity_source_bytes": 51167482,
+  "downloaded_stream": {
+    "duration_seconds": 384.383878,
+    "size_px": [
+      1280,
+      720
+    ],
+    "video_codec": "h264",
+    "video_fps_reported": "30/1 nominal; 29.999... average",
+    "audio_codec": "aac"
+  },
+  "bilibili_api_metadata": {
+    "cid": 42461104673,
+    "published_at_utc": "2026-10-04T14:10:43Z",
+    "page_duration_seconds": 385,
+    "reported_size_px": [
+      1920,
+      1080
+    ],
+    "api_response_copy": "art/reference/fullfilm-v4-video/source-page-api.json"
+  },
+  "web_check": "web.run open of the provided b23.tv page was unavailable; Bilibili view API metadata verified the BV title and page details.",
+  "download_response_log": "~/tmp/vrc-old-web-map/fullfilm-v4/history-video/source-response.json"
+}

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "mode": "karaoke-typing",
+  "note": "不唱；逐字高亮，句末保持，下一句淡出接上",
+  "display": {
+    "placement": "视野下缘的世界空间 HUD 带",
+    "font": "等宽点阵",
+    "colors": ["#FFB000", "#00D8D8", "#FF00AA", "#E8E8E8"]
+  },
+  "lines": [
+    { "index": 1, "segment": "act1-golden", "text": "我把你的文件，复制到我的硬盘" },
+    { "index": 2, "segment": "act1-golden", "text": "你把你的主页，最后一次更新停在 2003" },
+    { "index": 3, "segment": "act1-golden", "text": "有人做种到天亮，有人只留下一句「楼主好人」" },
+    { "index": 4, "segment": "act1-golden", "text": "我们把分享，叫做一种美德" },
+    { "index": 5, "segment": "act2a-netdisk", "text": "直到链接失效那天，谁也没备份过它" },
+    { "index": 6, "segment": "act2b-opensource", "text": "仓库还在，最后一次提交停在四年前" },
+    { "index": 7, "segment": "act2b-opensource", "text": "一个人维护着全世界的管道，没人付他钱" },
+    { "index": 8, "segment": "act2c-vrchat", "text": "我把它上传给你，你把它的名字擦掉了" },
+    { "index": 9, "segment": "act2c-vrchat", "text": "我的模型站在你的身体上，被卖到另一个窗口" },
+    { "index": 10, "segment": "act2c-vrchat", "text": "地图一盏一盏地灭下去" },
+    { "index": 11, "segment": "act3-hope", "text": "后来机器学会了读我们留下的字" },
+    { "index": 12, "segment": "act3-hope", "text": "于是死掉的东西，换一个身体继续活着" },
+    { "index": 13, "segment": "outro", "text": "我们记住那些小小的共享，我们都从那里来" }
+  ],
+  "greetz": {
+    "switches": ["act1-golden@40", "act2c-vrchat@137", "act3-hope@165"],
+    "entries": [
+      "每一个写过个人主页的人",
+      "在 BBS 上给陌生人解答问题的人",
+      "所有 View Source 过的人",
+      "做种到天亮的人",
+      "把源码塞进软盘寄给朋友的人",
+      "QUAZAR OF SANXION",
+      "TRITON FOR FASTTRACKER 2"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "source": "art/export/fullfilm-v3-software/software-unity-play.png",
+  "sha256": "210aaa9277ebe466169a3f1da7c8b105affba728d85ad4ac40c15c5a2c19ac3b",
+  "image_size": [
+    2048,
+    1107
+  ],
+  "play_control_bbox_px": [
+    981,
+    56,
+    1012,
+    75
+  ],
+  "play_control_uv": [
+    0.486328125,
+    0.941282746160795
+  ],
+  "method": "Actual blue active Unity Play button in original full Windows capture; no synthesized control."
+}

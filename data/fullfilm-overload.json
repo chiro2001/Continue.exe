@@ -1,0 +1,139 @@
+{
+  "schema": "oldwebmap.fullfilm.overload.v1",
+  "duration": 256,
+  "start": 133.12,
+  "end": 186.88,
+  "row_seconds": 0.08,
+  "scene": "Assets/Scenes/OWM_FullFilm_v1.unity",
+  "asset_root": "Assets/OldWebMap/FullFilm/Revision1/Overload",
+  "parent": "FullFilm Continuation",
+  "root": "FullFilm Overload",
+  "reference_eye": [
+    0,
+    1.35,
+    -2.8
+  ],
+  "assets": [
+    {
+      "file": "overload-focus-atlas.png",
+      "width": 2560,
+      "height": 3600,
+      "columns": 2,
+      "rows": 5,
+      "cell_width": 1280,
+      "cell_height": 720,
+      "kind": "original-explanatory-interface",
+      "fact_claims": []
+    },
+    {
+      "file": "overload-field-atlas.png",
+      "width": 2048,
+      "height": 1280,
+      "columns": 4,
+      "rows": 4,
+      "cell_width": 512,
+      "cell_height": 320,
+      "kind": "original-explanatory-interface",
+      "fact_claims": []
+    }
+  ],
+  "recalls": [
+    {
+      "path": "art/export/episode123-v4-workflows/workflow-manga-3.png",
+      "kind": "existing-authored-workflow",
+      "credit": "前半已制作工作流画面；保留既有来源索引",
+      "operation": "composite-recall"
+    },
+    {
+      "path": "art/export/episode123-v4-workflows/workflow-subtitles-3.png",
+      "kind": "existing-authored-workflow",
+      "credit": "前半已制作工作流画面；保留既有来源索引",
+      "operation": "composite-recall"
+    },
+    {
+      "path": "art/export/episode123-v4-workflows/workflow-avatar-3.png",
+      "kind": "existing-authored-workflow",
+      "credit": "前半已制作工作流画面；保留既有来源索引",
+      "operation": "composite-recall"
+    }
+  ],
+  "schedule": [
+    {
+      "scene": 14,
+      "start": 133.12,
+      "end": 143.36,
+      "focus": 0,
+      "anchor": "相同的作品，更多的副本",
+      "action": "署名标签脱落；副本继续推进",
+      "minimum_hold": 8.8
+    },
+    {
+      "scene": 15,
+      "start": 143.36,
+      "end": 153.6,
+      "focus": 1,
+      "anchor": "正在查找原始页面…",
+      "action": "相似结果和复制光标逼近；中央阅读锥保留",
+      "minimum_hold": 8.8
+    },
+    {
+      "scene": 16,
+      "start": 153.6,
+      "end": 168.96,
+      "focus": 2,
+      "anchor": "有人正在修好其中一个问题",
+      "action": "159.36一项修复完成，队列继续；163.84—166.40冻结暗下；166.40熟悉版式返回",
+      "minimum_hold": 4.0
+    },
+    {
+      "scene": 17,
+      "start": 168.96,
+      "end": 173.44,
+      "focus": 4,
+      "anchor": "文件还在，播放器没有响应",
+      "kind": "general-condition",
+      "minimum_hold": 3.68
+    },
+    {
+      "scene": 17,
+      "start": 173.44,
+      "end": 177.92,
+      "focus": 5,
+      "anchor": "正文还在，图片没有回来",
+      "kind": "general-condition",
+      "minimum_hold": 3.68
+    },
+    {
+      "scene": 17,
+      "start": 177.92,
+      "end": 182.4,
+      "focus": 6,
+      "anchor": "熟悉的入口，暂时无法访问",
+      "kind": "general-condition",
+      "minimum_hold": 3.68
+    },
+    {
+      "scene": 17,
+      "start": 182.4,
+      "end": 186.88,
+      "focus": 7,
+      "anchor": "工程还在，需要重新适配",
+      "kind": "general-condition",
+      "minimum_hold": 3.68
+    }
+  ],
+  "failure_interface_note": "原创示意，仅表达一般体验；不声称复刻Flash、天涯或任何具体SDK事件。community.example为保留示例域名。",
+  "music_note": "本模块不以空note-on行推断静音，不改变音轨、声源或全局照明。",
+  "comfort": {
+    "central_clear_half_angle_degrees": 20,
+    "nearest_field_z": 4.5,
+    "head_locked_overlay": false,
+    "full_view_wall": false
+  },
+  "implementation": {
+    "merged_field_cards_per_group": 144,
+    "merged_cursors_per_group": 32,
+    "runtime_allocations": false,
+    "auto_sample": false
+  }
+}

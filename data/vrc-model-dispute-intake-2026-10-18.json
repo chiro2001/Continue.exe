@@ -1,0 +1,726 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-18T02:41:21.990162+08:00",
+  "source_kind": "user-provided images; original web pages not independently checked",
+  "source_root": "C:\\Users\\Chiro\\Downloads\\vrc-model-hack",
+  "local_root": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack",
+  "windows_review_root": "C:\\Users\\Chiro\\tmp\\vrc-old-web-map\\vrc-model-hack",
+  "image_count": 14,
+  "total_original_bytes": 11873877,
+  "review_agent": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "max"
+  },
+  "original_transfer_verification": "10/10 source SHA-256 and byte sizes match local originals",
+  "renamed_verification": "10/10 renamed copies match source SHA-256 and byte sizes",
+  "source_groups": [
+    {
+      "image_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "description": "同一社群公告与介绍截图组，非五个独立来源；05重复01的局部"
+    },
+    {
+      "image_indices": [
+        6
+      ],
+      "description": "另一社区推广帖"
+    },
+    {
+      "image_indices": [
+        7
+      ],
+      "description": "视频内容页面中的VRChat头像列表"
+    },
+    {
+      "image_indices": [
+        8
+      ],
+      "description": "湖畔Avatar展示图；用户说明是被盗模型常被换上的展示背景"
+    },
+    {
+      "image_indices": [
+        9
+      ],
+      "description": "商品页与模型提取分发表态"
+    },
+    {
+      "image_indices": [
+        10
+      ],
+      "description": "带订单卡片的聊天争议"
+    },
+    {
+      "image_indices": [
+        11
+      ],
+      "description": "交易留言与争辩"
+    },
+    {
+      "image_indices": [
+        12
+      ],
+      "description": "一个具体作品的授权范围图表"
+    },
+    {
+      "image_indices": [
+        13,
+        14
+      ],
+      "description": "两张梗图辅助素材；不计作独立事件证据"
+    }
+  ],
+  "interpretation_limits": [
+    "识图仅基于本地原图及为辨认正文生成的局部裁切；未访问外部网页，也未运行图片或目录中的任何内容。",
+    "“可见内容”记录截图像素中出现的文字和界面；截图中的发布者说法、聊天指称和商品页数据均不等于其背后的事件已被证实。",
+    "01—05为公告/介绍材料，其中05与01为同一段内容的放大裁切；不按五份独立来源计。",
+    "09与10仅有主题相似性，没有确认账号关系、事件因果或共同来源。",
+    "图片中被模糊的身份和地址类信息不作复原、抄录或推测。"
+  ],
+  "analysis": "spec/73-vrc-model-dispute-material-review.md",
+  "records": [
+    {
+      "visible_content": "竖屏社群频道截图，频道标为 announcement-通知。上半段显示私有访问、注册和访问链接的分享规则；下半段为“关于模型来源”公告，自述模型来源包括海外社区迁移、机器人扫描和网友提供，并表示库持续扩充及访问方式会调整。",
+      "legible_text": [
+        "本站常态保持私有化访问，不定时公开访问、注册。",
+        "非公开访问期间，不允许在公开平台或多人群聊发送私有访问链接，仅允许一对一私聊分享。",
+        "关于模型来源：主要从国外其他社区迁移；部分模型通过机器人扫描；也有一小部分由网友主动提供。",
+        "模型库持续扩充中；目前开放访问和注册，将在不定时间后关闭公开访问路径和购买、注册通道。"
+      ],
+      "visible_dates": [
+        {
+          "date_text": "2026/6/22, 10:52 PM",
+          "context": "公告旁显示的发言时间"
+        },
+        {
+          "date_text": "June 24, 2026",
+          "context": "两则公告之间可见的日期分隔线"
+        },
+        {
+          "date_text": "4:54 AM",
+          "context": "模型来源公告旁显示的时间；日期由上方分隔线提示，但不独立核验"
+        }
+      ],
+      "source_context": {
+        "apparent_source": "手机 Safari 中的社群频道页面，界面外观类似 Discord；可见频道名、在线人数和发言账号显示名。",
+        "verification": "截图只能证明这些文字和界面出现在图像中，不能核验实际服务器、账号、网页是否完整或公告主张是否属实。"
+      },
+      "evidence_level": {
+        "directly_visible": "公告文字、频道界面、发言显示名和时间标签可直接辨认。",
+        "claims": "关于来源、扫描方式、用户提供、访问策略均为公告发布者自述，未独立核实。",
+        "overall": "对截图内显示内容为直接视觉记录；对截图外事实仅属待核验主张。"
+      },
+      "relationships": [
+        {
+          "related_index": 5,
+          "type": "同段内容的裁切放大",
+          "note": "05呈现本图下方“关于模型来源”段落的放大版本，不是独立佐证。"
+        },
+        {
+          "related_index": 2,
+          "type": "界面/社群关联线索",
+          "note": "均出现相同风格的社群界面和相同发言显示名，可能来自同一社群；仅凭截图不能验证账号归属。"
+        }
+      ],
+      "possible_use": "可作为虚拟档案墙或公告界面素材，呈现“访问规则”与“发布者对模型来源的自述”；若用于争议叙述，应把文字明确标成截图中的自述。",
+      "uncertainties": [
+        "页面真实性、完整性和原始发布位置未核验。",
+        "时间标签的时区未知。"
+      ],
+      "unreadable_parts": [
+        "未见明显无法阅读的关键正文；界面边缘有裁切。"
+      ],
+      "index": 1,
+      "original_relative_path": "Image_1792260655778_927.png",
+      "renamed_relative_path": "renamed/01_社群公告_访问规则与模型来源.png",
+      "sha256": "76237ff29b7347dff9c6ee3a07af1c5b4d0087c154345bb89ed79b3a594df6eb",
+      "width": 1179,
+      "height": 2556,
+      "image_type": "PNG",
+      "bytes": 1189782,
+      "source_file_modified": "2026-10-18T02:26:40.6247091+08:00"
+    },
+    {
+      "visible_content": "竖屏“功能介绍”频道截图，顶部欢迎语称“欢迎来到 Asaki 模型社区”，下方介绍模型库访问权限及若干功能。",
+      "legible_text": [
+        "模型库访问权限在非公开注册活动期间需要单独购买。",
+        "实时更新、AI自动打标签、AI总结/锐评、展示模型菜单、模型密码自动解析+用户分享、一键上传到 VRChat 账号。",
+        "隐私保护：上传器本地运行，账号凭据仅储存在本地，不上云端。"
+      ],
+      "visible_dates": [
+        {
+          "date_text": "2026/6/22, 10:51 PM",
+          "context": "介绍消息旁显示的发言时间"
+        }
+      ],
+      "source_context": {
+        "apparent_source": "手机 Safari 中的社群频道页面，外观类似 Discord；频道标题为“功能介绍”。",
+        "verification": "只能辨认截图展示的社区介绍文案，不能核验服务是否真实运行、功能是否存在或安全承诺是否准确。"
+      },
+      "evidence_level": {
+        "directly_visible": "欢迎语、功能列表、访问权限说明和时间标签可直接辨认。",
+        "claims": "功能及隐私承诺为页面发布者自述，未独立核实。",
+        "overall": "截图内容可见；截图外产品行为和安全情况无从确认。"
+      },
+      "relationships": [
+        {
+          "related_index": 3,
+          "type": "同一介绍频道的相邻内容",
+          "note": "03延续账号安全说明。"
+        },
+        {
+          "related_index": 4,
+          "type": "同一介绍频道的后续内容",
+          "note": "04延续上传器操作与网站须知。"
+        },
+        {
+          "related_index": 1,
+          "type": "界面/社群关联线索",
+          "note": "发言显示名和界面风格相同，可能来自同一社群；尚未独立核验。"
+        }
+      ],
+      "possible_use": "适合作为虚拟网页中的功能介绍屏或产品宣传界面；可用标注区分运营者承诺与已核实事实。",
+      "uncertainties": [
+        "功能实际效果、上传行为和账号凭据储存方式均无法由截图验证。",
+        "屏幕上方/下方内容被滚动裁切。"
+      ],
+      "unreadable_parts": [
+        "底部列表有少量内容被输入提示栏遮挡。"
+      ],
+      "index": 2,
+      "original_relative_path": "Image_1792260659384_353.png",
+      "renamed_relative_path": "renamed/02_社群功能介绍_模型库权限与功能.png",
+      "sha256": "573e106d7cc3e5342d5897ef92dbd6e44ccb1dbc4050fc95a280fff14a286430",
+      "width": 1179,
+      "height": 2556,
+      "image_type": "PNG",
+      "bytes": 1067792,
+      "source_file_modified": "2026-10-18T02:26:40.6507809+08:00"
+    },
+    {
+      "visible_content": "“功能介绍”页面中“您的账号安全”段落及“上传器使用说明”开头。发布者表示理解用户对第三方上传器的顾虑，并在文案中提到其工具损害过部分成品模型卖家的利益，同时否认扫描用户登录账号的模型库，另描述代理设置、打包方式和封禁情况。",
+      "legible_text": [
+        "发布者文案称其行为“实际上损害了部分成品（盗版）模卖家的利益”，并称可能有人造谣其工具会导致封禁或模型被删。",
+        "文案自述模型来自海外网站和社区，不会扫描用户登录账号中的模型库；支持配置代理供用户检查操作。",
+        "文案称其打包方式不同于“热上传”，并称内部工作流已使用一年以上、目前0封号。",
+        "页面进入“上传器使用说明”部分。"
+      ],
+      "visible_dates": [],
+      "source_context": {
+        "apparent_source": "与02相同风格的手机社群频道页面，频道标题为“功能介绍”。",
+        "verification": "页面作者身份、所述工具行为、账号风险以及“0封号”说法无法仅由截图核验。"
+      },
+      "evidence_level": {
+        "directly_visible": "账号安全文案和上传器说明标题可直接辨认。",
+        "claims": "有关模型来源、账号扫描、打包工作流、损害第三方利益和封禁情况均为文案发布者的自述。",
+        "overall": "这是对发布者说法的截图记录，不足以证明所述行为或结果。"
+      },
+      "relationships": [
+        {
+          "related_index": 2,
+          "type": "同一介绍频道的连续内容",
+          "note": "02为功能介绍前段。"
+        },
+        {
+          "related_index": 4,
+          "type": "同一介绍频道的连续内容",
+          "note": "04从上传器使用说明继续向下展示操作步骤和网站规则。"
+        }
+      ],
+      "possible_use": "可作为争议双方话语中的“运营者自我说明”一层，放在虚拟终端中并标注为自述；不宜单独承担事实证明。",
+      "uncertainties": [
+        "没有原始网页、服务器记录、客户端行为或第三方核验材料。",
+        "本图底部的后续步骤被提示栏遮挡。"
+      ],
+      "unreadable_parts": [
+        "屏幕下缘有正文被输入提示栏遮住。"
+      ],
+      "index": 3,
+      "original_relative_path": "Image_1792260705846_471.png",
+      "renamed_relative_path": "renamed/03_账号安全声明_上传器说明.png",
+      "sha256": "b878471277bc88ffa61927f523493ec80fe92d0912f2213ca1be1fe6b2096857",
+      "width": 1179,
+      "height": 2556,
+      "image_type": "PNG",
+      "bytes": 1196600,
+      "source_file_modified": "2026-10-18T02:26:40.6426775+08:00"
+    },
+    {
+      "visible_content": "“功能介绍”页面继续展示上传器操作步骤和网站使用须知。画面列出下载客户端、解压到非中文路径、打开一次后通过网页或 Asaki Manager 上传，并显示禁止公开分享平台相关信息/截图、禁止滥用评论和广告等规则。",
+      "legible_text": [
+        "上传器使用说明：下载客户端；解压到任意非中文路径并至少打开一次；在网页点击上传图标或通过 Asaki Manager 上传。",
+        "网站使用须知：禁止在公开平台/群组发送平台相关信息和截图；禁止恶意使用评论功能和发送广告。",
+        "文案称上传器用户对应标准版，完全版暂不提供公开获取渠道。"
+      ],
+      "visible_dates": [],
+      "source_context": {
+        "apparent_source": "与02、03相同风格的手机社群频道页面，内容看起来是同一功能介绍长帖的下段。",
+        "verification": "截图不能核验实际软件、操作流程或规则是否由相关平台执行。"
+      },
+      "evidence_level": {
+        "directly_visible": "操作步骤、规则文字和软件名称可直接辨认。",
+        "claims": "操作与规则是页面文案，执行情况未核实。",
+        "overall": "可确认截图中出现这些说明，不能据此确认软件实际行为。"
+      },
+      "relationships": [
+        {
+          "related_index": 3,
+          "type": "连续滚动内容",
+          "note": "03下端出现“上传器使用说明”标题；本图展示其后续步骤及网站规则。"
+        },
+        {
+          "related_index": 2,
+          "type": "同一介绍频道",
+          "note": "与02共享界面风格及“功能介绍”频道标题。"
+        }
+      ],
+      "possible_use": "适合作为虚拟网页中的教程/规则面板，或与03并置呈现宣传说明及使用限制。",
+      "uncertainties": [
+        "无法核验软件是否按文案运行，也无法确认规则的实际约束对象。"
+      ],
+      "unreadable_parts": [
+        "未见关键正文无法辨读；顶部和底部均有滚动裁切。"
+      ],
+      "index": 4,
+      "original_relative_path": "Image_1792260709116_199.png",
+      "renamed_relative_path": "renamed/04_上传步骤与网站使用规则.png",
+      "sha256": "473061822f0412a95ca19abd6e9125e35e1fca688d3b0046cf149fa0cc4793e9",
+      "width": 1179,
+      "height": 2556,
+      "image_type": "PNG",
+      "bytes": 1129857,
+      "source_file_modified": "2026-10-18T02:26:40.6573465+08:00"
+    },
+    {
+      "visible_content": "横向局部截图，放大呈现“关于模型来源”段落：文字称模型来自海外社区迁移、机器人扫描和网友提供。画面上可见相同社群头像与发言显示名。",
+      "legible_text": [
+        "我们的模型来源有多种，主要是从国外其他社区迁移而来。",
+        "部分模型通过机器人扫描而来，不需要登录游戏/加入房间，具体技术细节暂不透露。",
+        "还有一小部分由热心网友主动提供。"
+      ],
+      "visible_dates": [
+        {
+          "date_text": "4:54 AM",
+          "context": "局部图顶部保留的发言时间；对应日期需结合01中的日期分隔线，不能独立验证"
+        }
+      ],
+      "source_context": {
+        "apparent_source": "社群公告内容的放大局部，视觉元素与01中的模型来源段落一致。",
+        "verification": "此图与01为同段截图内容的裁切放大，不是独立来源，也不能独立证明文案主张。"
+      },
+      "evidence_level": {
+        "directly_visible": "局部正文、头像和发言显示名可直接辨认。",
+        "claims": "模型来源和扫描方式均是公告发布者的自述。",
+        "overall": "01的重复/放大呈现，不增加独立佐证。"
+      },
+      "relationships": [
+        {
+          "related_index": 1,
+          "type": "同段内容裁切放大",
+          "note": "本图对应01下方“关于模型来源”公告，二者应视作一个来源项目。"
+        }
+      ],
+      "possible_use": "可作为01的可读性放大画面或用于字幕/资料墙近景；不应被当作额外证人或独立来源。",
+      "uncertainties": [
+        "局部图未保留完整频道上下文。",
+        "公告自述未经独立核验。"
+      ],
+      "unreadable_parts": [
+        "关键句清晰；顶部仅剩部分头像和时间区域。"
+      ],
+      "index": 5,
+      "original_relative_path": "Image_1792260754564_77.png",
+      "renamed_relative_path": "renamed/05_模型来源公告文字放大.png",
+      "sha256": "3c72d2cb0860c8a09338306bbc94e7d6dd40d48330a1a3521e4f028338ac9be8",
+      "width": 1125,
+      "height": 659,
+      "image_type": "PNG",
+      "bytes": 617086,
+      "source_file_modified": "2026-10-18T02:26:40.7264484+08:00"
+    },
+    {
+      "visible_content": "文章式社群公告截图，页首显示 EkuZNetwork，标题为“ekuz 官方群开放｜VRChat 模型交流”。正文宣传选择、下载、使用工具、成功上传的简要流程，并列出群聊服务和禁止广告、盗卖、私下交易等规则；链接/身份信息区域已模糊。",
+      "legible_text": [
+        "ekuz 是一个清楚、快速、安全的 VRChat 模型商城。",
+        "群可咨询、售后、交流、反馈、宣传；客服暂未固定，进群先找群管理。",
+        "群内禁广告、刷屏、盗卖、私下交易；资源仅供学习交流，版权归原作者，侵权联系删除。"
+      ],
+      "visible_dates": [
+        {
+          "date_text": "2026年09月20日 23:12",
+          "context": "页面显示的编辑时间"
+        }
+      ],
+      "source_context": {
+        "apparent_source": "带有文章/动态式排版和重复水印的页面截图；可见发布者显示名 EkuZNetwork，但具体承载平台无法仅凭截图确认。",
+        "verification": "群是否真实存在、商城宣传是否准确、群规是否执行均不能由截图验证。模糊的邀请/身份信息不作复原。"
+      },
+      "evidence_level": {
+        "directly_visible": "页面标题、日期和规则文字可直接辨认。",
+        "claims": "商城描述、群服务及版权规则是该页面的自述。",
+        "overall": "只能确认截图呈现了这些文字，不能据此证明实际群组运营状态。"
+      },
+      "relationships": [],
+      "possible_use": "可作为另一类VRChat模型社区宣传/版权规则界面，与01—04的自述作视觉并置；不宜据此推断两个群组有关联。",
+      "uncertainties": [
+        "原始发布平台和页面完整性不明。",
+        "受模糊处理的链接和身份信息不可读，也不作推测。"
+      ],
+      "unreadable_parts": [
+        "中部邀请/链接信息经模糊处理，无法阅读。"
+      ],
+      "index": 6,
+      "original_relative_path": "Image_1792260816916_845.png",
+      "renamed_relative_path": "renamed/06_ekuz交流群公告_资源与版权规则.png",
+      "sha256": "5eb3b62c66601ceee0c2c0610fdc5393c9d135eb0f571c423d6e422f81e9a478",
+      "width": 1012,
+      "height": 673,
+      "image_type": "PNG",
+      "bytes": 198279,
+      "source_file_modified": "2026-10-18T02:26:41.0041287+08:00"
+    },
+    {
+      "visible_content": "视频或内容页面截图，标题为“VRC上传模型读评论以及增加一些模型”，画面内浏览器打开 VRChat 的 Avatars 页面，显示若干标为 Private 的头像条目。底部有视频字幕。",
+      "legible_text": [
+        "标题：VRC上传模型读评论以及增加一些模型。",
+        "页面标注：个人观点，仅供参考。",
+        "浏览器地址栏可辨认 vrchat.com/home/avatars；网页为 VRChat Avatars 页面。",
+        "字幕可辨认部分：“……可以就是给一点赞助的”。"
+      ],
+      "visible_dates": [
+        {
+          "date_text": "2026-09-20 16:59:30",
+          "context": "内容页面显示时间；不是对视频所述事件的独立证明"
+        }
+      ],
+      "source_context": {
+        "apparent_source": "外层为视频/内容页面截图，内层浏览器地址栏显示 vrchat.com/home/avatars。",
+        "verification": "可辨认截图所示网址和头像列表画面，但无法验证截图来源、账号实际所有权、列表完整性或视频字幕语境。"
+      },
+      "evidence_level": {
+        "directly_visible": "浏览器页面、若干 Private 标签、外层标题和时间可直接看到。",
+        "claims": "视频标题和字幕所表达的观点/叙述不能仅凭单帧截图核实。",
+        "overall": "网页画面是直接可见记录；画面背后的账号与事件主张待核验。"
+      },
+      "relationships": [],
+      "possible_use": "可用于虚拟档案/网页屏幕中表现头像列表浏览或视频取证画面；涉及条目身份时建议模糊处理，并保留“截图来源未核实”标记。",
+      "uncertainties": [
+        "页面左侧存在遮挡/模糊区域。",
+        "具体头像条目名称、视频旁白上下文及页面账号身份不作为确定事实。"
+      ],
+      "unreadable_parts": [
+        "左侧页面内容被遮挡或模糊；个别条目和界面文字因尺寸较小难以可靠辨读。"
+      ],
+      "index": 7,
+      "original_relative_path": "Image_1792260823889_572.png",
+      "renamed_relative_path": "renamed/07_视频画面_VRChat头像列表页.png",
+      "sha256": "1cbf37784f9468022b5fc1fbbd5f650de1eb5e6369b21ff6b958f5da9546a69a",
+      "width": 2564,
+      "height": 1567,
+      "image_type": "PNG",
+      "bytes": 977753,
+      "source_file_modified": "2026-10-18T02:26:41.0877479+08:00"
+    },
+    {
+      "visible_content": "VRChat风格的虚拟场景图：背对镜头的长发、发光蓝色装饰头像站在湖边，远处有电线、树木和晚霞，水面反射天空。无争议事件相关文字或物证。",
+      "legible_text": [],
+      "visible_dates": [],
+      "source_context": {
+        "apparent_source": "虚拟世界中的Avatar与湖畔环境截图；图中没有可辨平台界面或事件说明。",
+        "verification": "无法从该图确认世界名称、头像身份、拍摄时间或与其他争议素材的关系。"
+      },
+      "evidence_level": {
+        "directly_visible": "可直接确认的只有虚拟头像、湖畔和晚霞等画面元素。",
+        "claims": "没有画面文字主张。",
+        "overall": "普通Avatar环境图，不提供盗模/模型来源相关证据。"
+      },
+      "relationships": [],
+      "possible_use": "用作被盗模型展示惯例的视觉识别符号，关联身体被压为资源条目的过程；片内不加背景知识说明文字。",
+      "uncertainties": [
+        "画面作者、虚拟世界和Avatar素材授权状态未知。"
+      ],
+      "unreadable_parts": [
+        "没有文字内容。"
+      ],
+      "index": 8,
+      "original_relative_path": "Image_1792260999272_890.jpg",
+      "renamed_relative_path": "renamed/08_VRChat湖畔晚霞场景.jpg",
+      "sha256": "8c76a0bdeac0084a7d9d7c2f22def93477478d76e94d9884d467119c0dfe9d1b",
+      "width": 800,
+      "height": 600,
+      "image_type": "JPEG",
+      "bytes": 65475,
+      "source_file_modified": "2026-10-18T02:26:41.1692132+08:00",
+      "user_supplied_context": "湖畔晚霞是被盗模型常被换上的展示背景；不在片内解释这个背景知识。"
+    },
+    {
+      "visible_content": "类似 BOOTH 的3D角色商品页截图：显示“Vket 2025 Winter”与 VRChat 标签、数字商品样式、作品标题“闹剧到此为止吧”、标价 9,999,999 JPY，以及商品公开日期。左侧商品图覆盖大字“又想要了是吧？”。商品页下方正文表示将继续提取模型文件并向多个群分发，另有被模糊处理的身份/地址条目。",
+      "legible_text": [
+        "商品分类显示为 3D Models > 3D Characters，并有 Vket 2025 Winter、VRChat 标签。",
+        "商品标题：“闹剧到此为止吧”；标价显示 9,999,999 JPY；页面显示 Digital。",
+        "商品公开日時：2026-02-10 20:52。",
+        "商品图文字：“又想要了是吧？”",
+        "下方正文包含继续提取模型文件、向多个群分发等表态，并称会继续到底；此处仅记录页面可见表态，不认定其实施或真实性。"
+      ],
+      "visible_dates": [
+        {
+          "date_text": "Vket 2025 Winter",
+          "context": "页面上的活动标签"
+        },
+        {
+          "date_text": "2026-02-10 20:52",
+          "context": "页面显示的商品公开时间；不代表成交时间"
+        }
+      ],
+      "source_context": {
+        "apparent_source": "页面样式和文字类似 BOOTH 商品页，正文亦出现 BOOTH 相关字样。",
+        "verification": "截图不能验证页面真伪、商品是否仍在售、标价是否真实有效、是否发生交易，或下方表态是否实施。"
+      },
+      "evidence_level": {
+        "directly_visible": "商品页面布局、标题、页面价格、活动标签、公开时间及下方文字可见。",
+        "claims": "继续提取/分发的表态是页面正文中的发言，不证明已执行；标价也不证明真实成交。",
+        "overall": "对截图所示页面和表态是直接视觉记录；对实际发布和行为仅属待核验内容。"
+      },
+      "relationships": [
+        {
+          "related_index": 10,
+          "type": "主题相关但关联未核实",
+          "note": "均出现模型来源/提取争议主题；没有可核验的账号对应关系或因果链。"
+        }
+      ],
+      "possible_use": "可作为虚拟档案中的商品页面及争议言论画面；建议对被模糊的身份/地址区域继续保持遮挡，并将正文标为页面发言/主张。",
+      "uncertainties": [
+        "页面是否为原始 BOOTH 页面、是否被编辑、标价是否可购买或成交均未核实。",
+        "下方身份/地址片段已模糊，未转录或推测。",
+        "产品图上的文字属于图像内容，不能单独证明作者意图。"
+      ],
+      "unreadable_parts": [
+        "页面下方数行身份/地址类内容被模糊处理；该区域不尝试辨读。"
+      ],
+      "index": 9,
+      "original_relative_path": "Screenshot_2026-10-18-02-20-47-202_com.tencent.m.jpg",
+      "renamed_relative_path": "renamed/09_BOOTH商品页与继续提取分发言论.jpg",
+      "sha256": "c8232d0b57e9cd678c9de6aea51488bc476a03e50e86ad9676f9b1eb66892373",
+      "width": 1440,
+      "height": 1785,
+      "image_type": "JPEG",
+      "bytes": 624458,
+      "source_file_modified": "2026-10-18T02:26:41.2507824+08:00"
+    },
+    {
+      "visible_content": "中文即时通讯聊天截图。顶部订单卡片显示 53.10 元、运费 0 元和“交易成功”；聊天中可见“这个号不要了完全无所谓”，随后出现模型图片/网页缩略图。下方发言者文字称对方发现“我是扫的”，并反过来指称另一方所支持者使用 BOOTH 素材，同时质疑双重标准并提到退款。",
+      "legible_text": [
+        "订单卡片显示：¥53.10、含运费0.00元、交易成功。",
+        "聊天消息：“这个号不要了完全无所谓”。",
+        "发言者文字称“你现在发现我是扫的”，属于对自身行为的表述（具体语境和“扫”的含义未核实）。",
+        "同一发言者反过来指称第三方使用 BOOTH 素材，并质疑退款与“双标”；该指控未经独立核实。"
+      ],
+      "visible_dates": [
+        {
+          "date_text": "12:20",
+          "context": "聊天中的时间分隔，仅显示时刻，没有可见日期"
+        }
+      ],
+      "source_context": {
+        "apparent_source": "手机即时通讯对话截图，界面未显示足以确认平台的完整标题栏。",
+        "verification": "截图不能核验对话参与者身份、消息上下文、订单真实性或被指称行为；与09之间没有已验证的账号对应关系。"
+      },
+      "evidence_level": {
+        "directly_visible": "聊天文字、订单卡片样式、金额和图片缩略图可见。",
+        "claims": "聊天中的“我是扫的”是发言者对自身行为的文字表述；关于第三方使用 BOOTH 素材及退款能力的内容是其指称，均未经独立核实。",
+        "overall": "只证明截图中呈现了这些聊天/订单界面，不能证明对话内容或交易事实。"
+      },
+      "relationships": [
+        {
+          "related_index": 9,
+          "type": "主题相关但账号关系未验证",
+          "note": "两张图都涉及模型来源争议；不得据此认定为同一账号、同一事件或因果链。"
+        }
+      ],
+      "possible_use": "可用于表现聊天争执和相互指称的媒介画面；若用于MV，可只呈现经过脱敏的短句/气泡，并把内容标成当事人说法。",
+      "uncertainties": [
+        "完整日期、参与者身份、聊天前后文均不可见。",
+        "订单卡片和金额不能证明真实付款或相关模型交易。",
+        "附件缩略图过小，无法辨认其来源或内容。",
+        "“扫”的具体含义和相关上下文不明；第三方是否使用 BOOTH 素材无法核验。"
+      ],
+      "unreadable_parts": [
+        "头像及部分账号标识不清；附件图像缩略图无法辨认；被截断的聊天消息不补全。"
+      ],
+      "index": 10,
+      "original_relative_path": "Screenshot_2026-10-18-02-23-15-538_com.tencent.m.jpg",
+      "renamed_relative_path": "renamed/10_聊天截图_模型来源与退款争议.jpg",
+      "sha256": "fd7a626746814d3574b54a4029babcca079458e770d62111fdecd5e7c860aab0",
+      "width": 1117,
+      "height": 2091,
+      "image_type": "JPEG",
+      "bytes": 554449,
+      "source_file_modified": "2026-10-18T02:26:41.4120841+08:00"
+    },
+    {
+      "original_relative_path": "1792263419065.jpeg",
+      "bytes": 2120562,
+      "source_modified": "2026-10-18T03:04:12.3644718+08:00",
+      "sha256": "d8d5d544dba99a1c7187af1aecb0099894e91b90d5548ca4e32f4f2a6f4717da",
+      "index": 11,
+      "width": 1440,
+      "height": 3200,
+      "image_type": "JPEG",
+      "renamed_relative_path": "renamed/11_交易留言与转卖争论.jpeg",
+      "redacted_relative_path": "redacted/11_交易留言与转卖争论_脱敏.png",
+      "visible_content": "交易应用中的模型目录及留言争论，包含对二次出售的质疑与回复。",
+      "legible_text": [
+        "倒模网站偷来的东西，你也好意思卖，脸？",
+        "作者有没有说过禁止二次出售"
+      ],
+      "visible_dates": [
+        "4天前",
+        "13小时前"
+      ],
+      "possible_use": "用作交易与争辩的真实界面辅助；身份和位置已遮。",
+      "source_context": "用户提供的图片；不额外推断不同账号与交易的对应关系。",
+      "redacted_output_sha256": "3ad46d4ef434eec280a163e894f662a4fdd10eb0825f4793c26c64b44c76f79c"
+    },
+    {
+      "original_relative_path": "Eku模型说明.jpeg",
+      "bytes": 296859,
+      "source_modified": "2026-10-18T03:04:12.4050754+08:00",
+      "sha256": "57475ef95203782a1ac78c03c69cc7ca857363db25bdd848a6598f0ee909777c",
+      "index": 12,
+      "width": 1192,
+      "height": 1684,
+      "image_type": "JPEG",
+      "renamed_relative_path": "renamed/12_模型使用授权范围说明.jpeg",
+      "redacted_relative_path": "redacted/12_模型使用授权范围说明.png",
+      "visible_content": "具体模型使用授权范围的中日文图表，包含个人使用、上传、修改、再发布等分类。",
+      "legible_text": [
+        "在未修改的状态下将数位文件进行再次发布：不允许",
+        "将修改后的数位文件进行发布：不允许"
+      ],
+      "visible_dates": [],
+      "possible_use": "取再分发限制与允许使用图符作辅助，不泛化为所有模型条款。",
+      "source_context": "用户提供的图片；不额外推断不同账号与交易的对应关系。",
+      "redacted_output_sha256": "09d4bb1497338548ad2d0a60299f8140e28ba29d31ee5ab58207fefd8ebfaeb4"
+    },
+    {
+      "original_relative_path": "表情包.png",
+      "bytes": 59057,
+      "source_modified": "2026-10-18T03:04:12.4823350+08:00",
+      "sha256": "79013da730f0df8d43d4adc92b2382326c0214db8d16f7ee43d9ecce7b63e2a7",
+      "index": 13,
+      "width": 642,
+      "height": 180,
+      "image_type": "PNG",
+      "renamed_relative_path": "renamed/13_模型不错我扫走了哈表情.png",
+      "redacted_relative_path": "redacted/13_模型不错我扫走了哈表情.png",
+      "visible_content": "表情气泡写着“模型不错，我扫走了哈”。",
+      "legible_text": [
+        "模型不错，我扫走了哈"
+      ],
+      "visible_dates": [],
+      "possible_use": "短促反应；另有纯文字气泡裁片。",
+      "source_context": "用户提供的图片；不额外推断不同账号与交易的对应关系。",
+      "redacted_output_sha256": "be4f3f109891e0162ecd98c09db48753c4c67d62f40178a14b322b8e45526777"
+    },
+    {
+      "original_relative_path": "需要提取上面的扫走了.png",
+      "bytes": 1775868,
+      "source_modified": "2026-10-18T03:04:12.2396075+08:00",
+      "sha256": "093cfbed03636bfececb2d3c6b30dcc6b42ebd8c860b8705308e992c2a62c5d8",
+      "index": 14,
+      "width": 1219,
+      "height": 1290,
+      "image_type": "PNG",
+      "renamed_relative_path": "renamed/14_模型卡上的扫走了印章.png",
+      "redacted_relative_path": "redacted/14_扫走了邮戳_透明.png",
+      "visible_content": "模型展示卡上叠加“扫走了”印章，底图含模型名与上传者。",
+      "legible_text": [
+        "扫走了"
+      ],
+      "visible_dates": [],
+      "possible_use": "完整透明邮戳用于少量盖章反应；中央字牌来自原图，双圈与五条波纹参考重绘。",
+      "source_context": "用户提供的图片；不额外推断不同账号与交易的对应关系。",
+      "redacted_output_sha256": "a6e607ed707c1bf3fbc0cf28dc6dd864e4b1256fc7b9613e7b67aa365583c24e",
+      "derivation": {
+        "generator_relative_path": "stamp-redraw/build_stamp.py",
+        "worker_manifest_relative_path": "stamp-redraw/manifest.json",
+        "complete_relative_path": "stamp-redraw/扫走了_完整邮戳.png",
+        "outline_relative_path": "stamp-redraw/扫走了_邮戳轮廓.png",
+        "label_relative_path": "stamp-redraw/扫走了_字牌层.png",
+        "svg_relative_path": "stamp-redraw/扫走了_完整邮戳.svg",
+        "preview_relative_path": "stamp-redraw/预览_浅底.png",
+        "plate_source_sha256": "27115f8825777ec84262c07d844ed5d35cf2efa0ee1c70e72c089b620b3d5292",
+        "redrawn_parts": [
+          "double_oval_rings",
+          "five_cancellation_waves"
+        ],
+        "rings": 2,
+        "waves": 5,
+        "label_angle_degrees": 22,
+        "worker_model": "gpt-6-luna",
+        "reasoning_effort": "max"
+      },
+      "redacted_dimensions": [
+        1400,
+        1000
+      ]
+    }
+  ],
+  "windows_mirror_verification": {
+    "verified_mirror_files": 30,
+    "verified_source_files": 10,
+    "original_images": 10,
+    "renamed_images": 10,
+    "gallery": "C:\\Users\\Chiro\\tmp\\vrc-old-web-map\\vrc-model-hack\\index.html"
+  },
+  "user_context": {
+    "recorded_date": "2026-10-18",
+    "basis": "用户在素材审阅后直接补充的语境，未作为独立技术取证",
+    "image_08": "湖畔晚霞是被盗模型常被换上的展示背景；不在片内解释这个背景知识。",
+    "other_images": "有人在公开房间批量扫描玩家模型文件，下载并解包，然后将文件转卖。",
+    "narrative_focus": "玩家正在使用的身体未经同意被提取、整理、展示并转卖；不将普通分享等同于这种行为。"
+  },
+  "planned_redaction_root": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack/redacted",
+  "addition_review": "spec/75-model-material-additions-and-redaction.md",
+  "source_manifest_v2": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack/reports/source-manifest-v2.json",
+  "redaction_manifest": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack/reports/redaction-manifest.json",
+  "redaction_verification": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack/reports/redaction-verification.json",
+  "final_processing": {
+    "executor": "primary agent",
+    "requested_subagent_model": "claude-sonnet-5-5",
+    "model_attempt_result": "Unknown model; not available in spawn_agent",
+    "initial_10_image_agent": "gpt-6-luna[max]",
+    "new_4_and_final_corrections": "primary agent"
+  },
+  "redaction_delivery": {
+    "local_root": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack/redacted-review",
+    "windows_root": "C:\\Users\\Chiro\\tmp\\vrc-old-web-map\\vrc-model-hack-redacted",
+    "verification": {
+      "verified_package_files": 30,
+      "postmark": "C:\\Users\\Chiro\\tmp\\vrc-old-web-map\\vrc-model-hack-redacted\\贴纸\\扫走了_完整邮戳.png",
+      "index": "C:\\Users\\Chiro\\tmp\\vrc-old-web-map\\vrc-model-hack-redacted\\index.html"
+    },
+    "main_image_count": 14,
+    "region_count": 189,
+    "proposed_unity_changes_implemented": false
+  },
+  "postmark_correction": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "max",
+    "canvas": [
+      1400,
+      1000
+    ],
+    "rings": 2,
+    "waves": 5,
+    "plate_angle_degrees": 22,
+    "manifest": "/home/chiro/tmp/vrc-old-web-map/vrc-model-hack/stamp-redraw/manifest.json",
+    "complete_sha256": "a6e607ed707c1bf3fbc0cf28dc6dd864e4b1256fc7b9613e7b67aa365583c24e",
+    "unchanged_other_13_images": true,
+    "windows_delivery_verified": true
+  }
+}

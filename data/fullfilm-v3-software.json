@@ -1,0 +1,389 @@
+{
+  "schema": "fullfilm-v3-real-software.1",
+  "captures_are_actual_windows_pixels": true,
+  "play_capture_ready": true,
+  "source_geometry": "art/models/fullfilm-v3/fullfilm_v3_scene_block.blend / .fbx",
+  "records": [
+    {
+      "id": "software-unity-editor",
+      "file": "software-unity-editor.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/software/unity-scene-block-editor-actual.png",
+      "source_sha256": "849988546e056f974e23642a8c5e0d06eaf1f3a60117be137ece4196a89b0a9e",
+      "crop_px": [
+        0,
+        0,
+        2569,
+        1389
+      ],
+      "dimensions": [
+        2048,
+        1107
+      ],
+      "sha256": "dfe285950d02f7a73b52223c533bdd68c9bc47b75dcc84e8e9f2644c2c5d6528",
+      "operation": "Actual capture crop, optional aspect-preserving letterbox; no UI drawn"
+    },
+    {
+      "id": "software-blender-material",
+      "file": "software-blender-material.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/software/blender-scene-block-actual.png",
+      "source_sha256": "8a25051e952da6cdfb711d81d1fb810f9f0ebf16b1daa7aa2eac15766d9c92e9",
+      "crop_px": [
+        0,
+        0,
+        2569,
+        1389
+      ],
+      "dimensions": [
+        2048,
+        1107
+      ],
+      "sha256": "7a72826a645753d943cc51d7fa2d76c8d762d25126d5b74dad409f01c2d894ef",
+      "operation": "Actual capture crop, optional aspect-preserving letterbox; no UI drawn"
+    },
+    {
+      "id": "software-blender-wire",
+      "file": "software-blender-wire.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/software/blender-scene-wire-actual.png",
+      "source_sha256": "28a8241d2d6961b1d6be54adcd7b4068e843f34aac35c1132e3510e7559cd513",
+      "crop_px": [
+        0,
+        0,
+        2569,
+        1389
+      ],
+      "dimensions": [
+        2048,
+        1107
+      ],
+      "sha256": "bc2dd2f1ff1a4a56c5d260204599b24fb1bbc6ea7479b4c6ab676965ed0c62e5",
+      "operation": "Actual capture crop, optional aspect-preserving letterbox; no UI drawn"
+    },
+    {
+      "id": "software-unity-hierarchy",
+      "file": "software-unity-hierarchy.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/software/unity-scene-block-editor-actual.png",
+      "source_sha256": "849988546e056f974e23642a8c5e0d06eaf1f3a60117be137ece4196a89b0a9e",
+      "crop_px": [
+        1665,
+        83,
+        2104,
+        847
+      ],
+      "dimensions": [
+        480,
+        764
+      ],
+      "sha256": "b712f8e762955e41502741efb708a9b01d19472d35451a71394123642083353d",
+      "operation": "Actual capture crop, optional aspect-preserving letterbox; no UI drawn"
+    },
+    {
+      "id": "software-unity-inspector",
+      "file": "software-unity-inspector.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/software/unity-scene-block-editor-actual.png",
+      "source_sha256": "849988546e056f974e23642a8c5e0d06eaf1f3a60117be137ece4196a89b0a9e",
+      "crop_px": [
+        2104,
+        83,
+        2569,
+        1028
+      ],
+      "dimensions": [
+        621,
+        945
+      ],
+      "sha256": "9e7ec4b1abc7f4667f2d7c9818279ac10513dcb1c494cc5c292fd51bbd25a671",
+      "operation": "Actual capture crop, optional aspect-preserving letterbox; no UI drawn"
+    },
+    {
+      "id": "software-blender-timeline",
+      "file": "software-blender-timeline.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/software/blender-scene-block-actual.png",
+      "source_sha256": "8a25051e952da6cdfb711d81d1fb810f9f0ebf16b1daa7aa2eac15766d9c92e9",
+      "crop_px": [
+        0,
+        1256,
+        2112,
+        1357
+      ],
+      "dimensions": [
+        2048,
+        239
+      ],
+      "sha256": "f4cc879baf380dea11052956eb97612ca3e268fe978fa77738f61d5660ed9d08",
+      "operation": "Actual capture crop, optional aspect-preserving letterbox; no UI drawn"
+    },
+    {
+      "id": "software-frame-title",
+      "file": "software-frame-title.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/software/unity-scene-block-editor-actual.png",
+      "source_sha256": "849988546e056f974e23642a8c5e0d06eaf1f3a60117be137ece4196a89b0a9e",
+      "crop_px": [
+        0,
+        0,
+        2394,
+        44
+      ],
+      "dimensions": [
+        2048,
+        31
+      ],
+      "sha256": "0d05077f7375bbeca91367e22da504c62090566e39f87108b1d3b508b9d1d0ea",
+      "operation": "Actual capture crop, optional aspect-preserving letterbox; no UI drawn"
+    },
+    {
+      "id": "software-frame-toolbar-idle",
+      "file": "software-frame-toolbar-idle.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/software/unity-scene-block-editor-actual.png",
+      "source_sha256": "849988546e056f974e23642a8c5e0d06eaf1f3a60117be137ece4196a89b0a9e",
+      "crop_px": [
+        796,
+        49,
+        1773,
+        100
+      ],
+      "dimensions": [
+        1081,
+        51
+      ],
+      "sha256": "908a473c051f17bbd618bc78a1b289acd6756577c3ef2b17713b472462d9e19c",
+      "operation": "Actual capture crop, optional aspect-preserving letterbox; no UI drawn"
+    },
+    {
+      "id": "software-frame-hierarchy",
+      "file": "software-frame-hierarchy.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/software/unity-scene-block-editor-actual.png",
+      "source_sha256": "849988546e056f974e23642a8c5e0d06eaf1f3a60117be137ece4196a89b0a9e",
+      "crop_px": [
+        1665,
+        83,
+        1775,
+        997
+      ],
+      "dimensions": [
+        112,
+        914
+      ],
+      "sha256": "2530b83eb9a8b73f157772ef350799d103ac6ea51f97a09ab08db14cd0ddfb6d",
+      "operation": "Actual capture crop, optional aspect-preserving letterbox; no UI drawn"
+    },
+    {
+      "id": "software-frame-inspector",
+      "file": "software-frame-inspector.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/software/unity-scene-block-editor-actual.png",
+      "source_sha256": "849988546e056f974e23642a8c5e0d06eaf1f3a60117be137ece4196a89b0a9e",
+      "crop_px": [
+        2104,
+        83,
+        2214,
+        997
+      ],
+      "dimensions": [
+        112,
+        914
+      ],
+      "sha256": "7506a5904cb1f6fea8636c4b479784e0310d5a070f81ca11ddab8ca80751e33a",
+      "operation": "Actual capture crop, optional aspect-preserving letterbox; no UI drawn"
+    },
+    {
+      "id": "software-blender-viewport",
+      "file": "software-blender-viewport.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/software/blender-scene-block-actual.png",
+      "source_sha256": "8a25051e952da6cdfb711d81d1fb810f9f0ebf16b1daa7aa2eac15766d9c92e9",
+      "crop_px": [
+        0,
+        97,
+        2107,
+        1250
+      ],
+      "dimensions": [
+        2048,
+        1152
+      ],
+      "sha256": "c56c774d28815080d4e96ce7c38672bf2af32f74153d05ae72dbd71f08f3593b",
+      "operation": "Actual capture crop, optional aspect-preserving letterbox; no UI drawn"
+    },
+    {
+      "id": "software-blender-wire-viewport",
+      "file": "software-blender-wire-viewport.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/software/blender-scene-wire-actual.png",
+      "source_sha256": "28a8241d2d6961b1d6be54adcd7b4068e843f34aac35c1132e3510e7559cd513",
+      "crop_px": [
+        0,
+        97,
+        2107,
+        1250
+      ],
+      "dimensions": [
+        2048,
+        1152
+      ],
+      "sha256": "af9fff7e2206f7c82218aa4497627b7e159a31d34a60e23b12c3b3055f9f8967",
+      "operation": "Actual capture crop, optional aspect-preserving letterbox; no UI drawn"
+    },
+    {
+      "id": "software-unity-viewport",
+      "file": "software-unity-viewport.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/software/unity-scene-block-editor-actual.png",
+      "source_sha256": "849988546e056f974e23642a8c5e0d06eaf1f3a60117be137ece4196a89b0a9e",
+      "crop_px": [
+        0,
+        125,
+        1657,
+        1195
+      ],
+      "dimensions": [
+        1902,
+        1070
+      ],
+      "sha256": "04063dfc07376127c9d1f41f86bc72b363f4f994d803df650ca6c88fcb1ee5d1",
+      "operation": "Actual capture crop, optional aspect-preserving letterbox; no UI drawn"
+    },
+    {
+      "id": "software-unity-play",
+      "file": "software-unity-play.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/software/unity-play-world-actual.png",
+      "source_sha256": "c34bd220d54a27d58073cc8919fa678b1dc04587fa25f6809236af7f171e6cd4",
+      "crop_px": [
+        0,
+        0,
+        2569,
+        1389
+      ],
+      "dimensions": [
+        2048,
+        1107
+      ],
+      "sha256": "210aaa9277ebe466169a3f1da7c8b105affba728d85ad4ac40c15c5a2c19ac3b",
+      "operation": "Actual capture crop, optional aspect-preserving letterbox; no UI drawn"
+    },
+    {
+      "id": "software-frame-toolbar-playing",
+      "file": "software-frame-toolbar-playing.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/software/unity-play-world-actual.png",
+      "source_sha256": "c34bd220d54a27d58073cc8919fa678b1dc04587fa25f6809236af7f171e6cd4",
+      "crop_px": [
+        796,
+        49,
+        1773,
+        100
+      ],
+      "dimensions": [
+        1081,
+        51
+      ],
+      "sha256": "4cbd28766d965318a048d0fdd5e19d71ac29868a61708775287b5f64d73eef9f",
+      "operation": "Actual capture crop, optional aspect-preserving letterbox; no UI drawn"
+    },
+    {
+      "id": "software-runtime-stage-0",
+      "file": "software-runtime-stage-0.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/software/unity-play-miniature-actual.png",
+      "source_sha256": "c8b927e88332a2d2351ddab71ce4034b14e2de19f48bf9ff656e9302ef9efad7",
+      "crop_px": [
+        0,
+        0,
+        2569,
+        1389
+      ],
+      "dimensions": [
+        2048,
+        1107
+      ],
+      "sha256": "f7515d0af7270ef6033e3920bdb243e14e9f79047cded3cdf69ddcc04a53e748",
+      "operation": "Actual capture crop, optional aspect-preserving letterbox; no UI drawn"
+    },
+    {
+      "id": "software-runtime-stage-1",
+      "file": "software-runtime-stage-1.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/software/unity-play-expansion-actual.png",
+      "source_sha256": "7c80655a0a955a457977523909e649ea0b55499f38ab58a87ee156a4d7e63cd5",
+      "crop_px": [
+        0,
+        0,
+        2569,
+        1389
+      ],
+      "dimensions": [
+        2048,
+        1107
+      ],
+      "sha256": "af5452d621f0d970b89dbe6926752b5470216e7b1e04aa62b43fdcbed851e052",
+      "operation": "Actual capture crop, optional aspect-preserving letterbox; no UI drawn"
+    },
+    {
+      "id": "software-runtime-stage-2",
+      "file": "software-runtime-stage-2.png",
+      "source": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/software/unity-play-world-actual.png",
+      "source_sha256": "c34bd220d54a27d58073cc8919fa678b1dc04587fa25f6809236af7f171e6cd4",
+      "crop_px": [
+        0,
+        0,
+        2569,
+        1389
+      ],
+      "dimensions": [
+        2048,
+        1107
+      ],
+      "sha256": "210aaa9277ebe466169a3f1da7c8b105affba728d85ad4ac40c15c5a2c19ac3b",
+      "operation": "Actual capture crop, optional aspect-preserving letterbox; no UI drawn"
+    }
+  ],
+  "timeline": [
+    {
+      "time": 197.12,
+      "file": "software-unity-editor.png"
+    },
+    {
+      "time": 202.24,
+      "file": "software-blender-material.png"
+    },
+    {
+      "time": 204.8,
+      "file": "software-blender-wire.png"
+    },
+    {
+      "time": 207.36,
+      "file": "software-unity-editor.png"
+    },
+    {
+      "time": 212.48,
+      "file": "software-unity-play.png"
+    },
+    {
+      "time": 235.52,
+      "file": "software-runtime-stage-0.png"
+    },
+    {
+      "time": 238.08,
+      "file": "software-runtime-stage-1.png"
+    },
+    {
+      "time": 240.64000000000001,
+      "file": "software-runtime-stage-2.png"
+    },
+    {
+      "time": 243.2,
+      "file": "software-blender-wire.png"
+    },
+    {
+      "time": 245.76,
+      "file": "software-unity-play.png"
+    },
+    {
+      "time": 248.32,
+      "file": "software-unity-editor.png"
+    }
+  ],
+  "play_control_uv": [
+    0.4671600370027752,
+    0.37254901960784315
+  ],
+  "play_control_bbox_px": [
+    486,
+    21,
+    525,
+    44
+  ],
+  "play_control_method": "Blue active Play button bounds in actual captured toolbar, image V inverted for Unity UV"
+}

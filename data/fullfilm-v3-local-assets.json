@@ -1,0 +1,294 @@
+{
+  "schema": "oldwebmap.fullfilm.v3.local-assets.v1",
+  "review_date": "2026-10-17",
+  "search_scope": {
+    "unity_projects": "Read-only filename/Assets/Packages scan of 35 Unity project candidates under D:/Projects/VRChatProjects and VRChatProjects2; no Library, Temp, obj, or PackageCache contents scanned.",
+    "user_archives": "Read-only inventory of 188 .unitypackage/.zip files at depth <=2 under Chiro Documents, Desktop, Downloads; none named QvPen. Downloads contained 13 named .unitypackage files; 3500.unitypackage was tar-inspected and contains only Assets/NotoSansSC SDF.asset.",
+    "result": "QvPen v3.3.6 is already imported in JustForSleep and Stars. GiantSleepWorld has ARI_QVPen_usa art prefabs with zero C# scripts; this is a model asset, not the QvPen runtime package."
+  },
+  "selected_local_qvpen": {
+    "source_project": "D:/Projects/VRChatProjects/JustForSleep",
+    "source_path": "D:/Projects/VRChatProjects/JustForSleep/Assets/QvPen",
+    "version": "3.3.6",
+    "project_versions": {
+      "unity": "2022.3",
+      "com.vrchat.worlds": "3.10.4",
+      "com.vrchat.base": "3.10.4",
+      "com.unity.textmeshpro": "2.1.6"
+    },
+    "license_status": "No LICENSE, README, or license field found in this imported folder. The maintainer BOOTH item gives the usage terms: use within a VRChat world is allowed; re-sharing/re-distributing the package file is prohibited.",
+    "selected_prefab": "Assets/QvPen/QvPen_WOOD_PenStand.prefab",
+    "selected_prefab_guid": "f4351ff05524c30418f4c4896b489928",
+    "root_pose_in_source_scene": {
+      "position": [
+        -8.019948,
+        1.4180231,
+        -0.34
+      ],
+      "rotation_xyzw": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "note": "This is the original prefab root pose, not a recommended destination in the current world. Move/rotate the prefab root after import; preserve child offsets."
+    },
+    "available_prefabs": [
+      {
+        "path": "Assets/QvPen/QvPen.prefab",
+        "guid": "2674f268860583949b53b63df24489ea",
+        "bytes": 432998
+      },
+      {
+        "path": "Assets/QvPen/QvPen(grad).prefab",
+        "guid": "5bca603d49548cc4d9a3329a36716749",
+        "bytes": 298679
+      },
+      {
+        "path": "Assets/QvPen/QvPen_WOOD.prefab",
+        "guid": "bc94d81522e742e4b8fe409d02b3acb7",
+        "bytes": 439742
+      },
+      {
+        "path": "Assets/QvPen/QvPen_WOOD_PenStand.prefab",
+        "guid": "f4351ff05524c30418f4c4896b489928",
+        "bytes": 466475
+      },
+      {
+        "path": "Assets/QvPen/Prefab/PenManager.prefab",
+        "guid": "c055c7dd62f8a8044bf2a4f8666fa699",
+        "bytes": 101959
+      },
+      {
+        "path": "Assets/QvPen/Prefab/EraserManager.prefab",
+        "guid": "d68f67d369d908d429c189ca9fe652a7",
+        "bytes": 44601
+      }
+    ],
+    "wood_prefab_visual_dependencies": {
+      "all_within_qvpen_directory": true,
+      "meshes": [
+        "Mesh/QVPEN_WOOD.fbx",
+        "Mesh/QVPEN_WOOD_PenStand.fbx"
+      ],
+      "materials": [
+        "Material/QVPEN_WOOD.mat",
+        "Material/QVPEN_WOOD_STAND.mat"
+      ],
+      "textures": [
+        "Texture/QVPEN_WOOD_QVPEN_Body_BaseMap.png",
+        "Texture/QVPEN_WOOD_QVPEN_Body_Normal.png",
+        "Texture/QVPEN_WOOD_QVPEN_Body_MaskMap.png",
+        "Texture/QVPEN_WOOD_PenStand_PenStand_BaseMap.png",
+        "Texture/QVPEN_WOOD_PenStand_PenStand_Normal.png",
+        "Texture/QVPEN_WOOD_PenStand_PenStand_MaskMap.png"
+      ],
+      "shader": "Unity built-in Standard (GUID 0000000000000000f000000000000000); no lilToon dependency for this wood prefab."
+    },
+    "external_guid_lookup": {
+      "scope": "Searched 902 .meta files under JustForSleep/Assets for GUIDs referenced by the wood prefab; no path match found. Package-cache paths were not scanned.",
+      "m_script_guids": [
+        "45115577ef41a5b4ca6444654c3071be",
+        "5f7201a12d95ffc409449d95f23cf332",
+        "fe87c0e1cc204ed48ad3b37840f39efc",
+        "0cd44c1031e13a943bb63640046fad76"
+      ],
+      "serialized_program_asset_guids": [
+        "ab72cbe3199dfe4419c107455aed2bb0",
+        "be0985794cf03384b8af4c0fa86a45d6",
+        "247aaaa53e9e017439d931fa3ec95f10",
+        "75abf76717c4687498c8c5d3fafd3e7a",
+        "4efaa2ea8e1ae86419e3a284a860abdb",
+        "f5607b85a0242bb4a9a88e20e86e6e42",
+        "6c5029be7857b794885eddd1353a925f",
+        "3e6e98bae3b021f42a44b25a93b4a4c6",
+        "67745814331c2de49ab03347425c24df",
+        "3b5b0a57b9739174d96832459694abd2",
+        "ec46619fb895800469a2d13cb8dcb6be"
+      ],
+      "unresolved_asset_path": "No exact original asset path could be confirmed outside Assets/QvPen. Likely VRC/Udon package or generated program references; Pipeline import in the active project should confirm resolution. Unity built-in sentinels are excluded from this list."
+    },
+    "byte_faithful_temp_copy": {
+      "windows_root": "C:/Users/Chiro/tmp/vrc-old-web-map/fullfilm-v3/intake/local-qvpen/Assets/QvPen",
+      "linux_root": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/intake/local-qvpen/Assets/QvPen",
+      "copy_manifest_linux": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/intake/local-qvpen/source-copy-manifest.json",
+      "file_count": 217,
+      "total_bytes": 9261346,
+      "all_file_sha256_match": true,
+      "note": "All source files and .meta files copied unchanged to temp only; no old project was opened or modified."
+    },
+    "pipeline_validation": {
+      "reported_by_main_agent": true,
+      "import_method": "Unity Pipeline",
+      "meta_guid_count": 116,
+      "guid_conflicts": 0,
+      "recompile_errors": 0,
+      "prefab_instantiation_and_interaction": "In progress at report time; no pass claimed for drawing, VRChat runtime, or multi-user sync."
+    }
+  },
+  "official_stable_fallback": {
+    "package_id": "net.ureishi.qvpen",
+    "version": "3.3.15",
+    "vpm_repo_json": "https://vpm.ureishi.net/repos.json",
+    "release_url": "https://github.com/ureishi/QvPen/releases/download/v3.3.15/net.ureishi.qvpen-3.3.15.zip",
+    "downloaded_sha256": "220df71a5fb5540ac7c9d75a7f40b57d69aa6aa432db3ddbc7563e0d60606537",
+    "official_index_sha_field": null,
+    "package_json": {
+      "unity": "2022.3",
+      "vpmDependencies": {
+        "com.vrchat.worlds": "^3.5.0"
+      },
+      "license_field": null,
+      "legacyFolders": {
+        "Assets\\QvPen": "0eeec8527d6948040915b97bddf0ba10"
+      }
+    },
+    "prefabs": [
+      {
+        "path": "Packages/net.ureishi.qvpen/QvPen.prefab",
+        "guid": "2674f268860583949b53b63df24489ea"
+      },
+      {
+        "path": "Packages/net.ureishi.qvpen/QvPen(grad).prefab",
+        "guid": "5bca603d49548cc4d9a3329a36716749"
+      },
+      {
+        "path": "Packages/net.ureishi.qvpen/Prefab/PenManager.prefab",
+        "guid": "c055c7dd62f8a8044bf2a4f8666fa699"
+      },
+      {
+        "path": "Packages/net.ureishi.qvpen/Prefab/EraserManager.prefab",
+        "guid": "d68f67d369d908d429c189ca9fe652a7"
+      }
+    ],
+    "package_zip_path": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/intake/vendor/net.ureishi.qvpen-3.3.15.zip",
+    "extracted_path": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v3/intake/vendor/extracted",
+    "license_status": "The archive and package.json have no README/LICENSE or license field. Follow the author-provided BOOTH/VPM use route and do not re-distribute the package."
+  },
+  "liltoon": {
+    "project_path_windows": "D:/Projects/VRChatProjects2/vrc-old-web-map/LocalPackages/jp.lilxyzw.liltoon",
+    "project_manifest_reference": "file:../LocalPackages/jp.lilxyzw.liltoon",
+    "version": "2.3.4",
+    "license": "MIT",
+    "license_file": "LocalPackages/jp.lilxyzw.liltoon/LICENSE",
+    "unity": "2022.3",
+    "shader_name_examples": [
+      "lilToon",
+      "Hidden/lilToonCutout",
+      "Hidden/lilToonOutline",
+      "Hidden/lilToonTransparent",
+      "Hidden/lilToonTransparentOutline",
+      "Hidden/lilToonTwoPassTransparent",
+      "_lil/lilToonMulti",
+      "_lil/[Optional] lilToonFakeShadow"
+    ]
+  },
+  "fc14_tail_review": {
+    "source_module": "audio/keil-keygen-2008/tune.fc14",
+    "evidence_files": [
+      "audio/keil-keygen-2008/tracks.csv",
+      "audio/keil-keygen-2008/summary.json",
+      "data/music-visual-plan.json",
+      "/home/chiro/tmp/vrc-old-web-map/keygen-music/fc14-renders/rows.json"
+    ],
+    "logical_cycle_seconds": 256.0,
+    "temporary_render_seconds": 256.1,
+    "row_log_wrap_at_seconds": 256.001333,
+    "row98_patterns_by_channel": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "row99_patterns_by_channel": [
+      0,
+      29,
+      0,
+      29
+    ],
+    "opening_patterns_order0_order1_by_channel": [
+      [
+        0,
+        0
+      ],
+      [
+        26,
+        30
+      ],
+      [
+        16,
+        0
+      ],
+      [
+        0,
+        16
+      ]
+    ],
+    "row99_new_note_events": {
+      "channels": [
+        2,
+        4
+      ],
+      "rows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        11,
+        14,
+        18,
+        22,
+        26
+      ],
+      "first_time_s": 253.44,
+      "last_time_s": 255.52
+    },
+    "tail5_12_seconds_sample_correlation_by_stem": [
+      -0.021591,
+      0.016229,
+      0.018674,
+      -0.066477
+    ],
+    "interpretation": "The 256.1s temporary capture extends 100ms beyond the 256.0s module cycle and its row log reaches the next order0/row0; this does not prove the source score has an added 100ms transition. Order99 does not copy the opening patterns, but may still function as a musical loop lead-in.",
+    "current_single_play_performance_choice": {
+      "performance_end_seconds": 253.44,
+      "retained_final_source_window": "250.88–253.44s (order98 tail with no new note triggers)",
+      "fade_seconds": 0.16,
+      "fade_window": "253.28–253.44s",
+      "source_stems_modified": false,
+      "note": "Per parent decision, adjust performance duration/end only; keep all original 256s stem files intact. A 256s clip length alone does not remove a repeated-cycle seam if playback is looped."
+    }
+  },
+  "integration_update": {
+    "date": "2026-10-17",
+    "qvpen_original_version": "3.3.6",
+    "guid_collisions": 0,
+    "source_files": 217,
+    "source_meta_guids_checked": 116,
+    "scene_prefab_pickups_before_editor_only_stripping": 18,
+    "actual_runtime_pickups": 16,
+    "pen_stand_root": [
+      0.7,
+      0.52,
+      -1.2
+    ],
+    "scale": 0.65,
+    "single_client_grab_draw_clear_replay_tested": true,
+    "last_test_stroke_points": 146,
+    "real_multiplayer_tested": false,
+    "runtime_note": "Two author template pickups are stripped as EditorOnly; validations filter destroyed template references and test the real initialized ClientSim pickups. Canvas gates join renderer/collider/pickup/ink lifecycle."
+  },
+  "additional_user_archive_check": {
+    "source_windows": "E:\\BaiduNetdiskDownload\\地图基本功能合集-初音的VRC小店\\笔4件",
+    "catalogue": "data/fullfilm-v3-pen-four-pieces.json",
+    "result": "QvPen core 3.3.6 plus Wood v1, ARI rabbit and Short v2 skins. All 15 core C# files and 12 wood source asset files match the adopted JustForSleep source. Short v2 changes two shared UI texture paths. No Unity import or scene changes."
+  }
+}

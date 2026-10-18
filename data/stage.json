@@ -1,0 +1,387 @@
+{
+  "version": 1,
+  "units": "meters",
+  "note": "供 Unity 施工脚本直接消费的空间规格。坐标以世界原点为起点，+Z 为前进方向，X 为左右，Y 向上。所有数值都是设计值，可在 Inspector 内微调。",
+  "grid": {
+    "cell": 2.0,
+    "corridor_half_width": 3.0,
+    "floor_y": 0.0,
+    "zone_length": 20.0,
+    "marker_line_width": 0.06
+  },
+  "player": {
+    "spawn": { "x": 0.0, "y": 0.05, "z": -6.0 },
+    "eye_height": 1.6,
+    "walk_speed_hint": 3.0
+  },
+  "card": {
+    "plate_size": { "x": 1.6, "y": 0.9 },
+    "plate_height": 1.4,
+    "text_height": 0.09,
+    "title_text_height": 0.13,
+    "state_bar_size": { "x": 1.6, "y": 0.08 },
+    "broken_image_size": { "x": 0.72, "y": 0.72 }
+  },
+  "zones": [
+    {
+      "id": "boot",
+      "segment": "cold-boot",
+      "z_start": -8.0,
+      "z_end": 2.0,
+      "palette": "amber",
+      "ambient": {
+        "floor_tint": "#1A1206",
+        "fog_density": 0.02,
+        "scanline_strength": 0.25
+      },
+      "content": "自检文字墙、启动铭牌、第一枚光点"
+    },
+    {
+      "id": "golden",
+      "segment": "act1-golden",
+      "z_start": 4.0,
+      "z_end": 36.0,
+      "palette": "amber",
+      "ambient": {
+        "floor_tint": "#241A0C",
+        "fog_density": 0.015,
+        "scanline_strength": 0.18
+      },
+      "content": "目录树、缩略图行、世界名片卡（全片最亮段）"
+    },
+    {
+      "id": "netdisk",
+      "segment": "act2a-netdisk",
+      "z_start": 40.0,
+      "z_end": 64.0,
+      "palette": "cyan",
+      "ambient": {
+        "floor_tint": "#0B1A1C",
+        "fog_density": 0.03,
+        "scanline_strength": 0.3
+      },
+      "content": "限速进度条走廊、失效链接断线、秒传报错、会员弹窗墙"
+    },
+    {
+      "id": "opensource",
+      "segment": "act2b-opensource",
+      "z_start": 68.0,
+      "z_end": 90.0,
+      "palette": "cyan",
+      "ambient": {
+        "floor_tint": "#101720",
+        "fog_density": 0.045,
+        "scanline_strength": 0.35
+      },
+      "content": "仓库墓碑林、最后提交日期、issue 洪水、赏金关闭公告"
+    },
+    {
+      "id": "vrchat",
+      "segment": "act2c-vrchat",
+      "z_start": 94.0,
+      "z_end": 116.0,
+      "palette": "magenta",
+      "ambient": {
+        "floor_tint": "#120A14",
+        "fog_density": 0.06,
+        "scanline_strength": 0.4
+      },
+      "content": "模型工坊、框选复制、导出窗口、封禁公告、整片熄灭"
+    },
+    {
+      "id": "hope",
+      "segment": "act3-hope",
+      "z_start": 120.0,
+      "z_end": 138.0,
+      "palette": "hope",
+      "ambient": {
+        "floor_tint": "#07201A",
+        "fog_density": 0.02,
+        "scanline_strength": 0.15
+      },
+      "content": "希望之河、复亮点、逆向互通案例墙"
+    },
+    {
+      "id": "outro",
+      "segment": "outro",
+      "z_start": 140.0,
+      "z_end": 150.0,
+      "palette": "paper",
+      "ambient": {
+        "floor_tint": "#0A0A0F",
+        "fog_density": 0.01,
+        "scanline_strength": 0.1
+      },
+      "content": "磁盘图标、访客计数器、片尾署名、C:\\>_"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "node-first-light",
+      "zone": "boot",
+      "label_id": "label-node-first-light",
+      "position": { "x": 0.0, "y": 1.4, "z": 0.0 },
+      "rotation_y": 180.0,
+      "state": "online",
+      "links": []
+    },
+    {
+      "id": "node-personal-page",
+      "zone": "golden",
+      "label_id": "label-node-personal-page",
+      "position": { "x": -4.5, "y": 1.4, "z": 8.0 },
+      "rotation_y": 90.0,
+      "state": "online",
+      "links": ["node-webring", "node-bbs"]
+    },
+    {
+      "id": "node-webring",
+      "zone": "golden",
+      "label_id": "label-node-webring",
+      "position": { "x": 4.5, "y": 1.4, "z": 12.0 },
+      "rotation_y": -90.0,
+      "state": "online",
+      "links": ["node-personal-page", "node-mirror"]
+    },
+    {
+      "id": "node-bbs",
+      "zone": "golden",
+      "label_id": "label-node-bbs",
+      "position": { "x": -4.5, "y": 1.4, "z": 16.0 },
+      "rotation_y": 90.0,
+      "state": "online",
+      "links": ["node-personal-page", "node-ftp"]
+    },
+    {
+      "id": "node-ftp",
+      "zone": "golden",
+      "label_id": "label-node-ftp",
+      "position": { "x": 4.5, "y": 1.4, "z": 20.0 },
+      "rotation_y": -90.0,
+      "state": "online",
+      "links": ["node-bbs", "node-torrent"]
+    },
+    {
+      "id": "node-mirror",
+      "zone": "golden",
+      "label_id": "label-node-mirror",
+      "position": { "x": -4.5, "y": 1.4, "z": 24.0 },
+      "rotation_y": 90.0,
+      "state": "online",
+      "links": ["node-webring", "node-torrent"]
+    },
+    {
+      "id": "node-torrent",
+      "zone": "golden",
+      "label_id": "label-node-torrent",
+      "position": { "x": 4.5, "y": 1.4, "z": 28.0 },
+      "rotation_y": -90.0,
+      "state": "online",
+      "links": ["node-ftp", "node-mirror", "node-netdisk-early"]
+    },
+    {
+      "id": "node-netdisk-early",
+      "zone": "golden",
+      "label_id": "label-node-netdisk-early",
+      "position": { "x": 0.0, "y": 1.4, "z": 33.0 },
+      "rotation_y": 180.0,
+      "state": "online",
+      "links": ["node-torrent", "node-netdisk-throttle"],
+      "state_sequence": [
+        { "t": 43.0, "state": "throttled" },
+        { "t": 62.0, "state": "dead" }
+      ]
+    },
+    {
+      "id": "node-netdisk-throttle",
+      "zone": "netdisk",
+      "label_id": "label-node-netdisk-throttle",
+      "position": { "x": -4.5, "y": 1.4, "z": 44.0 },
+      "rotation_y": 90.0,
+      "state": "throttled",
+      "links": ["node-netdisk-early", "node-link-dead"],
+      "state_sequence": [
+        { "t": 67.0, "state": "dead" }
+      ]
+    },
+    {
+      "id": "node-link-dead",
+      "zone": "netdisk",
+      "label_id": "label-node-link-dead",
+      "position": { "x": 4.5, "y": 1.4, "z": 48.0 },
+      "rotation_y": -90.0,
+      "state": "dead",
+      "links": ["node-netdisk-throttle", "node-second-scan"]
+    },
+    {
+      "id": "node-second-scan",
+      "zone": "netdisk",
+      "label_id": "label-node-second-scan",
+      "position": { "x": 0.0, "y": 1.4, "z": 54.0 },
+      "rotation_y": 180.0,
+      "state": "dead",
+      "links": ["node-link-dead", "node-repo"]
+    },
+    {
+      "id": "node-repo",
+      "zone": "opensource",
+      "label_id": "label-node-repo",
+      "position": { "x": -4.5, "y": 1.4, "z": 72.0 },
+      "rotation_y": 90.0,
+      "state": "archived",
+      "links": ["node-second-scan", "node-maintainer"]
+    },
+    {
+      "id": "node-maintainer",
+      "zone": "opensource",
+      "label_id": "label-node-maintainer",
+      "position": { "x": 4.5, "y": 1.4, "z": 76.0 },
+      "rotation_y": -90.0,
+      "state": "archived",
+      "links": ["node-repo", "node-issue-flood"]
+    },
+    {
+      "id": "node-issue-flood",
+      "zone": "opensource",
+      "label_id": "label-node-issue-flood",
+      "position": { "x": -4.5, "y": 1.4, "z": 80.0 },
+      "rotation_y": 90.0,
+      "state": "archived",
+      "links": ["node-maintainer", "node-bounty-close"]
+    },
+    {
+      "id": "node-bounty-close",
+      "zone": "opensource",
+      "label_id": "label-node-bounty-close",
+      "position": { "x": 4.5, "y": 1.4, "z": 84.0 },
+      "rotation_y": -90.0,
+      "state": "archived",
+      "links": ["node-issue-flood", "node-avatar-shop"]
+    },
+    {
+      "id": "node-avatar-shop",
+      "zone": "vrchat",
+      "label_id": "label-node-avatar-shop",
+      "position": { "x": -4.5, "y": 1.4, "z": 98.0 },
+      "rotation_y": 90.0,
+      "state": "online",
+      "links": ["node-bounty-close", "node-export-window"],
+      "state_sequence": [
+        { "t": 122.0, "state": "exported" }
+      ]
+    },
+    {
+      "id": "node-export-window",
+      "zone": "vrchat",
+      "label_id": "label-node-export-window",
+      "position": { "x": 4.5, "y": 1.4, "z": 102.0 },
+      "rotation_y": -90.0,
+      "state": "exported",
+      "links": ["node-avatar-shop", "node-ban-notice"]
+    },
+    {
+      "id": "node-ban-notice",
+      "zone": "vrchat",
+      "label_id": "label-node-ban-notice",
+      "position": { "x": 0.0, "y": 1.4, "z": 108.0 },
+      "rotation_y": 180.0,
+      "state": "exported",
+      "links": ["node-export-window", "revive-first"],
+      "state_sequence": [
+        { "t": 140.0, "state": "dead" }
+      ]
+    },
+    {
+      "id": "revive-first",
+      "zone": "hope",
+      "label_id": "label-revive-first",
+      "position": { "x": -3.5, "y": 1.4, "z": 124.0 },
+      "rotation_y": 90.0,
+      "state": "revived",
+      "links": ["node-ban-notice", "node-revive-2"],
+      "state_sequence": [
+        { "t": 145.0, "state": "dead" },
+        { "t": 148.0, "state": "revived" }
+      ]
+    },
+    {
+      "id": "node-revive-2",
+      "zone": "hope",
+      "label_id": "label-node-revive-2",
+      "position": { "x": 3.5, "y": 1.4, "z": 128.0 },
+      "rotation_y": -90.0,
+      "state": "revived",
+      "links": ["revive-first", "node-case-wall"],
+      "state_sequence": [
+        { "t": 145.0, "state": "dead" },
+        { "t": 152.0, "state": "revived" }
+      ]
+    },
+    {
+      "id": "node-case-wall",
+      "zone": "hope",
+      "label_id": "label-node-case-wall",
+      "position": { "x": 0.0, "y": 1.4, "z": 134.0 },
+      "rotation_y": 180.0,
+      "state": "revived",
+      "links": ["node-revive-2", "node-outro"],
+      "state_sequence": [
+        { "t": 145.0, "state": "dead" },
+        { "t": 158.0, "state": "revived" }
+      ]
+    },
+    {
+      "id": "node-outro",
+      "zone": "outro",
+      "label_id": "label-node-outro",
+      "position": { "x": 0.0, "y": 1.4, "z": 144.0 },
+      "rotation_y": 180.0,
+      "state": "revived",
+      "links": ["node-case-wall"]
+    }
+  ],
+  "camera_path": [
+    { "t": 0.0, "segment": "cold-boot", "position": { "x": 0.0, "y": 2.6, "z": -12.0 }, "look_at": { "x": 0.0, "y": 1.4, "z": 0.0 }, "ease": "ease-out", "note": "黑场推进，光点上线" },
+    { "t": 14.0, "segment": "act1-golden", "position": { "x": -1.2, "y": 1.9, "z": 4.0 }, "look_at": { "x": 0.0, "y": 1.5, "z": 14.0 }, "ease": "linear", "note": "进入黄金段，沿路看两侧名片" },
+    { "t": 30.0, "segment": "act1-golden", "position": { "x": 1.2, "y": 1.9, "z": 26.0 }, "look_at": { "x": 0.0, "y": 1.5, "z": 34.0 }, "ease": "linear", "note": "缩略图扫描成相" },
+    { "t": 45.0, "segment": "act2a-netdisk", "position": { "x": 0.0, "y": 2.0, "z": 40.0 }, "look_at": { "x": 0.0, "y": 1.5, "z": 52.0 }, "ease": "linear", "note": "进度条卡在 100KB/s" },
+    { "t": 70.0, "segment": "act2a-netdisk", "position": { "x": 0.0, "y": 1.7, "z": 58.0 }, "look_at": { "x": 0.0, "y": 1.5, "z": 66.0 }, "ease": "ease-in", "note": "弹窗墙合拢" },
+    { "t": 80.0, "segment": "act2b-opensource", "position": { "x": -1.0, "y": 1.7, "z": 68.0 }, "look_at": { "x": 0.0, "y": 1.6, "z": 80.0 }, "ease": "linear", "note": "墓碑林，视线压低" },
+    { "t": 96.0, "segment": "act2b-opensource", "position": { "x": 1.0, "y": 2.2, "z": 86.0 }, "look_at": { "x": 0.0, "y": 1.4, "z": 96.0 }, "ease": "linear", "note": "issue 洪水从脚下涌过" },
+    { "t": 115.0, "segment": "act2c-vrchat", "position": { "x": 0.0, "y": 2.4, "z": 94.0 }, "look_at": { "x": 0.0, "y": 1.5, "z": 106.0 }, "ease": "linear", "note": "框选复制，镜头抬高俯视" },
+    { "t": 137.0, "segment": "act2c-vrchat", "position": { "x": 0.0, "y": 4.5, "z": 116.0 }, "look_at": { "x": 0.0, "y": 0.8, "z": 100.0 }, "ease": "ease-out", "note": "整片熄灭，回望全图" },
+    { "t": 145.0, "segment": "act3-hope", "position": { "x": 0.0, "y": 2.0, "z": 120.0 }, "look_at": { "x": 0.0, "y": 1.4, "z": 132.0 }, "ease": "ease-in-out", "note": "希望之河，第一枚点重亮" },
+    { "t": 165.0, "segment": "act3-hope", "position": { "x": 0.0, "y": 1.8, "z": 138.0 }, "look_at": { "x": 0.0, "y": 1.4, "z": 146.0 }, "ease": "linear", "note": "案例墙掠过" },
+    { "t": 170.0, "segment": "outro", "position": { "x": 0.0, "y": 2.8, "z": 146.0 }, "look_at": { "x": 0.0, "y": 1.2, "z": 144.0 }, "ease": "ease-out", "note": "合拢成磁盘，计数器归零" }
+  ],
+  "props": [
+    { "id": "tree-root", "zone": "golden", "kind": "directory_tree", "position": { "x": -3.0, "y": 2.6, "z": 6.0 }, "params": { "rows": 12, "row_height": 0.22 } },
+    { "id": "thumbnail-row-01", "zone": "golden", "kind": "scanline_row", "position": { "x": 0.0, "y": 1.2, "z": 22.0 }, "params": { "count": 8, "size": 0.9, "scan_seconds": 5.0 } },
+    { "id": "throttle-100kb", "zone": "netdisk", "kind": "progress_bar", "position": { "x": -3.4, "y": 1.6, "z": 46.0 }, "params": { "speed_kbps": 100, "loops": 4 } },
+    { "id": "link-expire-01", "zone": "netdisk", "kind": "broken_link", "position": { "x": 3.4, "y": 1.6, "z": 50.0 }, "params": { "gap": 0.5 } },
+    { "id": "popup-wall-01", "zone": "netdisk", "kind": "popup_wall", "position": { "x": 0.0, "y": 1.5, "z": 60.0 }, "params": { "instances": 120, "opacity": 0.85, "merge": true } },
+    { "id": "last-commit-4y", "zone": "opensource", "kind": "date_banner", "position": { "x": -3.0, "y": 2.4, "z": 74.0 }, "params": { "text_height": 0.4 } },
+    { "id": "issue-flood-01", "zone": "opensource", "kind": "particle_flood", "position": { "x": 0.0, "y": 0.2, "z": 82.0 }, "params": { "particles": 400, "speed": 1.2, "lifetime": 4.0 } },
+    { "id": "removed-01", "zone": "vrchat", "kind": "despawn_effect", "position": { "x": -4.0, "y": 1.5, "z": 100.0 }, "params": { "dissolve_seconds": 1.5 } },
+    { "id": "exported-01", "zone": "vrchat", "kind": "marquee_select", "position": { "x": 3.0, "y": 1.5, "z": 104.0 }, "params": { "rect": { "x": 1.2, "y": 1.2 }, "paste_target": { "x": 6.5, "y": 1.5, "z": 104.0 } } },
+    { "id": "blackout-all", "zone": "vrchat", "kind": "blackout_wave", "position": { "x": 0.0, "y": 0.0, "z": 94.0 }, "params": { "direction": "+z", "speed": 12.0, "fade_seconds": 3.0 } },
+    { "id": "rea-cases", "zone": "hope", "kind": "case_wall", "position": { "x": 0.0, "y": 1.6, "z": 136.0 }, "params": { "tiles": 24, "scroll_speed": 0.6, "color": "#3DFFB0" } },
+    { "id": "greetz-01", "zone": "golden", "kind": "greetz_roll", "position": { "x": 0.0, "y": 0.6, "z": 36.0 }, "params": { "speed": 0.9, "rows": 7 } },
+    { "id": "disk-icon", "zone": "outro", "kind": "map_collapse", "position": { "x": 0.0, "y": 1.6, "z": 142.0 }, "params": { "radius": 8.0, "seconds": 3.0 } },
+    { "id": "visitor-zero", "zone": "outro", "kind": "visitor_counter", "position": { "x": 0.0, "y": 2.4, "z": 145.0 }, "params": { "digits": 8, "from": 42, "to": 0, "seconds": 4.0 } },
+    { "id": "cmos-selftest", "zone": "boot", "kind": "text_wall", "position": { "x": 0.0, "y": 1.6, "z": -4.0 }, "params": { "lines": 6, "chars_per_second": 18 } },
+    { "id": "starting-world-map", "zone": "boot", "kind": "text_wall", "position": { "x": 0.0, "y": 1.6, "z": -1.0 }, "params": { "lines": 1, "chars_per_second": 12 } },
+    { "id": "c-prompt", "zone": "outro", "kind": "text_wall", "position": { "x": 0.0, "y": 1.6, "z": 148.0 }, "params": { "lines": 1, "chars_per_second": 6, "blink": true } }
+  ],
+  "budget": {
+    "node_count": 22,
+    "link_count": 21,
+    "popup_instances": 120,
+    "particle_count": 400,
+    "case_tiles": 24,
+    "independent_audio_sources": 4,
+    "target_triangles": 50000,
+    "max_texture_size": 2048,
+    "platform": "PC"
+  }
+}

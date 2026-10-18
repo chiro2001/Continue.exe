@@ -1,0 +1,60 @@
+{
+  "schema": "fullfilm-v3-edit.1",
+  "duration": 253.44,
+  "review_duration": 255.44,
+  "review_fps": 25,
+  "review_frames": 6386,
+  "source_clip_duration": 256.0,
+  "source_clips_modified": false,
+  "music_end": {
+    "playback_end_seconds": 253.44,
+    "last_retained_order": 98,
+    "excluded_order": 99,
+    "excluded_span": [
+      253.44,
+      256.0
+    ],
+    "final_fade_seconds": 0.16,
+    "reason": "单次演出在无新触发的order98延音后结束，排除末order99的回接过门；该过门并非开头pattern的简单复制。另100ms下一轮捕获余量已在原clip生成时排除，不能与本次剪尾混同。"
+  },
+  "scene_starts": [
+    0,
+    10.24,
+    20.48,
+    30.72,
+    40.96,
+    51.2,
+    61.44,
+    71.68,
+    81.92,
+    92.16,
+    102.4,
+    112.64,
+    122.88,
+    133.12,
+    143.36,
+    153.6,
+    168.96,
+    186.88,
+    197.12,
+    207.36,
+    217.6,
+    230.4,
+    235.52,
+    245.76
+  ],
+  "post_show_credits_start": 253.44,
+  "menu_position": [
+    0,
+    1.05,
+    0.5
+  ],
+  "menu_is_world_fixed": true,
+  "required_actual_audio_checks": [
+    "Unity and VRC attenuation settings agree",
+    "source positions, spatialBlend and gain stay fixed throughout four scene transitions",
+    "actual single ClientSim eight-source PCM alignment",
+    "audience movement remains inside or near broad 30m near range"
+  ],
+  "hmd_and_real_multiplayer_tested": false
+}

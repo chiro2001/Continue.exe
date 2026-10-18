@@ -1,0 +1,3560 @@
+{
+  "version": 1,
+  "status": "discussion-proposal-not-runtime-timeline",
+  "checked_on": "2026-10-16",
+  "integrated_show_outline": {
+    "spec": "spec/15-integrated-show-outline.md",
+    "data": "data/show-outline.json",
+    "status": "integrated-discussion-draft-not-runtime-timeline",
+    "climax_candidates_field": "climax_candidates",
+    "confirmed_ending_expression": "一起做下去",
+    "ending_source_field": "ending.keyword_selection",
+    "note": "候选窗口由整合稿集中维护；不是听感已确认的曲式高潮，也不写入正式启用的 windows 数组。"
+  },
+  "source": {
+    "module": "audio/keil-keygen-2008/tune.fc14",
+    "events": "audio/keil-keygen-2008/tracks.csv",
+    "module_sha256": "2e901c5869a1bfa486baa0d521af03a691e416d7641ec2f243b04f736b91b0b6",
+    "note_event_count": 2953
+  },
+  "evidence_scope": "score and offline stem signal analysis; no direct auditory appraisal or final instrument-role judgement",
+  "timing": {
+    "cycle_seconds": 256,
+    "tick_seconds": 0.02,
+    "ticks_per_row": 4,
+    "row_seconds": 0.08,
+    "rows_per_order": 32,
+    "order_seconds": 2.56,
+    "orders": 100,
+    "audition_render_seconds": 256.1,
+    "audition_last_row_reset_seconds": 256.001333,
+    "note": "Current renders contain the next-loop entry and 100 ms excess. Musical cycle is 256 seconds. Empty note cells may sustain sound. Poll timing offset is an observation granularity, not a required shift for every audible onset.",
+    "observed_row_poll_offset_seconds_most_rows": 0.001333
+  },
+  "visual_time_scales": [
+    {
+      "seconds": 0.08,
+      "role": "细节流动/逐音符提示，避免主场景按每行切换"
+    },
+    {
+      "seconds": 0.32,
+      "role": "较快的动作和局部重音候选"
+    },
+    {
+      "seconds": 0.64,
+      "role": "主视觉脉冲候选"
+    },
+    {
+      "seconds": 2.56,
+      "role": "一段序列，可组织一次动作/信息组"
+    },
+    {
+      "seconds": 5.12,
+      "role": "两段序列，可组织一次接力/构图变化"
+    },
+    {
+      "seconds": 10.24,
+      "role": "四段序列，可组织一个短场面或留白"
+    }
+  ],
+  "meter_status": "0.32/0.64 s are proposed visual subdivisions; do not label 80 ms as one musical beat or 2.56 s as a confirmed bar.",
+  "routing_example": {
+    "material": "pattern22 / instrument6 low-register ostinato candidate",
+    "score_observed": [
+      {
+        "channel": 4,
+        "orders": [
+          12,
+          27
+        ]
+      },
+      {
+        "channel": 2,
+        "orders": [
+          40,
+          63
+        ]
+      },
+      {
+        "channel": 4,
+        "orders": [
+          66,
+          74
+        ]
+      },
+      {
+        "channel": 1,
+        "orders": [
+          92,
+          95
+        ]
+      }
+    ],
+    "visual": "Normal musical-material handoffs stay within the frontal field; larger spatial handoffs are reserved for selected climaxes."
+  },
+  "sections": [
+    {
+      "id": "connect",
+      "start": 0,
+      "end": 30.72,
+      "title": "接入与生成",
+      "en": "Connect",
+      "evidence": "0/2.56/5.12 秒声部依次出现；10.24 秒进入新组合；25.60—30.72 秒增加节奏型",
+      "visual": "从电脑、手机屏幕与明确的浏览器窗口承载点阵、个人站和早期 VR 图像开始；前方音乐逐层建立，后续再逐步展开载体与空间。"
+    },
+    {
+      "id": "create",
+      "start": 30.72,
+      "end": 102.4,
+      "title": "创造与传播的繁荣",
+      "en": "Create / share",
+      "evidence": "12—39 序列段建立持续节奏与低音型，51.20/71.68/81.92 秒变换素材组合",
+      "visual": "早段撤去全局容器后，以长段无界内容场展开制作、传播与公共生活，旧内容保留年代样式。"
+    },
+    {
+      "id": "constrain",
+      "start": 102.4,
+      "end": 133.12,
+      "title": "入口与秩序改变",
+      "en": "Reconfigure",
+      "evidence": "102.40 秒 pattern 22/乐器6由通道4交到通道2；通道4在部分段落实际安静",
+      "visual": "保持无界外部，以局部入口和维护条件改变内容的可用关系。"
+    },
+    {
+      "id": "overload",
+      "start": 133.12,
+      "end": 186.88,
+      "title": "过载与失去选择",
+      "en": "Overload",
+      "evidence": "52—59 段为可重复的密集四通道组合；163.84/168.96 秒再次换型，不能据空pattern断言全曲安静",
+      "visual": "无界空间中重复、副本、请求与局部遮挡增殖，保留原有音乐组织。"
+    },
+    {
+      "id": "distance",
+      "start": 186.88,
+      "end": 197.12,
+      "title": "抽离与留存",
+      "en": "Distance",
+      "evidence": "186.88 秒通道1 pattern0且分轨实际静音，194.56 秒重新加入过门；其他声部仍有延续",
+      "visual": "撤去人声/环境/辅助冲击层和大部分近景，让原曲继续在；远处只亮一份保存下来的作品或入口。"
+    },
+    {
+      "id": "continue",
+      "start": 197.12,
+      "end": 245.76,
+      "title": "再兴与共同创造",
+      "en": "Continue",
+      "evidence": "197.12 秒通道1转为多乐器 pattern11，并重现较早的声部配置；235.52 秒 pattern22/乐器6交到通道1",
+      "visual": "无界中先建立回应，215.04—235.52 秒为内外/远近重构的视觉候选；235.52 秒交接仍在前方小范围发生，不新增分轨高潮。"
+    },
+    {
+      "id": "trace",
+      "start": 245.76,
+      "end": 256,
+      "title": "继续：一起做下去",
+      "en": "Continue together",
+      "evidence": "96—99 段撤去部分新触发后接循环准备；256 秒回到开头，不是天然终止式",
+      "visual": "人尺度接手与创作继续，外围保持无界，音乐收束方式仍待试听。"
+    }
+  ],
+  "visual_curves": {
+    "status": "authored-design-not-measured-emotion",
+    "units": "0..1; relative design weights, not physical photometry",
+    "columns": [
+      "time_seconds",
+      "content_density",
+      "readability_and_choice"
+    ],
+    "points": [
+      [
+        0,
+        0.08,
+        0.85
+      ],
+      [
+        10.24,
+        0.2,
+        0.9
+      ],
+      [
+        30.72,
+        0.55,
+        0.9
+      ],
+      [
+        51.2,
+        0.75,
+        0.86
+      ],
+      [
+        81.92,
+        0.83,
+        0.86
+      ],
+      [
+        102.4,
+        0.68,
+        0.65
+      ],
+      [
+        122.88,
+        0.78,
+        0.48
+      ],
+      [
+        133.12,
+        0.9,
+        0.32
+      ],
+      [
+        153.6,
+        0.98,
+        0.2
+      ],
+      [
+        163.84,
+        0.38,
+        0.18
+      ],
+      [
+        168.96,
+        0.95,
+        0.14
+      ],
+      [
+        186.88,
+        0.12,
+        0.18
+      ],
+      [
+        194.56,
+        0.07,
+        0.3
+      ],
+      [
+        197.12,
+        0.18,
+        0.55
+      ],
+      [
+        215.04,
+        0.35,
+        0.72
+      ],
+      [
+        235.52,
+        0.55,
+        0.9
+      ],
+      [
+        245.76,
+        0.38,
+        0.92
+      ],
+      [
+        256,
+        0.16,
+        0.94
+      ]
+    ]
+  },
+  "signal_method": {
+    "window_seconds": 0.08,
+    "rms": "mean-centered per window/channel before RMS; not LUFS or emotion",
+    "why": "Temporary renders have DC offsets and sustained voices, so raw RMS/note counts alone misrepresent activity."
+  },
+  "order_measurements": [
+    {
+      "order": 0,
+      "start": 0.0,
+      "end": 2.56,
+      "patterns": [
+        0,
+        26,
+        16,
+        0
+      ],
+      "note_counts": [
+        0,
+        12,
+        1,
+        0
+      ],
+      "instrument_ids": [
+        7,
+        11
+      ],
+      "master_rms_db": -18.555,
+      "channel_rms_db": [
+        -180.0,
+        -25.814,
+        -19.436,
+        -180.0
+      ]
+    },
+    {
+      "order": 1,
+      "start": 2.56,
+      "end": 5.12,
+      "patterns": [
+        0,
+        30,
+        0,
+        16
+      ],
+      "note_counts": [
+        0,
+        16,
+        0,
+        1
+      ],
+      "instrument_ids": [
+        7,
+        11
+      ],
+      "master_rms_db": -16.287,
+      "channel_rms_db": [
+        -180.0,
+        -24.11,
+        -20.148,
+        -19.436
+      ]
+    },
+    {
+      "order": 2,
+      "start": 5.12,
+      "end": 7.68,
+      "patterns": [
+        16,
+        29,
+        0,
+        0
+      ],
+      "note_counts": [
+        1,
+        12,
+        0,
+        0
+      ],
+      "instrument_ids": [
+        7,
+        11
+      ],
+      "master_rms_db": -16.27,
+      "channel_rms_db": [
+        -19.436,
+        -25.722,
+        -20.163,
+        -20.148
+      ]
+    },
+    {
+      "order": 3,
+      "start": 7.68,
+      "end": 10.24,
+      "patterns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "note_counts": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "instrument_ids": [],
+      "master_rms_db": -17.213,
+      "channel_rms_db": [
+        -20.148,
+        -180.0,
+        -20.162,
+        -20.163
+      ]
+    },
+    {
+      "order": 4,
+      "start": 10.24,
+      "end": 12.8,
+      "patterns": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "note_counts": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "instrument_ids": [
+        2,
+        6,
+        11
+      ],
+      "master_rms_db": -9.361,
+      "channel_rms_db": [
+        -19.436,
+        -17.366,
+        -19.436,
+        -16.188
+      ]
+    },
+    {
+      "order": 5,
+      "start": 12.8,
+      "end": 15.36,
+      "patterns": [
+        0,
+        16,
+        0,
+        16
+      ],
+      "note_counts": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "instrument_ids": [
+        2,
+        6
+      ],
+      "master_rms_db": -11.525,
+      "channel_rms_db": [
+        -20.148,
+        -17.36,
+        -20.148,
+        -16.193
+      ]
+    },
+    {
+      "order": 6,
+      "start": 15.36,
+      "end": 17.92,
+      "patterns": [
+        0,
+        17,
+        0,
+        17
+      ],
+      "note_counts": [
+        0,
+        2,
+        0,
+        2
+      ],
+      "instrument_ids": [
+        2,
+        6
+      ],
+      "master_rms_db": -11.19,
+      "channel_rms_db": [
+        -20.166,
+        -17.903,
+        -20.166,
+        -16.177
+      ]
+    },
+    {
+      "order": 7,
+      "start": 17.92,
+      "end": 20.48,
+      "patterns": [
+        0,
+        16,
+        0,
+        16
+      ],
+      "note_counts": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "instrument_ids": [
+        2,
+        6
+      ],
+      "master_rms_db": -13.727,
+      "channel_rms_db": [
+        -20.164,
+        -17.366,
+        -20.164,
+        -16.19
+      ]
+    },
+    {
+      "order": 8,
+      "start": 20.48,
+      "end": 23.04,
+      "patterns": [
+        0,
+        18,
+        0,
+        18
+      ],
+      "note_counts": [
+        0,
+        2,
+        0,
+        2
+      ],
+      "instrument_ids": [
+        2,
+        6
+      ],
+      "master_rms_db": -11.57,
+      "channel_rms_db": [
+        -20.168,
+        -17.912,
+        -20.168,
+        -16.176
+      ]
+    },
+    {
+      "order": 9,
+      "start": 23.04,
+      "end": 25.6,
+      "patterns": [
+        0,
+        19,
+        0,
+        20
+      ],
+      "note_counts": [
+        0,
+        2,
+        0,
+        2
+      ],
+      "instrument_ids": [
+        2,
+        6
+      ],
+      "master_rms_db": -11.322,
+      "channel_rms_db": [
+        -20.168,
+        -17.914,
+        -20.168,
+        -16.18
+      ]
+    },
+    {
+      "order": 10,
+      "start": 25.6,
+      "end": 28.16,
+      "patterns": [
+        0,
+        16,
+        28,
+        16
+      ],
+      "note_counts": [
+        0,
+        1,
+        16,
+        1
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "master_rms_db": -13.046,
+      "channel_rms_db": [
+        -20.164,
+        -17.366,
+        -21.696,
+        -16.19
+      ]
+    },
+    {
+      "order": 11,
+      "start": 28.16,
+      "end": 30.72,
+      "patterns": [
+        8,
+        0,
+        30,
+        0
+      ],
+      "note_counts": [
+        7,
+        0,
+        16,
+        0
+      ],
+      "instrument_ids": [
+        4,
+        5,
+        7
+      ],
+      "master_rms_db": -12.958,
+      "channel_rms_db": [
+        -18.785,
+        -18.592,
+        -24.107,
+        -16.209
+      ]
+    },
+    {
+      "order": 12,
+      "start": 30.72,
+      "end": 33.28,
+      "patterns": [
+        5,
+        16,
+        28,
+        22
+      ],
+      "note_counts": [
+        11,
+        1,
+        16,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.149,
+      "channel_rms_db": [
+        -20.501,
+        -17.372,
+        -21.698,
+        -15.914
+      ]
+    },
+    {
+      "order": 13,
+      "start": 33.28,
+      "end": 35.84,
+      "patterns": [
+        5,
+        0,
+        28,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        16,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -13.035,
+      "channel_rms_db": [
+        -20.501,
+        -18.598,
+        -21.698,
+        -15.943
+      ]
+    },
+    {
+      "order": 14,
+      "start": 35.84,
+      "end": 38.4,
+      "patterns": [
+        5,
+        0,
+        28,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        16,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.709,
+      "channel_rms_db": [
+        -20.501,
+        -17.803,
+        -21.698,
+        -15.931
+      ]
+    },
+    {
+      "order": 15,
+      "start": 38.4,
+      "end": 40.96,
+      "patterns": [
+        5,
+        0,
+        28,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        16,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.051,
+      "channel_rms_db": [
+        -20.501,
+        -16.964,
+        -21.698,
+        -15.912
+      ]
+    },
+    {
+      "order": 16,
+      "start": 40.96,
+      "end": 43.52,
+      "patterns": [
+        5,
+        0,
+        28,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        16,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.321,
+      "channel_rms_db": [
+        -20.501,
+        -18.432,
+        -21.698,
+        -15.914
+      ]
+    },
+    {
+      "order": 17,
+      "start": 43.52,
+      "end": 46.08,
+      "patterns": [
+        5,
+        0,
+        28,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        16,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.312,
+      "channel_rms_db": [
+        -20.501,
+        -18.23,
+        -21.698,
+        -15.933
+      ]
+    },
+    {
+      "order": 18,
+      "start": 46.08,
+      "end": 48.64,
+      "patterns": [
+        5,
+        0,
+        28,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        16,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.416,
+      "channel_rms_db": [
+        -20.501,
+        -16.879,
+        -21.698,
+        -15.949
+      ]
+    },
+    {
+      "order": 19,
+      "start": 48.64,
+      "end": 51.2,
+      "patterns": [
+        5,
+        0,
+        0,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        0,
+        16
+      ],
+      "instrument_ids": [
+        4,
+        5,
+        6
+      ],
+      "master_rms_db": -12.937,
+      "channel_rms_db": [
+        -20.501,
+        -18.099,
+        -180.0,
+        -15.912
+      ]
+    },
+    {
+      "order": 20,
+      "start": 51.2,
+      "end": 53.76,
+      "patterns": [
+        5,
+        0,
+        32,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        6,
+        16
+      ],
+      "instrument_ids": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "master_rms_db": -12.603,
+      "channel_rms_db": [
+        -20.501,
+        -18.506,
+        -21.69,
+        -15.914
+      ]
+    },
+    {
+      "order": 21,
+      "start": 53.76,
+      "end": 56.32,
+      "patterns": [
+        5,
+        0,
+        35,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        1,
+        16
+      ],
+      "instrument_ids": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "master_rms_db": -10.959,
+      "channel_rms_db": [
+        -20.501,
+        -17.073,
+        -17.352,
+        -15.943
+      ]
+    },
+    {
+      "order": 22,
+      "start": 56.32,
+      "end": 58.88,
+      "patterns": [
+        5,
+        0,
+        33,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        4,
+        16
+      ],
+      "instrument_ids": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "master_rms_db": -12.072,
+      "channel_rms_db": [
+        -20.501,
+        -17.636,
+        -20.477,
+        -15.931
+      ]
+    },
+    {
+      "order": 23,
+      "start": 58.88,
+      "end": 61.44,
+      "patterns": [
+        5,
+        0,
+        34,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        3,
+        16
+      ],
+      "instrument_ids": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "master_rms_db": -11.965,
+      "channel_rms_db": [
+        -20.501,
+        -18.617,
+        -19.079,
+        -15.912
+      ]
+    },
+    {
+      "order": 24,
+      "start": 61.44,
+      "end": 64.0,
+      "patterns": [
+        5,
+        0,
+        32,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        6,
+        16
+      ],
+      "instrument_ids": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "master_rms_db": -12.261,
+      "channel_rms_db": [
+        -20.501,
+        -17.557,
+        -21.689,
+        -15.914
+      ]
+    },
+    {
+      "order": 25,
+      "start": 64.0,
+      "end": 66.56,
+      "patterns": [
+        5,
+        0,
+        35,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        1,
+        16
+      ],
+      "instrument_ids": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "master_rms_db": -11.416,
+      "channel_rms_db": [
+        -20.501,
+        -17.13,
+        -17.352,
+        -15.943
+      ]
+    },
+    {
+      "order": 26,
+      "start": 66.56,
+      "end": 69.12,
+      "patterns": [
+        5,
+        0,
+        37,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        5,
+        16
+      ],
+      "instrument_ids": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "master_rms_db": -12.049,
+      "channel_rms_db": [
+        -20.501,
+        -18.547,
+        -19.839,
+        -15.931
+      ]
+    },
+    {
+      "order": 27,
+      "start": 69.12,
+      "end": 71.68,
+      "patterns": [
+        5,
+        0,
+        34,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        3,
+        16
+      ],
+      "instrument_ids": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "master_rms_db": -11.957,
+      "channel_rms_db": [
+        -20.501,
+        -18.031,
+        -19.081,
+        -15.912
+      ]
+    },
+    {
+      "order": 28,
+      "start": 71.68,
+      "end": 74.24,
+      "patterns": [
+        5,
+        0,
+        0,
+        30
+      ],
+      "note_counts": [
+        11,
+        0,
+        0,
+        16
+      ],
+      "instrument_ids": [
+        4,
+        5,
+        7
+      ],
+      "master_rms_db": -13.136,
+      "channel_rms_db": [
+        -20.501,
+        -16.885,
+        -18.043,
+        -24.099
+      ]
+    },
+    {
+      "order": 29,
+      "start": 74.24,
+      "end": 76.8,
+      "patterns": [
+        5,
+        0,
+        0,
+        30
+      ],
+      "note_counts": [
+        11,
+        0,
+        0,
+        16
+      ],
+      "instrument_ids": [
+        4,
+        5,
+        7
+      ],
+      "master_rms_db": -13.109,
+      "channel_rms_db": [
+        -20.501,
+        -18.294,
+        -16.875,
+        -24.107
+      ]
+    },
+    {
+      "order": 30,
+      "start": 76.8,
+      "end": 79.36,
+      "patterns": [
+        5,
+        0,
+        0,
+        30
+      ],
+      "note_counts": [
+        11,
+        0,
+        0,
+        16
+      ],
+      "instrument_ids": [
+        4,
+        5,
+        7
+      ],
+      "master_rms_db": -13.78,
+      "channel_rms_db": [
+        -20.501,
+        -18.398,
+        -18.278,
+        -24.107
+      ]
+    },
+    {
+      "order": 31,
+      "start": 79.36,
+      "end": 81.92,
+      "patterns": [
+        7,
+        0,
+        0,
+        30
+      ],
+      "note_counts": [
+        15,
+        0,
+        0,
+        16
+      ],
+      "instrument_ids": [
+        4,
+        5,
+        7
+      ],
+      "master_rms_db": -12.748,
+      "channel_rms_db": [
+        -18.309,
+        -16.92,
+        -18.396,
+        -24.107
+      ]
+    },
+    {
+      "order": 32,
+      "start": 81.92,
+      "end": 84.48,
+      "patterns": [
+        5,
+        0,
+        27,
+        28
+      ],
+      "note_counts": [
+        11,
+        0,
+        1,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "master_rms_db": -14.375,
+      "channel_rms_db": [
+        -20.501,
+        -17.888,
+        -24.199,
+        -21.698
+      ]
+    },
+    {
+      "order": 33,
+      "start": 84.48,
+      "end": 87.04,
+      "patterns": [
+        5,
+        0,
+        0,
+        28
+      ],
+      "note_counts": [
+        11,
+        0,
+        0,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "master_rms_db": -14.884,
+      "channel_rms_db": [
+        -20.501,
+        -18.598,
+        -24.155,
+        -21.698
+      ]
+    },
+    {
+      "order": 34,
+      "start": 87.04,
+      "end": 89.6,
+      "patterns": [
+        5,
+        0,
+        0,
+        28
+      ],
+      "note_counts": [
+        11,
+        0,
+        0,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "master_rms_db": -14.248,
+      "channel_rms_db": [
+        -20.501,
+        -17.278,
+        -24.154,
+        -21.698
+      ]
+    },
+    {
+      "order": 35,
+      "start": 89.6,
+      "end": 92.16,
+      "patterns": [
+        5,
+        0,
+        0,
+        28
+      ],
+      "note_counts": [
+        11,
+        0,
+        0,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "master_rms_db": -14.28,
+      "channel_rms_db": [
+        -20.501,
+        -17.37,
+        -24.155,
+        -21.698
+      ]
+    },
+    {
+      "order": 36,
+      "start": 92.16,
+      "end": 94.72,
+      "patterns": [
+        5,
+        0,
+        32,
+        28
+      ],
+      "note_counts": [
+        11,
+        0,
+        6,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "master_rms_db": -14.346,
+      "channel_rms_db": [
+        -20.501,
+        -18.596,
+        -21.687,
+        -21.698
+      ]
+    },
+    {
+      "order": 37,
+      "start": 94.72,
+      "end": 97.28,
+      "patterns": [
+        5,
+        0,
+        0,
+        28
+      ],
+      "note_counts": [
+        11,
+        0,
+        0,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "master_rms_db": -12.923,
+      "channel_rms_db": [
+        -20.501,
+        -17.822,
+        -16.957,
+        -21.698
+      ]
+    },
+    {
+      "order": 38,
+      "start": 97.28,
+      "end": 99.84,
+      "patterns": [
+        5,
+        16,
+        32,
+        28
+      ],
+      "note_counts": [
+        11,
+        1,
+        6,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "master_rms_db": -13.811,
+      "channel_rms_db": [
+        -20.501,
+        -17.376,
+        -21.689,
+        -21.698
+      ]
+    },
+    {
+      "order": 39,
+      "start": 99.84,
+      "end": 102.4,
+      "patterns": [
+        8,
+        0,
+        0,
+        29
+      ],
+      "note_counts": [
+        7,
+        0,
+        0,
+        12
+      ],
+      "instrument_ids": [
+        4,
+        5,
+        7
+      ],
+      "master_rms_db": -13.56,
+      "channel_rms_db": [
+        -20.75,
+        -18.593,
+        -16.957,
+        -25.722
+      ]
+    },
+    {
+      "order": 40,
+      "start": 102.4,
+      "end": 104.96,
+      "patterns": [
+        5,
+        22,
+        0,
+        0
+      ],
+      "note_counts": [
+        11,
+        16,
+        0,
+        0
+      ],
+      "instrument_ids": [
+        4,
+        5,
+        6
+      ],
+      "master_rms_db": -13.04,
+      "channel_rms_db": [
+        -20.501,
+        -15.913,
+        -18.428,
+        -180.0
+      ]
+    },
+    {
+      "order": 41,
+      "start": 104.96,
+      "end": 107.52,
+      "patterns": [
+        5,
+        22,
+        0,
+        0
+      ],
+      "note_counts": [
+        11,
+        16,
+        0,
+        0
+      ],
+      "instrument_ids": [
+        4,
+        5,
+        6
+      ],
+      "master_rms_db": -13.138,
+      "channel_rms_db": [
+        -20.501,
+        -15.943,
+        -18.238,
+        -180.0
+      ]
+    },
+    {
+      "order": 42,
+      "start": 107.52,
+      "end": 110.08,
+      "patterns": [
+        5,
+        22,
+        33,
+        0
+      ],
+      "note_counts": [
+        11,
+        16,
+        4,
+        0
+      ],
+      "instrument_ids": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "master_rms_db": -13.525,
+      "channel_rms_db": [
+        -20.501,
+        -15.931,
+        -20.475,
+        -180.0
+      ]
+    },
+    {
+      "order": 43,
+      "start": 110.08,
+      "end": 112.64,
+      "patterns": [
+        5,
+        22,
+        34,
+        0
+      ],
+      "note_counts": [
+        11,
+        16,
+        3,
+        0
+      ],
+      "instrument_ids": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "master_rms_db": -13.234,
+      "channel_rms_db": [
+        -20.501,
+        -15.912,
+        -19.079,
+        -180.0
+      ]
+    },
+    {
+      "order": 44,
+      "start": 112.64,
+      "end": 115.2,
+      "patterns": [
+        5,
+        22,
+        0,
+        0
+      ],
+      "note_counts": [
+        11,
+        16,
+        0,
+        0
+      ],
+      "instrument_ids": [
+        4,
+        5,
+        6
+      ],
+      "master_rms_db": -12.989,
+      "channel_rms_db": [
+        -20.501,
+        -15.914,
+        -18.043,
+        -180.0
+      ]
+    },
+    {
+      "order": 45,
+      "start": 115.2,
+      "end": 117.76,
+      "patterns": [
+        5,
+        22,
+        33,
+        0
+      ],
+      "note_counts": [
+        11,
+        16,
+        4,
+        0
+      ],
+      "instrument_ids": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "master_rms_db": -13.689,
+      "channel_rms_db": [
+        -20.501,
+        -15.943,
+        -20.477,
+        -180.0
+      ]
+    },
+    {
+      "order": 46,
+      "start": 117.76,
+      "end": 120.32,
+      "patterns": [
+        5,
+        22,
+        0,
+        0
+      ],
+      "note_counts": [
+        11,
+        16,
+        0,
+        0
+      ],
+      "instrument_ids": [
+        4,
+        5,
+        6
+      ],
+      "master_rms_db": -12.596,
+      "channel_rms_db": [
+        -20.501,
+        -15.931,
+        -17.068,
+        -180.0
+      ]
+    },
+    {
+      "order": 47,
+      "start": 120.32,
+      "end": 122.88,
+      "patterns": [
+        7,
+        22,
+        34,
+        0
+      ],
+      "note_counts": [
+        15,
+        16,
+        3,
+        0
+      ],
+      "instrument_ids": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "master_rms_db": -12.726,
+      "channel_rms_db": [
+        -18.309,
+        -15.912,
+        -19.08,
+        -180.0
+      ]
+    },
+    {
+      "order": 48,
+      "start": 122.88,
+      "end": 125.44,
+      "patterns": [
+        5,
+        22,
+        30,
+        0
+      ],
+      "note_counts": [
+        11,
+        16,
+        16,
+        0
+      ],
+      "instrument_ids": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -14.235,
+      "channel_rms_db": [
+        -20.501,
+        -15.914,
+        -24.108,
+        -180.0
+      ]
+    },
+    {
+      "order": 49,
+      "start": 125.44,
+      "end": 128.0,
+      "patterns": [
+        5,
+        22,
+        0,
+        28
+      ],
+      "note_counts": [
+        11,
+        16,
+        0,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -13.917,
+      "channel_rms_db": [
+        -20.501,
+        -15.943,
+        -180.0,
+        -21.698
+      ]
+    },
+    {
+      "order": 50,
+      "start": 128.0,
+      "end": 130.56,
+      "patterns": [
+        5,
+        22,
+        30,
+        0
+      ],
+      "note_counts": [
+        11,
+        16,
+        16,
+        0
+      ],
+      "instrument_ids": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -14.363,
+      "channel_rms_db": [
+        -20.501,
+        -15.931,
+        -24.107,
+        -180.0
+      ]
+    },
+    {
+      "order": 51,
+      "start": 130.56,
+      "end": 133.12,
+      "patterns": [
+        7,
+        22,
+        0,
+        29
+      ],
+      "note_counts": [
+        15,
+        16,
+        0,
+        12
+      ],
+      "instrument_ids": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -13.649,
+      "channel_rms_db": [
+        -18.309,
+        -15.912,
+        -180.0,
+        -25.722
+      ]
+    },
+    {
+      "order": 52,
+      "start": 133.12,
+      "end": 135.68,
+      "patterns": [
+        5,
+        22,
+        36,
+        28
+      ],
+      "note_counts": [
+        11,
+        16,
+        5,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.636,
+      "channel_rms_db": [
+        -20.501,
+        -15.914,
+        -19.354,
+        -21.698
+      ]
+    },
+    {
+      "order": 53,
+      "start": 135.68,
+      "end": 138.24,
+      "patterns": [
+        5,
+        22,
+        38,
+        28
+      ],
+      "note_counts": [
+        11,
+        16,
+        5,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.907,
+      "channel_rms_db": [
+        -20.501,
+        -15.943,
+        -19.836,
+        -21.698
+      ]
+    },
+    {
+      "order": 54,
+      "start": 138.24,
+      "end": 140.8,
+      "patterns": [
+        5,
+        22,
+        33,
+        28
+      ],
+      "note_counts": [
+        11,
+        16,
+        4,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.968,
+      "channel_rms_db": [
+        -20.501,
+        -15.931,
+        -20.462,
+        -21.698
+      ]
+    },
+    {
+      "order": 55,
+      "start": 140.8,
+      "end": 143.36,
+      "patterns": [
+        5,
+        22,
+        40,
+        28
+      ],
+      "note_counts": [
+        11,
+        16,
+        3,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.561,
+      "channel_rms_db": [
+        -20.501,
+        -15.912,
+        -19.075,
+        -21.698
+      ]
+    },
+    {
+      "order": 56,
+      "start": 143.36,
+      "end": 145.92,
+      "patterns": [
+        5,
+        22,
+        36,
+        28
+      ],
+      "note_counts": [
+        11,
+        16,
+        5,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.636,
+      "channel_rms_db": [
+        -20.501,
+        -15.914,
+        -19.352,
+        -21.698
+      ]
+    },
+    {
+      "order": 57,
+      "start": 145.92,
+      "end": 148.48,
+      "patterns": [
+        5,
+        22,
+        38,
+        28
+      ],
+      "note_counts": [
+        11,
+        16,
+        5,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.907,
+      "channel_rms_db": [
+        -20.501,
+        -15.943,
+        -19.836,
+        -21.698
+      ]
+    },
+    {
+      "order": 58,
+      "start": 148.48,
+      "end": 151.04,
+      "patterns": [
+        5,
+        22,
+        33,
+        28
+      ],
+      "note_counts": [
+        11,
+        16,
+        4,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.968,
+      "channel_rms_db": [
+        -20.501,
+        -15.931,
+        -20.462,
+        -21.698
+      ]
+    },
+    {
+      "order": 59,
+      "start": 151.04,
+      "end": 153.6,
+      "patterns": [
+        5,
+        22,
+        40,
+        28
+      ],
+      "note_counts": [
+        11,
+        16,
+        3,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.561,
+      "channel_rms_db": [
+        -20.501,
+        -15.912,
+        -19.075,
+        -21.698
+      ]
+    },
+    {
+      "order": 60,
+      "start": 153.6,
+      "end": 156.16,
+      "patterns": [
+        5,
+        22,
+        0,
+        30
+      ],
+      "note_counts": [
+        11,
+        16,
+        0,
+        16
+      ],
+      "instrument_ids": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.683,
+      "channel_rms_db": [
+        -20.501,
+        -15.914,
+        -18.046,
+        -24.107
+      ]
+    },
+    {
+      "order": 61,
+      "start": 156.16,
+      "end": 158.72,
+      "patterns": [
+        5,
+        22,
+        16,
+        30
+      ],
+      "note_counts": [
+        11,
+        16,
+        1,
+        16
+      ],
+      "instrument_ids": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.545,
+      "channel_rms_db": [
+        -20.501,
+        -15.943,
+        -17.352,
+        -24.107
+      ]
+    },
+    {
+      "order": 62,
+      "start": 158.72,
+      "end": 161.28,
+      "patterns": [
+        5,
+        22,
+        16,
+        30
+      ],
+      "note_counts": [
+        11,
+        16,
+        1,
+        16
+      ],
+      "instrument_ids": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.495,
+      "channel_rms_db": [
+        -20.501,
+        -15.931,
+        -17.352,
+        -24.107
+      ]
+    },
+    {
+      "order": 63,
+      "start": 161.28,
+      "end": 163.84,
+      "patterns": [
+        5,
+        22,
+        16,
+        29
+      ],
+      "note_counts": [
+        11,
+        16,
+        1,
+        12
+      ],
+      "instrument_ids": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.524,
+      "channel_rms_db": [
+        -20.501,
+        -15.912,
+        -17.351,
+        -25.722
+      ]
+    },
+    {
+      "order": 64,
+      "start": 163.84,
+      "end": 166.4,
+      "patterns": [
+        9,
+        0,
+        0,
+        0
+      ],
+      "note_counts": [
+        11,
+        0,
+        0,
+        0
+      ],
+      "instrument_ids": [
+        4
+      ],
+      "master_rms_db": -13.468,
+      "channel_rms_db": [
+        -21.616,
+        -16.209,
+        -18.594,
+        -180.0
+      ]
+    },
+    {
+      "order": 65,
+      "start": 166.4,
+      "end": 168.96,
+      "patterns": [
+        8,
+        29,
+        0,
+        29
+      ],
+      "note_counts": [
+        7,
+        12,
+        0,
+        12
+      ],
+      "instrument_ids": [
+        4,
+        5,
+        7
+      ],
+      "master_rms_db": -14.762,
+      "channel_rms_db": [
+        -20.752,
+        -25.71,
+        -17.814,
+        -25.722
+      ]
+    },
+    {
+      "order": 66,
+      "start": 168.96,
+      "end": 171.52,
+      "patterns": [
+        9,
+        16,
+        28,
+        22
+      ],
+      "note_counts": [
+        11,
+        1,
+        16,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "master_rms_db": -12.277,
+      "channel_rms_db": [
+        -21.616,
+        -17.372,
+        -21.694,
+        -15.913
+      ]
+    },
+    {
+      "order": 67,
+      "start": 171.52,
+      "end": 174.08,
+      "patterns": [
+        9,
+        0,
+        28,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        16,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "master_rms_db": -13.225,
+      "channel_rms_db": [
+        -21.616,
+        -18.598,
+        -21.698,
+        -15.943
+      ]
+    },
+    {
+      "order": 68,
+      "start": 174.08,
+      "end": 176.64,
+      "patterns": [
+        9,
+        0,
+        28,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        16,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "master_rms_db": -12.807,
+      "channel_rms_db": [
+        -21.616,
+        -17.803,
+        -21.698,
+        -15.931
+      ]
+    },
+    {
+      "order": 69,
+      "start": 176.64,
+      "end": 179.2,
+      "patterns": [
+        9,
+        0,
+        28,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        16,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "master_rms_db": -12.167,
+      "channel_rms_db": [
+        -21.616,
+        -16.964,
+        -21.698,
+        -15.912
+      ]
+    },
+    {
+      "order": 70,
+      "start": 179.2,
+      "end": 181.76,
+      "patterns": [
+        9,
+        0,
+        28,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        16,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "master_rms_db": -12.467,
+      "channel_rms_db": [
+        -21.616,
+        -18.432,
+        -21.698,
+        -15.914
+      ]
+    },
+    {
+      "order": 71,
+      "start": 181.76,
+      "end": 184.32,
+      "patterns": [
+        9,
+        0,
+        28,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        16,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "master_rms_db": -12.398,
+      "channel_rms_db": [
+        -21.616,
+        -18.23,
+        -21.698,
+        -15.933
+      ]
+    },
+    {
+      "order": 72,
+      "start": 184.32,
+      "end": 186.88,
+      "patterns": [
+        9,
+        0,
+        28,
+        22
+      ],
+      "note_counts": [
+        11,
+        0,
+        16,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "master_rms_db": -12.665,
+      "channel_rms_db": [
+        -21.616,
+        -16.879,
+        -21.698,
+        -15.949
+      ]
+    },
+    {
+      "order": 73,
+      "start": 186.88,
+      "end": 189.44,
+      "patterns": [
+        0,
+        0,
+        28,
+        22
+      ],
+      "note_counts": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        6,
+        7
+      ],
+      "master_rms_db": -13.257,
+      "channel_rms_db": [
+        -180.0,
+        -18.099,
+        -21.698,
+        -15.912
+      ]
+    },
+    {
+      "order": 74,
+      "start": 189.44,
+      "end": 192.0,
+      "patterns": [
+        0,
+        0,
+        28,
+        0
+      ],
+      "note_counts": [
+        0,
+        0,
+        16,
+        0
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        7
+      ],
+      "master_rms_db": -14.642,
+      "channel_rms_db": [
+        -180.0,
+        -18.506,
+        -21.698,
+        -16.209
+      ]
+    },
+    {
+      "order": 75,
+      "start": 192.0,
+      "end": 194.56,
+      "patterns": [
+        0,
+        0,
+        28,
+        0
+      ],
+      "note_counts": [
+        0,
+        0,
+        16,
+        0
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        7
+      ],
+      "master_rms_db": -14.319,
+      "channel_rms_db": [
+        -180.0,
+        -17.057,
+        -21.698,
+        -16.209
+      ]
+    },
+    {
+      "order": 76,
+      "start": 194.56,
+      "end": 197.12,
+      "patterns": [
+        8,
+        0,
+        0,
+        0
+      ],
+      "note_counts": [
+        7,
+        0,
+        0,
+        0
+      ],
+      "instrument_ids": [
+        4,
+        5
+      ],
+      "master_rms_db": -14.167,
+      "channel_rms_db": [
+        -20.752,
+        -17.645,
+        -180.0,
+        -16.208
+      ]
+    },
+    {
+      "order": 77,
+      "start": 197.12,
+      "end": 199.68,
+      "patterns": [
+        11,
+        16,
+        16,
+        16
+      ],
+      "note_counts": [
+        16,
+        1,
+        1,
+        1
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        11
+      ],
+      "master_rms_db": -11.23,
+      "channel_rms_db": [
+        -20.731,
+        -17.365,
+        -19.436,
+        -16.188
+      ]
+    },
+    {
+      "order": 78,
+      "start": 199.68,
+      "end": 202.24,
+      "patterns": [
+        11,
+        16,
+        0,
+        16
+      ],
+      "note_counts": [
+        16,
+        1,
+        0,
+        1
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.258,
+      "channel_rms_db": [
+        -20.731,
+        -17.36,
+        -20.148,
+        -16.193
+      ]
+    },
+    {
+      "order": 79,
+      "start": 202.24,
+      "end": 204.8,
+      "patterns": [
+        11,
+        17,
+        0,
+        17
+      ],
+      "note_counts": [
+        16,
+        2,
+        0,
+        2
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.303,
+      "channel_rms_db": [
+        -20.731,
+        -17.903,
+        -20.166,
+        -16.177
+      ]
+    },
+    {
+      "order": 80,
+      "start": 204.8,
+      "end": 207.36,
+      "patterns": [
+        11,
+        16,
+        0,
+        16
+      ],
+      "note_counts": [
+        16,
+        1,
+        0,
+        1
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -13.151,
+      "channel_rms_db": [
+        -20.731,
+        -17.366,
+        -20.164,
+        -16.19
+      ]
+    },
+    {
+      "order": 81,
+      "start": 207.36,
+      "end": 209.92,
+      "patterns": [
+        11,
+        18,
+        0,
+        18
+      ],
+      "note_counts": [
+        16,
+        2,
+        0,
+        2
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.439,
+      "channel_rms_db": [
+        -20.731,
+        -17.912,
+        -20.168,
+        -16.176
+      ]
+    },
+    {
+      "order": 82,
+      "start": 209.92,
+      "end": 212.48,
+      "patterns": [
+        11,
+        19,
+        0,
+        20
+      ],
+      "note_counts": [
+        16,
+        2,
+        0,
+        2
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.087,
+      "channel_rms_db": [
+        -20.731,
+        -17.914,
+        -20.168,
+        -16.18
+      ]
+    },
+    {
+      "order": 83,
+      "start": 212.48,
+      "end": 215.04,
+      "patterns": [
+        11,
+        16,
+        0,
+        16
+      ],
+      "note_counts": [
+        16,
+        1,
+        0,
+        1
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "master_rms_db": -12.695,
+      "channel_rms_db": [
+        -20.731,
+        -17.366,
+        -20.164,
+        -16.19
+      ]
+    },
+    {
+      "order": 84,
+      "start": 215.04,
+      "end": 217.6,
+      "patterns": [
+        11,
+        0,
+        30,
+        0
+      ],
+      "note_counts": [
+        16,
+        0,
+        16,
+        0
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "master_rms_db": -12.734,
+      "channel_rms_db": [
+        -20.731,
+        -18.592,
+        -24.109,
+        -16.209
+      ]
+    },
+    {
+      "order": 85,
+      "start": 217.6,
+      "end": 220.16,
+      "patterns": [
+        0,
+        16,
+        30,
+        0
+      ],
+      "note_counts": [
+        0,
+        1,
+        16,
+        0
+      ],
+      "instrument_ids": [
+        2,
+        7
+      ],
+      "master_rms_db": -14.771,
+      "channel_rms_db": [
+        -180.0,
+        -17.372,
+        -24.107,
+        -16.209
+      ]
+    },
+    {
+      "order": 86,
+      "start": 220.16,
+      "end": 222.72,
+      "patterns": [
+        11,
+        0,
+        30,
+        0
+      ],
+      "note_counts": [
+        16,
+        0,
+        16,
+        0
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "master_rms_db": -13.55,
+      "channel_rms_db": [
+        -20.731,
+        -18.6,
+        -24.107,
+        -16.208
+      ]
+    },
+    {
+      "order": 87,
+      "start": 222.72,
+      "end": 225.28,
+      "patterns": [
+        11,
+        0,
+        28,
+        0
+      ],
+      "note_counts": [
+        16,
+        0,
+        16,
+        0
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "master_rms_db": -13.39,
+      "channel_rms_db": [
+        -20.731,
+        -17.806,
+        -21.698,
+        -16.209
+      ]
+    },
+    {
+      "order": 88,
+      "start": 225.28,
+      "end": 227.84,
+      "patterns": [
+        11,
+        0,
+        30,
+        32
+      ],
+      "note_counts": [
+        16,
+        0,
+        16,
+        6
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "master_rms_db": -13.925,
+      "channel_rms_db": [
+        -20.731,
+        -16.964,
+        -24.107,
+        -21.687
+      ]
+    },
+    {
+      "order": 89,
+      "start": 227.84,
+      "end": 230.4,
+      "patterns": [
+        11,
+        0,
+        30,
+        35
+      ],
+      "note_counts": [
+        16,
+        0,
+        16,
+        1
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "master_rms_db": -13.355,
+      "channel_rms_db": [
+        -20.731,
+        -18.446,
+        -24.107,
+        -17.352
+      ]
+    },
+    {
+      "order": 90,
+      "start": 230.4,
+      "end": 232.96,
+      "patterns": [
+        0,
+        0,
+        30,
+        33
+      ],
+      "note_counts": [
+        0,
+        0,
+        16,
+        4
+      ],
+      "instrument_ids": [
+        2,
+        7
+      ],
+      "master_rms_db": -15.655,
+      "channel_rms_db": [
+        -180.0,
+        -18.235,
+        -24.107,
+        -20.477
+      ]
+    },
+    {
+      "order": 91,
+      "start": 232.96,
+      "end": 235.52,
+      "patterns": [
+        11,
+        0,
+        28,
+        34
+      ],
+      "note_counts": [
+        16,
+        0,
+        16,
+        3
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "master_rms_db": -12.942,
+      "channel_rms_db": [
+        -20.731,
+        -16.865,
+        -21.698,
+        -19.079
+      ]
+    },
+    {
+      "order": 92,
+      "start": 235.52,
+      "end": 238.08,
+      "patterns": [
+        22,
+        32,
+        28,
+        0
+      ],
+      "note_counts": [
+        16,
+        6,
+        16,
+        0
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "master_rms_db": -12.564,
+      "channel_rms_db": [
+        -15.913,
+        -21.689,
+        -21.698,
+        -18.043
+      ]
+    },
+    {
+      "order": 93,
+      "start": 238.08,
+      "end": 240.64,
+      "patterns": [
+        22,
+        35,
+        28,
+        0
+      ],
+      "note_counts": [
+        16,
+        1,
+        16,
+        0
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "master_rms_db": -11.421,
+      "channel_rms_db": [
+        -15.943,
+        -17.352,
+        -21.698,
+        -16.874
+      ]
+    },
+    {
+      "order": 94,
+      "start": 240.64,
+      "end": 243.2,
+      "patterns": [
+        22,
+        37,
+        28,
+        0
+      ],
+      "note_counts": [
+        16,
+        5,
+        16,
+        0
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "master_rms_db": -12.447,
+      "channel_rms_db": [
+        -15.931,
+        -19.839,
+        -21.698,
+        -18.276
+      ]
+    },
+    {
+      "order": 95,
+      "start": 243.2,
+      "end": 245.76,
+      "patterns": [
+        22,
+        34,
+        28,
+        0
+      ],
+      "note_counts": [
+        16,
+        3,
+        16,
+        0
+      ],
+      "instrument_ids": [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "master_rms_db": -12.214,
+      "channel_rms_db": [
+        -15.912,
+        -19.081,
+        -21.698,
+        -18.397
+      ]
+    },
+    {
+      "order": 96,
+      "start": 245.76,
+      "end": 248.32,
+      "patterns": [
+        0,
+        0,
+        28,
+        0
+      ],
+      "note_counts": [
+        0,
+        0,
+        16,
+        0
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        7
+      ],
+      "master_rms_db": -11.585,
+      "channel_rms_db": [
+        -16.209,
+        -18.043,
+        -21.698,
+        -16.926
+      ]
+    },
+    {
+      "order": 97,
+      "start": 248.32,
+      "end": 250.88,
+      "patterns": [
+        0,
+        0,
+        28,
+        0
+      ],
+      "note_counts": [
+        0,
+        0,
+        16,
+        0
+      ],
+      "instrument_ids": [
+        1,
+        3,
+        7
+      ],
+      "master_rms_db": -11.618,
+      "channel_rms_db": [
+        -16.209,
+        -16.875,
+        -21.698,
+        -17.874
+      ]
+    },
+    {
+      "order": 98,
+      "start": 250.88,
+      "end": 253.44,
+      "patterns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "note_counts": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "instrument_ids": [],
+      "master_rms_db": -12.725,
+      "channel_rms_db": [
+        -16.208,
+        -18.278,
+        -180.0,
+        -18.58
+      ]
+    },
+    {
+      "order": 99,
+      "start": 253.44,
+      "end": 256.0,
+      "patterns": [
+        0,
+        29,
+        0,
+        29
+      ],
+      "note_counts": [
+        0,
+        12,
+        0,
+        12
+      ],
+      "instrument_ids": [
+        7
+      ],
+      "master_rms_db": -14.906,
+      "channel_rms_db": [
+        -16.209,
+        -25.714,
+        -180.0,
+        -25.724
+      ]
+    }
+  ],
+  "open_choices": [
+    "Formal ending versus deliberate loop",
+    "Actual musical meter and timbral-role audition",
+    "Exact trajectories, viewing zone and limited gain automation after headset prototype",
+    "Exact short climax windows and expanded voices after audition; normal frontal cohesion is already chosen."
+  ],
+  "spatial_audio": {
+    "status": "user-requested-direction-design-not-implemented",
+    "user_intent": "分轨空间音频，但大部分时间四条声部在前方轻微可辨、整体融合；仅高潮短暂明显分拆。",
+    "source_count": 4,
+    "arrangement_editing": "user-selected: spatial changes primary, limited dynamics; preserve original notes, tempo, arrangement and source timbre",
+    "recommended_start": "User refined: cohesive frontal four-voice stage for normal passages; reserve obvious separation for selected short climaxes, with limited dynamics.",
+    "coordinate_frame": "World / stage forward defines the frontal music field; it does not rotate with the listener headset.",
+    "source_preparation": {
+      "current_format": "4 stereo WAV stems with mostly fixed legacy left/right gain, not four independent binaural renders",
+      "target": "4 mono sources, matching start and sample length, common gain reference; remove legacy pan and address DC offsets",
+      "normalization": "Preserve musical relative levels; do not independently peak-normalize each voice.",
+      "stereo_audit": {
+        "duration_analyzed_seconds": 256.0,
+        "stems": {
+          "ch01": {
+            "right_over_left_linear_gain": 0.33332669826003813,
+            "stereo_correlation": 0.9999999267076721,
+            "right_fit_residual_ratio": 0.00038286374921781826,
+            "peak_abs": 0.43191516399383545,
+            "mean_dc_LR": [
+              -0.020809769923009903,
+              -0.006935731044576339
+            ]
+          },
+          "ch02": {
+            "right_over_left_linear_gain": 3.0000295151851883,
+            "stereo_correlation": 0.9999999566846329,
+            "right_fit_residual_ratio": 0.00029433099124448724,
+            "peak_abs": 0.43191516399383545,
+            "mean_dc_LR": [
+              -0.026576842554195537,
+              -0.07973085697939616
+            ]
+          },
+          "ch03": {
+            "right_over_left_linear_gain": 3.0001262472563726,
+            "stereo_correlation": 0.9999998944430609,
+            "right_fit_residual_ratio": 0.0004594712908680159,
+            "peak_abs": 0.4401177167892456,
+            "mean_dc_LR": [
+              -0.03396122199343699,
+              -0.1018897794415916
+            ]
+          },
+          "ch04": {
+            "right_over_left_linear_gain": 0.33332469312917734,
+            "stereo_correlation": 0.9999998880890998,
+            "right_fit_residual_ratio": 0.00047309807430234594,
+            "peak_abs": 0.4398435950279236,
+            "mean_dc_LR": [
+              -0.05115881960746629,
+              -0.01705207599649475
+            ]
+          }
+        },
+        "summed_stereo_vs_master": {
+          "relative_rms_error": 1.9717723410861844e-07,
+          "max_abs_error": 1.3336539268493652e-06,
+          "relative_error_db": -134.1028645943625
+        }
+      },
+      "final_mono_assets_created": false
+    },
+    "processing_levels": [
+      {
+        "id": "preserve_arrangement_spatial",
+        "notes_tempo_and_triggers": "preserve",
+        "source_timbre": "preserve",
+        "space": "Four voices subtly layered in front in normal passages; obvious separation reserved for selected climaxes.",
+        "balance": "reference levels with controlled spatial attenuation"
+      },
+      {
+        "id": "spatial_plus_authored_mix",
+        "notes_tempo_and_triggers": "preserve initially; larger structural edits separately decide",
+        "source_timbre": "may include explicit filters / wet processing / auxiliary layers",
+        "space": "Four voices subtly layered in front in normal passages; obvious separation reserved for selected climaxes.",
+        "balance": "authored section fades, voice reduction and restoration"
+      }
+    ],
+    "scene_staging": [
+      {
+        "phase": "connect",
+        "space": "voices enter in the front field and form a cohesive piece"
+      },
+      {
+        "phase": "create",
+        "space": "subtle frontal calls; rare selected climax expansion only"
+      },
+      {
+        "phase": "overload",
+        "space": "mostly frontal cohesion; spatial spread/convergence becomes obvious only at selected pressure climaxes"
+      },
+      {
+        "phase": "distance",
+        "start": 186.88,
+        "space": "near activity withdraws; continuing music retreats as a cohesive frontal group"
+      },
+      {
+        "phase": "continue",
+        "start": 197.12,
+        "space": "front response and layers recover; later expansion only if a climax is explicitly chosen"
+      },
+      {
+        "phase": "trace",
+        "space": "settle into frontal cohesion; ending / loop authored explicitly"
+      }
+    ],
+    "implementation_constraints": [
+      "VRC_SpatialAudioSource spatialization properties initialize once; documentation does not support changing them through runtime animation. Do not promise animated volumetric radius.",
+      "Volumetric radius is not a default listener-enclosing surround technique; use carefully for distant large sources and verify transitions / interference.",
+      "Turn off music-source Doppler initially so moving sources preserve pitch.",
+      "Match visuals and actual listener/source positions during teleportation and RenderTexture view substitution.",
+      "Keep four voices aligned locally on one music timebase; network synchronizes overall timeline, not individual notes.",
+      "Unity PlayScheduled has DSP scheduling, but Udon availability remains unverified in this project.",
+      "Calibrate world source gain explicitly; avatar-specific limits/compression are not world-source limits.",
+      "Validate headphones/headset, multiple listening positions, movement, late joining, isolation and restoration.",
+      "Normal staging is frontal and cohesive; do not carry forward the superseded rear four-corner default."
+    ],
+    "sources": [
+      {
+        "url": "https://creators.vrchat.com/worlds/components/vrc_spatialaudiosource/",
+        "checked_on": "2026-10-15",
+        "scope": "world spatialization, falloff, source radius, initialized properties and world/avatar distinctions"
+      },
+      {
+        "url": "https://docs.unity3d.com/2022.3/Documentation/ScriptReference/AudioSource.PlayScheduled.html",
+        "checked_on": "2026-10-15",
+        "scope": "Unity DSP scheduling capability; not proof of Udon exposure"
+      }
+    ],
+    "selected_mode": {
+      "label": "空间变化为主，少量动态处理",
+      "status": "user-confirmed-design-principle-not-implemented",
+      "preserve": [
+        "notes",
+        "tempo",
+        "original arrangement",
+        "source timbre"
+      ],
+      "primary_controls": [
+        "subtle frontal layering",
+        "cohesive frontal depth",
+        "rare authored climax expansion and return",
+        "small musical-material handoffs"
+      ],
+      "secondary_controls": [
+        "limited voice gain automation",
+        "short section fades",
+        "auxiliary environment layers"
+      ],
+      "exact_parameters": "prototype candidates pending headset tuning",
+      "refinement": {
+        "normal": "Four distinguishable but subtly separated voices in front; preserve musical cohesion.",
+        "climax": "Only selected climaxes widen / lift / separate a small number of suitable voices, then return to frontal cohesion.",
+        "sound_effects": "This restriction concerns main music; environmental and action sounds may still occupy the surrounding scene.",
+        "status": "user-confirmed-profile-not-implemented"
+      }
+    },
+    "prototype_staging": {
+      "status": "authored-audition-layout-candidate-not-approved-coordinates",
+      "origin": "nominal listener ear height at center of viewing zone",
+      "axes": {
+        "x": "right",
+        "y": "up",
+        "z": "stage forward"
+      },
+      "frame": "world / stage fixed; does not rotate with headset yaw",
+      "units": "metres",
+      "emitters": [
+        {
+          "channel": 1,
+          "position": [
+            -1.0,
+            -0.1,
+            3.6
+          ]
+        },
+        {
+          "channel": 2,
+          "position": [
+            -0.35,
+            0.15,
+            3.6
+          ]
+        },
+        {
+          "channel": 3,
+          "position": [
+            0.35,
+            -0.15,
+            3.6
+          ]
+        },
+        {
+          "channel": 4,
+          "position": [
+            1.0,
+            0.1,
+            3.6
+          ]
+        }
+      ],
+      "scope": "Normal-passage frontal fusion/localization audition only. Coordinates and roughly 30-degree total width are authored candidates, not user-confirmed exact values.",
+      "handoff_duration_candidate_seconds": [
+        2.56,
+        5.12
+      ],
+      "extra_voice_gain_automation_starting_range_db": [
+        -3,
+        0
+      ],
+      "extra_gain_scope": "additional fader automation only, not a cap on authored distance attenuation; exact amounts unconfirmed",
+      "stable_reference": "The frontal music field is the normal reference; all four voices remain mostly cohesive.",
+      "constraints": [
+        "one audible direct voice per source material during ordinary handoffs",
+        "preserve original music timebase",
+        "match sound positions to visible objects",
+        "headset and multiple listener positions must be validated"
+      ],
+      "climax_expansion": {
+        "status": "policy-confirmed-exact-windows-and-routing-unselected",
+        "trigger": "manually selected short musical/narrative climax windows, not instantaneous RMS",
+        "windows": [],
+        "voice_count_candidate": [
+          1,
+          2
+        ],
+        "motion": "expand, hold briefly, return to normal frontal positions",
+        "anchors": "keep suitable rhythmic/low support in front; channel assignments depend on the passage",
+        "transition_duration_candidate_seconds": [
+          2.56,
+          5.12
+        ],
+        "default_outside_windows": "frontal subtle separation; no wide/rear orbiting"
+      },
+      "supersedes": "Previous front/rear four-corner default audition layout."
+    },
+    "world_motion_reference": {
+      "plan": "data/world-motion-plan.json",
+      "main_music": "演出前方参照独立于景物运动组，不逐头部跟随。",
+      "scene_audio": "跟随发声物变换后位置，作用范围与音量另外校准。",
+      "arrangement_and_clock": "保持原四轨编配与同一时基，不新增或自动启用高潮。"
+    }
+  }
+}

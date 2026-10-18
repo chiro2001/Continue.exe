@@ -1,0 +1,391 @@
+{
+  "date": "2026-10-17",
+  "purpose": "复核 V5 后续剧本中无新音符、持续发声与静音的区别；只读分析，没有改音频或 Unity。",
+  "method": "每段两端各去掉 80ms；按 80ms PCM 窗去均值，再汇总 AC RMS。note-on 单独按原 CSV 统计，不用其数量推断静音。",
+  "measurement_threshold_dbfs": -70,
+  "threshold_note": "只用于区分明显持续信号与纯直流；不是听感或响度标准。",
+  "sources": [
+    {
+      "channel": 1,
+      "path": "/home/chiro/tmp/vrc-old-web-map/episode123/audio/FC14_Mono_01.wav",
+      "sha256": "afd97be6a7afa6ce37fe100d20d807fe0cb638c55849a3193d8cd3ddfdad0f97",
+      "samples": 12288000,
+      "sample_rate": 48000
+    },
+    {
+      "channel": 2,
+      "path": "/home/chiro/tmp/vrc-old-web-map/episode123/audio/FC14_Mono_02.wav",
+      "sha256": "83adfc29fc31c77b53ca1a25b3ddf913c2054672d21efd34c973b9a1810aa43c",
+      "samples": 12288000,
+      "sample_rate": 48000
+    },
+    {
+      "channel": 3,
+      "path": "/home/chiro/tmp/vrc-old-web-map/episode123/audio/FC14_Mono_03.wav",
+      "sha256": "0b646241a11fe7cc2e5fa7efe0a7be2fbd3e85a3744b042868242d9cdc6829f0",
+      "samples": 12288000,
+      "sample_rate": 48000
+    },
+    {
+      "channel": 4,
+      "path": "/home/chiro/tmp/vrc-old-web-map/episode123/audio/FC14_Mono_04.wav",
+      "sha256": "e0c894b1b262744b0f0c498e4b076926e3c94f526e80aef81324e9db95d256f7",
+      "samples": 12288000,
+      "sample_rate": 48000
+    }
+  ],
+  "spans": [
+    {
+      "start": 163.84,
+      "end": 166.4,
+      "channels": [
+        {
+          "channel": 1,
+          "note_on_count": 11,
+          "ac_rms_dbfs": -22.72,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 2,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -17.18,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 3,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -19.73,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 4,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -240.0,
+          "measurable_sustained_signal": false
+        }
+      ],
+      "active_channels_pcm": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "start": 186.88,
+      "end": 189.44,
+      "channels": [
+        {
+          "channel": 1,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -240.0,
+          "measurable_sustained_signal": false
+        },
+        {
+          "channel": 2,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -19.12,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 3,
+          "note_on_count": 16,
+          "ac_rms_dbfs": -22.91,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 4,
+          "note_on_count": 16,
+          "ac_rms_dbfs": -16.88,
+          "measurable_sustained_signal": true
+        }
+      ],
+      "active_channels_pcm": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "start": 189.44,
+      "end": 194.56,
+      "channels": [
+        {
+          "channel": 1,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -240.0,
+          "measurable_sustained_signal": false
+        },
+        {
+          "channel": 2,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -18.68,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 3,
+          "note_on_count": 32,
+          "ac_rms_dbfs": -22.78,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 4,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -17.18,
+          "measurable_sustained_signal": true
+        }
+      ],
+      "active_channels_pcm": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "start": 194.56,
+      "end": 197.12,
+      "channels": [
+        {
+          "channel": 1,
+          "note_on_count": 7,
+          "ac_rms_dbfs": -21.69,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 2,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -18.56,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 3,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -240.0,
+          "measurable_sustained_signal": false
+        },
+        {
+          "channel": 4,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -17.18,
+          "measurable_sustained_signal": true
+        }
+      ],
+      "active_channels_pcm": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "start": 197.12,
+      "end": 207.36,
+      "channels": [
+        {
+          "channel": 1,
+          "note_on_count": 64,
+          "ac_rms_dbfs": -21.72,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 2,
+          "note_on_count": 5,
+          "ac_rms_dbfs": -18.44,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 3,
+          "note_on_count": 1,
+          "ac_rms_dbfs": -20.9,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 4,
+          "note_on_count": 5,
+          "ac_rms_dbfs": -17.16,
+          "measurable_sustained_signal": true
+        }
+      ],
+      "active_channels_pcm": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "start": 217.6,
+      "end": 220.16,
+      "channels": [
+        {
+          "channel": 1,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -240.0,
+          "measurable_sustained_signal": false
+        },
+        {
+          "channel": 2,
+          "note_on_count": 1,
+          "ac_rms_dbfs": -18.25,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 3,
+          "note_on_count": 16,
+          "ac_rms_dbfs": -25.08,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 4,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -17.18,
+          "measurable_sustained_signal": true
+        }
+      ],
+      "active_channels_pcm": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "start": 230.4,
+      "end": 232.96,
+      "channels": [
+        {
+          "channel": 1,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -240.0,
+          "measurable_sustained_signal": false
+        },
+        {
+          "channel": 2,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -19.27,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 3,
+          "note_on_count": 16,
+          "ac_rms_dbfs": -25.08,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 4,
+          "note_on_count": 4,
+          "ac_rms_dbfs": -21.51,
+          "measurable_sustained_signal": true
+        }
+      ],
+      "active_channels_pcm": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "start": 245.76,
+      "end": 250.88,
+      "channels": [
+        {
+          "channel": 1,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -17.18,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 2,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -18.4,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 3,
+          "note_on_count": 32,
+          "ac_rms_dbfs": -22.78,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 4,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -18.36,
+          "measurable_sustained_signal": true
+        }
+      ],
+      "active_channels_pcm": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "start": 250.88,
+      "end": 253.44,
+      "channels": [
+        {
+          "channel": 1,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -17.18,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 2,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -19.34,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 3,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -240.0,
+          "measurable_sustained_signal": false
+        },
+        {
+          "channel": 4,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -19.72,
+          "measurable_sustained_signal": true
+        }
+      ],
+      "active_channels_pcm": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "start": 253.44,
+      "end": 256.0,
+      "channels": [
+        {
+          "channel": 1,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -17.18,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 2,
+          "note_on_count": 12,
+          "ac_rms_dbfs": -26.72,
+          "measurable_sustained_signal": true
+        },
+        {
+          "channel": 3,
+          "note_on_count": 0,
+          "ac_rms_dbfs": -240.0,
+          "measurable_sustained_signal": false
+        },
+        {
+          "channel": 4,
+          "note_on_count": 12,
+          "ac_rms_dbfs": -26.72,
+          "measurable_sustained_signal": true
+        }
+      ],
+      "active_channels_pcm": [
+        1,
+        2,
+        4
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "revision": "V2",
+  "scene": "Assets/Scenes/OWM_FullFilm_v2.unity",
+  "duration": 256,
+  "review_duration": 258,
+  "frames": 6450,
+  "default_muted": true,
+  "autoplay": false,
+  "source_count": 128,
+  "source_pages": 93,
+  "new_source_count": 69,
+  "stills": 25,
+  "scene_sha256": "cf39cba5e878b005534572974af2903ac917464a19bce632ca16113b0f2a2603",
+  "movie_sha256": "412fafdd1bdc2803ae2b2a217fc9e9566e05bcbc5d616c3abca3c4c739462591",
+  "bundle_sha256": "12c03d8f5828e9499f14c8f99c2f2ebbd04cdbbe5d5638d138dcadea7bbfdad1",
+  "human_images_pending": 8,
+  "known_limits": [
+    "HMD and real multiplayer have not been tested",
+    "Spatial sound has digital listener checks but no human listening certification",
+    "Browser audio is an original four-stem stereo reference, not a VR audio capture",
+    "Historical archive images vary in completeness; see source-audit.json"
+  ],
+  "windows_output_restored": true,
+  "editor_play_stopped": true,
+  "review_linux": "/home/chiro/tmp/vrc-old-web-map/fullfilm-v2/review/index.html",
+  "review_windows": "C:/Users/Chiro/tmp/vrc-old-web-map/fullfilm-v2/review/index.html"
+}

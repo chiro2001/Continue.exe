@@ -1,0 +1,291 @@
+{
+  "schema": "fullfilm-v5-material-audit.1",
+  "review_date": "2026-10-18",
+  "timebase_seconds": 253.44,
+  "scope": "Audit of V4 source dates and user-created V3 artwork against the current V5 timeline data. This file records recommendations and data-level alignment only; it does not claim Unity validation.",
+  "timeline_files": {
+    "v4_baseline": "data/fullfilm-v4-related-focus.json",
+    "v5_current": "data/fullfilm-v5-related-focus.json",
+    "v5_current_status": "The main agent's chronology_override_cues already move the listed dates into the proposed windows. The Unity scene and rendered performance have not been checked by this audit."
+  },
+  "chronology_corrections": [
+    {
+      "source_id": "archive-napster-1999",
+      "source_index": 35,
+      "content_date": "1999-11-27",
+      "date_basis": "Internet Archive capture timestamp of the original Napster homepage HTML; the local image was rendered from this archived HTML in 2026.",
+      "context": "A partial 1999 service homepage. It is a file-sharing-era artifact, not evidence of the later Napster shutdown or a 1999 legal action.",
+      "source_url": "https://web.archive.org/web/19991127080306id_/http://www.napster.com/",
+      "v4_current_windows_seconds": [[102.4, 120.32], [133.12, 168.96]],
+      "v4_current_group": "conditions plus deliberate memory-overload montage",
+      "recommended_window_seconds": [40.96, 43.52],
+      "v5_current_window_seconds": [40.96, 43.52],
+      "v5_current_status": "Aligned by chronology_override_cues; retain the 133.12–168.96 use only as an intentional memory/overload callback.",
+      "confidence": "high"
+    },
+    {
+      "source_id": "btchina-homepage-2009",
+      "source_index": 56,
+      "content_date": "2009 context; embedded screenshot capture date unknown",
+      "date_basis": "Published with a TorrentFreak report dated 2009-12-07; the media is a narrow BTChina search header, not a dated full-page capture.",
+      "context": "A BTChina/BitTorrent@China search header. It is not proof that BTChina had closed.",
+      "source_url": "https://torrentfreak.com/chinese-authorities-shut-down-bittorrent-sites-091207/",
+      "v4_current_windows_seconds": [[40.96, 51.2], [102.4, 120.32], [133.12, 168.96]],
+      "recommended_window_seconds": [40.96, 51.2],
+      "v5_current_windows_seconds": [[40.96, 51.2], [133.12, 168.96]],
+      "v5_current_status": "The late condition-group duplicate has been removed. Preserve the source header in the 2009 sharing passage; treat the overload appearance as an explicit callback.",
+      "confidence": "high"
+    },
+    {
+      "source_id": "cbn-weekly-goodnight-bt-cover-2009",
+      "source_index": 57,
+      "content_date": "2009-12-21 issue",
+      "date_basis": "The cover itself identifies the CBN Weekly issue date; the accompanying Sina page was published 2009-12-17.",
+      "context": "A period magazine cover titled “晚安，BT”; useful as a late-2009 press artifact, not a photograph of a site closure.",
+      "source_url": "https://finance.sina.cn/usstock/hlwgs/2009-12-17/tech-iavxeafs4225908.d.html?vt=4",
+      "v4_current_windows_seconds": [[102.4, 120.32], [133.12, 168.96]],
+      "recommended_window_seconds": [48.64, 51.2],
+      "v5_current_window_seconds": [48.64, 51.2],
+      "v5_current_status": "Aligned by chronology_override_cues; retain the overload montage use only as a callback.",
+      "confidence": "high"
+    },
+    {
+      "source_id": "3q-security-choice-options-2010",
+      "source_index": 73,
+      "content_date": "2010-11-03",
+      "date_basis": "Contemporaneous CCTV report and image URL date in the source manifest.",
+      "context": "A user-facing screen for uninstalling 360 and choosing another security product during the 3Q dispute. This documents a client/security-software conflict, not an internet-access block.",
+      "source_url": "https://big5.hmo.gov.cn/gate/big5/big5.cctv.com/gate/big5/jingji.cntv.cn/20101103/104893.shtml",
+      "v4_current_windows_seconds": [[102.4, 120.32], [133.12, 168.96]],
+      "recommended_window_seconds": [71.68, 74.24],
+      "v5_current_window_seconds": [71.68, 74.24],
+      "v5_current_status": "Aligned by chronology_override_cues; describe the 2010 client/security choice context without classifying it as a freedom-of-access crackdown.",
+      "confidence": "high"
+    },
+    {
+      "source_id": "wikipedia-blackout-screen-2012",
+      "source_index": 66,
+      "content_date": "2012-01-18",
+      "date_basis": "Wikimedia Commons original timestamp and file description.",
+      "context": "A 24-hour English Wikipedia blackout opposing proposed U.S. SOPA/PIPA legislation. It is collective protest over U.S. bills, not evidence of a Chinese service block.",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Wikipedia_Blackout_Screen.jpg",
+      "v4_current_windows_seconds": [[102.4, 120.32], [133.12, 168.96]],
+      "recommended_window_seconds": [74.24, 77.44],
+      "v5_current_window_seconds": [74.24, 77.44],
+      "v5_current_status": "Aligned by chronology_override_cues; keep the SOPA/PIPA protest context visible in adjacent narration or source caption.",
+      "confidence": "high"
+    },
+    {
+      "source_id": "chinanews-subtitle-group-editorial-cartoon-2014",
+      "source_index": 58,
+      "content_date": "2014-11-30 article",
+      "date_basis": "China News article publication date. The illustration's creation date is unknown.",
+      "context": "A press cartoon about subtitle groups with a ‘查封’ stamp. It is editorial illustration, not a photograph or proof that a particular group was closed.",
+      "source_url": "https://www.chinanews.com/cul/2014/11-30/6829062.shtml",
+      "v4_current_windows_seconds": [[30.72, 40.96], [133.12, 168.96]],
+      "recommended_window_seconds": [78.08, 79.36],
+      "v5_current_window_seconds": [78.08, 79.36],
+      "v5_current_status": "Aligned by chronology_override_cues after the 2014 VRChat anchor; keep its editorial nature clear.",
+      "confidence": "high for publication date; medium for linking the cartoon to any specific closure"
+    },
+    {
+      "source_id": "vrchat-eac-security-banner-2022",
+      "source_index": 83,
+      "content_date": "2022-07-25",
+      "date_basis": "Official VRChat Security Update page date.",
+      "context": "Official EAC/Secure Instances security-update art. This describes VRChat client security, not a government internet restriction.",
+      "source_url": "https://hello.vrchat.com/blog/vrchat-security-update",
+      "v4_current_windows_seconds": [[102.4, 120.32], [133.12, 168.96]],
+      "recommended_window_seconds": [104.96, 110.08],
+      "v5_current_windows_seconds": [[104.96, 120.32]],
+      "v5_specific_cue_seconds": [104.96, 110.08],
+      "v5_current_status": "Aligned after the 2022 card; label as platform security/anti-cheat context.",
+      "confidence": "high"
+    },
+    {
+      "source_id": "archive-shooter-subtitle-2006",
+      "source_index": 9,
+      "content_date": "2006 page context; date of any present-day access failure unknown",
+      "date_basis": "Source ID and historical page context identify the subtitle site as 2006; no evidence dates when a later link became inaccessible.",
+      "context": "A 2006 subtitle site artifact that may also serve as a present-day archive-loss example if explicitly framed that way.",
+      "v4_current_windows_seconds": [[30.72, 40.96], [61.44, 71.68], [102.4, 120.32], [133.12, 168.96]],
+      "recommended_window_seconds": [61.44, 71.68],
+      "conditional_late_use": "Only reintroduce in a present-day archive-access scene if the narration identifies it as a 2006 page being revisited today; do not silently present the 2006 page as a late restriction event.",
+      "v5_current_windows_seconds": [[30.72, 40.96], [61.44, 71.68], [133.12, 168.96]],
+      "v5_current_status": "Removed from the late conditions group; retained in translation/fansub history and the explicit overload callback.",
+      "confidence": "medium"
+    }
+  ],
+  "chronology_guardrails": [
+    {
+      "source_id": "unity-2019-lts-version-label",
+      "current_v4_seconds": [94.72, 97.28],
+      "note": "Do not move this cue earlier merely because the editor product label says 2019. Unity's official archive dates Unity 2019.4.0f1 to 2020-06-07; a product version year is not the event date. The source frame establishes the version label, not when this screenshot was captured or used.",
+      "evidence_url": "https://unity.com/releases/editor/whats-new/2019.4.0",
+      "recommendation": "Keep its event date unassigned until the source video's depicted date is independently established."
+    },
+    {
+      "source_ids": ["Avatar 3.0 / Action Menu", "Regions", "Quick Menu", "OSC", "IK 2.0"],
+      "note": "Several source frames carry no verified year. Do not infer dates from download/capture time or product-version naming alone."
+    }
+  ],
+  "memory_overload_policy": {
+    "window_seconds": [133.12, 168.96],
+    "note": "This group deliberately reuses source-pool indices as memory fragments during information overload. It is not a claim that all source items are contemporaneous. The exact chronological cue windows above should remain separately identifiable."
+  },
+  "emote_sequence": {
+    "manifest_path": "data/fullfilm-v5-emotes.json",
+    "flat_binding_items": 62,
+    "timeline_groups": [
+      {
+        "id": "forum-phpbb-3.0.8",
+        "items": 8,
+        "release_date": "2010-11-20",
+        "date_basis": "Official phpBB 3.0.8 release notice and release-3.0.8 source tag.",
+        "recommended_seconds": [[51.2, 71.68]],
+        "source_title": "phpBB 3.0.8 default smilies",
+        "source_author": "phpBB Project",
+        "source_url": "https://github.com/phpbb/phpbb/tree/release-3.0.8/phpBB/images/smilies",
+        "release_announcement_url": "https://www.phpbb.com/community/viewtopic.php?f=14&t=2111068",
+        "export_directory": "art/export/fullfilm-v5/emotes/",
+        "caveat": "These are original forum-software defaults. The existing QQ 2003 set is IM material and remains excluded from the forum-source item table."
+      },
+      {
+        "id": "tieba-middle-pack-listing-2014",
+        "items": 14,
+        "listing_update_date": "2014-09-11",
+        "recommended_seconds": [[71.68, 86.4]],
+        "source_title": "百度贴吧泡泡 QQ 表情包 +50p preview",
+        "source_publisher": "JB51 listing; original pack author unknown",
+        "source_url": "https://www.jb51.net/softs/216567.html",
+        "original_preview": "art/reference/fullfilm-v5/emotes/tieba-middle-2014-pack-preview.gif",
+        "caveat": "The original pack creation date is unknown and the .rar is no longer available. The 14 exports are uncaptioned transparent crops from the clean upper preview rows."
+      },
+      {
+        "id": "tieba-mobile-snapshot-2020",
+        "items": 8,
+        "host_app_version": "11.6.8.2",
+        "host_app_update_date": "2020-07-13",
+        "repository_created_at": "2020-07-18T09:32:50Z",
+        "recommended_seconds": [[86.4, 112.64]],
+        "source_title": "Tieba mobile default emotes extraction",
+        "source_author": "microlong666 repository; underlying art by Baidu/Tieba",
+        "source_url": "https://github.com/microlong666/Tieba_mobile_emotions",
+        "rights_note": "The repository README limits use to study/personal non-commercial use and asks users to contact its author about infringement; the underlying Tieba artwork rights remain uncleared. Internal reference only unless separate public-display permission is obtained.",
+        "caveat": "This is a dateable 2020 extraction snapshot, not the 2026 current pack. The source files use numbers without individual captions; manifest labels keep those source numbers."
+      },
+      {
+        "id": "tieba-current-default-pack-2026",
+        "items": 32,
+        "host_app_version": "22.12.1.0",
+        "host_app_update_date": "2026-09-24",
+        "corroborating_store_update_date": "2026-09-23",
+        "recommended_seconds": [[112.64, 186.88], [235.52, 249.6]],
+        "source_title": "Baidu Tieba current mobile default emoji preset",
+        "source_author": "Baidu Tieba",
+        "source_url": "https://mobile.baidu.com/appitemp/321367844",
+        "date_note": "Baidu lists 2026-09-24; Tencent MyApp lists 2026-09-23 for the same 22.12.1.0 version. Use the Baidu date as primary and retain the one-day listing discrepancy.",
+        "source_files": "art/reference/fullfilm-v5/emotes/tieba-current-2026/",
+        "repeat_policy": "The late return reuses the same 32 images; it does not add a second asset version.",
+        "rights_note": "The files are extracted from the current app preset; retain Baidu attribution and clear public display rights separately."
+      }
+    ],
+    "contact_sheets": [
+      "art/export/fullfilm-v5/emotes/contact-sheet-forum-phpbb-2010.png",
+      "art/export/fullfilm-v5/emotes/contact-sheet-tieba-middle-2014.png",
+      "art/export/fullfilm-v5/emotes/contact-sheet-tieba-mobile-2020.png",
+      "art/export/fullfilm-v5/emotes/contact-sheet-tieba-current-2026.png",
+      "art/export/fullfilm-v5/emotes/contact-sheet-fullfilm-v5-emotes.png"
+    ],
+    "not_a_version_group": "Existing QQ 2003 and Onion Head context assets are not counted as native forum defaults; see the emote manifest's legacy_cross_service_context_not_counted_as_forum_source field."
+  },
+  "user_art_review": [
+    {
+      "asset_id": "v2-04-comic-translation-pair",
+      "source_file": "art/source/fullfilm-v3-user-images/星空下的原文与中文译文.png",
+      "current_visible_seconds": [[30.72, 40.96]],
+      "current_texture_ids": ["native-manga-user-00-full.png", "native-manga-user-00-detail.png"],
+      "decision": "keep",
+      "recommended_seconds": [30.72, 40.96],
+      "reason": "The monochrome two-panel drawing and paired Japanese/Chinese dialogue directly explain translation work; it reads as a user-authored example, not a false archive screenshot. Preserve the art and retain its provenance as newly authored content."
+    },
+    {
+      "asset_id": "v2-05-comic-clean-layer-board",
+      "source_file": "art/source/fullfilm-v3-user-images/星夜山巅的漫画对白.png",
+      "current_visible_seconds": [[30.72, 40.96]],
+      "current_texture_ids": ["native-manga-user-01-full.png", "native-manga-user-01-detail.png", "native-manga-user-02-full.png", "native-manga-user-02-detail.png", "native-manga-user-03-full.png", "native-manga-user-03-detail.png"],
+      "decision": "keep",
+      "recommended_seconds": [30.72, 40.96],
+      "reason": "The clean, Chinese-lettered, and proofread states form a readable continuous workflow. Keep them as the film's authored translation demonstration, not as a scan of a published manga or historical team page."
+    },
+    {
+      "asset_id": "v2-06-flash-animation-sheet",
+      "source_file": "art/source/fullfilm-v3-user-images/霓虹像素星辰六格动画分镜.png",
+      "current_visible_seconds": [[22.4, 30.72]],
+      "current_texture_ids": ["user-flash-00.png", "user-flash-01.png", "user-flash-02.png", "user-flash-03.png", "user-flash-04.png", "user-flash-05.png"],
+      "decision": "recontext",
+      "recommended_seconds": [197.12, 235.52],
+      "reason": "The six-frame sequence is useful original animation, while the saturated neon glow and crisp generated-looking window motif clash with the early-web pages. Reuse it as a present-day remake/animation example, not as a recovered Flash file."
+    },
+    {
+      "asset_id": "v2-07-game-cg-localization-pair",
+      "source_file": "art/source/fullfilm-v3-user-images/原文与中文译文：月下古桥奇境.png",
+      "current_visible_seconds": [[71.68, 77.44]],
+      "current_texture_ids": ["user-game-original.png", "user-game-chinese.png"],
+      "decision": "recontext",
+      "recommended_seconds": [197.12, 235.52],
+      "reason": "The side-by-side localization is useful, but the polished fantasy CG is contemporary original concept art, not a documented old game screenshot. Keep it only as a modern creator's translation example."
+    },
+    {
+      "asset_id": "v2-08-original-homepage-artwork",
+      "source_file": "art/source/fullfilm-v3-user-images/夜航邮局：星海寄信之夜.png",
+      "current_visible_seconds": [[51.2, 61.44]],
+      "current_texture_ids": ["user-homepage.png"],
+      "decision": "recontext",
+      "recommended_seconds": [197.12, 235.52],
+      "reason": "The ornate nautical illustration is contemporary original art and the page chrome is a stylized mock homepage. The labels are readable, but the image should not stand in for a real early-2000s personal site."
+    },
+    {
+      "asset_id": "v2-09-community-reaction-stickers",
+      "source_file": "art/source/fullfilm-v3-user-images/猫咪聊天贴纸十二格合集.png",
+      "current_visible_seconds": [[35.84, 71.68], [133.12, 168.96], [235.52, 249.6]],
+      "current_texture_ids": ["user-sticker-00.png", "user-sticker-01.png", "user-sticker-02.png", "user-sticker-03.png", "user-sticker-04.png", "user-sticker-05.png", "user-sticker-06.png", "user-sticker-07.png", "user-sticker-08.png", "user-sticker-09.png", "user-sticker-10.png", "user-sticker-11.png"],
+      "decision": "recontext",
+      "recommended_seconds": [235.52, 249.6],
+      "reason": "The cute painterly cats and brightly colored rounded cards are visibly contemporary. Remove the four early appearances among historical forum/fansub artifacts; retain the set in the later return/share sequence as newly made community stickers."
+    },
+    {
+      "asset_id": "v2-10-culture-artifact-still-life",
+      "source_file": "art/source/fullfilm-v3-user-images/温馨创作者桌面时光.png",
+      "current_visible_seconds": [[197.12, 202.24]],
+      "current_texture_ids": ["user-still-life.png"],
+      "decision": "keep",
+      "recommended_seconds": [197.12, 202.24],
+      "reason": "This is a modern creator-desk still life and already appears after the silence/recreation turn. Keep it as atmosphere; the monitor art is not real software evidence and should not be treated as a screenshot."
+    },
+    {
+      "asset_id": "v2-11-scene-block-concept-art",
+      "source_file": "art/source/fullfilm-v3-user-images/水上花园圆亭与落日光影.png",
+      "current_visible_seconds": [[207.36, 212.48]],
+      "current_texture_ids": ["user-concept.png"],
+      "decision": "keep",
+      "recommended_seconds": [207.36, 212.48],
+      "reason": "The image is explicitly used as an imagined concept after the silence, which fits. Its bridge direction, canopy/arch placement, and seating do not match the actual blockout, so exclude it from any claim that it depicts the built world."
+    }
+  ],
+  "visual_review": {
+    "originals_reviewed": [
+      "art/source/fullfilm-v3-user-images/",
+      "art/reference/fullfilm-v4-emotes/onionhead-sohu-2007-sheet.jpg",
+      "art/export/fullfilm-v4-emotes/contact-sheet.png",
+      "art/export/fullfilm-v3-user-art/"
+    ],
+    "temporary_contact_sheets": [
+      "/home/chiro/tmp/vrc-old-web-map/fullfilm-v5/material-audit/user-images-source-contact.jpg",
+      "/home/chiro/tmp/vrc-old-web-map/fullfilm-v5/material-audit/user-art-exports-contact.jpg",
+      "/home/chiro/tmp/vrc-old-web-map/fullfilm-v5/material-audit/history-source-contact.jpg"
+    ],
+    "ai_attribution_note": "Disposition is based on visible style and the documented use of each asset. The source records establish original user artwork, but do not establish the image-generation method; this audit does not infer authorship from appearance alone.",
+    "unity_validation": "Not performed by this audit. All seconds above are derived from local timeline JSON and C# sampling logic."
+  }
+}

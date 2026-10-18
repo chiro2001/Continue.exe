@@ -1,0 +1,531 @@
+{
+  "schema": "fullfilm-v2-failure-ui.1",
+  "range": [
+    168.96,
+    186.88
+  ],
+  "kind": "original-state-reconstruction",
+  "source_metadata": [
+    {
+      "image_url": "https://www.guidebookgallery.org/pics/gui/applications/internet/browser/winxppro.png",
+      "source_url": "https://www.guidebookgallery.org/screenshots/winxppro",
+      "title": "Browser in Windows XP Pro (Internet Explorer 6)",
+      "category": "desktop",
+      "source_date": null,
+      "kind": "museum-software-version-screenshot",
+      "id": "desktop-f125ce10236d",
+      "path": "Assets/OldWebMap/Episode123/Revision3/Images/desktop-f125ce10236d.png",
+      "width": 778,
+      "height": 556,
+      "sha256": "39b91714d4158545c6360dea9730883f4a413c5920b652a6ba089d41e41bb14f",
+      "rights": "Source screenshot and marks retain original rights; private prototype reference, publication clearance not asserted",
+      "verified": "downloaded-full-image; contextual caption preserved; not an original-era capture claim",
+      "source_path": "/home/chiro/projects/vrc-old-web-map/art/reference/episode123-v3/desktop-f125ce10236d.png",
+      "chronology_evidence": "https://www.guidebookgallery.org/screenshots/winxppro",
+      "chronology_note": "图像展示 Windows XP 软件版本；Guidebook Gallery 未给出这些图的独立拍摄日期。",
+      "placement_mode": "chronological",
+      "display_year": "2001"
+    },
+    {
+      "id": "bitcomet-053-main",
+      "title": "BitComet 主下载窗口（标题栏显示 0.53）",
+      "category": "distribution",
+      "kind": "archival-client-screenshot",
+      "source_url": "http://www.emule-mods.de/bittorrent/screen/BitComet/bitcomet-main.png",
+      "source_page_url": "http://www.emule-mods.de/bittorrent/screen-BitComet.html",
+      "source_date": null,
+      "source_page_date": "BitComet 0.53 release date 2004-06-15; the screenshot capture date is unknown. The gallery title says 0.63, but the image title bar says 0.53.",
+      "evidence": "The main screenshot titlebar visibly reads “BitComet 0.53”. The source gallery page title claims 0.63; the official changelog lists v0.53 on 2004-06-15. Keep the in-image version and gallery mismatch explicit; do not label it 0.63.",
+      "rights": "Screenshot rights are not stated by the gallery; reference candidate only until permission is checked.",
+      "path": "Assets/OldWebMap/Episode123/Revision3/Images/bitcomet-053-main.png",
+      "width": 1024,
+      "height": 708,
+      "sha256": "94f240bbfc81ff97ea6e3ee9453a4cf042a356d960bfcf2e31dcd05f1f74428e",
+      "source_path": "/home/chiro/projects/vrc-old-web-map/art/reference/episode123-v2-software/bitcomet-053-main.png",
+      "chronology_evidence": "http://www.emule-mods.de/bittorrent/screen/BitComet/bitcomet-main.png",
+      "chronology_note": "画面标题栏为 BitComet 0.53，官方变更记录对应 2004-06-15；图库标题写 0.63，需保留矛盾，不能改称 0.63。",
+      "placement_mode": "chronological",
+      "display_year": ""
+    }
+  ],
+  "notes": "Read-only historical software window shells, newly authored failure states. They are not screenshots of an actual service or incident. No explanatory QA text is burned into performance plates.",
+  "states": [
+    {
+      "id": "01-page-unavailable",
+      "title": "无法显示该网页",
+      "preferred_range": [
+        168.96,
+        173.44
+      ],
+      "main": "01-page-unavailable-main.png",
+      "main_size": [
+        1200,
+        800
+      ],
+      "detail": "01-page-unavailable-detail.png",
+      "detail_size": [
+        1072,
+        164
+      ],
+      "detail_crop_output_px": [
+        39,
+        221,
+        1072,
+        164
+      ],
+      "detail_uv_rect": [
+        0.0325,
+        0.51875,
+        0.893333,
+        0.205
+      ],
+      "native_canvas": [
+        778,
+        518
+      ],
+      "resampling": "nearest-neighbour, after native window content-only resize; source chrome controls retain relative position and remain unredrawn",
+      "source_id": "desktop-f125ce10236d",
+      "fields": {
+        "browser_title": "Cannot find server",
+        "url": "http://myweb.example/shortfilm/",
+        "heading": "无法显示该网页",
+        "error": "无法找到服务器或 DNS 错误"
+      },
+      "text_slots": [
+        {
+          "id": "error.heading",
+          "rect_native_px": [
+            68,
+            148,
+            640,
+            33
+          ],
+          "font_native_px": 24,
+          "color": "#111111",
+          "value": "无法显示该网页",
+          "rect_output_px": [
+            105,
+            229,
+            987,
+            51
+          ],
+          "font_output_px": 37.07
+        },
+        {
+          "id": "error.detail",
+          "rect_native_px": [
+            31,
+            423,
+            678,
+            23
+          ],
+          "font_native_px": 14,
+          "color": "#555555",
+          "value": "无法找到服务器或 DNS 错误",
+          "rect_output_px": [
+            48,
+            653,
+            1046,
+            36
+          ],
+          "font_output_px": 21.62
+        }
+      ],
+      "nature": "original-state-reconstruction",
+      "limitations": "Chinese failure body is authored; native English XP/IE6 toolbar is a real source screenshot. No actual request was made."
+    },
+    {
+      "id": "02-download-interrupted",
+      "title": "文件不存在 / 下载中断",
+      "preferred_range": [
+        173.44,
+        177.92
+      ],
+      "main": "02-download-interrupted-main.png",
+      "main_size": [
+        1200,
+        800
+      ],
+      "detail": "02-download-interrupted-detail.png",
+      "detail_size": [
+        861,
+        276
+      ],
+      "detail_crop_output_px": [
+        308,
+        473,
+        861,
+        276
+      ],
+      "detail_uv_rect": [
+        0.256667,
+        0.06375,
+        0.7175,
+        0.345
+      ],
+      "native_canvas": [
+        1024,
+        683
+      ],
+      "resampling": "nearest-neighbour, after native window content-only resize; source chrome controls retain relative position and remain unredrawn",
+      "source_id": "bitcomet-053-main",
+      "fields": {
+        "filename": "shortfilm-v0.1.mkv",
+        "size_mb": 128,
+        "downloaded_mb": 48,
+        "percent": 37.5,
+        "pieces": {
+          "received": 6,
+          "total": 16
+        },
+        "task_state": "Stopped",
+        "error": "File not found",
+        "download_kbps": 0,
+        "upload_kbps": 0
+      },
+      "text_slots": [
+        {
+          "id": "download.file",
+          "rect_native_px": [
+            173,
+            116,
+            290,
+            20
+          ],
+          "font_native_px": 12,
+          "color": "#111111",
+          "value": "shortfilm-v0.1.mkv",
+          "rect_output_px": [
+            203,
+            136,
+            340,
+            23
+          ],
+          "font_output_px": 14.06
+        },
+        {
+          "id": "download.error",
+          "rect_native_px": [
+            419,
+            520,
+            560,
+            20
+          ],
+          "font_native_px": 12,
+          "color": "#111111",
+          "value": "File not found",
+          "rect_output_px": [
+            491,
+            609,
+            656,
+            23
+          ],
+          "font_output_px": 14.06
+        },
+        {
+          "id": "download.status",
+          "rect_native_px": [
+            268,
+            608,
+            700,
+            25
+          ],
+          "font_native_px": 17,
+          "color": "#8b3931",
+          "value": "下载已中断。",
+          "rect_output_px": [
+            314,
+            712,
+            820,
+            29
+          ],
+          "font_output_px": 19.91
+        }
+      ],
+      "nature": "original-state-reconstruction",
+      "limitations": "Only native shell controls and real column geometry are reused. New task, progress and error text are a generic authored failure, not an actual BitComet network transfer."
+    },
+    {
+      "id": "03-cached-page-missing-images",
+      "title": "缓存旧页 / 缺图",
+      "preferred_range": [
+        177.92,
+        182.4
+      ],
+      "main": "03-cached-page-missing-images-main.png",
+      "main_size": [
+        1200,
+        800
+      ],
+      "detail": "03-cached-page-missing-images-detail.png",
+      "detail_size": [
+        1075,
+        414
+      ],
+      "detail_crop_output_px": [
+        32,
+        212,
+        1075,
+        414
+      ],
+      "detail_uv_rect": [
+        0.026667,
+        0.2175,
+        0.895833,
+        0.5175
+      ],
+      "native_canvas": [
+        778,
+        518
+      ],
+      "resampling": "nearest-neighbour, after native window content-only resize; source chrome controls retain relative position and remain unredrawn",
+      "source_id": "desktop-f125ce10236d",
+      "fields": {
+        "document_title": "原创短片与制作记录",
+        "version": "v0.1",
+        "url": "http://myweb.example/shortfilm/",
+        "cache": "缓存副本",
+        "missing_images": [
+          "preview_01.jpg",
+          "preview_02.jpg"
+        ],
+        "status": "Working Offline"
+      },
+      "text_slots": [
+        {
+          "id": "cache.title",
+          "rect_native_px": [
+            30,
+            146,
+            680,
+            31
+          ],
+          "font_native_px": 22,
+          "color": "#1d426a",
+          "value": "原创短片与制作记录",
+          "rect_output_px": [
+            46,
+            225,
+            1049,
+            48
+          ],
+          "font_output_px": 33.98
+        },
+        {
+          "id": "cache.version",
+          "rect_native_px": [
+            31,
+            195,
+            450,
+            25
+          ],
+          "font_native_px": 18,
+          "color": "#333333",
+          "value": "第一个版本  v0.1",
+          "rect_output_px": [
+            48,
+            301,
+            694,
+            39
+          ],
+          "font_output_px": 27.8
+        },
+        {
+          "id": "cache.file",
+          "rect_native_px": [
+            31,
+            419,
+            670,
+            24
+          ],
+          "font_native_px": 15,
+          "color": "#555555",
+          "value": "文件：shortfilm-v0.1.mkv",
+          "rect_output_px": [
+            48,
+            647,
+            1033,
+            37
+          ],
+          "font_output_px": 23.17
+        }
+      ],
+      "nature": "original-state-reconstruction",
+      "limitations": "The page title and file belong to this film’s authored example, not a historical website. Missing-image boxes are browser content states, not decorative buttons."
+    },
+    {
+      "id": "04-title-with-dead-entry",
+      "title": "仅剩标题与失效入口",
+      "preferred_range": [
+        182.4,
+        186.88
+      ],
+      "main": "04-title-with-dead-entry-main.png",
+      "main_size": [
+        1200,
+        800
+      ],
+      "detail": "04-title-with-dead-entry-detail.png",
+      "detail_size": [
+        1086,
+        219
+      ],
+      "detail_crop_output_px": [
+        35,
+        218,
+        1086,
+        219
+      ],
+      "detail_uv_rect": [
+        0.029167,
+        0.45375,
+        0.905,
+        0.27375
+      ],
+      "native_canvas": [
+        778,
+        518
+      ],
+      "resampling": "nearest-neighbour, after native window content-only resize; source chrome controls retain relative position and remain unredrawn",
+      "source_id": "desktop-f125ce10236d",
+      "fields": {
+        "document_title": "原创短片与制作记录",
+        "filename": "shortfilm-v0.1.mkv",
+        "error": "404 Not Found",
+        "url": "http://myweb.example/shortfilm/"
+      },
+      "text_slots": [
+        {
+          "id": "remaining.title",
+          "rect_native_px": [
+            31,
+            148,
+            690,
+            34
+          ],
+          "font_native_px": 23,
+          "color": "#1d426a",
+          "value": "原创短片与制作记录",
+          "rect_output_px": [
+            48,
+            229,
+            1064,
+            53
+          ],
+          "font_output_px": 35.52
+        },
+        {
+          "id": "remaining.entry",
+          "rect_native_px": [
+            31,
+            216,
+            690,
+            27
+          ],
+          "font_native_px": 17,
+          "color": "#666666",
+          "value": "shortfilm-v0.1.mkv",
+          "rect_output_px": [
+            48,
+            334,
+            1064,
+            42
+          ],
+          "font_output_px": 26.25
+        },
+        {
+          "id": "remaining.error",
+          "rect_native_px": [
+            31,
+            250,
+            690,
+            24
+          ],
+          "font_native_px": 14,
+          "color": "#777777",
+          "value": "404 Not Found",
+          "rect_output_px": [
+            48,
+            386,
+            1064,
+            37
+          ],
+          "font_output_px": 21.62
+        }
+      ],
+      "nature": "original-state-reconstruction",
+      "limitations": "Same authored document title/file as the cached page and stalled transfer. Whitespace is intentional. This is not a claim that any named real service disappeared."
+    }
+  ],
+  "references": [
+    {
+      "id": "desktop-f125ce10236d",
+      "file": "source-ie6-xp.png",
+      "sha256": "39b91714d4158545c6360dea9730883f4a413c5920b652a6ba089d41e41bb14f",
+      "source_path": "/home/chiro/projects/vrc-old-web-map/art/reference/episode123-v3/desktop-f125ce10236d.png"
+    },
+    {
+      "id": "bitcomet-053-main",
+      "file": "source-bitcomet-053.png",
+      "sha256": "94f240bbfc81ff97ea6e3ee9453a4cf042a356d960bfcf2e31dcd05f1f74428e",
+      "source_path": "/home/chiro/projects/vrc-old-web-map/art/reference/episode123-v2-software/bitcomet-053-main.png"
+    }
+  ],
+  "files": [
+    {
+      "file": "01-page-unavailable-detail.png",
+      "bytes": 4165,
+      "sha256": "6547a6b70c2a01f2d8b8d9d986b5a5fe32d6779308ea1856dd373b09a1a27cc5"
+    },
+    {
+      "file": "01-page-unavailable-main.png",
+      "bytes": 47533,
+      "sha256": "148fd80a5c186ffbe96163a4f0690b17de5bd5d383f4b9da74c1e2843ff9637a"
+    },
+    {
+      "file": "02-download-interrupted-detail.png",
+      "bytes": 4606,
+      "sha256": "d216602c45f8429a0c3c45b572f8e338e1522020804d2343f9fcdce6b5889897"
+    },
+    {
+      "file": "02-download-interrupted-main.png",
+      "bytes": 64562,
+      "sha256": "9cedd101c4db9de9207f8f6aad14bd990c21021c71ea7b6cc4bb34e3e3a31386"
+    },
+    {
+      "file": "03-cached-page-missing-images-detail.png",
+      "bytes": 4864,
+      "sha256": "21958e6efe773385e0018b45e5587b6326a9216a179a9a318f194402bee2ec69"
+    },
+    {
+      "file": "03-cached-page-missing-images-main.png",
+      "bytes": 44163,
+      "sha256": "8f08ffc868980ab8ef3c4ae0c6475eac8b9c1f477b394e5c81b9bf8d695cf036"
+    },
+    {
+      "file": "04-title-with-dead-entry-detail.png",
+      "bytes": 2957,
+      "sha256": "aad66b2e58b0358a398904717bdf50c381a16270a4a65309c197c2b90a562560"
+    },
+    {
+      "file": "04-title-with-dead-entry-main.png",
+      "bytes": 42053,
+      "sha256": "2b75be8d8b6127df1bdee07bf7f9dfcbc7699e344554ae3c650d1a1d6530264c"
+    },
+    {
+      "file": "qa-contact.png",
+      "bytes": 109151,
+      "sha256": "7ed99620a78d0de45faebe196f188428b00ca58822005c8628433b524a686f8b"
+    },
+    {
+      "file": "source-bitcomet-053.png",
+      "bytes": 90461,
+      "sha256": "94f240bbfc81ff97ea6e3ee9453a4cf042a356d960bfcf2e31dcd05f1f74428e"
+    },
+    {
+      "file": "source-ie6-xp.png",
+      "bytes": 32185,
+      "sha256": "39b91714d4158545c6360dea9730883f4a413c5920b652a6ba089d41e41bb14f"
+    }
+  ]
+}
